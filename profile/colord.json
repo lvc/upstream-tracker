@@ -1,0 +1,672 @@
+{
+  "Name":           "colord",
+  "SourceUrl":      "http://www.freedesktop.org/software/colord/releases/",
+  "Git":            "https://github.com/hughsie/colord.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-argyllcms-sensor --disable-systemd-login --disable-bash-completion --disable-gusb --disable-sane --with-udevrulesdir={INSTALL_TO} --with-tmpfilesdir={INSTALL_TO} --with-systemdsystemunitdir={INSTALL_TO}",
+  "SkipObjects":    [ "colord-sensors/", "colord-plugins/" ],
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/colord/current",
+    "Source":         "src/colord/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.2",
+    "Installed":      "installed/colord/1.3.2",
+    "Source":         "src/colord/1.3.2/colord-1.3.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.1",
+    "Installed":      "installed/colord/1.3.1",
+    "Source":         "src/colord/1.3.1/colord-1.3.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.12",
+    "Installed":      "installed/colord/1.2.12",
+    "Source":         "src/colord/1.2.12/colord-1.2.12.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.11",
+    "Installed":      "installed/colord/1.2.11",
+    "Source":         "src/colord/1.2.11/colord-1.2.11.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.10",
+    "Installed":      "installed/colord/1.2.10",
+    "Source":         "src/colord/1.2.10/colord-1.2.10.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.9",
+    "Installed":      "installed/colord/1.2.9",
+    "Source":         "src/colord/1.2.9/colord-1.2.9.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.8",
+    "Installed":      "installed/colord/1.2.8",
+    "Source":         "src/colord/1.2.8/colord-1.2.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.7",
+    "Installed":      "installed/colord/1.2.7",
+    "Source":         "src/colord/1.2.7/colord-1.2.7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.6",
+    "Installed":      "installed/colord/1.2.6",
+    "Source":         "src/colord/1.2.6/colord-1.2.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.5",
+    "Installed":      "installed/colord/1.2.5",
+    "Source":         "src/colord/1.2.5/colord-1.2.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.4",
+    "Installed":      "installed/colord/1.2.4",
+    "Source":         "src/colord/1.2.4/colord-1.2.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.3",
+    "Installed":      "installed/colord/1.2.3",
+    "Source":         "src/colord/1.2.3/colord-1.2.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.2",
+    "Installed":      "installed/colord/1.2.2",
+    "Source":         "src/colord/1.2.2/colord-1.2.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.1",
+    "Installed":      "installed/colord/1.2.1",
+    "Source":         "src/colord/1.2.1/colord-1.2.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/colord/1.2.0",
+    "Source":         "src/colord/1.2.0/colord-1.2.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.8",
+    "Installed":      "installed/colord/1.1.8",
+    "Source":         "src/colord/1.1.8/colord-1.1.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.7",
+    "Installed":      "installed/colord/1.1.7",
+    "Source":         "src/colord/1.1.7/colord-1.1.7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.6",
+    "Installed":      "installed/colord/1.1.6",
+    "Source":         "src/colord/1.1.6/colord-1.1.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.5",
+    "Installed":      "installed/colord/1.1.5",
+    "Source":         "src/colord/1.1.5/colord-1.1.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.4",
+    "Installed":      "installed/colord/1.1.4",
+    "Source":         "src/colord/1.1.4/colord-1.1.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.3",
+    "Installed":      "installed/colord/1.1.3",
+    "Source":         "src/colord/1.1.3/colord-1.1.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.2",
+    "Installed":      "installed/colord/1.1.2",
+    "Source":         "src/colord/1.1.2/colord-1.1.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.1",
+    "Installed":      "installed/colord/1.1.1",
+    "Source":         "src/colord/1.1.1/colord-1.1.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.9",
+    "Installed":      "installed/colord/1.0.9",
+    "Source":         "src/colord/1.0.9/colord-1.0.9.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.8",
+    "Installed":      "installed/colord/1.0.8",
+    "Source":         "src/colord/1.0.8/colord-1.0.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.7",
+    "Installed":      "installed/colord/1.0.7",
+    "Source":         "src/colord/1.0.7/colord-1.0.7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.6",
+    "Installed":      "installed/colord/1.0.6",
+    "Source":         "src/colord/1.0.6/colord-1.0.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.5",
+    "Installed":      "installed/colord/1.0.5",
+    "Source":         "src/colord/1.0.5/colord-1.0.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.4",
+    "Installed":      "installed/colord/1.0.4",
+    "Source":         "src/colord/1.0.4/colord-1.0.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.3",
+    "Installed":      "installed/colord/1.0.3",
+    "Source":         "src/colord/1.0.3/colord-1.0.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.2",
+    "Installed":      "installed/colord/1.0.2",
+    "Source":         "src/colord/1.0.2/colord-1.0.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/colord/1.0.1",
+    "Source":         "src/colord/1.0.1/colord-1.0.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/colord/1.0.0",
+    "Source":         "src/colord/1.0.0/colord-1.0.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.34",
+    "Installed":      "installed/colord/0.1.34",
+    "Source":         "src/colord/0.1.34/colord-0.1.34.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.33",
+    "Installed":      "installed/colord/0.1.33",
+    "Source":         "src/colord/0.1.33/colord-0.1.33.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.32",
+    "Installed":      "installed/colord/0.1.32",
+    "Source":         "src/colord/0.1.32/colord-0.1.32.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.31",
+    "Installed":      "installed/colord/0.1.31",
+    "Source":         "src/colord/0.1.31/colord-0.1.31.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Comment":        "Some symbols have been moved to the libcolordprivate.so object."
+  },
+  {
+    "Number":         "0.1.28",
+    "Installed":      "installed/colord/0.1.28",
+    "Source":         "src/colord/0.1.28/colord-0.1.28.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.27",
+    "Installed":      "installed/colord/0.1.27",
+    "Source":         "src/colord/0.1.27/colord-0.1.27.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.26",
+    "Installed":      "installed/colord/0.1.26",
+    "Source":         "src/colord/0.1.26/colord-0.1.26.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.25",
+    "Installed":      "installed/colord/0.1.25",
+    "Source":         "src/colord/0.1.25/colord-0.1.25.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.24",
+    "Installed":      "installed/colord/0.1.24",
+    "Source":         "src/colord/0.1.24/colord-0.1.24.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.23",
+    "Installed":      "installed/colord/0.1.23",
+    "Source":         "src/colord/0.1.23/colord-0.1.23.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.22",
+    "Installed":      "installed/colord/0.1.22",
+    "Source":         "src/colord/0.1.22/colord-0.1.22.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.21",
+    "Installed":      "installed/colord/0.1.21",
+    "Source":         "src/colord/0.1.21/colord-0.1.21.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.20",
+    "Installed":      "installed/colord/0.1.20",
+    "Source":         "src/colord/0.1.20/colord-0.1.20.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.19",
+    "Installed":      "installed/colord/0.1.19",
+    "Source":         "src/colord/0.1.19/colord-0.1.19.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.18",
+    "Installed":      "installed/colord/0.1.18",
+    "Source":         "src/colord/0.1.18/colord-0.1.18.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.17",
+    "Installed":      "installed/colord/0.1.17",
+    "Source":         "src/colord/0.1.17/colord-0.1.17.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.16",
+    "Installed":      "installed/colord/0.1.16",
+    "Source":         "src/colord/0.1.16/colord-0.1.16.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.15",
+    "Installed":      "installed/colord/0.1.15",
+    "Source":         "src/colord/0.1.15/colord-0.1.15.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.14",
+    "Installed":      "installed/colord/0.1.14",
+    "Source":         "src/colord/0.1.14/colord-0.1.14.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.13",
+    "Installed":      "installed/colord/0.1.13",
+    "Source":         "src/colord/0.1.13/colord-0.1.13.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.12",
+    "Installed":      "installed/colord/0.1.12",
+    "Source":         "src/colord/0.1.12/colord-0.1.12.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.11",
+    "Installed":      "installed/colord/0.1.11",
+    "Source":         "src/colord/0.1.11/colord-0.1.11.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.10",
+    "Installed":      "installed/colord/0.1.10",
+    "Source":         "src/colord/0.1.10/colord-0.1.10.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.9",
+    "Installed":      "installed/colord/0.1.9",
+    "Source":         "src/colord/0.1.9/colord-0.1.9.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.8",
+    "Installed":      "installed/colord/0.1.8",
+    "Source":         "src/colord/0.1.8/colord-0.1.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.7",
+    "Installed":      "installed/colord/0.1.7",
+    "Source":         "src/colord/0.1.7/colord-0.1.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.5",
+    "Installed":      "installed/colord/0.1.5",
+    "Source":         "src/colord/0.1.5/colord-0.1.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.4",
+    "Installed":      "installed/colord/0.1.4",
+    "Source":         "src/colord/0.1.4/colord-0.1.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.3",
+    "Installed":      "installed/colord/0.1.3",
+    "Source":         "src/colord/0.1.3/colord-0.1.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.2",
+    "Installed":      "installed/colord/0.1.2",
+    "Source":         "src/colord/0.1.2/colord-0.1.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.1",
+    "Installed":      "installed/colord/0.1.1",
+    "Source":         "src/colord/0.1.1/colord-0.1.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.0",
+    "Installed":      "installed/colord/0.1.0",
+    "Source":         "src/colord/0.1.0/colord-0.1.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

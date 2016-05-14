@@ -1,0 +1,630 @@
+{
+  "Name":           "harfbuzz",
+  "Title":          "HarfBuzz",
+  "SourceUrl":      "http://www.freedesktop.org/software/harfbuzz/release/",
+  "Git":            "http://anongit.freedesktop.org/git/harfbuzz.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/harfbuzz/current",
+    "Source":         "src/harfbuzz/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.7",
+    "Installed":      "installed/harfbuzz/1.2.7",
+    "Source":         "src/harfbuzz/1.2.7/harfbuzz-1.2.7.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.6",
+    "Installed":      "installed/harfbuzz/1.2.6",
+    "Source":         "src/harfbuzz/1.2.6/harfbuzz-1.2.6.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.5",
+    "Installed":      "installed/harfbuzz/1.2.5",
+    "Source":         "src/harfbuzz/1.2.5/harfbuzz-1.2.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.4",
+    "Installed":      "installed/harfbuzz/1.2.4",
+    "Source":         "src/harfbuzz/1.2.4/harfbuzz-1.2.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.3",
+    "Installed":      "installed/harfbuzz/1.2.3",
+    "Source":         "src/harfbuzz/1.2.3/harfbuzz-1.2.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.2",
+    "Installed":      "installed/harfbuzz/1.2.2",
+    "Source":         "src/harfbuzz/1.2.2/harfbuzz-1.2.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.1",
+    "Installed":      "installed/harfbuzz/1.2.1",
+    "Source":         "src/harfbuzz/1.2.1/harfbuzz-1.2.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/harfbuzz/1.2.0",
+    "Source":         "src/harfbuzz/1.2.0/harfbuzz-1.2.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.3",
+    "Installed":      "installed/harfbuzz/1.1.3",
+    "Source":         "src/harfbuzz/1.1.3/harfbuzz-1.1.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.2",
+    "Installed":      "installed/harfbuzz/1.1.2",
+    "Source":         "src/harfbuzz/1.1.2/harfbuzz-1.1.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.1",
+    "Installed":      "installed/harfbuzz/1.1.1",
+    "Source":         "src/harfbuzz/1.1.1/harfbuzz-1.1.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/harfbuzz/1.1.0",
+    "Source":         "src/harfbuzz/1.1.0/harfbuzz-1.1.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.6",
+    "Installed":      "installed/harfbuzz/1.0.6",
+    "Source":         "src/harfbuzz/1.0.6/harfbuzz-1.0.6.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.5",
+    "Installed":      "installed/harfbuzz/1.0.5",
+    "Source":         "src/harfbuzz/1.0.5/harfbuzz-1.0.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.4",
+    "Installed":      "installed/harfbuzz/1.0.4",
+    "Source":         "src/harfbuzz/1.0.4/harfbuzz-1.0.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.3",
+    "Installed":      "installed/harfbuzz/1.0.3",
+    "Source":         "src/harfbuzz/1.0.3/harfbuzz-1.0.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.2",
+    "Installed":      "installed/harfbuzz/1.0.2",
+    "Source":         "src/harfbuzz/1.0.2/harfbuzz-1.0.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/harfbuzz/1.0.1",
+    "Source":         "src/harfbuzz/1.0.1/harfbuzz-1.0.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/harfbuzz/1.0.0",
+    "Source":         "src/harfbuzz/1.0.0/harfbuzz-1.0.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.42",
+    "Installed":      "installed/harfbuzz/0.9.42",
+    "Source":         "src/harfbuzz/0.9.42/harfbuzz-0.9.42.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.41",
+    "Installed":      "installed/harfbuzz/0.9.41",
+    "Source":         "src/harfbuzz/0.9.41/harfbuzz-0.9.41.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.40",
+    "Installed":      "installed/harfbuzz/0.9.40",
+    "Source":         "src/harfbuzz/0.9.40/harfbuzz-0.9.40.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.39",
+    "Installed":      "installed/harfbuzz/0.9.39",
+    "Source":         "src/harfbuzz/0.9.39/harfbuzz-0.9.39.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.38",
+    "Installed":      "installed/harfbuzz/0.9.38",
+    "Source":         "src/harfbuzz/0.9.38/harfbuzz-0.9.38.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.37",
+    "Installed":      "installed/harfbuzz/0.9.37",
+    "Source":         "src/harfbuzz/0.9.37/harfbuzz-0.9.37.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.36",
+    "Installed":      "installed/harfbuzz/0.9.36",
+    "Source":         "src/harfbuzz/0.9.36/harfbuzz-0.9.36.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.35",
+    "Installed":      "installed/harfbuzz/0.9.35",
+    "Source":         "src/harfbuzz/0.9.35/harfbuzz-0.9.35.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.34",
+    "Installed":      "installed/harfbuzz/0.9.34",
+    "Source":         "src/harfbuzz/0.9.34/harfbuzz-0.9.34.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.33",
+    "Installed":      "installed/harfbuzz/0.9.33",
+    "Source":         "src/harfbuzz/0.9.33/harfbuzz-0.9.33.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.32",
+    "Installed":      "installed/harfbuzz/0.9.32",
+    "Source":         "src/harfbuzz/0.9.32/harfbuzz-0.9.32.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.31",
+    "Installed":      "installed/harfbuzz/0.9.31",
+    "Source":         "src/harfbuzz/0.9.31/harfbuzz-0.9.31.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.30",
+    "Installed":      "installed/harfbuzz/0.9.30",
+    "Source":         "src/harfbuzz/0.9.30/harfbuzz-0.9.30.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.29",
+    "Installed":      "installed/harfbuzz/0.9.29",
+    "Source":         "src/harfbuzz/0.9.29/harfbuzz-0.9.29.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.28",
+    "Installed":      "installed/harfbuzz/0.9.28",
+    "Source":         "src/harfbuzz/0.9.28/harfbuzz-0.9.28.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.27",
+    "Installed":      "installed/harfbuzz/0.9.27",
+    "Source":         "src/harfbuzz/0.9.27/harfbuzz-0.9.27.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.26",
+    "Installed":      "installed/harfbuzz/0.9.26",
+    "Source":         "src/harfbuzz/0.9.26/harfbuzz-0.9.26.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.25",
+    "Installed":      "installed/harfbuzz/0.9.25",
+    "Source":         "src/harfbuzz/0.9.25/harfbuzz-0.9.25.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.24",
+    "Installed":      "installed/harfbuzz/0.9.24",
+    "Source":         "src/harfbuzz/0.9.24/harfbuzz-0.9.24.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.23",
+    "Installed":      "installed/harfbuzz/0.9.23",
+    "Source":         "src/harfbuzz/0.9.23/harfbuzz-0.9.23.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.22",
+    "Installed":      "installed/harfbuzz/0.9.22",
+    "Source":         "src/harfbuzz/0.9.22/harfbuzz-0.9.22.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.21",
+    "Installed":      "installed/harfbuzz/0.9.21",
+    "Source":         "src/harfbuzz/0.9.21/harfbuzz-0.9.21.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.20",
+    "Installed":      "installed/harfbuzz/0.9.20",
+    "Source":         "src/harfbuzz/0.9.20/harfbuzz-0.9.20.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.19",
+    "Installed":      "installed/harfbuzz/0.9.19",
+    "Source":         "src/harfbuzz/0.9.19/harfbuzz-0.9.19.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.18",
+    "Installed":      "installed/harfbuzz/0.9.18",
+    "Source":         "src/harfbuzz/0.9.18/harfbuzz-0.9.18.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.17",
+    "Installed":      "installed/harfbuzz/0.9.17",
+    "Source":         "src/harfbuzz/0.9.17/harfbuzz-0.9.17.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.16",
+    "Installed":      "installed/harfbuzz/0.9.16",
+    "Source":         "src/harfbuzz/0.9.16/harfbuzz-0.9.16.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.15",
+    "Installed":      "installed/harfbuzz/0.9.15",
+    "Source":         "src/harfbuzz/0.9.15/harfbuzz-0.9.15.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.14",
+    "Installed":      "installed/harfbuzz/0.9.14",
+    "Source":         "src/harfbuzz/0.9.14/harfbuzz-0.9.14.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.13",
+    "Installed":      "installed/harfbuzz/0.9.13",
+    "Source":         "src/harfbuzz/0.9.13/harfbuzz-0.9.13.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.12",
+    "Installed":      "installed/harfbuzz/0.9.12",
+    "Source":         "src/harfbuzz/0.9.12/harfbuzz-0.9.12.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.11",
+    "Installed":      "installed/harfbuzz/0.9.11",
+    "Source":         "src/harfbuzz/0.9.11/harfbuzz-0.9.11.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.10",
+    "Installed":      "installed/harfbuzz/0.9.10",
+    "Source":         "src/harfbuzz/0.9.10/harfbuzz-0.9.10.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.9",
+    "Installed":      "installed/harfbuzz/0.9.9",
+    "Source":         "src/harfbuzz/0.9.9/harfbuzz-0.9.9.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.8",
+    "Installed":      "installed/harfbuzz/0.9.8",
+    "Source":         "src/harfbuzz/0.9.8/harfbuzz-0.9.8.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.7",
+    "Installed":      "installed/harfbuzz/0.9.7",
+    "Source":         "src/harfbuzz/0.9.7/harfbuzz-0.9.7.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.6",
+    "Installed":      "installed/harfbuzz/0.9.6",
+    "Source":         "src/harfbuzz/0.9.6/harfbuzz-0.9.6.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.5",
+    "Installed":      "installed/harfbuzz/0.9.5",
+    "Source":         "src/harfbuzz/0.9.5/harfbuzz-0.9.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.4",
+    "Installed":      "installed/harfbuzz/0.9.4",
+    "Source":         "src/harfbuzz/0.9.4/harfbuzz-0.9.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.3",
+    "Installed":      "installed/harfbuzz/0.9.3",
+    "Source":         "src/harfbuzz/0.9.3/harfbuzz-0.9.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.2",
+    "Installed":      "installed/harfbuzz/0.9.2",
+    "Source":         "src/harfbuzz/0.9.2/harfbuzz-0.9.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.0",
+    "Installed":      "installed/harfbuzz/0.6.0",
+    "Source":         "src/harfbuzz/0.6.0/harfbuzz-0.6.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

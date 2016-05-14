@@ -1,0 +1,372 @@
+{
+  "Name":           "ck",
+  "Title":          "Concurrency Kit",
+  "SourceUrl":      "https://github.com/concurrencykit/ck/tags?after=0.2.5",
+  "Git":            "https://github.com/concurrencykit/ck.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/ck.sh",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/ck/current",
+    "Source":         "src/ck/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.1",
+    "Installed":      "installed/ck/0.5.1",
+    "Source":         "src/ck/0.5.1/ck-0.5.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.0",
+    "Installed":      "installed/ck/0.5.0",
+    "Source":         "src/ck/0.5.0/ck-0.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.5",
+    "Installed":      "installed/ck/0.4.5",
+    "Source":         "src/ck/0.4.5/ck-0.4.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.4",
+    "Installed":      "installed/ck/0.4.4",
+    "Source":         "src/ck/0.4.4/ck-0.4.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.3",
+    "Installed":      "installed/ck/0.4.3",
+    "Source":         "src/ck/0.4.3/ck-0.4.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.2",
+    "Installed":      "installed/ck/0.4.2",
+    "Source":         "src/ck/0.4.2/ck-0.4.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.1",
+    "Installed":      "installed/ck/0.4.1",
+    "Source":         "src/ck/0.4.1/ck-0.4.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4",
+    "Installed":      "installed/ck/0.4",
+    "Source":         "src/ck/0.4/ck-0.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.5",
+    "Installed":      "installed/ck/0.3.5",
+    "Source":         "src/ck/0.3.5/ck-0.3.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.4",
+    "Installed":      "installed/ck/0.3.4",
+    "Source":         "src/ck/0.3.4/ck-0.3.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.3",
+    "Installed":      "installed/ck/0.3.3",
+    "Source":         "src/ck/0.3.3/ck-0.3.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.2",
+    "Installed":      "installed/ck/0.3.2",
+    "Source":         "src/ck/0.3.2/ck-0.3.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.1",
+    "Installed":      "installed/ck/0.3.1",
+    "Source":         "src/ck/0.3.1/ck-0.3.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3",
+    "Installed":      "installed/ck/0.3",
+    "Source":         "src/ck/0.3/ck-0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.20",
+    "Installed":      "installed/ck/0.2.20",
+    "Source":         "src/ck/0.2.20/ck-0.2.20.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.19",
+    "Installed":      "installed/ck/0.2.19",
+    "Source":         "src/ck/0.2.19/ck-0.2.19.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.18",
+    "Installed":      "installed/ck/0.2.18",
+    "Source":         "src/ck/0.2.18/ck-0.2.18.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.17",
+    "Installed":      "installed/ck/0.2.17",
+    "Source":         "src/ck/0.2.17/ck-0.2.17.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.16",
+    "Installed":      "installed/ck/0.2.16",
+    "Source":         "src/ck/0.2.16/ck-0.2.16.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.15",
+    "Installed":      "installed/ck/0.2.15",
+    "Source":         "src/ck/0.2.15/ck-0.2.15.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.14",
+    "Installed":      "installed/ck/0.2.14",
+    "Source":         "src/ck/0.2.14/ck-0.2.14.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.13",
+    "Installed":      "installed/ck/0.2.13",
+    "Source":         "src/ck/0.2.13/ck-0.2.13.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.12",
+    "Installed":      "installed/ck/0.2.12",
+    "Source":         "src/ck/0.2.12/ck-0.2.12.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.11",
+    "Installed":      "installed/ck/0.2.11",
+    "Source":         "src/ck/0.2.11/ck-0.2.11.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.10",
+    "Installed":      "installed/ck/0.2.10",
+    "Source":         "src/ck/0.2.10/ck-0.2.10.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.9",
+    "Installed":      "installed/ck/0.2.9",
+    "Source":         "src/ck/0.2.9/ck-0.2.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.8",
+    "Installed":      "installed/ck/0.2.8",
+    "Source":         "src/ck/0.2.8/ck-0.2.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.7",
+    "Installed":      "installed/ck/0.2.7",
+    "Source":         "src/ck/0.2.7/ck-0.2.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.6",
+    "Installed":      "installed/ck/0.2.6",
+    "Source":         "src/ck/0.2.6/ck-0.2.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.5",
+    "Installed":      "installed/ck/0.2.5",
+    "Source":         "src/ck/0.2.5/ck-0.2.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.4",
+    "Installed":      "installed/ck/0.2.4",
+    "Source":         "src/ck/0.2.4/ck-0.2.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.3",
+    "Installed":      "installed/ck/0.2.3",
+    "Source":         "src/ck/0.2.3/ck-0.2.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.2",
+    "Installed":      "installed/ck/0.2.2",
+    "Source":         "src/ck/0.2.2/ck-0.2.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.1",
+    "Installed":      "installed/ck/0.2.1",
+    "Source":         "src/ck/0.2.1/ck-0.2.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2",
+    "Installed":      "installed/ck/0.2",
+    "Source":         "src/ck/0.2/ck-0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

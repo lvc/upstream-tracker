@@ -1,0 +1,272 @@
+{
+  "Name":           "mongo-c-driver",
+  "Title":          "MongoDB C Driver",
+  "SourceUrl":      "https://github.com/mongodb/mongo-c-driver/tags",
+  "Git":            "https://github.com/mongodb/mongo-c-driver.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DENABLE_EXAMPLES=Off -DENABLE_TESTS=Off",
+  "SkipSymbols":    "filters/skip_symbols/mongo-c-driver.list",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/mongo-c-driver/current",
+    "Source":         "src/mongo-c-driver/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.5",
+    "Installed":      "installed/mongo-c-driver/1.3.5",
+    "Source":         "src/mongo-c-driver/1.3.5/mongo-c-driver-1.3.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.4",
+    "Installed":      "installed/mongo-c-driver/1.3.4",
+    "Source":         "src/mongo-c-driver/1.3.4/mongo-c-driver-1.3.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.3",
+    "Installed":      "installed/mongo-c-driver/1.3.3",
+    "Source":         "src/mongo-c-driver/1.3.3/mongo-c-driver-1.3.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.2",
+    "Installed":      "installed/mongo-c-driver/1.3.2",
+    "Source":         "src/mongo-c-driver/1.3.2/mongo-c-driver-1.3.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.1",
+    "Installed":      "installed/mongo-c-driver/1.3.1",
+    "Source":         "src/mongo-c-driver/1.3.1/mongo-c-driver-1.3.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.0",
+    "Installed":      "installed/mongo-c-driver/1.3.0",
+    "Source":         "src/mongo-c-driver/1.3.0/mongo-c-driver-1.3.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.4",
+    "Installed":      "installed/mongo-c-driver/1.2.4",
+    "Source":         "src/mongo-c-driver/1.2.4/mongo-c-driver-1.2.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.3",
+    "Installed":      "installed/mongo-c-driver/1.2.3",
+    "Source":         "src/mongo-c-driver/1.2.3/mongo-c-driver-1.2.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.1",
+    "Installed":      "installed/mongo-c-driver/1.2.1",
+    "Source":         "src/mongo-c-driver/1.2.1/mongo-c-driver-1.2.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/mongo-c-driver/1.2.0",
+    "Source":         "src/mongo-c-driver/1.2.0/mongo-c-driver-1.2.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.11",
+    "Installed":      "installed/mongo-c-driver/1.1.11",
+    "Source":         "src/mongo-c-driver/1.1.11/mongo-c-driver-1.1.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.10",
+    "Installed":      "installed/mongo-c-driver/1.1.10",
+    "Source":         "src/mongo-c-driver/1.1.10/mongo-c-driver-1.1.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.9",
+    "Installed":      "installed/mongo-c-driver/1.1.9",
+    "Source":         "src/mongo-c-driver/1.1.9/mongo-c-driver-1.1.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.8",
+    "Installed":      "installed/mongo-c-driver/1.1.8",
+    "Source":         "src/mongo-c-driver/1.1.8/mongo-c-driver-1.1.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.7",
+    "Installed":      "installed/mongo-c-driver/1.1.7",
+    "Source":         "src/mongo-c-driver/1.1.7/mongo-c-driver-1.1.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.6",
+    "Installed":      "installed/mongo-c-driver/1.1.6",
+    "Source":         "src/mongo-c-driver/1.1.6/mongo-c-driver-1.1.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.5",
+    "Installed":      "installed/mongo-c-driver/1.1.5",
+    "Source":         "src/mongo-c-driver/1.1.5/mongo-c-driver-1.1.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.4",
+    "Installed":      "installed/mongo-c-driver/1.1.4",
+    "Source":         "src/mongo-c-driver/1.1.4/mongo-c-driver-1.1.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.2",
+    "Installed":      "installed/mongo-c-driver/1.1.2",
+    "Source":         "src/mongo-c-driver/1.1.2/mongo-c-driver-1.1.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/mongo-c-driver/1.1.0",
+    "Source":         "src/mongo-c-driver/1.1.0/mongo-c-driver-1.1.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.2",
+    "Installed":      "installed/mongo-c-driver/1.0.2",
+    "Source":         "src/mongo-c-driver/1.0.2/mongo-c-driver-1.0.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/mongo-c-driver/1.0.0",
+    "Source":         "src/mongo-c-driver/1.0.0/mongo-c-driver-1.0.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.98.2",
+    "Installed":      "installed/mongo-c-driver/0.98.2",
+    "Source":         "src/mongo-c-driver/0.98.2/mongo-c-driver-0.98.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.98.0",
+    "Installed":      "installed/mongo-c-driver/0.98.0",
+    "Source":         "src/mongo-c-driver/0.98.0/mongo-c-driver-0.98.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.96.4",
+    "Installed":      "installed/mongo-c-driver/0.96.4",
+    "Source":         "src/mongo-c-driver/0.96.4/mongo-c-driver-0.96.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

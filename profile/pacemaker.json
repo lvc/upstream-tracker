@@ -1,0 +1,171 @@
+{
+  "Name":           "pacemaker",
+  "Title":          "Pacemaker",
+  "SourceUrl":      "https://github.com/ClusterLabs/pacemaker/tags",
+  "Git":            "https://github.com/ClusterLabs/pacemaker.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-initdir={INSTALL_TO} --disable-systemd --enable-shared --without-heartbeat",
+  "BuildScript":    "build_script/pacemaker.sh",
+  "SkipObjects":    [ "libpengine.so" ],
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/pacemaker/current",
+    "Source":         "src/pacemaker/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "PublicSymbols":  "public_symbols/pacemaker/current/list",
+    "PublicTypes":    "public_types/pacemaker/current/list"
+  },
+  {
+    "Number":         "1.1.15-rc1",
+    "Installed":      "installed/pacemaker/1.1.15-rc1",
+    "Source":         "src/pacemaker/1.1.15-rc1/Pacemaker-1.1.15-rc1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.14",
+    "Installed":      "installed/pacemaker/1.1.14",
+    "Source":         "src/pacemaker/1.1.14/Pacemaker-1.1.14.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.14-rc5",
+    "Installed":      "installed/pacemaker/1.1.14-rc5",
+    "Source":         "src/pacemaker/1.1.14-rc5/Pacemaker-1.1.14-rc5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.1.14-rc4",
+    "Installed":      "installed/pacemaker/1.1.14-rc4",
+    "Source":         "src/pacemaker/1.1.14-rc4/Pacemaker-1.1.14-rc4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.1.14-rc3",
+    "Installed":      "installed/pacemaker/1.1.14-rc3",
+    "Source":         "src/pacemaker/1.1.14-rc3/Pacemaker-1.1.14-rc3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.1.14-rc2",
+    "Installed":      "installed/pacemaker/1.1.14-rc2",
+    "Source":         "src/pacemaker/1.1.14-rc2/Pacemaker-1.1.14-rc2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.1.13",
+    "Installed":      "installed/pacemaker/1.1.13",
+    "Source":         "src/pacemaker/1.1.13/Pacemaker-1.1.13.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "PublicSymbols":  "public_symbols/pacemaker/1.1.13/list",
+    "PublicTypes":    "public_types/pacemaker/1.1.13/list"
+  },
+  {
+    "Number":         "1.1.12",
+    "Installed":      "installed/pacemaker/1.1.12",
+    "Source":         "src/pacemaker/1.1.12/Pacemaker-1.1.12.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "PublicSymbols":  "public_symbols/pacemaker/1.1.12/list",
+    "PublicTypes":    "public_types/pacemaker/1.1.12/list"
+  },
+  {
+    "Number":         "1.1.11",
+    "Installed":      "installed/pacemaker/1.1.11",
+    "Source":         "src/pacemaker/1.1.11/Pacemaker-1.1.11.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "PublicSymbols":  "public_symbols/pacemaker/1.1.11/list",
+    "PublicTypes":    "public_types/pacemaker/1.1.11/list"
+  },
+  {
+    "Number":         "1.1.10",
+    "Installed":      "installed/pacemaker/1.1.10",
+    "Source":         "src/pacemaker/1.1.10/Pacemaker-1.1.10.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "PublicSymbols":  "public_symbols/pacemaker/1.1.10/list",
+    "PublicTypes":    "public_types/pacemaker/1.1.10/list"
+  },
+  {
+    "Number":         "1.1.9",
+    "Installed":      "installed/pacemaker/1.1.9",
+    "Source":         "src/pacemaker/1.1.9/Pacemaker-1.1.9.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "PublicSymbols":  "public_symbols/pacemaker/1.1.9/list",
+    "PublicTypes":    "public_types/pacemaker/1.1.9/list"
+  },
+  {
+    "Number":         "1.1.8",
+    "Installed":      "installed/pacemaker/1.1.8",
+    "Source":         "src/pacemaker/1.1.8/Pacemaker-1.1.8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "PublicSymbols":  "public_symbols/pacemaker/1.1.8/list",
+    "PublicTypes":    "public_types/pacemaker/1.1.8/list"
+  },
+  {
+    "Number":         "1.1.7",
+    "Installed":      "installed/pacemaker/1.1.7",
+    "Source":         "src/pacemaker/1.1.7/Pacemaker-1.1.7.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

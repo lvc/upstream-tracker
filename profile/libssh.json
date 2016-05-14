@@ -1,0 +1,399 @@
+{
+  "Name":           "libssh",
+  "SourceUrl":      "https://red.libssh.org/projects/libssh/files",
+  "Git":            "http://git.libssh.org/projects/libssh.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/libssh/current",
+    "Source":         "src/libssh/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.3",
+    "Installed":      "installed/libssh/0.7.3",
+    "Source":         "src/libssh/0.7.3/libssh-0.7.3.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.2",
+    "Installed":      "installed/libssh/0.7.2",
+    "Source":         "src/libssh/0.7.2/libssh-0.7.2.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.1",
+    "Installed":      "installed/libssh/0.7.1",
+    "Source":         "src/libssh/0.7.1/libssh-0.7.1.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.0",
+    "Installed":      "installed/libssh/0.7.0",
+    "Source":         "src/libssh/0.7.0/libssh-0.7.0.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "On",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.5",
+    "Installed":      "installed/libssh/0.6.5",
+    "Source":         "src/libssh/0.6.5/libssh-0.6.5.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.4",
+    "Installed":      "installed/libssh/0.6.4",
+    "Source":         "src/libssh/0.6.4/libssh-0.6.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.3",
+    "Installed":      "installed/libssh/0.6.3",
+    "Source":         "src/libssh/0.6.3/libssh-0.6.3.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.2",
+    "Installed":      "installed/libssh/0.6.2",
+    "Source":         "src/libssh/0.6.2/libssh-0.6.2.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.1",
+    "Installed":      "installed/libssh/0.6.1",
+    "Source":         "src/libssh/0.6.1/libssh-0.6.1.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.0",
+    "Installed":      "installed/libssh/0.6.0",
+    "Source":         "src/libssh/0.6.0/libssh-0.6.0.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.5",
+    "Installed":      "installed/libssh/0.5.5",
+    "Source":         "src/libssh/0.5.5/libssh-0.5.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.4",
+    "Installed":      "installed/libssh/0.5.4",
+    "Source":         "src/libssh/0.5.4/libssh-0.5.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.3",
+    "Installed":      "installed/libssh/0.5.3",
+    "Source":         "src/libssh/0.5.3/libssh-0.5.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.2",
+    "Installed":      "installed/libssh/0.5.2",
+    "Source":         "src/libssh/0.5.2/libssh-0.5.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.1",
+    "Installed":      "installed/libssh/0.5.1",
+    "Source":         "src/libssh/0.5.1/libssh-0.5.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.0",
+    "Installed":      "installed/libssh/0.5.0",
+    "Source":         "src/libssh/0.5.0/libssh-0.5.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.91",
+    "Installed":      "installed/libssh/0.4.91",
+    "Source":         "src/libssh/0.4.91/libssh-0.4.91.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.90",
+    "Installed":      "installed/libssh/0.4.90",
+    "Source":         "src/libssh/0.4.90/libssh-0.4.90.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.8",
+    "Installed":      "installed/libssh/0.4.8",
+    "Source":         "src/libssh/0.4.8/libssh-0.4.8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.7",
+    "Installed":      "installed/libssh/0.4.7",
+    "Source":         "src/libssh/0.4.7/libssh-0.4.7.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.6",
+    "Installed":      "installed/libssh/0.4.6",
+    "Source":         "src/libssh/0.4.6/libssh-0.4.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.5",
+    "Installed":      "installed/libssh/0.4.5",
+    "Source":         "src/libssh/0.4.5/libssh-0.4.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.4",
+    "Installed":      "installed/libssh/0.4.4",
+    "Source":         "src/libssh/0.4.4/libssh-0.4.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.3",
+    "Installed":      "installed/libssh/0.4.3",
+    "Source":         "src/libssh/0.4.3/libssh-0.4.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.2",
+    "Installed":      "installed/libssh/0.4.2",
+    "Source":         "src/libssh/0.4.2/libssh-0.4.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.1",
+    "Installed":      "installed/libssh/0.4.1",
+    "Source":         "src/libssh/0.4.1/libssh-0.4.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.0",
+    "Installed":      "installed/libssh/0.4.0",
+    "Source":         "src/libssh/0.4.0/libssh-0.4.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.92",
+    "Installed":      "installed/libssh/0.3.92",
+    "Source":         "src/libssh/0.3.92/libssh-0.3.92.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.91",
+    "Installed":      "installed/libssh/0.3.91",
+    "Source":         "src/libssh/0.3.91/libssh-0.3.91.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.4",
+    "Installed":      "installed/libssh/0.3.4",
+    "Source":         "src/libssh/0.3.4/libssh-0.3.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.3",
+    "Installed":      "installed/libssh/0.3.3",
+    "Source":         "src/libssh/0.3.3/libssh-0.3.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.2",
+    "Installed":      "installed/libssh/0.3.2",
+    "Source":         "src/libssh/0.3.2/libssh-0.3.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.1",
+    "Installed":      "installed/libssh/0.3.1",
+    "Source":         "src/libssh/0.3.1/libssh-0.3.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.0",
+    "Installed":      "installed/libssh/0.3.0",
+    "Source":         "src/libssh/0.3.0/libssh-0.3.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.90",
+    "Installed":      "installed/libssh/0.2.90",
+    "Source":         "src/libssh/0.2.90/libssh-0.2.90.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2",
+    "Installed":      "installed/libssh/0.2",
+    "Source":         "src/libssh/0.2/libssh-0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.1",
+    "Installed":      "installed/libssh/0.1.1",
+    "Source":         "src/libssh/0.1.1/libssh-0.1.1.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1",
+    "Installed":      "installed/libssh/0.1",
+    "Source":         "src/libssh/0.1/libssh-0.1.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

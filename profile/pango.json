@@ -1,0 +1,1342 @@
+{
+  "Name":           "pango",
+  "Title":          "Pango",
+  "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/pango/",
+  "Git":            "https://git.gnome.org/browse/pango",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "SkipObjects":    [ "modules/" ],
+  "SkipSoversions": [ "2-1.0.0" ],
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/pango/current",
+    "Source":         "src/pango/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.40.1",
+    "Installed":      "installed/pango/1.40.1",
+    "Source":         "src/pango/1.40.1/pango-1.40.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.40.0",
+    "Installed":      "installed/pango/1.40.0",
+    "Source":         "src/pango/1.40.0/pango-1.40.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.39.0",
+    "Installed":      "installed/pango/1.39.0",
+    "Source":         "src/pango/1.39.0/pango-1.39.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.38.1",
+    "Installed":      "installed/pango/1.38.1",
+    "Source":         "src/pango/1.38.1/pango-1.38.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.38.0",
+    "Installed":      "installed/pango/1.38.0",
+    "Source":         "src/pango/1.38.0/pango-1.38.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.37.5",
+    "Installed":      "installed/pango/1.37.5",
+    "Source":         "src/pango/1.37.5/pango-1.37.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.37.4",
+    "Installed":      "installed/pango/1.37.4",
+    "Source":         "src/pango/1.37.4/pango-1.37.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.37.3",
+    "Installed":      "installed/pango/1.37.3",
+    "Source":         "src/pango/1.37.3/pango-1.37.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.37.2",
+    "Installed":      "installed/pango/1.37.2",
+    "Source":         "src/pango/1.37.2/pango-1.37.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.37.1",
+    "Installed":      "installed/pango/1.37.1",
+    "Source":         "src/pango/1.37.1/pango-1.37.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.37.0",
+    "Installed":      "installed/pango/1.37.0",
+    "Source":         "src/pango/1.37.0/pango-1.37.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.36.8",
+    "Installed":      "installed/pango/1.36.8",
+    "Source":         "src/pango/1.36.8/pango-1.36.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.36.7",
+    "Installed":      "installed/pango/1.36.7",
+    "Source":         "src/pango/1.36.7/pango-1.36.7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.36.6",
+    "Installed":      "installed/pango/1.36.6",
+    "Source":         "src/pango/1.36.6/pango-1.36.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.36.5",
+    "Installed":      "installed/pango/1.36.5",
+    "Source":         "src/pango/1.36.5/pango-1.36.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.36.4",
+    "Installed":      "installed/pango/1.36.4",
+    "Source":         "src/pango/1.36.4/pango-1.36.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.36.3",
+    "Installed":      "installed/pango/1.36.3",
+    "Source":         "src/pango/1.36.3/pango-1.36.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.36.2",
+    "Installed":      "installed/pango/1.36.2",
+    "Source":         "src/pango/1.36.2/pango-1.36.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.36.1",
+    "Installed":      "installed/pango/1.36.1",
+    "Source":         "src/pango/1.36.1/pango-1.36.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.36.0",
+    "Installed":      "installed/pango/1.36.0",
+    "Source":         "src/pango/1.36.0/pango-1.36.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.35.3",
+    "Installed":      "installed/pango/1.35.3",
+    "Source":         "src/pango/1.35.3/pango-1.35.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.35.2",
+    "Installed":      "installed/pango/1.35.2",
+    "Source":         "src/pango/1.35.2/pango-1.35.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.35.0",
+    "Installed":      "installed/pango/1.35.0",
+    "Source":         "src/pango/1.35.0/pango-1.35.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.34.1",
+    "Installed":      "installed/pango/1.34.1",
+    "Source":         "src/pango/1.34.1/pango-1.34.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.34.0",
+    "Installed":      "installed/pango/1.34.0",
+    "Source":         "src/pango/1.34.0/pango-1.34.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.33.9",
+    "Installed":      "installed/pango/1.33.9",
+    "Source":         "src/pango/1.33.9/pango-1.33.9.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.33.8",
+    "Installed":      "installed/pango/1.33.8",
+    "Source":         "src/pango/1.33.8/pango-1.33.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.33.7",
+    "Installed":      "installed/pango/1.33.7",
+    "Source":         "src/pango/1.33.7/pango-1.33.7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.32.6",
+    "Installed":      "installed/pango/1.32.6",
+    "Source":         "src/pango/1.32.6/pango-1.32.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.32.5",
+    "Installed":      "installed/pango/1.32.5",
+    "Source":         "src/pango/1.32.5/pango-1.32.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.32.4",
+    "Installed":      "installed/pango/1.32.4",
+    "Source":         "src/pango/1.32.4/pango-1.32.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.32.3",
+    "Installed":      "installed/pango/1.32.3",
+    "Source":         "src/pango/1.32.3/pango-1.32.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.30.1",
+    "Installed":      "installed/pango/1.30.1",
+    "Source":         "src/pango/1.30.1/pango-1.30.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.30.0",
+    "Installed":      "installed/pango/1.30.0",
+    "Source":         "src/pango/1.30.0/pango-1.30.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.29.5",
+    "Installed":      "installed/pango/1.29.5",
+    "Source":         "src/pango/1.29.5/pango-1.29.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.29.4",
+    "Installed":      "installed/pango/1.29.4",
+    "Source":         "src/pango/1.29.4/pango-1.29.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.29.3",
+    "Installed":      "installed/pango/1.29.3",
+    "Source":         "src/pango/1.29.3/pango-1.29.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.29.1",
+    "Installed":      "installed/pango/1.29.1",
+    "Source":         "src/pango/1.29.1/pango-1.29.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.28.4",
+    "Installed":      "installed/pango/1.28.4",
+    "Source":         "src/pango/1.28.4/pango-1.28.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.28.3",
+    "Installed":      "installed/pango/1.28.3",
+    "Source":         "src/pango/1.28.3/pango-1.28.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.28.1",
+    "Installed":      "installed/pango/1.28.1",
+    "Source":         "src/pango/1.28.1/pango-1.28.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.28.0",
+    "Installed":      "installed/pango/1.28.0",
+    "Source":         "src/pango/1.28.0/pango-1.28.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.27.1",
+    "Installed":      "installed/pango/1.27.1",
+    "Source":         "src/pango/1.27.1/pango-1.27.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.26.2",
+    "Installed":      "installed/pango/1.26.2",
+    "Source":         "src/pango/1.26.2/pango-1.26.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.26.1",
+    "Installed":      "installed/pango/1.26.1",
+    "Source":         "src/pango/1.26.1/pango-1.26.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.26.0",
+    "Installed":      "installed/pango/1.26.0",
+    "Source":         "src/pango/1.26.0/pango-1.26.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.25.6",
+    "Installed":      "installed/pango/1.25.6",
+    "Source":         "src/pango/1.25.6/pango-1.25.6.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.25.5",
+    "Installed":      "installed/pango/1.25.5",
+    "Source":         "src/pango/1.25.5/pango-1.25.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.25.4",
+    "Installed":      "installed/pango/1.25.4",
+    "Source":         "src/pango/1.25.4/pango-1.25.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.25.3",
+    "Installed":      "installed/pango/1.25.3",
+    "Source":         "src/pango/1.25.3/pango-1.25.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.25.2",
+    "Installed":      "installed/pango/1.25.2",
+    "Source":         "src/pango/1.25.2/pango-1.25.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.25.1",
+    "Installed":      "installed/pango/1.25.1",
+    "Source":         "src/pango/1.25.1/pango-1.25.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.24.5",
+    "Installed":      "installed/pango/1.24.5",
+    "Source":         "src/pango/1.24.5/pango-1.24.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.24.4",
+    "Installed":      "installed/pango/1.24.4",
+    "Source":         "src/pango/1.24.4/pango-1.24.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.24.3",
+    "Installed":      "installed/pango/1.24.3",
+    "Source":         "src/pango/1.24.3/pango-1.24.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.24.2",
+    "Installed":      "installed/pango/1.24.2",
+    "Source":         "src/pango/1.24.2/pango-1.24.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.24.1",
+    "Installed":      "installed/pango/1.24.1",
+    "Source":         "src/pango/1.24.1/pango-1.24.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.24.0",
+    "Installed":      "installed/pango/1.24.0",
+    "Source":         "src/pango/1.24.0/pango-1.24.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.23.0",
+    "Installed":      "installed/pango/1.23.0",
+    "Source":         "src/pango/1.23.0/pango-1.23.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.22.4",
+    "Installed":      "installed/pango/1.22.4",
+    "Source":         "src/pango/1.22.4/pango-1.22.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.22.3",
+    "Installed":      "installed/pango/1.22.3",
+    "Source":         "src/pango/1.22.3/pango-1.22.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.22.2",
+    "Installed":      "installed/pango/1.22.2",
+    "Source":         "src/pango/1.22.2/pango-1.22.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.22.1",
+    "Installed":      "installed/pango/1.22.1",
+    "Source":         "src/pango/1.22.1/pango-1.22.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.22.0",
+    "Installed":      "installed/pango/1.22.0",
+    "Source":         "src/pango/1.22.0/pango-1.22.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.21.3",
+    "Installed":      "installed/pango/1.21.3",
+    "Source":         "src/pango/1.21.3/pango-1.21.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.21.2",
+    "Installed":      "installed/pango/1.21.2",
+    "Source":         "src/pango/1.21.2/pango-1.21.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.21.1",
+    "Installed":      "installed/pango/1.21.1",
+    "Source":         "src/pango/1.21.1/pango-1.21.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.21.0",
+    "Installed":      "installed/pango/1.21.0",
+    "Source":         "src/pango/1.21.0/pango-1.21.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.20.5",
+    "Installed":      "installed/pango/1.20.5",
+    "Source":         "src/pango/1.20.5/pango-1.20.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.20.4",
+    "Installed":      "installed/pango/1.20.4",
+    "Source":         "src/pango/1.20.4/pango-1.20.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.20.3",
+    "Installed":      "installed/pango/1.20.3",
+    "Source":         "src/pango/1.20.3/pango-1.20.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.20.2",
+    "Installed":      "installed/pango/1.20.2",
+    "Source":         "src/pango/1.20.2/pango-1.20.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.20.1",
+    "Installed":      "installed/pango/1.20.1",
+    "Source":         "src/pango/1.20.1/pango-1.20.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.20.0",
+    "Installed":      "installed/pango/1.20.0",
+    "Source":         "src/pango/1.20.0/pango-1.20.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.19.4",
+    "Installed":      "installed/pango/1.19.4",
+    "Source":         "src/pango/1.19.4/pango-1.19.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.19.3",
+    "Installed":      "installed/pango/1.19.3",
+    "Source":         "src/pango/1.19.3/pango-1.19.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.19.2",
+    "Installed":      "installed/pango/1.19.2",
+    "Source":         "src/pango/1.19.2/pango-1.19.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.19.1",
+    "Installed":      "installed/pango/1.19.1",
+    "Source":         "src/pango/1.19.1/pango-1.19.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.19.0",
+    "Installed":      "installed/pango/1.19.0",
+    "Source":         "src/pango/1.19.0/pango-1.19.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.18.4",
+    "Installed":      "installed/pango/1.18.4",
+    "Source":         "src/pango/1.18.4/pango-1.18.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.18.3",
+    "Installed":      "installed/pango/1.18.3",
+    "Source":         "src/pango/1.18.3/pango-1.18.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.18.2",
+    "Installed":      "installed/pango/1.18.2",
+    "Source":         "src/pango/1.18.2/pango-1.18.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.18.1",
+    "Installed":      "installed/pango/1.18.1",
+    "Source":         "src/pango/1.18.1/pango-1.18.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.18.0",
+    "Installed":      "installed/pango/1.18.0",
+    "Source":         "src/pango/1.18.0/pango-1.18.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.17.5",
+    "Installed":      "installed/pango/1.17.5",
+    "Source":         "src/pango/1.17.5/pango-1.17.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.17.4",
+    "Installed":      "installed/pango/1.17.4",
+    "Source":         "src/pango/1.17.4/pango-1.17.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.17.3",
+    "Installed":      "installed/pango/1.17.3",
+    "Source":         "src/pango/1.17.3/pango-1.17.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.17.2",
+    "Installed":      "installed/pango/1.17.2",
+    "Source":         "src/pango/1.17.2/pango-1.17.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.17.1",
+    "Installed":      "installed/pango/1.17.1",
+    "Source":         "src/pango/1.17.1/pango-1.17.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.17.0",
+    "Installed":      "installed/pango/1.17.0",
+    "Source":         "src/pango/1.17.0/pango-1.17.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.16.5",
+    "Installed":      "installed/pango/1.16.5",
+    "Source":         "src/pango/1.16.5/pango-1.16.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.16.4",
+    "Installed":      "installed/pango/1.16.4",
+    "Source":         "src/pango/1.16.4/pango-1.16.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.16.3",
+    "Installed":      "installed/pango/1.16.3",
+    "Source":         "src/pango/1.16.3/pango-1.16.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.16.2",
+    "Installed":      "installed/pango/1.16.2",
+    "Source":         "src/pango/1.16.2/pango-1.16.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.16.1",
+    "Installed":      "installed/pango/1.16.1",
+    "Source":         "src/pango/1.16.1/pango-1.16.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.16.0",
+    "Installed":      "installed/pango/1.16.0",
+    "Source":         "src/pango/1.16.0/pango-1.16.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.6",
+    "Installed":      "installed/pango/1.15.6",
+    "Source":         "src/pango/1.15.6/pango-1.15.6.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.5",
+    "Installed":      "installed/pango/1.15.5",
+    "Source":         "src/pango/1.15.5/pango-1.15.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.4",
+    "Installed":      "installed/pango/1.15.4",
+    "Source":         "src/pango/1.15.4/pango-1.15.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.3",
+    "Installed":      "installed/pango/1.15.3",
+    "Source":         "src/pango/1.15.3/pango-1.15.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.2",
+    "Installed":      "installed/pango/1.15.2",
+    "Source":         "src/pango/1.15.2/pango-1.15.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.1",
+    "Installed":      "installed/pango/1.15.1",
+    "Source":         "src/pango/1.15.1/pango-1.15.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.0",
+    "Installed":      "installed/pango/1.15.0",
+    "Source":         "src/pango/1.15.0/pango-1.15.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.10",
+    "Installed":      "installed/pango/1.14.10",
+    "Source":         "src/pango/1.14.10/pango-1.14.10.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.9",
+    "Installed":      "installed/pango/1.14.9",
+    "Source":         "src/pango/1.14.9/pango-1.14.9.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.8",
+    "Installed":      "installed/pango/1.14.8",
+    "Source":         "src/pango/1.14.8/pango-1.14.8.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.7",
+    "Installed":      "installed/pango/1.14.7",
+    "Source":         "src/pango/1.14.7/pango-1.14.7.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.6",
+    "Installed":      "installed/pango/1.14.6",
+    "Source":         "src/pango/1.14.6/pango-1.14.6.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.5",
+    "Installed":      "installed/pango/1.14.5",
+    "Source":         "src/pango/1.14.5/pango-1.14.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.4",
+    "Installed":      "installed/pango/1.14.4",
+    "Source":         "src/pango/1.14.4/pango-1.14.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.3",
+    "Installed":      "installed/pango/1.14.3",
+    "Source":         "src/pango/1.14.3/pango-1.14.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.2",
+    "Installed":      "installed/pango/1.14.2",
+    "Source":         "src/pango/1.14.2/pango-1.14.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.1",
+    "Installed":      "installed/pango/1.14.1",
+    "Source":         "src/pango/1.14.1/pango-1.14.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.0",
+    "Installed":      "installed/pango/1.14.0",
+    "Source":         "src/pango/1.14.0/pango-1.14.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.5",
+    "Installed":      "installed/pango/1.13.5",
+    "Source":         "src/pango/1.13.5/pango-1.13.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.4",
+    "Installed":      "installed/pango/1.13.4",
+    "Source":         "src/pango/1.13.4/pango-1.13.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.3",
+    "Installed":      "installed/pango/1.13.3",
+    "Source":         "src/pango/1.13.3/pango-1.13.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.2",
+    "Installed":      "installed/pango/1.13.2",
+    "Source":         "src/pango/1.13.2/pango-1.13.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.1",
+    "Installed":      "installed/pango/1.13.1",
+    "Source":         "src/pango/1.13.1/pango-1.13.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.0",
+    "Installed":      "installed/pango/1.13.0",
+    "Source":         "src/pango/1.13.0/pango-1.13.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.4",
+    "Installed":      "installed/pango/1.12.4",
+    "Source":         "src/pango/1.12.4/pango-1.12.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.3",
+    "Installed":      "installed/pango/1.12.3",
+    "Source":         "src/pango/1.12.3/pango-1.12.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.2",
+    "Installed":      "installed/pango/1.12.2",
+    "Source":         "src/pango/1.12.2/pango-1.12.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.1",
+    "Installed":      "installed/pango/1.12.1",
+    "Source":         "src/pango/1.12.1/pango-1.12.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.0",
+    "Installed":      "installed/pango/1.12.0",
+    "Source":         "src/pango/1.12.0/pango-1.12.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.99",
+    "Installed":      "installed/pango/1.11.99",
+    "Source":         "src/pango/1.11.99/pango-1.11.99.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.6",
+    "Installed":      "installed/pango/1.11.6",
+    "Source":         "src/pango/1.11.6/pango-1.11.6.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.5",
+    "Installed":      "installed/pango/1.11.5",
+    "Source":         "src/pango/1.11.5/pango-1.11.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.4",
+    "Installed":      "installed/pango/1.11.4",
+    "Source":         "src/pango/1.11.4/pango-1.11.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.3",
+    "Installed":      "installed/pango/1.11.3",
+    "Source":         "src/pango/1.11.3/pango-1.11.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.4",
+    "Installed":      "installed/pango/1.10.4",
+    "Source":         "src/pango/1.10.4/pango-1.10.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.3",
+    "Installed":      "installed/pango/1.10.3",
+    "Source":         "src/pango/1.10.3/pango-1.10.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

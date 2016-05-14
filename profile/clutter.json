@@ -1,0 +1,734 @@
+{
+  "Name":           "clutter",
+  "Title":          "Clutter",
+  "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/clutter/",
+  "Git":            "https://git.gnome.org/browse/clutter",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-egl-backend=no --disable-examples --disable-tests PKG_CONFIG_PATH='{INSTALL_ROOT}/cogl/1.22.0/lib/pkgconfig:{INSTALL_ROOT}/gtk+/3.18.2/lib/pkgconfig'",
+  "PreInstall":     "sed -i -e 's/tests doc//g' Makefile.in Makefile.am",
+  "CurrentPreInstall": "sed -i -e 's/tests doc//g' Makefile.am",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/clutter/current",
+    "Source":         "src/clutter/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.26.0",
+    "Installed":      "installed/clutter/1.26.0",
+    "Source":         "src/clutter/1.26.0/clutter-1.26.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.25.2",
+    "Installed":      "installed/clutter/1.25.2",
+    "Source":         "src/clutter/1.25.2/clutter-1.25.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.24.2",
+    "Installed":      "installed/clutter/1.24.2",
+    "Source":         "src/clutter/1.24.2/clutter-1.24.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.24.0",
+    "Installed":      "installed/clutter/1.24.0",
+    "Source":         "src/clutter/1.24.0/clutter-1.24.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.23.4",
+    "Installed":      "installed/clutter/1.23.4",
+    "Source":         "src/clutter/1.23.4/clutter-1.23.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.23.2",
+    "Installed":      "installed/clutter/1.23.2",
+    "Source":         "src/clutter/1.23.2/clutter-1.23.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.22.4",
+    "Installed":      "installed/clutter/1.22.4",
+    "Source":         "src/clutter/1.22.4/clutter-1.22.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.22.2",
+    "Installed":      "installed/clutter/1.22.2",
+    "Source":         "src/clutter/1.22.2/clutter-1.22.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.22.0",
+    "Installed":      "installed/clutter/1.22.0",
+    "Source":         "src/clutter/1.22.0/clutter-1.22.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.21.8",
+    "Installed":      "installed/clutter/1.21.8",
+    "Source":         "src/clutter/1.21.8/clutter-1.21.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.21.6",
+    "Installed":      "installed/clutter/1.21.6",
+    "Source":         "src/clutter/1.21.6/clutter-1.21.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.21.4",
+    "Installed":      "installed/clutter/1.21.4",
+    "Source":         "src/clutter/1.21.4/clutter-1.21.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.21.2",
+    "Installed":      "installed/clutter/1.21.2",
+    "Source":         "src/clutter/1.21.2/clutter-1.21.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.20.2",
+    "Installed":      "installed/clutter/1.20.2",
+    "Source":         "src/clutter/1.20.2/clutter-1.20.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.20.0",
+    "Installed":      "installed/clutter/1.20.0",
+    "Source":         "src/clutter/1.20.0/clutter-1.20.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.19.10",
+    "Installed":      "installed/clutter/1.19.10",
+    "Source":         "src/clutter/1.19.10/clutter-1.19.10.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.19.8",
+    "Installed":      "installed/clutter/1.19.8",
+    "Source":         "src/clutter/1.19.8/clutter-1.19.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.19.6",
+    "Installed":      "installed/clutter/1.19.6",
+    "Source":         "src/clutter/1.19.6/clutter-1.19.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.19.4",
+    "Installed":      "installed/clutter/1.19.4",
+    "Source":         "src/clutter/1.19.4/clutter-1.19.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.19.2",
+    "Installed":      "installed/clutter/1.19.2",
+    "Source":         "src/clutter/1.19.2/clutter-1.19.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.18.4",
+    "Installed":      "installed/clutter/1.18.4",
+    "Source":         "src/clutter/1.18.4/clutter-1.18.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.18.2",
+    "Installed":      "installed/clutter/1.18.2",
+    "Source":         "src/clutter/1.18.2/clutter-1.18.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.18.0",
+    "Installed":      "installed/clutter/1.18.0",
+    "Source":         "src/clutter/1.18.0/clutter-1.18.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.17.6",
+    "Installed":      "installed/clutter/1.17.6",
+    "Source":         "src/clutter/1.17.6/clutter-1.17.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.17.4",
+    "Installed":      "installed/clutter/1.17.4",
+    "Source":         "src/clutter/1.17.4/clutter-1.17.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.17.2",
+    "Installed":      "installed/clutter/1.17.2",
+    "Source":         "src/clutter/1.17.2/clutter-1.17.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.16.4",
+    "Installed":      "installed/clutter/1.16.4",
+    "Source":         "src/clutter/1.16.4/clutter-1.16.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.16.2",
+    "Installed":      "installed/clutter/1.16.2",
+    "Source":         "src/clutter/1.16.2/clutter-1.16.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.16.0",
+    "Installed":      "installed/clutter/1.16.0",
+    "Source":         "src/clutter/1.16.0/clutter-1.16.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.96",
+    "Installed":      "installed/clutter/1.15.96",
+    "Source":         "src/clutter/1.15.96/clutter-1.15.96.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.94",
+    "Installed":      "installed/clutter/1.15.94",
+    "Source":         "src/clutter/1.15.94/clutter-1.15.94.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.92",
+    "Installed":      "installed/clutter/1.15.92",
+    "Source":         "src/clutter/1.15.92/clutter-1.15.92.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.90",
+    "Installed":      "installed/clutter/1.15.90",
+    "Source":         "src/clutter/1.15.90/clutter-1.15.90.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.2",
+    "Installed":      "installed/clutter/1.15.2",
+    "Source":         "src/clutter/1.15.2/clutter-1.15.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.6",
+    "Installed":      "installed/clutter/1.14.6",
+    "Source":         "src/clutter/1.14.6/clutter-1.14.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.4",
+    "Installed":      "installed/clutter/1.14.4",
+    "Source":         "src/clutter/1.14.4/clutter-1.14.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.2",
+    "Installed":      "installed/clutter/1.14.2",
+    "Source":         "src/clutter/1.14.2/clutter-1.14.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.0",
+    "Installed":      "installed/clutter/1.14.0",
+    "Source":         "src/clutter/1.14.0/clutter-1.14.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.10",
+    "Installed":      "installed/clutter/1.13.10",
+    "Source":         "src/clutter/1.13.10/clutter-1.13.10.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.8",
+    "Installed":      "installed/clutter/1.13.8",
+    "Source":         "src/clutter/1.13.8/clutter-1.13.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.6",
+    "Installed":      "installed/clutter/1.13.6",
+    "Source":         "src/clutter/1.13.6/clutter-1.13.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.4",
+    "Installed":      "installed/clutter/1.13.4",
+    "Source":         "src/clutter/1.13.4/clutter-1.13.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.2",
+    "Installed":      "installed/clutter/1.13.2",
+    "Source":         "src/clutter/1.13.2/clutter-1.13.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.2",
+    "Installed":      "installed/clutter/1.12.2",
+    "Source":         "src/clutter/1.12.2/clutter-1.12.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.0",
+    "Installed":      "installed/clutter/1.12.0",
+    "Source":         "src/clutter/1.12.0/clutter-1.12.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.16",
+    "Installed":      "installed/clutter/1.11.16",
+    "Source":         "src/clutter/1.11.16/clutter-1.11.16.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.14",
+    "Installed":      "installed/clutter/1.11.14",
+    "Source":         "src/clutter/1.11.14/clutter-1.11.14.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.12",
+    "Installed":      "installed/clutter/1.11.12",
+    "Source":         "src/clutter/1.11.12/clutter-1.11.12.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.10",
+    "Installed":      "installed/clutter/1.11.10",
+    "Source":         "src/clutter/1.11.10/clutter-1.11.10.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.8",
+    "Installed":      "installed/clutter/1.11.8",
+    "Source":         "src/clutter/1.11.8/clutter-1.11.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.6",
+    "Installed":      "installed/clutter/1.11.6",
+    "Source":         "src/clutter/1.11.6/clutter-1.11.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.4",
+    "Installed":      "installed/clutter/1.11.4",
+    "Source":         "src/clutter/1.11.4/clutter-1.11.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.2",
+    "Installed":      "installed/clutter/1.11.2",
+    "Source":         "src/clutter/1.11.2/clutter-1.11.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.8",
+    "Installed":      "installed/clutter/1.10.8",
+    "Source":         "src/clutter/1.10.8/clutter-1.10.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.6",
+    "Installed":      "installed/clutter/1.10.6",
+    "Source":         "src/clutter/1.10.6/clutter-1.10.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.4",
+    "Installed":      "installed/clutter/1.10.4",
+    "Source":         "src/clutter/1.10.4/clutter-1.10.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.2",
+    "Installed":      "installed/clutter/1.10.2",
+    "Source":         "src/clutter/1.10.2/clutter-1.10.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.0",
+    "Installed":      "installed/clutter/1.10.0",
+    "Source":         "src/clutter/1.10.0/clutter-1.10.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.16",
+    "Installed":      "installed/clutter/1.9.16",
+    "Source":         "src/clutter/1.9.16/clutter-1.9.16.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.14",
+    "Installed":      "installed/clutter/1.9.14",
+    "Source":         "src/clutter/1.9.14/clutter-1.9.14.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.12",
+    "Installed":      "installed/clutter/1.9.12",
+    "Source":         "src/clutter/1.9.12/clutter-1.9.12.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.10",
+    "Installed":      "installed/clutter/1.9.10",
+    "Source":         "src/clutter/1.9.10/clutter-1.9.10.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.8",
+    "Installed":      "installed/clutter/1.9.8",
+    "Source":         "src/clutter/1.9.8/clutter-1.9.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.6",
+    "Installed":      "installed/clutter/1.9.6",
+    "Source":         "src/clutter/1.9.6/clutter-1.9.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.4",
+    "Installed":      "installed/clutter/1.9.4",
+    "Source":         "src/clutter/1.9.4/clutter-1.9.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.4",
+    "Installed":      "installed/clutter/1.8.4",
+    "Source":         "src/clutter/1.8.4/clutter-1.8.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.2",
+    "Installed":      "installed/clutter/1.8.2",
+    "Source":         "src/clutter/1.8.2/clutter-1.8.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.0",
+    "Installed":      "installed/clutter/1.8.0",
+    "Source":         "src/clutter/1.8.0/clutter-1.8.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.20",
+    "Installed":      "installed/clutter/1.6.20",
+    "Source":         "src/clutter/1.6.20/clutter-1.6.20.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.18",
+    "Installed":      "installed/clutter/1.6.18",
+    "Source":         "src/clutter/1.6.18/clutter-1.6.18.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.16",
+    "Installed":      "installed/clutter/1.6.16",
+    "Source":         "src/clutter/1.6.16/clutter-1.6.16.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

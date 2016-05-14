@@ -1,0 +1,211 @@
+{
+  "Name":           "re2",
+  "Title":          "RE2",
+  "SourceUrl":      "https://github.com/google/re2/tags",
+  "Git":            "https://github.com/google/re2.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/re2.sh",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/re2/current",
+    "Source":         "src/re2/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2016-05-01",
+    "Installed":      "installed/re2/2016-05-01",
+    "Source":         "src/re2/2016-05-01/re2-2016-05-01.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2016-04-01",
+    "Installed":      "installed/re2/2016-04-01",
+    "Source":         "src/re2/2016-04-01/re2-2016-04-01.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2016-03-01",
+    "Installed":      "installed/re2/2016-03-01",
+    "Source":         "src/re2/2016-03-01/re2-2016-03-01.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2016-02-01",
+    "Installed":      "installed/re2/2016-02-01",
+    "Source":         "src/re2/2016-02-01/re2-2016-02-01.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2015-11-01",
+    "Installed":      "installed/re2/2015-11-01",
+    "Source":         "src/re2/2015-11-01/re2-2015-11-01.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2015-10-01",
+    "Installed":      "installed/re2/2015-10-01",
+    "Source":         "src/re2/2015-10-01/re2-2015-10-01.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2015-08-01",
+    "Installed":      "installed/re2/2015-08-01",
+    "Source":         "src/re2/2015-08-01/re2-2015-08-01.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2015-07-01",
+    "Installed":      "installed/re2/2015-07-01",
+    "Source":         "src/re2/2015-07-01/re2-2015-07-01.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2015-06-01",
+    "Installed":      "installed/re2/2015-06-01",
+    "Source":         "src/re2/2015-06-01/re2-2015-06-01.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2015-05-01",
+    "Installed":      "installed/re2/2015-05-01",
+    "Source":         "src/re2/2015-05-01/re2-2015-05-01.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2014-03-04",
+    "Installed":      "installed/re2/2014-03-04",
+    "Source":         "src/re2/2014-03-04/re2-2014-03-04.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2014-01-11",
+    "Installed":      "installed/re2/2014-01-11",
+    "Source":         "src/re2/2014-01-11/re2-2014-01-11.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2014-01-10",
+    "Installed":      "installed/re2/2014-01-10",
+    "Source":         "src/re2/2014-01-10/re2-2014-01-10.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2013-10-24",
+    "Installed":      "installed/re2/2013-10-24",
+    "Source":         "src/re2/2013-10-24/re2-2013-10-24.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2013-08-02",
+    "Installed":      "installed/re2/2013-08-02",
+    "Source":         "src/re2/2013-08-02/re2-2013-08-02.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2013-07-12",
+    "Installed":      "installed/re2/2013-07-12",
+    "Source":         "src/re2/2013-07-12/re2-2013-07-12.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2013-06-22",
+    "Installed":      "installed/re2/2013-06-22",
+    "Source":         "src/re2/2013-06-22/re2-2013-06-22.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2013-01-15",
+    "Installed":      "installed/re2/2013-01-15",
+    "Source":         "src/re2/2013-01-15/re2-2013-01-15.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2012-11-27",
+    "Installed":      "installed/re2/2012-11-27",
+    "Source":         "src/re2/2012-11-27/re2-2012-11-27.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

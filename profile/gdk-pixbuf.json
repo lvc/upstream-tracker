@@ -1,0 +1,521 @@
+{
+  "Name":           "gdk-pixbuf",
+  "Title":          "Gdk Pixbuf",
+  "SourceUrl":      "http://ftp.acc.umu.se/pub/gnome/sources/gdk-pixbuf/",
+  "Git":            "https://git.gnome.org/browse/gdk-pixbuf",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "SkipObjects":    [ "loaders/" ],
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/gdk-pixbuf/current",
+    "Source":         "src/gdk-pixbuf/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.35.1",
+    "Installed":      "installed/gdk-pixbuf/2.35.1",
+    "Source":         "src/gdk-pixbuf/2.35.1/gdk-pixbuf-2.35.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.34.0",
+    "Installed":      "installed/gdk-pixbuf/2.34.0",
+    "Source":         "src/gdk-pixbuf/2.34.0/gdk-pixbuf-2.34.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.33.2",
+    "Installed":      "installed/gdk-pixbuf/2.33.2",
+    "Source":         "src/gdk-pixbuf/2.33.2/gdk-pixbuf-2.33.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.33.1",
+    "Installed":      "installed/gdk-pixbuf/2.33.1",
+    "Source":         "src/gdk-pixbuf/2.33.1/gdk-pixbuf-2.33.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.32.3",
+    "Installed":      "installed/gdk-pixbuf/2.32.3",
+    "Source":         "src/gdk-pixbuf/2.32.3/gdk-pixbuf-2.32.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.32.2",
+    "Installed":      "installed/gdk-pixbuf/2.32.2",
+    "Source":         "src/gdk-pixbuf/2.32.2/gdk-pixbuf-2.32.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.32.1",
+    "Installed":      "installed/gdk-pixbuf/2.32.1",
+    "Source":         "src/gdk-pixbuf/2.32.1/gdk-pixbuf-2.32.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.32.0",
+    "Installed":      "installed/gdk-pixbuf/2.32.0",
+    "Source":         "src/gdk-pixbuf/2.32.0/gdk-pixbuf-2.32.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.31.7",
+    "Installed":      "installed/gdk-pixbuf/2.31.7",
+    "Source":         "src/gdk-pixbuf/2.31.7/gdk-pixbuf-2.31.7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.31.6",
+    "Installed":      "installed/gdk-pixbuf/2.31.6",
+    "Source":         "src/gdk-pixbuf/2.31.6/gdk-pixbuf-2.31.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.31.5",
+    "Installed":      "installed/gdk-pixbuf/2.31.5",
+    "Source":         "src/gdk-pixbuf/2.31.5/gdk-pixbuf-2.31.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.31.4",
+    "Installed":      "installed/gdk-pixbuf/2.31.4",
+    "Source":         "src/gdk-pixbuf/2.31.4/gdk-pixbuf-2.31.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.31.3",
+    "Installed":      "installed/gdk-pixbuf/2.31.3",
+    "Source":         "src/gdk-pixbuf/2.31.3/gdk-pixbuf-2.31.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.31.2",
+    "Installed":      "installed/gdk-pixbuf/2.31.2",
+    "Source":         "src/gdk-pixbuf/2.31.2/gdk-pixbuf-2.31.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.31.1",
+    "Installed":      "installed/gdk-pixbuf/2.31.1",
+    "Source":         "src/gdk-pixbuf/2.31.1/gdk-pixbuf-2.31.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.31.0",
+    "Installed":      "installed/gdk-pixbuf/2.31.0",
+    "Source":         "src/gdk-pixbuf/2.31.0/gdk-pixbuf-2.31.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.30.8",
+    "Installed":      "installed/gdk-pixbuf/2.30.8",
+    "Source":         "src/gdk-pixbuf/2.30.8/gdk-pixbuf-2.30.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.30.7",
+    "Installed":      "installed/gdk-pixbuf/2.30.7",
+    "Source":         "src/gdk-pixbuf/2.30.7/gdk-pixbuf-2.30.7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.30.6",
+    "Installed":      "installed/gdk-pixbuf/2.30.6",
+    "Source":         "src/gdk-pixbuf/2.30.6/gdk-pixbuf-2.30.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.30.5",
+    "Installed":      "installed/gdk-pixbuf/2.30.5",
+    "Source":         "src/gdk-pixbuf/2.30.5/gdk-pixbuf-2.30.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.30.4",
+    "Installed":      "installed/gdk-pixbuf/2.30.4",
+    "Source":         "src/gdk-pixbuf/2.30.4/gdk-pixbuf-2.30.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.30.3",
+    "Installed":      "installed/gdk-pixbuf/2.30.3",
+    "Source":         "src/gdk-pixbuf/2.30.3/gdk-pixbuf-2.30.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.30.2",
+    "Installed":      "installed/gdk-pixbuf/2.30.2",
+    "Source":         "src/gdk-pixbuf/2.30.2/gdk-pixbuf-2.30.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.30.1",
+    "Installed":      "installed/gdk-pixbuf/2.30.1",
+    "Source":         "src/gdk-pixbuf/2.30.1/gdk-pixbuf-2.30.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.30.0",
+    "Installed":      "installed/gdk-pixbuf/2.30.0",
+    "Source":         "src/gdk-pixbuf/2.30.0/gdk-pixbuf-2.30.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.29.3",
+    "Installed":      "installed/gdk-pixbuf/2.29.3",
+    "Source":         "src/gdk-pixbuf/2.29.3/gdk-pixbuf-2.29.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.29.2",
+    "Installed":      "installed/gdk-pixbuf/2.29.2",
+    "Source":         "src/gdk-pixbuf/2.29.2/gdk-pixbuf-2.29.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.29.1",
+    "Installed":      "installed/gdk-pixbuf/2.29.1",
+    "Source":         "src/gdk-pixbuf/2.29.1/gdk-pixbuf-2.29.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.29.0",
+    "Installed":      "installed/gdk-pixbuf/2.29.0",
+    "Source":         "src/gdk-pixbuf/2.29.0/gdk-pixbuf-2.29.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.28.2",
+    "Installed":      "installed/gdk-pixbuf/2.28.2",
+    "Source":         "src/gdk-pixbuf/2.28.2/gdk-pixbuf-2.28.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.28.1",
+    "Installed":      "installed/gdk-pixbuf/2.28.1",
+    "Source":         "src/gdk-pixbuf/2.28.1/gdk-pixbuf-2.28.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.28.0",
+    "Installed":      "installed/gdk-pixbuf/2.28.0",
+    "Source":         "src/gdk-pixbuf/2.28.0/gdk-pixbuf-2.28.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.27.3",
+    "Installed":      "installed/gdk-pixbuf/2.27.3",
+    "Source":         "src/gdk-pixbuf/2.27.3/gdk-pixbuf-2.27.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.27.2",
+    "Installed":      "installed/gdk-pixbuf/2.27.2",
+    "Source":         "src/gdk-pixbuf/2.27.2/gdk-pixbuf-2.27.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.27.1",
+    "Installed":      "installed/gdk-pixbuf/2.27.1",
+    "Source":         "src/gdk-pixbuf/2.27.1/gdk-pixbuf-2.27.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.27.0",
+    "Installed":      "installed/gdk-pixbuf/2.27.0",
+    "Source":         "src/gdk-pixbuf/2.27.0/gdk-pixbuf-2.27.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.26.5",
+    "Installed":      "installed/gdk-pixbuf/2.26.5",
+    "Source":         "src/gdk-pixbuf/2.26.5/gdk-pixbuf-2.26.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.26.4",
+    "Installed":      "installed/gdk-pixbuf/2.26.4",
+    "Source":         "src/gdk-pixbuf/2.26.4/gdk-pixbuf-2.26.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.26.3",
+    "Installed":      "installed/gdk-pixbuf/2.26.3",
+    "Source":         "src/gdk-pixbuf/2.26.3/gdk-pixbuf-2.26.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.26.2",
+    "Installed":      "installed/gdk-pixbuf/2.26.2",
+    "Source":         "src/gdk-pixbuf/2.26.2/gdk-pixbuf-2.26.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.26.1",
+    "Installed":      "installed/gdk-pixbuf/2.26.1",
+    "Source":         "src/gdk-pixbuf/2.26.1/gdk-pixbuf-2.26.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.26.0",
+    "Installed":      "installed/gdk-pixbuf/2.26.0",
+    "Source":         "src/gdk-pixbuf/2.26.0/gdk-pixbuf-2.26.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.25.2",
+    "Installed":      "installed/gdk-pixbuf/2.25.2",
+    "Source":         "src/gdk-pixbuf/2.25.2/gdk-pixbuf-2.25.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.25.0",
+    "Installed":      "installed/gdk-pixbuf/2.25.0",
+    "Source":         "src/gdk-pixbuf/2.25.0/gdk-pixbuf-2.25.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.24.1",
+    "Installed":      "installed/gdk-pixbuf/2.24.1",
+    "Source":         "src/gdk-pixbuf/2.24.1/gdk-pixbuf-2.24.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.24.0",
+    "Installed":      "installed/gdk-pixbuf/2.24.0",
+    "Source":         "src/gdk-pixbuf/2.24.0/gdk-pixbuf-2.24.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.23.5",
+    "Installed":      "installed/gdk-pixbuf/2.23.5",
+    "Source":         "src/gdk-pixbuf/2.23.5/gdk-pixbuf-2.23.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.23.4",
+    "Installed":      "installed/gdk-pixbuf/2.23.4",
+    "Source":         "src/gdk-pixbuf/2.23.4/gdk-pixbuf-2.23.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.23.3",
+    "Installed":      "installed/gdk-pixbuf/2.23.3",
+    "Source":         "src/gdk-pixbuf/2.23.3/gdk-pixbuf-2.23.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.23.1",
+    "Installed":      "installed/gdk-pixbuf/2.23.1",
+    "Source":         "src/gdk-pixbuf/2.23.1/gdk-pixbuf-2.23.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

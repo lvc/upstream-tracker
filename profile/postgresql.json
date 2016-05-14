@@ -1,0 +1,9 @@
+{
+  "Name":           "postgresql",
+  "Title":          "PostgreSQL",
+  "SourceUrl":      "http://www.postgresql.org/ftp/source/",
+  "Git":            "http://git.postgresql.org/git/postgresql.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off"
+}

@@ -1,0 +1,10 @@
+orte_util_comm_report_event 
+ompi_group_compare
+ompi_request_cond
+ompi_request_empty
+ompi_request_null
+ompi_request_failed
+ompi_group_get_proc_ptr_raw
+ompi_info_get_value_enum
+ompi_info_set_value_enum
+ompi_win_accumulate_ops

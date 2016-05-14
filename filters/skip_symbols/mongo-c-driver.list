@@ -1,0 +1,2 @@
+mongoc_host_list_destroy_all
+mongoc_host_list_equal

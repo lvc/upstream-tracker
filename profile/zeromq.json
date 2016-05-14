@@ -1,0 +1,281 @@
+{
+  "Name":           "zeromq",
+  "Title":          "ZeroMQ",
+  "SourceUrl":      "http://download.zeromq.org/",
+  "Git":            "https://github.com/zeromq/libzmq",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/zeromq/current",
+    "Source":         "src/zeromq/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.4",
+    "Installed":      "installed/zeromq/4.1.4",
+    "Source":         "src/zeromq/4.1.4/zeromq-4.1.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.3",
+    "Installed":      "installed/zeromq/4.1.3",
+    "Source":         "src/zeromq/4.1.3/zeromq-4.1.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.2",
+    "Installed":      "installed/zeromq/4.1.2",
+    "Source":         "src/zeromq/4.1.2/zeromq-4.1.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.1",
+    "Installed":      "installed/zeromq/4.1.1",
+    "Source":         "src/zeromq/4.1.1/zeromq-4.1.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.7",
+    "Installed":      "installed/zeromq/4.0.7",
+    "Source":         "src/zeromq/4.0.7/zeromq-4.0.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.6",
+    "Installed":      "installed/zeromq/4.0.6",
+    "Source":         "src/zeromq/4.0.6/zeromq-4.0.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.5",
+    "Installed":      "installed/zeromq/4.0.5",
+    "Source":         "src/zeromq/4.0.5/zeromq-4.0.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.4",
+    "Installed":      "installed/zeromq/4.0.4",
+    "Source":         "src/zeromq/4.0.4/zeromq-4.0.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.3",
+    "Installed":      "installed/zeromq/4.0.3",
+    "Source":         "src/zeromq/4.0.3/zeromq-4.0.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.2",
+    "Installed":      "installed/zeromq/4.0.2",
+    "Source":         "src/zeromq/4.0.2/zeromq-4.0.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.1",
+    "Installed":      "installed/zeromq/4.0.1",
+    "Source":         "src/zeromq/4.0.1/zeromq-4.0.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.5",
+    "Installed":      "installed/zeromq/3.2.5",
+    "Source":         "src/zeromq/3.2.5/zeromq-3.2.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.4",
+    "Installed":      "installed/zeromq/3.2.4",
+    "Source":         "src/zeromq/3.2.4/zeromq-3.2.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.3",
+    "Installed":      "installed/zeromq/3.2.3",
+    "Source":         "src/zeromq/3.2.3/zeromq-3.2.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.2",
+    "Installed":      "installed/zeromq/3.2.2",
+    "Source":         "src/zeromq/3.2.2/zeromq-3.2.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.0",
+    "Installed":      "installed/zeromq/2.2.0",
+    "Source":         "src/zeromq/2.2.0/zeromq-2.2.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.11",
+    "Installed":      "installed/zeromq/2.1.11",
+    "Source":         "src/zeromq/2.1.11/zeromq-2.1.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.10",
+    "Installed":      "installed/zeromq/2.1.10",
+    "Source":         "src/zeromq/2.1.10/zeromq-2.1.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.9",
+    "Installed":      "installed/zeromq/2.1.9",
+    "Source":         "src/zeromq/2.1.9/zeromq-2.1.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.7",
+    "Installed":      "installed/zeromq/2.1.7",
+    "Source":         "src/zeromq/2.1.7/zeromq-2.1.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.4",
+    "Installed":      "installed/zeromq/2.1.4",
+    "Source":         "src/zeromq/2.1.4/zeromq-2.1.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.3",
+    "Installed":      "installed/zeromq/2.1.3",
+    "Source":         "src/zeromq/2.1.3/zeromq-2.1.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.11",
+    "Installed":      "installed/zeromq/2.0.11",
+    "Source":         "src/zeromq/2.0.11/zeromq-2.0.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.10",
+    "Installed":      "installed/zeromq/2.0.10",
+    "Source":         "src/zeromq/2.0.10/zeromq-2.0.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.9",
+    "Installed":      "installed/zeromq/2.0.9",
+    "Source":         "src/zeromq/2.0.9/zeromq-2.0.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.8",
+    "Installed":      "installed/zeromq/2.0.8",
+    "Source":         "src/zeromq/2.0.8/zeromq-2.0.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

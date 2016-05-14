@@ -1,0 +1,384 @@
+{
+  "Name":           "freetype",
+  "Title":          "FreeType",
+  "SourceUrl":      "http://download.savannah.gnu.org/releases/freetype/",
+  "Git":            "http://git.savannah.gnu.org/r/freetype/freetype2.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "CurrentPreInstall": "sh autogen.sh",
+  "HeadersDiff":    "Off",
+  "SkipVersions":   [ "2.1.10.pre-20050511" ],
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/freetype/current",
+    "Source":         "src/freetype/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.3",
+    "Installed":      "installed/freetype/2.6.3",
+    "Source":         "src/freetype/2.6.3/freetype-2.6.3.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.2",
+    "Installed":      "installed/freetype/2.6.2",
+    "Source":         "src/freetype/2.6.2/freetype-2.6.2.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "On",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.1",
+    "Installed":      "installed/freetype/2.6.1",
+    "Source":         "src/freetype/2.6.1/freetype-2.6.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6",
+    "Installed":      "installed/freetype/2.6",
+    "Source":         "src/freetype/2.6/freetype-2.6.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.5",
+    "Installed":      "installed/freetype/2.5.5",
+    "Source":         "src/freetype/2.5.5/freetype-2.5.5.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.4",
+    "Installed":      "installed/freetype/2.5.4",
+    "Source":         "src/freetype/2.5.4/freetype-2.5.4.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.3",
+    "Installed":      "installed/freetype/2.5.3",
+    "Source":         "src/freetype/2.5.3/freetype-2.5.3.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.2",
+    "Installed":      "installed/freetype/2.5.2",
+    "Source":         "src/freetype/2.5.2/freetype-2.5.2.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.1",
+    "Installed":      "installed/freetype/2.5.1",
+    "Source":         "src/freetype/2.5.1/freetype-2.5.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.0.1",
+    "Installed":      "installed/freetype/2.5.0.1",
+    "Source":         "src/freetype/2.5.0.1/freetype-2.5.0.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.0",
+    "Installed":      "installed/freetype/2.5.0",
+    "Source":         "src/freetype/2.5.0/freetype-2.5.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.12",
+    "Installed":      "installed/freetype/2.4.12",
+    "Source":         "src/freetype/2.4.12/freetype-2.4.12.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.11",
+    "Installed":      "installed/freetype/2.4.11",
+    "Source":         "src/freetype/2.4.11/freetype-2.4.11.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.10",
+    "Installed":      "installed/freetype/2.4.10",
+    "Source":         "src/freetype/2.4.10/freetype-2.4.10.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.9",
+    "Installed":      "installed/freetype/2.4.9",
+    "Source":         "src/freetype/2.4.9/freetype-2.4.9.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.8",
+    "Installed":      "installed/freetype/2.4.8",
+    "Source":         "src/freetype/2.4.8/freetype-2.4.8.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.7",
+    "Installed":      "installed/freetype/2.4.7",
+    "Source":         "src/freetype/2.4.7/freetype-2.4.7.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.6",
+    "Installed":      "installed/freetype/2.4.6",
+    "Source":         "src/freetype/2.4.6/freetype-2.4.6.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.5",
+    "Installed":      "installed/freetype/2.4.5",
+    "Source":         "src/freetype/2.4.5/freetype-2.4.5.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.4",
+    "Installed":      "installed/freetype/2.4.4",
+    "Source":         "src/freetype/2.4.4/freetype-2.4.4.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.3",
+    "Installed":      "installed/freetype/2.4.3",
+    "Source":         "src/freetype/2.4.3/freetype-2.4.3.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.2",
+    "Installed":      "installed/freetype/2.4.2",
+    "Source":         "src/freetype/2.4.2/freetype-2.4.2.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.1",
+    "Installed":      "installed/freetype/2.4.1",
+    "Source":         "src/freetype/2.4.1/freetype-2.4.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.0",
+    "Installed":      "installed/freetype/2.4.0",
+    "Source":         "src/freetype/2.4.0/freetype-2.4.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.12",
+    "Installed":      "installed/freetype/2.3.12",
+    "Source":         "src/freetype/2.3.12/freetype-2.3.12.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.11",
+    "Installed":      "installed/freetype/2.3.11",
+    "Source":         "src/freetype/2.3.11/freetype-2.3.11.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.10",
+    "Installed":      "installed/freetype/2.3.10",
+    "Source":         "src/freetype/2.3.10/freetype-2.3.10.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.9",
+    "Installed":      "installed/freetype/2.3.9",
+    "Source":         "src/freetype/2.3.9/freetype-2.3.9.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.7",
+    "Installed":      "installed/freetype/2.3.7",
+    "Source":         "src/freetype/2.3.7/freetype-2.3.7.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.6",
+    "Installed":      "installed/freetype/2.3.6",
+    "Source":         "src/freetype/2.3.6/freetype-2.3.6.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.5",
+    "Installed":      "installed/freetype/2.3.5",
+    "Source":         "src/freetype/2.3.5/freetype-2.3.5.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.4",
+    "Installed":      "installed/freetype/2.3.4",
+    "Source":         "src/freetype/2.3.4/freetype-2.3.4.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.3",
+    "Installed":      "installed/freetype/2.3.3",
+    "Source":         "src/freetype/2.3.3/freetype-2.3.3.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.2",
+    "Installed":      "installed/freetype/2.3.2",
+    "Source":         "src/freetype/2.3.2/freetype-2.3.2.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.1",
+    "Installed":      "installed/freetype/2.3.1",
+    "Source":         "src/freetype/2.3.1/freetype-2.3.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.0",
+    "Installed":      "installed/freetype/2.3.0",
+    "Source":         "src/freetype/2.3.0/freetype-2.3.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,1126 @@
+{
+  "Name":           "gst-plugins-base",
+  "Title":          "GStreamer Base Plug-ins",
+  "SourceUrl":      "http://gstreamer.freedesktop.org/src/gst-plugins-base/",
+  "Git":            "http://anongit.freedesktop.org/git/gstreamer/gst-plugins-base.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-introspection=no --disable-examples --with-pkg-config-path={INSTALL_ROOT}/gstreamer/{VERSION}/lib/pkgconfig/ CC='gcc -Dg_memmove=memmove'",
+  "PreInstall":     "sed -i -e 's/\stests\s//g' Makefile.in Makefile.am ; sed -i -e 's/\sdocs\s//g' Makefile.in Makefile.am",
+  "CurrentPreInstall": "sed -i -e 's/\stests\s//g' Makefile.am ; sed -i -e 's/\sdocs\s//g' Makefile.am",
+  "SkipObjects":    [ "gstreamer-1.0/", "gstreamer-0.10/", "gstreamer-0.11/" ],
+  "Changelog":      "RELEASE",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/gst-plugins-base/current",
+    "Source":         "src/gst-plugins-base/current",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.1",
+    "Installed":      "installed/gst-plugins-base/1.8.1",
+    "Source":         "src/gst-plugins-base/1.8.1/gst-plugins-base-1.8.1.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.0",
+    "Installed":      "installed/gst-plugins-base/1.8.0",
+    "Source":         "src/gst-plugins-base/1.8.0/gst-plugins-base-1.8.0.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.91",
+    "Installed":      "installed/gst-plugins-base/1.7.91",
+    "Source":         "src/gst-plugins-base/1.7.91/gst-plugins-base-1.7.91.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.90",
+    "Installed":      "installed/gst-plugins-base/1.7.90",
+    "Source":         "src/gst-plugins-base/1.7.90/gst-plugins-base-1.7.90.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.2",
+    "Installed":      "installed/gst-plugins-base/1.7.2",
+    "Source":         "src/gst-plugins-base/1.7.2/gst-plugins-base-1.7.2.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.1",
+    "Installed":      "installed/gst-plugins-base/1.7.1",
+    "Source":         "src/gst-plugins-base/1.7.1/gst-plugins-base-1.7.1.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.4",
+    "Installed":      "installed/gst-plugins-base/1.6.4",
+    "Source":         "src/gst-plugins-base/1.6.4/gst-plugins-base-1.6.4.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.3",
+    "Installed":      "installed/gst-plugins-base/1.6.3",
+    "Source":         "src/gst-plugins-base/1.6.3/gst-plugins-base-1.6.3.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.2",
+    "Installed":      "installed/gst-plugins-base/1.6.2",
+    "Source":         "src/gst-plugins-base/1.6.2/gst-plugins-base-1.6.2.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.1",
+    "Installed":      "installed/gst-plugins-base/1.6.1",
+    "Source":         "src/gst-plugins-base/1.6.1/gst-plugins-base-1.6.1.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.0",
+    "Installed":      "installed/gst-plugins-base/1.6.0",
+    "Source":         "src/gst-plugins-base/1.6.0/gst-plugins-base-1.6.0.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.91",
+    "Installed":      "installed/gst-plugins-base/1.5.91",
+    "Source":         "src/gst-plugins-base/1.5.91/gst-plugins-base-1.5.91.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.90",
+    "Installed":      "installed/gst-plugins-base/1.5.90",
+    "Source":         "src/gst-plugins-base/1.5.90/gst-plugins-base-1.5.90.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.2",
+    "Installed":      "installed/gst-plugins-base/1.5.2",
+    "Source":         "src/gst-plugins-base/1.5.2/gst-plugins-base-1.5.2.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.1",
+    "Installed":      "installed/gst-plugins-base/1.5.1",
+    "Source":         "src/gst-plugins-base/1.5.1/gst-plugins-base-1.5.1.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.5",
+    "Installed":      "installed/gst-plugins-base/1.4.5",
+    "Source":         "src/gst-plugins-base/1.4.5/gst-plugins-base-1.4.5.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.4",
+    "Installed":      "installed/gst-plugins-base/1.4.4",
+    "Source":         "src/gst-plugins-base/1.4.4/gst-plugins-base-1.4.4.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.3",
+    "Installed":      "installed/gst-plugins-base/1.4.3",
+    "Source":         "src/gst-plugins-base/1.4.3/gst-plugins-base-1.4.3.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.2",
+    "Installed":      "installed/gst-plugins-base/1.4.2",
+    "Source":         "src/gst-plugins-base/1.4.2/gst-plugins-base-1.4.2.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.1",
+    "Installed":      "installed/gst-plugins-base/1.4.1",
+    "Source":         "src/gst-plugins-base/1.4.1/gst-plugins-base-1.4.1.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.0",
+    "Installed":      "installed/gst-plugins-base/1.4.0",
+    "Source":         "src/gst-plugins-base/1.4.0/gst-plugins-base-1.4.0.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.91",
+    "Installed":      "installed/gst-plugins-base/1.3.91",
+    "Source":         "src/gst-plugins-base/1.3.91/gst-plugins-base-1.3.91.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.90",
+    "Installed":      "installed/gst-plugins-base/1.3.90",
+    "Source":         "src/gst-plugins-base/1.3.90/gst-plugins-base-1.3.90.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.3",
+    "Installed":      "installed/gst-plugins-base/1.3.3",
+    "Source":         "src/gst-plugins-base/1.3.3/gst-plugins-base-1.3.3.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.2",
+    "Installed":      "installed/gst-plugins-base/1.3.2",
+    "Source":         "src/gst-plugins-base/1.3.2/gst-plugins-base-1.3.2.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.1",
+    "Installed":      "installed/gst-plugins-base/1.3.1",
+    "Source":         "src/gst-plugins-base/1.3.1/gst-plugins-base-1.3.1.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.4",
+    "Installed":      "installed/gst-plugins-base/1.2.4",
+    "Source":         "src/gst-plugins-base/1.2.4/gst-plugins-base-1.2.4.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.3",
+    "Installed":      "installed/gst-plugins-base/1.2.3",
+    "Source":         "src/gst-plugins-base/1.2.3/gst-plugins-base-1.2.3.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.2",
+    "Installed":      "installed/gst-plugins-base/1.2.2",
+    "Source":         "src/gst-plugins-base/1.2.2/gst-plugins-base-1.2.2.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.1",
+    "Installed":      "installed/gst-plugins-base/1.2.1",
+    "Source":         "src/gst-plugins-base/1.2.1/gst-plugins-base-1.2.1.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/gst-plugins-base/1.2.0",
+    "Source":         "src/gst-plugins-base/1.2.0/gst-plugins-base-1.2.0.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.90",
+    "Installed":      "installed/gst-plugins-base/1.1.90",
+    "Source":         "src/gst-plugins-base/1.1.90/gst-plugins-base-1.1.90.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.4",
+    "Installed":      "installed/gst-plugins-base/1.1.4",
+    "Source":         "src/gst-plugins-base/1.1.4/gst-plugins-base-1.1.4.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.3",
+    "Installed":      "installed/gst-plugins-base/1.1.3",
+    "Source":         "src/gst-plugins-base/1.1.3/gst-plugins-base-1.1.3.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.2",
+    "Installed":      "installed/gst-plugins-base/1.1.2",
+    "Source":         "src/gst-plugins-base/1.1.2/gst-plugins-base-1.1.2.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.1",
+    "Installed":      "installed/gst-plugins-base/1.1.1",
+    "Source":         "src/gst-plugins-base/1.1.1/gst-plugins-base-1.1.1.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.10",
+    "Installed":      "installed/gst-plugins-base/1.0.10",
+    "Source":         "src/gst-plugins-base/1.0.10/gst-plugins-base-1.0.10.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.9",
+    "Installed":      "installed/gst-plugins-base/1.0.9",
+    "Source":         "src/gst-plugins-base/1.0.9/gst-plugins-base-1.0.9.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.8",
+    "Installed":      "installed/gst-plugins-base/1.0.8",
+    "Source":         "src/gst-plugins-base/1.0.8/gst-plugins-base-1.0.8.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.7",
+    "Installed":      "installed/gst-plugins-base/1.0.7",
+    "Source":         "src/gst-plugins-base/1.0.7/gst-plugins-base-1.0.7.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.6",
+    "Installed":      "installed/gst-plugins-base/1.0.6",
+    "Source":         "src/gst-plugins-base/1.0.6/gst-plugins-base-1.0.6.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.5",
+    "Installed":      "installed/gst-plugins-base/1.0.5",
+    "Source":         "src/gst-plugins-base/1.0.5/gst-plugins-base-1.0.5.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.4",
+    "Installed":      "installed/gst-plugins-base/1.0.4",
+    "Source":         "src/gst-plugins-base/1.0.4/gst-plugins-base-1.0.4.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.3",
+    "Installed":      "installed/gst-plugins-base/1.0.3",
+    "Source":         "src/gst-plugins-base/1.0.3/gst-plugins-base-1.0.3.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.2",
+    "Installed":      "installed/gst-plugins-base/1.0.2",
+    "Source":         "src/gst-plugins-base/1.0.2/gst-plugins-base-1.0.2.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/gst-plugins-base/1.0.1",
+    "Source":         "src/gst-plugins-base/1.0.1/gst-plugins-base-1.0.1.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/gst-plugins-base/1.0.0",
+    "Source":         "src/gst-plugins-base/1.0.0/gst-plugins-base-1.0.0.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.99",
+    "Installed":      "installed/gst-plugins-base/0.11.99",
+    "Source":         "src/gst-plugins-base/0.11.99/gst-plugins-base-0.11.99.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.94",
+    "Installed":      "installed/gst-plugins-base/0.11.94",
+    "Source":         "src/gst-plugins-base/0.11.94/gst-plugins-base-0.11.94.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.93",
+    "Installed":      "installed/gst-plugins-base/0.11.93",
+    "Source":         "src/gst-plugins-base/0.11.93/gst-plugins-base-0.11.93.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.92",
+    "Installed":      "installed/gst-plugins-base/0.11.92",
+    "Source":         "src/gst-plugins-base/0.11.92/gst-plugins-base-0.11.92.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.91",
+    "Installed":      "installed/gst-plugins-base/0.11.91",
+    "Source":         "src/gst-plugins-base/0.11.91/gst-plugins-base-0.11.91.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.90",
+    "Installed":      "installed/gst-plugins-base/0.11.90",
+    "Source":         "src/gst-plugins-base/0.11.90/gst-plugins-base-0.11.90.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.3",
+    "Installed":      "installed/gst-plugins-base/0.11.3",
+    "Source":         "src/gst-plugins-base/0.11.3/gst-plugins-base-0.11.3.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.2",
+    "Installed":      "installed/gst-plugins-base/0.11.2",
+    "Source":         "src/gst-plugins-base/0.11.2/gst-plugins-base-0.11.2.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.1",
+    "Installed":      "installed/gst-plugins-base/0.11.1",
+    "Source":         "src/gst-plugins-base/0.11.1/gst-plugins-base-0.11.1.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.0",
+    "Installed":      "installed/gst-plugins-base/0.11.0",
+    "Source":         "src/gst-plugins-base/0.11.0/gst-plugins-base-0.11.0.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.36",
+    "Installed":      "installed/gst-plugins-base/0.10.36",
+    "Source":         "src/gst-plugins-base/0.10.36/gst-plugins-base-0.10.36.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.35.3",
+    "Installed":      "installed/gst-plugins-base/0.10.35.3",
+    "Source":         "src/gst-plugins-base/0.10.35.3/gst-plugins-base-0.10.35.3.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.35.2",
+    "Installed":      "installed/gst-plugins-base/0.10.35.2",
+    "Source":         "src/gst-plugins-base/0.10.35.2/gst-plugins-base-0.10.35.2.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.35",
+    "Installed":      "installed/gst-plugins-base/0.10.35",
+    "Source":         "src/gst-plugins-base/0.10.35/gst-plugins-base-0.10.35.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.34",
+    "Installed":      "installed/gst-plugins-base/0.10.34",
+    "Source":         "src/gst-plugins-base/0.10.34/gst-plugins-base-0.10.34.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.33",
+    "Installed":      "installed/gst-plugins-base/0.10.33",
+    "Source":         "src/gst-plugins-base/0.10.33/gst-plugins-base-0.10.33.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.32.4",
+    "Installed":      "installed/gst-plugins-base/0.10.32.4",
+    "Source":         "src/gst-plugins-base/0.10.32.4/gst-plugins-base-0.10.32.4.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.32.3",
+    "Installed":      "installed/gst-plugins-base/0.10.32.3",
+    "Source":         "src/gst-plugins-base/0.10.32.3/gst-plugins-base-0.10.32.3.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.32.2",
+    "Installed":      "installed/gst-plugins-base/0.10.32.2",
+    "Source":         "src/gst-plugins-base/0.10.32.2/gst-plugins-base-0.10.32.2.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.32",
+    "Installed":      "installed/gst-plugins-base/0.10.32",
+    "Source":         "src/gst-plugins-base/0.10.32/gst-plugins-base-0.10.32.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.31.4",
+    "Installed":      "installed/gst-plugins-base/0.10.31.4",
+    "Source":         "src/gst-plugins-base/0.10.31.4/gst-plugins-base-0.10.31.4.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.31.3",
+    "Installed":      "installed/gst-plugins-base/0.10.31.3",
+    "Source":         "src/gst-plugins-base/0.10.31.3/gst-plugins-base-0.10.31.3.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.31.2",
+    "Installed":      "installed/gst-plugins-base/0.10.31.2",
+    "Source":         "src/gst-plugins-base/0.10.31.2/gst-plugins-base-0.10.31.2.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.31",
+    "Installed":      "installed/gst-plugins-base/0.10.31",
+    "Source":         "src/gst-plugins-base/0.10.31/gst-plugins-base-0.10.31.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.30.5",
+    "Installed":      "installed/gst-plugins-base/0.10.30.5",
+    "Source":         "src/gst-plugins-base/0.10.30.5/gst-plugins-base-0.10.30.5.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.30.4",
+    "Installed":      "installed/gst-plugins-base/0.10.30.4",
+    "Source":         "src/gst-plugins-base/0.10.30.4/gst-plugins-base-0.10.30.4.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.30.3",
+    "Installed":      "installed/gst-plugins-base/0.10.30.3",
+    "Source":         "src/gst-plugins-base/0.10.30.3/gst-plugins-base-0.10.30.3.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.30.2",
+    "Installed":      "installed/gst-plugins-base/0.10.30.2",
+    "Source":         "src/gst-plugins-base/0.10.30.2/gst-plugins-base-0.10.30.2.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.30",
+    "Installed":      "installed/gst-plugins-base/0.10.30",
+    "Source":         "src/gst-plugins-base/0.10.30/gst-plugins-base-0.10.30.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.29.4",
+    "Installed":      "installed/gst-plugins-base/0.10.29.4",
+    "Source":         "src/gst-plugins-base/0.10.29.4/gst-plugins-base-0.10.29.4.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.29.3",
+    "Installed":      "installed/gst-plugins-base/0.10.29.3",
+    "Source":         "src/gst-plugins-base/0.10.29.3/gst-plugins-base-0.10.29.3.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.29.2",
+    "Installed":      "installed/gst-plugins-base/0.10.29.2",
+    "Source":         "src/gst-plugins-base/0.10.29.2/gst-plugins-base-0.10.29.2.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.29",
+    "Installed":      "installed/gst-plugins-base/0.10.29",
+    "Source":         "src/gst-plugins-base/0.10.29/gst-plugins-base-0.10.29.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.28.3",
+    "Installed":      "installed/gst-plugins-base/0.10.28.3",
+    "Source":         "src/gst-plugins-base/0.10.28.3/gst-plugins-base-0.10.28.3.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.28.2",
+    "Installed":      "installed/gst-plugins-base/0.10.28.2",
+    "Source":         "src/gst-plugins-base/0.10.28.2/gst-plugins-base-0.10.28.2.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.28",
+    "Installed":      "installed/gst-plugins-base/0.10.28",
+    "Source":         "src/gst-plugins-base/0.10.28/gst-plugins-base-0.10.28.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.27",
+    "Installed":      "installed/gst-plugins-base/0.10.27",
+    "Source":         "src/gst-plugins-base/0.10.27/gst-plugins-base-0.10.27.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.26.4",
+    "Installed":      "installed/gst-plugins-base/0.10.26.4",
+    "Source":         "src/gst-plugins-base/0.10.26.4/gst-plugins-base-0.10.26.4.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.26.3",
+    "Installed":      "installed/gst-plugins-base/0.10.26.3",
+    "Source":         "src/gst-plugins-base/0.10.26.3/gst-plugins-base-0.10.26.3.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.26.2",
+    "Installed":      "installed/gst-plugins-base/0.10.26.2",
+    "Source":         "src/gst-plugins-base/0.10.26.2/gst-plugins-base-0.10.26.2.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.26",
+    "Installed":      "installed/gst-plugins-base/0.10.26",
+    "Source":         "src/gst-plugins-base/0.10.26/gst-plugins-base-0.10.26.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.25.3",
+    "Installed":      "installed/gst-plugins-base/0.10.25.3",
+    "Source":         "src/gst-plugins-base/0.10.25.3/gst-plugins-base-0.10.25.3.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.25.2",
+    "Installed":      "installed/gst-plugins-base/0.10.25.2",
+    "Source":         "src/gst-plugins-base/0.10.25.2/gst-plugins-base-0.10.25.2.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.25",
+    "Installed":      "installed/gst-plugins-base/0.10.25",
+    "Source":         "src/gst-plugins-base/0.10.25/gst-plugins-base-0.10.25.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.24.4",
+    "Installed":      "installed/gst-plugins-base/0.10.24.4",
+    "Source":         "src/gst-plugins-base/0.10.24.4/gst-plugins-base-0.10.24.4.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.24.3",
+    "Installed":      "installed/gst-plugins-base/0.10.24.3",
+    "Source":         "src/gst-plugins-base/0.10.24.3/gst-plugins-base-0.10.24.3.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.24.2",
+    "Installed":      "installed/gst-plugins-base/0.10.24.2",
+    "Source":         "src/gst-plugins-base/0.10.24.2/gst-plugins-base-0.10.24.2.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.24",
+    "Installed":      "installed/gst-plugins-base/0.10.24",
+    "Source":         "src/gst-plugins-base/0.10.24/gst-plugins-base-0.10.24.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.23.5",
+    "Installed":      "installed/gst-plugins-base/0.10.23.5",
+    "Source":         "src/gst-plugins-base/0.10.23.5/gst-plugins-base-0.10.23.5.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.23.4",
+    "Installed":      "installed/gst-plugins-base/0.10.23.4",
+    "Source":         "src/gst-plugins-base/0.10.23.4/gst-plugins-base-0.10.23.4.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.23.3",
+    "Installed":      "installed/gst-plugins-base/0.10.23.3",
+    "Source":         "src/gst-plugins-base/0.10.23.3/gst-plugins-base-0.10.23.3.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.23.2",
+    "Installed":      "installed/gst-plugins-base/0.10.23.2",
+    "Source":         "src/gst-plugins-base/0.10.23.2/gst-plugins-base-0.10.23.2.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.23",
+    "Installed":      "installed/gst-plugins-base/0.10.23",
+    "Source":         "src/gst-plugins-base/0.10.23/gst-plugins-base-0.10.23.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.22.6",
+    "Installed":      "installed/gst-plugins-base/0.10.22.6",
+    "Source":         "src/gst-plugins-base/0.10.22.6/gst-plugins-base-0.10.22.6.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.22.5",
+    "Installed":      "installed/gst-plugins-base/0.10.22.5",
+    "Source":         "src/gst-plugins-base/0.10.22.5/gst-plugins-base-0.10.22.5.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.22.4",
+    "Installed":      "installed/gst-plugins-base/0.10.22.4",
+    "Source":         "src/gst-plugins-base/0.10.22.4/gst-plugins-base-0.10.22.4.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.22.3",
+    "Installed":      "installed/gst-plugins-base/0.10.22.3",
+    "Source":         "src/gst-plugins-base/0.10.22.3/gst-plugins-base-0.10.22.3.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.22.2",
+    "Installed":      "installed/gst-plugins-base/0.10.22.2",
+    "Source":         "src/gst-plugins-base/0.10.22.2/gst-plugins-base-0.10.22.2.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.22",
+    "Installed":      "installed/gst-plugins-base/0.10.22",
+    "Source":         "src/gst-plugins-base/0.10.22/gst-plugins-base-0.10.22.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.21.5",
+    "Installed":      "installed/gst-plugins-base/0.10.21.5",
+    "Source":         "src/gst-plugins-base/0.10.21.5/gst-plugins-base-0.10.21.5.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.21.4",
+    "Installed":      "installed/gst-plugins-base/0.10.21.4",
+    "Source":         "src/gst-plugins-base/0.10.21.4/gst-plugins-base-0.10.21.4.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.21.3",
+    "Installed":      "installed/gst-plugins-base/0.10.21.3",
+    "Source":         "src/gst-plugins-base/0.10.21.3/gst-plugins-base-0.10.21.3.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.21.2",
+    "Installed":      "installed/gst-plugins-base/0.10.21.2",
+    "Source":         "src/gst-plugins-base/0.10.21.2/gst-plugins-base-0.10.21.2.tar.bz2",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

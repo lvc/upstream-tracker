@@ -1,0 +1,623 @@
+{
+  "Name":           "poppler",
+  "Title":          "Poppler",
+  "SourceUrl":      "https://poppler.freedesktop.org/releases.html",
+  "Git":            "http://anongit.freedesktop.org/git/poppler/poppler.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "sed -i -e 's/O2/Og/g' configure && sed -i -e 's/O2/Og/g' cmake/modules/*",
+  "CurrentPreInstall": "sed -i -e 's/O2/Og/g' cmake/modules/*",
+  "SkipObjects":    [ "libpoppler.so" ],
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/poppler/current",
+    "Source":         "src/poppler/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.43.0",
+    "Installed":      "installed/poppler/0.43.0",
+    "Source":         "src/poppler/0.43.0/poppler-0.43.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.42.0",
+    "Installed":      "installed/poppler/0.42.0",
+    "Source":         "src/poppler/0.42.0/poppler-0.42.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.41.0",
+    "Installed":      "installed/poppler/0.41.0",
+    "Source":         "src/poppler/0.41.0/poppler-0.41.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.40.0",
+    "Installed":      "installed/poppler/0.40.0",
+    "Source":         "src/poppler/0.40.0/poppler-0.40.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.39.0",
+    "Installed":      "installed/poppler/0.39.0",
+    "Source":         "src/poppler/0.39.0/poppler-0.39.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.38.0",
+    "Installed":      "installed/poppler/0.38.0",
+    "Source":         "src/poppler/0.38.0/poppler-0.38.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.37.0",
+    "Installed":      "installed/poppler/0.37.0",
+    "Source":         "src/poppler/0.37.0/poppler-0.37.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.36.0",
+    "Installed":      "installed/poppler/0.36.0",
+    "Source":         "src/poppler/0.36.0/poppler-0.36.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.35.0",
+    "Installed":      "installed/poppler/0.35.0",
+    "Source":         "src/poppler/0.35.0/poppler-0.35.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.34.0",
+    "Installed":      "installed/poppler/0.34.0",
+    "Source":         "src/poppler/0.34.0/poppler-0.34.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.33.0",
+    "Installed":      "installed/poppler/0.33.0",
+    "Source":         "src/poppler/0.33.0/poppler-0.33.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.32.0",
+    "Installed":      "installed/poppler/0.32.0",
+    "Source":         "src/poppler/0.32.0/poppler-0.32.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.31.0",
+    "Installed":      "installed/poppler/0.31.0",
+    "Source":         "src/poppler/0.31.0/poppler-0.31.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.30.0",
+    "Installed":      "installed/poppler/0.30.0",
+    "Source":         "src/poppler/0.30.0/poppler-0.30.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.29.0",
+    "Installed":      "installed/poppler/0.29.0",
+    "Source":         "src/poppler/0.29.0/poppler-0.29.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.28.1",
+    "Installed":      "installed/poppler/0.28.1",
+    "Source":         "src/poppler/0.28.1/poppler-0.28.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.28.0",
+    "Installed":      "installed/poppler/0.28.0",
+    "Source":         "src/poppler/0.28.0/poppler-0.28.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.26.5",
+    "Installed":      "installed/poppler/0.26.5",
+    "Source":         "src/poppler/0.26.5/poppler-0.26.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.26.4",
+    "Installed":      "installed/poppler/0.26.4",
+    "Source":         "src/poppler/0.26.4/poppler-0.26.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.26.3",
+    "Installed":      "installed/poppler/0.26.3",
+    "Source":         "src/poppler/0.26.3/poppler-0.26.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.26.2",
+    "Installed":      "installed/poppler/0.26.2",
+    "Source":         "src/poppler/0.26.2/poppler-0.26.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.26.1",
+    "Installed":      "installed/poppler/0.26.1",
+    "Source":         "src/poppler/0.26.1/poppler-0.26.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.26.0",
+    "Installed":      "installed/poppler/0.26.0",
+    "Source":         "src/poppler/0.26.0/poppler-0.26.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.25.3",
+    "Installed":      "installed/poppler/0.25.3",
+    "Source":         "src/poppler/0.25.3/poppler-0.25.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.25.2",
+    "Installed":      "installed/poppler/0.25.2",
+    "Source":         "src/poppler/0.25.2/poppler-0.25.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.25.1",
+    "Installed":      "installed/poppler/0.25.1",
+    "Source":         "src/poppler/0.25.1/poppler-0.25.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.25.0",
+    "Installed":      "installed/poppler/0.25.0",
+    "Source":         "src/poppler/0.25.0/poppler-0.25.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.24.5",
+    "Installed":      "installed/poppler/0.24.5",
+    "Source":         "src/poppler/0.24.5/poppler-0.24.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.24.4",
+    "Installed":      "installed/poppler/0.24.4",
+    "Source":         "src/poppler/0.24.4/poppler-0.24.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.24.3",
+    "Installed":      "installed/poppler/0.24.3",
+    "Source":         "src/poppler/0.24.3/poppler-0.24.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.24.2",
+    "Installed":      "installed/poppler/0.24.2",
+    "Source":         "src/poppler/0.24.2/poppler-0.24.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.24.1",
+    "Installed":      "installed/poppler/0.24.1",
+    "Source":         "src/poppler/0.24.1/poppler-0.24.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.24.0",
+    "Installed":      "installed/poppler/0.24.0",
+    "Source":         "src/poppler/0.24.0/poppler-0.24.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.23.4",
+    "Installed":      "installed/poppler/0.23.4",
+    "Source":         "src/poppler/0.23.4/poppler-0.23.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.23.3",
+    "Installed":      "installed/poppler/0.23.3",
+    "Source":         "src/poppler/0.23.3/poppler-0.23.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.23.2",
+    "Installed":      "installed/poppler/0.23.2",
+    "Source":         "src/poppler/0.23.2/poppler-0.23.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.23.1",
+    "Installed":      "installed/poppler/0.23.1",
+    "Source":         "src/poppler/0.23.1/poppler-0.23.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.23.0",
+    "Installed":      "installed/poppler/0.23.0",
+    "Source":         "src/poppler/0.23.0/poppler-0.23.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.22.5",
+    "Installed":      "installed/poppler/0.22.5",
+    "Source":         "src/poppler/0.22.5/poppler-0.22.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.22.4",
+    "Installed":      "installed/poppler/0.22.4",
+    "Source":         "src/poppler/0.22.4/poppler-0.22.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.22.3",
+    "Installed":      "installed/poppler/0.22.3",
+    "Source":         "src/poppler/0.22.3/poppler-0.22.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.22.2",
+    "Installed":      "installed/poppler/0.22.2",
+    "Source":         "src/poppler/0.22.2/poppler-0.22.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.22.1",
+    "Installed":      "installed/poppler/0.22.1",
+    "Source":         "src/poppler/0.22.1/poppler-0.22.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.22.0",
+    "Installed":      "installed/poppler/0.22.0",
+    "Source":         "src/poppler/0.22.0/poppler-0.22.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.21.4",
+    "Installed":      "installed/poppler/0.21.4",
+    "Source":         "src/poppler/0.21.4/poppler-0.21.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.21.3",
+    "Installed":      "installed/poppler/0.21.3",
+    "Source":         "src/poppler/0.21.3/poppler-0.21.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.21.2",
+    "Installed":      "installed/poppler/0.21.2",
+    "Source":         "src/poppler/0.21.2/poppler-0.21.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.21.1",
+    "Installed":      "installed/poppler/0.21.1",
+    "Source":         "src/poppler/0.21.1/poppler-0.21.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.21.0",
+    "Installed":      "installed/poppler/0.21.0",
+    "Source":         "src/poppler/0.21.0/poppler-0.21.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.5",
+    "Installed":      "installed/poppler/0.20.5",
+    "Source":         "src/poppler/0.20.5/poppler-0.20.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.4",
+    "Installed":      "installed/poppler/0.20.4",
+    "Source":         "src/poppler/0.20.4/poppler-0.20.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.3",
+    "Installed":      "installed/poppler/0.20.3",
+    "Source":         "src/poppler/0.20.3/poppler-0.20.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.2",
+    "Installed":      "installed/poppler/0.20.2",
+    "Source":         "src/poppler/0.20.2/poppler-0.20.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.1",
+    "Installed":      "installed/poppler/0.20.1",
+    "Source":         "src/poppler/0.20.1/poppler-0.20.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.0",
+    "Installed":      "installed/poppler/0.20.0",
+    "Source":         "src/poppler/0.20.0/poppler-0.20.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19.4",
+    "Installed":      "installed/poppler/0.19.4",
+    "Source":         "src/poppler/0.19.4/poppler-0.19.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19.3",
+    "Installed":      "installed/poppler/0.19.3",
+    "Source":         "src/poppler/0.19.3/poppler-0.19.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19.2",
+    "Installed":      "installed/poppler/0.19.2",
+    "Source":         "src/poppler/0.19.2/poppler-0.19.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19.1",
+    "Installed":      "installed/poppler/0.19.1",
+    "Source":         "src/poppler/0.19.1/poppler-0.19.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19.0",
+    "Installed":      "installed/poppler/0.19.0",
+    "Source":         "src/poppler/0.19.0/poppler-0.19.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,555 @@
+{
+  "Name":           "wolfssl",
+  "Title":          "wolfSSL",
+  "SourceUrl":      "https://github.com/wolfSSL/wolfssl/releases?after=v2.0.6",
+  "Git":            "https://github.com/wolfSSL/wolfssl.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-enable-debug",
+  "PreInstall":     "sed -i -e 's/O0/Og/' ./m4/ax_harden_compiler_flags.m4",
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+  "SkipVersions":   [ "0.5" ],
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/wolfssl/current",
+    "Source":         "src/wolfssl/current",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.9.0",
+    "Installed":      "installed/wolfssl/3.9.0",
+    "Source":         "src/wolfssl/3.9.0/wolfssl-3.9.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.8.0",
+    "Installed":      "installed/wolfssl/3.8.0",
+    "Source":         "src/wolfssl/3.8.0/wolfssl-3.8.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7.3",
+    "Installed":      "installed/wolfssl/3.7.3",
+    "Source":         "src/wolfssl/3.7.3/wolfssl-3.7.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7.1",
+    "Installed":      "installed/wolfssl/3.7.1",
+    "Source":         "src/wolfssl/3.7.1/wolfssl-3.7.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7.0",
+    "Installed":      "installed/wolfssl/3.7.0",
+    "Source":         "src/wolfssl/3.7.0/wolfssl-3.7.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.9",
+    "Installed":      "installed/wolfssl/3.6.9",
+    "Source":         "src/wolfssl/3.6.9/wolfssl-3.6.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.8",
+    "Installed":      "installed/wolfssl/3.6.8",
+    "Source":         "src/wolfssl/3.6.8/wolfssl-3.6.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.6",
+    "Installed":      "installed/wolfssl/3.6.6",
+    "Source":         "src/wolfssl/3.6.6/wolfssl-3.6.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.2",
+    "Installed":      "installed/wolfssl/3.6.2",
+    "Source":         "src/wolfssl/3.6.2/wolfssl-3.6.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.0",
+    "Installed":      "installed/wolfssl/3.6.0",
+    "Source":         "src/wolfssl/3.6.0/wolfssl-3.6.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.4.8",
+    "Installed":      "installed/wolfssl/3.4.8",
+    "Source":         "src/wolfssl/3.4.8/wolfssl-3.4.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.4.6",
+    "Installed":      "installed/wolfssl/3.4.6",
+    "Source":         "src/wolfssl/3.4.6/wolfssl-3.4.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.4.2",
+    "Installed":      "installed/wolfssl/3.4.2",
+    "Source":         "src/wolfssl/3.4.2/wolfssl-3.4.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.4.0",
+    "Installed":      "installed/wolfssl/3.4.0",
+    "Source":         "src/wolfssl/3.4.0/wolfssl-3.4.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.3",
+    "Installed":      "installed/wolfssl/3.3.3",
+    "Source":         "src/wolfssl/3.3.3/wolfssl-3.3.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.2",
+    "Installed":      "installed/wolfssl/3.3.2",
+    "Source":         "src/wolfssl/3.3.2/wolfssl-3.3.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.0",
+    "Installed":      "installed/wolfssl/3.3.0",
+    "Source":         "src/wolfssl/3.3.0/wolfssl-3.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.6",
+    "Installed":      "installed/wolfssl/3.2.6",
+    "Source":         "src/wolfssl/3.2.6/wolfssl-3.2.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.4",
+    "Installed":      "installed/wolfssl/3.2.4",
+    "Source":         "src/wolfssl/3.2.4/wolfssl-3.2.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.0",
+    "Installed":      "installed/wolfssl/3.2.0",
+    "Source":         "src/wolfssl/3.2.0/wolfssl-3.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.0",
+    "Installed":      "installed/wolfssl/3.1.0",
+    "Source":         "src/wolfssl/3.1.0/wolfssl-3.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.2",
+    "Installed":      "installed/wolfssl/3.0.2",
+    "Source":         "src/wolfssl/3.0.2/wolfssl-3.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.0",
+    "Installed":      "installed/wolfssl/3.0.0",
+    "Source":         "src/wolfssl/3.0.0/wolfssl-3.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.9.4",
+    "Installed":      "installed/wolfssl/2.9.4",
+    "Source":         "src/wolfssl/2.9.4/wolfssl-2.9.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.9.2",
+    "Installed":      "installed/wolfssl/2.9.2",
+    "Source":         "src/wolfssl/2.9.2/wolfssl-2.9.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.9.1",
+    "Installed":      "installed/wolfssl/2.9.1",
+    "Source":         "src/wolfssl/2.9.1/wolfssl-2.9.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.9.0",
+    "Installed":      "installed/wolfssl/2.9.0",
+    "Source":         "src/wolfssl/2.9.0/wolfssl-2.9.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.6",
+    "Installed":      "installed/wolfssl/2.8.6",
+    "Source":         "src/wolfssl/2.8.6/wolfssl-2.8.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.5",
+    "Installed":      "installed/wolfssl/2.8.5",
+    "Source":         "src/wolfssl/2.8.5/wolfssl-2.8.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.4",
+    "Installed":      "installed/wolfssl/2.8.4",
+    "Source":         "src/wolfssl/2.8.4/wolfssl-2.8.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.3",
+    "Installed":      "installed/wolfssl/2.8.3",
+    "Source":         "src/wolfssl/2.8.3/wolfssl-2.8.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.2",
+    "Installed":      "installed/wolfssl/2.8.2",
+    "Source":         "src/wolfssl/2.8.2/wolfssl-2.8.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.0",
+    "Installed":      "installed/wolfssl/2.8.0",
+    "Source":         "src/wolfssl/2.8.0/wolfssl-2.8.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.7.2",
+    "Installed":      "installed/wolfssl/2.7.2",
+    "Source":         "src/wolfssl/2.7.2/wolfssl-2.7.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.7.0",
+    "Installed":      "installed/wolfssl/2.7.0",
+    "Source":         "src/wolfssl/2.7.0/wolfssl-2.7.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.2",
+    "Installed":      "installed/wolfssl/2.6.2",
+    "Source":         "src/wolfssl/2.6.2/wolfssl-2.6.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.0",
+    "Installed":      "installed/wolfssl/2.6.0",
+    "Source":         "src/wolfssl/2.6.0/wolfssl-2.6.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.0",
+    "Installed":      "installed/wolfssl/2.5.0",
+    "Source":         "src/wolfssl/2.5.0/wolfssl-2.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.7",
+    "Installed":      "installed/wolfssl/2.4.7",
+    "Source":         "src/wolfssl/2.4.7/wolfssl-2.4.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.6",
+    "Installed":      "installed/wolfssl/2.4.6",
+    "Source":         "src/wolfssl/2.4.6/wolfssl-2.4.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.2",
+    "Installed":      "installed/wolfssl/2.4.2",
+    "Source":         "src/wolfssl/2.4.2/wolfssl-2.4.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.0",
+    "Installed":      "installed/wolfssl/2.4.0",
+    "Source":         "src/wolfssl/2.4.0/wolfssl-2.4.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.0",
+    "Installed":      "installed/wolfssl/2.3.0",
+    "Source":         "src/wolfssl/2.3.0/wolfssl-2.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.2",
+    "Installed":      "installed/wolfssl/2.2.2",
+    "Source":         "src/wolfssl/2.2.2/wolfssl-2.2.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.1",
+    "Installed":      "installed/wolfssl/2.2.1",
+    "Source":         "src/wolfssl/2.2.1/wolfssl-2.2.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.0",
+    "Installed":      "installed/wolfssl/2.2.0",
+    "Source":         "src/wolfssl/2.2.0/wolfssl-2.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.4",
+    "Installed":      "installed/wolfssl/2.1.4",
+    "Source":         "src/wolfssl/2.1.4/wolfssl-2.1.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.2",
+    "Installed":      "installed/wolfssl/2.1.2",
+    "Source":         "src/wolfssl/2.1.2/wolfssl-2.1.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.1",
+    "Installed":      "installed/wolfssl/2.1.1",
+    "Source":         "src/wolfssl/2.1.1/wolfssl-2.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.8",
+    "Installed":      "installed/wolfssl/2.0.8",
+    "Source":         "src/wolfssl/2.0.8/wolfssl-2.0.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.6",
+    "Installed":      "installed/wolfssl/2.0.6",
+    "Source":         "src/wolfssl/2.0.6/wolfssl-2.0.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.3",
+    "Installed":      "installed/wolfssl/2.0.3",
+    "Source":         "src/wolfssl/2.0.3/wolfssl-2.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.2",
+    "Installed":      "installed/wolfssl/2.0.2",
+    "Source":         "src/wolfssl/2.0.2/wolfssl-2.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

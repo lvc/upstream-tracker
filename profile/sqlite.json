@@ -1,0 +1,473 @@
+{
+  "Name":           "sqlite",
+  "Title":          "SQLite",
+  "SourceUrl":      "https://www.sqlite.org/download.html",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-tcl",
+  "SkipSymbols":    "filters/skip_symbols/sqlite.list",
+  "Changelog":      "Off",
+  "Package":        "sqlite-src",
+
+  "Versions": [
+  {
+    "Number":         3120200,
+    "Installed":      "installed/sqlite/3120200",
+    "Source":         "src/sqlite/3120200/sqlite-src-3120200.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3120100,
+    "Installed":      "installed/sqlite/3120100",
+    "Source":         "src/sqlite/3120100/sqlite-src-3120100.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3120000,
+    "Installed":      "installed/sqlite/3120000",
+    "Source":         "src/sqlite/3120000/sqlite-src-3120000.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3110100,
+    "Installed":      "installed/sqlite/3110100",
+    "Source":         "src/sqlite/3110100/sqlite-src-3110100.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3110000,
+    "Installed":      "installed/sqlite/3110000",
+    "Source":         "src/sqlite/3110000/sqlite-src-3110000.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3100200,
+    "Installed":      "installed/sqlite/3100200",
+    "Source":         "src/sqlite/3100200/sqlite-src-3100200.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3100000,
+    "Installed":      "installed/sqlite/3100000",
+    "Source":         "src/sqlite/3100000/sqlite-src-3100000.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3090200,
+    "Installed":      "installed/sqlite/3090200",
+    "Source":         "src/sqlite/3090200/sqlite-src-3090200.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3090000,
+    "Installed":      "installed/sqlite/3090000",
+    "Source":         "src/sqlite/3090000/sqlite-src-3090000.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3081101,
+    "Installed":      "installed/sqlite/3081101",
+    "Source":         "src/sqlite/3081101/sqlite-src-3081101.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3081100,
+    "Installed":      "installed/sqlite/3081100",
+    "Source":         "src/sqlite/3081100/sqlite-src-3081100.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3081002,
+    "Installed":      "installed/sqlite/3081002",
+    "Source":         "src/sqlite/3081002/sqlite-src-3081002.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3081001,
+    "Installed":      "installed/sqlite/3081001",
+    "Source":         "src/sqlite/3081001/sqlite-src-3081001.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3080900,
+    "Installed":      "installed/sqlite/3080900",
+    "Source":         "src/sqlite/3080900/sqlite-src-3080900.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3080803,
+    "Installed":      "installed/sqlite/3080803",
+    "Source":         "src/sqlite/3080803/sqlite-src-3080803.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3080800,
+    "Installed":      "installed/sqlite/3080800",
+    "Source":         "src/sqlite/3080800/sqlite-src-3080800.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3080704,
+    "Installed":      "installed/sqlite/3080704",
+    "Source":         "src/sqlite/3080704/sqlite-src-3080704.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3080702,
+    "Installed":      "installed/sqlite/3080702",
+    "Source":         "src/sqlite/3080702/sqlite-src-3080702.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3080700,
+    "Installed":      "installed/sqlite/3080700",
+    "Source":         "src/sqlite/3080700/sqlite-src-3080700.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3080600,
+    "Installed":      "installed/sqlite/3080600",
+    "Source":         "src/sqlite/3080600/sqlite-src-3080600.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3080500,
+    "Installed":      "installed/sqlite/3080500",
+    "Source":         "src/sqlite/3080500/sqlite-src-3080500.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3080403,
+    "Installed":      "installed/sqlite/3080403",
+    "Source":         "src/sqlite/3080403/sqlite-src-3080403.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3080402,
+    "Installed":      "installed/sqlite/3080402",
+    "Source":         "src/sqlite/3080402/sqlite-src-3080402.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3080400,
+    "Installed":      "installed/sqlite/3080400",
+    "Source":         "src/sqlite/3080400/sqlite-src-3080400.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3080300,
+    "Installed":      "installed/sqlite/3080300",
+    "Source":         "src/sqlite/3080300/sqlite-src-3080300.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3080200,
+    "Installed":      "installed/sqlite/3080200",
+    "Source":         "src/sqlite/3080200/sqlite-src-3080200.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3080100,
+    "Installed":      "installed/sqlite/3080100",
+    "Source":         "src/sqlite/3080100/sqlite-src-3080100.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3080002,
+    "Installed":      "installed/sqlite/3080002",
+    "Source":         "src/sqlite/3080002/sqlite-src-3080002.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3071700,
+    "Installed":      "installed/sqlite/3071700",
+    "Source":         "src/sqlite/3071700/sqlite-src-3071700.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3071602,
+    "Installed":      "installed/sqlite/3071602",
+    "Source":         "src/sqlite/3071602/sqlite-src-3071602.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3071601,
+    "Installed":      "installed/sqlite/3071601",
+    "Source":         "src/sqlite/3071601/sqlite-src-3071601.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3071600,
+    "Installed":      "installed/sqlite/3071600",
+    "Source":         "src/sqlite/3071600/sqlite-src-3071600.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3071502,
+    "Installed":      "installed/sqlite/3071502",
+    "Source":         "src/sqlite/3071502/sqlite-src-3071502.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3071500,
+    "Installed":      "installed/sqlite/3071500",
+    "Source":         "src/sqlite/3071500/sqlite-src-3071500.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3071401,
+    "Installed":      "installed/sqlite/3071401",
+    "Source":         "src/sqlite/3071401/sqlite-src-3071401.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3071400,
+    "Installed":      "installed/sqlite/3071400",
+    "Source":         "src/sqlite/3071400/sqlite-src-3071400.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3071300,
+    "Installed":      "installed/sqlite/3071300",
+    "Source":         "src/sqlite/3071300/sqlite-src-3071300.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3071100,
+    "Installed":      "installed/sqlite/3071100",
+    "Source":         "src/sqlite/3071100/sqlite-src-3071100.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3071000,
+    "Installed":      "installed/sqlite/3071000",
+    "Source":         "src/sqlite/3071000/sqlite-src-3071000.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3070900,
+    "Installed":      "installed/sqlite/3070900",
+    "Source":         "src/sqlite/3070900/sqlite-src-3070900.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3070800,
+    "Installed":      "installed/sqlite/3070800",
+    "Source":         "src/sqlite/3070800/sqlite-src-3070800.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3070701,
+    "Installed":      "installed/sqlite/3070701",
+    "Source":         "src/sqlite/3070701/sqlite-src-3070701.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3070603,
+    "Installed":      "installed/sqlite/3070603",
+    "Source":         "src/sqlite/3070603/sqlite-src-3070603.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3070602,
+    "Installed":      "installed/sqlite/3070602",
+    "Source":         "src/sqlite/3070602/sqlite-src-3070602.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3070500,
+    "Installed":      "installed/sqlite/3070500",
+    "Source":         "src/sqlite/3070500/sqlite-src-3070500.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3070400,
+    "Installed":      "installed/sqlite/3070400",
+    "Source":         "src/sqlite/3070400/sqlite-src-3070400.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

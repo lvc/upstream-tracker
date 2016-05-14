@@ -1,0 +1,5 @@
+struct ompi_request_t
+struct ompi_errhandler_t
+struct ompi_file_t
+struct ompi_group_t
+struct ompi_info_t

@@ -1,0 +1,6 @@
+malloc_info@@GLIBC_2.10
+__libc_res_nsearch
+__libc_res_nquery
+sched_getaffinity
+system
+__GI___abort_msg

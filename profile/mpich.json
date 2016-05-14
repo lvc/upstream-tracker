@@ -1,0 +1,295 @@
+{
+  "Name":           "mpich",
+  "Title":          "MPICH",
+  "SourceUrl":      "http://www.mpich.org/static/downloads/",
+  "Git":            "http://git.mpich.org/mpich.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-fortran",
+  "PreInstall":     "sed -i -e 's/O2/Og/g' configure",
+  "CurrentPreInstall": "sh autogen.sh >/dev/null 2>&1 ; sed -i -e 's/O2/Og/g' configure",
+  "SkipObjects":    [ "libTraceInput.so", "libmpl.so" ],
+  "SkipInternalSymbols": "MPIX_.*|PMPIX_.*",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/mpich/current",
+    "Source":         "src/mpich/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2",
+    "Installed":      "installed/mpich/3.2",
+    "Source":         "src/mpich/3.2/mpich-3.2.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "On",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.4",
+    "Installed":      "installed/mpich/3.1.4",
+    "Source":         "src/mpich/3.1.4/mpich-3.1.4.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.3",
+    "Installed":      "installed/mpich/3.1.3",
+    "Source":         "src/mpich/3.1.3/mpich-3.1.3.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.2",
+    "Installed":      "installed/mpich/3.1.2",
+    "Source":         "src/mpich/3.1.2/mpich-3.1.2.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.1",
+    "Installed":      "installed/mpich/3.1.1",
+    "Source":         "src/mpich/3.1.1/mpich-3.1.1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1",
+    "Installed":      "installed/mpich/3.1",
+    "Source":         "src/mpich/3.1/mpich-3.1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.4",
+    "Installed":      "installed/mpich/3.0.4",
+    "Source":         "src/mpich/3.0.4/mpich-3.0.4.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.3",
+    "Installed":      "installed/mpich/3.0.3",
+    "Source":         "src/mpich/3.0.3/mpich-3.0.3.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.2",
+    "Installed":      "installed/mpich/3.0.2",
+    "Source":         "src/mpich/3.0.2/mpich-3.0.2.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.1",
+    "Installed":      "installed/mpich/3.0.1",
+    "Source":         "src/mpich/3.0.1/mpich-3.0.1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0",
+    "Installed":      "installed/mpich/3.0",
+    "Source":         "src/mpich/3.0/mpich-3.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2-1.5",
+    "Installed":      "installed/mpich/2-1.5",
+    "Source":         "src/mpich/2-1.5/mpich2-1.5.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2-1.4.1",
+    "Installed":      "installed/mpich/2-1.4.1",
+    "Source":         "src/mpich/2-1.4.1/mpich2-1.4.1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2-1.4",
+    "Installed":      "installed/mpich/2-1.4",
+    "Source":         "src/mpich/2-1.4/mpich2-1.4.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2-1.3.2",
+    "Installed":      "installed/mpich/2-1.3.2",
+    "Source":         "src/mpich/2-1.3.2/mpich2-1.3.2.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2-1.3.1",
+    "Installed":      "installed/mpich/2-1.3.1",
+    "Source":         "src/mpich/2-1.3.1/mpich2-1.3.1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2-1.3",
+    "Installed":      "installed/mpich/2-1.3",
+    "Source":         "src/mpich/2-1.3/mpich2-1.3.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2-1.2.1",
+    "Installed":      "installed/mpich/2-1.2.1",
+    "Source":         "src/mpich/2-1.2.1/mpich2-1.2.1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2-1.2",
+    "Installed":      "installed/mpich/2-1.2",
+    "Source":         "src/mpich/2-1.2/mpich2-1.2.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2-1.1.1",
+    "Installed":      "installed/mpich/2-1.1.1",
+    "Source":         "src/mpich/2-1.1.1/mpich2-1.1.1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2-1.0.8",
+    "Installed":      "installed/mpich/2-1.0.8",
+    "Source":         "src/mpich/2-1.0.8/mpich2-1.0.8.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2-1.0.7",
+    "Installed":      "installed/mpich/2-1.0.7",
+    "Source":         "src/mpich/2-1.0.7/mpich2-1.0.7.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2-1.0.6",
+    "Installed":      "installed/mpich/2-1.0.6",
+    "Source":         "src/mpich/2-1.0.6/mpich2-1.0.6.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2-1.0.5",
+    "Installed":      "installed/mpich/2-1.0.5",
+    "Source":         "src/mpich/2-1.0.5/mpich2-1.0.5.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2-1.0.4",
+    "Installed":      "installed/mpich/2-1.0.4",
+    "Source":         "src/mpich/2-1.0.4/mpich2-1.0.4.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2-1.0.3",
+    "Installed":      "installed/mpich/2-1.0.3",
+    "Source":         "src/mpich/2-1.0.3/mpich2-1.0.3.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2-1.0.2",
+    "Installed":      "installed/mpich/2-1.0.2",
+    "Source":         "src/mpich/2-1.0.2/mpich2-1.0.2.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,479 @@
+{
+  "Name":           "wireshark",
+  "Title":          "Wireshark",
+  "SourceUrl":      "https://1.na.dl.wireshark.org/src/",
+  "Git":            "https://code.wireshark.org/review/wireshark",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "Configure":      "--disable-wireshark",
+  "SkipObjects":    [ "/plugins/" ],
+  "CopyHeaders":    [ "." ],
+  "HeadersDiff":    "Off",
+  "Make":           "-j2",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/wireshark/current",
+    "Source":         "src/wireshark/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.3",
+    "Installed":      "installed/wireshark/2.0.3",
+    "Source":         "src/wireshark/2.0.3/wireshark-2.0.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.2",
+    "Installed":      "installed/wireshark/2.0.2",
+    "Source":         "src/wireshark/2.0.2/wireshark-2.0.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.1",
+    "Installed":      "installed/wireshark/2.0.1",
+    "Source":         "src/wireshark/2.0.1/wireshark-2.0.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0",
+    "Installed":      "installed/wireshark/2.0.0",
+    "Source":         "src/wireshark/2.0.0/wireshark-2.0.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0rc3",
+    "Installed":      "installed/wireshark/2.0.0rc3",
+    "Source":         "src/wireshark/2.0.0rc3/wireshark-2.0.0rc3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.0.0rc2",
+    "Installed":      "installed/wireshark/2.0.0rc2",
+    "Source":         "src/wireshark/2.0.0rc2/wireshark-2.0.0rc2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.0.0rc1",
+    "Installed":      "installed/wireshark/2.0.0rc1",
+    "Source":         "src/wireshark/2.0.0rc1/wireshark-2.0.0rc1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.99.9",
+    "Installed":      "installed/wireshark/1.99.9",
+    "Source":         "src/wireshark/1.99.9/wireshark-1.99.9.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.99.8",
+    "Installed":      "installed/wireshark/1.99.8",
+    "Source":         "src/wireshark/1.99.8/wireshark-1.99.8.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.99.7",
+    "Installed":      "installed/wireshark/1.99.7",
+    "Source":         "src/wireshark/1.99.7/wireshark-1.99.7.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.99.6",
+    "Installed":      "installed/wireshark/1.99.6",
+    "Source":         "src/wireshark/1.99.6/wireshark-1.99.6.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.99.5",
+    "Installed":      "installed/wireshark/1.99.5",
+    "Source":         "src/wireshark/1.99.5/wireshark-1.99.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.99.4",
+    "Installed":      "installed/wireshark/1.99.4",
+    "Source":         "src/wireshark/1.99.4/wireshark-1.99.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.99.3",
+    "Installed":      "installed/wireshark/1.99.3",
+    "Source":         "src/wireshark/1.99.3/wireshark-1.99.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.99.2",
+    "Installed":      "installed/wireshark/1.99.2",
+    "Source":         "src/wireshark/1.99.2/wireshark-1.99.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.99.1",
+    "Installed":      "installed/wireshark/1.99.1",
+    "Source":         "src/wireshark/1.99.1/wireshark-1.99.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.99.0",
+    "Installed":      "installed/wireshark/1.99.0",
+    "Source":         "src/wireshark/1.99.0/wireshark-1.99.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.11",
+    "Installed":      "installed/wireshark/1.12.11",
+    "Source":         "src/wireshark/1.12.11/wireshark-1.12.11.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.10",
+    "Installed":      "installed/wireshark/1.12.10",
+    "Source":         "src/wireshark/1.12.10/wireshark-1.12.10.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.9",
+    "Installed":      "installed/wireshark/1.12.9",
+    "Source":         "src/wireshark/1.12.9/wireshark-1.12.9.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.8",
+    "Installed":      "installed/wireshark/1.12.8",
+    "Source":         "src/wireshark/1.12.8/wireshark-1.12.8.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.7",
+    "Installed":      "installed/wireshark/1.12.7",
+    "Source":         "src/wireshark/1.12.7/wireshark-1.12.7.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.6",
+    "Installed":      "installed/wireshark/1.12.6",
+    "Source":         "src/wireshark/1.12.6/wireshark-1.12.6.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.5",
+    "Installed":      "installed/wireshark/1.12.5",
+    "Source":         "src/wireshark/1.12.5/wireshark-1.12.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.4",
+    "Installed":      "installed/wireshark/1.12.4",
+    "Source":         "src/wireshark/1.12.4/wireshark-1.12.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.3",
+    "Installed":      "installed/wireshark/1.12.3",
+    "Source":         "src/wireshark/1.12.3/wireshark-1.12.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.2",
+    "Installed":      "installed/wireshark/1.12.2",
+    "Source":         "src/wireshark/1.12.2/wireshark-1.12.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.1",
+    "Installed":      "installed/wireshark/1.12.1",
+    "Source":         "src/wireshark/1.12.1/wireshark-1.12.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.0",
+    "Installed":      "installed/wireshark/1.12.0",
+    "Source":         "src/wireshark/1.12.0/wireshark-1.12.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.3",
+    "Installed":      "installed/wireshark/1.11.3",
+    "Source":         "src/wireshark/1.11.3/wireshark-1.11.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.2",
+    "Installed":      "installed/wireshark/1.11.2",
+    "Source":         "src/wireshark/1.11.2/wireshark-1.11.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.1",
+    "Installed":      "installed/wireshark/1.11.1",
+    "Source":         "src/wireshark/1.11.1/wireshark-1.11.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.0",
+    "Installed":      "installed/wireshark/1.11.0",
+    "Source":         "src/wireshark/1.11.0/wireshark-1.11.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.14",
+    "Installed":      "installed/wireshark/1.10.14",
+    "Source":         "src/wireshark/1.10.14/wireshark-1.10.14.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.13",
+    "Installed":      "installed/wireshark/1.10.13",
+    "Source":         "src/wireshark/1.10.13/wireshark-1.10.13.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.12",
+    "Installed":      "installed/wireshark/1.10.12",
+    "Source":         "src/wireshark/1.10.12/wireshark-1.10.12.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.11",
+    "Installed":      "installed/wireshark/1.10.11",
+    "Source":         "src/wireshark/1.10.11/wireshark-1.10.11.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.10",
+    "Installed":      "installed/wireshark/1.10.10",
+    "Source":         "src/wireshark/1.10.10/wireshark-1.10.10.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.9",
+    "Installed":      "installed/wireshark/1.10.9",
+    "Source":         "src/wireshark/1.10.9/wireshark-1.10.9.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.8",
+    "Installed":      "installed/wireshark/1.10.8",
+    "Source":         "src/wireshark/1.10.8/wireshark-1.10.8.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.7",
+    "Installed":      "installed/wireshark/1.10.7",
+    "Source":         "src/wireshark/1.10.7/wireshark-1.10.7.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.6",
+    "Installed":      "installed/wireshark/1.10.6",
+    "Source":         "src/wireshark/1.10.6/wireshark-1.10.6.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.5",
+    "Installed":      "installed/wireshark/1.10.5",
+    "Source":         "src/wireshark/1.10.5/wireshark-1.10.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.4",
+    "Installed":      "installed/wireshark/1.10.4",
+    "Source":         "src/wireshark/1.10.4/wireshark-1.10.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.3",
+    "Installed":      "installed/wireshark/1.10.3",
+    "Source":         "src/wireshark/1.10.3/wireshark-1.10.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

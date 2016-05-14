@@ -1,0 +1,153 @@
+{
+  "Name":           "mongo-cxx-driver",
+  "Title":          "MongoDB C++ Driver",
+  "SourceUrl":      "https://github.com/mongodb/mongo-cxx-driver/tags",
+  "Git":            "https://github.com/mongodb/mongo-cxx-driver.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/mongo-cxx-driver.sh",
+  "HeadersDiff":    "Off",
+  "Package":        "r",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/mongo-cxx-driver/current",
+    "Source":         "src/mongo-cxx-driver/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.0",
+    "Installed":      "installed/mongo-cxx-driver/3.0.0",
+    "Source":         "src/mongo-cxx-driver/3.0.0/r3.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/mongo-cxx-driver/1.1.0",
+    "Source":         "src/mongo-cxx-driver/1.1.0/legacy-1.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.7",
+    "Installed":      "installed/mongo-cxx-driver/1.0.7",
+    "Source":         "src/mongo-cxx-driver/1.0.7/legacy-1.0.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.6",
+    "Installed":      "installed/mongo-cxx-driver/1.0.6",
+    "Source":         "src/mongo-cxx-driver/1.0.6/legacy-1.0.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.5",
+    "Installed":      "installed/mongo-cxx-driver/1.0.5",
+    "Source":         "src/mongo-cxx-driver/1.0.5/legacy-1.0.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.4",
+    "Installed":      "installed/mongo-cxx-driver/1.0.4",
+    "Source":         "src/mongo-cxx-driver/1.0.4/legacy-1.0.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.3",
+    "Installed":      "installed/mongo-cxx-driver/1.0.3",
+    "Source":         "src/mongo-cxx-driver/1.0.3/legacy-1.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.2",
+    "Installed":      "installed/mongo-cxx-driver/1.0.2",
+    "Source":         "src/mongo-cxx-driver/1.0.2/legacy-1.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/mongo-cxx-driver/1.0.1",
+    "Source":         "src/mongo-cxx-driver/1.0.1/legacy-1.0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/mongo-cxx-driver/1.0.0",
+    "Source":         "src/mongo-cxx-driver/1.0.0/legacy-1.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.0",
+    "Installed":      "installed/mongo-cxx-driver/0.11.0",
+    "Source":         "src/mongo-cxx-driver/0.11.0/legacy-0.11.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.0",
+    "Installed":      "installed/mongo-cxx-driver/0.10.0",
+    "Source":         "src/mongo-cxx-driver/0.10.0/legacy-0.10.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.0",
+    "Installed":      "installed/mongo-cxx-driver/0.9.0",
+    "Source":         "src/mongo-cxx-driver/0.9.0/legacy-0.9.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

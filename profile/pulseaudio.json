@@ -1,0 +1,313 @@
+{
+  "Name":           "pulseaudio",
+  "Title":          "PulseAudio",
+  "SourceUrl":      "http://freedesktop.org/software/pulseaudio/releases/",
+  "Git":            "http://anongit.freedesktop.org/git/pulseaudio/pulseaudio.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-systemd-daemon --disable-udev --with-bash-completion-dir={INSTALL_TO}",
+  "SkipObjects":    [ "modules/", "pulseaudio/", "libpulsecore\-.*", "libpulsedsp.so", "libpulsecommon\-.*" ],
+  "SkipVersions":   [ "1.99.2" ],
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/pulseaudio/current",
+    "Source":         "src/pulseaudio/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.99.1",
+    "Installed":      "installed/pulseaudio/8.99.1",
+    "Source":         "src/pulseaudio/8.99.1/pulseaudio-8.99.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.0",
+    "Installed":      "installed/pulseaudio/8.0",
+    "Source":         "src/pulseaudio/8.0/pulseaudio-8.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.99.2",
+    "Installed":      "installed/pulseaudio/7.99.2",
+    "Source":         "src/pulseaudio/7.99.2/pulseaudio-7.99.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.99.1",
+    "Installed":      "installed/pulseaudio/7.99.1",
+    "Source":         "src/pulseaudio/7.99.1/pulseaudio-7.99.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.1",
+    "Installed":      "installed/pulseaudio/7.1",
+    "Source":         "src/pulseaudio/7.1/pulseaudio-7.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0",
+    "Installed":      "installed/pulseaudio/7.0",
+    "Source":         "src/pulseaudio/7.0/pulseaudio-7.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.99.2",
+    "Installed":      "installed/pulseaudio/6.99.2",
+    "Source":         "src/pulseaudio/6.99.2/pulseaudio-6.99.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.99.1",
+    "Installed":      "installed/pulseaudio/6.99.1",
+    "Source":         "src/pulseaudio/6.99.1/pulseaudio-6.99.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.0",
+    "Installed":      "installed/pulseaudio/6.0",
+    "Source":         "src/pulseaudio/6.0/pulseaudio-6.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.99.3",
+    "Installed":      "installed/pulseaudio/5.99.3",
+    "Source":         "src/pulseaudio/5.99.3/pulseaudio-5.99.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.99.2",
+    "Installed":      "installed/pulseaudio/5.99.2",
+    "Source":         "src/pulseaudio/5.99.2/pulseaudio-5.99.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.99.1",
+    "Installed":      "installed/pulseaudio/5.99.1",
+    "Source":         "src/pulseaudio/5.99.1/pulseaudio-5.99.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0",
+    "Installed":      "installed/pulseaudio/5.0",
+    "Source":         "src/pulseaudio/5.0/pulseaudio-5.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.99.4",
+    "Installed":      "installed/pulseaudio/4.99.4",
+    "Source":         "src/pulseaudio/4.99.4/pulseaudio-4.99.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.99.3",
+    "Installed":      "installed/pulseaudio/4.99.3",
+    "Source":         "src/pulseaudio/4.99.3/pulseaudio-4.99.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.99.2",
+    "Installed":      "installed/pulseaudio/4.99.2",
+    "Source":         "src/pulseaudio/4.99.2/pulseaudio-4.99.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0",
+    "Installed":      "installed/pulseaudio/4.0",
+    "Source":         "src/pulseaudio/4.0/pulseaudio-4.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.99.2",
+    "Installed":      "installed/pulseaudio/3.99.2",
+    "Source":         "src/pulseaudio/3.99.2/pulseaudio-3.99.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.99.1",
+    "Installed":      "installed/pulseaudio/3.99.1",
+    "Source":         "src/pulseaudio/3.99.1/pulseaudio-3.99.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0",
+    "Installed":      "installed/pulseaudio/3.0",
+    "Source":         "src/pulseaudio/3.0/pulseaudio-3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.99.3",
+    "Installed":      "installed/pulseaudio/2.99.3",
+    "Source":         "src/pulseaudio/2.99.3/pulseaudio-2.99.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.99.2",
+    "Installed":      "installed/pulseaudio/2.99.2",
+    "Source":         "src/pulseaudio/2.99.2/pulseaudio-2.99.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.99.1",
+    "Installed":      "installed/pulseaudio/2.99.1",
+    "Source":         "src/pulseaudio/2.99.1/pulseaudio-2.99.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1",
+    "Installed":      "installed/pulseaudio/2.1",
+    "Source":         "src/pulseaudio/2.1/pulseaudio-2.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0",
+    "Installed":      "installed/pulseaudio/2.0",
+    "Source":         "src/pulseaudio/2.0/pulseaudio-2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.99.2",
+    "Installed":      "installed/pulseaudio/1.99.2",
+    "Source":         "src/pulseaudio/1.99.2/pulseaudio-1.99.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.99.1",
+    "Installed":      "installed/pulseaudio/1.99.1",
+    "Source":         "src/pulseaudio/1.99.1/pulseaudio-1.99.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1",
+    "Installed":      "installed/pulseaudio/1.1",
+    "Source":         "src/pulseaudio/1.1/pulseaudio-1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0",
+    "Installed":      "installed/pulseaudio/1.0",
+    "Source":         "src/pulseaudio/1.0/pulseaudio-1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

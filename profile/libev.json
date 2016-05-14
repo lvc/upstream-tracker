@@ -1,0 +1,330 @@
+{
+  "Name":           "libev",
+  "SourceUrl":      "http://dist.schmorp.de/libev/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "sed -i -e 's/-O3/-Og/' configure",
+  "StringReleases": "1",
+
+  "Versions": [
+  {
+    "Number":         "4.22",
+    "Installed":      "installed/libev/4.22",
+    "Source":         "src/libev/4.22/libev-4.22.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.20",
+    "Installed":      "installed/libev/4.20",
+    "Source":         "src/libev/4.20/libev-4.20.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.19",
+    "Installed":      "installed/libev/4.19",
+    "Source":         "src/libev/4.19/libev-4.19.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.18",
+    "Installed":      "installed/libev/4.18",
+    "Source":         "src/libev/4.18/libev-4.18.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.15",
+    "Installed":      "installed/libev/4.15",
+    "Source":         "src/libev/4.15/libev-4.15.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.11",
+    "Installed":      "installed/libev/4.11",
+    "Source":         "src/libev/4.11/libev-4.11.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.04",
+    "Installed":      "installed/libev/4.04",
+    "Source":         "src/libev/4.04/libev-4.04.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.03",
+    "Installed":      "installed/libev/4.03",
+    "Source":         "src/libev/4.03/libev-4.03.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.01",
+    "Installed":      "installed/libev/4.01",
+    "Source":         "src/libev/4.01/libev-4.01.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.00",
+    "Installed":      "installed/libev/4.00",
+    "Source":         "src/libev/4.00/libev-4.00.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.9",
+    "Installed":      "installed/libev/3.9",
+    "Source":         "src/libev/3.9/libev-3.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.8",
+    "Installed":      "installed/libev/3.8",
+    "Source":         "src/libev/3.8/libev-3.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7",
+    "Installed":      "installed/libev/3.7",
+    "Source":         "src/libev/3.7/libev-3.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6",
+    "Installed":      "installed/libev/3.6",
+    "Source":         "src/libev/3.6/libev-3.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.53",
+    "Installed":      "installed/libev/3.53",
+    "Source":         "src/libev/3.53/libev-3.53.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.52",
+    "Installed":      "installed/libev/3.52",
+    "Source":         "src/libev/3.52/libev-3.52.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.51",
+    "Installed":      "installed/libev/3.51",
+    "Source":         "src/libev/3.51/libev-3.51.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.49",
+    "Installed":      "installed/libev/3.49",
+    "Source":         "src/libev/3.49/libev-3.49.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.48",
+    "Installed":      "installed/libev/3.48",
+    "Source":         "src/libev/3.48/libev-3.48.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.45",
+    "Installed":      "installed/libev/3.45",
+    "Source":         "src/libev/3.45/libev-3.45.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.44",
+    "Installed":      "installed/libev/3.44",
+    "Source":         "src/libev/3.44/libev-3.44.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.43",
+    "Installed":      "installed/libev/3.43",
+    "Source":         "src/libev/3.43/libev-3.43.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.42",
+    "Installed":      "installed/libev/3.42",
+    "Source":         "src/libev/3.42/libev-3.42.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.41",
+    "Installed":      "installed/libev/3.41",
+    "Source":         "src/libev/3.41/libev-3.41.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.31",
+    "Installed":      "installed/libev/3.31",
+    "Source":         "src/libev/3.31/libev-3.31.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2",
+    "Installed":      "installed/libev/3.2",
+    "Source":         "src/libev/3.2/libev-3.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1",
+    "Installed":      "installed/libev/3.1",
+    "Source":         "src/libev/3.1/libev-3.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0",
+    "Installed":      "installed/libev/3.0",
+    "Source":         "src/libev/3.0/libev-3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.01",
+    "Installed":      "installed/libev/2.01",
+    "Source":         "src/libev/2.01/libev-2.01.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0",
+    "Installed":      "installed/libev/2.0",
+    "Source":         "src/libev/2.0/libev-2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.86",
+    "Installed":      "installed/libev/1.86",
+    "Source":         "src/libev/1.86/libev-1.86.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.85",
+    "Installed":      "installed/libev/1.85",
+    "Source":         "src/libev/1.85/libev-1.85.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

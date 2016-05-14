@@ -1,0 +1,498 @@
+{
+  "Name":           "elementary",
+  "Title":          "Elementary",
+  "SourceUrl":      "http://download.enlightenment.org/rel/libs/elementary/",
+  "Git":            "https://git.enlightenment.org/core/elementary.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/efl/{VERSION}/lib/pkgconfig/",
+  "SkipObjects":    [ "modules/" ],
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/elementary/current",
+    "Source":         "src/elementary/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.17.0",
+    "Installed":      "installed/elementary/1.17.0",
+    "Source":         "src/elementary/1.17.0/elementary-1.17.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.17.0-beta3",
+    "Installed":      "installed/elementary/1.17.0-beta3",
+    "Source":         "src/elementary/1.17.0-beta3/elementary-1.17.0-beta3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.17.0-beta2",
+    "Installed":      "installed/elementary/1.17.0-beta2",
+    "Source":         "src/elementary/1.17.0-beta2/elementary-1.17.0-beta2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.17.0-beta1",
+    "Installed":      "installed/elementary/1.17.0-beta1",
+    "Source":         "src/elementary/1.17.0-beta1/elementary-1.17.0-beta1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.16.1",
+    "Installed":      "installed/elementary/1.16.1",
+    "Source":         "src/elementary/1.16.1/elementary-1.16.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.16.0",
+    "Installed":      "installed/elementary/1.16.0",
+    "Source":         "src/elementary/1.16.0/elementary-1.16.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.16.0-beta3",
+    "Installed":      "installed/elementary/1.16.0-beta3",
+    "Source":         "src/elementary/1.16.0-beta3/elementary-1.16.0-beta3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.16.0-beta2",
+    "Installed":      "installed/elementary/1.16.0-beta2",
+    "Source":         "src/elementary/1.16.0-beta2/elementary-1.16.0-beta2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.15.3",
+    "Installed":      "installed/elementary/1.15.3",
+    "Source":         "src/elementary/1.15.3/elementary-1.15.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.2",
+    "Installed":      "installed/elementary/1.15.2",
+    "Source":         "src/elementary/1.15.2/elementary-1.15.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.1",
+    "Installed":      "installed/elementary/1.15.1",
+    "Source":         "src/elementary/1.15.1/elementary-1.15.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.0",
+    "Installed":      "installed/elementary/1.15.0",
+    "Source":         "src/elementary/1.15.0/elementary-1.15.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.3",
+    "Installed":      "installed/elementary/1.14.3",
+    "Source":         "src/elementary/1.14.3/elementary-1.14.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.2",
+    "Installed":      "installed/elementary/1.14.2",
+    "Source":         "src/elementary/1.14.2/elementary-1.14.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.1",
+    "Installed":      "installed/elementary/1.14.1",
+    "Source":         "src/elementary/1.14.1/elementary-1.14.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.0",
+    "Installed":      "installed/elementary/1.14.0",
+    "Source":         "src/elementary/1.14.0/elementary-1.14.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.3",
+    "Installed":      "installed/elementary/1.13.3",
+    "Source":         "src/elementary/1.13.3/elementary-1.13.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.2",
+    "Installed":      "installed/elementary/1.13.2",
+    "Source":         "src/elementary/1.13.2/elementary-1.13.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.1",
+    "Installed":      "installed/elementary/1.13.1",
+    "Source":         "src/elementary/1.13.1/elementary-1.13.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.0",
+    "Installed":      "installed/elementary/1.13.0",
+    "Source":         "src/elementary/1.13.0/elementary-1.13.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.4",
+    "Installed":      "installed/elementary/1.12.4",
+    "Source":         "src/elementary/1.12.4/elementary-1.12.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.3",
+    "Installed":      "installed/elementary/1.12.3",
+    "Source":         "src/elementary/1.12.3/elementary-1.12.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.2",
+    "Installed":      "installed/elementary/1.12.2",
+    "Source":         "src/elementary/1.12.2/elementary-1.12.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.1",
+    "Installed":      "installed/elementary/1.12.1",
+    "Source":         "src/elementary/1.12.1/elementary-1.12.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.0",
+    "Installed":      "installed/elementary/1.12.0",
+    "Source":         "src/elementary/1.12.0/elementary-1.12.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.5",
+    "Installed":      "installed/elementary/1.11.5",
+    "Source":         "src/elementary/1.11.5/elementary-1.11.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.4",
+    "Installed":      "installed/elementary/1.11.4",
+    "Source":         "src/elementary/1.11.4/elementary-1.11.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.3",
+    "Installed":      "installed/elementary/1.11.3",
+    "Source":         "src/elementary/1.11.3/elementary-1.11.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.2",
+    "Installed":      "installed/elementary/1.11.2",
+    "Source":         "src/elementary/1.11.2/elementary-1.11.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.1",
+    "Installed":      "installed/elementary/1.11.1",
+    "Source":         "src/elementary/1.11.1/elementary-1.11.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.0",
+    "Installed":      "installed/elementary/1.11.0",
+    "Source":         "src/elementary/1.11.0/elementary-1.11.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.3",
+    "Installed":      "installed/elementary/1.10.3",
+    "Source":         "src/elementary/1.10.3/elementary-1.10.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.2",
+    "Installed":      "installed/elementary/1.10.2",
+    "Source":         "src/elementary/1.10.2/elementary-1.10.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.1",
+    "Installed":      "installed/elementary/1.10.1",
+    "Source":         "src/elementary/1.10.1/elementary-1.10.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.0",
+    "Installed":      "installed/elementary/1.10.0",
+    "Source":         "src/elementary/1.10.0/elementary-1.10.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.5",
+    "Installed":      "installed/elementary/1.9.5",
+    "Source":         "src/elementary/1.9.5/elementary-1.9.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.4",
+    "Installed":      "installed/elementary/1.9.4",
+    "Source":         "src/elementary/1.9.4/elementary-1.9.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.3",
+    "Installed":      "installed/elementary/1.9.3",
+    "Source":         "src/elementary/1.9.3/elementary-1.9.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.2",
+    "Installed":      "installed/elementary/1.9.2",
+    "Source":         "src/elementary/1.9.2/elementary-1.9.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.1",
+    "Installed":      "installed/elementary/1.9.1",
+    "Source":         "src/elementary/1.9.1/elementary-1.9.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.0",
+    "Installed":      "installed/elementary/1.9.0",
+    "Source":         "src/elementary/1.9.0/elementary-1.9.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.5",
+    "Installed":      "installed/elementary/1.8.5",
+    "Source":         "src/elementary/1.8.5/elementary-1.8.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.4",
+    "Installed":      "installed/elementary/1.8.4",
+    "Source":         "src/elementary/1.8.4/elementary-1.8.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.3",
+    "Installed":      "installed/elementary/1.8.3",
+    "Source":         "src/elementary/1.8.3/elementary-1.8.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.2",
+    "Installed":      "installed/elementary/1.8.2",
+    "Source":         "src/elementary/1.8.2/elementary-1.8.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.1",
+    "Installed":      "installed/elementary/1.8.1",
+    "Source":         "src/elementary/1.8.1/elementary-1.8.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.0",
+    "Installed":      "installed/elementary/1.8.0",
+    "Source":         "src/elementary/1.8.0/elementary-1.8.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

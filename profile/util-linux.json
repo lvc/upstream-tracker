@@ -1,0 +1,271 @@
+{
+  "Name":           "util-linux",
+  "SourceUrl":      "https://www.kernel.org/pub/linux/utils/util-linux/",
+  "Git":            "https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-wall --disable-bash-completion --with-systemdsystemunitdir={INSTALL_TO} --without-ncurses --disable-login --disable-su",
+  "SkipObjects":    [ "site-packages/" ],
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/util-linux/current",
+    "Source":         "src/util-linux/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.28",
+    "Installed":      "installed/util-linux/2.28",
+    "Source":         "src/util-linux/2.28/util-linux-2.28.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.27.1",
+    "Installed":      "installed/util-linux/2.27.1",
+    "Source":         "src/util-linux/2.27.1/util-linux-2.27.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.27",
+    "Installed":      "installed/util-linux/2.27",
+    "Source":         "src/util-linux/2.27/util-linux-2.27.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.26.2",
+    "Installed":      "installed/util-linux/2.26.2",
+    "Source":         "src/util-linux/2.26.2/util-linux-2.26.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.26.1",
+    "Installed":      "installed/util-linux/2.26.1",
+    "Source":         "src/util-linux/2.26.1/util-linux-2.26.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.26",
+    "Installed":      "installed/util-linux/2.26",
+    "Source":         "src/util-linux/2.26/util-linux-2.26.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.25.2",
+    "Installed":      "installed/util-linux/2.25.2",
+    "Source":         "src/util-linux/2.25.2/util-linux-2.25.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.25.1",
+    "Installed":      "installed/util-linux/2.25.1",
+    "Source":         "src/util-linux/2.25.1/util-linux-2.25.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.25",
+    "Installed":      "installed/util-linux/2.25",
+    "Source":         "src/util-linux/2.25/util-linux-2.25.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.24.2",
+    "Installed":      "installed/util-linux/2.24.2",
+    "Source":         "src/util-linux/2.24.2/util-linux-2.24.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.24.1",
+    "Installed":      "installed/util-linux/2.24.1",
+    "Source":         "src/util-linux/2.24.1/util-linux-2.24.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.24",
+    "Installed":      "installed/util-linux/2.24",
+    "Source":         "src/util-linux/2.24/util-linux-2.24.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.23.2",
+    "Installed":      "installed/util-linux/2.23.2",
+    "Source":         "src/util-linux/2.23.2/util-linux-2.23.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.23.1",
+    "Installed":      "installed/util-linux/2.23.1",
+    "Source":         "src/util-linux/2.23.1/util-linux-2.23.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.23",
+    "Installed":      "installed/util-linux/2.23",
+    "Source":         "src/util-linux/2.23/util-linux-2.23.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.22.2",
+    "Installed":      "installed/util-linux/2.22.2",
+    "Source":         "src/util-linux/2.22.2/util-linux-2.22.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.22.1",
+    "Installed":      "installed/util-linux/2.22.1",
+    "Source":         "src/util-linux/2.22.1/util-linux-2.22.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.22",
+    "Installed":      "installed/util-linux/2.22",
+    "Source":         "src/util-linux/2.22/util-linux-2.22.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.21.2",
+    "Installed":      "installed/util-linux/2.21.2",
+    "Source":         "src/util-linux/2.21.2/util-linux-2.21.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.21.1",
+    "Installed":      "installed/util-linux/2.21.1",
+    "Source":         "src/util-linux/2.21.1/util-linux-2.21.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.21",
+    "Installed":      "installed/util-linux/2.21",
+    "Source":         "src/util-linux/2.21/util-linux-2.21.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.20.1",
+    "Installed":      "installed/util-linux/2.20.1",
+    "Source":         "src/util-linux/2.20.1/util-linux-2.20.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.20",
+    "Installed":      "installed/util-linux/2.20",
+    "Source":         "src/util-linux/2.20/util-linux-2.20.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.19.1",
+    "Installed":      "installed/util-linux/2.19.1",
+    "Source":         "src/util-linux/2.19.1/util-linux-2.19.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.19",
+    "Installed":      "installed/util-linux/2.19",
+    "Source":         "src/util-linux/2.19/util-linux-2.19.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

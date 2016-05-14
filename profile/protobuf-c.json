@@ -1,0 +1,121 @@
+{
+  "Name":           "protobuf-c",
+  "SourceUrl":      "https://github.com/protobuf-c/protobuf-c/tags",
+  "Git":            "https://github.com/protobuf-c/protobuf-c.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "Configure":      "--disable-protoc PKG_CONFIG_PATH={INSTALL_ROOT}/protobuf/2.6.1/lib/pkgconfig/",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/protobuf-c/current",
+    "Source":         "src/protobuf-c/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.1",
+    "Installed":      "installed/protobuf-c/1.2.1",
+    "Source":         "src/protobuf-c/1.2.1/protobuf-c-1.2.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/protobuf-c/1.2.0",
+    "Source":         "src/protobuf-c/1.2.0/protobuf-c-1.2.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.1",
+    "Installed":      "installed/protobuf-c/1.1.1",
+    "Source":         "src/protobuf-c/1.1.1/protobuf-c-1.1.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/protobuf-c/1.1.0",
+    "Source":         "src/protobuf-c/1.1.0/protobuf-c-1.1.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.2",
+    "Installed":      "installed/protobuf-c/1.0.2",
+    "Source":         "src/protobuf-c/1.0.2/protobuf-c-1.0.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/protobuf-c/1.0.1",
+    "Source":         "src/protobuf-c/1.0.1/protobuf-c-1.0.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/protobuf-c/1.0.0",
+    "Source":         "src/protobuf-c/1.0.0/protobuf-c-1.0.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.15",
+    "Installed":      "installed/protobuf-c/0.15",
+    "Source":         "src/protobuf-c/0.15/protobuf-c-0.15.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14",
+    "Installed":      "installed/protobuf-c/0.14",
+    "Source":         "src/protobuf-c/0.14/protobuf-c-0.14.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13",
+    "Installed":      "installed/protobuf-c/0.13",
+    "Source":         "src/protobuf-c/0.13/protobuf-c-0.13.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,342 @@
+{
+  "Name":           "libdb",
+  "Title":          "Berkeley DB",
+  "SourceUrl":      "http://freebsd.csie.nctu.edu.tw/distfiles/bdb/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/libdb.sh",
+  "Changelog":      "Off",
+  "Package":        "db",
+
+  "Versions": [
+  {
+    "Number":         "6.1.26",
+    "Installed":      "installed/libdb/6.1.26",
+    "Source":         "src/libdb/6.1.26/db-6.1.26.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.1.23",
+    "Installed":      "installed/libdb/6.1.23",
+    "Source":         "src/libdb/6.1.23/db-6.1.23.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.1.19",
+    "Installed":      "installed/libdb/6.1.19",
+    "Source":         "src/libdb/6.1.19/db-6.1.19.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.0.35",
+    "Installed":      "installed/libdb/6.0.35",
+    "Source":         "src/libdb/6.0.35/db-6.0.35.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.0.30",
+    "Installed":      "installed/libdb/6.0.30",
+    "Source":         "src/libdb/6.0.30/db-6.0.30.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.0.20",
+    "Installed":      "installed/libdb/6.0.20",
+    "Source":         "src/libdb/6.0.20/db-6.0.20.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.0.19",
+    "Installed":      "installed/libdb/6.0.19",
+    "Source":         "src/libdb/6.0.19/db-6.0.19.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.3.28",
+    "Installed":      "installed/libdb/5.3.28",
+    "Source":         "src/libdb/5.3.28/db-5.3.28.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.3.21",
+    "Installed":      "installed/libdb/5.3.21",
+    "Source":         "src/libdb/5.3.21/db-5.3.21.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.3.15",
+    "Installed":      "installed/libdb/5.3.15",
+    "Source":         "src/libdb/5.3.15/db-5.3.15.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.2.42",
+    "Installed":      "installed/libdb/5.2.42",
+    "Source":         "src/libdb/5.2.42/db-5.2.42.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.2.36",
+    "Installed":      "installed/libdb/5.2.36",
+    "Source":         "src/libdb/5.2.36/db-5.2.36.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.2.28",
+    "Installed":      "installed/libdb/5.2.28",
+    "Source":         "src/libdb/5.2.28/db-5.2.28.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.1.25",
+    "Installed":      "installed/libdb/5.1.25",
+    "Source":         "src/libdb/5.1.25/db-5.1.25.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.1.19",
+    "Installed":      "installed/libdb/5.1.19",
+    "Source":         "src/libdb/5.1.19/db-5.1.19.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.32",
+    "Installed":      "installed/libdb/5.0.32",
+    "Source":         "src/libdb/5.0.32/db-5.0.32.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.26",
+    "Installed":      "installed/libdb/5.0.26",
+    "Source":         "src/libdb/5.0.26/db-5.0.26.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.21",
+    "Installed":      "installed/libdb/5.0.21",
+    "Source":         "src/libdb/5.0.21/db-5.0.21.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.8.30",
+    "Installed":      "installed/libdb/4.8.30",
+    "Source":         "src/libdb/4.8.30/db-4.8.30.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.8.26",
+    "Installed":      "installed/libdb/4.8.26",
+    "Source":         "src/libdb/4.8.26/db-4.8.26.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.8.24",
+    "Installed":      "installed/libdb/4.8.24",
+    "Source":         "src/libdb/4.8.24/db-4.8.24.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.7.25",
+    "Installed":      "installed/libdb/4.7.25",
+    "Source":         "src/libdb/4.7.25/db-4.7.25.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.21",
+    "Installed":      "installed/libdb/4.6.21",
+    "Source":         "src/libdb/4.6.21/db-4.6.21.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.19",
+    "Installed":      "installed/libdb/4.6.19",
+    "Source":         "src/libdb/4.6.19/db-4.6.19.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.18",
+    "Installed":      "installed/libdb/4.6.18",
+    "Source":         "src/libdb/4.6.18/db-4.6.18.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.20",
+    "Installed":      "installed/libdb/4.5.20",
+    "Source":         "src/libdb/4.5.20/db-4.5.20.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.20",
+    "Installed":      "installed/libdb/4.4.20",
+    "Source":         "src/libdb/4.4.20/db-4.4.20.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.16",
+    "Installed":      "installed/libdb/4.4.16",
+    "Source":         "src/libdb/4.4.16/db-4.4.16.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.3.29",
+    "Installed":      "installed/libdb/4.3.29",
+    "Source":         "src/libdb/4.3.29/db-4.3.29.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.3.28",
+    "Installed":      "installed/libdb/4.3.28",
+    "Source":         "src/libdb/4.3.28/db-4.3.28.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.3.27",
+    "Installed":      "installed/libdb/4.3.27",
+    "Source":         "src/libdb/4.3.27/db-4.3.27.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.3.21",
+    "Installed":      "installed/libdb/4.3.21",
+    "Source":         "src/libdb/4.3.21/db-4.3.21.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.25",
+    "Installed":      "installed/libdb/4.1.25",
+    "Source":         "src/libdb/4.1.25/db-4.1.25.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

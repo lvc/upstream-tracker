@@ -1,0 +1,7 @@
+{
+  "Name":           "libbson",
+  "SourceUrl":      "https://github.com/mongodb/libbson/tags",
+  "Git":            "https://github.com/mongodb/libbson.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/"
+}

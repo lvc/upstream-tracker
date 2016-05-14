@@ -1,0 +1,530 @@
+{
+  "Name":           "atk",
+  "Title":          "Atk",
+  "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/atk/",
+  "Git":            "https://git.gnome.org/browse/atk",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/atk/current",
+    "Source":         "src/atk/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.20.0",
+    "Installed":      "installed/atk/2.20.0",
+    "Source":         "src/atk/2.20.0/atk-2.20.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.19.92",
+    "Installed":      "installed/atk/2.19.92",
+    "Source":         "src/atk/2.19.92/atk-2.19.92.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.19.90",
+    "Installed":      "installed/atk/2.19.90",
+    "Source":         "src/atk/2.19.90/atk-2.19.90.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.18.0",
+    "Installed":      "installed/atk/2.18.0",
+    "Source":         "src/atk/2.18.0/atk-2.18.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.17.90",
+    "Installed":      "installed/atk/2.17.90",
+    "Source":         "src/atk/2.17.90/atk-2.17.90.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.16.0",
+    "Installed":      "installed/atk/2.16.0",
+    "Source":         "src/atk/2.16.0/atk-2.16.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.15.91",
+    "Installed":      "installed/atk/2.15.91",
+    "Source":         "src/atk/2.15.91/atk-2.15.91.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.15.4",
+    "Installed":      "installed/atk/2.15.4",
+    "Source":         "src/atk/2.15.4/atk-2.15.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.15.3",
+    "Installed":      "installed/atk/2.15.3",
+    "Source":         "src/atk/2.15.3/atk-2.15.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.15.2",
+    "Installed":      "installed/atk/2.15.2",
+    "Source":         "src/atk/2.15.2/atk-2.15.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.15.1",
+    "Installed":      "installed/atk/2.15.1",
+    "Source":         "src/atk/2.15.1/atk-2.15.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.14.0",
+    "Installed":      "installed/atk/2.14.0",
+    "Source":         "src/atk/2.14.0/atk-2.14.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.13.90",
+    "Installed":      "installed/atk/2.13.90",
+    "Source":         "src/atk/2.13.90/atk-2.13.90.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.13.3",
+    "Installed":      "installed/atk/2.13.3",
+    "Source":         "src/atk/2.13.3/atk-2.13.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.13.2",
+    "Installed":      "installed/atk/2.13.2",
+    "Source":         "src/atk/2.13.2/atk-2.13.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.13.1",
+    "Installed":      "installed/atk/2.13.1",
+    "Source":         "src/atk/2.13.1/atk-2.13.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.12.0",
+    "Installed":      "installed/atk/2.12.0",
+    "Source":         "src/atk/2.12.0/atk-2.12.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.11.92",
+    "Installed":      "installed/atk/2.11.92",
+    "Source":         "src/atk/2.11.92/atk-2.11.92.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.11.90",
+    "Installed":      "installed/atk/2.11.90",
+    "Source":         "src/atk/2.11.90/atk-2.11.90.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.11.6",
+    "Installed":      "installed/atk/2.11.6",
+    "Source":         "src/atk/2.11.6/atk-2.11.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.11.5",
+    "Installed":      "installed/atk/2.11.5",
+    "Source":         "src/atk/2.11.5/atk-2.11.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.11.4",
+    "Installed":      "installed/atk/2.11.4",
+    "Source":         "src/atk/2.11.4/atk-2.11.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.11.3",
+    "Installed":      "installed/atk/2.11.3",
+    "Source":         "src/atk/2.11.3/atk-2.11.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.11.2",
+    "Installed":      "installed/atk/2.11.2",
+    "Source":         "src/atk/2.11.2/atk-2.11.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.11.1",
+    "Installed":      "installed/atk/2.11.1",
+    "Source":         "src/atk/2.11.1/atk-2.11.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.10.0",
+    "Installed":      "installed/atk/2.10.0",
+    "Source":         "src/atk/2.10.0/atk-2.10.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.9.4",
+    "Installed":      "installed/atk/2.9.4",
+    "Source":         "src/atk/2.9.4/atk-2.9.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.9.3",
+    "Installed":      "installed/atk/2.9.3",
+    "Source":         "src/atk/2.9.3/atk-2.9.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.9.2",
+    "Installed":      "installed/atk/2.9.2",
+    "Source":         "src/atk/2.9.2/atk-2.9.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.0",
+    "Installed":      "installed/atk/2.8.0",
+    "Source":         "src/atk/2.8.0/atk-2.8.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.7.91",
+    "Installed":      "installed/atk/2.7.91",
+    "Source":         "src/atk/2.7.91/atk-2.7.91.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.7.90",
+    "Installed":      "installed/atk/2.7.90",
+    "Source":         "src/atk/2.7.90/atk-2.7.90.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.7.5",
+    "Installed":      "installed/atk/2.7.5",
+    "Source":         "src/atk/2.7.5/atk-2.7.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.7.4",
+    "Installed":      "installed/atk/2.7.4",
+    "Source":         "src/atk/2.7.4/atk-2.7.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.7.3",
+    "Installed":      "installed/atk/2.7.3",
+    "Source":         "src/atk/2.7.3/atk-2.7.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.7.2",
+    "Installed":      "installed/atk/2.7.2",
+    "Source":         "src/atk/2.7.2/atk-2.7.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.0",
+    "Installed":      "installed/atk/2.6.0",
+    "Source":         "src/atk/2.6.0/atk-2.6.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.91",
+    "Installed":      "installed/atk/2.5.91",
+    "Source":         "src/atk/2.5.91/atk-2.5.91.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.4",
+    "Installed":      "installed/atk/2.5.4",
+    "Source":         "src/atk/2.5.4/atk-2.5.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.3",
+    "Installed":      "installed/atk/2.5.3",
+    "Source":         "src/atk/2.5.3/atk-2.5.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.0",
+    "Installed":      "installed/atk/2.4.0",
+    "Source":         "src/atk/2.4.0/atk-2.4.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.95",
+    "Installed":      "installed/atk/2.3.95",
+    "Source":         "src/atk/2.3.95/atk-2.3.95.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.93",
+    "Installed":      "installed/atk/2.3.93",
+    "Source":         "src/atk/2.3.93/atk-2.3.93.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.91",
+    "Installed":      "installed/atk/2.3.91",
+    "Source":         "src/atk/2.3.91/atk-2.3.91.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.3",
+    "Installed":      "installed/atk/2.3.3",
+    "Source":         "src/atk/2.3.3/atk-2.3.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.0",
+    "Installed":      "installed/atk/2.2.0",
+    "Source":         "src/atk/2.2.0/atk-2.2.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.92",
+    "Installed":      "installed/atk/2.1.92",
+    "Source":         "src/atk/2.1.92/atk-2.1.92.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.91",
+    "Installed":      "installed/atk/2.1.91",
+    "Source":         "src/atk/2.1.91/atk-2.1.91.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.5",
+    "Installed":      "installed/atk/2.1.5",
+    "Source":         "src/atk/2.1.5/atk-2.1.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.0",
+    "Installed":      "installed/atk/2.1.0",
+    "Source":         "src/atk/2.1.0/atk-2.1.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.1",
+    "Installed":      "installed/atk/2.0.1",
+    "Source":         "src/atk/2.0.1/atk-2.0.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

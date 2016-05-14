@@ -1,0 +1,34 @@
+NAME:
+  Upstream Tracker - a project to monitor and verify compatibility of upstream ABI changes in C/C++ libraries.
+  
+  Web: http://abi-laboratory.pro/tracker/
+  
+  The tool is developed by Andrey Ponomarenko: http://abi-laboratory.pro/
+
+REQUIRES:
+  Perl 5
+  ABI Tracker (1.6 or newer)
+  ABI Monitor (1.8 or newer)
+  ABI Compliance Checker (1.99.20 or newer)
+  ABI Dumper (0.99.15 or newer)
+  PkgDiff (1.6.4 or newer)
+  
+  You can use the installer to automatically download from github and install necessary tools: https://github.com/lvc/installer
+
+TEST PLAN:
+  The file "scripts/testplan" contains the list of libraries to be monitored. You can write several libraries in one line separated by semicolon if you want to handle these libraries one-by-one in the specific order on one CPU. Other libraries will be processed in parallel on two CPUs.
+
+DAILY RUN:
+  This script is used to organize daily runs of the ABI Tracker and ABI Monitor tools:
+  
+  perl scripts/daily-run.pl
+
+LOGS:
+  See logs in the "daily_log/" directory.
+
+PUBLISH REPORTS:
+  You can copy reports to a hosting defined by HOST_ADDR and HOST_DIR variables in the "scripts/host.conf" file. The script will copy all necessary reports and styles (compressed as tar.gz) via scp to the hosting directory:
+  
+  perl scripts/copy-files.pl [library]
+
+Enjoy!

@@ -1,0 +1,486 @@
+{
+  "Name":           "httpd",
+  "SourceUrl":      "http://archive.apache.org/dist/httpd/",
+  "Svn":            "http://svn.apache.org/repos/asf/httpd/httpd/trunk",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "CurrentConfigure": "--with-included-apr",
+  "CurrentPreInstall": "svn co http://svn.apache.org/repos/asf/apr/apr/trunk srclib/apr && cp -fr srclib/apr srclib/apr-util",
+  "PostInstall":    "mkdir -p {INSTALL_TO}/lib/ && cp -f {INSTALL_TO}/bin/httpd {INSTALL_TO}/lib/libhttpd.so",
+  "SkipObjects":    [ "modules/", "apr-2/", "libapr-0.so", "libaprutil-0.so", "libexpat.so", "libapr-2.so" ],
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/httpd/current",
+    "Source":         "src/httpd/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.20",
+    "Installed":      "installed/httpd/2.4.20",
+    "Source":         "src/httpd/2.4.20/httpd-2.4.20.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.18",
+    "Installed":      "installed/httpd/2.4.18",
+    "Source":         "src/httpd/2.4.18/httpd-2.4.18.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.17",
+    "Installed":      "installed/httpd/2.4.17",
+    "Source":         "src/httpd/2.4.17/httpd-2.4.17.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.16",
+    "Installed":      "installed/httpd/2.4.16",
+    "Source":         "src/httpd/2.4.16/httpd-2.4.16.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.12",
+    "Installed":      "installed/httpd/2.4.12",
+    "Source":         "src/httpd/2.4.12/httpd-2.4.12.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.10",
+    "Installed":      "installed/httpd/2.4.10",
+    "Source":         "src/httpd/2.4.10/httpd-2.4.10.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.9",
+    "Installed":      "installed/httpd/2.4.9",
+    "Source":         "src/httpd/2.4.9/httpd-2.4.9.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.7",
+    "Installed":      "installed/httpd/2.4.7",
+    "Source":         "src/httpd/2.4.7/httpd-2.4.7.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.6",
+    "Installed":      "installed/httpd/2.4.6",
+    "Source":         "src/httpd/2.4.6/httpd-2.4.6.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.4",
+    "Installed":      "installed/httpd/2.4.4",
+    "Source":         "src/httpd/2.4.4/httpd-2.4.4.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.3",
+    "Installed":      "installed/httpd/2.4.3",
+    "Source":         "src/httpd/2.4.3/httpd-2.4.3.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.2",
+    "Installed":      "installed/httpd/2.4.2",
+    "Source":         "src/httpd/2.4.2/httpd-2.4.2.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.1",
+    "Installed":      "installed/httpd/2.4.1",
+    "Source":         "src/httpd/2.4.1/httpd-2.4.1.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Comment":        "Intended breakage of the API/ABI in 2.4 since 2.2. See <a href='https://httpd.apache.org/docs/2.4/developer/new_api_2_4.html'>API migration guide</a> for the detailed information on all API changes."
+  },
+  {
+    "Number":         "2.2.31",
+    "Installed":      "installed/httpd/2.2.31",
+    "Source":         "src/httpd/2.2.31/httpd-2.2.31.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.29",
+    "Installed":      "installed/httpd/2.2.29",
+    "Source":         "src/httpd/2.2.29/httpd-2.2.29.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.27",
+    "Installed":      "installed/httpd/2.2.27",
+    "Source":         "src/httpd/2.2.27/httpd-2.2.27.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.26",
+    "Installed":      "installed/httpd/2.2.26",
+    "Source":         "src/httpd/2.2.26/httpd-2.2.26.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.25",
+    "Installed":      "installed/httpd/2.2.25",
+    "Source":         "src/httpd/2.2.25/httpd-2.2.25.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.24",
+    "Installed":      "installed/httpd/2.2.24",
+    "Source":         "src/httpd/2.2.24/httpd-2.2.24.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.23",
+    "Installed":      "installed/httpd/2.2.23",
+    "Source":         "src/httpd/2.2.23/httpd-2.2.23.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.22",
+    "Installed":      "installed/httpd/2.2.22",
+    "Source":         "src/httpd/2.2.22/httpd-2.2.22.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.21",
+    "Installed":      "installed/httpd/2.2.21",
+    "Source":         "src/httpd/2.2.21/httpd-2.2.21.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.20",
+    "Installed":      "installed/httpd/2.2.20",
+    "Source":         "src/httpd/2.2.20/httpd-2.2.20.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.19",
+    "Installed":      "installed/httpd/2.2.19",
+    "Source":         "src/httpd/2.2.19/httpd-2.2.19.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.18",
+    "Installed":      "installed/httpd/2.2.18",
+    "Source":         "src/httpd/2.2.18/httpd-2.2.18.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.17",
+    "Installed":      "installed/httpd/2.2.17",
+    "Source":         "src/httpd/2.2.17/httpd-2.2.17.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.16",
+    "Installed":      "installed/httpd/2.2.16",
+    "Source":         "src/httpd/2.2.16/httpd-2.2.16.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.15",
+    "Installed":      "installed/httpd/2.2.15",
+    "Source":         "src/httpd/2.2.15/httpd-2.2.15.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.14",
+    "Installed":      "installed/httpd/2.2.14",
+    "Source":         "src/httpd/2.2.14/httpd-2.2.14.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.13",
+    "Installed":      "installed/httpd/2.2.13",
+    "Source":         "src/httpd/2.2.13/httpd-2.2.13.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.12",
+    "Installed":      "installed/httpd/2.2.12",
+    "Source":         "src/httpd/2.2.12/httpd-2.2.12.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.11",
+    "Installed":      "installed/httpd/2.2.11",
+    "Source":         "src/httpd/2.2.11/httpd-2.2.11.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.10",
+    "Installed":      "installed/httpd/2.2.10",
+    "Source":         "src/httpd/2.2.10/httpd-2.2.10.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.9",
+    "Installed":      "installed/httpd/2.2.9",
+    "Source":         "src/httpd/2.2.9/httpd-2.2.9.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.8",
+    "Installed":      "installed/httpd/2.2.8",
+    "Source":         "src/httpd/2.2.8/httpd-2.2.8.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.6",
+    "Installed":      "installed/httpd/2.2.6",
+    "Source":         "src/httpd/2.2.6/httpd-2.2.6.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.4",
+    "Installed":      "installed/httpd/2.2.4",
+    "Source":         "src/httpd/2.2.4/httpd-2.2.4.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.3",
+    "Installed":      "installed/httpd/2.2.3",
+    "Source":         "src/httpd/2.2.3/httpd-2.2.3.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.2",
+    "Installed":      "installed/httpd/2.2.2",
+    "Source":         "src/httpd/2.2.2/httpd-2.2.2.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.0",
+    "Installed":      "installed/httpd/2.2.0",
+    "Source":         "src/httpd/2.2.0/httpd-2.2.0.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.65",
+    "Installed":      "installed/httpd/2.0.65",
+    "Source":         "src/httpd/2.0.65/httpd-2.0.65.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.64",
+    "Installed":      "installed/httpd/2.0.64",
+    "Source":         "src/httpd/2.0.64/httpd-2.0.64.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.63",
+    "Installed":      "installed/httpd/2.0.63",
+    "Source":         "src/httpd/2.0.63/httpd-2.0.63.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.61",
+    "Installed":      "installed/httpd/2.0.61",
+    "Source":         "src/httpd/2.0.61/httpd-2.0.61.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.59",
+    "Installed":      "installed/httpd/2.0.59",
+    "Source":         "src/httpd/2.0.59/httpd-2.0.59.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.58",
+    "Installed":      "installed/httpd/2.0.58",
+    "Source":         "src/httpd/2.0.58/httpd-2.0.58.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

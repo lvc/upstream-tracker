@@ -1,0 +1,264 @@
+{
+  "Name":           "weston",
+  "Title":          "Weston",
+  "SourceUrl":      "https://wayland.freedesktop.org/releases/",
+  "Git":            "http://anongit.freedesktop.org/git/wayland/weston.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-weston-launch --disable-devdocs PKG_CONFIG_PATH={INSTALL_ROOT}/libinput/1.2.1/lib/pkgconfig/:{INSTALL_ROOT}/wayland/1.10.0/lib/pkgconfig/ CFLAGS=-I{INSTALL_ROOT}/libinput/1.2.1/include/",
+  "Note":           "Requires mesa-libGLES-devel",
+  "SkipObjects":    ["gl-renderer.so"],
+  "Changelog":      "Off",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/weston/current",
+    "Source":         "src/weston/current",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.0",
+    "Installed":      "installed/weston/1.10.0",
+    "Source":         "src/weston/1.10.0/weston-1.10.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.93",
+    "Installed":      "installed/weston/1.9.93",
+    "Source":         "src/weston/1.9.93/weston-1.9.93.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.92",
+    "Installed":      "installed/weston/1.9.92",
+    "Source":         "src/weston/1.9.92/weston-1.9.92.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.91",
+    "Installed":      "installed/weston/1.9.91",
+    "Source":         "src/weston/1.9.91/weston-1.9.91.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.0",
+    "Installed":      "installed/weston/1.9.0",
+    "Source":         "src/weston/1.9.0/weston-1.9.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.93",
+    "Installed":      "installed/weston/1.8.93",
+    "Source":         "src/weston/1.8.93/weston-1.8.93.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.92",
+    "Installed":      "installed/weston/1.8.92",
+    "Source":         "src/weston/1.8.92/weston-1.8.92.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.91",
+    "Installed":      "installed/weston/1.8.91",
+    "Source":         "src/weston/1.8.91/weston-1.8.91.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.0",
+    "Installed":      "installed/weston/1.8.0",
+    "Source":         "src/weston/1.8.0/weston-1.8.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.93",
+    "Installed":      "installed/weston/1.7.93",
+    "Source":         "src/weston/1.7.93/weston-1.7.93.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.92",
+    "Installed":      "installed/weston/1.7.92",
+    "Source":         "src/weston/1.7.92/weston-1.7.92.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.91",
+    "Installed":      "installed/weston/1.7.91",
+    "Source":         "src/weston/1.7.91/weston-1.7.91.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.0",
+    "Installed":      "installed/weston/1.7.0",
+    "Source":         "src/weston/1.7.0/weston-1.7.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.93",
+    "Installed":      "installed/weston/1.6.93",
+    "Source":         "src/weston/1.6.93/weston-1.6.93.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.92",
+    "Installed":      "installed/weston/1.6.92",
+    "Source":         "src/weston/1.6.92/weston-1.6.92.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.91",
+    "Installed":      "installed/weston/1.6.91",
+    "Source":         "src/weston/1.6.91/weston-1.6.91.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.1",
+    "Installed":      "installed/weston/1.6.1",
+    "Source":         "src/weston/1.6.1/weston-1.6.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.0",
+    "Installed":      "installed/weston/1.6.0",
+    "Source":         "src/weston/1.6.0/weston-1.6.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.93",
+    "Installed":      "installed/weston/1.5.93",
+    "Source":         "src/weston/1.5.93/weston-1.5.93.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.92",
+    "Installed":      "installed/weston/1.5.92",
+    "Source":         "src/weston/1.5.92/weston-1.5.92.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.91",
+    "Installed":      "installed/weston/1.5.91",
+    "Source":         "src/weston/1.5.91/weston-1.5.91.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.0",
+    "Installed":      "installed/weston/1.5.0",
+    "Source":         "src/weston/1.5.0/weston-1.5.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.93",
+    "Installed":      "installed/weston/1.4.93",
+    "Source":         "src/weston/1.4.93/weston-1.4.93.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.92",
+    "Installed":      "installed/weston/1.4.92",
+    "Source":         "src/weston/1.4.92/weston-1.4.92.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}
