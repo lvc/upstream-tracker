@@ -1,0 +1,224 @@
+{
+  "Name":           "xen",
+  "Title":          "Xen",
+  "SourceUrl":      "http://pkgs.fedoraproject.org/repo/pkgs/xen/",
+  "SourceUrlDepth": "3",
+  "SkipUrl":        [ ".*(\d\d\d\d\d\d\d\d|unstable|testing).*" ],
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/xen.sh",
+  "SkipObjects":    [ "fs/", "site-packages/", "libblktapctl.so", "libvhd.so" ],
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "4.6.3",
+    "Installed":      "installed/xen/4.6.3",
+    "Source":         "src/xen/4.6.3/xen-4.6.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.1",
+    "Installed":      "installed/xen/4.6.1",
+    "Source":         "src/xen/4.6.1/xen-4.6.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.0",
+    "Installed":      "installed/xen/4.6.0",
+    "Source":         "src/xen/4.6.0/xen-4.6.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.3",
+    "Installed":      "installed/xen/4.5.3",
+    "Source":         "src/xen/4.5.3/xen-4.5.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.2",
+    "Installed":      "installed/xen/4.5.2",
+    "Source":         "src/xen/4.5.2/xen-4.5.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.1",
+    "Installed":      "installed/xen/4.5.1",
+    "Source":         "src/xen/4.5.1/xen-4.5.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.0",
+    "Installed":      "installed/xen/4.5.0",
+    "Source":         "src/xen/4.5.0/xen-4.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.3",
+    "Installed":      "installed/xen/4.4.3",
+    "Source":         "src/xen/4.4.3/xen-4.4.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.3.4",
+    "Installed":      "installed/xen/4.3.4",
+    "Source":         "src/xen/4.3.4/xen-4.3.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.3.3",
+    "Installed":      "installed/xen/4.3.3",
+    "Source":         "src/xen/4.3.3/xen-4.3.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.3.1",
+    "Installed":      "installed/xen/4.3.1",
+    "Source":         "src/xen/4.3.1/xen-4.3.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.3.0",
+    "Installed":      "installed/xen/4.3.0",
+    "Source":         "src/xen/4.3.0/xen-4.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2.5",
+    "Installed":      "installed/xen/4.2.5",
+    "Source":         "src/xen/4.2.5/xen-4.2.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2.3",
+    "Installed":      "installed/xen/4.2.3",
+    "Source":         "src/xen/4.2.3/xen-4.2.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2.2",
+    "Installed":      "installed/xen/4.2.2",
+    "Source":         "src/xen/4.2.2/xen-4.2.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.5",
+    "Installed":      "installed/xen/4.1.5",
+    "Source":         "src/xen/4.1.5/xen-4.1.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.4",
+    "Installed":      "installed/xen/4.1.4",
+    "Source":         "src/xen/4.1.4/xen-4.1.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.3",
+    "Installed":      "installed/xen/4.1.3",
+    "Source":         "src/xen/4.1.3/xen-4.1.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.2",
+    "Installed":      "installed/xen/4.1.2",
+    "Source":         "src/xen/4.1.2/xen-4.1.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.1",
+    "Installed":      "installed/xen/4.1.1",
+    "Source":         "src/xen/4.1.1/xen-4.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.0",
+    "Installed":      "installed/xen/4.1.0",
+    "Source":         "src/xen/4.1.0/xen-4.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}
