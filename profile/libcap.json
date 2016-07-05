@@ -1,0 +1,72 @@
+{
+  "Name":           "libcap",
+  "SourceUrl":      "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/libcap.sh",
+  "CopyHeaders":    [ "." ],
+  "CopyObjects":    [ "." ],
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.25",
+    "Installed":      "installed/libcap/2.25",
+    "Source":         "src/libcap/2.25/libcap-2.25.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.24",
+    "Installed":      "installed/libcap/2.24",
+    "Source":         "src/libcap/2.24/libcap-2.24.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.23",
+    "Installed":      "installed/libcap/2.23",
+    "Source":         "src/libcap/2.23/libcap-2.23.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.22",
+    "Installed":      "installed/libcap/2.22",
+    "Source":         "src/libcap/2.22/libcap-2.22.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.21",
+    "Installed":      "installed/libcap/2.21",
+    "Source":         "src/libcap/2.21/libcap-2.21.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.20",
+    "Installed":      "installed/libcap/2.20",
+    "Source":         "src/libcap/2.20/libcap-2.20.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

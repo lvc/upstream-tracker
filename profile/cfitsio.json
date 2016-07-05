@@ -1,0 +1,250 @@
+{
+  "Name":           "cfitsio",
+  "Title":          "CFITSIO",
+  "SourceUrl":      "http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/cfitsio.sh",
+
+  "Versions": [
+  {
+    "Number":         3390,
+    "Installed":      "installed/cfitsio/3390",
+    "Source":         "src/cfitsio/3390/cfitsio3390.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3380,
+    "Installed":      "installed/cfitsio/3380",
+    "Source":         "src/cfitsio/3380/cfitsio3380.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3370,
+    "Installed":      "installed/cfitsio/3370",
+    "Source":         "src/cfitsio/3370/cfitsio3370.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3360,
+    "Installed":      "installed/cfitsio/3360",
+    "Source":         "src/cfitsio/3360/cfitsio3360.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3350,
+    "Installed":      "installed/cfitsio/3350",
+    "Source":         "src/cfitsio/3350/cfitsio3350.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3340,
+    "Installed":      "installed/cfitsio/3340",
+    "Source":         "src/cfitsio/3340/cfitsio3340.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3330,
+    "Installed":      "installed/cfitsio/3330",
+    "Source":         "src/cfitsio/3330/cfitsio3330.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3310,
+    "Installed":      "installed/cfitsio/3310",
+    "Source":         "src/cfitsio/3310/cfitsio3310.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3300,
+    "Installed":      "installed/cfitsio/3300",
+    "Source":         "src/cfitsio/3300/cfitsio3300.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3290,
+    "Installed":      "installed/cfitsio/3290",
+    "Source":         "src/cfitsio/3290/cfitsio3290.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3280,
+    "Installed":      "installed/cfitsio/3280",
+    "Source":         "src/cfitsio/3280/cfitsio3280.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3270,
+    "Installed":      "installed/cfitsio/3270",
+    "Source":         "src/cfitsio/3270/cfitsio3270.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3260,
+    "Installed":      "installed/cfitsio/3260",
+    "Source":         "src/cfitsio/3260/cfitsio3260.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3250,
+    "Installed":      "installed/cfitsio/3250",
+    "Source":         "src/cfitsio/3250/cfitsio3250.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3240,
+    "Installed":      "installed/cfitsio/3240",
+    "Source":         "src/cfitsio/3240/cfitsio3240.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3230,
+    "Installed":      "installed/cfitsio/3230",
+    "Source":         "src/cfitsio/3230/cfitsio3230.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3210,
+    "Installed":      "installed/cfitsio/3210",
+    "Source":         "src/cfitsio/3210/cfitsio3210.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3200,
+    "Installed":      "installed/cfitsio/3200",
+    "Source":         "src/cfitsio/3200/cfitsio3200.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3181,
+    "Installed":      "installed/cfitsio/3181",
+    "Source":         "src/cfitsio/3181/cfitsio3181.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3140,
+    "Installed":      "installed/cfitsio/3140",
+    "Source":         "src/cfitsio/3140/cfitsio3140.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3130,
+    "Installed":      "installed/cfitsio/3130",
+    "Source":         "src/cfitsio/3130/cfitsio3130.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3100,
+    "Installed":      "installed/cfitsio/3100",
+    "Source":         "src/cfitsio/3100/cfitsio_3100.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3090,
+    "Installed":      "installed/cfitsio/3090",
+    "Source":         "src/cfitsio/3090/cfitsio3090.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3080,
+    "Installed":      "installed/cfitsio/3080",
+    "Source":         "src/cfitsio/3080/cfitsio3080.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

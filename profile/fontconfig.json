@@ -19,6 +19,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "2.12.0",
+    "Installed":      "installed/fontconfig/2.12.0",
+    "Source":         "src/fontconfig/2.12.0/fontconfig-2.12.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.11.95",
     "Installed":      "installed/fontconfig/2.11.95",
     "Source":         "src/fontconfig/2.11.95/fontconfig-2.11.95.tar.gz",

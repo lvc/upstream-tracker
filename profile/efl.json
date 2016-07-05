@@ -5,8 +5,9 @@
   "Git":            "http://git.enlightenment.org/core/efl.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--disable-image-loader-gif",
-  "SkipObjects":    [ "module.so" ],
+  "Configure":      "--disable-image-loader-gif --disable-doc",
+  "PostInstall":    "rm -fr {INSTALL_TO}/share",
+  "SkipObjects":    [ "module.so", "libector.so" ],
   "HeadersDiff":    "Off",
 
   "Versions": [
@@ -15,6 +16,26 @@
     "Installed":      "installed/efl/current",
     "Source":         "src/efl/current",
     "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.17.2",
+    "Installed":      "installed/efl/1.17.2",
+    "Source":         "src/efl/1.17.2/efl-1.17.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.17.1",
+    "Installed":      "installed/efl/1.17.1",
+    "Source":         "src/efl/1.17.1/efl-1.17.1.tar.xz",
+    "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",

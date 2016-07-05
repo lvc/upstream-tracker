@@ -1,0 +1,231 @@
+{
+  "Name":           "elfutils",
+  "SourceUrl":      "https://fedorahosted.org/releases/e/l/elfutils/",
+  "Git":            "https://git.fedorahosted.org/git/elfutils.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "SkipObjects":    [ "elfutils/" ],
+  "SkipSymbols":    "filters/skip_symbols/elfutils.list",
+
+  "Versions": [
+  {
+    "Number":         "0.166",
+    "Installed":      "installed/elfutils/0.166",
+    "Source":         "src/elfutils/0.166/elfutils-0.166.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.165",
+    "Installed":      "installed/elfutils/0.165",
+    "Source":         "src/elfutils/0.165/elfutils-0.165.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.164",
+    "Installed":      "installed/elfutils/0.164",
+    "Source":         "src/elfutils/0.164/elfutils-0.164.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.163",
+    "Installed":      "installed/elfutils/0.163",
+    "Source":         "src/elfutils/0.163/elfutils-0.163.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.162",
+    "Installed":      "installed/elfutils/0.162",
+    "Source":         "src/elfutils/0.162/elfutils-0.162.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.161",
+    "Installed":      "installed/elfutils/0.161",
+    "Source":         "src/elfutils/0.161/elfutils-0.161.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.160",
+    "Installed":      "installed/elfutils/0.160",
+    "Source":         "src/elfutils/0.160/elfutils-0.160.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.159",
+    "Installed":      "installed/elfutils/0.159",
+    "Source":         "src/elfutils/0.159/elfutils-0.159.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.158",
+    "Installed":      "installed/elfutils/0.158",
+    "Source":         "src/elfutils/0.158/elfutils-0.158.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.157",
+    "Installed":      "installed/elfutils/0.157",
+    "Source":         "src/elfutils/0.157/elfutils-0.157.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.156",
+    "Installed":      "installed/elfutils/0.156",
+    "Source":         "src/elfutils/0.156/elfutils-0.156.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.155",
+    "Installed":      "installed/elfutils/0.155",
+    "Source":         "src/elfutils/0.155/elfutils-0.155.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.154",
+    "Installed":      "installed/elfutils/0.154",
+    "Source":         "src/elfutils/0.154/elfutils-0.154.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.153",
+    "Installed":      "installed/elfutils/0.153",
+    "Source":         "src/elfutils/0.153/elfutils-0.153.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.152",
+    "Installed":      "installed/elfutils/0.152",
+    "Source":         "src/elfutils/0.152/elfutils-0.152.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.151",
+    "Installed":      "installed/elfutils/0.151",
+    "Source":         "src/elfutils/0.151/elfutils-0.151.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.150",
+    "Installed":      "installed/elfutils/0.150",
+    "Source":         "src/elfutils/0.150/elfutils-0.150.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.149",
+    "Installed":      "installed/elfutils/0.149",
+    "Source":         "src/elfutils/0.149/elfutils-0.149.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.148",
+    "Installed":      "installed/elfutils/0.148",
+    "Source":         "src/elfutils/0.148/elfutils-0.148.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.147",
+    "Installed":      "installed/elfutils/0.147",
+    "Source":         "src/elfutils/0.147/elfutils-0.147.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.146",
+    "Installed":      "installed/elfutils/0.146",
+    "Source":         "src/elfutils/0.146/elfutils-0.146.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.145",
+    "Installed":      "installed/elfutils/0.145",
+    "Source":         "src/elfutils/0.145/elfutils-0.145.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,722 @@
+{
+  "Name":           "subversion",
+  "Title":          "Subversion",
+  "SourceUrl":      "https://archive.apache.org/dist/subversion/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "SkipObjects":    [ "libsvn_fs_(base|fs|util|x).*", "libsvn_ra_local-1.so" ],
+  "HeadersDiff":    "Off",
+  "HideEmpty":      "1",
+
+  "Versions": [
+  {
+    "Number":         "1.9.4",
+    "Installed":      "installed/subversion/1.9.4",
+    "Source":         "src/subversion/1.9.4/subversion-1.9.4.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.3",
+    "Installed":      "installed/subversion/1.9.3",
+    "Source":         "src/subversion/1.9.3/subversion-1.9.3.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.1",
+    "Installed":      "installed/subversion/1.9.1",
+    "Source":         "src/subversion/1.9.1/subversion-1.9.1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.0",
+    "Installed":      "installed/subversion/1.9.0",
+    "Source":         "src/subversion/1.9.0/subversion-1.9.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.16",
+    "Installed":      "installed/subversion/1.8.16",
+    "Source":         "src/subversion/1.8.16/subversion-1.8.16.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.15",
+    "Installed":      "installed/subversion/1.8.15",
+    "Source":         "src/subversion/1.8.15/subversion-1.8.15.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.14",
+    "Installed":      "installed/subversion/1.8.14",
+    "Source":         "src/subversion/1.8.14/subversion-1.8.14.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.13",
+    "Installed":      "installed/subversion/1.8.13",
+    "Source":         "src/subversion/1.8.13/subversion-1.8.13.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.11",
+    "Installed":      "installed/subversion/1.8.11",
+    "Source":         "src/subversion/1.8.11/subversion-1.8.11.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.10",
+    "Installed":      "installed/subversion/1.8.10",
+    "Source":         "src/subversion/1.8.10/subversion-1.8.10.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.9",
+    "Installed":      "installed/subversion/1.8.9",
+    "Source":         "src/subversion/1.8.9/subversion-1.8.9.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.8",
+    "Installed":      "installed/subversion/1.8.8",
+    "Source":         "src/subversion/1.8.8/subversion-1.8.8.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.5",
+    "Installed":      "installed/subversion/1.8.5",
+    "Source":         "src/subversion/1.8.5/subversion-1.8.5.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.4",
+    "Installed":      "installed/subversion/1.8.4",
+    "Source":         "src/subversion/1.8.4/subversion-1.8.4.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.3",
+    "Installed":      "installed/subversion/1.8.3",
+    "Source":         "src/subversion/1.8.3/subversion-1.8.3.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.1",
+    "Installed":      "installed/subversion/1.8.1",
+    "Source":         "src/subversion/1.8.1/subversion-1.8.1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.0",
+    "Installed":      "installed/subversion/1.8.0",
+    "Source":         "src/subversion/1.8.0/subversion-1.8.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.22",
+    "Installed":      "installed/subversion/1.7.22",
+    "Source":         "src/subversion/1.7.22/subversion-1.7.22.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.21",
+    "Installed":      "installed/subversion/1.7.21",
+    "Source":         "src/subversion/1.7.21/subversion-1.7.21.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.20",
+    "Installed":      "installed/subversion/1.7.20",
+    "Source":         "src/subversion/1.7.20/subversion-1.7.20.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.19",
+    "Installed":      "installed/subversion/1.7.19",
+    "Source":         "src/subversion/1.7.19/subversion-1.7.19.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.18",
+    "Installed":      "installed/subversion/1.7.18",
+    "Source":         "src/subversion/1.7.18/subversion-1.7.18.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.17",
+    "Installed":      "installed/subversion/1.7.17",
+    "Source":         "src/subversion/1.7.17/subversion-1.7.17.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.16",
+    "Installed":      "installed/subversion/1.7.16",
+    "Source":         "src/subversion/1.7.16/subversion-1.7.16.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.14",
+    "Installed":      "installed/subversion/1.7.14",
+    "Source":         "src/subversion/1.7.14/subversion-1.7.14.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.13",
+    "Installed":      "installed/subversion/1.7.13",
+    "Source":         "src/subversion/1.7.13/subversion-1.7.13.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.11",
+    "Installed":      "installed/subversion/1.7.11",
+    "Source":         "src/subversion/1.7.11/subversion-1.7.11.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.10",
+    "Installed":      "installed/subversion/1.7.10",
+    "Source":         "src/subversion/1.7.10/subversion-1.7.10.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.9",
+    "Installed":      "installed/subversion/1.7.9",
+    "Source":         "src/subversion/1.7.9/subversion-1.7.9.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.8",
+    "Installed":      "installed/subversion/1.7.8",
+    "Source":         "src/subversion/1.7.8/subversion-1.7.8.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.7",
+    "Installed":      "installed/subversion/1.7.7",
+    "Source":         "src/subversion/1.7.7/subversion-1.7.7.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.5",
+    "Installed":      "installed/subversion/1.7.5",
+    "Source":         "src/subversion/1.7.5/subversion-1.7.5.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.4",
+    "Installed":      "installed/subversion/1.7.4",
+    "Source":         "src/subversion/1.7.4/subversion-1.7.4.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.3",
+    "Installed":      "installed/subversion/1.7.3",
+    "Source":         "src/subversion/1.7.3/subversion-1.7.3.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.2",
+    "Installed":      "installed/subversion/1.7.2",
+    "Source":         "src/subversion/1.7.2/subversion-1.7.2.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.1",
+    "Installed":      "installed/subversion/1.7.1",
+    "Source":         "src/subversion/1.7.1/subversion-1.7.1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.0",
+    "Installed":      "installed/subversion/1.7.0",
+    "Source":         "src/subversion/1.7.0/subversion-1.7.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.23",
+    "Installed":      "installed/subversion/1.6.23",
+    "Source":         "src/subversion/1.6.23/subversion-1.6.23.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.21",
+    "Installed":      "installed/subversion/1.6.21",
+    "Source":         "src/subversion/1.6.21/subversion-1.6.21.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.20",
+    "Installed":      "installed/subversion/1.6.20",
+    "Source":         "src/subversion/1.6.20/subversion-1.6.20.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.19",
+    "Installed":      "installed/subversion/1.6.19",
+    "Source":         "src/subversion/1.6.19/subversion-1.6.19.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.18",
+    "Installed":      "installed/subversion/1.6.18",
+    "Source":         "src/subversion/1.6.18/subversion-1.6.18.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.17",
+    "Installed":      "installed/subversion/1.6.17",
+    "Source":         "src/subversion/1.6.17/subversion-1.6.17.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.16",
+    "Installed":      "installed/subversion/1.6.16",
+    "Source":         "src/subversion/1.6.16/subversion-1.6.16.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.15",
+    "Installed":      "installed/subversion/1.6.15",
+    "Source":         "src/subversion/1.6.15/subversion-1.6.15.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.13",
+    "Installed":      "installed/subversion/1.6.13",
+    "Source":         "src/subversion/1.6.13/subversion-1.6.13.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.12",
+    "Installed":      "installed/subversion/1.6.12",
+    "Source":         "src/subversion/1.6.12/subversion-1.6.12.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.11",
+    "Installed":      "installed/subversion/1.6.11",
+    "Source":         "src/subversion/1.6.11/subversion-1.6.11.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.9",
+    "Installed":      "installed/subversion/1.6.9",
+    "Source":         "src/subversion/1.6.9/subversion-1.6.9.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.6",
+    "Installed":      "installed/subversion/1.6.6",
+    "Source":         "src/subversion/1.6.6/subversion-1.6.6.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.5",
+    "Installed":      "installed/subversion/1.6.5",
+    "Source":         "src/subversion/1.6.5/subversion-1.6.5.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.4",
+    "Installed":      "installed/subversion/1.6.4",
+    "Source":         "src/subversion/1.6.4/subversion-1.6.4.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.3",
+    "Installed":      "installed/subversion/1.6.3",
+    "Source":         "src/subversion/1.6.3/subversion-1.6.3.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.2",
+    "Installed":      "installed/subversion/1.6.2",
+    "Source":         "src/subversion/1.6.2/subversion-1.6.2.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.1",
+    "Installed":      "installed/subversion/1.6.1",
+    "Source":         "src/subversion/1.6.1/subversion-1.6.1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.0",
+    "Installed":      "installed/subversion/1.6.0",
+    "Source":         "src/subversion/1.6.0/subversion-1.6.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.9",
+    "Installed":      "installed/subversion/1.5.9",
+    "Source":         "src/subversion/1.5.9/subversion-1.5.9.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.7",
+    "Installed":      "installed/subversion/1.5.7",
+    "Source":         "src/subversion/1.5.7/subversion-1.5.7.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.6",
+    "Installed":      "installed/subversion/1.5.6",
+    "Source":         "src/subversion/1.5.6/subversion-1.5.6.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.5",
+    "Installed":      "installed/subversion/1.5.5",
+    "Source":         "src/subversion/1.5.5/subversion-1.5.5.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.4",
+    "Installed":      "installed/subversion/1.5.4",
+    "Source":         "src/subversion/1.5.4/subversion-1.5.4.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.3",
+    "Installed":      "installed/subversion/1.5.3",
+    "Source":         "src/subversion/1.5.3/subversion-1.5.3.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.2",
+    "Installed":      "installed/subversion/1.5.2",
+    "Source":         "src/subversion/1.5.2/subversion-1.5.2.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.1",
+    "Installed":      "installed/subversion/1.5.1",
+    "Source":         "src/subversion/1.5.1/subversion-1.5.1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.0",
+    "Installed":      "installed/subversion/1.5.0",
+    "Source":         "src/subversion/1.5.0/subversion-1.5.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.6",
+    "Installed":      "installed/subversion/1.4.6",
+    "Source":         "src/subversion/1.4.6/subversion-1.4.6.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.5",
+    "Installed":      "installed/subversion/1.4.5",
+    "Source":         "src/subversion/1.4.5/subversion-1.4.5.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.4",
+    "Installed":      "installed/subversion/1.4.4",
+    "Source":         "src/subversion/1.4.4/subversion-1.4.4.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.3",
+    "Installed":      "installed/subversion/1.4.3",
+    "Source":         "src/subversion/1.4.3/subversion-1.4.3.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.2",
+    "Installed":      "installed/subversion/1.4.2",
+    "Source":         "src/subversion/1.4.2/subversion-1.4.2.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.0",
+    "Installed":      "installed/subversion/1.4.0",
+    "Source":         "src/subversion/1.4.0/subversion-1.4.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

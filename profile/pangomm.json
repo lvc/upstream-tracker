@@ -1,0 +1,71 @@
+{
+  "Name":           "pangomm",
+  "Title":          "Pangomm",
+  "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/pangomm/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/glibmm/2.49.1/lib/pkgconfig:{INSTALL_ROOT}/pango/1.40.1/lib/pkgconfig:{INSTALL_ROOT}/cairomm/1.12.0/lib/pkgconfig:{INSTALL_ROOT}/libsigc++/2.9.2/lib/pkgconfig",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.40.0",
+    "Installed":      "installed/pangomm/2.40.0",
+    "Source":         "src/pangomm/2.40.0/pangomm-2.40.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.39.1",
+    "Installed":      "installed/pangomm/2.39.1",
+    "Source":         "src/pangomm/2.39.1/pangomm-2.39.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.38.1",
+    "Installed":      "installed/pangomm/2.38.1",
+    "Source":         "src/pangomm/2.38.1/pangomm-2.38.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.38.0",
+    "Installed":      "installed/pangomm/2.38.0",
+    "Source":         "src/pangomm/2.38.0/pangomm-2.38.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.37.2",
+    "Installed":      "installed/pangomm/2.37.2",
+    "Source":         "src/pangomm/2.37.2/pangomm-2.37.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.37.1",
+    "Installed":      "installed/pangomm/2.37.1",
+    "Source":         "src/pangomm/2.37.1/pangomm-2.37.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

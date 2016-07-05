@@ -1,0 +1,109 @@
+{
+  "Name":           "json-glib",
+  "SourceUrl":      "http://ftp.acc.umu.se/pub/GNOME/sources/json-glib/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/json-glib/1.2.0",
+    "Source":         "src/json-glib/1.2.0/json-glib-1.2.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.2",
+    "Installed":      "installed/json-glib/1.1.2",
+    "Source":         "src/json-glib/1.1.2/json-glib-1.1.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.4",
+    "Installed":      "installed/json-glib/1.0.4",
+    "Source":         "src/json-glib/1.0.4/json-glib-1.0.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.2",
+    "Installed":      "installed/json-glib/1.0.2",
+    "Source":         "src/json-glib/1.0.2/json-glib-1.0.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/json-glib/1.0.0",
+    "Source":         "src/json-glib/1.0.0/json-glib-1.0.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.99.2",
+    "Installed":      "installed/json-glib/0.99.2",
+    "Source":         "src/json-glib/0.99.2/json-glib-0.99.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16.2",
+    "Installed":      "installed/json-glib/0.16.2",
+    "Source":         "src/json-glib/0.16.2/json-glib-0.16.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16.0",
+    "Installed":      "installed/json-glib/0.16.0",
+    "Source":         "src/json-glib/0.16.0/json-glib-0.16.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.15.2",
+    "Installed":      "installed/json-glib/0.15.2",
+    "Source":         "src/json-glib/0.15.2/json-glib-0.15.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14.2",
+    "Installed":      "installed/json-glib/0.14.2",
+    "Source":         "src/json-glib/0.14.2/json-glib-0.14.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

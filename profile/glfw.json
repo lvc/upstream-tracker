@@ -1,0 +1,112 @@
+{
+  "Name":           "glfw",
+  "Title":          "GLFW",
+  "SourceUrl":      "https://github.com/glfw/glfw/tags",
+  "Git":            "https://github.com/glfw/glfw.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/glfw/current",
+    "Source":         "src/glfw/current",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2",
+    "Installed":      "installed/glfw/3.2",
+    "Source":         "src/glfw/3.2/glfw-3.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.2",
+    "Installed":      "installed/glfw/3.1.2",
+    "Source":         "src/glfw/3.1.2/glfw-3.1.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.1",
+    "Installed":      "installed/glfw/3.1.1",
+    "Source":         "src/glfw/3.1.1/glfw-3.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1",
+    "Installed":      "installed/glfw/3.1",
+    "Source":         "src/glfw/3.1/glfw-3.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.4",
+    "Installed":      "installed/glfw/3.0.4",
+    "Source":         "src/glfw/3.0.4/glfw-3.0.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.3",
+    "Installed":      "installed/glfw/3.0.3",
+    "Source":         "src/glfw/3.0.3/glfw-3.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.2",
+    "Installed":      "installed/glfw/3.0.2",
+    "Source":         "src/glfw/3.0.2/glfw-3.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.1",
+    "Installed":      "installed/glfw/3.0.1",
+    "Source":         "src/glfw/3.0.1/glfw-3.0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0",
+    "Installed":      "installed/glfw/3.0",
+    "Source":         "src/glfw/3.0/glfw-3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

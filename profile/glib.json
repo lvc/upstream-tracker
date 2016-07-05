@@ -20,6 +20,16 @@
     "PublicTypes":    "public_types/glib/current/list"
   },
   {
+    "Number":         "2.49.1",
+    "Installed":      "installed/glib/2.49.1",
+    "Source":         "src/glib/2.49.1/glib-2.49.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.48.1",
     "Installed":      "installed/glib/2.48.1",
     "Source":         "src/glib/2.48.1/glib-2.48.1.tar.xz",

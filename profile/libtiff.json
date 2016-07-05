@@ -1,0 +1,242 @@
+{
+  "Name":           "libtiff",
+  "Title":          "LibTIFF",
+  "SourceUrl":      "ftp://ftp.remotesensing.org/pub/libtiff/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "3.7.1",
+  "Package":        "tiff",
+
+  "Versions": [
+  {
+    "Number":         "4.0.6",
+    "Installed":      "installed/libtiff/4.0.6",
+    "Source":         "src/libtiff/4.0.6/tiff-4.0.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.5",
+    "Installed":      "installed/libtiff/4.0.5",
+    "Source":         "src/libtiff/4.0.5/tiff-4.0.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.4",
+    "Installed":      "installed/libtiff/4.0.4",
+    "Source":         "src/libtiff/4.0.4/tiff-4.0.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.3",
+    "Installed":      "installed/libtiff/4.0.3",
+    "Source":         "src/libtiff/4.0.3/tiff-4.0.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.2",
+    "Installed":      "installed/libtiff/4.0.2",
+    "Source":         "src/libtiff/4.0.2/tiff-4.0.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.1",
+    "Installed":      "installed/libtiff/4.0.1",
+    "Source":         "src/libtiff/4.0.1/tiff-4.0.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.0",
+    "Installed":      "installed/libtiff/4.0.0",
+    "Source":         "src/libtiff/4.0.0/tiff-4.0.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.9.7",
+    "Installed":      "installed/libtiff/3.9.7",
+    "Source":         "src/libtiff/3.9.7/tiff-3.9.7.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.9.6",
+    "Installed":      "installed/libtiff/3.9.6",
+    "Source":         "src/libtiff/3.9.6/tiff-3.9.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.9.5",
+    "Installed":      "installed/libtiff/3.9.5",
+    "Source":         "src/libtiff/3.9.5/tiff-3.9.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.9.4",
+    "Installed":      "installed/libtiff/3.9.4",
+    "Source":         "src/libtiff/3.9.4/tiff-3.9.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.9.3",
+    "Installed":      "installed/libtiff/3.9.3",
+    "Source":         "src/libtiff/3.9.3/tiff-3.9.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.9.2",
+    "Installed":      "installed/libtiff/3.9.2",
+    "Source":         "src/libtiff/3.9.2/tiff-3.9.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.9.1",
+    "Installed":      "installed/libtiff/3.9.1",
+    "Source":         "src/libtiff/3.9.1/tiff-3.9.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.9.0",
+    "Installed":      "installed/libtiff/3.9.0",
+    "Source":         "src/libtiff/3.9.0/tiff-3.9.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.8.2",
+    "Installed":      "installed/libtiff/3.8.2",
+    "Source":         "src/libtiff/3.8.2/tiff-3.8.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.8.1",
+    "Installed":      "installed/libtiff/3.8.1",
+    "Source":         "src/libtiff/3.8.1/tiff-3.8.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.8.0",
+    "Installed":      "installed/libtiff/3.8.0",
+    "Source":         "src/libtiff/3.8.0/tiff-3.8.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7.4",
+    "Installed":      "installed/libtiff/3.7.4",
+    "Source":         "src/libtiff/3.7.4/tiff-3.7.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7.3",
+    "Installed":      "installed/libtiff/3.7.3",
+    "Source":         "src/libtiff/3.7.3/tiff-3.7.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7.2",
+    "Installed":      "installed/libtiff/3.7.2",
+    "Source":         "src/libtiff/3.7.2/tiff-3.7.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7.1",
+    "Installed":      "installed/libtiff/3.7.1",
+    "Source":         "src/libtiff/3.7.1/tiff-3.7.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7.0",
+    "Installed":      "installed/libtiff/3.7.0",
+    "Source":         "src/libtiff/3.7.0/tiff-3.7.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

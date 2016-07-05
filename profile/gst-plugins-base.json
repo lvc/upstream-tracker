@@ -24,6 +24,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.8.2",
+    "Installed":      "installed/gst-plugins-base/1.8.2",
+    "Source":         "src/gst-plugins-base/1.8.2/gst-plugins-base-1.8.2.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.8.1",
     "Installed":      "installed/gst-plugins-base/1.8.1",
     "Source":         "src/gst-plugins-base/1.8.1/gst-plugins-base-1.8.1.tar.xz",

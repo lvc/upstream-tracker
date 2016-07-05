@@ -1,0 +1,554 @@
+{
+  "Name":           "libpng",
+  "SourceUrl":      "https://sourceforge.net/projects/libpng/files/",
+  "SourceUrlDepth": "3",
+  "SkipUrl":        [ "libpng(00|17)/", "older-releases", "zlib/" ],
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+  "SkipVersions":   [ ".*beta\d+" ],
+  "UseTUDump":      "1",
+
+  "Versions": [
+  {
+    "Number":         "1.6.23",
+    "Installed":      "installed/libpng/1.6.23",
+    "Source":         "src/libpng/1.6.23/libpng-1.6.23.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.22",
+    "Installed":      "installed/libpng/1.6.22",
+    "Source":         "src/libpng/1.6.22/libpng-1.6.22.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.21",
+    "Installed":      "installed/libpng/1.6.21",
+    "Source":         "src/libpng/1.6.21/libpng-1.6.21.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.20",
+    "Installed":      "installed/libpng/1.6.20",
+    "Source":         "src/libpng/1.6.20/libpng-1.6.20.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.19",
+    "Installed":      "installed/libpng/1.6.19",
+    "Source":         "src/libpng/1.6.19/libpng-1.6.19.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.18",
+    "Installed":      "installed/libpng/1.6.18",
+    "Source":         "src/libpng/1.6.18/libpng-1.6.18.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.17",
+    "Installed":      "installed/libpng/1.6.17",
+    "Source":         "src/libpng/1.6.17/libpng-1.6.17.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.16",
+    "Installed":      "installed/libpng/1.6.16",
+    "Source":         "src/libpng/1.6.16/libpng-1.6.16.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.15",
+    "Installed":      "installed/libpng/1.6.15",
+    "Source":         "src/libpng/1.6.15/libpng-1.6.15.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.14",
+    "Installed":      "installed/libpng/1.6.14",
+    "Source":         "src/libpng/1.6.14/libpng-1.6.14.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.13",
+    "Installed":      "installed/libpng/1.6.13",
+    "Source":         "src/libpng/1.6.13/libpng-1.6.13.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.12",
+    "Installed":      "installed/libpng/1.6.12",
+    "Source":         "src/libpng/1.6.12/libpng-1.6.12.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.11",
+    "Installed":      "installed/libpng/1.6.11",
+    "Source":         "src/libpng/1.6.11/libpng-1.6.11.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.10",
+    "Installed":      "installed/libpng/1.6.10",
+    "Source":         "src/libpng/1.6.10/libpng-1.6.10.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.9",
+    "Installed":      "installed/libpng/1.6.9",
+    "Source":         "src/libpng/1.6.9/libpng-1.6.9.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.8",
+    "Installed":      "installed/libpng/1.6.8",
+    "Source":         "src/libpng/1.6.8/libpng-1.6.8.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.7",
+    "Installed":      "installed/libpng/1.6.7",
+    "Source":         "src/libpng/1.6.7/libpng-1.6.7.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.6",
+    "Installed":      "installed/libpng/1.6.6",
+    "Source":         "src/libpng/1.6.6/libpng-1.6.6.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.5",
+    "Installed":      "installed/libpng/1.6.5",
+    "Source":         "src/libpng/1.6.5/libpng-1.6.5.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.4",
+    "Installed":      "installed/libpng/1.6.4",
+    "Source":         "src/libpng/1.6.4/libpng-1.6.4.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.3",
+    "Installed":      "installed/libpng/1.6.3",
+    "Source":         "src/libpng/1.6.3/libpng-1.6.3.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.2",
+    "Installed":      "installed/libpng/1.6.2",
+    "Source":         "src/libpng/1.6.2/libpng-1.6.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.1",
+    "Installed":      "installed/libpng/1.6.1",
+    "Source":         "src/libpng/1.6.1/libpng-1.6.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.0",
+    "Installed":      "installed/libpng/1.6.0",
+    "Source":         "src/libpng/1.6.0/libpng-1.6.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.26",
+    "Installed":      "installed/libpng/1.5.26",
+    "Source":         "src/libpng/1.5.26/libpng-1.5.26.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.25",
+    "Installed":      "installed/libpng/1.5.25",
+    "Source":         "src/libpng/1.5.25/libpng-1.5.25.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.24",
+    "Installed":      "installed/libpng/1.5.24",
+    "Source":         "src/libpng/1.5.24/libpng-1.5.24.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.23",
+    "Installed":      "installed/libpng/1.5.23",
+    "Source":         "src/libpng/1.5.23/libpng-1.5.23.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.22",
+    "Installed":      "installed/libpng/1.5.22",
+    "Source":         "src/libpng/1.5.22/libpng-1.5.22.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.21",
+    "Installed":      "installed/libpng/1.5.21",
+    "Source":         "src/libpng/1.5.21/libpng-1.5.21.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.20",
+    "Installed":      "installed/libpng/1.5.20",
+    "Source":         "src/libpng/1.5.20/libpng-1.5.20.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.19",
+    "Installed":      "installed/libpng/1.5.19",
+    "Source":         "src/libpng/1.5.19/libpng-1.5.19.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.18",
+    "Installed":      "installed/libpng/1.5.18",
+    "Source":         "src/libpng/1.5.18/libpng-1.5.18.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.17",
+    "Installed":      "installed/libpng/1.5.17",
+    "Source":         "src/libpng/1.5.17/libpng-1.5.17.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.16",
+    "Installed":      "installed/libpng/1.5.16",
+    "Source":         "src/libpng/1.5.16/libpng-1.5.16.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.15",
+    "Installed":      "installed/libpng/1.5.15",
+    "Source":         "src/libpng/1.5.15/libpng-1.5.15.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.14",
+    "Installed":      "installed/libpng/1.5.14",
+    "Source":         "src/libpng/1.5.14/libpng-1.5.14.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.13",
+    "Installed":      "installed/libpng/1.5.13",
+    "Source":         "src/libpng/1.5.13/libpng-1.5.13.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.12",
+    "Installed":      "installed/libpng/1.5.12",
+    "Source":         "src/libpng/1.5.12/libpng-1.5.12.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.11",
+    "Installed":      "installed/libpng/1.5.11",
+    "Source":         "src/libpng/1.5.11/libpng-1.5.11.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.10",
+    "Installed":      "installed/libpng/1.5.10",
+    "Source":         "src/libpng/1.5.10/libpng-1.5.10.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.9",
+    "Installed":      "installed/libpng/1.5.9",
+    "Source":         "src/libpng/1.5.9/libpng-1.5.9.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.8",
+    "Installed":      "installed/libpng/1.5.8",
+    "Source":         "src/libpng/1.5.8/libpng-1.5.8.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.7",
+    "Installed":      "installed/libpng/1.5.7",
+    "Source":         "src/libpng/1.5.7/libpng-1.5.7.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.6",
+    "Installed":      "installed/libpng/1.5.6",
+    "Source":         "src/libpng/1.5.6/libpng-1.5.6.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.5",
+    "Installed":      "installed/libpng/1.5.5",
+    "Source":         "src/libpng/1.5.5/libpng-1.5.5.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.4",
+    "Installed":      "installed/libpng/1.5.4",
+    "Source":         "src/libpng/1.5.4/libpng-1.5.4.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.2",
+    "Installed":      "installed/libpng/1.5.2",
+    "Source":         "src/libpng/1.5.2/libpng-1.5.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.1",
+    "Installed":      "installed/libpng/1.5.1",
+    "Source":         "src/libpng/1.5.1/libpng-1.5.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.0",
+    "Installed":      "installed/libpng/1.5.0",
+    "Source":         "src/libpng/1.5.0/libpng-1.5.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.19",
+    "Installed":      "installed/libpng/1.4.19",
+    "Source":         "src/libpng/1.4.19/libpng-1.4.19.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.18",
+    "Installed":      "installed/libpng/1.4.18",
+    "Source":         "src/libpng/1.4.18/libpng-1.4.18.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.56",
+    "Installed":      "installed/libpng/1.2.56",
+    "Source":         "src/libpng/1.2.56/libpng-1.2.56.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.55",
+    "Installed":      "installed/libpng/1.2.55",
+    "Source":         "src/libpng/1.2.55/libpng-1.2.55.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

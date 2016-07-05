@@ -1,0 +1,52 @@
+{
+  "Name":           "json-c",
+  "SourceUrl":      "https://github.com/json-c/json-c/tags",
+  "Git":            "https://github.com/json-c/json-c.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "SkipObjects":    [ "libjson.so.0.1.0" ],
+  "GraphShortXTics": "On",
+  "MinimalVersion": "0.11-20130402",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/json-c/current",
+    "Source":         "src/json-c/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.12.1-20160607",
+    "Installed":      "installed/json-c/0.12.1-20160607",
+    "Source":         "src/json-c/0.12.1-20160607/json-c-0.12.1-20160607.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.12-20140410",
+    "Installed":      "installed/json-c/0.12-20140410",
+    "Source":         "src/json-c/0.12-20140410/json-c-0.12-20140410.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11-20130402",
+    "Installed":      "installed/json-c/0.11-20130402",
+    "Source":         "src/json-c/0.11-20130402/json-c-0.11-20130402.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

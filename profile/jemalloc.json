@@ -1,0 +1,232 @@
+{
+  "Name":           "jemalloc",
+  "SourceUrl":      "https://github.com/jemalloc/jemalloc/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/jemalloc.sh",
+  "HeadersDiff":    "On",
+  "ReimplementStd": "1",
+  "UseTUDump":      "1",
+
+  "Versions": [
+  {
+    "Number":         "4.2.1",
+    "Installed":      "installed/jemalloc/4.2.1",
+    "Source":         "src/jemalloc/4.2.1/jemalloc-4.2.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2.0",
+    "Installed":      "installed/jemalloc/4.2.0",
+    "Source":         "src/jemalloc/4.2.0/jemalloc-4.2.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.1",
+    "Installed":      "installed/jemalloc/4.1.1",
+    "Source":         "src/jemalloc/4.1.1/jemalloc-4.1.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.0",
+    "Installed":      "installed/jemalloc/4.1.0",
+    "Source":         "src/jemalloc/4.1.0/jemalloc-4.1.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.4",
+    "Installed":      "installed/jemalloc/4.0.4",
+    "Source":         "src/jemalloc/4.0.4/jemalloc-4.0.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.3",
+    "Installed":      "installed/jemalloc/4.0.3",
+    "Source":         "src/jemalloc/4.0.3/jemalloc-4.0.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.2",
+    "Installed":      "installed/jemalloc/4.0.2",
+    "Source":         "src/jemalloc/4.0.2/jemalloc-4.0.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.1",
+    "Installed":      "installed/jemalloc/4.0.1",
+    "Source":         "src/jemalloc/4.0.1/jemalloc-4.0.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.0",
+    "Installed":      "installed/jemalloc/4.0.0",
+    "Source":         "src/jemalloc/4.0.0/jemalloc-4.0.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.0",
+    "Installed":      "installed/jemalloc/3.6.0",
+    "Source":         "src/jemalloc/3.6.0/jemalloc-3.6.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.5.1",
+    "Installed":      "installed/jemalloc/3.5.1",
+    "Source":         "src/jemalloc/3.5.1/jemalloc-3.5.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.4.1",
+    "Installed":      "installed/jemalloc/3.4.1",
+    "Source":         "src/jemalloc/3.4.1/jemalloc-3.4.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.4.0",
+    "Installed":      "installed/jemalloc/3.4.0",
+    "Source":         "src/jemalloc/3.4.0/jemalloc-3.4.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.1",
+    "Installed":      "installed/jemalloc/3.3.1",
+    "Source":         "src/jemalloc/3.3.1/jemalloc-3.3.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.0",
+    "Installed":      "installed/jemalloc/3.3.0",
+    "Source":         "src/jemalloc/3.3.0/jemalloc-3.3.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.0",
+    "Installed":      "installed/jemalloc/3.2.0",
+    "Source":         "src/jemalloc/3.2.0/jemalloc-3.2.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.0",
+    "Installed":      "installed/jemalloc/3.1.0",
+    "Source":         "src/jemalloc/3.1.0/jemalloc-3.1.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.0",
+    "Installed":      "installed/jemalloc/3.0.0",
+    "Source":         "src/jemalloc/3.0.0/jemalloc-3.0.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.5",
+    "Installed":      "installed/jemalloc/2.2.5",
+    "Source":         "src/jemalloc/2.2.5/jemalloc-2.2.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.4",
+    "Installed":      "installed/jemalloc/2.2.4",
+    "Source":         "src/jemalloc/2.2.4/jemalloc-2.2.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.3",
+    "Installed":      "installed/jemalloc/2.2.3",
+    "Source":         "src/jemalloc/2.2.3/jemalloc-2.2.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.2",
+    "Installed":      "installed/jemalloc/2.2.2",
+    "Source":         "src/jemalloc/2.2.2/jemalloc-2.2.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

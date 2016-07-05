@@ -1,0 +1,73 @@
+{
+  "Name":           "hdf5",
+  "Title":          "HDF5",
+  "SourceUrl":      "http://www.hdfgroup.org/ftp/HDF5/prev-releases/",
+  "SourceUrlDepth": "3",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "PreInstall":     "sed -i -e 's/-O3/-Og/' config/gnu-flags",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.8.17",
+    "Installed":      "installed/hdf5/1.8.17",
+    "Source":         "src/hdf5/1.8.17/hdf5-1.8.17.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.16",
+    "Installed":      "installed/hdf5/1.8.16",
+    "Source":         "src/hdf5/1.8.16/hdf5-1.8.16.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.15",
+    "Installed":      "installed/hdf5/1.8.15",
+    "Source":         "src/hdf5/1.8.15/hdf5-1.8.15.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.14",
+    "Installed":      "installed/hdf5/1.8.14",
+    "Source":         "src/hdf5/1.8.14/hdf5-1.8.14.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.13",
+    "Installed":      "installed/hdf5/1.8.13",
+    "Source":         "src/hdf5/1.8.13/hdf5-1.8.13.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.12",
+    "Installed":      "installed/hdf5/1.8.12",
+    "Source":         "src/hdf5/1.8.12/hdf5-1.8.12.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

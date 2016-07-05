@@ -1,0 +1,422 @@
+{
+  "Name":           "gupnp",
+  "Title":          "GUPnP",
+  "SourceUrl":      "https://download.gnome.org/sources/gupnp/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/gssdp/0.14.15/lib/pkgconfig",
+  "PreInstall":     "sed -i -e 's/-O0/-Og/' configure",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.20.18",
+    "Installed":      "installed/gupnp/0.20.18",
+    "Source":         "src/gupnp/0.20.18/gupnp-0.20.18.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.17",
+    "Installed":      "installed/gupnp/0.20.17",
+    "Source":         "src/gupnp/0.20.17/gupnp-0.20.17.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.16",
+    "Installed":      "installed/gupnp/0.20.16",
+    "Source":         "src/gupnp/0.20.16/gupnp-0.20.16.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.15",
+    "Installed":      "installed/gupnp/0.20.15",
+    "Source":         "src/gupnp/0.20.15/gupnp-0.20.15.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.14",
+    "Installed":      "installed/gupnp/0.20.14",
+    "Source":         "src/gupnp/0.20.14/gupnp-0.20.14.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.13",
+    "Installed":      "installed/gupnp/0.20.13",
+    "Source":         "src/gupnp/0.20.13/gupnp-0.20.13.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.12",
+    "Installed":      "installed/gupnp/0.20.12",
+    "Source":         "src/gupnp/0.20.12/gupnp-0.20.12.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.11",
+    "Installed":      "installed/gupnp/0.20.11",
+    "Source":         "src/gupnp/0.20.11/gupnp-0.20.11.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.10",
+    "Installed":      "installed/gupnp/0.20.10",
+    "Source":         "src/gupnp/0.20.10/gupnp-0.20.10.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.9",
+    "Installed":      "installed/gupnp/0.20.9",
+    "Source":         "src/gupnp/0.20.9/gupnp-0.20.9.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.8",
+    "Installed":      "installed/gupnp/0.20.8",
+    "Source":         "src/gupnp/0.20.8/gupnp-0.20.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.7",
+    "Installed":      "installed/gupnp/0.20.7",
+    "Source":         "src/gupnp/0.20.7/gupnp-0.20.7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.6",
+    "Installed":      "installed/gupnp/0.20.6",
+    "Source":         "src/gupnp/0.20.6/gupnp-0.20.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.5",
+    "Installed":      "installed/gupnp/0.20.5",
+    "Source":         "src/gupnp/0.20.5/gupnp-0.20.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.4",
+    "Installed":      "installed/gupnp/0.20.4",
+    "Source":         "src/gupnp/0.20.4/gupnp-0.20.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.3",
+    "Installed":      "installed/gupnp/0.20.3",
+    "Source":         "src/gupnp/0.20.3/gupnp-0.20.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.2",
+    "Installed":      "installed/gupnp/0.20.2",
+    "Source":         "src/gupnp/0.20.2/gupnp-0.20.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.1",
+    "Installed":      "installed/gupnp/0.20.1",
+    "Source":         "src/gupnp/0.20.1/gupnp-0.20.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.0",
+    "Installed":      "installed/gupnp/0.20.0",
+    "Source":         "src/gupnp/0.20.0/gupnp-0.20.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19.4",
+    "Installed":      "installed/gupnp/0.19.4",
+    "Source":         "src/gupnp/0.19.4/gupnp-0.19.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19.3",
+    "Installed":      "installed/gupnp/0.19.3",
+    "Source":         "src/gupnp/0.19.3/gupnp-0.19.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19.2",
+    "Installed":      "installed/gupnp/0.19.2",
+    "Source":         "src/gupnp/0.19.2/gupnp-0.19.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19.1",
+    "Installed":      "installed/gupnp/0.19.1",
+    "Source":         "src/gupnp/0.19.1/gupnp-0.19.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19.0",
+    "Installed":      "installed/gupnp/0.19.0",
+    "Source":         "src/gupnp/0.19.0/gupnp-0.19.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.18.4",
+    "Installed":      "installed/gupnp/0.18.4",
+    "Source":         "src/gupnp/0.18.4/gupnp-0.18.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.18.3",
+    "Installed":      "installed/gupnp/0.18.3",
+    "Source":         "src/gupnp/0.18.3/gupnp-0.18.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.18.2",
+    "Installed":      "installed/gupnp/0.18.2",
+    "Source":         "src/gupnp/0.18.2/gupnp-0.18.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.18.1",
+    "Installed":      "installed/gupnp/0.18.1",
+    "Source":         "src/gupnp/0.18.1/gupnp-0.18.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.18.0",
+    "Installed":      "installed/gupnp/0.18.0",
+    "Source":         "src/gupnp/0.18.0/gupnp-0.18.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.17.2",
+    "Installed":      "installed/gupnp/0.17.2",
+    "Source":         "src/gupnp/0.17.2/gupnp-0.17.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.17.1",
+    "Installed":      "installed/gupnp/0.17.1",
+    "Source":         "src/gupnp/0.17.1/gupnp-0.17.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.17.0",
+    "Installed":      "installed/gupnp/0.17.0",
+    "Source":         "src/gupnp/0.17.0/gupnp-0.17.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16.1",
+    "Installed":      "installed/gupnp/0.16.1",
+    "Source":         "src/gupnp/0.16.1/gupnp-0.16.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16.0",
+    "Installed":      "installed/gupnp/0.16.0",
+    "Source":         "src/gupnp/0.16.0/gupnp-0.16.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.15.1",
+    "Installed":      "installed/gupnp/0.15.1",
+    "Source":         "src/gupnp/0.15.1/gupnp-0.15.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.15.0",
+    "Installed":      "installed/gupnp/0.15.0",
+    "Source":         "src/gupnp/0.15.0/gupnp-0.15.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14.1",
+    "Installed":      "installed/gupnp/0.14.1",
+    "Source":         "src/gupnp/0.14.1/gupnp-0.14.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14.0",
+    "Installed":      "installed/gupnp/0.14.0",
+    "Source":         "src/gupnp/0.14.0/gupnp-0.14.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13.3",
+    "Installed":      "installed/gupnp/0.13.3",
+    "Source":         "src/gupnp/0.13.3/gupnp-0.13.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13.1",
+    "Installed":      "installed/gupnp/0.13.1",
+    "Source":         "src/gupnp/0.13.1/gupnp-0.13.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.12.8",
+    "Installed":      "installed/gupnp/0.12.8",
+    "Source":         "src/gupnp/0.12.8/gupnp-0.12.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

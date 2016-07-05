@@ -22,6 +22,26 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "3.20.6",
+    "Installed":      "installed/gtk+/3.20.6",
+    "Source":         "src/gtk+/3.20.6/gtk+-3.20.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.20.5",
+    "Installed":      "installed/gtk+/3.20.5",
+    "Source":         "src/gtk+/3.20.5/gtk+-3.20.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.20.4",
     "Installed":      "installed/gtk+/3.20.4",
     "Source":         "src/gtk+/3.20.4/gtk+-3.20.4.tar.xz",

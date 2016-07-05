@@ -1,0 +1,9 @@
+elf_begin@@ELFUTILS_1.0
+dwarf_getscopevar@@ELFUTILS_0.122
+dwfl_report_module@@ELFUTILS_0.122
+dwarf_entry_breakpoints@@ELFUTILS_0.122
+dwarf_getscopevar@@ELFUTILS_0.122
+dwfl_linux_kernel_find_elf@@ELFUTILS_0.122
+dwfl_linux_kernel_report_kernel@@ELFUTILS_0.122
+dwfl_module_addrsym@@ELFUTILS_0.127
+dwarf_formref_die@@ELFUTILS_0.122

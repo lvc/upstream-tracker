@@ -1,0 +1,114 @@
+{
+  "Name":           "gegl",
+  "Title":          "GEGL",
+  "SourceUrl":      "http://ftp.gtk.org/pub/gegl/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-introspection=no --disable-docs PKG_CONFIG_PATH={INSTALL_ROOT}/babl/0.1.16/lib/pkgconfig/",
+  "PreInstall":     "sed -i -e 's/ operations bin tools examples tests / /g' Makefile.in",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/gegl-0.*",
+  "SkipObjects":    [ "gegl-0.1/", "gegl-0.3/" ],
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.3.8",
+    "Installed":      "installed/gegl/0.3.8",
+    "Source":         "src/gegl/0.3.8/gegl-0.3.8.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.6",
+    "Installed":      "installed/gegl/0.3.6",
+    "Source":         "src/gegl/0.3.6/gegl-0.3.6.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.4",
+    "Installed":      "installed/gegl/0.3.4",
+    "Source":         "src/gegl/0.3.4/gegl-0.3.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.2",
+    "Installed":      "installed/gegl/0.3.2",
+    "Source":         "src/gegl/0.3.2/gegl-0.3.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.0",
+    "Installed":      "installed/gegl/0.3.0",
+    "Source":         "src/gegl/0.3.0/gegl-0.3.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.0",
+    "Installed":      "installed/gegl/0.2.0",
+    "Source":         "src/gegl/0.2.0/gegl-0.2.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.8",
+    "Installed":      "installed/gegl/0.1.8",
+    "Source":         "src/gegl/0.1.8/gegl-0.1.8.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.6",
+    "Installed":      "installed/gegl/0.1.6",
+    "Source":         "src/gegl/0.1.6/gegl-0.1.6.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.4",
+    "Installed":      "installed/gegl/0.1.4",
+    "Source":         "src/gegl/0.1.4/gegl-0.1.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.2",
+    "Installed":      "installed/gegl/0.1.2",
+    "Source":         "src/gegl/0.1.2/gegl-0.1.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

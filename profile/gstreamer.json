@@ -25,6 +25,16 @@
     "PublicTypes":    "public_types/gstreamer/current/list"
   },
   {
+    "Number":         "1.8.2",
+    "Installed":      "installed/gstreamer/1.8.2",
+    "Source":         "src/gstreamer/1.8.2/gstreamer-1.8.2.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.8.1",
     "Installed":      "installed/gstreamer/1.8.1",
     "Source":         "src/gstreamer/1.8.1/gstreamer-1.8.1.tar.xz",

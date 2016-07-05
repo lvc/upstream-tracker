@@ -1,0 +1,1 @@
+make CFLAGS="-g -Og -fPIC"

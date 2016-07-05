@@ -7,10 +7,10 @@ NAME:
 
 REQUIRES:
   Perl 5
-  ABI Tracker (1.6 or newer)
-  ABI Monitor (1.8 or newer)
-  ABI Compliance Checker (1.99.20 or newer)
-  ABI Dumper (0.99.15 or newer)
+  ABI Tracker (1.8 or newer)
+  ABI Monitor (1.9 or newer)
+  ABI Compliance Checker (1.99.21 or newer)
+  ABI Dumper (0.99.16 or newer)
   PkgDiff (1.6.4 or newer)
   
   You can use the installer to automatically download from github and install necessary tools: https://github.com/lvc/installer

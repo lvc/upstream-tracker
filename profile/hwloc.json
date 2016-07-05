@@ -1,0 +1,189 @@
+{
+  "Name":           "hwloc",
+  "SourceUrl":      "https://github.com/open-mpi/hwloc/releases",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.11.3",
+    "Installed":      "installed/hwloc/1.11.3",
+    "Source":         "src/hwloc/1.11.3/hwloc-1.11.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.2",
+    "Installed":      "installed/hwloc/1.11.2",
+    "Source":         "src/hwloc/1.11.2/hwloc-1.11.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.1",
+    "Installed":      "installed/hwloc/1.11.1",
+    "Source":         "src/hwloc/1.11.1/hwloc-1.11.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.0",
+    "Installed":      "installed/hwloc/1.11.0",
+    "Source":         "src/hwloc/1.11.0/hwloc-1.11.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.1",
+    "Installed":      "installed/hwloc/1.10.1",
+    "Source":         "src/hwloc/1.10.1/hwloc-1.10.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.0",
+    "Installed":      "installed/hwloc/1.10.0",
+    "Source":         "src/hwloc/1.10.0/hwloc-1.10.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.1",
+    "Installed":      "installed/hwloc/1.9.1",
+    "Source":         "src/hwloc/1.9.1/hwloc-1.9.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9",
+    "Installed":      "installed/hwloc/1.9",
+    "Source":         "src/hwloc/1.9/hwloc-1.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.1",
+    "Installed":      "installed/hwloc/1.8.1",
+    "Source":         "src/hwloc/1.8.1/hwloc-1.8.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8",
+    "Installed":      "installed/hwloc/1.8",
+    "Source":         "src/hwloc/1.8/hwloc-1.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.2",
+    "Installed":      "installed/hwloc/1.7.2",
+    "Source":         "src/hwloc/1.7.2/hwloc-1.7.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.1",
+    "Installed":      "installed/hwloc/1.7.1",
+    "Source":         "src/hwloc/1.7.1/hwloc-1.7.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7",
+    "Installed":      "installed/hwloc/1.7",
+    "Source":         "src/hwloc/1.7/hwloc-1.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.2",
+    "Installed":      "installed/hwloc/1.6.2",
+    "Source":         "src/hwloc/1.6.2/hwloc-1.6.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.1",
+    "Installed":      "installed/hwloc/1.6.1",
+    "Source":         "src/hwloc/1.6.1/hwloc-1.6.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6",
+    "Installed":      "installed/hwloc/1.6",
+    "Source":         "src/hwloc/1.6/hwloc-1.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.2",
+    "Installed":      "installed/hwloc/1.5.2",
+    "Source":         "src/hwloc/1.5.2/hwloc-1.5.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.3",
+    "Installed":      "installed/hwloc/1.4.3",
+    "Source":         "src/hwloc/1.4.3/hwloc-1.4.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

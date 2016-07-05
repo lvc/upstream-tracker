@@ -1,0 +1,300 @@
+{
+  "Name":           "libburn",
+  "SourceUrl":      "http://files.libburnia-project.org/releases/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "Changelog":      "ChangeLog",
+
+  "Versions": [
+  {
+    "Number":         "1.4.4",
+    "Installed":      "installed/libburn/1.4.4",
+    "Source":         "src/libburn/1.4.4/libburn-1.4.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.2",
+    "Installed":      "installed/libburn/1.4.2",
+    "Source":         "src/libburn/1.4.2/libburn-1.4.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.0",
+    "Installed":      "installed/libburn/1.4.0",
+    "Source":         "src/libburn/1.4.0/libburn-1.4.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.8",
+    "Installed":      "installed/libburn/1.3.8",
+    "Source":         "src/libburn/1.3.8/libburn-1.3.8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.6",
+    "Installed":      "installed/libburn/1.3.6",
+    "Source":         "src/libburn/1.3.6/libburn-1.3.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.4",
+    "Installed":      "installed/libburn/1.3.4",
+    "Source":         "src/libburn/1.3.4/libburn-1.3.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.2",
+    "Installed":      "installed/libburn/1.3.2",
+    "Source":         "src/libburn/1.3.2/libburn-1.3.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.0",
+    "Installed":      "installed/libburn/1.3.0",
+    "Source":         "src/libburn/1.3.0/libburn-1.3.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.8",
+    "Installed":      "installed/libburn/1.2.8",
+    "Source":         "src/libburn/1.2.8/libburn-1.2.8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.6",
+    "Installed":      "installed/libburn/1.2.6",
+    "Source":         "src/libburn/1.2.6/libburn-1.2.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.4",
+    "Installed":      "installed/libburn/1.2.4",
+    "Source":         "src/libburn/1.2.4/libburn-1.2.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.2",
+    "Installed":      "installed/libburn/1.2.2",
+    "Source":         "src/libburn/1.2.2/libburn-1.2.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.8",
+    "Installed":      "installed/libburn/1.1.8",
+    "Source":         "src/libburn/1.1.8/libburn-1.1.8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.6",
+    "Installed":      "installed/libburn/1.1.6",
+    "Source":         "src/libburn/1.1.6/libburn-1.1.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.4",
+    "Installed":      "installed/libburn/1.1.4",
+    "Source":         "src/libburn/1.1.4/libburn-1.1.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/libburn/1.1.0",
+    "Source":         "src/libburn/1.1.0/libburn-1.1.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.4",
+    "Installed":      "installed/libburn/0.4.4",
+    "Source":         "src/libburn/0.4.4/libburn-0.4.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.2",
+    "Installed":      "installed/libburn/0.4.2",
+    "Source":         "src/libburn/0.4.2/libburn-0.4.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.0",
+    "Installed":      "installed/libburn/0.4.0",
+    "Source":         "src/libburn/0.4.0/libburn-0.4.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.8",
+    "Installed":      "installed/libburn/0.3.8",
+    "Source":         "src/libburn/0.3.8/libburn-0.3.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.6",
+    "Installed":      "installed/libburn/0.3.6",
+    "Source":         "src/libburn/0.3.6/libburn-0.3.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.4",
+    "Installed":      "installed/libburn/0.3.4",
+    "Source":         "src/libburn/0.3.4/libburn-0.3.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.2",
+    "Installed":      "installed/libburn/0.3.2",
+    "Source":         "src/libburn/0.3.2/libburn-0.3.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.0.1",
+    "Installed":      "installed/libburn/0.3.0.1",
+    "Source":         "src/libburn/0.3.0.1/libburn-0.3.0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.0",
+    "Installed":      "installed/libburn/0.3.0",
+    "Source":         "src/libburn/0.3.0/libburn-0.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.6.3",
+    "Installed":      "installed/libburn/0.2.6.3",
+    "Source":         "src/libburn/0.2.6.3/libburn-0.2.6.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.6.1",
+    "Installed":      "installed/libburn/0.2.6.1",
+    "Source":         "src/libburn/0.2.6.1/libburn-0.2.6.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.6",
+    "Installed":      "installed/libburn/0.2.6",
+    "Source":         "src/libburn/0.2.6/libburn-0.2.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.2",
+    "Installed":      "installed/libburn/0.2.2",
+    "Source":         "src/libburn/0.2.2/libburn-0.2.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

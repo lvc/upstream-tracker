@@ -9,9 +9,9 @@
   "SkipObjects":    [ "qml/", "plugins/", "imports/", ".*_p\.so.*", "libQtCLucene.so", "libQt5CLucene.so", "libQt5QuickTest.so", "libQt3Support.so", "libQt5XcbQpa.so", "libQt5EglDeviceIntegration.so", "libQt53D.*" ],
   "SkipHeaders":    [ "qwindowsysteminterface.h" ],
   "SkipSymbols":    "filters/skip_symbols/qt.list",
+  "SkipInternalSymbols": "Qt_5_PRIVATE_API",
   "SkipTypes":      "filters/skip_types/qt.list",
   "SkipInternalTypes": ".*Private|.*Impl",
-  "SkipInternalSymbols": "Qt_5_PRIVATE_API",
   "HeadersDiff":    "Off",
   "LocalBuild":     "On",
   "Package":        "qt-everywhere-opensource-src",
@@ -19,9 +19,9 @@
 
   "Versions": [
   {
-    "Number":         "5.7.0-beta",
-    "Installed":      "installed/qt/5.7.0-beta",
-    "Source":         "src/qt/5.7.0-beta/qt-everywhere-opensource-src-5.7.0-beta.tar.xz",
+    "Number":         "5.7.0",
+    "Installed":      "installed/qt/5.7.0",
+    "Source":         "src/qt/5.7.0/qt-everywhere-opensource-src-5.7.0.tar.xz",
     "Changelog":      "Off",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
@@ -37,28 +37,6 @@
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
-  },
-  {
-    "Number":         "5.6.0-beta",
-    "Installed":      "installed/qt/5.6.0-beta",
-    "Source":         "src/qt/5.6.0-beta/qt-everywhere-opensource-src-5.6.0-beta.tar.gz",
-    "Changelog":      "Off",
-    "HeadersDiff":    "Off",
-    "PkgDiff":        "Off",
-    "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "Deleted":        1
-  },
-  {
-    "Number":         "5.6.0-alpha",
-    "Installed":      "installed/qt/5.6.0-alpha",
-    "Source":         "src/qt/5.6.0-alpha/qt-everywhere-opensource-src-5.6.0-alpha.tar.xz",
-    "Changelog":      "Off",
-    "HeadersDiff":    "Off",
-    "PkgDiff":        "Off",
-    "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "Deleted":        1
   },
   {
     "Number":         "5.5.1",

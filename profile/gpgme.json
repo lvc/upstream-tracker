@@ -1,0 +1,151 @@
+{
+  "Name":           "gpgme",
+  "Title":          "GPGME",
+  "SourceUrl":      "https://www.gnupg.org/ftp/gcrypt/gpgme/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.3.1",
+
+  "Versions": [
+  {
+    "Number":         "1.6.0",
+    "Installed":      "installed/gpgme/1.6.0",
+    "Source":         "src/gpgme/1.6.0/gpgme-1.6.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.5",
+    "Installed":      "installed/gpgme/1.5.5",
+    "Source":         "src/gpgme/1.5.5/gpgme-1.5.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.4",
+    "Installed":      "installed/gpgme/1.5.4",
+    "Source":         "src/gpgme/1.5.4/gpgme-1.5.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.3",
+    "Installed":      "installed/gpgme/1.5.3",
+    "Source":         "src/gpgme/1.5.3/gpgme-1.5.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.2",
+    "Installed":      "installed/gpgme/1.5.2",
+    "Source":         "src/gpgme/1.5.2/gpgme-1.5.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.1",
+    "Installed":      "installed/gpgme/1.5.1",
+    "Source":         "src/gpgme/1.5.1/gpgme-1.5.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.0",
+    "Installed":      "installed/gpgme/1.5.0",
+    "Source":         "src/gpgme/1.5.0/gpgme-1.5.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.4",
+    "Installed":      "installed/gpgme/1.4.4",
+    "Source":         "src/gpgme/1.4.4/gpgme-1.4.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.3",
+    "Installed":      "installed/gpgme/1.4.3",
+    "Source":         "src/gpgme/1.4.3/gpgme-1.4.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.2",
+    "Installed":      "installed/gpgme/1.4.2",
+    "Source":         "src/gpgme/1.4.2/gpgme-1.4.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.1",
+    "Installed":      "installed/gpgme/1.4.1",
+    "Source":         "src/gpgme/1.4.1/gpgme-1.4.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.0",
+    "Installed":      "installed/gpgme/1.4.0",
+    "Source":         "src/gpgme/1.4.0/gpgme-1.4.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.2",
+    "Installed":      "installed/gpgme/1.3.2",
+    "Source":         "src/gpgme/1.3.2/gpgme-1.3.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.1",
+    "Installed":      "installed/gpgme/1.3.1",
+    "Source":         "src/gpgme/1.3.1/gpgme-1.3.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

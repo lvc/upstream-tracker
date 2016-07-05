@@ -1,0 +1,249 @@
+{
+  "Name":           "gloox",
+  "SourceUrl":      "https://camaya.net/download/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.0.15",
+    "Installed":      "installed/gloox/1.0.15",
+    "Source":         "src/gloox/1.0.15/gloox-1.0.15.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.14",
+    "Installed":      "installed/gloox/1.0.14",
+    "Source":         "src/gloox/1.0.14/gloox-1.0.14.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.13",
+    "Installed":      "installed/gloox/1.0.13",
+    "Source":         "src/gloox/1.0.13/gloox-1.0.13.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.12",
+    "Installed":      "installed/gloox/1.0.12",
+    "Source":         "src/gloox/1.0.12/gloox-1.0.12.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.11",
+    "Installed":      "installed/gloox/1.0.11",
+    "Source":         "src/gloox/1.0.11/gloox-1.0.11.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.10",
+    "Installed":      "installed/gloox/1.0.10",
+    "Source":         "src/gloox/1.0.10/gloox-1.0.10.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.9",
+    "Installed":      "installed/gloox/1.0.9",
+    "Source":         "src/gloox/1.0.9/gloox-1.0.9.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.8",
+    "Installed":      "installed/gloox/1.0.8",
+    "Source":         "src/gloox/1.0.8/gloox-1.0.8.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.7.1",
+    "Installed":      "installed/gloox/1.0.7.1",
+    "Source":         "src/gloox/1.0.7.1/gloox-1.0.7.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.7",
+    "Installed":      "installed/gloox/1.0.7",
+    "Source":         "src/gloox/1.0.7/gloox-1.0.7.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.6",
+    "Installed":      "installed/gloox/1.0.6",
+    "Source":         "src/gloox/1.0.6/gloox-1.0.6.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.5",
+    "Installed":      "installed/gloox/1.0.5",
+    "Source":         "src/gloox/1.0.5/gloox-1.0.5.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.4",
+    "Installed":      "installed/gloox/1.0.4",
+    "Source":         "src/gloox/1.0.4/gloox-1.0.4.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.3",
+    "Installed":      "installed/gloox/1.0.3",
+    "Source":         "src/gloox/1.0.3/gloox-1.0.3.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.2",
+    "Installed":      "installed/gloox/1.0.2",
+    "Source":         "src/gloox/1.0.2/gloox-1.0.2.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/gloox/1.0.1",
+    "Source":         "src/gloox/1.0.1/gloox-1.0.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0",
+    "Installed":      "installed/gloox/1.0",
+    "Source":         "src/gloox/1.0/gloox-1.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.9.12",
+    "Installed":      "installed/gloox/0.9.9.12",
+    "Source":         "src/gloox/0.9.9.12/gloox-0.9.9.12.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.9.11",
+    "Installed":      "installed/gloox/0.9.9.11",
+    "Source":         "src/gloox/0.9.9.11/gloox-0.9.9.11.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.9.10",
+    "Installed":      "installed/gloox/0.9.9.10",
+    "Source":         "src/gloox/0.9.9.10/gloox-0.9.9.10.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.9.9",
+    "Installed":      "installed/gloox/0.9.9.9",
+    "Source":         "src/gloox/0.9.9.9/gloox-0.9.9.9.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.9.8",
+    "Installed":      "installed/gloox/0.9.9.8",
+    "Source":         "src/gloox/0.9.9.8/gloox-0.9.9.8.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.9.7",
+    "Installed":      "installed/gloox/0.9.9.7",
+    "Source":         "src/gloox/0.9.9.7/gloox-0.9.9.7.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.9.6",
+    "Installed":      "installed/gloox/0.9.9.6",
+    "Source":         "src/gloox/0.9.9.6/gloox-0.9.9.6.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

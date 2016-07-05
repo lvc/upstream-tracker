@@ -1,0 +1,213 @@
+{
+  "Name":           "grib_api",
+  "Title":          "GRIB_API",
+  "SourceUrl":      "https://software.ecmwf.int/wiki/display/GRIB/Releases",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.9.18",
+
+  "Versions": [
+  {
+    "Number":         "1.16.0",
+    "Installed":      "installed/grib_api/1.16.0",
+    "Source":         "src/grib_api/1.16.0/grib_api-1.16.0-Source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.0",
+    "Installed":      "installed/grib_api/1.15.0",
+    "Source":         "src/grib_api/1.15.0/grib_api-1.15.0-Source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.7",
+    "Installed":      "installed/grib_api/1.14.7",
+    "Source":         "src/grib_api/1.14.7/grib_api-1.14.7-Source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.6",
+    "Installed":      "installed/grib_api/1.14.6",
+    "Source":         "src/grib_api/1.14.6/grib_api-1.14.6-Source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.5",
+    "Installed":      "installed/grib_api/1.14.5",
+    "Source":         "src/grib_api/1.14.5/grib_api-1.14.5-Source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.4",
+    "Installed":      "installed/grib_api/1.14.4",
+    "Source":         "src/grib_api/1.14.4/grib_api-1.14.4-Source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.3",
+    "Installed":      "installed/grib_api/1.14.3",
+    "Source":         "src/grib_api/1.14.3/grib_api-1.14.3-Source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.2",
+    "Installed":      "installed/grib_api/1.14.2",
+    "Source":         "src/grib_api/1.14.2/grib_api-1.14.2-Source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.0",
+    "Installed":      "installed/grib_api/1.14.0",
+    "Source":         "src/grib_api/1.14.0/grib_api-1.14.0-Source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.1",
+    "Installed":      "installed/grib_api/1.13.1",
+    "Source":         "src/grib_api/1.13.1/grib_api-1.13.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.0",
+    "Installed":      "installed/grib_api/1.13.0",
+    "Source":         "src/grib_api/1.13.0/grib_api-1.13.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.3",
+    "Installed":      "installed/grib_api/1.12.3",
+    "Source":         "src/grib_api/1.12.3/grib_api-1.12.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.1",
+    "Installed":      "installed/grib_api/1.12.1",
+    "Source":         "src/grib_api/1.12.1/grib_api-1.12.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.0",
+    "Installed":      "installed/grib_api/1.12.0",
+    "Source":         "src/grib_api/1.12.0/grib_api-1.12.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.0",
+    "Installed":      "installed/grib_api/1.11.0",
+    "Source":         "src/grib_api/1.11.0/grib_api-1.11.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.4",
+    "Installed":      "installed/grib_api/1.10.4",
+    "Source":         "src/grib_api/1.10.4/grib_api-1.10.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.0",
+    "Installed":      "installed/grib_api/1.10.0",
+    "Source":         "src/grib_api/1.10.0/grib_api-1.10.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.18",
+    "Installed":      "installed/grib_api/1.9.18",
+    "Source":         "src/grib_api/1.9.18/grib_api-1.9.18.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.16",
+    "Installed":      "installed/grib_api/1.9.16",
+    "Source":         "src/grib_api/1.9.16/grib_api-1.9.16.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.9",
+    "Installed":      "installed/grib_api/1.9.9",
+    "Source":         "src/grib_api/1.9.9/grib_api-1.9.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

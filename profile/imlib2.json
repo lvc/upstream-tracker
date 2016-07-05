@@ -1,0 +1,101 @@
+{
+  "Name":           "imlib2",
+  "SourceUrl":      "https://sourceforge.net/projects/enlightenment/files/imlib2-src/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--without-png",
+  "SkipObjects":    [ "filters/", "loaders/" ],
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.4.9",
+    "Installed":      "installed/imlib2/1.4.9",
+    "Source":         "src/imlib2/1.4.9/imlib2-1.4.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.8",
+    "Installed":      "installed/imlib2/1.4.8",
+    "Source":         "src/imlib2/1.4.8/imlib2-1.4.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.7",
+    "Installed":      "installed/imlib2/1.4.7",
+    "Source":         "src/imlib2/1.4.7/imlib2-1.4.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.6",
+    "Installed":      "installed/imlib2/1.4.6",
+    "Source":         "src/imlib2/1.4.6/imlib2-1.4.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.5",
+    "Installed":      "installed/imlib2/1.4.5",
+    "Source":         "src/imlib2/1.4.5/imlib2-1.4.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.4",
+    "Installed":      "installed/imlib2/1.4.4",
+    "Source":         "src/imlib2/1.4.4/imlib2-1.4.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.3",
+    "Installed":      "installed/imlib2/1.4.3",
+    "Source":         "src/imlib2/1.4.3/imlib2-1.4.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.2",
+    "Installed":      "installed/imlib2/1.4.2",
+    "Source":         "src/imlib2/1.4.2/imlib2-1.4.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.1",
+    "Installed":      "installed/imlib2/1.4.1",
+    "Source":         "src/imlib2/1.4.1/imlib2-1.4.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

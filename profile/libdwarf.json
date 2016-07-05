@@ -1,0 +1,171 @@
+{
+  "Name":           "libdwarf",
+  "SourceUrl":      "https://www.prevanders.net/dwarf.html",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/libdwarf.sh",
+  "Changelog":      "libdwarf/ChangeLog",
+  "GraphShortXTics": "On",
+
+  "Versions": [
+  {
+    "Number":         20160613,
+    "Installed":      "installed/libdwarf/20160613",
+    "Source":         "src/libdwarf/20160613/libdwarf-20160613.tar.gz",
+    "Changelog":      "libdwarf/ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20160507,
+    "Installed":      "installed/libdwarf/20160507",
+    "Source":         "src/libdwarf/20160507/libdwarf-20160507.tar.gz",
+    "Changelog":      "libdwarf/ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20160115,
+    "Installed":      "installed/libdwarf/20160115",
+    "Source":         "src/libdwarf/20160115/libdwarf-20160115.tar.gz",
+    "Changelog":      "libdwarf/ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20151114,
+    "Installed":      "installed/libdwarf/20151114",
+    "Source":         "src/libdwarf/20151114/libdwarf-20151114.tar.gz",
+    "Changelog":      "libdwarf/ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20150915,
+    "Installed":      "installed/libdwarf/20150915",
+    "Source":         "src/libdwarf/20150915/libdwarf-20150915.tar.gz",
+    "Changelog":      "libdwarf/ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20150913,
+    "Installed":      "installed/libdwarf/20150913",
+    "Source":         "src/libdwarf/20150913/libdwarf-20150913.tar.gz",
+    "Changelog":      "libdwarf/ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20150507,
+    "Installed":      "installed/libdwarf/20150507",
+    "Source":         "src/libdwarf/20150507/libdwarf-20150507.tar.gz",
+    "Changelog":      "libdwarf/ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20150310,
+    "Installed":      "installed/libdwarf/20150310",
+    "Source":         "src/libdwarf/20150310/libdwarf-20150310.tar.gz",
+    "Changelog":      "libdwarf/ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20150115,
+    "Installed":      "installed/libdwarf/20150115",
+    "Source":         "src/libdwarf/20150115/libdwarf-20150115.tar.gz",
+    "Changelog":      "libdwarf/ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20150112,
+    "Installed":      "installed/libdwarf/20150112",
+    "Source":         "src/libdwarf/20150112/libdwarf-20150112.tar.gz",
+    "Changelog":      "libdwarf/ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20140519,
+    "Installed":      "installed/libdwarf/20140519",
+    "Source":         "src/libdwarf/20140519/libdwarf-20140519.tar.gz",
+    "Changelog":      "libdwarf/ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20140413,
+    "Installed":      "installed/libdwarf/20140413",
+    "Source":         "src/libdwarf/20140413/libdwarf-20140413.tar.gz",
+    "Changelog":      "libdwarf/ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20140208,
+    "Installed":      "installed/libdwarf/20140208",
+    "Source":         "src/libdwarf/20140208/libdwarf-20140208.tar.gz",
+    "Changelog":      "libdwarf/ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20140131,
+    "Installed":      "installed/libdwarf/20140131",
+    "Source":         "src/libdwarf/20140131/libdwarf-20140131.tar.gz",
+    "Changelog":      "libdwarf/ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20130729,
+    "Installed":      "installed/libdwarf/20130729",
+    "Source":         "src/libdwarf/20130729/libdwarf-20130729.tar.gz",
+    "Changelog":      "libdwarf/ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20130207,
+    "Installed":      "installed/libdwarf/20130207",
+    "Source":         "src/libdwarf/20130207/libdwarf-20130207.tar.gz",
+    "Changelog":      "libdwarf/ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

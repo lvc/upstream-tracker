@@ -1,0 +1,71 @@
+{
+  "Name":           "ice",
+  "Title":          "Ice",
+  "SourceUrl":      "https://github.com/zeroc-ice/ice/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/ice.sh",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "3.7.0-alpha0",
+    "Installed":      "installed/ice/3.7.0-alpha0",
+    "Source":         "src/ice/3.7.0-alpha0/ice-3.7.0-alpha0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.2",
+    "Installed":      "installed/ice/3.6.2",
+    "Source":         "src/ice/3.6.2/ice-3.6.2.tar.gz",
+    "Changelog":      "CHANGELOG-3.6.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.1",
+    "Installed":      "installed/ice/3.6.1",
+    "Source":         "src/ice/3.6.1/ice-3.6.1.tar.gz",
+    "Changelog":      "CHANGELOG-3.6.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.0",
+    "Installed":      "installed/ice/3.6.0",
+    "Source":         "src/ice/3.6.0/ice-3.6.0.tar.gz",
+    "Changelog":      "CHANGELOG-3.6.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.5.1",
+    "Installed":      "installed/ice/3.5.1",
+    "Source":         "src/ice/3.5.1/Ice-3.5.1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.5.0",
+    "Installed":      "installed/ice/3.5.0",
+    "Source":         "src/ice/3.5.0/Ice-3.5.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

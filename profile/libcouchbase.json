@@ -1,0 +1,209 @@
+{
+  "Name":           "libcouchbase",
+  "SourceUrl":      "https://github.com/couchbase/libcouchbase/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.6.1",
+    "Installed":      "installed/libcouchbase/2.6.1",
+    "Source":         "src/libcouchbase/2.6.1/libcouchbase-2.6.1.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.0",
+    "Installed":      "installed/libcouchbase/2.6.0",
+    "Source":         "src/libcouchbase/2.6.0/libcouchbase-2.6.0.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.8",
+    "Installed":      "installed/libcouchbase/2.5.8",
+    "Source":         "src/libcouchbase/2.5.8/libcouchbase-2.5.8.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.7",
+    "Installed":      "installed/libcouchbase/2.5.7",
+    "Source":         "src/libcouchbase/2.5.7/libcouchbase-2.5.7.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.6",
+    "Installed":      "installed/libcouchbase/2.5.6",
+    "Source":         "src/libcouchbase/2.5.6/libcouchbase-2.5.6.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.5",
+    "Installed":      "installed/libcouchbase/2.5.5",
+    "Source":         "src/libcouchbase/2.5.5/libcouchbase-2.5.5.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.4",
+    "Installed":      "installed/libcouchbase/2.5.4",
+    "Source":         "src/libcouchbase/2.5.4/libcouchbase-2.5.4.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.3",
+    "Installed":      "installed/libcouchbase/2.5.3",
+    "Source":         "src/libcouchbase/2.5.3/libcouchbase-2.5.3.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.2",
+    "Installed":      "installed/libcouchbase/2.5.2",
+    "Source":         "src/libcouchbase/2.5.2/libcouchbase-2.5.2.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.1",
+    "Installed":      "installed/libcouchbase/2.5.1",
+    "Source":         "src/libcouchbase/2.5.1/libcouchbase-2.5.1.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.0",
+    "Installed":      "installed/libcouchbase/2.5.0",
+    "Source":         "src/libcouchbase/2.5.0/libcouchbase-2.5.0.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.9",
+    "Installed":      "installed/libcouchbase/2.4.9",
+    "Source":         "src/libcouchbase/2.4.9/libcouchbase-2.4.9.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.8",
+    "Installed":      "installed/libcouchbase/2.4.8",
+    "Source":         "src/libcouchbase/2.4.8/libcouchbase-2.4.8.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.7",
+    "Installed":      "installed/libcouchbase/2.4.7",
+    "Source":         "src/libcouchbase/2.4.7/libcouchbase-2.4.7.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.6",
+    "Installed":      "installed/libcouchbase/2.4.6",
+    "Source":         "src/libcouchbase/2.4.6/libcouchbase-2.4.6.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.5",
+    "Installed":      "installed/libcouchbase/2.4.5",
+    "Source":         "src/libcouchbase/2.4.5/libcouchbase-2.4.5.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.4",
+    "Installed":      "installed/libcouchbase/2.4.4",
+    "Source":         "src/libcouchbase/2.4.4/libcouchbase-2.4.4.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.3",
+    "Installed":      "installed/libcouchbase/2.4.3",
+    "Source":         "src/libcouchbase/2.4.3/libcouchbase-2.4.3.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.2",
+    "Installed":      "installed/libcouchbase/2.4.2",
+    "Source":         "src/libcouchbase/2.4.2/libcouchbase-2.4.2.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.1",
+    "Installed":      "installed/libcouchbase/2.4.1",
+    "Source":         "src/libcouchbase/2.4.1/libcouchbase-2.4.1.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

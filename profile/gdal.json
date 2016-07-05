@@ -1,0 +1,101 @@
+{
+  "Name":           "gdal",
+  "Title":          "GDAL",
+  "SourceUrl":      "http://download.osgeo.org/gdal/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "Package":        "gdal-",
+
+  "Versions": [
+  {
+    "Number":         "2.1.1RC1",
+    "Installed":      "installed/gdal/2.1.1RC1",
+    "Source":         "src/gdal/2.1.1RC1/gdal-2.1.1RC1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.0",
+    "Installed":      "installed/gdal/2.1.0",
+    "Source":         "src/gdal/2.1.0/gdal-2.1.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.2",
+    "Installed":      "installed/gdal/2.0.2",
+    "Source":         "src/gdal/2.0.2/gdal-2.0.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.1",
+    "Installed":      "installed/gdal/2.0.1",
+    "Source":         "src/gdal/2.0.1/gdal-2.0.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0",
+    "Installed":      "installed/gdal/2.0.0",
+    "Source":         "src/gdal/2.0.0/gdal-2.0.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.4",
+    "Installed":      "installed/gdal/1.11.4",
+    "Source":         "src/gdal/1.11.4/gdal-1.11.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.3",
+    "Installed":      "installed/gdal/1.11.3",
+    "Source":         "src/gdal/1.11.3/gdal-1.11.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.2",
+    "Installed":      "installed/gdal/1.11.2",
+    "Source":         "src/gdal/1.11.2/gdal-1.11.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.1",
+    "Installed":      "installed/gdal/1.11.1",
+    "Source":         "src/gdal/1.11.1/gdal-1.11.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

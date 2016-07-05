@@ -1,0 +1,192 @@
+{
+  "Name":           "isl",
+  "SourceUrl":      "http://isl.gforge.inria.fr/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "IncludePaths":   "",
+  "IncludePreamble": "isl/aff.h",
+  "UseTUDump":      "1",
+
+  "Versions": [
+  {
+    "Number":         "0.17.1",
+    "Installed":      "installed/isl/0.17.1",
+    "Source":         "src/isl/0.17.1/isl-0.17.1.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.17",
+    "Installed":      "installed/isl/0.17",
+    "Source":         "src/isl/0.17/isl-0.17.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16.1",
+    "Installed":      "installed/isl/0.16.1",
+    "Source":         "src/isl/0.16.1/isl-0.16.1.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16",
+    "Installed":      "installed/isl/0.16",
+    "Source":         "src/isl/0.16/isl-0.16.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.15",
+    "Installed":      "installed/isl/0.15",
+    "Source":         "src/isl/0.15/isl-0.15.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14.1",
+    "Installed":      "installed/isl/0.14.1",
+    "Source":         "src/isl/0.14.1/isl-0.14.1.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14",
+    "Installed":      "installed/isl/0.14",
+    "Source":         "src/isl/0.14/isl-0.14.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13",
+    "Installed":      "installed/isl/0.13",
+    "Source":         "src/isl/0.13/isl-0.13.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.12.2",
+    "Installed":      "installed/isl/0.12.2",
+    "Source":         "src/isl/0.12.2/isl-0.12.2.tar.lzma",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.12.1",
+    "Installed":      "installed/isl/0.12.1",
+    "Source":         "src/isl/0.12.1/isl-0.12.1.tar.lzma",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.12",
+    "Installed":      "installed/isl/0.12",
+    "Source":         "src/isl/0.12/isl-0.12.tar.lzma",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.2",
+    "Installed":      "installed/isl/0.11.2",
+    "Source":         "src/isl/0.11.2/isl-0.11.2.tar.lzma",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.1",
+    "Installed":      "installed/isl/0.11.1",
+    "Source":         "src/isl/0.11.1/isl-0.11.1.tar.lzma",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11",
+    "Installed":      "installed/isl/0.11",
+    "Source":         "src/isl/0.11/isl-0.11.tar.lzma",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10",
+    "Installed":      "installed/isl/0.10",
+    "Source":         "src/isl/0.10/isl-0.10.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.09",
+    "Installed":      "installed/isl/0.09",
+    "Source":         "src/isl/0.09/isl-0.09.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.08",
+    "Installed":      "installed/isl/0.08",
+    "Source":         "src/isl/0.08/isl-0.08.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.07",
+    "Installed":      "installed/isl/0.07",
+    "Source":         "src/isl/0.07/isl-0.07.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

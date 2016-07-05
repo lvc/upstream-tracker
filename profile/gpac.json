@@ -1,0 +1,54 @@
+{
+  "Name":           "gpac",
+  "Title":          "GPAC",
+  "SourceUrl":      "https://github.com/gpac/gpac/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--extra-cflags='-g -Og' --enable-debug",
+  "PreInstall":     "sed -i -e  's/-O3\|-O0/-Og/' configure",
+  "PostInstall":    "cp -fr include {INSTALL_TO}/",
+  "SkipObjects":    [ "gpac/" ],
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.6.1",
+    "Installed":      "installed/gpac/0.6.1",
+    "Source":         "src/gpac/0.6.1/gpac-0.6.1.tar.gz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.0",
+    "Installed":      "installed/gpac/0.6.0",
+    "Source":         "src/gpac/0.6.0/gpac-0.6.0.tar.gz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.2",
+    "Installed":      "installed/gpac/0.5.2",
+    "Source":         "src/gpac/0.5.2/gpac-0.5.2.tar.gz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.0",
+    "Installed":      "installed/gpac/0.5.0",
+    "Source":         "src/gpac/0.5.0/gpac-0.5.0.tar.gz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

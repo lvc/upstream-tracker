@@ -1,0 +1,111 @@
+{
+  "Name":           "expat",
+  "Title":          "Expat",
+  "SourceUrl":      "https://sourceforge.net/projects/expat/files/expat/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.2.0",
+    "Installed":      "installed/expat/2.2.0",
+    "Source":         "src/expat/2.2.0/expat-2.2.0.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.1",
+    "Installed":      "installed/expat/2.1.1",
+    "Source":         "src/expat/2.1.1/expat-2.1.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.0",
+    "Installed":      "installed/expat/2.1.0",
+    "Source":         "src/expat/2.1.0/expat-2.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.1",
+    "Installed":      "installed/expat/2.0.1",
+    "Source":         "src/expat/2.0.1/expat-2.0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0",
+    "Installed":      "installed/expat/2.0.0",
+    "Source":         "src/expat/2.0.0/expat-2.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.95.8",
+    "Installed":      "installed/expat/1.95.8",
+    "Source":         "src/expat/1.95.8/expat-1.95.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.95.7",
+    "Installed":      "installed/expat/1.95.7",
+    "Source":         "src/expat/1.95.7/expat-1.95.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.95.6",
+    "Installed":      "installed/expat/1.95.6",
+    "Source":         "src/expat/1.95.6/expat-1.95.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.95.5",
+    "Installed":      "installed/expat/1.95.5",
+    "Source":         "src/expat/1.95.5/expat-1.95.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.95.4",
+    "Installed":      "installed/expat/1.95.4",
+    "Source":         "src/expat/1.95.4/expat-1.95.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

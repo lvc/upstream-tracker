@@ -1,0 +1,419 @@
+{
+  "Name":           "libdrm",
+  "SourceUrl":      "https://dri.freedesktop.org/libdrm/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.4.68",
+    "Installed":      "installed/libdrm/2.4.68",
+    "Source":         "src/libdrm/2.4.68/libdrm-2.4.68.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.67",
+    "Installed":      "installed/libdrm/2.4.67",
+    "Source":         "src/libdrm/2.4.67/libdrm-2.4.67.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.66",
+    "Installed":      "installed/libdrm/2.4.66",
+    "Source":         "src/libdrm/2.4.66/libdrm-2.4.66.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.65",
+    "Installed":      "installed/libdrm/2.4.65",
+    "Source":         "src/libdrm/2.4.65/libdrm-2.4.65.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.64",
+    "Installed":      "installed/libdrm/2.4.64",
+    "Source":         "src/libdrm/2.4.64/libdrm-2.4.64.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.63",
+    "Installed":      "installed/libdrm/2.4.63",
+    "Source":         "src/libdrm/2.4.63/libdrm-2.4.63.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.61",
+    "Installed":      "installed/libdrm/2.4.61",
+    "Source":         "src/libdrm/2.4.61/libdrm-2.4.61.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.60",
+    "Installed":      "installed/libdrm/2.4.60",
+    "Source":         "src/libdrm/2.4.60/libdrm-2.4.60.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.59",
+    "Installed":      "installed/libdrm/2.4.59",
+    "Source":         "src/libdrm/2.4.59/libdrm-2.4.59.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.58",
+    "Installed":      "installed/libdrm/2.4.58",
+    "Source":         "src/libdrm/2.4.58/libdrm-2.4.58.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.57",
+    "Installed":      "installed/libdrm/2.4.57",
+    "Source":         "src/libdrm/2.4.57/libdrm-2.4.57.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.56",
+    "Installed":      "installed/libdrm/2.4.56",
+    "Source":         "src/libdrm/2.4.56/libdrm-2.4.56.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.55",
+    "Installed":      "installed/libdrm/2.4.55",
+    "Source":         "src/libdrm/2.4.55/libdrm-2.4.55.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.54",
+    "Installed":      "installed/libdrm/2.4.54",
+    "Source":         "src/libdrm/2.4.54/libdrm-2.4.54.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.53",
+    "Installed":      "installed/libdrm/2.4.53",
+    "Source":         "src/libdrm/2.4.53/libdrm-2.4.53.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.52",
+    "Installed":      "installed/libdrm/2.4.52",
+    "Source":         "src/libdrm/2.4.52/libdrm-2.4.52.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.51",
+    "Installed":      "installed/libdrm/2.4.51",
+    "Source":         "src/libdrm/2.4.51/libdrm-2.4.51.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.50",
+    "Installed":      "installed/libdrm/2.4.50",
+    "Source":         "src/libdrm/2.4.50/libdrm-2.4.50.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.49",
+    "Installed":      "installed/libdrm/2.4.49",
+    "Source":         "src/libdrm/2.4.49/libdrm-2.4.49.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.48",
+    "Installed":      "installed/libdrm/2.4.48",
+    "Source":         "src/libdrm/2.4.48/libdrm-2.4.48.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.47",
+    "Installed":      "installed/libdrm/2.4.47",
+    "Source":         "src/libdrm/2.4.47/libdrm-2.4.47.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.46",
+    "Installed":      "installed/libdrm/2.4.46",
+    "Source":         "src/libdrm/2.4.46/libdrm-2.4.46.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.45",
+    "Installed":      "installed/libdrm/2.4.45",
+    "Source":         "src/libdrm/2.4.45/libdrm-2.4.45.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.44",
+    "Installed":      "installed/libdrm/2.4.44",
+    "Source":         "src/libdrm/2.4.44/libdrm-2.4.44.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.43",
+    "Installed":      "installed/libdrm/2.4.43",
+    "Source":         "src/libdrm/2.4.43/libdrm-2.4.43.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.42",
+    "Installed":      "installed/libdrm/2.4.42",
+    "Source":         "src/libdrm/2.4.42/libdrm-2.4.42.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.40",
+    "Installed":      "installed/libdrm/2.4.40",
+    "Source":         "src/libdrm/2.4.40/libdrm-2.4.40.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.39",
+    "Installed":      "installed/libdrm/2.4.39",
+    "Source":         "src/libdrm/2.4.39/libdrm-2.4.39.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.38",
+    "Installed":      "installed/libdrm/2.4.38",
+    "Source":         "src/libdrm/2.4.38/libdrm-2.4.38.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.37",
+    "Installed":      "installed/libdrm/2.4.37",
+    "Source":         "src/libdrm/2.4.37/libdrm-2.4.37.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.36",
+    "Installed":      "installed/libdrm/2.4.36",
+    "Source":         "src/libdrm/2.4.36/libdrm-2.4.36.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.35",
+    "Installed":      "installed/libdrm/2.4.35",
+    "Source":         "src/libdrm/2.4.35/libdrm-2.4.35.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.34",
+    "Installed":      "installed/libdrm/2.4.34",
+    "Source":         "src/libdrm/2.4.34/libdrm-2.4.34.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.33",
+    "Installed":      "installed/libdrm/2.4.33",
+    "Source":         "src/libdrm/2.4.33/libdrm-2.4.33.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.32",
+    "Installed":      "installed/libdrm/2.4.32",
+    "Source":         "src/libdrm/2.4.32/libdrm-2.4.32.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.31",
+    "Installed":      "installed/libdrm/2.4.31",
+    "Source":         "src/libdrm/2.4.31/libdrm-2.4.31.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.30",
+    "Installed":      "installed/libdrm/2.4.30",
+    "Source":         "src/libdrm/2.4.30/libdrm-2.4.30.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.29",
+    "Installed":      "installed/libdrm/2.4.29",
+    "Source":         "src/libdrm/2.4.29/libdrm-2.4.29.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.27",
+    "Installed":      "installed/libdrm/2.4.27",
+    "Source":         "src/libdrm/2.4.27/libdrm-2.4.27.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.26",
+    "Installed":      "installed/libdrm/2.4.26",
+    "Source":         "src/libdrm/2.4.26/libdrm-2.4.26.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.25",
+    "Installed":      "installed/libdrm/2.4.25",
+    "Source":         "src/libdrm/2.4.25/libdrm-2.4.25.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "6.2.23",
+    "Installed":      "installed/libdb/6.2.23",
+    "Source":         "src/libdb/6.2.23/db-6.2.23.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "6.1.26",
     "Installed":      "installed/libdb/6.1.26",
     "Source":         "src/libdb/6.1.26/db-6.1.26.tar.gz",

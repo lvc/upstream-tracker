@@ -1,0 +1,572 @@
+{
+  "Name":           "libsigc++",
+  "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/libsigc++/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "Configure":      "CXX=/home/andrey/Software/GCC-5.1/bin/g++",
+  "SkipInternalSymbols": "_ZN4sigc8internal.*|_ZNK4sigc8internal.*",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.99.7",
+    "Installed":      "installed/libsigc++/2.99.7",
+    "Source":         "src/libsigc++/2.99.7/libsigc++-2.99.7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.99.6",
+    "Installed":      "installed/libsigc++/2.99.6",
+    "Source":         "src/libsigc++/2.99.6/libsigc++-2.99.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.99.5",
+    "Installed":      "installed/libsigc++/2.99.5",
+    "Source":         "src/libsigc++/2.99.5/libsigc++-2.99.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.99.4",
+    "Installed":      "installed/libsigc++/2.99.4",
+    "Source":         "src/libsigc++/2.99.4/libsigc++-2.99.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.99.3",
+    "Installed":      "installed/libsigc++/2.99.3",
+    "Source":         "src/libsigc++/2.99.3/libsigc++-2.99.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.99.2",
+    "Installed":      "installed/libsigc++/2.99.2",
+    "Source":         "src/libsigc++/2.99.2/libsigc++-2.99.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.99.1",
+    "Installed":      "installed/libsigc++/2.99.1",
+    "Source":         "src/libsigc++/2.99.1/libsigc++-2.99.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.9.2",
+    "Installed":      "installed/libsigc++/2.9.2",
+    "Source":         "src/libsigc++/2.9.2/libsigc++-2.9.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.9.1",
+    "Installed":      "installed/libsigc++/2.9.1",
+    "Source":         "src/libsigc++/2.9.1/libsigc++-2.9.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.0",
+    "Installed":      "installed/libsigc++/2.8.0",
+    "Source":         "src/libsigc++/2.8.0/libsigc++-2.8.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.7.2",
+    "Installed":      "installed/libsigc++/2.7.2",
+    "Source":         "src/libsigc++/2.7.2/libsigc++-2.7.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.7.1",
+    "Installed":      "installed/libsigc++/2.7.1",
+    "Source":         "src/libsigc++/2.7.1/libsigc++-2.7.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.2",
+    "Installed":      "installed/libsigc++/2.6.2",
+    "Source":         "src/libsigc++/2.6.2/libsigc++-2.6.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.1",
+    "Installed":      "installed/libsigc++/2.6.1",
+    "Source":         "src/libsigc++/2.6.1/libsigc++-2.6.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.0",
+    "Installed":      "installed/libsigc++/2.6.0",
+    "Source":         "src/libsigc++/2.6.0/libsigc++-2.6.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.4",
+    "Installed":      "installed/libsigc++/2.5.4",
+    "Source":         "src/libsigc++/2.5.4/libsigc++-2.5.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.3",
+    "Installed":      "installed/libsigc++/2.5.3",
+    "Source":         "src/libsigc++/2.5.3/libsigc++-2.5.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.2",
+    "Installed":      "installed/libsigc++/2.5.2",
+    "Source":         "src/libsigc++/2.5.2/libsigc++-2.5.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.1",
+    "Installed":      "installed/libsigc++/2.5.1",
+    "Source":         "src/libsigc++/2.5.1/libsigc++-2.5.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.1",
+    "Installed":      "installed/libsigc++/2.4.1",
+    "Source":         "src/libsigc++/2.4.1/libsigc++-2.4.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.0",
+    "Installed":      "installed/libsigc++/2.4.0",
+    "Source":         "src/libsigc++/2.4.0/libsigc++-2.4.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.2",
+    "Installed":      "installed/libsigc++/2.3.2",
+    "Source":         "src/libsigc++/2.3.2/libsigc++-2.3.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.1",
+    "Installed":      "installed/libsigc++/2.3.1",
+    "Source":         "src/libsigc++/2.3.1/libsigc++-2.3.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.11",
+    "Installed":      "installed/libsigc++/2.2.11",
+    "Source":         "src/libsigc++/2.2.11/libsigc++-2.2.11.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.10",
+    "Installed":      "installed/libsigc++/2.2.10",
+    "Source":         "src/libsigc++/2.2.10/libsigc++-2.2.10.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.9",
+    "Installed":      "installed/libsigc++/2.2.9",
+    "Source":         "src/libsigc++/2.2.9/libsigc++-2.2.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.8",
+    "Installed":      "installed/libsigc++/2.2.8",
+    "Source":         "src/libsigc++/2.2.8/libsigc++-2.2.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.7",
+    "Installed":      "installed/libsigc++/2.2.7",
+    "Source":         "src/libsigc++/2.2.7/libsigc++-2.2.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.6",
+    "Installed":      "installed/libsigc++/2.2.6",
+    "Source":         "src/libsigc++/2.2.6/libsigc++-2.2.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.5",
+    "Installed":      "installed/libsigc++/2.2.5",
+    "Source":         "src/libsigc++/2.2.5/libsigc++-2.2.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.4.2",
+    "Installed":      "installed/libsigc++/2.2.4.2",
+    "Source":         "src/libsigc++/2.2.4.2/libsigc++-2.2.4.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.4.1",
+    "Installed":      "installed/libsigc++/2.2.4.1",
+    "Source":         "src/libsigc++/2.2.4.1/libsigc++-2.2.4.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.4",
+    "Installed":      "installed/libsigc++/2.2.4",
+    "Source":         "src/libsigc++/2.2.4/libsigc++-2.2.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.3",
+    "Installed":      "installed/libsigc++/2.2.3",
+    "Source":         "src/libsigc++/2.2.3/libsigc++-2.2.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.2",
+    "Installed":      "installed/libsigc++/2.2.2",
+    "Source":         "src/libsigc++/2.2.2/libsigc++-2.2.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.1",
+    "Installed":      "installed/libsigc++/2.2.1",
+    "Source":         "src/libsigc++/2.2.1/libsigc++-2.2.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.0",
+    "Installed":      "installed/libsigc++/2.2.0",
+    "Source":         "src/libsigc++/2.2.0/libsigc++-2.2.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.1",
+    "Installed":      "installed/libsigc++/2.1.1",
+    "Source":         "src/libsigc++/2.1.1/libsigc++-2.1.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.18",
+    "Installed":      "installed/libsigc++/2.0.18",
+    "Source":         "src/libsigc++/2.0.18/libsigc++-2.0.18.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.17",
+    "Installed":      "installed/libsigc++/2.0.17",
+    "Source":         "src/libsigc++/2.0.17/libsigc++-2.0.17.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.16",
+    "Installed":      "installed/libsigc++/2.0.16",
+    "Source":         "src/libsigc++/2.0.16/libsigc++-2.0.16.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.15",
+    "Installed":      "installed/libsigc++/2.0.15",
+    "Source":         "src/libsigc++/2.0.15/libsigc++-2.0.15.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.14",
+    "Installed":      "installed/libsigc++/2.0.14",
+    "Source":         "src/libsigc++/2.0.14/libsigc++-2.0.14.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.13",
+    "Installed":      "installed/libsigc++/2.0.13",
+    "Source":         "src/libsigc++/2.0.13/libsigc++-2.0.13.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.12",
+    "Installed":      "installed/libsigc++/2.0.12",
+    "Source":         "src/libsigc++/2.0.12/libsigc++-2.0.12.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.11",
+    "Installed":      "installed/libsigc++/2.0.11",
+    "Source":         "src/libsigc++/2.0.11/libsigc++-2.0.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.10",
+    "Installed":      "installed/libsigc++/2.0.10",
+    "Source":         "src/libsigc++/2.0.10/libsigc++-2.0.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.9",
+    "Installed":      "installed/libsigc++/2.0.9",
+    "Source":         "src/libsigc++/2.0.9/libsigc++-2.0.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.8",
+    "Installed":      "installed/libsigc++/2.0.8",
+    "Source":         "src/libsigc++/2.0.8/libsigc++-2.0.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.7",
+    "Installed":      "installed/libsigc++/2.0.7",
+    "Source":         "src/libsigc++/2.0.7/libsigc++-2.0.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.6",
+    "Installed":      "installed/libsigc++/2.0.6",
+    "Source":         "src/libsigc++/2.0.6/libsigc++-2.0.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.7",
+    "Installed":      "installed/libsigc++/1.2.7",
+    "Source":         "src/libsigc++/1.2.7/libsigc++-1.2.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.6",
+    "Installed":      "installed/libsigc++/1.2.6",
+    "Source":         "src/libsigc++/1.2.6/libsigc++-1.2.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.4",
+    "Installed":      "installed/libsigc++/1.2.4",
+    "Source":         "src/libsigc++/1.2.4/libsigc++-1.2.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.3",
+    "Installed":      "installed/libsigc++/1.2.3",
+    "Source":         "src/libsigc++/1.2.3/libsigc++-1.2.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.2",
+    "Installed":      "installed/libsigc++/1.2.2",
+    "Source":         "src/libsigc++/1.2.2/libsigc++-1.2.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

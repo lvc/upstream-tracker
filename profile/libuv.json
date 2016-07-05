@@ -20,6 +20,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.9.1",
+    "Installed":      "installed/libuv/1.9.1",
+    "Source":         "src/libuv/1.9.1/node-1.9.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.9.0",
     "Installed":      "installed/libuv/1.9.0",
     "Source":         "src/libuv/1.9.0/libuv-1.9.0.tar.gz",

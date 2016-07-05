@@ -7,7 +7,7 @@
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "BuildSystem":    "Autotools",
   "CurrentPreInstall": "perl autogen.pl",
-  "SkipObjects":    [ "openmpi/", "libmca_common_sm.so", "libopen-pal.so", "libvt-mpi-unify.so", "libopal.so", "libopen-rte.so", "liborte.so", "libopenmpi_malloc.so", "monitoring_prof.so" ],
+  "SkipObjects":    [ "openmpi/", "libmca_common_sm.so", "libopen-pal.so", "libvt-mpi-unify.so", "libopal.so", "libopen-rte.so", "liborte.so", "libopenmpi_malloc.so", "monitoring_prof.so", "libopenmpi-malloc.so" ],
   "SkipSymbols":    "filters/skip_symbols/openmpi.list",
   "SkipInternalSymbols": "ompi_.*",
   "SkipTypes":      "filters/skip_types/openmpi.list",

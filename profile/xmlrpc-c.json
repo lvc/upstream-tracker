@@ -1,0 +1,143 @@
+{
+  "Name":           "xmlrpc-c",
+  "Title":          "XML-RPC",
+  "SourceUrl":      "https://sourceforge.net/projects/xmlrpc-c/files/Xmlrpc-c%20Super%20Stable/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "sed -i -e 's/\-O3/-Og -g/' common.mk",
+  "SkipObjects":    [ "libxmlrpc_xmlparse.so", "libxmlrpc_xmltok.so" ],
+  "HeadersDiff":    "Off",
+  "MixedHeaders":   "On",
+
+  "Versions": [
+  {
+    "Number":         "1.39.08",
+    "Installed":      "installed/xmlrpc-c/1.39.08",
+    "Source":         "src/xmlrpc-c/1.39.08/xmlrpc-c-1.39.08.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.39.07",
+    "Installed":      "installed/xmlrpc-c/1.39.07",
+    "Source":         "src/xmlrpc-c/1.39.07/xmlrpc-c-1.39.07.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.33.18",
+    "Installed":      "installed/xmlrpc-c/1.33.18",
+    "Source":         "src/xmlrpc-c/1.33.18/xmlrpc-c-1.33.18.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.33.17",
+    "Installed":      "installed/xmlrpc-c/1.33.17",
+    "Source":         "src/xmlrpc-c/1.33.17/xmlrpc-c-1.33.17.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.33.16",
+    "Installed":      "installed/xmlrpc-c/1.33.16",
+    "Source":         "src/xmlrpc-c/1.33.16/xmlrpc-c-1.33.16.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.33.15",
+    "Installed":      "installed/xmlrpc-c/1.33.15",
+    "Source":         "src/xmlrpc-c/1.33.15/xmlrpc-c-1.33.15.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.25.30",
+    "Installed":      "installed/xmlrpc-c/1.25.30",
+    "Source":         "src/xmlrpc-c/1.25.30/xmlrpc-c-1.25.30.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.25.28",
+    "Installed":      "installed/xmlrpc-c/1.25.28",
+    "Source":         "src/xmlrpc-c/1.25.28/xmlrpc-c-1.25.28.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.25.27",
+    "Installed":      "installed/xmlrpc-c/1.25.27",
+    "Source":         "src/xmlrpc-c/1.25.27/xmlrpc-c-1.25.27.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.25.26",
+    "Installed":      "installed/xmlrpc-c/1.25.26",
+    "Source":         "src/xmlrpc-c/1.25.26/xmlrpc-c-1.25.26.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.25.25",
+    "Installed":      "installed/xmlrpc-c/1.25.25",
+    "Source":         "src/xmlrpc-c/1.25.25/xmlrpc-c-1.25.25.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.25.24",
+    "Installed":      "installed/xmlrpc-c/1.25.24",
+    "Source":         "src/xmlrpc-c/1.25.24/xmlrpc-c-1.25.24.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.25.23",
+    "Installed":      "installed/xmlrpc-c/1.25.23",
+    "Source":         "src/xmlrpc-c/1.25.23/xmlrpc-c-1.25.23.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

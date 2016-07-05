@@ -20,6 +20,36 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.11.0",
+    "Installed":      "installed/wayland/1.11.0",
+    "Source":         "src/wayland/1.11.0/wayland-1.11.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.93",
+    "Installed":      "installed/wayland/1.10.93",
+    "Source":         "src/wayland/1.10.93/wayland-1.10.93.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.92",
+    "Installed":      "installed/wayland/1.10.92",
+    "Source":         "src/wayland/1.10.92/wayland-1.10.92.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.10.91",
     "Installed":      "installed/wayland/1.10.91",
     "Source":         "src/wayland/1.10.91/wayland-1.10.91.tar.xz",

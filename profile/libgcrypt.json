@@ -1,0 +1,7 @@
+{
+  "Name":           "libgcrypt",
+  "SourceUrl":      "ftp://ftp.gnupg.org/gcrypt/libgcrypt/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off"
+}

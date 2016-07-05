@@ -107,6 +107,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "3.0.3",
+    "Installed":      "installed/mysql++/3.0.3",
+    "Source":         "src/mysql++/3.0.3/mysql++-3.0.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.0.2",
     "Installed":      "installed/mysql++/3.0.2",
     "Source":         "src/mysql++/3.0.2/mysql++-3.0.2.tar.gz",

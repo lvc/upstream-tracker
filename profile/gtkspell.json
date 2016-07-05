@@ -1,0 +1,92 @@
+{
+  "Name":           "gtkspell",
+  "Title":          "GtkSpell",
+  "SourceUrl":      "https://sourceforge.net/projects/gtkspell/files/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.0.16",
+  "Package":        "gtkspell3",
+
+  "Versions": [
+  {
+    "Number":         "3.0.8",
+    "Installed":      "installed/gtkspell/3.0.8",
+    "Source":         "src/gtkspell/3.0.8/gtkspell3-3.0.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.7",
+    "Installed":      "installed/gtkspell/3.0.7",
+    "Source":         "src/gtkspell/3.0.7/gtkspell3-3.0.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.6",
+    "Installed":      "installed/gtkspell/3.0.6",
+    "Source":         "src/gtkspell/3.0.6/gtkspell3-3.0.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.5",
+    "Installed":      "installed/gtkspell/3.0.5",
+    "Source":         "src/gtkspell/3.0.5/gtkspell3-3.0.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.4",
+    "Installed":      "installed/gtkspell/3.0.4",
+    "Source":         "src/gtkspell/3.0.4/gtkspell3-3.0.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.3",
+    "Installed":      "installed/gtkspell/3.0.3",
+    "Source":         "src/gtkspell/3.0.3/gtkspell3-3.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.16",
+    "Installed":      "installed/gtkspell/2.0.16",
+    "Source":         "src/gtkspell/2.0.16/gtkspell-2.0.16.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.15",
+    "Installed":      "installed/gtkspell/2.0.15",
+    "Source":         "src/gtkspell/2.0.15/gtkspell-2.0.15.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

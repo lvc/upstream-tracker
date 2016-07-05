@@ -1,0 +1,171 @@
+{
+  "Name":           "libbluray",
+  "SourceUrl":      "http://ftp.videolan.org/pub/videolan/libbluray/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-bdjava",
+  "PreInstall":     "sed -i -e 's/-O3/-Og/' configure",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.9.3",
+    "Installed":      "installed/libbluray/0.9.3",
+    "Source":         "src/libbluray/0.9.3/libbluray-0.9.3.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.2",
+    "Installed":      "installed/libbluray/0.9.2",
+    "Source":         "src/libbluray/0.9.2/libbluray-0.9.2.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.1",
+    "Installed":      "installed/libbluray/0.9.1",
+    "Source":         "src/libbluray/0.9.1/libbluray-0.9.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.0",
+    "Installed":      "installed/libbluray/0.9.0",
+    "Source":         "src/libbluray/0.9.0/libbluray-0.9.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.1",
+    "Installed":      "installed/libbluray/0.8.1",
+    "Source":         "src/libbluray/0.8.1/libbluray-0.8.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.0",
+    "Installed":      "installed/libbluray/0.8.0",
+    "Source":         "src/libbluray/0.8.0/libbluray-0.8.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.0",
+    "Installed":      "installed/libbluray/0.7.0",
+    "Source":         "src/libbluray/0.7.0/libbluray-0.7.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.2",
+    "Installed":      "installed/libbluray/0.6.2",
+    "Source":         "src/libbluray/0.6.2/libbluray-0.6.2.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.1",
+    "Installed":      "installed/libbluray/0.6.1",
+    "Source":         "src/libbluray/0.6.1/libbluray-0.6.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.0",
+    "Installed":      "installed/libbluray/0.6.0",
+    "Source":         "src/libbluray/0.6.0/libbluray-0.6.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.0",
+    "Installed":      "installed/libbluray/0.5.0",
+    "Source":         "src/libbluray/0.5.0/libbluray-0.5.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.0",
+    "Installed":      "installed/libbluray/0.4.0",
+    "Source":         "src/libbluray/0.4.0/libbluray-0.4.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.0",
+    "Installed":      "installed/libbluray/0.3.0",
+    "Source":         "src/libbluray/0.3.0/libbluray-0.3.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.3",
+    "Installed":      "installed/libbluray/0.2.3",
+    "Source":         "src/libbluray/0.2.3/libbluray-0.2.3.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.2",
+    "Installed":      "installed/libbluray/0.2.2",
+    "Source":         "src/libbluray/0.2.2/libbluray-0.2.2.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.1",
+    "Installed":      "installed/libbluray/0.2.1",
+    "Source":         "src/libbluray/0.2.1/libbluray-0.2.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

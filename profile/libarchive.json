@@ -1,0 +1,202 @@
+{
+  "Name":           "libarchive",
+  "SourceUrl":      "http://www.libarchive.org/downloads/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "Configure":      "--without-lzma",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.6.0",
+
+  "Versions": [
+  {
+    "Number":         "3.2.1",
+    "Installed":      "installed/libarchive/3.2.1",
+    "Source":         "src/libarchive/3.2.1/libarchive-3.2.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.0",
+    "Installed":      "installed/libarchive/3.2.0",
+    "Source":         "src/libarchive/3.2.0/libarchive-3.2.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.2",
+    "Installed":      "installed/libarchive/3.1.2",
+    "Source":         "src/libarchive/3.1.2/libarchive-3.1.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.1",
+    "Installed":      "installed/libarchive/3.1.1",
+    "Source":         "src/libarchive/3.1.1/libarchive-3.1.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.0",
+    "Installed":      "installed/libarchive/3.1.0",
+    "Source":         "src/libarchive/3.1.0/libarchive-3.1.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.4",
+    "Installed":      "installed/libarchive/3.0.4",
+    "Source":         "src/libarchive/3.0.4/libarchive-3.0.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.3",
+    "Installed":      "installed/libarchive/3.0.3",
+    "Source":         "src/libarchive/3.0.3/libarchive-3.0.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.2",
+    "Installed":      "installed/libarchive/3.0.2",
+    "Source":         "src/libarchive/3.0.2/libarchive-3.0.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.5",
+    "Installed":      "installed/libarchive/2.8.5",
+    "Source":         "src/libarchive/2.8.5/libarchive-2.8.5.zip",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.4",
+    "Installed":      "installed/libarchive/2.8.4",
+    "Source":         "src/libarchive/2.8.4/libarchive-2.8.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.3",
+    "Installed":      "installed/libarchive/2.8.3",
+    "Source":         "src/libarchive/2.8.3/libarchive-2.8.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.2",
+    "Installed":      "installed/libarchive/2.8.2",
+    "Source":         "src/libarchive/2.8.2/libarchive-2.8.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.1",
+    "Installed":      "installed/libarchive/2.8.1",
+    "Source":         "src/libarchive/2.8.1/libarchive-2.8.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.0",
+    "Installed":      "installed/libarchive/2.8.0",
+    "Source":         "src/libarchive/2.8.0/libarchive-2.8.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.7.1",
+    "Installed":      "installed/libarchive/2.7.1",
+    "Source":         "src/libarchive/2.7.1/libarchive-2.7.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.7.0",
+    "Installed":      "installed/libarchive/2.7.0",
+    "Source":         "src/libarchive/2.7.0/libarchive-2.7.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.2",
+    "Installed":      "installed/libarchive/2.6.2",
+    "Source":         "src/libarchive/2.6.2/libarchive-2.6.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.1",
+    "Installed":      "installed/libarchive/2.6.1",
+    "Source":         "src/libarchive/2.6.1/libarchive-2.6.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.0",
+    "Installed":      "installed/libarchive/2.6.0",
+    "Source":         "src/libarchive/2.6.0/libarchive-2.6.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -6,7 +6,7 @@
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "Configure":      "--without-udev --without-macvtap --without-test-suite",
-  "SkipObjects":    [ "libvirt/", "libvirt-admin.so", "site-packages/" ],
+  "SkipObjects":    [ "libvirt/", "libvirt-admin.so", "libnss_libvirt.so", "site-packages/" ],
   "Changelog":      "ChangeLog",
 
   "Versions": [
@@ -19,6 +19,48 @@
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0",
+    "Installed":      "installed/libvirt/2.0.0",
+    "Source":         "src/libvirt/2.0.0/libvirt-2.0.0.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0-rc1",
+    "Installed":      "installed/libvirt/2.0.0-rc1",
+    "Source":         "src/libvirt/2.0.0-rc1/libvirt-2.0.0-rc1.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.3.5",
+    "Installed":      "installed/libvirt/1.3.5",
+    "Source":         "src/libvirt/1.3.5/libvirt-1.3.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.5-rc1",
+    "Installed":      "installed/libvirt/1.3.5-rc1",
+    "Source":         "src/libvirt/1.3.5-rc1/libvirt-1.3.5-rc1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "1.3.4",

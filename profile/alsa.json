@@ -1,0 +1,264 @@
+{
+  "Name":           "alsa",
+  "Title":          "ALSA",
+  "SourceUrl":      "ftp://ftp.alsa-project.org/pub/lib/",
+  "Git":            "git://git.alsa-project.org/alsa-lib.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "SkipObjects":    [ "alsa-lib/" ],
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+  "Package":        "alsa-lib",
+
+  "Versions": [
+  {
+    "Number":         "1.1.1",
+    "Installed":      "installed/alsa/1.1.1",
+    "Source":         "src/alsa/1.1.1/alsa-lib-1.1.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/alsa/1.1.0",
+    "Source":         "src/alsa/1.1.0/alsa-lib-1.1.0.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.29",
+    "Installed":      "installed/alsa/1.0.29",
+    "Source":         "src/alsa/1.0.29/alsa-lib-1.0.29.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.28",
+    "Installed":      "installed/alsa/1.0.28",
+    "Source":         "src/alsa/1.0.28/alsa-lib-1.0.28.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.27.2",
+    "Installed":      "installed/alsa/1.0.27.2",
+    "Source":         "src/alsa/1.0.27.2/alsa-lib-1.0.27.2.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.27.1",
+    "Installed":      "installed/alsa/1.0.27.1",
+    "Source":         "src/alsa/1.0.27.1/alsa-lib-1.0.27.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.27",
+    "Installed":      "installed/alsa/1.0.27",
+    "Source":         "src/alsa/1.0.27/alsa-lib-1.0.27.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.26",
+    "Installed":      "installed/alsa/1.0.26",
+    "Source":         "src/alsa/1.0.26/alsa-lib-1.0.26.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.25",
+    "Installed":      "installed/alsa/1.0.25",
+    "Source":         "src/alsa/1.0.25/alsa-lib-1.0.25.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.24.1",
+    "Installed":      "installed/alsa/1.0.24.1",
+    "Source":         "src/alsa/1.0.24.1/alsa-lib-1.0.24.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.23",
+    "Installed":      "installed/alsa/1.0.23",
+    "Source":         "src/alsa/1.0.23/alsa-lib-1.0.23.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.22",
+    "Installed":      "installed/alsa/1.0.22",
+    "Source":         "src/alsa/1.0.22/alsa-lib-1.0.22.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.21",
+    "Installed":      "installed/alsa/1.0.21",
+    "Source":         "src/alsa/1.0.21/alsa-lib-1.0.21.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.20",
+    "Installed":      "installed/alsa/1.0.20",
+    "Source":         "src/alsa/1.0.20/alsa-lib-1.0.20.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.19",
+    "Installed":      "installed/alsa/1.0.19",
+    "Source":         "src/alsa/1.0.19/alsa-lib-1.0.19.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.18",
+    "Installed":      "installed/alsa/1.0.18",
+    "Source":         "src/alsa/1.0.18/alsa-lib-1.0.18.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.17",
+    "Installed":      "installed/alsa/1.0.17",
+    "Source":         "src/alsa/1.0.17/alsa-lib-1.0.17.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.16",
+    "Installed":      "installed/alsa/1.0.16",
+    "Source":         "src/alsa/1.0.16/alsa-lib-1.0.16.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.15",
+    "Installed":      "installed/alsa/1.0.15",
+    "Source":         "src/alsa/1.0.15/alsa-lib-1.0.15.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.14",
+    "Installed":      "installed/alsa/1.0.14",
+    "Source":         "src/alsa/1.0.14/alsa-lib-1.0.14.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.13",
+    "Installed":      "installed/alsa/1.0.13",
+    "Source":         "src/alsa/1.0.13/alsa-lib-1.0.13.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.12",
+    "Installed":      "installed/alsa/1.0.12",
+    "Source":         "src/alsa/1.0.12/alsa-lib-1.0.12.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.11",
+    "Installed":      "installed/alsa/1.0.11",
+    "Source":         "src/alsa/1.0.11/alsa-lib-1.0.11.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.10",
+    "Installed":      "installed/alsa/1.0.10",
+    "Source":         "src/alsa/1.0.10/alsa-lib-1.0.10.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.9",
+    "Installed":      "installed/alsa/1.0.9",
+    "Source":         "src/alsa/1.0.9/alsa-lib-1.0.9.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,471 @@
+{
+  "Name":           "botan",
+  "Title":          "Botan",
+  "SourceUrl":      "https://botan.randombit.net/releases/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/botan.sh",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.11.30",
+    "Installed":      "installed/botan/1.11.30",
+    "Source":         "src/botan/1.11.30/Botan-1.11.30.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.29",
+    "Installed":      "installed/botan/1.11.29",
+    "Source":         "src/botan/1.11.29/Botan-1.11.29.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.28",
+    "Installed":      "installed/botan/1.11.28",
+    "Source":         "src/botan/1.11.28/Botan-1.11.28.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.27",
+    "Installed":      "installed/botan/1.11.27",
+    "Source":         "src/botan/1.11.27/Botan-1.11.27.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.26",
+    "Installed":      "installed/botan/1.11.26",
+    "Source":         "src/botan/1.11.26/Botan-1.11.26.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.25",
+    "Installed":      "installed/botan/1.11.25",
+    "Source":         "src/botan/1.11.25/Botan-1.11.25.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.24",
+    "Installed":      "installed/botan/1.11.24",
+    "Source":         "src/botan/1.11.24/Botan-1.11.24.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.23",
+    "Installed":      "installed/botan/1.11.23",
+    "Source":         "src/botan/1.11.23/Botan-1.11.23.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.22",
+    "Installed":      "installed/botan/1.11.22",
+    "Source":         "src/botan/1.11.22/Botan-1.11.22.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.21",
+    "Installed":      "installed/botan/1.11.21",
+    "Source":         "src/botan/1.11.21/Botan-1.11.21.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.20",
+    "Installed":      "installed/botan/1.11.20",
+    "Source":         "src/botan/1.11.20/Botan-1.11.20.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.19",
+    "Installed":      "installed/botan/1.11.19",
+    "Source":         "src/botan/1.11.19/Botan-1.11.19.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.18",
+    "Installed":      "installed/botan/1.11.18",
+    "Source":         "src/botan/1.11.18/Botan-1.11.18.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.17",
+    "Installed":      "installed/botan/1.11.17",
+    "Source":         "src/botan/1.11.17/Botan-1.11.17.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.16",
+    "Installed":      "installed/botan/1.11.16",
+    "Source":         "src/botan/1.11.16/Botan-1.11.16.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.15",
+    "Installed":      "installed/botan/1.11.15",
+    "Source":         "src/botan/1.11.15/Botan-1.11.15.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.14",
+    "Installed":      "installed/botan/1.11.14",
+    "Source":         "src/botan/1.11.14/Botan-1.11.14.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.13",
+    "Installed":      "installed/botan/1.11.13",
+    "Source":         "src/botan/1.11.13/Botan-1.11.13.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.12",
+    "Installed":      "installed/botan/1.11.12",
+    "Source":         "src/botan/1.11.12/Botan-1.11.12.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.11",
+    "Installed":      "installed/botan/1.11.11",
+    "Source":         "src/botan/1.11.11/Botan-1.11.11.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.10",
+    "Installed":      "installed/botan/1.11.10",
+    "Source":         "src/botan/1.11.10/Botan-1.11.10.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.9",
+    "Installed":      "installed/botan/1.11.9",
+    "Source":         "src/botan/1.11.9/Botan-1.11.9.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.8",
+    "Installed":      "installed/botan/1.11.8",
+    "Source":         "src/botan/1.11.8/Botan-1.11.8.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.6",
+    "Installed":      "installed/botan/1.11.6",
+    "Source":         "src/botan/1.11.6/Botan-1.11.6.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.5",
+    "Installed":      "installed/botan/1.11.5",
+    "Source":         "src/botan/1.11.5/Botan-1.11.5.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.4",
+    "Installed":      "installed/botan/1.11.4",
+    "Source":         "src/botan/1.11.4/Botan-1.11.4.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.3",
+    "Installed":      "installed/botan/1.11.3",
+    "Source":         "src/botan/1.11.3/Botan-1.11.3.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.2",
+    "Installed":      "installed/botan/1.11.2",
+    "Source":         "src/botan/1.11.2/Botan-1.11.2.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.1",
+    "Installed":      "installed/botan/1.11.1",
+    "Source":         "src/botan/1.11.1/Botan-1.11.1.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.0",
+    "Installed":      "installed/botan/1.11.0",
+    "Source":         "src/botan/1.11.0/Botan-1.11.0.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.13",
+    "Installed":      "installed/botan/1.10.13",
+    "Source":         "src/botan/1.10.13/Botan-1.10.13.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.12",
+    "Installed":      "installed/botan/1.10.12",
+    "Source":         "src/botan/1.10.12/Botan-1.10.12.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.11",
+    "Installed":      "installed/botan/1.10.11",
+    "Source":         "src/botan/1.10.11/Botan-1.10.11.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.10",
+    "Installed":      "installed/botan/1.10.10",
+    "Source":         "src/botan/1.10.10/Botan-1.10.10.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.9",
+    "Installed":      "installed/botan/1.10.9",
+    "Source":         "src/botan/1.10.9/Botan-1.10.9.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.8",
+    "Installed":      "installed/botan/1.10.8",
+    "Source":         "src/botan/1.10.8/Botan-1.10.8.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.7",
+    "Installed":      "installed/botan/1.10.7",
+    "Source":         "src/botan/1.10.7/Botan-1.10.7.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.6",
+    "Installed":      "installed/botan/1.10.6",
+    "Source":         "src/botan/1.10.6/Botan-1.10.6.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.5",
+    "Installed":      "installed/botan/1.10.5",
+    "Source":         "src/botan/1.10.5/Botan-1.10.5.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.4",
+    "Installed":      "installed/botan/1.10.4",
+    "Source":         "src/botan/1.10.4/Botan-1.10.4.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.3",
+    "Installed":      "installed/botan/1.10.3",
+    "Source":         "src/botan/1.10.3/Botan-1.10.3.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.2",
+    "Installed":      "installed/botan/1.10.2",
+    "Source":         "src/botan/1.10.2/Botan-1.10.2.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.1",
+    "Installed":      "installed/botan/1.10.1",
+    "Source":         "src/botan/1.10.1/Botan-1.10.1.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.0",
+    "Installed":      "installed/botan/1.10.0",
+    "Source":         "src/botan/1.10.0/Botan-1.10.0.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.18",
+    "Installed":      "installed/botan/1.9.18",
+    "Source":         "src/botan/1.9.18/Botan-1.9.18.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.17",
+    "Installed":      "installed/botan/1.9.17",
+    "Source":         "src/botan/1.9.17/Botan-1.9.17.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

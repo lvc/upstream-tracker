@@ -1,0 +1,111 @@
+{
+  "Name":           "fcl",
+  "Title":          "FCL",
+  "SourceUrl":      "https://github.com/flexible-collision-library/fcl/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DCCD_INCLUDE_DIRS={INSTALL_ROOT}/libccd/2.0/include/ -DCCD_LIBRARY_DIRS={INSTALL_ROOT}/libccd/2.0/lib/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.4.0",
+    "Installed":      "installed/fcl/0.4.0",
+    "Source":         "src/fcl/0.4.0/fcl-0.4.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.2",
+    "Installed":      "installed/fcl/0.3.2",
+    "Source":         "src/fcl/0.3.2/fcl-0.3.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.1",
+    "Installed":      "installed/fcl/0.3.1",
+    "Source":         "src/fcl/0.3.1/fcl-0.3.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.0",
+    "Installed":      "installed/fcl/0.3.0",
+    "Source":         "src/fcl/0.3.0/fcl-0.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.9",
+    "Installed":      "installed/fcl/0.2.9",
+    "Source":         "src/fcl/0.2.9/fcl-0.2.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.8",
+    "Installed":      "installed/fcl/0.2.8",
+    "Source":         "src/fcl/0.2.8/fcl-0.2.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.7",
+    "Installed":      "installed/fcl/0.2.7",
+    "Source":         "src/fcl/0.2.7/fcl-0.2.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.6",
+    "Installed":      "installed/fcl/0.2.6",
+    "Source":         "src/fcl/0.2.6/fcl-0.2.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.5",
+    "Installed":      "installed/fcl/0.2.5",
+    "Source":         "src/fcl/0.2.5/fcl-0.2.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.4",
+    "Installed":      "installed/fcl/0.2.4",
+    "Source":         "src/fcl/0.2.4/fcl-0.2.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

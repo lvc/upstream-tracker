@@ -1,0 +1,250 @@
+{
+  "Name":           "glpk",
+  "Title":          "GLPK",
+  "SourceUrl":      "ftp://ftp.gnu.org/gnu/glpk/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "4.57",
+    "Installed":      "installed/glpk/4.57",
+    "Source":         "src/glpk/4.57/glpk-4.57.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.56",
+    "Installed":      "installed/glpk/4.56",
+    "Source":         "src/glpk/4.56/glpk-4.56.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.55",
+    "Installed":      "installed/glpk/4.55",
+    "Source":         "src/glpk/4.55/glpk-4.55.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.54",
+    "Installed":      "installed/glpk/4.54",
+    "Source":         "src/glpk/4.54/glpk-4.54.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.53",
+    "Installed":      "installed/glpk/4.53",
+    "Source":         "src/glpk/4.53/glpk-4.53.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.52.1",
+    "Installed":      "installed/glpk/4.52.1",
+    "Source":         "src/glpk/4.52.1/glpk-4.52.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.52",
+    "Installed":      "installed/glpk/4.52",
+    "Source":         "src/glpk/4.52/glpk-4.52.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.51",
+    "Installed":      "installed/glpk/4.51",
+    "Source":         "src/glpk/4.51/glpk-4.51.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.50",
+    "Installed":      "installed/glpk/4.50",
+    "Source":         "src/glpk/4.50/glpk-4.50.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.49",
+    "Installed":      "installed/glpk/4.49",
+    "Source":         "src/glpk/4.49/glpk-4.49.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.48",
+    "Installed":      "installed/glpk/4.48",
+    "Source":         "src/glpk/4.48/glpk-4.48.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.47",
+    "Installed":      "installed/glpk/4.47",
+    "Source":         "src/glpk/4.47/glpk-4.47.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.46",
+    "Installed":      "installed/glpk/4.46",
+    "Source":         "src/glpk/4.46/glpk-4.46.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.45",
+    "Installed":      "installed/glpk/4.45",
+    "Source":         "src/glpk/4.45/glpk-4.45.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.44",
+    "Installed":      "installed/glpk/4.44",
+    "Source":         "src/glpk/4.44/glpk-4.44.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.43",
+    "Installed":      "installed/glpk/4.43",
+    "Source":         "src/glpk/4.43/glpk-4.43.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.42",
+    "Installed":      "installed/glpk/4.42",
+    "Source":         "src/glpk/4.42/glpk-4.42.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.41",
+    "Installed":      "installed/glpk/4.41",
+    "Source":         "src/glpk/4.41/glpk-4.41.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.40",
+    "Installed":      "installed/glpk/4.40",
+    "Source":         "src/glpk/4.40/glpk-4.40.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.39",
+    "Installed":      "installed/glpk/4.39",
+    "Source":         "src/glpk/4.39/glpk-4.39.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.38",
+    "Installed":      "installed/glpk/4.38",
+    "Source":         "src/glpk/4.38/glpk-4.38.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.37",
+    "Installed":      "installed/glpk/4.37",
+    "Source":         "src/glpk/4.37/glpk-4.37.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.36",
+    "Installed":      "installed/glpk/4.36",
+    "Source":         "src/glpk/4.36/glpk-4.36.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.35",
+    "Installed":      "installed/glpk/4.35",
+    "Source":         "src/glpk/4.35/glpk-4.35.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}
