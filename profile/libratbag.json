@@ -1,0 +1,40 @@
+{
+  "Name":           "libratbag",
+  "SourceUrl":      "https://github.com/libratbag/libratbag/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-udev-base-dir={INSTALL_TO}/udev",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.4",
+    "Installed":      "installed/libratbag/0.4",
+    "Source":         "src/libratbag/0.4/libratbag-0.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3",
+    "Installed":      "installed/libratbag/0.3",
+    "Source":         "src/libratbag/0.3/libratbag-0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2",
+    "Installed":      "installed/libratbag/0.2",
+    "Source":         "src/libratbag/0.2/libratbag-0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

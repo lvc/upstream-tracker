@@ -5,7 +5,6 @@
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "BuildScript":    "build_script/jemalloc.sh",
   "HeadersDiff":    "On",
-  "ReimplementStd": "1",
   "UseTUDump":      "1",
 
   "Versions": [

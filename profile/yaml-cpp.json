@@ -1,0 +1,140 @@
+{
+  "Name":           "yaml-cpp",
+  "SourceUrl":      "https://github.com/jbeder/yaml-cpp/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "Package":        "release",
+
+  "Versions": [
+  {
+    "Number":         "0.5.3",
+    "Installed":      "installed/yaml-cpp/0.5.3",
+    "Source":         "src/yaml-cpp/0.5.3/release-0.5.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.2",
+    "Installed":      "installed/yaml-cpp/0.5.2",
+    "Source":         "src/yaml-cpp/0.5.2/release-0.5.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.1",
+    "Installed":      "installed/yaml-cpp/0.5.1",
+    "Source":         "src/yaml-cpp/0.5.1/release-0.5.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.0",
+    "Installed":      "installed/yaml-cpp/0.5.0",
+    "Source":         "src/yaml-cpp/0.5.0/release-0.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.0",
+    "Installed":      "installed/yaml-cpp/0.3.0",
+    "Source":         "src/yaml-cpp/0.3.0/release-0.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.7",
+    "Installed":      "installed/yaml-cpp/0.2.7",
+    "Source":         "src/yaml-cpp/0.2.7/release-0.2.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.6",
+    "Installed":      "installed/yaml-cpp/0.2.6",
+    "Source":         "src/yaml-cpp/0.2.6/release-0.2.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.5",
+    "Installed":      "installed/yaml-cpp/0.2.5",
+    "Source":         "src/yaml-cpp/0.2.5/release-0.2.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.4",
+    "Installed":      "installed/yaml-cpp/0.2.4",
+    "Source":         "src/yaml-cpp/0.2.4/release-0.2.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.3",
+    "Installed":      "installed/yaml-cpp/0.2.3",
+    "Source":         "src/yaml-cpp/0.2.3/release-0.2.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.2",
+    "Installed":      "installed/yaml-cpp/0.2.2",
+    "Source":         "src/yaml-cpp/0.2.2/release-0.2.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.1",
+    "Installed":      "installed/yaml-cpp/0.2.1",
+    "Source":         "src/yaml-cpp/0.2.1/release-0.2.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.0",
+    "Installed":      "installed/yaml-cpp/0.2.0",
+    "Source":         "src/yaml-cpp/0.2.0/release-0.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

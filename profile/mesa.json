@@ -1,0 +1,167 @@
+{
+  "Name":           "mesa",
+  "Title":          "Mesa",
+  "SourceUrl":      "https://mesa.freedesktop.org/archive/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-glx --enable-libglvnd --disable-osmesa PKG_CONFIG_PATH={INSTALL_ROOT}/libdrm/2.4.70/lib/pkgconfig",
+  "PreInstall":     "sh autogen.sh",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/dri",
+  "SkipObjects":    [ "libglapi.so", "egl/", "libGLw.so" ],
+  "HeadersDiff":    "Off",
+  "LatestMicro":    "1",
+  "Make":           "-j2",
+  "SkipTypedefUncover": "1",
+
+  "Versions": [
+  {
+    "Number":         "12.0.1",
+    "Installed":      "installed/mesa/12.0.1",
+    "Source":         "src/mesa/12.0.1/mesa-12.0.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "11.2.2",
+    "Installed":      "installed/mesa/11.2.2",
+    "Source":         "src/mesa/11.2.2/mesa-11.2.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "11.1.4",
+    "Installed":      "installed/mesa/11.1.4",
+    "Source":         "src/mesa/11.1.4/mesa-11.1.4.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "11.0.9",
+    "Installed":      "installed/mesa/11.0.9",
+    "Source":         "src/mesa/11.0.9/mesa-11.0.9.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.6.9",
+    "Installed":      "installed/mesa/10.6.9",
+    "Source":         "src/mesa/10.6.9/mesa-10.6.9.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.5.9",
+    "Installed":      "installed/mesa/10.5.9",
+    "Source":         "src/mesa/10.5.9/mesa-10.5.9.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.4.7",
+    "Installed":      "installed/mesa/10.4.7",
+    "Source":         "src/mesa/10.4.7/MesaLib-10.4.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.3.7",
+    "Installed":      "installed/mesa/10.3.7",
+    "Source":         "src/mesa/10.3.7/MesaLib-10.3.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.2.9",
+    "Installed":      "installed/mesa/10.2.9",
+    "Source":         "src/mesa/10.2.9/MesaLib-10.2.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.9.2",
+    "Installed":      "installed/mesa/7.9.2",
+    "Source":         "src/mesa/7.9.2/MesaLib-7.9.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.8.2",
+    "Installed":      "installed/mesa/7.8.2",
+    "Source":         "src/mesa/7.8.2/MesaLib-7.8.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.7.1",
+    "Installed":      "installed/mesa/7.7.1",
+    "Source":         "src/mesa/7.7.1/MesaLib-7.7.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.6.1",
+    "Installed":      "installed/mesa/7.6.1",
+    "Source":         "src/mesa/7.6.1/MesaLib-7.6.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.5.2",
+    "Installed":      "installed/mesa/7.5.2",
+    "Source":         "src/mesa/7.5.2/MesaLib-7.5.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.3",
+    "Installed":      "installed/mesa/4.0.3",
+    "Source":         "src/mesa/4.0.3/MesaLib-4.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

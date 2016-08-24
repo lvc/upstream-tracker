@@ -1,0 +1,122 @@
+{
+  "Name":           "lilv",
+  "Title":          "Lilv",
+  "SourceUrl":      "http://download.drobilla.net/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--no-bash-completion",
+  "PreInstall":     "sed -i -e 's/libflags[ ]*=[ ]*\[\(.\+\)\]/libflags = [\1, \"-Og\"]/' wscript",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.22.0",
+    "Installed":      "installed/lilv/0.22.0",
+    "Source":         "src/lilv/0.22.0/lilv-0.22.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.0",
+    "Installed":      "installed/lilv/0.20.0",
+    "Source":         "src/lilv/0.20.0/lilv-0.20.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.18.0",
+    "Installed":      "installed/lilv/0.18.0",
+    "Source":         "src/lilv/0.18.0/lilv-0.18.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16.0",
+    "Installed":      "installed/lilv/0.16.0",
+    "Source":         "src/lilv/0.16.0/lilv-0.16.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14.4",
+    "Installed":      "installed/lilv/0.14.4",
+    "Source":         "src/lilv/0.14.4/lilv-0.14.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14.2",
+    "Installed":      "installed/lilv/0.14.2",
+    "Source":         "src/lilv/0.14.2/lilv-0.14.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14.0",
+    "Installed":      "installed/lilv/0.14.0",
+    "Source":         "src/lilv/0.14.0/lilv-0.14.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.0",
+    "Installed":      "installed/lilv/0.5.0",
+    "Source":         "src/lilv/0.5.0/lilv-0.5.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.4",
+    "Installed":      "installed/lilv/0.4.4",
+    "Source":         "src/lilv/0.4.4/lilv-0.4.4.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.2",
+    "Installed":      "installed/lilv/0.4.2",
+    "Source":         "src/lilv/0.4.2/lilv-0.4.2.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.0",
+    "Installed":      "installed/lilv/0.4.0",
+    "Source":         "src/lilv/0.4.0/lilv-0.4.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

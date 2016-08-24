@@ -1,0 +1,98 @@
+{
+  "Name":           "newlib",
+  "Title":          "Newlib",
+  "SourceUrl":      "ftp://sourceware.org/pub/newlib/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildDir":       "newlib",
+  "BuildShared":    "On",
+  "Changelog":      "newlib/NEWS",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.16.0",
+  "ShowPackageInReport": "On",
+  "SkipVersions":   [ ".*\d\d\d\d\d\d\d\d" ],
+  "Soname":         "Off",
+  "UseTUDump":      "1",
+
+  "Versions": [
+  {
+    "Number":         "2.4.0",
+    "Installed":      "installed/newlib/2.4.0",
+    "Source":         "src/newlib/2.4.0/newlib-2.4.0.tar.gz",
+    "Changelog":      "newlib/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.0-1",
+    "Installed":      "installed/newlib/2.2.0-1",
+    "Source":         "src/newlib/2.2.0-1/newlib-2.2.0-1.tar.gz",
+    "Changelog":      "newlib/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.0",
+    "Installed":      "installed/newlib/2.2.0",
+    "Source":         "src/newlib/2.2.0/newlib-2.2.0.tar.gz",
+    "Changelog":      "newlib/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.0",
+    "Installed":      "installed/newlib/2.1.0",
+    "Source":         "src/newlib/2.1.0/newlib-2.1.0.tar.gz",
+    "Changelog":      "newlib/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0",
+    "Installed":      "installed/newlib/2.0.0",
+    "Source":         "src/newlib/2.0.0/newlib-2.0.0.tar.gz",
+    "Changelog":      "newlib/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.20.0",
+    "Installed":      "installed/newlib/1.20.0",
+    "Source":         "src/newlib/1.20.0/newlib-1.20.0.tar.gz",
+    "Changelog":      "newlib/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.19.0",
+    "Installed":      "installed/newlib/1.19.0",
+    "Source":         "src/newlib/1.19.0/newlib-1.19.0.tar.gz",
+    "Changelog":      "newlib/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.18.0",
+    "Installed":      "installed/newlib/1.18.0",
+    "Source":         "src/newlib/1.18.0/newlib-1.18.0.tar.gz",
+    "Changelog":      "newlib/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

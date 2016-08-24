@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "3.0.9",
+    "Installed":      "installed/gtkspell/3.0.9",
+    "Source":         "src/gtkspell/3.0.9/gtkspell3-3.0.9.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.0.8",
     "Installed":      "installed/gtkspell/3.0.8",
     "Source":         "src/gtkspell/3.0.8/gtkspell3-3.0.8.tar.gz",

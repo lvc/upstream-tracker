@@ -32,10 +32,12 @@
 # and the GNU Lesser General Public License along with this program.
 # If not, see <http://www.gnu.org/licenses/>.
 ##################################################################
-use Data::Dumper;
+use Getopt::Long;
+Getopt::Long::Configure ("posix_default", "no_ignore_case", "permute");
 use Fcntl qw(:flock SEEK_END);
 use File::Path qw(mkpath rmtree);
 use File::Basename qw(dirname);
+use Data::Dumper;
 
 my $Testplan_Init = "scripts/testplan";
 my $Testplan = ".testplan";
@@ -46,6 +48,10 @@ my %LogPath = (
     "0"=>$LogDir."/LOG-".$Date.".0",
     "1"=>$LogDir."/LOG-".$Date.".1"
 );
+
+my ($Timing);
+
+GetOptions("timing!" => \$Timing) or exit(1);
 
 sub getDate()
 {
@@ -75,6 +81,16 @@ sub writeFile($$)
     close(FILE);
 }
 
+sub appendFile($$)
+{
+    my ($Path, $Content) = @_;
+    return if(not $Path);
+    
+    open(FILE, ">>", $Path) || die ("can't open file \'$Path\': $!\n");
+    print FILE $Content;
+    close(FILE);
+}
+
 sub readFile($)
 {
     my $Path = $_[0];
@@ -94,6 +110,8 @@ sub runUpdate($$)
     
     my $Log = $LogPath{$N};
     
+    my $STime = time();
+    
     system("echo ".uc($Library)." >>".$Log);
     system("abi-monitor -get -build-new profile/$Library.json >>$Log 2>&1");
     system("abi-tracker -build profile/$Library.json >>$Log 2>&1");
@@ -101,6 +119,21 @@ sub runUpdate($$)
     if(-f "graph/$Library/graph.png") {
         system("abi-tracker -build -target graph profile/$Library.json >>$Log 2>&1");
     }
+    
+    if(defined $Timing) {
+        appendFile($Log, "Time spent: ".showDelta(time() - $STime)."\n");
+    }
+}
+
+sub showDelta($)
+{
+    my $Delta = $_[0];
+    
+    if($Delta<60) {
+        return $Delta."s";
+    }
+    
+    return int($Delta/60)."m";
 }
 
 sub getLibs()
@@ -151,15 +184,21 @@ sub scenario()
     writeFile($Testplan, Dumper(\%Hash));
     writeFile($TestplanLock, "This file is used to lock testplan");
     
+    my $STime = time();
     my $Pid = fork();
     
     if($Pid)
     {
+        
         while(my @Ls = getLibs())
         {
             foreach my $L (@Ls) {
                 runUpdate($L, 0);
             }
+        }
+        
+        if(defined $Timing) {
+            appendFile($LogPath{0}, "Done in: ".showDelta(time() - $STime)."\n");
         }
     }
     else
@@ -170,6 +209,11 @@ sub scenario()
                 runUpdate($L, 1);
             }
         }
+        
+        if(defined $Timing) {
+            appendFile($LogPath{1}, "Done in: ".showDelta(time() - $STime)."\n");
+        }
+        
         exit(0);
     }
     

@@ -7,6 +7,26 @@
 
   "Versions": [
   {
+    "Number":         "2.4.70",
+    "Installed":      "installed/libdrm/2.4.70",
+    "Source":         "src/libdrm/2.4.70/libdrm-2.4.70.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.69",
+    "Installed":      "installed/libdrm/2.4.69",
+    "Source":         "src/libdrm/2.4.69/libdrm-2.4.69.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.4.68",
     "Installed":      "installed/libdrm/2.4.68",
     "Source":         "src/libdrm/2.4.68/libdrm-2.4.68.tar.gz",

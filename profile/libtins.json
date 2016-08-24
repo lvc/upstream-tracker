@@ -1,0 +1,10 @@
+{
+  "Name":           "libtins",
+  "SourceUrl":      "https://github.com/mfontanini/libtins/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  ]
+}

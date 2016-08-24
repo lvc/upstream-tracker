@@ -1,0 +1,361 @@
+{
+  "Name":           "libmicrohttpd",
+  "SourceUrl":      "https://ftp.gnu.org/gnu/libmicrohttpd/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-doc",
+  "Changelog":      "ChangeLog",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.9.50",
+    "Installed":      "installed/libmicrohttpd/0.9.50",
+    "Source":         "src/libmicrohttpd/0.9.50/libmicrohttpd-0.9.50.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.49",
+    "Installed":      "installed/libmicrohttpd/0.9.49",
+    "Source":         "src/libmicrohttpd/0.9.49/libmicrohttpd-0.9.49.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.48",
+    "Installed":      "installed/libmicrohttpd/0.9.48",
+    "Source":         "src/libmicrohttpd/0.9.48/libmicrohttpd-0.9.48.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.47",
+    "Installed":      "installed/libmicrohttpd/0.9.47",
+    "Source":         "src/libmicrohttpd/0.9.47/libmicrohttpd-0.9.47.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.46",
+    "Installed":      "installed/libmicrohttpd/0.9.46",
+    "Source":         "src/libmicrohttpd/0.9.46/libmicrohttpd-0.9.46.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.45",
+    "Installed":      "installed/libmicrohttpd/0.9.45",
+    "Source":         "src/libmicrohttpd/0.9.45/libmicrohttpd-0.9.45.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.44",
+    "Installed":      "installed/libmicrohttpd/0.9.44",
+    "Source":         "src/libmicrohttpd/0.9.44/libmicrohttpd-0.9.44.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.43",
+    "Installed":      "installed/libmicrohttpd/0.9.43",
+    "Source":         "src/libmicrohttpd/0.9.43/libmicrohttpd-0.9.43.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.42",
+    "Installed":      "installed/libmicrohttpd/0.9.42",
+    "Source":         "src/libmicrohttpd/0.9.42/libmicrohttpd-0.9.42.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.41",
+    "Installed":      "installed/libmicrohttpd/0.9.41",
+    "Source":         "src/libmicrohttpd/0.9.41/libmicrohttpd-0.9.41.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.40",
+    "Installed":      "installed/libmicrohttpd/0.9.40",
+    "Source":         "src/libmicrohttpd/0.9.40/libmicrohttpd-0.9.40.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.39",
+    "Installed":      "installed/libmicrohttpd/0.9.39",
+    "Source":         "src/libmicrohttpd/0.9.39/libmicrohttpd-0.9.39.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.38",
+    "Installed":      "installed/libmicrohttpd/0.9.38",
+    "Source":         "src/libmicrohttpd/0.9.38/libmicrohttpd-0.9.38.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.37",
+    "Installed":      "installed/libmicrohttpd/0.9.37",
+    "Source":         "src/libmicrohttpd/0.9.37/libmicrohttpd-0.9.37.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.36",
+    "Installed":      "installed/libmicrohttpd/0.9.36",
+    "Source":         "src/libmicrohttpd/0.9.36/libmicrohttpd-0.9.36.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.35",
+    "Installed":      "installed/libmicrohttpd/0.9.35",
+    "Source":         "src/libmicrohttpd/0.9.35/libmicrohttpd-0.9.35.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.34",
+    "Installed":      "installed/libmicrohttpd/0.9.34",
+    "Source":         "src/libmicrohttpd/0.9.34/libmicrohttpd-0.9.34.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.33",
+    "Installed":      "installed/libmicrohttpd/0.9.33",
+    "Source":         "src/libmicrohttpd/0.9.33/libmicrohttpd-0.9.33.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.32",
+    "Installed":      "installed/libmicrohttpd/0.9.32",
+    "Source":         "src/libmicrohttpd/0.9.32/libmicrohttpd-0.9.32.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.31",
+    "Installed":      "installed/libmicrohttpd/0.9.31",
+    "Source":         "src/libmicrohttpd/0.9.31/libmicrohttpd-0.9.31.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.30",
+    "Installed":      "installed/libmicrohttpd/0.9.30",
+    "Source":         "src/libmicrohttpd/0.9.30/libmicrohttpd-0.9.30.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.29",
+    "Installed":      "installed/libmicrohttpd/0.9.29",
+    "Source":         "src/libmicrohttpd/0.9.29/libmicrohttpd-0.9.29.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.28",
+    "Installed":      "installed/libmicrohttpd/0.9.28",
+    "Source":         "src/libmicrohttpd/0.9.28/libmicrohttpd-0.9.28.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.27",
+    "Installed":      "installed/libmicrohttpd/0.9.27",
+    "Source":         "src/libmicrohttpd/0.9.27/libmicrohttpd-0.9.27.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.26",
+    "Installed":      "installed/libmicrohttpd/0.9.26",
+    "Source":         "src/libmicrohttpd/0.9.26/libmicrohttpd-0.9.26.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.25",
+    "Installed":      "installed/libmicrohttpd/0.9.25",
+    "Source":         "src/libmicrohttpd/0.9.25/libmicrohttpd-0.9.25.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.24",
+    "Installed":      "installed/libmicrohttpd/0.9.24",
+    "Source":         "src/libmicrohttpd/0.9.24/libmicrohttpd-0.9.24.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.23",
+    "Installed":      "installed/libmicrohttpd/0.9.23",
+    "Source":         "src/libmicrohttpd/0.9.23/libmicrohttpd-0.9.23.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.22",
+    "Installed":      "installed/libmicrohttpd/0.9.22",
+    "Source":         "src/libmicrohttpd/0.9.22/libmicrohttpd-0.9.22.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.21",
+    "Installed":      "installed/libmicrohttpd/0.9.21",
+    "Source":         "src/libmicrohttpd/0.9.21/libmicrohttpd-0.9.21.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.20",
+    "Installed":      "installed/libmicrohttpd/0.9.20",
+    "Source":         "src/libmicrohttpd/0.9.20/libmicrohttpd-0.9.20.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.19",
+    "Installed":      "installed/libmicrohttpd/0.9.19",
+    "Source":         "src/libmicrohttpd/0.9.19/libmicrohttpd-0.9.19.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.18",
+    "Installed":      "installed/libmicrohttpd/0.9.18",
+    "Source":         "src/libmicrohttpd/0.9.18/libmicrohttpd-0.9.18.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.17",
+    "Installed":      "installed/libmicrohttpd/0.9.17",
+    "Source":         "src/libmicrohttpd/0.9.17/libmicrohttpd-0.9.17.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.16",
+    "Installed":      "installed/libmicrohttpd/0.9.16",
+    "Source":         "src/libmicrohttpd/0.9.16/libmicrohttpd-0.9.16.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

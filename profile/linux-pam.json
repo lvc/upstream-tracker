@@ -1,0 +1,52 @@
+{
+  "Name":           "linux-pam",
+  "Title":          "Linux PAM",
+  "SourceUrl":      "http://www.linux-pam.org/library/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "SkipObjects":    [ "security/" ],
+  "HeadersDiff":    "Off",
+  "Note":           "Requires flex-devel",
+
+  "Versions": [
+  {
+    "Number":         "1.3.0",
+    "Installed":      "installed/linux-pam/1.3.0",
+    "Source":         "src/linux-pam/1.3.0/Linux-PAM-1.3.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.1",
+    "Installed":      "installed/linux-pam/1.2.1",
+    "Source":         "src/linux-pam/1.2.1/Linux-PAM-1.2.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/linux-pam/1.2.0",
+    "Source":         "src/linux-pam/1.2.0/Linux-PAM-1.2.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.8",
+    "Installed":      "installed/linux-pam/1.1.8",
+    "Source":         "src/linux-pam/1.1.8/Linux-PAM-1.1.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -20,6 +20,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "3.2.1",
+    "Installed":      "installed/glfw/3.2.1",
+    "Source":         "src/glfw/3.2.1/glfw-3.2.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.2",
     "Installed":      "installed/glfw/3.2",
     "Source":         "src/glfw/3.2/glfw-3.2.tar.gz",

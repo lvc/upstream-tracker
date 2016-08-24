@@ -4,7 +4,7 @@
   "Git":            "https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--disable-wall --disable-bash-completion --with-systemdsystemunitdir={INSTALL_TO} --without-ncurses --disable-login --disable-su",
+  "Configure":      "--disable-wall --disable-bash-completion --with-systemdsystemunitdir={INSTALL_TO}/systemd --without-ncurses --disable-login --disable-su",
   "SkipObjects":    [ "site-packages/" ],
 
   "Versions": [

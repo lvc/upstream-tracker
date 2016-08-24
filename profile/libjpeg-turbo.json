@@ -1,0 +1,131 @@
+{
+  "Name":           "libjpeg-turbo",
+  "SourceUrl":      "https://github.com/libjpeg-turbo/libjpeg-turbo/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/libjpeg-turbo.sh",
+  "HeadersDiff":    "Off",
+  "SkipVersions":   [ ".*90" ],
+
+  "Versions": [
+  {
+    "Number":         "1.5.0",
+    "Installed":      "installed/libjpeg-turbo/1.5.0",
+    "Source":         "src/libjpeg-turbo/1.5.0/libjpeg-turbo-1.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.2",
+    "Installed":      "installed/libjpeg-turbo/1.4.2",
+    "Source":         "src/libjpeg-turbo/1.4.2/libjpeg-turbo-1.4.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.1",
+    "Installed":      "installed/libjpeg-turbo/1.4.1",
+    "Source":         "src/libjpeg-turbo/1.4.1/libjpeg-turbo-1.4.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.0",
+    "Installed":      "installed/libjpeg-turbo/1.4.0",
+    "Source":         "src/libjpeg-turbo/1.4.0/libjpeg-turbo-1.4.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.1",
+    "Installed":      "installed/libjpeg-turbo/1.3.1",
+    "Source":         "src/libjpeg-turbo/1.3.1/libjpeg-turbo-1.3.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.0",
+    "Installed":      "installed/libjpeg-turbo/1.3.0",
+    "Source":         "src/libjpeg-turbo/1.3.0/libjpeg-turbo-1.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.1",
+    "Installed":      "installed/libjpeg-turbo/1.2.1",
+    "Source":         "src/libjpeg-turbo/1.2.1/libjpeg-turbo-1.2.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/libjpeg-turbo/1.2.0",
+    "Source":         "src/libjpeg-turbo/1.2.0/libjpeg-turbo-1.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.1",
+    "Installed":      "installed/libjpeg-turbo/1.1.1",
+    "Source":         "src/libjpeg-turbo/1.1.1/libjpeg-turbo-1.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/libjpeg-turbo/1.1.0",
+    "Source":         "src/libjpeg-turbo/1.1.0/libjpeg-turbo-1.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/libjpeg-turbo/1.0.1",
+    "Source":         "src/libjpeg-turbo/1.0.1/libjpeg-turbo-1.0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/libjpeg-turbo/1.0.0",
+    "Source":         "src/libjpeg-turbo/1.0.0/libjpeg-turbo-1.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

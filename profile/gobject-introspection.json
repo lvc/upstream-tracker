@@ -4,12 +4,22 @@
   "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/gobject-introspection/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/glib/2.49.1/lib/pkgconfig",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/glib/2.49.4/lib/pkgconfig",
   "PostInstall":    "rm -fr {INSTALL_TO}/lib/gobject-introspection/ {INSTALL_TO}/lib/girepository-1.0/",
   "Changelog":      "Off",
   "HeadersDiff":    "Off",
 
   "Versions": [
+  {
+    "Number":         "1.49.1",
+    "Installed":      "installed/gobject-introspection/1.49.1",
+    "Source":         "src/gobject-introspection/1.49.1/gobject-introspection-1.49.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "1.48.0",
     "Installed":      "installed/gobject-introspection/1.48.0",

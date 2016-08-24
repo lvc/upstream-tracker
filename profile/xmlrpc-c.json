@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         "1.39.10",
+    "Installed":      "installed/xmlrpc-c/1.39.10",
+    "Source":         "src/xmlrpc-c/1.39.10/xmlrpc-c-1.39.10.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.39.08",
     "Installed":      "installed/xmlrpc-c/1.39.08",
     "Source":         "src/xmlrpc-c/1.39.08/xmlrpc-c-1.39.08.tgz",

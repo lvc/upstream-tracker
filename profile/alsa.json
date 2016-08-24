@@ -5,12 +5,33 @@
   "Git":            "git://git.alsa-project.org/alsa-lib.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "CurrentPreInstall": "GITCOMPILE_NO_MAKE=1 ./gitcompile",
   "SkipObjects":    [ "alsa-lib/" ],
   "Changelog":      "Off",
   "HeadersDiff":    "Off",
   "Package":        "alsa-lib",
 
   "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/alsa/current",
+    "Source":         "src/alsa/current",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.2",
+    "Installed":      "installed/alsa/1.1.2",
+    "Source":         "src/alsa/1.1.2/alsa-lib-1.1.2.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "1.1.1",
     "Installed":      "installed/alsa/1.1.1",

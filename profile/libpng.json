@@ -12,6 +12,38 @@
 
   "Versions": [
   {
+    "Number":         "1.6.24",
+    "Installed":      "installed/libpng/1.6.24",
+    "Source":         "src/libpng/1.6.24/libpng-1.6.24.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.24rc02",
+    "Installed":      "installed/libpng/1.6.24rc02",
+    "Source":         "src/libpng/1.6.24rc02/libpng-1.6.24rc02.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.6.24rc01",
+    "Installed":      "installed/libpng/1.6.24rc01",
+    "Source":         "src/libpng/1.6.24rc01/libpng-1.6.24rc01.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "1.6.23",
     "Installed":      "installed/libpng/1.6.23",
     "Source":         "src/libpng/1.6.23/libpng-1.6.23.tar.xz",

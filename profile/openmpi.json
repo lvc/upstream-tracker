@@ -2,24 +2,34 @@
   "Name":           "openmpi",
   "Title":          "OpenMPI",
   "SourceUrl":      "http://www.open-mpi.org/software/",
-  "Git":            "https://github.com/open-mpi/ompi.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "BuildSystem":    "Autotools",
   "CurrentPreInstall": "perl autogen.pl",
-  "SkipObjects":    [ "openmpi/", "libmca_common_sm.so", "libopen-pal.so", "libvt-mpi-unify.so", "libopal.so", "libopen-rte.so", "liborte.so", "libopenmpi_malloc.so", "monitoring_prof.so", "libopenmpi-malloc.so" ],
+  "SkipObjects":    [ "openmpi/", "libmca_common_sm.so", "libopen-pal.so", "libvt-mpi-unify.so", "libopal.so", "libopen-rte.so", "liborte.so", "libopenmpi_malloc.so", "monitoring_prof.so", "libopenmpi-malloc.so", "libmca_common_ompio.so" ],
   "SkipSymbols":    "filters/skip_symbols/openmpi.list",
   "SkipInternalSymbols": "ompi_.*",
   "SkipTypes":      "filters/skip_types/openmpi.list",
   "SkipInternalTypes": "ompi_.*",
+  "HeadersDiff":    "Off",
 
   "Versions": [
   {
-    "Number":         "current",
-    "Installed":      "installed/openmpi/current",
-    "Source":         "src/openmpi/current",
-    "Changelog":      "On",
-    "HeadersDiff":    "On",
+    "Number":         "2.0.1rc1",
+    "Installed":      "installed/openmpi/2.0.1rc1",
+    "Source":         "src/openmpi/2.0.1rc1/openmpi-2.0.1rc1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0",
+    "Installed":      "installed/openmpi/2.0.0",
+    "Source":         "src/openmpi/2.0.0/openmpi-2.0.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -29,17 +39,18 @@
     "Installed":      "installed/openmpi/2.0.0rc1",
     "Source":         "src/openmpi/2.0.0rc1/openmpi-2.0.0rc1.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "1.10.2",
     "Installed":      "installed/openmpi/1.10.2",
     "Source":         "src/openmpi/1.10.2/openmpi-1.10.2.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -49,7 +60,7 @@
     "Installed":      "installed/openmpi/1.10.1",
     "Source":         "src/openmpi/1.10.1/openmpi-1.10.1.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -59,7 +70,7 @@
     "Installed":      "installed/openmpi/1.10.1rc3",
     "Source":         "src/openmpi/1.10.1rc3/openmpi-1.10.1rc3.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off",
@@ -70,7 +81,7 @@
     "Installed":      "installed/openmpi/1.10.1rc2",
     "Source":         "src/openmpi/1.10.1rc2/openmpi-1.10.1rc2.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off",
@@ -81,7 +92,7 @@
     "Installed":      "installed/openmpi/1.10.0",
     "Source":         "src/openmpi/1.10.0/openmpi-1.10.0.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -91,7 +102,7 @@
     "Installed":      "installed/openmpi/1.8.8",
     "Source":         "src/openmpi/1.8.8/openmpi-1.8.8.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -101,7 +112,7 @@
     "Installed":      "installed/openmpi/1.8.7",
     "Source":         "src/openmpi/1.8.7/openmpi-1.8.7.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -111,7 +122,7 @@
     "Installed":      "installed/openmpi/1.8.6",
     "Source":         "src/openmpi/1.8.6/openmpi-1.8.6.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -121,7 +132,7 @@
     "Installed":      "installed/openmpi/1.8.5",
     "Source":         "src/openmpi/1.8.5/openmpi-1.8.5.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -131,7 +142,7 @@
     "Installed":      "installed/openmpi/1.8.4",
     "Source":         "src/openmpi/1.8.4/openmpi-1.8.4.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -141,7 +152,7 @@
     "Installed":      "installed/openmpi/1.8.3",
     "Source":         "src/openmpi/1.8.3/openmpi-1.8.3.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -151,7 +162,7 @@
     "Installed":      "installed/openmpi/1.8.2",
     "Source":         "src/openmpi/1.8.2/openmpi-1.8.2.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -161,7 +172,7 @@
     "Installed":      "installed/openmpi/1.8.1",
     "Source":         "src/openmpi/1.8.1/openmpi-1.8.1.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -171,7 +182,7 @@
     "Installed":      "installed/openmpi/1.8",
     "Source":         "src/openmpi/1.8/openmpi-1.8.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -181,7 +192,7 @@
     "Installed":      "installed/openmpi/1.7.5",
     "Source":         "src/openmpi/1.7.5/openmpi-1.7.5.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -191,7 +202,7 @@
     "Installed":      "installed/openmpi/1.7.4",
     "Source":         "src/openmpi/1.7.4/openmpi-1.7.4.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -201,7 +212,7 @@
     "Installed":      "installed/openmpi/1.7.3",
     "Source":         "src/openmpi/1.7.3/openmpi-1.7.3.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -211,7 +222,7 @@
     "Installed":      "installed/openmpi/1.7.2",
     "Source":         "src/openmpi/1.7.2/openmpi-1.7.2.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -221,7 +232,7 @@
     "Installed":      "installed/openmpi/1.7.1",
     "Source":         "src/openmpi/1.7.1/openmpi-1.7.1.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -231,7 +242,7 @@
     "Installed":      "installed/openmpi/1.7",
     "Source":         "src/openmpi/1.7/openmpi-1.7.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -241,7 +252,7 @@
     "Installed":      "installed/openmpi/1.6.5",
     "Source":         "src/openmpi/1.6.5/openmpi-1.6.5.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -251,7 +262,7 @@
     "Installed":      "installed/openmpi/1.6.4",
     "Source":         "src/openmpi/1.6.4/openmpi-1.6.4.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -261,7 +272,7 @@
     "Installed":      "installed/openmpi/1.6.3",
     "Source":         "src/openmpi/1.6.3/openmpi-1.6.3.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -271,7 +282,7 @@
     "Installed":      "installed/openmpi/1.6.2",
     "Source":         "src/openmpi/1.6.2/openmpi-1.6.2.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -281,7 +292,7 @@
     "Installed":      "installed/openmpi/1.6.1",
     "Source":         "src/openmpi/1.6.1/openmpi-1.6.1.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -291,7 +302,7 @@
     "Installed":      "installed/openmpi/1.6",
     "Source":         "src/openmpi/1.6/openmpi-1.6.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -301,7 +312,7 @@
     "Installed":      "installed/openmpi/1.5.5",
     "Source":         "src/openmpi/1.5.5/openmpi-1.5.5.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -311,7 +322,7 @@
     "Installed":      "installed/openmpi/1.5.4",
     "Source":         "src/openmpi/1.5.4/openmpi-1.5.4.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -321,7 +332,7 @@
     "Installed":      "installed/openmpi/1.5.3",
     "Source":         "src/openmpi/1.5.3/openmpi-1.5.3.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -331,7 +342,7 @@
     "Installed":      "installed/openmpi/1.5.2",
     "Source":         "src/openmpi/1.5.2/openmpi-1.5.2.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -341,7 +352,7 @@
     "Installed":      "installed/openmpi/1.5.1",
     "Source":         "src/openmpi/1.5.1/openmpi-1.5.1.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -351,7 +362,7 @@
     "Installed":      "installed/openmpi/1.5",
     "Source":         "src/openmpi/1.5/openmpi-1.5.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -361,7 +372,7 @@
     "Installed":      "installed/openmpi/1.4.5",
     "Source":         "src/openmpi/1.4.5/openmpi-1.4.5.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -371,7 +382,7 @@
     "Installed":      "installed/openmpi/1.4.4",
     "Source":         "src/openmpi/1.4.4/openmpi-1.4.4.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -381,7 +392,7 @@
     "Installed":      "installed/openmpi/1.4.3",
     "Source":         "src/openmpi/1.4.3/openmpi-1.4.3.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -391,7 +402,7 @@
     "Installed":      "installed/openmpi/1.4.2",
     "Source":         "src/openmpi/1.4.2/openmpi-1.4.2.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -401,7 +412,7 @@
     "Installed":      "installed/openmpi/1.4.1",
     "Source":         "src/openmpi/1.4.1/openmpi-1.4.1.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -411,7 +422,7 @@
     "Installed":      "installed/openmpi/1.4",
     "Source":         "src/openmpi/1.4/openmpi-1.4.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -421,7 +432,7 @@
     "Installed":      "installed/openmpi/1.3.4",
     "Source":         "src/openmpi/1.3.4/openmpi-1.3.4.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -431,7 +442,7 @@
     "Installed":      "installed/openmpi/1.3.3",
     "Source":         "src/openmpi/1.3.3/openmpi-1.3.3.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -441,7 +452,7 @@
     "Installed":      "installed/openmpi/1.3.2",
     "Source":         "src/openmpi/1.3.2/openmpi-1.3.2.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -451,7 +462,7 @@
     "Installed":      "installed/openmpi/1.3.1",
     "Source":         "src/openmpi/1.3.1/openmpi-1.3.1.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -461,7 +472,7 @@
     "Installed":      "installed/openmpi/1.3",
     "Source":         "src/openmpi/1.3/openmpi-1.3.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -471,7 +482,7 @@
     "Installed":      "installed/openmpi/1.2.9",
     "Source":         "src/openmpi/1.2.9/openmpi-1.2.9.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -481,7 +492,7 @@
     "Installed":      "installed/openmpi/1.2.8",
     "Source":         "src/openmpi/1.2.8/openmpi-1.2.8.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -491,7 +502,7 @@
     "Installed":      "installed/openmpi/1.2.7",
     "Source":         "src/openmpi/1.2.7/openmpi-1.2.7.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -501,7 +512,7 @@
     "Installed":      "installed/openmpi/1.2.6",
     "Source":         "src/openmpi/1.2.6/openmpi-1.2.6.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -511,7 +522,7 @@
     "Installed":      "installed/openmpi/1.2.5",
     "Source":         "src/openmpi/1.2.5/openmpi-1.2.5.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -521,7 +532,7 @@
     "Installed":      "installed/openmpi/1.2.4",
     "Source":         "src/openmpi/1.2.4/openmpi-1.2.4.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -531,7 +542,7 @@
     "Installed":      "installed/openmpi/1.2.3",
     "Source":         "src/openmpi/1.2.3/openmpi-1.2.3.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -541,7 +552,7 @@
     "Installed":      "installed/openmpi/1.2.2",
     "Source":         "src/openmpi/1.2.2/openmpi-1.2.2.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -551,7 +562,7 @@
     "Installed":      "installed/openmpi/1.2.1",
     "Source":         "src/openmpi/1.2.1/openmpi-1.2.1.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -561,7 +572,7 @@
     "Installed":      "installed/openmpi/1.2",
     "Source":         "src/openmpi/1.2/openmpi-1.2.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -571,7 +582,7 @@
     "Installed":      "installed/openmpi/1.1.5",
     "Source":         "src/openmpi/1.1.5/openmpi-1.1.5.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -581,7 +592,7 @@
     "Installed":      "installed/openmpi/1.1.4",
     "Source":         "src/openmpi/1.1.4/openmpi-1.1.4.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -591,7 +602,7 @@
     "Installed":      "installed/openmpi/1.1.3",
     "Source":         "src/openmpi/1.1.3/openmpi-1.1.3.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -601,7 +612,7 @@
     "Installed":      "installed/openmpi/1.1.2",
     "Source":         "src/openmpi/1.1.2/openmpi-1.1.2.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -611,7 +622,7 @@
     "Installed":      "installed/openmpi/1.1.1",
     "Source":         "src/openmpi/1.1.1/openmpi-1.1.1.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -621,7 +632,7 @@
     "Installed":      "installed/openmpi/1.1",
     "Source":         "src/openmpi/1.1/openmpi-1.1.tar.bz2",
     "Changelog":      "NEWS",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"

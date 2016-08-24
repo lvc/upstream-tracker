@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "0.99.0",
+    "Installed":      "installed/gssdp/0.99.0",
+    "Source":         "src/gssdp/0.99.0/gssdp-0.99.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.14.16",
     "Installed":      "installed/gssdp/0.14.16",
     "Source":         "src/gssdp/0.14.16/gssdp-0.14.16.tar.xz",

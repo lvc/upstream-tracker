@@ -5,20 +5,9 @@
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "Configure":      "--disable-dtrace",
   "SkipHeaders":    "uv-private/",
-  "BuildShared":    "On",
   "Package":        "node",
 
   "Versions": [
-  {
-    "Number":         "current",
-    "Installed":      "installed/libuv/current",
-    "Source":         "src/libuv/current",
-    "Changelog":      "On",
-    "HeadersDiff":    "On",
-    "PkgDiff":        "Off",
-    "ABIView":        "Off",
-    "ABIDiff":        "Off"
-  },
   {
     "Number":         "1.9.1",
     "Installed":      "installed/libuv/1.9.1",

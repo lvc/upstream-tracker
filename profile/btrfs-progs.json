@@ -1,0 +1,381 @@
+{
+  "Name":           "btrfs-progs",
+  "SourceUrl":      "https://www.kernel.org/pub/linux/kernel/people/kdave/btrfs-progs/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "sed -i -e 's|\@UDEVDIR\@|\Q{INSTALL_TO}\E|' Makefile.in",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "4.7",
+    "Installed":      "installed/btrfs-progs/4.7",
+    "Source":         "src/btrfs-progs/4.7/btrfs-progs-v4.7.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.7-rc1",
+    "Installed":      "installed/btrfs-progs/4.7-rc1",
+    "Source":         "src/btrfs-progs/4.7-rc1/btrfs-progs-v4.7-rc1.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "4.6.1",
+    "Installed":      "installed/btrfs-progs/4.6.1",
+    "Source":         "src/btrfs-progs/4.6.1/btrfs-progs-v4.6.1.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6",
+    "Installed":      "installed/btrfs-progs/4.6",
+    "Source":         "src/btrfs-progs/4.6/btrfs-progs-v4.6.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.3",
+    "Installed":      "installed/btrfs-progs/4.5.3",
+    "Source":         "src/btrfs-progs/4.5.3/btrfs-progs-v4.5.3.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.2",
+    "Installed":      "installed/btrfs-progs/4.5.2",
+    "Source":         "src/btrfs-progs/4.5.2/btrfs-progs-v4.5.2.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.1",
+    "Installed":      "installed/btrfs-progs/4.5.1",
+    "Source":         "src/btrfs-progs/4.5.1/btrfs-progs-v4.5.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5",
+    "Installed":      "installed/btrfs-progs/4.5",
+    "Source":         "src/btrfs-progs/4.5/btrfs-progs-v4.5.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.1",
+    "Installed":      "installed/btrfs-progs/4.4.1",
+    "Source":         "src/btrfs-progs/4.4.1/btrfs-progs-v4.4.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4",
+    "Installed":      "installed/btrfs-progs/4.4",
+    "Source":         "src/btrfs-progs/4.4/btrfs-progs-v4.4.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.3.1",
+    "Installed":      "installed/btrfs-progs/4.3.1",
+    "Source":         "src/btrfs-progs/4.3.1/btrfs-progs-v4.3.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.3",
+    "Installed":      "installed/btrfs-progs/4.3",
+    "Source":         "src/btrfs-progs/4.3/btrfs-progs-v4.3.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2.3",
+    "Installed":      "installed/btrfs-progs/4.2.3",
+    "Source":         "src/btrfs-progs/4.2.3/btrfs-progs-v4.2.3.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2.2",
+    "Installed":      "installed/btrfs-progs/4.2.2",
+    "Source":         "src/btrfs-progs/4.2.2/btrfs-progs-v4.2.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2.1",
+    "Installed":      "installed/btrfs-progs/4.2.1",
+    "Source":         "src/btrfs-progs/4.2.1/btrfs-progs-v4.2.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2",
+    "Installed":      "installed/btrfs-progs/4.2",
+    "Source":         "src/btrfs-progs/4.2/btrfs-progs-v4.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.2",
+    "Installed":      "installed/btrfs-progs/4.1.2",
+    "Source":         "src/btrfs-progs/4.1.2/btrfs-progs-v4.1.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.1",
+    "Installed":      "installed/btrfs-progs/4.1.1",
+    "Source":         "src/btrfs-progs/4.1.1/btrfs-progs-v4.1.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1",
+    "Installed":      "installed/btrfs-progs/4.1",
+    "Source":         "src/btrfs-progs/4.1/btrfs-progs-v4.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.1",
+    "Installed":      "installed/btrfs-progs/4.0.1",
+    "Source":         "src/btrfs-progs/4.0.1/btrfs-progs-v4.0.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0",
+    "Installed":      "installed/btrfs-progs/4.0",
+    "Source":         "src/btrfs-progs/4.0/btrfs-progs-v4.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.19.1",
+    "Installed":      "installed/btrfs-progs/3.19.1",
+    "Source":         "src/btrfs-progs/3.19.1/btrfs-progs-v3.19.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.19",
+    "Installed":      "installed/btrfs-progs/3.19",
+    "Source":         "src/btrfs-progs/3.19/btrfs-progs-v3.19.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.18.2",
+    "Installed":      "installed/btrfs-progs/3.18.2",
+    "Source":         "src/btrfs-progs/3.18.2/btrfs-progs-v3.18.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.18.1",
+    "Installed":      "installed/btrfs-progs/3.18.1",
+    "Source":         "src/btrfs-progs/3.18.1/btrfs-progs-v3.18.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.18",
+    "Installed":      "installed/btrfs-progs/3.18",
+    "Source":         "src/btrfs-progs/3.18/btrfs-progs-v3.18.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.17.3",
+    "Installed":      "installed/btrfs-progs/3.17.3",
+    "Source":         "src/btrfs-progs/3.17.3/btrfs-progs-v3.17.3.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.17.2",
+    "Installed":      "installed/btrfs-progs/3.17.2",
+    "Source":         "src/btrfs-progs/3.17.2/btrfs-progs-v3.17.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.17.1",
+    "Installed":      "installed/btrfs-progs/3.17.1",
+    "Source":         "src/btrfs-progs/3.17.1/btrfs-progs-v3.17.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.17",
+    "Installed":      "installed/btrfs-progs/3.17",
+    "Source":         "src/btrfs-progs/3.17/btrfs-progs-v3.17.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.16.2",
+    "Installed":      "installed/btrfs-progs/3.16.2",
+    "Source":         "src/btrfs-progs/3.16.2/btrfs-progs-v3.16.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.16.1",
+    "Installed":      "installed/btrfs-progs/3.16.1",
+    "Source":         "src/btrfs-progs/3.16.1/btrfs-progs-v3.16.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.16",
+    "Installed":      "installed/btrfs-progs/3.16",
+    "Source":         "src/btrfs-progs/3.16/btrfs-progs-v3.16.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.14.2",
+    "Installed":      "installed/btrfs-progs/3.14.2",
+    "Source":         "src/btrfs-progs/3.14.2/btrfs-progs-v3.14.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.14.1",
+    "Installed":      "installed/btrfs-progs/3.14.1",
+    "Source":         "src/btrfs-progs/3.14.1/btrfs-progs-v3.14.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.14",
+    "Installed":      "installed/btrfs-progs/3.14",
+    "Source":         "src/btrfs-progs/3.14/btrfs-progs-v3.14.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.12",
+    "Installed":      "installed/btrfs-progs/3.12",
+    "Source":         "src/btrfs-progs/3.12/btrfs-progs-v3.12.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

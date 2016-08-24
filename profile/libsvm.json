@@ -1,0 +1,180 @@
+{
+  "Name":           "libsvm",
+  "SourceUrl":      "https://github.com/cjlin1/libsvm/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/libsvm.sh",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         321,
+    "Installed":      "installed/libsvm/321",
+    "Source":         "src/libsvm/321/libsvm-321.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         320,
+    "Installed":      "installed/libsvm/320",
+    "Source":         "src/libsvm/320/libsvm-320.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         319,
+    "Installed":      "installed/libsvm/319",
+    "Source":         "src/libsvm/319/libsvm-319.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         318,
+    "Installed":      "installed/libsvm/318",
+    "Source":         "src/libsvm/318/libsvm-318.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         317,
+    "Installed":      "installed/libsvm/317",
+    "Source":         "src/libsvm/317/libsvm-317.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         316,
+    "Installed":      "installed/libsvm/316",
+    "Source":         "src/libsvm/316/libsvm-316.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         315,
+    "Installed":      "installed/libsvm/315",
+    "Source":         "src/libsvm/315/libsvm-315.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         314,
+    "Installed":      "installed/libsvm/314",
+    "Source":         "src/libsvm/314/libsvm-314.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         313,
+    "Installed":      "installed/libsvm/313",
+    "Source":         "src/libsvm/313/libsvm-313.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         311,
+    "Installed":      "installed/libsvm/311",
+    "Source":         "src/libsvm/311/libsvm-311.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         310,
+    "Installed":      "installed/libsvm/310",
+    "Source":         "src/libsvm/310/libsvm-310.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         300,
+    "Installed":      "installed/libsvm/300",
+    "Source":         "src/libsvm/300/libsvm-300.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         291,
+    "Installed":      "installed/libsvm/291",
+    "Source":         "src/libsvm/291/libsvm-291.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         290,
+    "Installed":      "installed/libsvm/290",
+    "Source":         "src/libsvm/290/libsvm-290.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         289,
+    "Installed":      "installed/libsvm/289",
+    "Source":         "src/libsvm/289/libsvm-289.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         288,
+    "Installed":      "installed/libsvm/288",
+    "Source":         "src/libsvm/288/libsvm-288.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         287,
+    "Installed":      "installed/libsvm/287",
+    "Source":         "src/libsvm/287/libsvm-287.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

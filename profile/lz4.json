@@ -1,0 +1,72 @@
+{
+  "Name":           "lz4",
+  "SourceUrl":      "https://github.com/Cyan4973/lz4/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/lz4.sh",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "126",
+  "Package":        "r",
+
+  "Versions": [
+  {
+    "Number":         131,
+    "Installed":      "installed/lz4/131",
+    "Source":         "src/lz4/131/r131.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         130,
+    "Installed":      "installed/lz4/130",
+    "Source":         "src/lz4/130/r130.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         129,
+    "Installed":      "installed/lz4/129",
+    "Source":         "src/lz4/129/r129.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         128,
+    "Installed":      "installed/lz4/128",
+    "Source":         "src/lz4/128/r128.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         127,
+    "Installed":      "installed/lz4/127",
+    "Source":         "src/lz4/127/r127.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         126,
+    "Installed":      "installed/lz4/126",
+    "Source":         "src/lz4/126/r126.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,102 @@
+{
+  "Name":           "libjpeg",
+  "SourceUrl":      "http://www.ijg.org/files/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Changelog":      "change.log",
+  "HeadersDiff":    "Off",
+  "LetterReleases": "On",
+  "Package":        "jpegsrc.",
+
+  "Versions": [
+  {
+    "Number":         "9b",
+    "Installed":      "installed/libjpeg/9b",
+    "Source":         "src/libjpeg/9b/jpegsrc.v9b.tar.gz",
+    "Changelog":      "change.log",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9a",
+    "Installed":      "installed/libjpeg/9a",
+    "Source":         "src/libjpeg/9a/jpegsrc.v9a.tar.gz",
+    "Changelog":      "change.log",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         9,
+    "Installed":      "installed/libjpeg/9",
+    "Source":         "src/libjpeg/9/jpegsrc.v9.tar.gz",
+    "Changelog":      "change.log",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8d",
+    "Installed":      "installed/libjpeg/8d",
+    "Source":         "src/libjpeg/8d/jpegsrc.v8d.tar.gz",
+    "Changelog":      "change.log",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8c",
+    "Installed":      "installed/libjpeg/8c",
+    "Source":         "src/libjpeg/8c/jpegsrc.v8c.tar.gz",
+    "Changelog":      "change.log",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8b",
+    "Installed":      "installed/libjpeg/8b",
+    "Source":         "src/libjpeg/8b/jpegsrc.v8b.tar.gz",
+    "Changelog":      "change.log",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8a",
+    "Installed":      "installed/libjpeg/8a",
+    "Source":         "src/libjpeg/8a/jpegsrc.v8a.tar.gz",
+    "Changelog":      "change.log",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         8,
+    "Installed":      "installed/libjpeg/8",
+    "Source":         "src/libjpeg/8/jpegsrc.v8.tar.gz",
+    "Changelog":      "change.log",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         7,
+    "Installed":      "installed/libjpeg/7",
+    "Source":         "src/libjpeg/7/jpegsrc.v7.tar.gz",
+    "Changelog":      "change.log",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

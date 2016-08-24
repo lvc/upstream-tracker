@@ -5,7 +5,8 @@
   "Git":            "https://github.com/hughsie/PackageKit.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--with-systemdsystemunitdir={INSTALL_TO} --disable-bash-completion PKG_CONFIG_PATH={INSTALL_ROOT}/glib/2.47.5/lib/pkgconfig",
+  "Configure":      "--with-systemdsystemunitdir={INSTALL_TO}/systemd --disable-bash-completion PKG_CONFIG_PATH={INSTALL_ROOT}/glib/2.47.5/lib/pkgconfig",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/packagekit-backend/ {INSTALL_TO}/lib/gtk-*/modules",
   "SkipObjects":    [ "packagekit-backend/", "modules/", "packagekit-plugins-2/", "packagekit-plugins/" ],
 
   "Versions": [
@@ -14,6 +15,26 @@
     "Installed":      "installed/packagekit/current",
     "Source":         "src/packagekit/current",
     "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.3",
+    "Installed":      "installed/packagekit/1.1.3",
+    "Source":         "src/packagekit/1.1.3/PackageKit-1.1.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.2",
+    "Installed":      "installed/packagekit/1.1.2",
+    "Source":         "src/packagekit/1.1.2/PackageKit-1.1.2.tar.xz",
+    "Changelog":      "NEWS",
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",

@@ -1,0 +1,94 @@
+{
+  "Name":           "ccrtp",
+  "Title":          "ccRTP",
+  "SourceUrl":      "http://ftp.gnu.org/gnu/ccrtp/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "Configure":      "--disable-demos --with-libgcrypt-prefix={INSTALL_ROOT}/libgcrypt/1.4.6/",
+  "PreInstall":     "sed -i -e 's/ demo//' Makefile.in",
+  "Changelog":      "ChangeLog",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.1.2",
+    "Installed":      "installed/ccrtp/2.1.2",
+    "Source":         "src/ccrtp/2.1.2/ccrtp-2.1.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.1",
+    "Installed":      "installed/ccrtp/2.1.1",
+    "Source":         "src/ccrtp/2.1.1/ccrtp-2.1.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.9",
+    "Installed":      "installed/ccrtp/2.0.9",
+    "Source":         "src/ccrtp/2.0.9/ccrtp-2.0.9.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.8",
+    "Installed":      "installed/ccrtp/2.0.8",
+    "Source":         "src/ccrtp/2.0.8/ccrtp-2.0.8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.7",
+    "Installed":      "installed/ccrtp/2.0.7",
+    "Source":         "src/ccrtp/2.0.7/ccrtp-2.0.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.6",
+    "Installed":      "installed/ccrtp/2.0.6",
+    "Source":         "src/ccrtp/2.0.6/ccrtp-2.0.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.5",
+    "Installed":      "installed/ccrtp/2.0.5",
+    "Source":         "src/ccrtp/2.0.5/ccrtp-2.0.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.3",
+    "Installed":      "installed/ccrtp/2.0.3",
+    "Source":         "src/ccrtp/2.0.3/ccrtp-2.0.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

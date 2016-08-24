@@ -4,6 +4,7 @@
   "SourceUrl":      "http://tangentsoft.net/mysql++/releases/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
 
   "Versions": [
   {
@@ -11,7 +12,7 @@
     "Installed":      "installed/mysql++/3.2.2",
     "Source":         "src/mysql++/3.2.2/mysql++-3.2.2.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -21,7 +22,7 @@
     "Installed":      "installed/mysql++/3.2.1",
     "Source":         "src/mysql++/3.2.1/mysql++-3.2.1.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -31,7 +32,7 @@
     "Installed":      "installed/mysql++/3.2.0",
     "Source":         "src/mysql++/3.2.0/mysql++-3.2.0.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -41,7 +42,7 @@
     "Installed":      "installed/mysql++/3.1.0",
     "Source":         "src/mysql++/3.1.0/mysql++-3.1.0.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -51,7 +52,7 @@
     "Installed":      "installed/mysql++/3.0.9",
     "Source":         "src/mysql++/3.0.9/mysql++-3.0.9.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -61,7 +62,7 @@
     "Installed":      "installed/mysql++/3.0.8",
     "Source":         "src/mysql++/3.0.8/mysql++-3.0.8.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -71,7 +72,7 @@
     "Installed":      "installed/mysql++/3.0.7",
     "Source":         "src/mysql++/3.0.7/mysql++-3.0.7.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -81,7 +82,7 @@
     "Installed":      "installed/mysql++/3.0.6",
     "Source":         "src/mysql++/3.0.6/mysql++-3.0.6.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -91,7 +92,7 @@
     "Installed":      "installed/mysql++/3.0.5",
     "Source":         "src/mysql++/3.0.5/mysql++-3.0.5.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -101,7 +102,7 @@
     "Installed":      "installed/mysql++/3.0.4",
     "Source":         "src/mysql++/3.0.4/mysql++-3.0.4.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -111,7 +112,7 @@
     "Installed":      "installed/mysql++/3.0.3",
     "Source":         "src/mysql++/3.0.3/mysql++-3.0.3.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -121,7 +122,7 @@
     "Installed":      "installed/mysql++/3.0.2",
     "Source":         "src/mysql++/3.0.2/mysql++-3.0.2.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -131,7 +132,7 @@
     "Installed":      "installed/mysql++/3.0.1",
     "Source":         "src/mysql++/3.0.1/mysql++-3.0.1.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -141,7 +142,7 @@
     "Installed":      "installed/mysql++/3.0.0",
     "Source":         "src/mysql++/3.0.0/mysql++-3.0.0.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -151,7 +152,7 @@
     "Installed":      "installed/mysql++/2.3.2",
     "Source":         "src/mysql++/2.3.2/mysql++-2.3.2.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -161,7 +162,7 @@
     "Installed":      "installed/mysql++/2.3.1",
     "Source":         "src/mysql++/2.3.1/mysql++-2.3.1.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -171,7 +172,7 @@
     "Installed":      "installed/mysql++/2.3.0",
     "Source":         "src/mysql++/2.3.0/mysql++-2.3.0.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -181,7 +182,7 @@
     "Installed":      "installed/mysql++/2.2.3",
     "Source":         "src/mysql++/2.2.3/mysql++-2.2.3.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -191,7 +192,7 @@
     "Installed":      "installed/mysql++/2.2.2",
     "Source":         "src/mysql++/2.2.2/mysql++-2.2.2.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -201,7 +202,7 @@
     "Installed":      "installed/mysql++/2.2.1",
     "Source":         "src/mysql++/2.2.1/mysql++-2.2.1.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -211,7 +212,7 @@
     "Installed":      "installed/mysql++/2.2.0",
     "Source":         "src/mysql++/2.2.0/mysql++-2.2.0.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"

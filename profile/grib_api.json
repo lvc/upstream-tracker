@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         "1.17.0",
+    "Installed":      "installed/grib_api/1.17.0",
+    "Source":         "src/grib_api/1.17.0/grib_api-1.17.0-Source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.16.0",
     "Installed":      "installed/grib_api/1.16.0",
     "Source":         "src/grib_api/1.16.0/grib_api-1.16.0-Source.tar.gz",

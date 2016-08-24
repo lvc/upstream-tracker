@@ -5,6 +5,7 @@
   "Git":            "https://git.gnome.org/browse/glib",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-always-build-tests",
 
   "Versions": [
   {
@@ -15,14 +16,52 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/current/list",
-    "PublicTypes":    "public_types/glib/current/list"
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.49.5",
+    "Installed":      "installed/glib/2.49.5",
+    "Source":         "src/glib/2.49.5/glib-2.49.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.49.4",
+    "Installed":      "installed/glib/2.49.4",
+    "Source":         "src/glib/2.49.4/glib-2.49.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.49.3",
+    "Installed":      "installed/glib/2.49.3",
+    "Source":         "src/glib/2.49.3/glib-2.49.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.49.1",
     "Installed":      "installed/glib/2.49.1",
     "Source":         "src/glib/2.49.1/glib-2.49.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.48.2",
+    "Installed":      "installed/glib/2.48.2",
+    "Source":         "src/glib/2.48.2/glib-2.48.2.tar.xz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
@@ -117,9 +156,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.46.0/list",
-    "PublicTypes":    "public_types/glib/2.46.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.45.8",
@@ -129,9 +166,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.45.8/list",
-    "PublicTypes":    "public_types/glib/2.45.8/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.45.7",
@@ -141,9 +176,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.45.7/list",
-    "PublicTypes":    "public_types/glib/2.45.7/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.45.6",
@@ -153,9 +186,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.45.6/list",
-    "PublicTypes":    "public_types/glib/2.45.6/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.45.5",
@@ -165,9 +196,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.45.5/list",
-    "PublicTypes":    "public_types/glib/2.45.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.45.4",
@@ -177,9 +206,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.45.4/list",
-    "PublicTypes":    "public_types/glib/2.45.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.45.3",
@@ -189,9 +216,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.45.3/list",
-    "PublicTypes":    "public_types/glib/2.45.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.45.2",
@@ -201,9 +226,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.45.2/list",
-    "PublicTypes":    "public_types/glib/2.45.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.45.1",
@@ -213,9 +236,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.45.1/list",
-    "PublicTypes":    "public_types/glib/2.45.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.44.1",
@@ -225,9 +246,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.44.1/list",
-    "PublicTypes":    "public_types/glib/2.44.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.44.0",
@@ -237,9 +256,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.44.0/list",
-    "PublicTypes":    "public_types/glib/2.44.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.43.92",
@@ -249,9 +266,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.43.92/list",
-    "PublicTypes":    "public_types/glib/2.43.92/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.43.91",
@@ -261,9 +276,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.43.91/list",
-    "PublicTypes":    "public_types/glib/2.43.91/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.43.90",
@@ -273,9 +286,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.43.90/list",
-    "PublicTypes":    "public_types/glib/2.43.90/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.43.4",
@@ -285,9 +296,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.43.4/list",
-    "PublicTypes":    "public_types/glib/2.43.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.43.3",
@@ -297,9 +306,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.43.3/list",
-    "PublicTypes":    "public_types/glib/2.43.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.43.2",
@@ -309,9 +316,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.43.2/list",
-    "PublicTypes":    "public_types/glib/2.43.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.43.1",
@@ -321,9 +326,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.43.1/list",
-    "PublicTypes":    "public_types/glib/2.43.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.43.0",
@@ -333,9 +336,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.43.0/list",
-    "PublicTypes":    "public_types/glib/2.43.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.42.2",
@@ -345,9 +346,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.42.2/list",
-    "PublicTypes":    "public_types/glib/2.42.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.42.1",
@@ -357,9 +356,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.42.1/list",
-    "PublicTypes":    "public_types/glib/2.42.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.42.0",
@@ -369,9 +366,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.42.0/list",
-    "PublicTypes":    "public_types/glib/2.42.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.41.5",
@@ -381,9 +376,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.41.5/list",
-    "PublicTypes":    "public_types/glib/2.41.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.41.4",
@@ -393,9 +386,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.41.4/list",
-    "PublicTypes":    "public_types/glib/2.41.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.41.3",
@@ -405,9 +396,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.41.3/list",
-    "PublicTypes":    "public_types/glib/2.41.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.41.2",
@@ -417,9 +406,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.41.2/list",
-    "PublicTypes":    "public_types/glib/2.41.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.41.1",
@@ -429,9 +416,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.41.1/list",
-    "PublicTypes":    "public_types/glib/2.41.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.41.0",
@@ -441,9 +426,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.41.0/list",
-    "PublicTypes":    "public_types/glib/2.41.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.40.2",
@@ -453,9 +436,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.40.2/list",
-    "PublicTypes":    "public_types/glib/2.40.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.40.1",
@@ -465,9 +446,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.40.1/list",
-    "PublicTypes":    "public_types/glib/2.40.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.40.0",
@@ -477,9 +456,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.40.0/list",
-    "PublicTypes":    "public_types/glib/2.40.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.39.92",
@@ -489,9 +466,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.39.92/list",
-    "PublicTypes":    "public_types/glib/2.39.92/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.39.91",
@@ -501,9 +476,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.39.91/list",
-    "PublicTypes":    "public_types/glib/2.39.91/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.39.90",
@@ -513,9 +486,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.39.90/list",
-    "PublicTypes":    "public_types/glib/2.39.90/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.39.4",
@@ -525,9 +496,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.39.4/list",
-    "PublicTypes":    "public_types/glib/2.39.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.39.3",
@@ -537,9 +506,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.39.3/list",
-    "PublicTypes":    "public_types/glib/2.39.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.39.2",
@@ -549,9 +516,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.39.2/list",
-    "PublicTypes":    "public_types/glib/2.39.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.39.1",
@@ -561,9 +526,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.39.1/list",
-    "PublicTypes":    "public_types/glib/2.39.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.39.0",
@@ -573,9 +536,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.39.0/list",
-    "PublicTypes":    "public_types/glib/2.39.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.38.2",
@@ -585,9 +546,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.38.2/list",
-    "PublicTypes":    "public_types/glib/2.38.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.38.1",
@@ -597,9 +556,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.38.1/list",
-    "PublicTypes":    "public_types/glib/2.38.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.38.0",
@@ -609,9 +566,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.38.0/list",
-    "PublicTypes":    "public_types/glib/2.38.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.37.93",
@@ -621,9 +576,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.37.93/list",
-    "PublicTypes":    "public_types/glib/2.37.93/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.37.92",
@@ -633,9 +586,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.37.92/list",
-    "PublicTypes":    "public_types/glib/2.37.92/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.37.7",
@@ -645,9 +596,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.37.7/list",
-    "PublicTypes":    "public_types/glib/2.37.7/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.37.6",
@@ -657,9 +606,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.37.6/list",
-    "PublicTypes":    "public_types/glib/2.37.6/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.37.5",
@@ -669,9 +616,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.37.5/list",
-    "PublicTypes":    "public_types/glib/2.37.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.37.4",
@@ -681,9 +626,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.37.4/list",
-    "PublicTypes":    "public_types/glib/2.37.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.37.3",
@@ -693,9 +636,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.37.3/list",
-    "PublicTypes":    "public_types/glib/2.37.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.37.2",
@@ -715,9 +656,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.37.1/list",
-    "PublicTypes":    "public_types/glib/2.37.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.36.1",
@@ -727,9 +666,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.36.1/list",
-    "PublicTypes":    "public_types/glib/2.36.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.36.0",
@@ -739,9 +676,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.36.0/list",
-    "PublicTypes":    "public_types/glib/2.36.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.35.9",
@@ -751,9 +686,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.35.9/list",
-    "PublicTypes":    "public_types/glib/2.35.9/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.35.8",
@@ -763,9 +696,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.35.8/list",
-    "PublicTypes":    "public_types/glib/2.35.8/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.35.7",
@@ -775,9 +706,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.35.7/list",
-    "PublicTypes":    "public_types/glib/2.35.7/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.35.4",
@@ -787,9 +716,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.35.4/list",
-    "PublicTypes":    "public_types/glib/2.35.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.35.3",
@@ -799,9 +726,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.35.3/list",
-    "PublicTypes":    "public_types/glib/2.35.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.35.2",
@@ -811,9 +736,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.35.2/list",
-    "PublicTypes":    "public_types/glib/2.35.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.35.1",
@@ -823,9 +746,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.35.1/list",
-    "PublicTypes":    "public_types/glib/2.35.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.34.3",
@@ -835,9 +756,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.34.3/list",
-    "PublicTypes":    "public_types/glib/2.34.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.34.2",
@@ -847,9 +766,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.34.2/list",
-    "PublicTypes":    "public_types/glib/2.34.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.34.1",
@@ -859,9 +776,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.34.1/list",
-    "PublicTypes":    "public_types/glib/2.34.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.34.0",
@@ -871,9 +786,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.34.0/list",
-    "PublicTypes":    "public_types/glib/2.34.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.33.14",
@@ -883,9 +796,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.33.14/list",
-    "PublicTypes":    "public_types/glib/2.33.14/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.33.12",
@@ -895,9 +806,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.33.12/list",
-    "PublicTypes":    "public_types/glib/2.33.12/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.33.10",
@@ -907,9 +816,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.33.10/list",
-    "PublicTypes":    "public_types/glib/2.33.10/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.33.8",
@@ -919,9 +826,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.33.8/list",
-    "PublicTypes":    "public_types/glib/2.33.8/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.33.6",
@@ -931,9 +836,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.33.6/list",
-    "PublicTypes":    "public_types/glib/2.33.6/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.33.4",
@@ -943,9 +846,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.33.4/list",
-    "PublicTypes":    "public_types/glib/2.33.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.33.3",
@@ -955,9 +856,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.33.3/list",
-    "PublicTypes":    "public_types/glib/2.33.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.33.2",
@@ -967,9 +866,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.33.2/list",
-    "PublicTypes":    "public_types/glib/2.33.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.33.1",
@@ -979,9 +876,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.33.1/list",
-    "PublicTypes":    "public_types/glib/2.33.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.32.4",
@@ -991,9 +886,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.32.4/list",
-    "PublicTypes":    "public_types/glib/2.32.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.32.3",
@@ -1003,9 +896,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.32.3/list",
-    "PublicTypes":    "public_types/glib/2.32.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.32.2",
@@ -1015,9 +906,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.32.2/list",
-    "PublicTypes":    "public_types/glib/2.32.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.32.1",
@@ -1027,9 +916,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.32.1/list",
-    "PublicTypes":    "public_types/glib/2.32.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.32.0",
@@ -1039,9 +926,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.32.0/list",
-    "PublicTypes":    "public_types/glib/2.32.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.31.22",
@@ -1051,9 +936,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.31.22/list",
-    "PublicTypes":    "public_types/glib/2.31.22/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.31.20",
@@ -1063,9 +946,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.31.20/list",
-    "PublicTypes":    "public_types/glib/2.31.20/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.31.18",
@@ -1075,9 +956,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.31.18/list",
-    "PublicTypes":    "public_types/glib/2.31.18/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.31.16",
@@ -1087,9 +966,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.31.16/list",
-    "PublicTypes":    "public_types/glib/2.31.16/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.31.14",
@@ -1099,9 +976,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.31.14/list",
-    "PublicTypes":    "public_types/glib/2.31.14/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.31.12",
@@ -1111,9 +986,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.31.12/list",
-    "PublicTypes":    "public_types/glib/2.31.12/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.31.10",
@@ -1123,9 +996,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.31.10/list",
-    "PublicTypes":    "public_types/glib/2.31.10/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.31.8",
@@ -1135,9 +1006,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.31.8/list",
-    "PublicTypes":    "public_types/glib/2.31.8/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.31.6",
@@ -1147,9 +1016,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.31.6/list",
-    "PublicTypes":    "public_types/glib/2.31.6/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.31.4",
@@ -1159,9 +1026,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.31.4/list",
-    "PublicTypes":    "public_types/glib/2.31.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.31.2",
@@ -1171,9 +1036,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.31.2/list",
-    "PublicTypes":    "public_types/glib/2.31.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.31.0",
@@ -1183,9 +1046,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.31.0/list",
-    "PublicTypes":    "public_types/glib/2.31.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.30.3",
@@ -1195,9 +1056,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.30.3/list",
-    "PublicTypes":    "public_types/glib/2.30.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.30.2",
@@ -1207,9 +1066,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.30.2/list",
-    "PublicTypes":    "public_types/glib/2.30.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.30.1",
@@ -1219,9 +1076,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.30.1/list",
-    "PublicTypes":    "public_types/glib/2.30.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.30.0",
@@ -1231,9 +1086,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.30.0/list",
-    "PublicTypes":    "public_types/glib/2.30.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.29.92",
@@ -1243,9 +1096,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.29.92/list",
-    "PublicTypes":    "public_types/glib/2.29.92/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.29.90",
@@ -1255,9 +1106,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.29.90/list",
-    "PublicTypes":    "public_types/glib/2.29.90/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.29.18",
@@ -1267,9 +1116,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.29.18/list",
-    "PublicTypes":    "public_types/glib/2.29.18/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.29.16",
@@ -1279,9 +1126,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.29.16/list",
-    "PublicTypes":    "public_types/glib/2.29.16/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.29.14",
@@ -1291,9 +1136,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.29.14/list",
-    "PublicTypes":    "public_types/glib/2.29.14/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.29.12",
@@ -1303,9 +1146,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.29.12/list",
-    "PublicTypes":    "public_types/glib/2.29.12/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.29.10",
@@ -1315,9 +1156,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.29.10/list",
-    "PublicTypes":    "public_types/glib/2.29.10/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.29.8",
@@ -1327,9 +1166,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.29.8/list",
-    "PublicTypes":    "public_types/glib/2.29.8/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.29.6",
@@ -1339,9 +1176,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.29.6/list",
-    "PublicTypes":    "public_types/glib/2.29.6/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.29.4",
@@ -1351,9 +1186,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.29.4/list",
-    "PublicTypes":    "public_types/glib/2.29.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.29.2",
@@ -1363,9 +1196,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.29.2/list",
-    "PublicTypes":    "public_types/glib/2.29.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.28.8",
@@ -1375,9 +1206,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.28.8/list",
-    "PublicTypes":    "public_types/glib/2.28.8/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.28.7",
@@ -1387,9 +1216,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.28.7/list",
-    "PublicTypes":    "public_types/glib/2.28.7/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.28.6",
@@ -1399,9 +1226,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.28.6/list",
-    "PublicTypes":    "public_types/glib/2.28.6/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.28.5",
@@ -1411,9 +1236,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.28.5/list",
-    "PublicTypes":    "public_types/glib/2.28.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.28.4",
@@ -1423,9 +1246,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.28.4/list",
-    "PublicTypes":    "public_types/glib/2.28.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.28.3",
@@ -1435,9 +1256,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.28.3/list",
-    "PublicTypes":    "public_types/glib/2.28.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.28.2",
@@ -1447,9 +1266,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.28.2/list",
-    "PublicTypes":    "public_types/glib/2.28.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.28.1",
@@ -1459,9 +1276,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.28.1/list",
-    "PublicTypes":    "public_types/glib/2.28.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.28.0",
@@ -1471,9 +1286,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.28.0/list",
-    "PublicTypes":    "public_types/glib/2.28.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.27.93",
@@ -1483,9 +1296,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.27.93/list",
-    "PublicTypes":    "public_types/glib/2.27.93/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.27.92",
@@ -1495,9 +1306,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.27.92/list",
-    "PublicTypes":    "public_types/glib/2.27.92/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.27.91",
@@ -1507,9 +1316,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.27.91/list",
-    "PublicTypes":    "public_types/glib/2.27.91/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.27.90",
@@ -1519,9 +1326,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.27.90/list",
-    "PublicTypes":    "public_types/glib/2.27.90/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.27.5",
@@ -1531,9 +1336,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.27.5/list",
-    "PublicTypes":    "public_types/glib/2.27.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.27.4",
@@ -1543,9 +1346,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.27.4/list",
-    "PublicTypes":    "public_types/glib/2.27.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.27.3",
@@ -1555,9 +1356,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.27.3/list",
-    "PublicTypes":    "public_types/glib/2.27.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.27.2",
@@ -1567,9 +1366,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.27.2/list",
-    "PublicTypes":    "public_types/glib/2.27.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.27.1",
@@ -1579,9 +1376,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.27.1/list",
-    "PublicTypes":    "public_types/glib/2.27.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.27.0",
@@ -1591,9 +1386,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.27.0/list",
-    "PublicTypes":    "public_types/glib/2.27.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.26.1",
@@ -1603,9 +1396,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.26.1/list",
-    "PublicTypes":    "public_types/glib/2.26.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.26.0",
@@ -1615,9 +1406,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.26.0/list",
-    "PublicTypes":    "public_types/glib/2.26.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.25.17",
@@ -1627,9 +1416,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.25.17/list",
-    "PublicTypes":    "public_types/glib/2.25.17/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.25.16",
@@ -1639,9 +1426,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.25.16/list",
-    "PublicTypes":    "public_types/glib/2.25.16/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.25.15",
@@ -1651,9 +1436,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.25.15/list",
-    "PublicTypes":    "public_types/glib/2.25.15/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.25.14",
@@ -1663,9 +1446,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.25.14/list",
-    "PublicTypes":    "public_types/glib/2.25.14/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.25.13",
@@ -1675,9 +1456,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.25.13/list",
-    "PublicTypes":    "public_types/glib/2.25.13/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.25.12",
@@ -1687,9 +1466,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.25.12/list",
-    "PublicTypes":    "public_types/glib/2.25.12/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.25.11",
@@ -1699,9 +1476,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.25.11/list",
-    "PublicTypes":    "public_types/glib/2.25.11/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.25.10",
@@ -1711,9 +1486,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.25.10/list",
-    "PublicTypes":    "public_types/glib/2.25.10/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.25.9",
@@ -1723,9 +1496,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.25.9/list",
-    "PublicTypes":    "public_types/glib/2.25.9/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.25.8",
@@ -1735,9 +1506,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.25.8/list",
-    "PublicTypes":    "public_types/glib/2.25.8/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.25.7",
@@ -1747,9 +1516,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.25.7/list",
-    "PublicTypes":    "public_types/glib/2.25.7/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.25.6",
@@ -1759,9 +1526,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.25.6/list",
-    "PublicTypes":    "public_types/glib/2.25.6/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.25.5",
@@ -1771,9 +1536,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.25.5/list",
-    "PublicTypes":    "public_types/glib/2.25.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.25.4",
@@ -1783,9 +1546,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.25.4/list",
-    "PublicTypes":    "public_types/glib/2.25.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.25.3",
@@ -1795,9 +1556,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.25.3/list",
-    "PublicTypes":    "public_types/glib/2.25.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.25.2",
@@ -1807,9 +1566,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.25.2/list",
-    "PublicTypes":    "public_types/glib/2.25.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.25.1",
@@ -1819,9 +1576,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.25.1/list",
-    "PublicTypes":    "public_types/glib/2.25.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.25.0",
@@ -1831,9 +1586,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.25.0/list",
-    "PublicTypes":    "public_types/glib/2.25.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.24.2",
@@ -1843,9 +1596,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.24.2/list",
-    "PublicTypes":    "public_types/glib/2.24.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.24.1",
@@ -1855,9 +1606,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.24.1/list",
-    "PublicTypes":    "public_types/glib/2.24.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.24.0",
@@ -1867,9 +1616,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.24.0/list",
-    "PublicTypes":    "public_types/glib/2.24.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.23.6",
@@ -1879,9 +1626,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.23.6/list",
-    "PublicTypes":    "public_types/glib/2.23.6/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.23.5",
@@ -1891,9 +1636,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.23.5/list",
-    "PublicTypes":    "public_types/glib/2.23.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.23.4",
@@ -1903,9 +1646,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.23.4/list",
-    "PublicTypes":    "public_types/glib/2.23.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.23.3",
@@ -1915,9 +1656,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.23.3/list",
-    "PublicTypes":    "public_types/glib/2.23.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.23.2",
@@ -1927,9 +1666,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.23.2/list",
-    "PublicTypes":    "public_types/glib/2.23.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.23.1",
@@ -1939,9 +1676,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.23.1/list",
-    "PublicTypes":    "public_types/glib/2.23.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.23.0",
@@ -1951,9 +1686,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.23.0/list",
-    "PublicTypes":    "public_types/glib/2.23.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.22.5",
@@ -1963,9 +1696,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.22.5/list",
-    "PublicTypes":    "public_types/glib/2.22.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.22.4",
@@ -1975,9 +1706,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.22.4/list",
-    "PublicTypes":    "public_types/glib/2.22.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.22.3",
@@ -1987,9 +1716,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.22.3/list",
-    "PublicTypes":    "public_types/glib/2.22.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.22.2",
@@ -1999,9 +1726,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.22.2/list",
-    "PublicTypes":    "public_types/glib/2.22.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.22.1",
@@ -2011,9 +1736,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.22.1/list",
-    "PublicTypes":    "public_types/glib/2.22.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.22.0",
@@ -2023,9 +1746,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.22.0/list",
-    "PublicTypes":    "public_types/glib/2.22.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.21.6",
@@ -2035,9 +1756,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.21.6/list",
-    "PublicTypes":    "public_types/glib/2.21.6/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.21.5",
@@ -2047,9 +1766,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.21.5/list",
-    "PublicTypes":    "public_types/glib/2.21.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.21.4",
@@ -2059,9 +1776,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.21.4/list",
-    "PublicTypes":    "public_types/glib/2.21.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.21.3",
@@ -2071,9 +1786,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.21.3/list",
-    "PublicTypes":    "public_types/glib/2.21.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.21.2",
@@ -2083,9 +1796,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.21.2/list",
-    "PublicTypes":    "public_types/glib/2.21.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.20.5",
@@ -2095,9 +1806,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.20.5/list",
-    "PublicTypes":    "public_types/glib/2.20.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.20.4",
@@ -2107,9 +1816,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.20.4/list",
-    "PublicTypes":    "public_types/glib/2.20.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.20.3",
@@ -2119,9 +1826,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.20.3/list",
-    "PublicTypes":    "public_types/glib/2.20.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.20.2",
@@ -2131,9 +1836,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.20.2/list",
-    "PublicTypes":    "public_types/glib/2.20.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.20.1",
@@ -2143,9 +1846,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.20.1/list",
-    "PublicTypes":    "public_types/glib/2.20.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.20.0",
@@ -2155,9 +1856,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.20.0/list",
-    "PublicTypes":    "public_types/glib/2.20.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.19.10",
@@ -2167,9 +1866,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.19.10/list",
-    "PublicTypes":    "public_types/glib/2.19.10/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.19.9",
@@ -2179,9 +1876,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.19.9/list",
-    "PublicTypes":    "public_types/glib/2.19.9/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.19.8",
@@ -2191,9 +1886,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.19.8/list",
-    "PublicTypes":    "public_types/glib/2.19.8/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.19.7",
@@ -2203,9 +1896,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.19.7/list",
-    "PublicTypes":    "public_types/glib/2.19.7/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.19.6",
@@ -2215,9 +1906,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.19.6/list",
-    "PublicTypes":    "public_types/glib/2.19.6/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.19.5",
@@ -2227,9 +1916,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.19.5/list",
-    "PublicTypes":    "public_types/glib/2.19.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.19.4",
@@ -2239,9 +1926,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.19.4/list",
-    "PublicTypes":    "public_types/glib/2.19.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.19.3",
@@ -2251,9 +1936,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.19.3/list",
-    "PublicTypes":    "public_types/glib/2.19.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.19.2",
@@ -2263,9 +1946,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.19.2/list",
-    "PublicTypes":    "public_types/glib/2.19.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.19.1",
@@ -2275,9 +1956,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.19.1/list",
-    "PublicTypes":    "public_types/glib/2.19.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.19.0",
@@ -2287,9 +1966,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.19.0/list",
-    "PublicTypes":    "public_types/glib/2.19.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.18.4",
@@ -2299,9 +1976,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.18.4/list",
-    "PublicTypes":    "public_types/glib/2.18.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.18.3",
@@ -2311,9 +1986,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.18.3/list",
-    "PublicTypes":    "public_types/glib/2.18.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.18.2",
@@ -2323,9 +1996,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.18.2/list",
-    "PublicTypes":    "public_types/glib/2.18.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.18.1",
@@ -2335,9 +2006,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.18.1/list",
-    "PublicTypes":    "public_types/glib/2.18.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.18.0",
@@ -2347,9 +2016,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.18.0/list",
-    "PublicTypes":    "public_types/glib/2.18.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.17.7",
@@ -2359,9 +2026,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.17.7/list",
-    "PublicTypes":    "public_types/glib/2.17.7/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.17.6",
@@ -2371,9 +2036,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.17.6/list",
-    "PublicTypes":    "public_types/glib/2.17.6/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.17.5",
@@ -2383,9 +2046,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.17.5/list",
-    "PublicTypes":    "public_types/glib/2.17.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.17.4",
@@ -2395,9 +2056,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.17.4/list",
-    "PublicTypes":    "public_types/glib/2.17.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.17.3",
@@ -2407,9 +2066,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.17.3/list",
-    "PublicTypes":    "public_types/glib/2.17.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.17.2",
@@ -2419,9 +2076,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.17.2/list",
-    "PublicTypes":    "public_types/glib/2.17.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.17.1",
@@ -2431,9 +2086,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.17.1/list",
-    "PublicTypes":    "public_types/glib/2.17.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.17.0",
@@ -2443,9 +2096,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.17.0/list",
-    "PublicTypes":    "public_types/glib/2.17.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.16.6",
@@ -2455,9 +2106,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.16.6/list",
-    "PublicTypes":    "public_types/glib/2.16.6/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.16.5",
@@ -2467,9 +2116,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.16.5/list",
-    "PublicTypes":    "public_types/glib/2.16.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.16.4",
@@ -2479,9 +2126,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.16.4/list",
-    "PublicTypes":    "public_types/glib/2.16.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.16.3",
@@ -2491,9 +2136,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.16.3/list",
-    "PublicTypes":    "public_types/glib/2.16.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.16.2",
@@ -2503,9 +2146,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.16.2/list",
-    "PublicTypes":    "public_types/glib/2.16.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.15.4",
@@ -2515,9 +2156,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.15.4/list",
-    "PublicTypes":    "public_types/glib/2.15.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.15.3",
@@ -2527,9 +2166,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.15.3/list",
-    "PublicTypes":    "public_types/glib/2.15.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.15.2",
@@ -2539,9 +2176,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.15.2/list",
-    "PublicTypes":    "public_types/glib/2.15.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.15.1",
@@ -2551,9 +2186,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.15.1/list",
-    "PublicTypes":    "public_types/glib/2.15.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.15.0",
@@ -2563,9 +2196,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.15.0/list",
-    "PublicTypes":    "public_types/glib/2.15.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.14.6",
@@ -2575,9 +2206,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.14.6/list",
-    "PublicTypes":    "public_types/glib/2.14.6/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.14.5",
@@ -2587,9 +2216,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.14.5/list",
-    "PublicTypes":    "public_types/glib/2.14.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.14.4",
@@ -2599,9 +2226,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.14.4/list",
-    "PublicTypes":    "public_types/glib/2.14.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.14.3",
@@ -2611,9 +2236,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.14.3/list",
-    "PublicTypes":    "public_types/glib/2.14.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.14.2",
@@ -2623,9 +2246,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.14.2/list",
-    "PublicTypes":    "public_types/glib/2.14.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.14.1",
@@ -2635,9 +2256,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.14.1/list",
-    "PublicTypes":    "public_types/glib/2.14.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.14.0",
@@ -2647,9 +2266,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.14.0/list",
-    "PublicTypes":    "public_types/glib/2.14.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.13.7",
@@ -2659,9 +2276,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.13.7/list",
-    "PublicTypes":    "public_types/glib/2.13.7/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.13.6",
@@ -2671,9 +2286,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.13.6/list",
-    "PublicTypes":    "public_types/glib/2.13.6/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.13.5",
@@ -2683,9 +2296,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.13.5/list",
-    "PublicTypes":    "public_types/glib/2.13.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.13.4",
@@ -2695,9 +2306,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.13.4/list",
-    "PublicTypes":    "public_types/glib/2.13.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.13.3",
@@ -2707,9 +2316,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.13.3/list",
-    "PublicTypes":    "public_types/glib/2.13.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.13.2",
@@ -2719,9 +2326,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.13.2/list",
-    "PublicTypes":    "public_types/glib/2.13.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.13.1",
@@ -2731,9 +2336,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.13.1/list",
-    "PublicTypes":    "public_types/glib/2.13.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.13.0",
@@ -2743,9 +2346,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.13.0/list",
-    "PublicTypes":    "public_types/glib/2.13.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.12.13",
@@ -2755,9 +2356,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.12.13/list",
-    "PublicTypes":    "public_types/glib/2.12.13/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.12.12",
@@ -2767,9 +2366,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.12.12/list",
-    "PublicTypes":    "public_types/glib/2.12.12/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.12.11",
@@ -2779,9 +2376,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.12.11/list",
-    "PublicTypes":    "public_types/glib/2.12.11/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.12.10",
@@ -2791,9 +2386,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.12.10/list",
-    "PublicTypes":    "public_types/glib/2.12.10/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.12.9",
@@ -2803,9 +2396,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.12.9/list",
-    "PublicTypes":    "public_types/glib/2.12.9/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.12.8",
@@ -2815,9 +2406,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.12.8/list",
-    "PublicTypes":    "public_types/glib/2.12.8/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.12.7",
@@ -2827,9 +2416,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.12.7/list",
-    "PublicTypes":    "public_types/glib/2.12.7/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.12.6",
@@ -2839,9 +2426,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.12.6/list",
-    "PublicTypes":    "public_types/glib/2.12.6/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.12.5",
@@ -2851,9 +2436,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.12.5/list",
-    "PublicTypes":    "public_types/glib/2.12.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.12.4",
@@ -2863,9 +2446,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.12.4/list",
-    "PublicTypes":    "public_types/glib/2.12.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.12.3",
@@ -2875,9 +2456,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.12.3/list",
-    "PublicTypes":    "public_types/glib/2.12.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.12.2",
@@ -2887,9 +2466,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.12.2/list",
-    "PublicTypes":    "public_types/glib/2.12.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.12.1",
@@ -2899,9 +2476,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.12.1/list",
-    "PublicTypes":    "public_types/glib/2.12.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.12.0",
@@ -2911,9 +2486,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.12.0/list",
-    "PublicTypes":    "public_types/glib/2.12.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.11.4",
@@ -2923,9 +2496,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.11.4/list",
-    "PublicTypes":    "public_types/glib/2.11.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.11.3",
@@ -2935,9 +2506,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.11.3/list",
-    "PublicTypes":    "public_types/glib/2.11.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.11.2",
@@ -2947,9 +2516,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.11.2/list",
-    "PublicTypes":    "public_types/glib/2.11.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.11.1",
@@ -2959,9 +2526,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.11.1/list",
-    "PublicTypes":    "public_types/glib/2.11.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.11.0",
@@ -2971,9 +2536,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.11.0/list",
-    "PublicTypes":    "public_types/glib/2.11.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.10.3",
@@ -2983,9 +2546,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.10.3/list",
-    "PublicTypes":    "public_types/glib/2.10.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.10.2",
@@ -2995,9 +2556,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.10.2/list",
-    "PublicTypes":    "public_types/glib/2.10.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.10.1",
@@ -3007,9 +2566,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.10.1/list",
-    "PublicTypes":    "public_types/glib/2.10.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.10.0",
@@ -3019,9 +2576,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.10.0/list",
-    "PublicTypes":    "public_types/glib/2.10.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.9.6",
@@ -3031,9 +2586,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.9.6/list",
-    "PublicTypes":    "public_types/glib/2.9.6/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.9.5",
@@ -3043,9 +2596,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.9.5/list",
-    "PublicTypes":    "public_types/glib/2.9.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.9.4",
@@ -3055,9 +2606,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.9.4/list",
-    "PublicTypes":    "public_types/glib/2.9.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.9.3",
@@ -3067,9 +2616,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.9.3/list",
-    "PublicTypes":    "public_types/glib/2.9.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.9.2",
@@ -3079,9 +2626,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.9.2/list",
-    "PublicTypes":    "public_types/glib/2.9.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.9.1",
@@ -3091,9 +2636,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.9.1/list",
-    "PublicTypes":    "public_types/glib/2.9.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.9.0",
@@ -3103,9 +2646,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.9.0/list",
-    "PublicTypes":    "public_types/glib/2.9.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.8.6",
@@ -3115,9 +2656,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.8.6/list",
-    "PublicTypes":    "public_types/glib/2.8.6/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.8.5",
@@ -3127,9 +2666,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.8.5/list",
-    "PublicTypes":    "public_types/glib/2.8.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.8.4",
@@ -3139,9 +2676,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.8.4/list",
-    "PublicTypes":    "public_types/glib/2.8.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.8.3",
@@ -3151,9 +2686,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.8.3/list",
-    "PublicTypes":    "public_types/glib/2.8.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.8.2",
@@ -3163,9 +2696,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.8.2/list",
-    "PublicTypes":    "public_types/glib/2.8.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.8.1",
@@ -3175,9 +2706,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.8.1/list",
-    "PublicTypes":    "public_types/glib/2.8.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.8.0",
@@ -3187,9 +2716,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.8.0/list",
-    "PublicTypes":    "public_types/glib/2.8.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.7.7",
@@ -3199,9 +2726,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.7.7/list",
-    "PublicTypes":    "public_types/glib/2.7.7/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.7.6",
@@ -3211,9 +2736,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.7.6/list",
-    "PublicTypes":    "public_types/glib/2.7.6/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.7.5",
@@ -3223,9 +2746,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.7.5/list",
-    "PublicTypes":    "public_types/glib/2.7.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.7.4",
@@ -3235,9 +2756,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.7.4/list",
-    "PublicTypes":    "public_types/glib/2.7.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.7.3",
@@ -3247,9 +2766,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.7.3/list",
-    "PublicTypes":    "public_types/glib/2.7.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.7.2",
@@ -3259,9 +2776,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.7.2/list",
-    "PublicTypes":    "public_types/glib/2.7.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.7.1",
@@ -3271,9 +2786,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.7.1/list",
-    "PublicTypes":    "public_types/glib/2.7.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.7.0",
@@ -3283,9 +2796,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.7.0/list",
-    "PublicTypes":    "public_types/glib/2.7.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.6.6",
@@ -3295,9 +2806,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.6.6/list",
-    "PublicTypes":    "public_types/glib/2.6.6/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.6.5",
@@ -3307,9 +2816,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.6.5/list",
-    "PublicTypes":    "public_types/glib/2.6.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.6.4",
@@ -3319,9 +2826,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.6.4/list",
-    "PublicTypes":    "public_types/glib/2.6.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.5.2",
@@ -3331,9 +2836,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.5.2/list",
-    "PublicTypes":    "public_types/glib/2.5.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.5.1",
@@ -3343,9 +2846,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.5.1/list",
-    "PublicTypes":    "public_types/glib/2.5.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.5.0",
@@ -3355,9 +2856,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.5.0/list",
-    "PublicTypes":    "public_types/glib/2.5.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.4.8",
@@ -3367,9 +2866,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.4.8/list",
-    "PublicTypes":    "public_types/glib/2.4.8/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.4.7",
@@ -3379,9 +2876,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.4.7/list",
-    "PublicTypes":    "public_types/glib/2.4.7/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.4.6",
@@ -3391,9 +2886,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.4.6/list",
-    "PublicTypes":    "public_types/glib/2.4.6/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.4.5",
@@ -3403,9 +2896,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.4.5/list",
-    "PublicTypes":    "public_types/glib/2.4.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.4.4",
@@ -3415,9 +2906,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.4.4/list",
-    "PublicTypes":    "public_types/glib/2.4.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.4.2",
@@ -3427,9 +2916,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.4.2/list",
-    "PublicTypes":    "public_types/glib/2.4.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.4.1",
@@ -3439,9 +2926,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.4.1/list",
-    "PublicTypes":    "public_types/glib/2.4.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.4.0",
@@ -3451,9 +2936,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.4.0/list",
-    "PublicTypes":    "public_types/glib/2.4.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.3.6",
@@ -3463,9 +2946,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.3.6/list",
-    "PublicTypes":    "public_types/glib/2.3.6/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.3.5",
@@ -3475,9 +2956,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.3.5/list",
-    "PublicTypes":    "public_types/glib/2.3.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.3.3",
@@ -3487,9 +2966,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.3.3/list",
-    "PublicTypes":    "public_types/glib/2.3.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.3.2",
@@ -3499,9 +2976,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.3.2/list",
-    "PublicTypes":    "public_types/glib/2.3.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.3.0",
@@ -3511,9 +2986,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.3.0/list",
-    "PublicTypes":    "public_types/glib/2.3.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.2.3",
@@ -3523,9 +2996,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.2.3/list",
-    "PublicTypes":    "public_types/glib/2.2.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.2.2",
@@ -3535,9 +3006,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.2.2/list",
-    "PublicTypes":    "public_types/glib/2.2.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.2.1",
@@ -3547,9 +3016,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.2.1/list",
-    "PublicTypes":    "public_types/glib/2.2.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.2.0",
@@ -3559,9 +3026,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.2.0/list",
-    "PublicTypes":    "public_types/glib/2.2.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.1.5",
@@ -3571,9 +3036,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.1.5/list",
-    "PublicTypes":    "public_types/glib/2.1.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.1.4",
@@ -3583,9 +3046,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.1.4/list",
-    "PublicTypes":    "public_types/glib/2.1.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.1.3",
@@ -3595,9 +3056,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.1.3/list",
-    "PublicTypes":    "public_types/glib/2.1.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.0.7",
@@ -3607,9 +3066,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.0.7/list",
-    "PublicTypes":    "public_types/glib/2.0.7/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.0.6",
@@ -3619,9 +3076,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.0.6/list",
-    "PublicTypes":    "public_types/glib/2.0.6/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.0.4",
@@ -3631,9 +3086,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.0.4/list",
-    "PublicTypes":    "public_types/glib/2.0.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.0.3",
@@ -3643,9 +3096,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.0.3/list",
-    "PublicTypes":    "public_types/glib/2.0.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.0.1",
@@ -3655,9 +3106,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.0.1/list",
-    "PublicTypes":    "public_types/glib/2.0.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.0.0",
@@ -3667,9 +3116,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/2.0.0/list",
-    "PublicTypes":    "public_types/glib/2.0.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.3.15",
@@ -3679,9 +3126,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/1.3.15/list",
-    "PublicTypes":    "public_types/glib/1.3.15/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.3.14",
@@ -3691,9 +3136,7 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/1.3.14/list",
-    "PublicTypes":    "public_types/glib/1.3.14/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.3.13",
@@ -3703,8 +3146,6 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/glib/1.3.13/list",
-    "PublicTypes":    "public_types/glib/1.3.13/list"
+    "ABIDiff":        "Off"
   }]
 }

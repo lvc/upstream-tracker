@@ -22,6 +22,60 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.18.0",
+    "Installed":      "installed/efl/1.18.0",
+    "Source":         "src/efl/1.18.0/efl-1.18.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.18.0-beta2",
+    "Installed":      "installed/efl/1.18.0-beta2",
+    "Source":         "src/efl/1.18.0-beta2/efl-1.18.0-beta2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.18.0-beta1",
+    "Installed":      "installed/efl/1.18.0-beta1",
+    "Source":         "src/efl/1.18.0-beta1/efl-1.18.0-beta1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.18.0-alpha2",
+    "Installed":      "installed/efl/1.18.0-alpha2",
+    "Source":         "src/efl/1.18.0-alpha2/efl-1.18.0-alpha2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.18.0-alpha1",
+    "Installed":      "installed/efl/1.18.0-alpha1",
+    "Source":         "src/efl/1.18.0-alpha1/efl-1.18.0-alpha1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "1.17.2",
     "Installed":      "installed/efl/1.17.2",
     "Source":         "src/efl/1.17.2/efl-1.17.2.tar.xz",
@@ -275,9 +329,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.12.2/list",
-    "PublicTypes":    "public_types/efl/1.12.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.12.1",
@@ -287,9 +339,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.12.1/list",
-    "PublicTypes":    "public_types/efl/1.12.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.12.0",
@@ -299,9 +349,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.12.0/list",
-    "PublicTypes":    "public_types/efl/1.12.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.11.5",
@@ -311,9 +359,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.11.5/list",
-    "PublicTypes":    "public_types/efl/1.11.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.11.4",
@@ -323,9 +369,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.11.4/list",
-    "PublicTypes":    "public_types/efl/1.11.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.11.3",
@@ -335,9 +379,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.11.3/list",
-    "PublicTypes":    "public_types/efl/1.11.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.11.2",
@@ -347,9 +389,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.11.2/list",
-    "PublicTypes":    "public_types/efl/1.11.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.11.1",
@@ -359,9 +399,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.11.1/list",
-    "PublicTypes":    "public_types/efl/1.11.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.11.0",
@@ -371,9 +409,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.11.0/list",
-    "PublicTypes":    "public_types/efl/1.11.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.10.3",
@@ -383,9 +419,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.10.3/list",
-    "PublicTypes":    "public_types/efl/1.10.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.10.2",
@@ -395,9 +429,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.10.2/list",
-    "PublicTypes":    "public_types/efl/1.10.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.10.1",
@@ -407,9 +439,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.10.1/list",
-    "PublicTypes":    "public_types/efl/1.10.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.10.0",
@@ -419,9 +449,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.10.0/list",
-    "PublicTypes":    "public_types/efl/1.10.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.9.5",
@@ -431,9 +459,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.9.5/list",
-    "PublicTypes":    "public_types/efl/1.9.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.9.4",
@@ -443,9 +469,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.9.4/list",
-    "PublicTypes":    "public_types/efl/1.9.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.9.3",
@@ -455,9 +479,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.9.3/list",
-    "PublicTypes":    "public_types/efl/1.9.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.9.2",
@@ -467,9 +489,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.9.2/list",
-    "PublicTypes":    "public_types/efl/1.9.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.9.1",
@@ -479,9 +499,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.9.1/list",
-    "PublicTypes":    "public_types/efl/1.9.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.9.0",
@@ -491,9 +509,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.9.0/list",
-    "PublicTypes":    "public_types/efl/1.9.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.8.6",
@@ -503,9 +519,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.8.6/list",
-    "PublicTypes":    "public_types/efl/1.8.6/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.8.5",
@@ -515,9 +529,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.8.5/list",
-    "PublicTypes":    "public_types/efl/1.8.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.8.4",
@@ -527,9 +539,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.8.4/list",
-    "PublicTypes":    "public_types/efl/1.8.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.8.3",
@@ -539,9 +549,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.8.3/list",
-    "PublicTypes":    "public_types/efl/1.8.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.8.2",
@@ -551,9 +559,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.8.2/list",
-    "PublicTypes":    "public_types/efl/1.8.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.8.1",
@@ -563,9 +569,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/efl/1.8.1/list",
-    "PublicTypes":    "public_types/efl/1.8.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.8.0",
@@ -576,8 +580,6 @@
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off",
-    "Deleted":        1,
-    "PublicSymbols":  "public_symbols/efl/1.8.0/list",
-    "PublicTypes":    "public_types/efl/1.8.0/list"
+    "Deleted":        1
   }]
 }

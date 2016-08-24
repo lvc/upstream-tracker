@@ -3,8 +3,8 @@
   "SourceUrl":      "http://files.libburnia-project.org/releases/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "HeadersDiff":    "Off",
   "Changelog":      "ChangeLog",
+  "HeadersDiff":    "Off",
 
   "Versions": [
   {
@@ -121,6 +121,16 @@
     "Number":         "1.2.2",
     "Installed":      "installed/libburn/1.2.2",
     "Source":         "src/libburn/1.2.2/libburn-1.2.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/libburn/1.2.0",
+    "Source":         "src/libburn/1.2.0/libburn-1.2.0.tar.gz",
     "Changelog":      "ChangeLog",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

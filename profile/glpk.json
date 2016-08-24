@@ -8,6 +8,36 @@
 
   "Versions": [
   {
+    "Number":         "4.60",
+    "Installed":      "installed/glpk/4.60",
+    "Source":         "src/glpk/4.60/glpk-4.60.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.59",
+    "Installed":      "installed/glpk/4.59",
+    "Source":         "src/glpk/4.59/glpk-4.59.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.58",
+    "Installed":      "installed/glpk/4.58",
+    "Source":         "src/glpk/4.58/glpk-4.58.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "4.57",
     "Installed":      "installed/glpk/4.57",
     "Source":         "src/glpk/4.57/glpk-4.57.tar.gz",

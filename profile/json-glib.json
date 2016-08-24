@@ -7,6 +7,16 @@
 
   "Versions": [
   {
+    "Number":         "1.2.2",
+    "Installed":      "installed/json-glib/1.2.2",
+    "Source":         "src/json-glib/1.2.2/json-glib-1.2.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.2.0",
     "Installed":      "installed/json-glib/1.2.0",
     "Source":         "src/json-glib/1.2.0/json-glib-1.2.0.tar.xz",

@@ -1,0 +1,62 @@
+{
+  "Name":           "sdl",
+  "Title":          "SDL",
+  "SourceUrl":      "https://www.libsdl.org/release/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "HeadersDiff":    "Off",
+  "Package":        "SDL2",
+
+  "Versions": [
+  {
+    "Number":         "2.0.4",
+    "Installed":      "installed/sdl/2.0.4",
+    "Source":         "src/sdl/2.0.4/SDL2-2.0.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.3",
+    "Installed":      "installed/sdl/2.0.3",
+    "Source":         "src/sdl/2.0.3/SDL2-2.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.2",
+    "Installed":      "installed/sdl/2.0.2",
+    "Source":         "src/sdl/2.0.2/SDL2-2.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.1",
+    "Installed":      "installed/sdl/2.0.1",
+    "Source":         "src/sdl/2.0.1/SDL2-2.0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0",
+    "Installed":      "installed/sdl/2.0.0",
+    "Source":         "src/sdl/2.0.0/SDL2-2.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

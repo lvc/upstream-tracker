@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "1.6.0",
+    "Installed":      "installed/augeas/1.6.0",
+    "Source":         "src/augeas/1.6.0/augeas-1.6.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.5.0",
     "Installed":      "installed/augeas/1.5.0",
     "Source":         "src/augeas/1.5.0/augeas-1.5.0.tar.gz",

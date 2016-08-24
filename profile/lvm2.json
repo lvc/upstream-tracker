@@ -1,0 +1,267 @@
+{
+  "Name":           "lvm2",
+  "Title":          "LVM2",
+  "SourceUrl":      "ftp://sources.redhat.com/pub/lvm2/",
+  "SourceUrlDepth": "1",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-applib --enable-cmdlib --enable-dmeventd --with-confdir={INSTALL_TO} --with-default-system-dir={INSTALL_TO}",
+  "PreInstall":     "sed -i -e 's/-O2/-Og/' configure",
+  "SkipObjects":    [ "device-mapper/", "libdevmapper-event-lvm2.so" ],
+  "Changelog":      "WHATS_NEW",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.02.98",
+  "Package":        "lvm2.",
+
+  "Versions": [
+  {
+    "Number":         "2.02.164",
+    "Installed":      "installed/lvm2/2.02.164",
+    "Source":         "src/lvm2/2.02.164/LVM2.2.02.164.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.162",
+    "Installed":      "installed/lvm2/2.02.162",
+    "Source":         "src/lvm2/2.02.162/LVM2.2.02.162.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.154",
+    "Installed":      "installed/lvm2/2.02.154",
+    "Source":         "src/lvm2/2.02.154/LVM2.2.02.154.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.152",
+    "Installed":      "installed/lvm2/2.02.152",
+    "Source":         "src/lvm2/2.02.152/LVM2.2.02.152.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.147",
+    "Installed":      "installed/lvm2/2.02.147",
+    "Source":         "src/lvm2/2.02.147/LVM2.2.02.147.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.144",
+    "Installed":      "installed/lvm2/2.02.144",
+    "Source":         "src/lvm2/2.02.144/LVM2.2.02.144.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.143",
+    "Installed":      "installed/lvm2/2.02.143",
+    "Source":         "src/lvm2/2.02.143/LVM2.2.02.143.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.142",
+    "Installed":      "installed/lvm2/2.02.142",
+    "Source":         "src/lvm2/2.02.142/LVM2.2.02.142.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.133",
+    "Installed":      "installed/lvm2/2.02.133",
+    "Source":         "src/lvm2/2.02.133/LVM2.2.02.133.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.132",
+    "Installed":      "installed/lvm2/2.02.132",
+    "Source":         "src/lvm2/2.02.132/LVM2.2.02.132.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.131",
+    "Installed":      "installed/lvm2/2.02.131",
+    "Source":         "src/lvm2/2.02.131/LVM2.2.02.131.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.119",
+    "Installed":      "installed/lvm2/2.02.119",
+    "Source":         "src/lvm2/2.02.119/LVM2.2.02.119.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.118",
+    "Installed":      "installed/lvm2/2.02.118",
+    "Source":         "src/lvm2/2.02.118/LVM2.2.02.118.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.117",
+    "Installed":      "installed/lvm2/2.02.117",
+    "Source":         "src/lvm2/2.02.117/LVM2.2.02.117.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.116",
+    "Installed":      "installed/lvm2/2.02.116",
+    "Source":         "src/lvm2/2.02.116/LVM2.2.02.116.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.114",
+    "Installed":      "installed/lvm2/2.02.114",
+    "Source":         "src/lvm2/2.02.114/LVM2.2.02.114.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.111",
+    "Installed":      "installed/lvm2/2.02.111",
+    "Source":         "src/lvm2/2.02.111/LVM2.2.02.111.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.110",
+    "Installed":      "installed/lvm2/2.02.110",
+    "Source":         "src/lvm2/2.02.110/LVM2.2.02.110.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.107",
+    "Installed":      "installed/lvm2/2.02.107",
+    "Source":         "src/lvm2/2.02.107/LVM2.2.02.107.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.106",
+    "Installed":      "installed/lvm2/2.02.106",
+    "Source":         "src/lvm2/2.02.106/LVM2.2.02.106.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.105",
+    "Installed":      "installed/lvm2/2.02.105",
+    "Source":         "src/lvm2/2.02.105/LVM2.2.02.105.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.104",
+    "Installed":      "installed/lvm2/2.02.104",
+    "Source":         "src/lvm2/2.02.104/LVM2.2.02.104.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.103",
+    "Installed":      "installed/lvm2/2.02.103",
+    "Source":         "src/lvm2/2.02.103/LVM2.2.02.103.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.100",
+    "Installed":      "installed/lvm2/2.02.100",
+    "Source":         "src/lvm2/2.02.100/LVM2.2.02.100.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02.98",
+    "Installed":      "installed/lvm2/2.02.98",
+    "Source":         "src/lvm2/2.02.98/LVM2.2.02.98.tgz",
+    "Changelog":      "WHATS_NEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

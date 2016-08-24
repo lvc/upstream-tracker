@@ -1,0 +1,97 @@
+{
+  "Name":           "evolution-data-server",
+  "Title":          "Evolution Data Server",
+  "SourceUrl":      "https://github.com/GNOME/evolution-data-server/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-vala-bindings --disable-gtk --disable-google-auth --disable-uoa --disable-weather",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/evolution-data-server/",
+  "SkipObjects":    [ "evolution-data-server/" ],
+  "HeadersDiff":    "Off",
+  "LatestMicro":    "1",
+  "Package":        "EVOLUTION_DATA_SERVER_",
+  "SkipVersions":   [ ".*_9\d+" ],
+  "GraphShortXTics": "On",
+
+  "Versions": [
+  {
+    "Number":         "3_21_4",
+    "Installed":      "installed/evolution-data-server/3_21_4",
+    "Source":         "src/evolution-data-server/3_21_4/EVOLUTION_DATA_SERVER_3_21_4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_20_5",
+    "Installed":      "installed/evolution-data-server/3_20_5",
+    "Source":         "src/evolution-data-server/3_20_5/EVOLUTION_DATA_SERVER_3_20_5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_19_4",
+    "Installed":      "installed/evolution-data-server/3_19_4",
+    "Source":         "src/evolution-data-server/3_19_4/EVOLUTION_DATA_SERVER_3_19_4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_18_5",
+    "Installed":      "installed/evolution-data-server/3_18_5",
+    "Source":         "src/evolution-data-server/3_18_5/EVOLUTION_DATA_SERVER_3_18_5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_17_4",
+    "Installed":      "installed/evolution-data-server/3_17_4",
+    "Source":         "src/evolution-data-server/3_17_4/EVOLUTION_DATA_SERVER_3_17_4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_16_5",
+    "Installed":      "installed/evolution-data-server/3_16_5",
+    "Source":         "src/evolution-data-server/3_16_5/EVOLUTION_DATA_SERVER_3_16_5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_13_10",
+    "Installed":      "installed/evolution-data-server/3_13_10",
+    "Source":         "src/evolution-data-server/3_13_10/EVOLUTION_DATA_SERVER_3_13_10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_12_11",
+    "Installed":      "installed/evolution-data-server/3_12_11",
+    "Source":         "src/evolution-data-server/3_12_11/EVOLUTION_DATA_SERVER_3_12_11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

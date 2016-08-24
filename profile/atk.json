@@ -18,6 +18,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "2.21.90",
+    "Installed":      "installed/atk/2.21.90",
+    "Source":         "src/atk/2.21.90/atk-2.21.90.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.20.0",
     "Installed":      "installed/atk/2.20.0",
     "Source":         "src/atk/2.20.0/atk-2.20.0.tar.xz",

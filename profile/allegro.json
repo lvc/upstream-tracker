@@ -2,15 +2,47 @@
   "Name":           "allegro",
   "Title":          "Allegro",
   "SourceUrl":      "https://github.com/liballeg/allegro5/tags",
+  "Git":            "https://github.com/liballeg/allegro5.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "BuildScript":    "build_script/allegro.sh",
+  "SkipObjects":    [ "liballegro_main.so" ],
   "HeadersDiff":    "Off",
   "IncludePaths":   "include/allegro5",
   "IncludePreamble": "allegro.h",
   "UseTUDump":      "1",
 
   "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/allegro/current",
+    "Source":         "src/allegro/current",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.2.1.1",
+    "Installed":      "installed/allegro/5.2.1.1",
+    "Source":         "src/allegro/5.2.1.1/allegro-5.2.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.2.1.0",
+    "Installed":      "installed/allegro/5.2.1.0",
+    "Source":         "src/allegro/5.2.1.0/allegro-5.2.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "5.2.0.0",
     "Installed":      "installed/allegro/5.2.0.0",

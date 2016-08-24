@@ -1,0 +1,199 @@
+{
+  "Name":           "libsndfile",
+  "SourceUrl":      "http://www.mega-nerd.com/libsndfile/files/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.0.27",
+    "Installed":      "installed/libsndfile/1.0.27",
+    "Source":         "src/libsndfile/1.0.27/libsndfile-1.0.27.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.26",
+    "Installed":      "installed/libsndfile/1.0.26",
+    "Source":         "src/libsndfile/1.0.26/libsndfile-1.0.26.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.25",
+    "Installed":      "installed/libsndfile/1.0.25",
+    "Source":         "src/libsndfile/1.0.25/libsndfile-1.0.25.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.24",
+    "Installed":      "installed/libsndfile/1.0.24",
+    "Source":         "src/libsndfile/1.0.24/libsndfile-1.0.24.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.23",
+    "Installed":      "installed/libsndfile/1.0.23",
+    "Source":         "src/libsndfile/1.0.23/libsndfile-1.0.23.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.22",
+    "Installed":      "installed/libsndfile/1.0.22",
+    "Source":         "src/libsndfile/1.0.22/libsndfile-1.0.22.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.21",
+    "Installed":      "installed/libsndfile/1.0.21",
+    "Source":         "src/libsndfile/1.0.21/libsndfile-1.0.21.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.20",
+    "Installed":      "installed/libsndfile/1.0.20",
+    "Source":         "src/libsndfile/1.0.20/libsndfile-1.0.20.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.19",
+    "Installed":      "installed/libsndfile/1.0.19",
+    "Source":         "src/libsndfile/1.0.19/libsndfile-1.0.19.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.18",
+    "Installed":      "installed/libsndfile/1.0.18",
+    "Source":         "src/libsndfile/1.0.18/libsndfile-1.0.18.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.17",
+    "Installed":      "installed/libsndfile/1.0.17",
+    "Source":         "src/libsndfile/1.0.17/libsndfile-1.0.17.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.16",
+    "Installed":      "installed/libsndfile/1.0.16",
+    "Source":         "src/libsndfile/1.0.16/libsndfile-1.0.16.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.15",
+    "Installed":      "installed/libsndfile/1.0.15",
+    "Source":         "src/libsndfile/1.0.15/libsndfile-1.0.15.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.14",
+    "Installed":      "installed/libsndfile/1.0.14",
+    "Source":         "src/libsndfile/1.0.14/libsndfile-1.0.14.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.13",
+    "Installed":      "installed/libsndfile/1.0.13",
+    "Source":         "src/libsndfile/1.0.13/libsndfile-1.0.13.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.12",
+    "Installed":      "installed/libsndfile/1.0.12",
+    "Source":         "src/libsndfile/1.0.12/libsndfile-1.0.12.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.11",
+    "Installed":      "installed/libsndfile/1.0.11",
+    "Source":         "src/libsndfile/1.0.11/libsndfile-1.0.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.10",
+    "Installed":      "installed/libsndfile/1.0.10",
+    "Source":         "src/libsndfile/1.0.10/libsndfile-1.0.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.9",
+    "Installed":      "installed/libsndfile/1.0.9",
+    "Source":         "src/libsndfile/1.0.9/libsndfile-1.0.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

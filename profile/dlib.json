@@ -1,0 +1,40 @@
+{
+  "Name":           "dlib",
+  "SourceUrl":      "http://dlib.net/files/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildDir":       "dlib",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "19.1",
+    "Installed":      "installed/dlib/19.1",
+    "Source":         "src/dlib/19.1/dlib-19.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "19.0",
+    "Installed":      "installed/dlib/19.0",
+    "Source":         "src/dlib/19.0/dlib-19.0.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "18.18",
+    "Installed":      "installed/dlib/18.18",
+    "Source":         "src/dlib/18.18/dlib-18.18.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

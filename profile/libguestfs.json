@@ -1,0 +1,73 @@
+{
+  "Name":           "libguestfs",
+  "SourceUrl":      "http://libguestfs.org/download/",
+  "SkipUrl":        [ ".*-development" ],
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/libguestfs.sh",
+  "HeadersDiff":    "Off",
+  "LatestMicro":    "1",
+  "MinimalVersion": "1.24.9",
+
+  "Versions": [
+  {
+    "Number":         "1.34.0",
+    "Installed":      "installed/libguestfs/1.34.0",
+    "Source":         "src/libguestfs/1.34.0/libguestfs-1.34.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.32.7",
+    "Installed":      "installed/libguestfs/1.32.7",
+    "Source":         "src/libguestfs/1.32.7/libguestfs-1.32.7.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.30.6",
+    "Installed":      "installed/libguestfs/1.30.6",
+    "Source":         "src/libguestfs/1.30.6/libguestfs-1.30.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.28.12",
+    "Installed":      "installed/libguestfs/1.28.12",
+    "Source":         "src/libguestfs/1.28.12/libguestfs-1.28.12.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.26.10",
+    "Installed":      "installed/libguestfs/1.26.10",
+    "Source":         "src/libguestfs/1.26.10/libguestfs-1.26.10.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.24.9",
+    "Installed":      "installed/libguestfs/1.24.9",
+    "Source":         "src/libguestfs/1.24.9/libguestfs-1.24.9.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

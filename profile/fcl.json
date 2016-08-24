@@ -9,9 +9,29 @@
 
   "Versions": [
   {
+    "Number":         "0.5.0",
+    "Installed":      "installed/fcl/0.5.0",
+    "Source":         "src/fcl/0.5.0/fcl-0.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.4.0",
     "Installed":      "installed/fcl/0.4.0",
     "Source":         "src/fcl/0.4.0/fcl-0.4.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.3",
+    "Installed":      "installed/fcl/0.3.3",
+    "Source":         "src/fcl/0.3.3/fcl-0.3.3.tar.gz",
     "Changelog":      "Off",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

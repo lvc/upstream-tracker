@@ -99,9 +99,9 @@ sub sendPackage($)
 sub sendFiles(@)
 {
     my @Files = @_;
-    my $Pkg = "update.package.tgz";
+    my $Pkg = "update.package.txz";
     
-    system("tar -czf $Pkg ".join(" ", @Files)." --exclude='*.json'");
+    system("tar -cJf $Pkg ".join(" ", @Files)." --exclude='*.json'");
     
     sendPackage($Pkg);
     unlink($Pkg);

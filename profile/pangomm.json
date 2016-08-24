@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "2.40.1",
+    "Installed":      "installed/pangomm/2.40.1",
+    "Source":         "src/pangomm/2.40.1/pangomm-2.40.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.40.0",
     "Installed":      "installed/pangomm/2.40.0",
     "Source":         "src/pangomm/2.40.0/pangomm-2.40.0.tar.xz",

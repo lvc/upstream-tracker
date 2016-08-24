@@ -10,6 +10,26 @@
 
   "Versions": [
   {
+    "Number":         "2.49.5",
+    "Installed":      "installed/glibmm/2.49.5",
+    "Source":         "src/glibmm/2.49.5/glibmm-2.49.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.49.4",
+    "Installed":      "installed/glibmm/2.49.4",
+    "Source":         "src/glibmm/2.49.4/glibmm-2.49.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.49.2",
     "Installed":      "installed/glibmm/2.49.2",
     "Source":         "src/glibmm/2.49.2/glibmm-2.49.2.tar.xz",

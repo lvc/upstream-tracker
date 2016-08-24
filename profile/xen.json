@@ -12,6 +12,16 @@
 
   "Versions": [
   {
+    "Number":         "4.7.0",
+    "Installed":      "installed/xen/4.7.0",
+    "Source":         "src/xen/4.7.0/xen-4.7.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "4.6.3",
     "Installed":      "installed/xen/4.6.3",
     "Source":         "src/xen/4.6.3/xen-4.6.3.tar.gz",

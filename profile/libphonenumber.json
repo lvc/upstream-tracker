@@ -1,0 +1,81 @@
+{
+  "Name":           "libphonenumber",
+  "SourceUrl":      "https://github.com/googlei18n/libphonenumber/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildDir":       "cpp",
+  "HeadersDiff":    "Off",
+  "LatestMicro":    "1",
+
+  "Versions": [
+  {
+    "Number":         "7.6.0",
+    "Installed":      "installed/libphonenumber/7.6.0",
+    "Source":         "src/libphonenumber/7.6.0/libphonenumber-7.6.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.5.2",
+    "Installed":      "installed/libphonenumber/7.5.2",
+    "Source":         "src/libphonenumber/7.5.2/libphonenumber-7.5.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.4.5",
+    "Installed":      "installed/libphonenumber/7.4.5",
+    "Source":         "src/libphonenumber/7.4.5/libphonenumber-7.4.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.3.2",
+    "Installed":      "installed/libphonenumber/7.3.2",
+    "Source":         "src/libphonenumber/7.3.2/libphonenumber-7.3.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.2.8",
+    "Installed":      "installed/libphonenumber/7.2.8",
+    "Source":         "src/libphonenumber/7.2.8/libphonenumber-7.2.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.1.1",
+    "Installed":      "installed/libphonenumber/7.1.1",
+    "Source":         "src/libphonenumber/7.1.1/libphonenumber-7.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.12",
+    "Installed":      "installed/libphonenumber/7.0.12",
+    "Source":         "src/libphonenumber/7.0.12/libphonenumber-7.0.12.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

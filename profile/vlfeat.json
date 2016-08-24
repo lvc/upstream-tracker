@@ -1,0 +1,152 @@
+{
+  "Name":           "vlfeat",
+  "Title":          "VLFeat",
+  "SourceUrl":      "http://www.vlfeat.org/download/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/vlfeat.sh",
+  "HeadersDiff":    "Off",
+  "Soname":         "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.9.20",
+    "Installed":      "installed/vlfeat/0.9.20",
+    "Source":         "src/vlfeat/0.9.20/vlfeat-0.9.20.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.19",
+    "Installed":      "installed/vlfeat/0.9.19",
+    "Source":         "src/vlfeat/0.9.19/vlfeat-0.9.19.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.18",
+    "Installed":      "installed/vlfeat/0.9.18",
+    "Source":         "src/vlfeat/0.9.18/vlfeat-0.9.18.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.17",
+    "Installed":      "installed/vlfeat/0.9.17",
+    "Source":         "src/vlfeat/0.9.17/vlfeat-0.9.17.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.16",
+    "Installed":      "installed/vlfeat/0.9.16",
+    "Source":         "src/vlfeat/0.9.16/vlfeat-0.9.16.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.15",
+    "Installed":      "installed/vlfeat/0.9.15",
+    "Source":         "src/vlfeat/0.9.15/vlfeat-0.9.15.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.14",
+    "Installed":      "installed/vlfeat/0.9.14",
+    "Source":         "src/vlfeat/0.9.14/vlfeat-0.9.14.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.13",
+    "Installed":      "installed/vlfeat/0.9.13",
+    "Source":         "src/vlfeat/0.9.13/vlfeat-0.9.13.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.12",
+    "Installed":      "installed/vlfeat/0.9.12",
+    "Source":         "src/vlfeat/0.9.12/vlfeat-0.9.12.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.11",
+    "Installed":      "installed/vlfeat/0.9.11",
+    "Source":         "src/vlfeat/0.9.11/vlfeat-0.9.11.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.10",
+    "Installed":      "installed/vlfeat/0.9.10",
+    "Source":         "src/vlfeat/0.9.10/vlfeat-0.9.10.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.9",
+    "Installed":      "installed/vlfeat/0.9.9",
+    "Source":         "src/vlfeat/0.9.9/vlfeat-0.9.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.8",
+    "Installed":      "installed/vlfeat/0.9.8",
+    "Source":         "src/vlfeat/0.9.8/vlfeat-0.9.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.7",
+    "Installed":      "installed/vlfeat/0.9.7",
+    "Source":         "src/vlfeat/0.9.7/vlfeat-0.9.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -7,6 +7,7 @@
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "Configure":      "--disable-documentation",
   "Changelog":      "Off",
+  "HeadersDiff":    "Off",
 
   "Versions": [
   {
@@ -14,7 +15,17 @@
     "Installed":      "installed/wayland/current",
     "Source":         "src/wayland/current",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.91",
+    "Installed":      "installed/wayland/1.11.91",
+    "Source":         "src/wayland/1.11.91/wayland-1.11.91.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -24,7 +35,7 @@
     "Installed":      "installed/wayland/1.11.0",
     "Source":         "src/wayland/1.11.0/wayland-1.11.0.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -34,7 +45,7 @@
     "Installed":      "installed/wayland/1.10.93",
     "Source":         "src/wayland/1.10.93/wayland-1.10.93.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -44,7 +55,7 @@
     "Installed":      "installed/wayland/1.10.92",
     "Source":         "src/wayland/1.10.92/wayland-1.10.92.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -54,7 +65,7 @@
     "Installed":      "installed/wayland/1.10.91",
     "Source":         "src/wayland/1.10.91/wayland-1.10.91.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -64,7 +75,7 @@
     "Installed":      "installed/wayland/1.10.0",
     "Source":         "src/wayland/1.10.0/wayland-1.10.0.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -74,7 +85,7 @@
     "Installed":      "installed/wayland/1.9.93",
     "Source":         "src/wayland/1.9.93/wayland-1.9.93.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -84,7 +95,7 @@
     "Installed":      "installed/wayland/1.9.92",
     "Source":         "src/wayland/1.9.92/wayland-1.9.92.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -94,7 +105,7 @@
     "Installed":      "installed/wayland/1.9.91",
     "Source":         "src/wayland/1.9.91/wayland-1.9.91.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -104,7 +115,7 @@
     "Installed":      "installed/wayland/1.9.0",
     "Source":         "src/wayland/1.9.0/wayland-1.9.0.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -114,7 +125,7 @@
     "Installed":      "installed/wayland/1.8.93",
     "Source":         "src/wayland/1.8.93/wayland-1.8.93.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -124,7 +135,7 @@
     "Installed":      "installed/wayland/1.8.92",
     "Source":         "src/wayland/1.8.92/wayland-1.8.92.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -134,7 +145,7 @@
     "Installed":      "installed/wayland/1.8.91",
     "Source":         "src/wayland/1.8.91/wayland-1.8.91.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -144,7 +155,7 @@
     "Installed":      "installed/wayland/1.8.1",
     "Source":         "src/wayland/1.8.1/wayland-1.8.1.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -154,7 +165,7 @@
     "Installed":      "installed/wayland/1.8.0",
     "Source":         "src/wayland/1.8.0/wayland-1.8.0.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -164,7 +175,7 @@
     "Installed":      "installed/wayland/1.7.93",
     "Source":         "src/wayland/1.7.93/wayland-1.7.93.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -174,7 +185,7 @@
     "Installed":      "installed/wayland/1.7.92",
     "Source":         "src/wayland/1.7.92/wayland-1.7.92.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -184,7 +195,7 @@
     "Installed":      "installed/wayland/1.7.91",
     "Source":         "src/wayland/1.7.91/wayland-1.7.91.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -194,7 +205,7 @@
     "Installed":      "installed/wayland/1.7.0",
     "Source":         "src/wayland/1.7.0/wayland-1.7.0.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -204,7 +215,7 @@
     "Installed":      "installed/wayland/1.6.93",
     "Source":         "src/wayland/1.6.93/wayland-1.6.93.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -214,7 +225,7 @@
     "Installed":      "installed/wayland/1.6.92",
     "Source":         "src/wayland/1.6.92/wayland-1.6.92.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -224,7 +235,7 @@
     "Installed":      "installed/wayland/1.6.91",
     "Source":         "src/wayland/1.6.91/wayland-1.6.91.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -234,7 +245,7 @@
     "Installed":      "installed/wayland/1.6.1",
     "Source":         "src/wayland/1.6.1/wayland-1.6.1.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -244,7 +255,7 @@
     "Installed":      "installed/wayland/1.6.0",
     "Source":         "src/wayland/1.6.0/wayland-1.6.0.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -254,7 +265,7 @@
     "Installed":      "installed/wayland/1.5.93",
     "Source":         "src/wayland/1.5.93/wayland-1.5.93.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -264,7 +275,7 @@
     "Installed":      "installed/wayland/1.5.92",
     "Source":         "src/wayland/1.5.92/wayland-1.5.92.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -274,7 +285,7 @@
     "Installed":      "installed/wayland/1.5.91",
     "Source":         "src/wayland/1.5.91/wayland-1.5.91.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -284,7 +295,7 @@
     "Installed":      "installed/wayland/1.5.0",
     "Source":         "src/wayland/1.5.0/wayland-1.5.0.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -294,7 +305,7 @@
     "Installed":      "installed/wayland/1.4.93",
     "Source":         "src/wayland/1.4.93/wayland-1.4.93.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -304,7 +315,7 @@
     "Installed":      "installed/wayland/1.4.92",
     "Source":         "src/wayland/1.4.92/wayland-1.4.92.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -314,7 +325,7 @@
     "Installed":      "installed/wayland/1.4.0",
     "Source":         "src/wayland/1.4.0/wayland-1.4.0.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -324,7 +335,7 @@
     "Installed":      "installed/wayland/1.3.93",
     "Source":         "src/wayland/1.3.93/wayland-1.3.93.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -334,7 +345,7 @@
     "Installed":      "installed/wayland/1.3.91",
     "Source":         "src/wayland/1.3.91/wayland-1.3.91.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -344,7 +355,7 @@
     "Installed":      "installed/wayland/1.3.0",
     "Source":         "src/wayland/1.3.0/wayland-1.3.0.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -354,7 +365,7 @@
     "Installed":      "installed/wayland/1.2.92",
     "Source":         "src/wayland/1.2.92/wayland-1.2.92.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -364,7 +375,7 @@
     "Installed":      "installed/wayland/1.2.91",
     "Source":         "src/wayland/1.2.91/wayland-1.2.91.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -374,7 +385,7 @@
     "Installed":      "installed/wayland/1.2.1",
     "Source":         "src/wayland/1.2.1/wayland-1.2.1.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -384,7 +395,7 @@
     "Installed":      "installed/wayland/1.2.0",
     "Source":         "src/wayland/1.2.0/wayland-1.2.0.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -394,7 +405,7 @@
     "Installed":      "installed/wayland/1.1.91",
     "Source":         "src/wayland/1.1.91/wayland-1.1.91.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -404,7 +415,7 @@
     "Installed":      "installed/wayland/1.1.0",
     "Source":         "src/wayland/1.1.0/wayland-1.1.0.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -414,7 +425,7 @@
     "Installed":      "installed/wayland/1.0.90",
     "Source":         "src/wayland/1.0.90/wayland-1.0.90.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -424,7 +435,7 @@
     "Installed":      "installed/wayland/1.0.6",
     "Source":         "src/wayland/1.0.6/wayland-1.0.6.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -434,7 +445,7 @@
     "Installed":      "installed/wayland/1.0.5",
     "Source":         "src/wayland/1.0.5/wayland-1.0.5.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -444,7 +455,7 @@
     "Installed":      "installed/wayland/1.0.4",
     "Source":         "src/wayland/1.0.4/wayland-1.0.4.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -454,7 +465,7 @@
     "Installed":      "installed/wayland/1.0.3",
     "Source":         "src/wayland/1.0.3/wayland-1.0.3.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -464,7 +475,7 @@
     "Installed":      "installed/wayland/1.0.2",
     "Source":         "src/wayland/1.0.2/wayland-1.0.2.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -474,7 +485,7 @@
     "Installed":      "installed/wayland/1.0.1",
     "Source":         "src/wayland/1.0.1/wayland-1.0.1.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -484,7 +495,7 @@
     "Installed":      "installed/wayland/1.0.0",
     "Source":         "src/wayland/1.0.0/wayland-1.0.0.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -494,7 +505,7 @@
     "Installed":      "installed/wayland/0.99.0",
     "Source":         "src/wayland/0.99.0/wayland-0.99.0.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -504,7 +515,7 @@
     "Installed":      "installed/wayland/0.95.0",
     "Source":         "src/wayland/0.95.0/wayland-0.95.0.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -514,7 +525,7 @@
     "Installed":      "installed/wayland/0.94.90",
     "Source":         "src/wayland/0.94.90/wayland-0.94.90.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -524,7 +535,7 @@
     "Installed":      "installed/wayland/0.85.0",
     "Source":         "src/wayland/0.85.0/wayland-0.85.0.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"

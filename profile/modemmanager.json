@@ -1,0 +1,123 @@
+{
+  "Name":           "modemmanager",
+  "Title":          "ModemManager",
+  "SourceUrl":      "http://www.freedesktop.org/software/ModemManager/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-udev-base-dir={INSTALL_TO} --with-systemdsystemunitdir={INSTALL_TO} --without-qmi --without-mbim",
+  "CopyHeaders":    [ "plugins/" ],
+  "HeadersDiff":    "Off",
+  "SkipVersions":   [ ".*99\d+" ],
+
+  "Versions": [
+  {
+    "Number":         "1.6.0",
+    "Installed":      "installed/modemmanager/1.6.0",
+    "Source":         "src/modemmanager/1.6.0/ModemManager-1.6.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.14",
+    "Installed":      "installed/modemmanager/1.4.14",
+    "Source":         "src/modemmanager/1.4.14/ModemManager-1.4.14.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.12",
+    "Installed":      "installed/modemmanager/1.4.12",
+    "Source":         "src/modemmanager/1.4.12/ModemManager-1.4.12.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.10",
+    "Installed":      "installed/modemmanager/1.4.10",
+    "Source":         "src/modemmanager/1.4.10/ModemManager-1.4.10.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.8",
+    "Installed":      "installed/modemmanager/1.4.8",
+    "Source":         "src/modemmanager/1.4.8/ModemManager-1.4.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.6",
+    "Installed":      "installed/modemmanager/1.4.6",
+    "Source":         "src/modemmanager/1.4.6/ModemManager-1.4.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.4",
+    "Installed":      "installed/modemmanager/1.4.4",
+    "Source":         "src/modemmanager/1.4.4/ModemManager-1.4.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.2",
+    "Installed":      "installed/modemmanager/1.4.2",
+    "Source":         "src/modemmanager/1.4.2/ModemManager-1.4.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.0",
+    "Installed":      "installed/modemmanager/1.4.0",
+    "Source":         "src/modemmanager/1.4.0/ModemManager-1.4.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/modemmanager/1.2.0",
+    "Source":         "src/modemmanager/1.2.0/ModemManager-1.2.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/modemmanager/1.0.0",
+    "Source":         "src/modemmanager/1.0.0/ModemManager-1.0.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

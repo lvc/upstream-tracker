@@ -6,7 +6,7 @@
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "BuildScript":    "build_script/openssl.sh",
-  "SkipObjects":    [ "engines/" ],
+  "SkipObjects":    [ "engines/", "engines-1.1/" ],
   "HeadersDiff":    "Off",
   "LetterReleases": "On",
 
@@ -19,9 +19,17 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/current/list",
-    "PublicTypes":    "public_types/openssl/current/list"
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0-pre6",
+    "Installed":      "installed/openssl/1.1.0-pre6",
+    "Source":         "src/openssl/1.1.0-pre6/openssl-1.1.0-pre6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.1.0-pre5",
@@ -31,7 +39,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "1.1.0-pre4",
@@ -125,9 +134,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.2d/list",
-    "PublicTypes":    "public_types/openssl/1.0.2d/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.2c",
@@ -137,9 +144,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.2c/list",
-    "PublicTypes":    "public_types/openssl/1.0.2c/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.2b",
@@ -149,9 +154,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.2b/list",
-    "PublicTypes":    "public_types/openssl/1.0.2b/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.2a",
@@ -161,9 +164,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.2a/list",
-    "PublicTypes":    "public_types/openssl/1.0.2a/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.2",
@@ -173,9 +174,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.2/list",
-    "PublicTypes":    "public_types/openssl/1.0.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.1t",
@@ -225,9 +224,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.1p/list",
-    "PublicTypes":    "public_types/openssl/1.0.1p/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.1o",
@@ -237,9 +234,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.1o/list",
-    "PublicTypes":    "public_types/openssl/1.0.1o/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.1n",
@@ -249,9 +244,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.1n/list",
-    "PublicTypes":    "public_types/openssl/1.0.1n/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.1m",
@@ -261,9 +254,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.1m/list",
-    "PublicTypes":    "public_types/openssl/1.0.1m/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.1l",
@@ -273,9 +264,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.1l/list",
-    "PublicTypes":    "public_types/openssl/1.0.1l/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.1k",
@@ -285,9 +274,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.1k/list",
-    "PublicTypes":    "public_types/openssl/1.0.1k/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.1j",
@@ -297,9 +284,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.1j/list",
-    "PublicTypes":    "public_types/openssl/1.0.1j/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.1i",
@@ -309,9 +294,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.1i/list",
-    "PublicTypes":    "public_types/openssl/1.0.1i/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.1h",
@@ -321,9 +304,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.1h/list",
-    "PublicTypes":    "public_types/openssl/1.0.1h/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.1g",
@@ -333,9 +314,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.1g/list",
-    "PublicTypes":    "public_types/openssl/1.0.1g/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.1f",
@@ -345,9 +324,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.1f/list",
-    "PublicTypes":    "public_types/openssl/1.0.1f/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.1e",
@@ -357,9 +334,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.1e/list",
-    "PublicTypes":    "public_types/openssl/1.0.1e/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.1d",
@@ -369,9 +344,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.1d/list",
-    "PublicTypes":    "public_types/openssl/1.0.1d/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.1c",
@@ -381,9 +354,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.1c/list",
-    "PublicTypes":    "public_types/openssl/1.0.1c/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.1b",
@@ -393,9 +364,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.1b/list",
-    "PublicTypes":    "public_types/openssl/1.0.1b/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.1a",
@@ -405,9 +374,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.1a/list",
-    "PublicTypes":    "public_types/openssl/1.0.1a/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.1",
@@ -417,9 +384,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.1/list",
-    "PublicTypes":    "public_types/openssl/1.0.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.0t",
@@ -439,9 +404,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.0s/list",
-    "PublicTypes":    "public_types/openssl/1.0.0s/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.0r",
@@ -451,9 +414,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.0r/list",
-    "PublicTypes":    "public_types/openssl/1.0.0r/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.0q",
@@ -463,9 +424,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.0q/list",
-    "PublicTypes":    "public_types/openssl/1.0.0q/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.0p",
@@ -475,9 +434,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.0p/list",
-    "PublicTypes":    "public_types/openssl/1.0.0p/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.0o",
@@ -487,9 +444,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.0o/list",
-    "PublicTypes":    "public_types/openssl/1.0.0o/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.0n",
@@ -499,9 +454,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.0n/list",
-    "PublicTypes":    "public_types/openssl/1.0.0n/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.0m",
@@ -511,9 +464,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.0m/list",
-    "PublicTypes":    "public_types/openssl/1.0.0m/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.0l",
@@ -523,9 +474,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.0l/list",
-    "PublicTypes":    "public_types/openssl/1.0.0l/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.0k",
@@ -535,9 +484,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.0k/list",
-    "PublicTypes":    "public_types/openssl/1.0.0k/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.0j",
@@ -547,9 +494,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.0j/list",
-    "PublicTypes":    "public_types/openssl/1.0.0j/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.0i",
@@ -559,9 +504,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.0i/list",
-    "PublicTypes":    "public_types/openssl/1.0.0i/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.0h",
@@ -571,9 +514,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.0h/list",
-    "PublicTypes":    "public_types/openssl/1.0.0h/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.0g",
@@ -583,9 +524,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.0g/list",
-    "PublicTypes":    "public_types/openssl/1.0.0g/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.0f",
@@ -595,9 +534,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.0f/list",
-    "PublicTypes":    "public_types/openssl/1.0.0f/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.0e",
@@ -607,9 +544,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.0e/list",
-    "PublicTypes":    "public_types/openssl/1.0.0e/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.0d",
@@ -619,9 +554,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.0d/list",
-    "PublicTypes":    "public_types/openssl/1.0.0d/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.0c",
@@ -631,9 +564,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.0c/list",
-    "PublicTypes":    "public_types/openssl/1.0.0c/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.0b",
@@ -643,9 +574,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.0b/list",
-    "PublicTypes":    "public_types/openssl/1.0.0b/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.0a",
@@ -655,9 +584,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.0a/list",
-    "PublicTypes":    "public_types/openssl/1.0.0a/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.0",
@@ -667,9 +594,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/1.0.0/list",
-    "PublicTypes":    "public_types/openssl/1.0.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "0.9.8zh",
@@ -689,9 +614,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/0.9.8zg/list",
-    "PublicTypes":    "public_types/openssl/0.9.8zg/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "0.9.8zf",
@@ -701,9 +624,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/0.9.8zf/list",
-    "PublicTypes":    "public_types/openssl/0.9.8zf/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "0.9.8ze",
@@ -713,9 +634,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/0.9.8ze/list",
-    "PublicTypes":    "public_types/openssl/0.9.8ze/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "0.9.8zd",
@@ -725,9 +644,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/0.9.8zd/list",
-    "PublicTypes":    "public_types/openssl/0.9.8zd/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "0.9.8zc",
@@ -737,9 +654,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/0.9.8zc/list",
-    "PublicTypes":    "public_types/openssl/0.9.8zc/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "0.9.8zb",
@@ -749,9 +664,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/0.9.8zb/list",
-    "PublicTypes":    "public_types/openssl/0.9.8zb/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "0.9.8za",
@@ -761,9 +674,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/0.9.8za/list",
-    "PublicTypes":    "public_types/openssl/0.9.8za/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "0.9.8y",
@@ -773,9 +684,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/0.9.8y/list",
-    "PublicTypes":    "public_types/openssl/0.9.8y/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "0.9.8x",
@@ -785,9 +694,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/0.9.8x/list",
-    "PublicTypes":    "public_types/openssl/0.9.8x/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "0.9.8w",
@@ -797,9 +704,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/0.9.8w/list",
-    "PublicTypes":    "public_types/openssl/0.9.8w/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "0.9.8v",
@@ -809,9 +714,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/0.9.8v/list",
-    "PublicTypes":    "public_types/openssl/0.9.8v/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "0.9.8u",
@@ -821,9 +724,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/0.9.8u/list",
-    "PublicTypes":    "public_types/openssl/0.9.8u/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "0.9.8t",
@@ -833,9 +734,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/0.9.8t/list",
-    "PublicTypes":    "public_types/openssl/0.9.8t/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "0.9.8s",
@@ -845,9 +744,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/0.9.8s/list",
-    "PublicTypes":    "public_types/openssl/0.9.8s/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "0.9.8r",
@@ -857,9 +754,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/0.9.8r/list",
-    "PublicTypes":    "public_types/openssl/0.9.8r/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "0.9.8q",
@@ -869,9 +764,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/0.9.8q/list",
-    "PublicTypes":    "public_types/openssl/0.9.8q/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "0.9.8p",
@@ -881,9 +774,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/0.9.8p/list",
-    "PublicTypes":    "public_types/openssl/0.9.8p/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "0.9.8o",
@@ -893,9 +784,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/0.9.8o/list",
-    "PublicTypes":    "public_types/openssl/0.9.8o/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "0.9.8n",
@@ -905,9 +794,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/0.9.8n/list",
-    "PublicTypes":    "public_types/openssl/0.9.8n/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "0.9.8m",
@@ -917,8 +804,6 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/openssl/0.9.8m/list",
-    "PublicTypes":    "public_types/openssl/0.9.8m/list"
+    "ABIDiff":        "Off"
   }]
 }

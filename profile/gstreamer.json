@@ -5,7 +5,7 @@
   "Git":            "http://anongit.freedesktop.org/git/gstreamer/gstreamer.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "CC='gcc -Dg_memmove=memmove'",
+  "Configure":      "CC='gcc -Dg_memmove=memmove' --disable-tests --disable-examples",
   "PreInstall":     "sed -i -e 's/void \* yylval_param \, yyscan_t yyscanner/void \* yylval_param/g' ./gst/parse/grammar.y",
   "SkipObjects":    [ "gstreamer-1.0/", "gstreamer-0.10/", "gstreamer-0.11/" ],
   "Changelog":      "RELEASE",
@@ -20,9 +20,27 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/current/list",
-    "PublicTypes":    "public_types/gstreamer/current/list"
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.1",
+    "Installed":      "installed/gstreamer/1.9.1",
+    "Source":         "src/gstreamer/1.9.1/gstreamer-1.9.1.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.3",
+    "Installed":      "installed/gstreamer/1.8.3",
+    "Source":         "src/gstreamer/1.8.3/gstreamer-1.8.3.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.8.2",
@@ -142,9 +160,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.6.0/list",
-    "PublicTypes":    "public_types/gstreamer/1.6.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.5.91",
@@ -154,9 +170,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.5.91/list",
-    "PublicTypes":    "public_types/gstreamer/1.5.91/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.5.90",
@@ -166,9 +180,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.5.90/list",
-    "PublicTypes":    "public_types/gstreamer/1.5.90/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.5.2",
@@ -178,9 +190,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.5.2/list",
-    "PublicTypes":    "public_types/gstreamer/1.5.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.5.1",
@@ -190,9 +200,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.5.1/list",
-    "PublicTypes":    "public_types/gstreamer/1.5.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.4.5",
@@ -202,9 +210,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.4.5/list",
-    "PublicTypes":    "public_types/gstreamer/1.4.5/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.4.4",
@@ -214,9 +220,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.4.4/list",
-    "PublicTypes":    "public_types/gstreamer/1.4.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.4.3",
@@ -226,9 +230,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.4.3/list",
-    "PublicTypes":    "public_types/gstreamer/1.4.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.4.2",
@@ -238,9 +240,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.4.2/list",
-    "PublicTypes":    "public_types/gstreamer/1.4.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.4.1",
@@ -250,9 +250,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.4.1/list",
-    "PublicTypes":    "public_types/gstreamer/1.4.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.4.0",
@@ -262,9 +260,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.4.0/list",
-    "PublicTypes":    "public_types/gstreamer/1.4.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.3.91",
@@ -274,9 +270,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.3.91/list",
-    "PublicTypes":    "public_types/gstreamer/1.3.91/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.3.90",
@@ -286,9 +280,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.3.90/list",
-    "PublicTypes":    "public_types/gstreamer/1.3.90/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.3.3",
@@ -298,9 +290,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.3.3/list",
-    "PublicTypes":    "public_types/gstreamer/1.3.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.3.2",
@@ -310,9 +300,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.3.2/list",
-    "PublicTypes":    "public_types/gstreamer/1.3.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.3.1",
@@ -322,9 +310,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.3.1/list",
-    "PublicTypes":    "public_types/gstreamer/1.3.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.2.4",
@@ -334,9 +320,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.2.4/list",
-    "PublicTypes":    "public_types/gstreamer/1.2.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.2.3",
@@ -346,9 +330,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.2.3/list",
-    "PublicTypes":    "public_types/gstreamer/1.2.3/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.2.2",
@@ -358,9 +340,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.2.2/list",
-    "PublicTypes":    "public_types/gstreamer/1.2.2/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.2.1",
@@ -370,9 +350,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.2.1/list",
-    "PublicTypes":    "public_types/gstreamer/1.2.1/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.2.0",
@@ -382,9 +360,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.2.0/list",
-    "PublicTypes":    "public_types/gstreamer/1.2.0/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.1.90",
@@ -394,9 +370,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.1.90/list",
-    "PublicTypes":    "public_types/gstreamer/1.1.90/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.1.4",
@@ -406,9 +380,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.1.4/list",
-    "PublicTypes":    "public_types/gstreamer/1.1.4/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.1.3",
@@ -448,9 +420,7 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "PublicSymbols":  "public_symbols/gstreamer/1.0.10/list",
-    "PublicTypes":    "public_types/gstreamer/1.0.10/list"
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.9",

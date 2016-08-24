@@ -1,0 +1,154 @@
+{
+  "Name":           "bde",
+  "Title":          "BDE",
+  "SourceUrl":      "https://github.com/bloomberg/bde/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/bde.sh",
+  "SkipInternalSymbols": "__bid|__binary|wcslen",
+  "GraphShortXTics": "On",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.22.0.15",
+
+  "Versions": [
+  {
+    "Number":         "3.0.0.0",
+    "Installed":      "installed/bde/3.0.0.0",
+    "Source":         "src/bde/3.0.0.0/BDE_3.0.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.22.1.2",
+    "Installed":      "installed/bde/2.22.1.2",
+    "Source":         "src/bde/2.22.1.2/BDE_2.22.1.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.22.1.1",
+    "Installed":      "installed/bde/2.22.1.1",
+    "Source":         "src/bde/2.22.1.1/BDE_2.22.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.22.1.0",
+    "Installed":      "installed/bde/2.22.1.0",
+    "Source":         "src/bde/2.22.1.0/BDE_2.22.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.22.0.15",
+    "Installed":      "installed/bde/2.22.0.15",
+    "Source":         "src/bde/2.22.0.15/BDE_2.22.0.15.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.22.0.14",
+    "Installed":      "installed/bde/2.22.0.14",
+    "Source":         "src/bde/2.22.0.14/BDE_2.22.0.14.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.22.0.13",
+    "Installed":      "installed/bde/2.22.0.13",
+    "Source":         "src/bde/2.22.0.13/BDE_2.22.0.13.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.22.0.12",
+    "Installed":      "installed/bde/2.22.0.12",
+    "Source":         "src/bde/2.22.0.12/BDE_2.22.0.12.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.22.0.11",
+    "Installed":      "installed/bde/2.22.0.11",
+    "Source":         "src/bde/2.22.0.11/BDE_2.22.0.11.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.22.0.10",
+    "Installed":      "installed/bde/2.22.0.10",
+    "Source":         "src/bde/2.22.0.10/BDE_2.22.0.10.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.22.0.9",
+    "Installed":      "installed/bde/2.22.0.9",
+    "Source":         "src/bde/2.22.0.9/BDE_2.22.0.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.22.0.8",
+    "Installed":      "installed/bde/2.22.0.8",
+    "Source":         "src/bde/2.22.0.8/BDE_2.22.0.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.22.0.7",
+    "Installed":      "installed/bde/2.22.0.7",
+    "Source":         "src/bde/2.22.0.7/BDE_2.22.0.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.22.0.3",
+    "Installed":      "installed/bde/2.22.0.3",
+    "Source":         "src/bde/2.22.0.3/BDE_2.22.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

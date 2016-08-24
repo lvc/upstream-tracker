@@ -7,9 +7,10 @@
   "BuildSystem":    "Autotools",
   "CurrentConfigure": "--with-included-apr",
   "CurrentPreInstall": "svn co http://svn.apache.org/repos/asf/apr/apr/trunk srclib/apr && cp -fr srclib/apr srclib/apr-util",
-  "PostInstall":    "mkdir -p {INSTALL_TO}/lib/ && cp -f {INSTALL_TO}/bin/httpd {INSTALL_TO}/lib/libhttpd.so",
+  "PostInstall":    "mkdir -p {INSTALL_TO}/lib/ && cp -f {INSTALL_TO}/bin/httpd {INSTALL_TO}/lib/libhttpd.so && rm -fr {INSTALL_TO}/build",
   "SkipObjects":    [ "modules/", "apr-2/", "libapr-0.so", "libaprutil-0.so", "libexpat.so", "libapr-2.so" ],
   "HeadersDiff":    "Off",
+  "Soname":         "Off",
 
   "Versions": [
   {
@@ -17,6 +18,16 @@
     "Installed":      "installed/httpd/current",
     "Source":         "src/httpd/current",
     "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.23",
+    "Installed":      "installed/httpd/2.4.23",
+    "Source":         "src/httpd/2.4.23/httpd-2.4.23.tar.gz",
+    "Changelog":      "CHANGES",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",

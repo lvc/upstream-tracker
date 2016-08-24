@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "0.99.0",
+    "Installed":      "installed/gupnp/0.99.0",
+    "Source":         "src/gupnp/0.99.0/gupnp-0.99.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.20.18",
     "Installed":      "installed/gupnp/0.20.18",
     "Source":         "src/gupnp/0.20.18/gupnp-0.20.18.tar.xz",

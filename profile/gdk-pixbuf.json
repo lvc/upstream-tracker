@@ -19,6 +19,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "2.35.3",
+    "Installed":      "installed/gdk-pixbuf/2.35.3",
+    "Source":         "src/gdk-pixbuf/2.35.3/gdk-pixbuf-2.35.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.35.2",
     "Installed":      "installed/gdk-pixbuf/2.35.2",
     "Source":         "src/gdk-pixbuf/2.35.2/gdk-pixbuf-2.35.2.tar.xz",
