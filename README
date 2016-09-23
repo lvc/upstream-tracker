@@ -1,11 +1,11 @@
 NAME:
   Upstream Tracker - a project to monitor and verify compatibility of upstream ABI changes in C/C++ libraries.
   
-  Web: http://abi-laboratory.pro/tracker/
+  Web: https://abi-laboratory.pro/tracker/
   
   Please report an issue if you'd like to add some open-source library to the tracker.
   
-  The tool is developed by Andrey Ponomarenko: http://abi-laboratory.pro/
+  The tool is developed by Andrey Ponomarenko: https://abi-laboratory.pro/
 
 REQUIRES:
   Perl 5
