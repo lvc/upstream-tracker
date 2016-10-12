@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "1.7.0",
+    "Installed":      "installed/gpgme/1.7.0",
+    "Source":         "src/gpgme/1.7.0/gpgme-1.7.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.6.0",
     "Installed":      "installed/gpgme/1.6.0",
     "Source":         "src/gpgme/1.6.0/gpgme-1.6.0.tar.bz2",

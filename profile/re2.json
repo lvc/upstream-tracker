@@ -20,6 +20,26 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "2016-10-01",
+    "Installed":      "installed/re2/2016-10-01",
+    "Source":         "src/re2/2016-10-01/re2-2016-10-01.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2016-09-01",
+    "Installed":      "installed/re2/2016-09-01",
+    "Source":         "src/re2/2016-09-01/re2-2016-09-01.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2016-08-01",
     "Installed":      "installed/re2/2016-08-01",
     "Source":         "src/re2/2016-08-01/re2-2016-08-01.tar.gz",

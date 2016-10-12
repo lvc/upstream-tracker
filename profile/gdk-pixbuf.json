@@ -19,6 +19,36 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "2.36.0",
+    "Installed":      "installed/gdk-pixbuf/2.36.0",
+    "Source":         "src/gdk-pixbuf/2.36.0/gdk-pixbuf-2.36.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.35.5",
+    "Installed":      "installed/gdk-pixbuf/2.35.5",
+    "Source":         "src/gdk-pixbuf/2.35.5/gdk-pixbuf-2.35.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.35.4",
+    "Installed":      "installed/gdk-pixbuf/2.35.4",
+    "Source":         "src/gdk-pixbuf/2.35.4/gdk-pixbuf-2.35.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.35.3",
     "Installed":      "installed/gdk-pixbuf/2.35.3",
     "Source":         "src/gdk-pixbuf/2.35.3/gdk-pixbuf-2.35.3.tar.xz",

@@ -7,6 +7,16 @@
 
   "Versions": [
   {
+    "Number":         "1.11.4",
+    "Installed":      "installed/hwloc/1.11.4",
+    "Source":         "src/hwloc/1.11.4/hwloc-1.11.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.11.3",
     "Installed":      "installed/hwloc/1.11.3",
     "Source":         "src/hwloc/1.11.3/hwloc-1.11.3.tar.gz",

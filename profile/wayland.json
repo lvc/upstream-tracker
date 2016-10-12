@@ -21,9 +21,59 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.12.0",
+    "Installed":      "installed/wayland/1.12.0",
+    "Source":         "src/wayland/1.12.0/wayland-1.12.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.94",
+    "Installed":      "installed/wayland/1.11.94",
+    "Source":         "src/wayland/1.11.94/wayland-1.11.94.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.93",
+    "Installed":      "installed/wayland/1.11.93",
+    "Source":         "src/wayland/1.11.93/wayland-1.11.93.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.92",
+    "Installed":      "installed/wayland/1.11.92",
+    "Source":         "src/wayland/1.11.92/wayland-1.11.92.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.11.91",
     "Installed":      "installed/wayland/1.11.91",
     "Source":         "src/wayland/1.11.91/wayland-1.11.91.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.1",
+    "Installed":      "installed/wayland/1.11.1",
+    "Source":         "src/wayland/1.11.1/wayland-1.11.1.tar.xz",
     "Changelog":      "Off",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

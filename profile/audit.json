@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         "2.6.7",
+    "Installed":      "installed/audit/2.6.7",
+    "Source":         "src/audit/2.6.7/audit-2.6.7.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.6.6",
     "Installed":      "installed/audit/2.6.6",
     "Source":         "src/audit/2.6.6/audit-2.6.6.tar.gz",

@@ -22,6 +22,7 @@ dbus
 dlib
 efl;elementary
 elfutils
+evolution-data-server
 expat
 fcl
 ffmpeg
@@ -31,6 +32,7 @@ freetype
 gdal
 gdk-pixbuf
 gegl
+giflib
 glfw
 glib
 glibc
@@ -66,12 +68,15 @@ libarchive
 libbluray
 libburn
 libbson
+libcap
 libccd
 libcouchbase
 libdb
 libdrm
 libdwarf
+libepoxy
 libev
+libevent
 libgcrypt
 libgit2
 libguestfs
@@ -84,6 +89,7 @@ libphonenumber
 libpng
 libqb
 libratbag
+libressl
 libsigc++
 libsmbios
 libsndfile
@@ -91,11 +97,14 @@ libsoup
 libssh
 libssh2
 libsvm
+libtasn1
 libtiff
+libtins
 libuv
 libvirt
-libxml2
 libxml++
+libxml2
+libxslt
 libzip
 lilv
 linux-pam

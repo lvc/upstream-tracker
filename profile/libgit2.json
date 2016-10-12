@@ -20,6 +20,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "0.24.2",
+    "Installed":      "installed/libgit2/0.24.2",
+    "Source":         "src/libgit2/0.24.2/libgit2-0.24.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.24.1",
     "Installed":      "installed/libgit2/0.24.1",
     "Source":         "src/libgit2/0.24.1/libgit2-0.24.1.tar.gz",

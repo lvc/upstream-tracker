@@ -52,6 +52,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "4.5.5",
+    "Installed":      "installed/xen/4.5.5",
+    "Source":         "src/xen/4.5.5/xen-4.5.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "4.5.3",
     "Installed":      "installed/xen/4.5.3",
     "Source":         "src/xen/4.5.3/xen-4.5.3.tar.gz",

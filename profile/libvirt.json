@@ -10,6 +10,70 @@
 
   "Versions": [
   {
+    "Number":         "2.3.0",
+    "Installed":      "installed/libvirt/2.3.0",
+    "Source":         "src/libvirt/2.3.0/libvirt-2.3.0.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.0-rc2",
+    "Installed":      "installed/libvirt/2.3.0-rc2",
+    "Source":         "src/libvirt/2.3.0-rc2/libvirt-2.3.0-rc2.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.3.0-rc1",
+    "Installed":      "installed/libvirt/2.3.0-rc1",
+    "Source":         "src/libvirt/2.3.0-rc1/libvirt-2.3.0-rc1.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.2.0",
+    "Installed":      "installed/libvirt/2.2.0",
+    "Source":         "src/libvirt/2.2.0/libvirt-2.2.0.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.0-rc2",
+    "Installed":      "installed/libvirt/2.2.0-rc2",
+    "Source":         "src/libvirt/2.2.0-rc2/libvirt-2.2.0-rc2.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.2.0-rc1",
+    "Installed":      "installed/libvirt/2.2.0-rc1",
+    "Source":         "src/libvirt/2.2.0-rc1/libvirt-2.2.0-rc1.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "2.1.0",
     "Installed":      "installed/libvirt/2.1.0",
     "Source":         "src/libvirt/2.1.0/libvirt-2.1.0.tar.xz",

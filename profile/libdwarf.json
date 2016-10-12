@@ -9,6 +9,36 @@
 
   "Versions": [
   {
+    "Number":         20161001,
+    "Installed":      "installed/libdwarf/20161001",
+    "Source":         "src/libdwarf/20161001/libdwarf-20161001.tar.gz",
+    "Changelog":      "libdwarf/ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20160929,
+    "Installed":      "installed/libdwarf/20160929",
+    "Source":         "src/libdwarf/20160929/libdwarf-20160929.tar.gz",
+    "Changelog":      "libdwarf/ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20160923,
+    "Installed":      "installed/libdwarf/20160923",
+    "Source":         "src/libdwarf/20160923/libdwarf-20160923.tar.gz",
+    "Changelog":      "libdwarf/ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         20160613,
     "Installed":      "installed/libdwarf/20160613",
     "Source":         "src/libdwarf/20160613/libdwarf-20160613.tar.gz",

@@ -1,0 +1,10 @@
+{
+  "Name":           "libjson-rpc-cpp",
+  "SourceUrl":      "https://github.com/cinemast/libjson-rpc-cpp/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  ]
+}

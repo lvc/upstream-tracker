@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "0.5",
+    "Installed":      "installed/libratbag/0.5",
+    "Source":         "src/libratbag/0.5/libratbag-0.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.4",
     "Installed":      "installed/libratbag/0.4",
     "Source":         "src/libratbag/0.4/libratbag-0.4.tar.gz",

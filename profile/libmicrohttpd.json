@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "0.9.51",
+    "Installed":      "installed/libmicrohttpd/0.9.51",
+    "Source":         "src/libmicrohttpd/0.9.51/libmicrohttpd-0.9.51.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.9.50",
     "Installed":      "installed/libmicrohttpd/0.9.50",
     "Source":         "src/libmicrohttpd/0.9.50/libmicrohttpd-0.9.50.tar.gz",

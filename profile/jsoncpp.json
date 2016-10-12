@@ -7,6 +7,36 @@
 
   "Versions": [
   {
+    "Number":         "1.7.7",
+    "Installed":      "installed/jsoncpp/1.7.7",
+    "Source":         "src/jsoncpp/1.7.7/jsoncpp-1.7.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.6",
+    "Installed":      "installed/jsoncpp/1.7.6",
+    "Source":         "src/jsoncpp/1.7.6/jsoncpp-1.7.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.5",
+    "Installed":      "installed/jsoncpp/1.7.5",
+    "Source":         "src/jsoncpp/1.7.5/jsoncpp-1.7.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.7.4",
     "Installed":      "installed/jsoncpp/1.7.4",
     "Source":         "src/jsoncpp/1.7.4/jsoncpp-1.7.4.tar.gz",

@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "3.1.5",
+    "Installed":      "installed/mpfr/3.1.5",
+    "Source":         "src/mpfr/3.1.5/mpfr-3.1.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.1.4",
     "Installed":      "installed/mpfr/3.1.4",
     "Source":         "src/mpfr/3.1.4/mpfr-3.1.4.tar.xz",

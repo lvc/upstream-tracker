@@ -14,6 +14,26 @@
 
   "Versions": [
   {
+    "Number":         "1.4.2",
+    "Installed":      "installed/networkmanager/1.4.2",
+    "Source":         "src/networkmanager/1.4.2/NetworkManager-1.4.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.0",
+    "Installed":      "installed/networkmanager/1.4.0",
+    "Source":         "src/networkmanager/1.4.0/NetworkManager-1.4.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.2.4",
     "Installed":      "installed/networkmanager/1.2.4",
     "Source":         "src/networkmanager/1.2.4/NetworkManager-1.2.4.tar.xz",

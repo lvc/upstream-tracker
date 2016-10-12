@@ -9,6 +9,48 @@
 
   "Versions": [
   {
+    "Number":         "7.7.2",
+    "Installed":      "installed/libphonenumber/7.7.2",
+    "Source":         "src/libphonenumber/7.7.2/libphonenumber-7.7.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.7.1",
+    "Installed":      "installed/libphonenumber/7.7.1",
+    "Source":         "src/libphonenumber/7.7.1/libphonenumber-7.7.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "7.7.0",
+    "Installed":      "installed/libphonenumber/7.7.0",
+    "Source":         "src/libphonenumber/7.7.0/libphonenumber-7.7.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "7.6.1",
+    "Installed":      "installed/libphonenumber/7.6.1",
+    "Source":         "src/libphonenumber/7.6.1/libphonenumber-7.6.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "7.6.0",
     "Installed":      "installed/libphonenumber/7.6.0",
     "Source":         "src/libphonenumber/7.6.0/libphonenumber-7.6.0.tar.gz",
@@ -16,7 +58,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "7.5.2",

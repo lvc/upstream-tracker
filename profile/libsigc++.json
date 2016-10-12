@@ -81,6 +81,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "2.10.0",
+    "Installed":      "installed/libsigc++/2.10.0",
+    "Source":         "src/libsigc++/2.10.0/libsigc++-2.10.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.9.3",
     "Installed":      "installed/libsigc++/2.9.3",
     "Source":         "src/libsigc++/2.9.3/libsigc++-2.9.3.tar.xz",

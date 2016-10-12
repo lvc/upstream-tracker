@@ -22,6 +22,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.18.1",
+    "Installed":      "installed/efl/1.18.1",
+    "Source":         "src/efl/1.18.1/efl-1.18.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.18.0",
     "Installed":      "installed/efl/1.18.0",
     "Source":         "src/efl/1.18.0/efl-1.18.0.tar.xz",

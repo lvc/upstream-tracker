@@ -30,6 +30,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "2.4.13.1",
+    "Installed":      "installed/opencv/2.4.13.1",
+    "Source":         "src/opencv/2.4.13.1/opencv-2.4.13.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.4.13",
     "Installed":      "installed/opencv/2.4.13",
     "Source":         "src/opencv/2.4.13/opencv-2.4.13.tar.gz",

@@ -20,6 +20,66 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "7.0.3-4",
+    "Installed":      "installed/imagemagick/7.0.3-4",
+    "Source":         "src/imagemagick/7.0.3-4/ImageMagick-7.0.3-4.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.3-3",
+    "Installed":      "installed/imagemagick/7.0.3-3",
+    "Source":         "src/imagemagick/7.0.3-3/ImageMagick-7.0.3-3.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.3-2",
+    "Installed":      "installed/imagemagick/7.0.3-2",
+    "Source":         "src/imagemagick/7.0.3-2/ImageMagick-7.0.3-2.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.3-1",
+    "Installed":      "installed/imagemagick/7.0.3-1",
+    "Source":         "src/imagemagick/7.0.3-1/ImageMagick-7.0.3-1.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.3-0",
+    "Installed":      "installed/imagemagick/7.0.3-0",
+    "Source":         "src/imagemagick/7.0.3-0/ImageMagick-7.0.3-0.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.2-10",
+    "Installed":      "installed/imagemagick/7.0.2-10",
+    "Source":         "src/imagemagick/7.0.2-10/ImageMagick-7.0.2-10.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "7.0.2-9",
     "Installed":      "installed/imagemagick/7.0.2-9",
     "Source":         "src/imagemagick/7.0.2-9/ImageMagick-7.0.2-9.tar.xz",
@@ -183,6 +243,66 @@
     "Number":         "7.0.1-0",
     "Installed":      "installed/imagemagick/7.0.1-0",
     "Source":         "src/imagemagick/7.0.1-0/ImageMagick-7.0.1-0.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.9.6-2",
+    "Installed":      "installed/imagemagick/6.9.6-2",
+    "Source":         "src/imagemagick/6.9.6-2/ImageMagick-6.9.6-2.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.9.6-1",
+    "Installed":      "installed/imagemagick/6.9.6-1",
+    "Source":         "src/imagemagick/6.9.6-1/ImageMagick-6.9.6-1.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.9.6-0",
+    "Installed":      "installed/imagemagick/6.9.6-0",
+    "Source":         "src/imagemagick/6.9.6-0/ImageMagick-6.9.6-0.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.9.5-10",
+    "Installed":      "installed/imagemagick/6.9.5-10",
+    "Source":         "src/imagemagick/6.9.5-10/ImageMagick-6.9.5-10.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.9.5-9",
+    "Installed":      "installed/imagemagick/6.9.5-9",
+    "Source":         "src/imagemagick/6.9.5-9/ImageMagick-6.9.5-9.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.9.5-8",
+    "Installed":      "installed/imagemagick/6.9.5-8",
+    "Source":         "src/imagemagick/6.9.5-8/ImageMagick-6.9.5-8.tar.xz",
     "Changelog":      "ChangeLog",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

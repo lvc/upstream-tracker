@@ -22,9 +22,9 @@
     "ABIDiff":        "Off"
   },
   {
-    "Number":         "1.1.0-pre6",
-    "Installed":      "installed/openssl/1.1.0-pre6",
-    "Source":         "src/openssl/1.1.0-pre6/openssl-1.1.0-pre6.tar.gz",
+    "Number":         "1.1.0b",
+    "Installed":      "installed/openssl/1.1.0b",
+    "Source":         "src/openssl/1.1.0b/openssl-1.1.0b.tar.gz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
@@ -32,9 +32,29 @@
     "ABIDiff":        "Off"
   },
   {
-    "Number":         "1.1.0-pre5",
-    "Installed":      "installed/openssl/1.1.0-pre5",
-    "Source":         "src/openssl/1.1.0-pre5/openssl-1.1.0-pre5.tar.gz",
+    "Number":         "1.1.0a",
+    "Installed":      "installed/openssl/1.1.0a",
+    "Source":         "src/openssl/1.1.0a/openssl-1.1.0a.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/openssl/1.1.0",
+    "Source":         "src/openssl/1.1.0/openssl-1.1.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0-pre6",
+    "Installed":      "installed/openssl/1.1.0-pre6",
+    "Source":         "src/openssl/1.1.0-pre6/openssl-1.1.0-pre6.tar.gz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
@@ -43,48 +63,24 @@
     "Deleted":        1
   },
   {
-    "Number":         "1.1.0-pre4",
-    "Installed":      "installed/openssl/1.1.0-pre4",
-    "Source":         "src/openssl/1.1.0-pre4/openssl-1.1.0-pre4.tar.gz",
+    "Number":         "1.0.2j",
+    "Installed":      "installed/openssl/1.0.2j",
+    "Source":         "src/openssl/1.0.2j/openssl-1.0.2j.tar.gz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "Deleted":        1
+    "ABIDiff":        "Off"
   },
   {
-    "Number":         "1.1.0-pre3",
-    "Installed":      "installed/openssl/1.1.0-pre3",
-    "Source":         "src/openssl/1.1.0-pre3/openssl-1.1.0-pre3.tar.gz",
+    "Number":         "1.0.2i",
+    "Installed":      "installed/openssl/1.0.2i",
+    "Source":         "src/openssl/1.0.2i/openssl-1.0.2i.tar.gz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "Deleted":        1
-  },
-  {
-    "Number":         "1.1.0-pre2",
-    "Installed":      "installed/openssl/1.1.0-pre2",
-    "Source":         "src/openssl/1.1.0-pre2/openssl-1.1.0-pre2.tar.gz",
-    "Changelog":      "NEWS",
-    "HeadersDiff":    "Off",
-    "PkgDiff":        "Off",
-    "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "Deleted":        1
-  },
-  {
-    "Number":         "1.1.0-pre1",
-    "Installed":      "installed/openssl/1.1.0-pre1",
-    "Source":         "src/openssl/1.1.0-pre1/openssl-1.1.0-pre1.tar.gz",
-    "Changelog":      "NEWS",
-    "HeadersDiff":    "Off",
-    "PkgDiff":        "Off",
-    "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "Deleted":        1
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.0.2h",
@@ -170,6 +166,16 @@
     "Number":         "1.0.2",
     "Installed":      "installed/openssl/1.0.2",
     "Source":         "src/openssl/1.0.2/openssl-1.0.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.1u",
+    "Installed":      "installed/openssl/1.0.1u",
+    "Source":         "src/openssl/1.0.1u/openssl-1.0.1u.tar.gz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

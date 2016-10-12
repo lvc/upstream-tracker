@@ -19,6 +19,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.22.2",
+    "Installed":      "installed/cogl/1.22.2",
+    "Source":         "src/cogl/1.22.2/cogl-1.22.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.22.0",
     "Installed":      "installed/cogl/1.22.0",
     "Source":         "src/cogl/1.22.0/cogl-1.22.0.tar.xz",

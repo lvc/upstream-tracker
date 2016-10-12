@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         3140200,
+    "Installed":      "installed/sqlite/3140200",
+    "Source":         "src/sqlite/3140200/sqlite-src-3140200.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         3140100,
     "Installed":      "installed/sqlite/3140100",
     "Source":         "src/sqlite/3140100/sqlite-src-3140100.zip",

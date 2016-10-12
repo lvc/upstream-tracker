@@ -7,6 +7,16 @@
 
   "Versions": [
   {
+    "Number":         "2.6.3",
+    "Installed":      "installed/libcouchbase/2.6.3",
+    "Source":         "src/libcouchbase/2.6.3/libcouchbase-2.6.3.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.6.2",
     "Installed":      "installed/libcouchbase/2.6.2",
     "Source":         "src/libcouchbase/2.6.2/libcouchbase-2.6.2.tar.gz",

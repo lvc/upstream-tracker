@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "2.56.0",
+    "Installed":      "installed/libsoup/2.56.0",
+    "Source":         "src/libsoup/2.56.0/libsoup-2.56.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.54.1",
     "Installed":      "installed/libsoup/2.54.1",
     "Source":         "src/libsoup/2.54.1/libsoup-2.54.1.tar.xz",

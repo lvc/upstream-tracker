@@ -1,0 +1,220 @@
+{
+  "Name":           "libtasn1",
+  "SourceUrl":      "http://ftp.gnu.org/gnu/libtasn1/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.14",
+
+  "Versions": [
+  {
+    "Number":         "4.9",
+    "Installed":      "installed/libtasn1/4.9",
+    "Source":         "src/libtasn1/4.9/libtasn1-4.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.8",
+    "Installed":      "installed/libtasn1/4.8",
+    "Source":         "src/libtasn1/4.8/libtasn1-4.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.7",
+    "Installed":      "installed/libtasn1/4.7",
+    "Source":         "src/libtasn1/4.7/libtasn1-4.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6",
+    "Installed":      "installed/libtasn1/4.6",
+    "Source":         "src/libtasn1/4.6/libtasn1-4.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5",
+    "Installed":      "installed/libtasn1/4.5",
+    "Source":         "src/libtasn1/4.5/libtasn1-4.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4",
+    "Installed":      "installed/libtasn1/4.4",
+    "Source":         "src/libtasn1/4.4/libtasn1-4.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.3",
+    "Installed":      "installed/libtasn1/4.3",
+    "Source":         "src/libtasn1/4.3/libtasn1-4.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2",
+    "Installed":      "installed/libtasn1/4.2",
+    "Source":         "src/libtasn1/4.2/libtasn1-4.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1",
+    "Installed":      "installed/libtasn1/4.1",
+    "Source":         "src/libtasn1/4.1/libtasn1-4.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0",
+    "Installed":      "installed/libtasn1/4.0",
+    "Source":         "src/libtasn1/4.0/libtasn1-4.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.9",
+    "Installed":      "installed/libtasn1/3.9",
+    "Source":         "src/libtasn1/3.9/libtasn1-3.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.8",
+    "Installed":      "installed/libtasn1/3.8",
+    "Source":         "src/libtasn1/3.8/libtasn1-3.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7",
+    "Installed":      "installed/libtasn1/3.7",
+    "Source":         "src/libtasn1/3.7/libtasn1-3.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6",
+    "Installed":      "installed/libtasn1/3.6",
+    "Source":         "src/libtasn1/3.6/libtasn1-3.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.5",
+    "Installed":      "installed/libtasn1/3.5",
+    "Source":         "src/libtasn1/3.5/libtasn1-3.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.4",
+    "Installed":      "installed/libtasn1/3.4",
+    "Source":         "src/libtasn1/3.4/libtasn1-3.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3",
+    "Installed":      "installed/libtasn1/3.3",
+    "Source":         "src/libtasn1/3.3/libtasn1-3.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2",
+    "Installed":      "installed/libtasn1/3.2",
+    "Source":         "src/libtasn1/3.2/libtasn1-3.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1",
+    "Installed":      "installed/libtasn1/3.1",
+    "Source":         "src/libtasn1/3.1/libtasn1-3.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0",
+    "Installed":      "installed/libtasn1/3.0",
+    "Source":         "src/libtasn1/3.0/libtasn1-3.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.14",
+    "Installed":      "installed/libtasn1/2.14",
+    "Source":         "src/libtasn1/2.14/libtasn1-2.14.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

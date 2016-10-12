@@ -781,6 +781,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "2.24.31",
+    "Installed":      "installed/gtk+/2.24.31",
+    "Source":         "src/gtk+/2.24.31/gtk+-2.24.31.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.24.30",
     "Installed":      "installed/gtk+/2.24.30",
     "Source":         "src/gtk+/2.24.30/gtk+-2.24.30.tar.xz",

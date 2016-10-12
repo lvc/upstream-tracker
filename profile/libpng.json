@@ -7,10 +7,31 @@
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "Changelog":      "Off",
   "HeadersDiff":    "Off",
-  "SkipVersions":   [ ".*beta\d+" ],
+  "SkipVersions":   [ ".*beta\d+", ".*rc\d+" ],
   "UseTUDump":      "1",
 
   "Versions": [
+  {
+    "Number":         "1.6.25",
+    "Installed":      "installed/libpng/1.6.25",
+    "Source":         "src/libpng/1.6.25/libpng-1.6.25.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.25rc01",
+    "Installed":      "installed/libpng/1.6.25rc01",
+    "Source":         "src/libpng/1.6.25rc01/libpng-1.6.25rc01.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
   {
     "Number":         "1.6.24",
     "Installed":      "installed/libpng/1.6.24",

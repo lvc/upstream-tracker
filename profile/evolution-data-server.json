@@ -7,13 +7,34 @@
   "Configure":      "--enable-vala-bindings --disable-gtk --disable-google-auth --disable-uoa --disable-weather",
   "PostInstall":    "rm -fr {INSTALL_TO}/lib/evolution-data-server/",
   "SkipObjects":    [ "evolution-data-server/" ],
+  "GraphShortXTics": "On",
   "HeadersDiff":    "Off",
   "LatestMicro":    "1",
   "Package":        "EVOLUTION_DATA_SERVER_",
   "SkipVersions":   [ ".*_9\d+" ],
-  "GraphShortXTics": "On",
 
   "Versions": [
+  {
+    "Number":         "3_22_1",
+    "Installed":      "installed/evolution-data-server/3_22_1",
+    "Source":         "src/evolution-data-server/3_22_1/EVOLUTION_DATA_SERVER_3_22_1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_22_0",
+    "Installed":      "installed/evolution-data-server/3_22_0",
+    "Source":         "src/evolution-data-server/3_22_0/EVOLUTION_DATA_SERVER_3_22_0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
   {
     "Number":         "3_21_4",
     "Installed":      "installed/evolution-data-server/3_21_4",

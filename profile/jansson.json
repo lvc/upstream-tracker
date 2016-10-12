@@ -1,0 +1,10 @@
+{
+  "Name":           "jansson",
+  "SourceUrl":      "https://github.com/akheron/jansson/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  ]
+}

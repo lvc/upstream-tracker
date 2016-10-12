@@ -29,16 +29,21 @@
 # and the GNU Lesser General Public License along with this program.
 # If not, see <http://www.gnu.org/licenses/>.
 ##################################################################
-use strict;
+use Getopt::Long;
+Getopt::Long::Configure ("posix_default", "no_ignore_case", "permute");
 use File::Basename qw(dirname);
+use strict;
 
 my $Testplan_Init = "scripts/testplan";
 
 my $HostAddr = undef;
 my $HostDir = undef;
 
-my $Target = undef;
+my ($Fast); # 3 times faster but 3 times more web traffic
 
+GetOptions("fast!" => \$Fast) or exit(1);
+
+my $Target = undef;
 if(@ARGV) {
     $Target = $ARGV[0];
 }
@@ -99,9 +104,14 @@ sub sendPackage($)
 sub sendFiles(@)
 {
     my @Files = @_;
-    my $Pkg = "update.package.txz";
     
-    system("tar -cJf $Pkg ".join(" ", @Files)." --exclude='*.json'");
+    my ($Ext, $Opt) = ("txz", "cJf");
+    if(defined $Fast) {
+        ($Ext, $Opt) = ("tgz", "czf");
+    }
+    
+    my $Pkg = "update.package.$Ext";
+    system("tar -$Opt $Pkg ".join(" ", @Files)." --exclude='*.json'");
     
     sendPackage($Pkg);
     unlink($Pkg);

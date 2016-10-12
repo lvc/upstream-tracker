@@ -1,0 +1,111 @@
+{
+  "Name":           "libxslt",
+  "SourceUrl":      "ftp://xmlsoft.org/libxslt/",
+  "SourceUrlDepth": "1",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--without-python",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.1.29",
+    "Installed":      "installed/libxslt/1.1.29",
+    "Source":         "src/libxslt/1.1.29/libxslt-1.1.29.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.28",
+    "Installed":      "installed/libxslt/1.1.28",
+    "Source":         "src/libxslt/1.1.28/libxslt-1.1.28.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.27",
+    "Installed":      "installed/libxslt/1.1.27",
+    "Source":         "src/libxslt/1.1.27/libxslt-1.1.27.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.26",
+    "Installed":      "installed/libxslt/1.1.26",
+    "Source":         "src/libxslt/1.1.26/libxslt-1.1.26.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.25",
+    "Installed":      "installed/libxslt/1.1.25",
+    "Source":         "src/libxslt/1.1.25/libxslt-1.1.25.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.24",
+    "Installed":      "installed/libxslt/1.1.24",
+    "Source":         "src/libxslt/1.1.24/libxslt-1.1.24.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.23",
+    "Installed":      "installed/libxslt/1.1.23",
+    "Source":         "src/libxslt/1.1.23/libxslt-1.1.23.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.22",
+    "Installed":      "installed/libxslt/1.1.22",
+    "Source":         "src/libxslt/1.1.22/libxslt-1.1.22.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.21",
+    "Installed":      "installed/libxslt/1.1.21",
+    "Source":         "src/libxslt/1.1.21/libxslt-1.1.21.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.20",
+    "Installed":      "installed/libxslt/1.1.20",
+    "Source":         "src/libxslt/1.1.20/libxslt-1.1.20.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

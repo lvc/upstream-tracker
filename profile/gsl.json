@@ -8,6 +8,26 @@
 
   "Versions": [
   {
+    "Number":         "2.2.1",
+    "Installed":      "installed/gsl/2.2.1",
+    "Source":         "src/gsl/2.2.1/gsl-2.2.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2",
+    "Installed":      "installed/gsl/2.2",
+    "Source":         "src/gsl/2.2/gsl-2.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.1",
     "Installed":      "installed/gsl/2.1",
     "Source":         "src/gsl/2.1/gsl-2.1.tar.gz",

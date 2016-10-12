@@ -22,6 +22,58 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.5.0-rc2",
+    "Installed":      "installed/libbson/1.5.0-rc2",
+    "Source":         "src/libbson/1.5.0-rc2/libbson-1.5.0-rc2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.0-rc1",
+    "Installed":      "installed/libbson/1.5.0-rc1",
+    "Source":         "src/libbson/1.5.0-rc1/libbson-1.5.0-rc1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.5.0-rc0",
+    "Installed":      "installed/libbson/1.5.0-rc0",
+    "Source":         "src/libbson/1.5.0-rc0/libbson-1.5.0-rc0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.4.2",
+    "Installed":      "installed/libbson/1.4.2",
+    "Source":         "src/libbson/1.4.2/libbson-1.4.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.1",
+    "Installed":      "installed/libbson/1.4.1",
+    "Source":         "src/libbson/1.4.1/libbson-1.4.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.4.0",
     "Installed":      "installed/libbson/1.4.0",
     "Source":         "src/libbson/1.4.0/libbson-1.4.0.tar.gz",

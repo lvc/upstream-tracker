@@ -18,6 +18,26 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "3.1.0",
+    "Installed":      "installed/protobuf/3.1.0",
+    "Source":         "src/protobuf/3.1.0/protobuf-3.1.0.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.2",
+    "Installed":      "installed/protobuf/3.0.2",
+    "Source":         "src/protobuf/3.0.2/protobuf-3.0.2.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.0.0",
     "Installed":      "installed/protobuf/3.0.0",
     "Source":         "src/protobuf/3.0.0/protobuf-3.0.0.tar.gz",

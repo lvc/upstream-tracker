@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         "9.6.0",
+    "Installed":      "installed/postgresql/9.6.0",
+    "Source":         "src/postgresql/9.6.0/postgresql-9.6.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "9.6beta2",
     "Installed":      "installed/postgresql/9.6beta2",
     "Source":         "src/postgresql/9.6beta2/postgresql-9.6beta2.tar.gz",
@@ -18,7 +28,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "9.5.4",

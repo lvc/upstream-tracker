@@ -21,6 +21,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "3.0.2",
+    "Installed":      "installed/mongo-cxx-driver/3.0.2",
+    "Source":         "src/mongo-cxx-driver/3.0.2/r3.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.0.1",
     "Installed":      "installed/mongo-cxx-driver/3.0.1",
     "Source":         "src/mongo-cxx-driver/3.0.1/r3.0.1.tar.gz",

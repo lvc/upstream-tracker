@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "0.167",
+    "Installed":      "installed/elfutils/0.167",
+    "Source":         "src/elfutils/0.167/elfutils-0.167.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.166",
     "Installed":      "installed/elfutils/0.166",
     "Source":         "src/elfutils/0.166/elfutils-0.166.tar.bz2",

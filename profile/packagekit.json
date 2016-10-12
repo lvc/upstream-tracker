@@ -21,6 +21,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.1.4",
+    "Installed":      "installed/packagekit/1.1.4",
+    "Source":         "src/packagekit/1.1.4/PackageKit-1.1.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.1.3",
     "Installed":      "installed/packagekit/1.1.3",
     "Source":         "src/packagekit/1.1.3/PackageKit-1.1.3.tar.xz",

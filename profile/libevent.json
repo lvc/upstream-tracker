@@ -1,0 +1,213 @@
+{
+  "Name":           "libevent",
+  "SourceUrl":      "https://github.com/libevent/libevent/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "PreInstall":     "sed -i -e 's/\$(top_srcdir)\/test\///' test/Makefile.am",
+  "HeadersDiff":    "Off",
+  "Package":        "release-",
+  "ReleasePattern": "\A([\d\-\.\_]+)(|\-beta|\-rc|\-stable)\Z",
+
+  "Versions": [
+  {
+    "Number":         "2.1.6",
+    "Installed":      "installed/libevent/2.1.6",
+    "Source":         "src/libevent/2.1.6/release-2.1.6-beta.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.5",
+    "Installed":      "installed/libevent/2.1.5",
+    "Source":         "src/libevent/2.1.5/release-2.1.5-beta.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.22",
+    "Installed":      "installed/libevent/2.0.22",
+    "Source":         "src/libevent/2.0.22/release-2.0.22-stable.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.21",
+    "Installed":      "installed/libevent/2.0.21",
+    "Source":         "src/libevent/2.0.21/release-2.0.21-stable.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.20",
+    "Installed":      "installed/libevent/2.0.20",
+    "Source":         "src/libevent/2.0.20/release-2.0.20-stable.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.19",
+    "Installed":      "installed/libevent/2.0.19",
+    "Source":         "src/libevent/2.0.19/release-2.0.19-stable.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.18",
+    "Installed":      "installed/libevent/2.0.18",
+    "Source":         "src/libevent/2.0.18/release-2.0.18-stable.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.17",
+    "Installed":      "installed/libevent/2.0.17",
+    "Source":         "src/libevent/2.0.17/release-2.0.17-stable.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.16",
+    "Installed":      "installed/libevent/2.0.16",
+    "Source":         "src/libevent/2.0.16/release-2.0.16-stable.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.15",
+    "Installed":      "installed/libevent/2.0.15",
+    "Source":         "src/libevent/2.0.15/release-2.0.15-stable.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.14",
+    "Installed":      "installed/libevent/2.0.14",
+    "Source":         "src/libevent/2.0.14/release-2.0.14-stable.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.13",
+    "Installed":      "installed/libevent/2.0.13",
+    "Source":         "src/libevent/2.0.13/release-2.0.13-stable.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.12",
+    "Installed":      "installed/libevent/2.0.12",
+    "Source":         "src/libevent/2.0.12/release-2.0.12-stable.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.11",
+    "Installed":      "installed/libevent/2.0.11",
+    "Source":         "src/libevent/2.0.11/release-2.0.11-stable.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.10",
+    "Installed":      "installed/libevent/2.0.10",
+    "Source":         "src/libevent/2.0.10/release-2.0.10-stable.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.9",
+    "Installed":      "installed/libevent/2.0.9",
+    "Source":         "src/libevent/2.0.9/release-2.0.9-rc.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.8",
+    "Installed":      "installed/libevent/2.0.8",
+    "Source":         "src/libevent/2.0.8/release-2.0.8-rc.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.7",
+    "Installed":      "installed/libevent/2.0.7",
+    "Source":         "src/libevent/2.0.7/release-2.0.7-rc.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.6",
+    "Installed":      "installed/libevent/2.0.6",
+    "Source":         "src/libevent/2.0.6/release-2.0.6-rc.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.15",
+    "Installed":      "installed/libevent/1.4.15",
+    "Source":         "src/libevent/1.4.15/release-1.4.15-stable.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}
