@@ -1,0 +1,103 @@
+{
+  "Name":           "libcxxabi",
+  "Title":          "libc++abi",
+  "SourceUrl":      "http://llvm.org/releases/download.html",
+  "Svn":            "http://llvm.org/svn/llvm-project/libcxxabi/trunk/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DLIBCXXABI_LIBCXX_INCLUDES={INSTALL_ROOT}/libcxx/{VERSION}/include/c++/v1 -DLLVM_CONFIG_PATH=/home/Soft/LLVM-3.8.1/bin/llvm-config",
+  "PostInstall":    "cp -fr include {INSTALL_TO}/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/libcxxabi/current",
+    "Source":         "src/libcxxabi/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.9.0",
+    "Installed":      "installed/libcxxabi/3.9.0",
+    "Source":         "src/libcxxabi/3.9.0/libcxxabi-3.9.0.src.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.8.1",
+    "Installed":      "installed/libcxxabi/3.8.1",
+    "Source":         "src/libcxxabi/3.8.1/libcxxabi-3.8.1.src.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.8.0",
+    "Installed":      "installed/libcxxabi/3.8.0",
+    "Source":         "src/libcxxabi/3.8.0/libcxxabi-3.8.0.src.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7.1",
+    "Installed":      "installed/libcxxabi/3.7.1",
+    "Source":         "src/libcxxabi/3.7.1/libcxxabi-3.7.1.src.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7.0",
+    "Installed":      "installed/libcxxabi/3.7.0",
+    "Source":         "src/libcxxabi/3.7.0/libcxxabi-3.7.0.src.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.2",
+    "Installed":      "installed/libcxxabi/3.6.2",
+    "Source":         "src/libcxxabi/3.6.2/libcxxabi-3.6.2.src.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.1",
+    "Installed":      "installed/libcxxabi/3.6.1",
+    "Source":         "src/libcxxabi/3.6.1/libcxxabi-3.6.1.src.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.0",
+    "Installed":      "installed/libcxxabi/3.6.0",
+    "Source":         "src/libcxxabi/3.6.0/libcxxabi-3.6.0.src.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}
