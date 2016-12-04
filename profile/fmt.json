@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "3.0.1",
+    "Installed":      "installed/fmt/3.0.1",
+    "Source":         "src/fmt/3.0.1/fmt-3.0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.0.0",
     "Installed":      "installed/fmt/3.0.0",
     "Source":         "src/fmt/3.0.0/fmt-3.0.0.tar.gz",

@@ -1,0 +1,22 @@
+{
+  "Name":           "c-ares",
+  "SourceUrl":      "https://github.com/c-ares/c-ares/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-debug --enable-optimize='-Og -g'",
+  "PreInstall":     "sed -i -e 's/-O2/-Og -g/' m4/cares-compilers.m4",
+  "HeadersDiff":    "Off",
+  "Package":        "cares",
+
+  "Versions": [
+  {
+    "Number":         "1_12_0",
+    "Installed":      "installed/c-ares/1_12_0",
+    "Source":         "src/c-ares/1_12_0/cares-1_12_0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,150 @@
+{
+  "Name":           "efivar",
+  "SourceUrl":      "https://github.com/rhinstaller/efivar/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/efivar.sh",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         30,
+    "Installed":      "installed/efivar/30",
+    "Source":         "src/efivar/30/efivar-30.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         29,
+    "Installed":      "installed/efivar/29",
+    "Source":         "src/efivar/29/efivar-29.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         28,
+    "Installed":      "installed/efivar/28",
+    "Source":         "src/efivar/28/efivar-28.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         27,
+    "Installed":      "installed/efivar/27",
+    "Source":         "src/efivar/27/efivar-27.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         26,
+    "Installed":      "installed/efivar/26",
+    "Source":         "src/efivar/26/efivar-26.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         25,
+    "Installed":      "installed/efivar/25",
+    "Source":         "src/efivar/25/efivar-25.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.24",
+    "Installed":      "installed/efivar/0.24",
+    "Source":         "src/efivar/0.24/efivar-0.24.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.23",
+    "Installed":      "installed/efivar/0.23",
+    "Source":         "src/efivar/0.23/efivar-0.23.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.22",
+    "Installed":      "installed/efivar/0.22",
+    "Source":         "src/efivar/0.22/efivar-0.22.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.15",
+    "Installed":      "installed/efivar/0.15",
+    "Source":         "src/efivar/0.15/efivar-0.15.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14",
+    "Installed":      "installed/efivar/0.14",
+    "Source":         "src/efivar/0.14/efivar-0.14.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13",
+    "Installed":      "installed/efivar/0.13",
+    "Source":         "src/efivar/0.13/efivar-0.13.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.12",
+    "Installed":      "installed/efivar/0.12",
+    "Source":         "src/efivar/0.12/efivar-0.12.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11",
+    "Installed":      "installed/efivar/0.11",
+    "Source":         "src/efivar/0.11/efivar-0.11.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

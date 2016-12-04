@@ -18,6 +18,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.3.3",
+    "Installed":      "installed/harfbuzz/1.3.3",
+    "Source":         "src/harfbuzz/1.3.3/harfbuzz-1.3.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.3.2",
     "Installed":      "installed/harfbuzz/1.3.2",
     "Source":         "src/harfbuzz/1.3.2/harfbuzz-1.3.2.tar.bz2",

@@ -5,7 +5,7 @@
   "Svn":            "http://llvm.org/svn/llvm-project/libcxx/trunk/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "HeadersDiff":    "Off",
+  "HeadersDiff":    "On",
 
   "Versions": [
   {
@@ -13,7 +13,7 @@
     "Installed":      "installed/libcxx/current",
     "Source":         "src/libcxx/current",
     "Changelog":      "On",
-    "HeadersDiff":    "Off",
+    "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -23,7 +23,7 @@
     "Installed":      "installed/libcxx/3.9.0",
     "Source":         "src/libcxx/3.9.0/libcxx-3.9.0.src.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "Off",
+    "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -33,7 +33,7 @@
     "Installed":      "installed/libcxx/3.8.1",
     "Source":         "src/libcxx/3.8.1/libcxx-3.8.1.src.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "Off",
+    "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -43,7 +43,7 @@
     "Installed":      "installed/libcxx/3.8.0",
     "Source":         "src/libcxx/3.8.0/libcxx-3.8.0.src.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "Off",
+    "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -53,7 +53,7 @@
     "Installed":      "installed/libcxx/3.7.1",
     "Source":         "src/libcxx/3.7.1/libcxx-3.7.1.src.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "Off",
+    "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -63,7 +63,7 @@
     "Installed":      "installed/libcxx/3.7.0",
     "Source":         "src/libcxx/3.7.0/libcxx-3.7.0.src.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "Off",
+    "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -73,7 +73,7 @@
     "Installed":      "installed/libcxx/3.6.2",
     "Source":         "src/libcxx/3.6.2/libcxx-3.6.2.src.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "Off",
+    "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -83,7 +83,7 @@
     "Installed":      "installed/libcxx/3.6.1",
     "Source":         "src/libcxx/3.6.1/libcxx-3.6.1.src.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "Off",
+    "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -93,7 +93,7 @@
     "Installed":      "installed/libcxx/3.6.0",
     "Source":         "src/libcxx/3.6.0/libcxx-3.6.0.src.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "Off",
+    "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -103,7 +103,7 @@
     "Installed":      "installed/libcxx/3.5.2",
     "Source":         "src/libcxx/3.5.2/libcxx-3.5.2.src.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "Off",
+    "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -113,7 +113,7 @@
     "Installed":      "installed/libcxx/3.5.1",
     "Source":         "src/libcxx/3.5.1/libcxx-3.5.1.src.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "Off",
+    "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -123,7 +123,7 @@
     "Installed":      "installed/libcxx/3.5.0",
     "Source":         "src/libcxx/3.5.0/libcxx-3.5.0.src.tar.xz",
     "Changelog":      "Off",
-    "HeadersDiff":    "Off",
+    "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -133,7 +133,7 @@
     "Installed":      "installed/libcxx/3.4.2",
     "Source":         "src/libcxx/3.4.2/libcxx-3.4.2.src.tar.gz",
     "Changelog":      "Off",
-    "HeadersDiff":    "Off",
+    "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -143,7 +143,7 @@
     "Installed":      "installed/libcxx/3.4",
     "Source":         "src/libcxx/3.4/libcxx-3.4.src.tar.gz",
     "Changelog":      "Off",
-    "HeadersDiff":    "Off",
+    "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -153,7 +153,7 @@
     "Installed":      "installed/libcxx/3.3",
     "Source":         "src/libcxx/3.3/libcxx-3.3.src.tar.gz",
     "Changelog":      "Off",
-    "HeadersDiff":    "Off",
+    "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"

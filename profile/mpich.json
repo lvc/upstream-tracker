@@ -23,6 +23,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "3.3a2",
+    "Installed":      "installed/mpich/3.3a2",
+    "Source":         "src/mpich/3.3a2/mpich-3.3a2.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.3a1",
     "Installed":      "installed/mpich/3.3a1",
     "Source":         "src/mpich/3.3a1/mpich-3.3a1.tar.gz",
@@ -30,7 +40,8 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "3.2",

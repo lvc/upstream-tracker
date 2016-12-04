@@ -13,6 +13,16 @@
 
   "Versions": [
   {
+    "Number":         "2.4.0-preview3",
+    "Installed":      "installed/ruby/2.4.0-preview3",
+    "Source":         "src/ruby/2.4.0-preview3/ruby-2.4.0-preview3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.4.0-preview2",
     "Installed":      "installed/ruby/2.4.0-preview2",
     "Source":         "src/ruby/2.4.0-preview2/ruby-2.4.0-preview2.tar.xz",
@@ -20,7 +30,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "2.4.0-preview1",
@@ -32,6 +43,26 @@
     "ABIView":        "Off",
     "ABIDiff":        "Off",
     "Deleted":        1
+  },
+  {
+    "Number":         "2.3.3",
+    "Installed":      "installed/ruby/2.3.3",
+    "Source":         "src/ruby/2.3.3/ruby-2.3.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.2",
+    "Installed":      "installed/ruby/2.3.2",
+    "Source":         "src/ruby/2.3.2/ruby-2.3.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.3.1",
@@ -47,6 +78,16 @@
     "Number":         "2.3.0",
     "Installed":      "installed/ruby/2.3.0",
     "Source":         "src/ruby/2.3.0/ruby-2.3.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.6",
+    "Installed":      "installed/ruby/2.2.6",
+    "Source":         "src/ruby/2.2.6/ruby-2.2.6.tar.xz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

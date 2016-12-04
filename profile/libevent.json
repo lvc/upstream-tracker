@@ -4,12 +4,22 @@
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "BuildSystem":    "Autotools",
-  "PreInstall":     "sed -i -e 's/\$(top_srcdir)\/test\///' test/Makefile.am",
   "HeadersDiff":    "Off",
   "Package":        "release-",
+  "PreInstall_Old": "sed -i -e 's/\$(top_srcdir)\/test\///' test/Makefile.am",
   "ReleasePattern": "\A([\d\-\.\_]+)(|\-beta|\-rc|\-stable)\Z",
 
   "Versions": [
+  {
+    "Number":         "2.1.7",
+    "Installed":      "installed/libevent/2.1.7",
+    "Source":         "src/libevent/2.1.7/release-2.1.7-rc.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "2.1.6",
     "Installed":      "installed/libevent/2.1.6",

@@ -1,0 +1,93 @@
+{
+  "Name":           "boost",
+  "Title":          "Boost",
+  "SourceUrl":      "https://sourceforge.net/projects/boost/files/boost/",
+  "SkipUrl":        [ ".*beta.*" ],
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/boost.sh",
+  "HeadersDiff":    "Off",
+  "GraphShortXTics": "On",
+
+  "Versions": [
+  {
+    "Number":         "1_62_0",
+    "Installed":      "installed/boost/1_62_0",
+    "Source":         "src/boost/1_62_0/boost_1_62_0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_61_0",
+    "Installed":      "installed/boost/1_61_0",
+    "Source":         "src/boost/1_61_0/boost_1_61_0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_60_0",
+    "Installed":      "installed/boost/1_60_0",
+    "Source":         "src/boost/1_60_0/boost_1_60_0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_59_0",
+    "Installed":      "installed/boost/1_59_0",
+    "Source":         "src/boost/1_59_0/boost_1_59_0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_58_0",
+    "Installed":      "installed/boost/1_58_0",
+    "Source":         "src/boost/1_58_0/boost_1_58_0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_57_0",
+    "Installed":      "installed/boost/1_57_0",
+    "Source":         "src/boost/1_57_0/boost_1_57_0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_56_0",
+    "Installed":      "installed/boost/1_56_0",
+    "Source":         "src/boost/1_56_0/boost_1_56_0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_55_0",
+    "Installed":      "installed/boost/1_55_0",
+    "Source":         "src/boost/1_55_0/boost_1_55_0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

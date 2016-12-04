@@ -22,6 +22,49 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.5.0",
+    "Installed":      "installed/libbson/1.5.0",
+    "Source":         "src/libbson/1.5.0/libbson-1.5.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.0-rc6",
+    "Installed":      "installed/libbson/1.5.0-rc6",
+    "Source":         "src/libbson/1.5.0-rc6/libbson-1.5.0-rc6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.5.0-rc4",
+    "Installed":      "installed/libbson/1.5.0-rc4",
+    "Source":         "src/libbson/1.5.0-rc4/libbson-1.5.0-rc4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.5.0-rc3",
+    "Installed":      "installed/libbson/1.5.0-rc3",
+    "Source":         "src/libbson/1.5.0-rc3/libbson-1.5.0-rc3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "1.5.0-rc2",
     "Installed":      "installed/libbson/1.5.0-rc2",
     "Source":         "src/libbson/1.5.0-rc2/libbson-1.5.0-rc2.tar.gz",
@@ -29,7 +72,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "1.5.0-rc1",
@@ -93,6 +137,16 @@
     "ABIView":        "Off",
     "ABIDiff":        "Off",
     "Deleted":        1
+  },
+  {
+    "Number":         "1.3.6",
+    "Installed":      "installed/libbson/1.3.6",
+    "Source":         "src/libbson/1.3.6/libbson-1.3.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.3.5",

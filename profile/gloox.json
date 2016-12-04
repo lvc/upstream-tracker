@@ -7,6 +7,16 @@
 
   "Versions": [
   {
+    "Number":         "1.0.18",
+    "Installed":      "installed/gloox/1.0.18",
+    "Source":         "src/gloox/1.0.18/gloox-1.0.18.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.0.17",
     "Installed":      "installed/gloox/1.0.17",
     "Source":         "src/gloox/1.0.17/gloox-1.0.17.tar.bz2",

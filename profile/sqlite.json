@@ -11,6 +11,36 @@
 
   "Versions": [
   {
+    "Number":         3150200,
+    "Installed":      "installed/sqlite/3150200",
+    "Source":         "src/sqlite/3150200/sqlite-src-3150200.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3150100,
+    "Installed":      "installed/sqlite/3150100",
+    "Source":         "src/sqlite/3150100/sqlite-src-3150100.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3150000,
+    "Installed":      "installed/sqlite/3150000",
+    "Source":         "src/sqlite/3150000/sqlite-src-3150000.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         3140200,
     "Installed":      "installed/sqlite/3140200",
     "Source":         "src/sqlite/3140200/sqlite-src-3140200.zip",

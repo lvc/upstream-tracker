@@ -19,6 +19,27 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "2.29",
+    "Installed":      "installed/util-linux/2.29",
+    "Source":         "src/util-linux/2.29/util-linux-2.29.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.29-rc2",
+    "Installed":      "installed/util-linux/2.29-rc2",
+    "Source":         "src/util-linux/2.29-rc2/util-linux-2.29-rc2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "2.29-rc1",
     "Installed":      "installed/util-linux/2.29-rc1",
     "Source":         "src/util-linux/2.29-rc1/util-linux-2.29-rc1.tar.xz",
@@ -26,7 +47,8 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "2.28",

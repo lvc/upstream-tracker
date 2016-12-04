@@ -12,9 +12,29 @@
 
   "Versions": [
   {
+    "Number":         "4.7.1",
+    "Installed":      "installed/xen/4.7.1",
+    "Source":         "src/xen/4.7.1/xen-4.7.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "4.7.0",
     "Installed":      "installed/xen/4.7.0",
     "Source":         "src/xen/4.7.0/xen-4.7.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.4",
+    "Installed":      "installed/xen/4.6.4",
+    "Source":         "src/xen/4.6.4/xen-4.6.4.tar.gz",
     "Changelog":      "Off",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

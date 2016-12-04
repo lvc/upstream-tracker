@@ -5,10 +5,21 @@
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "BuildSystem":    "Autotools",
+  "Configure":      "--disable-video-wayland",
   "HeadersDiff":    "Off",
   "Package":        "SDL2",
 
   "Versions": [
+  {
+    "Number":         "2.0.5",
+    "Installed":      "installed/sdl/2.0.5",
+    "Source":         "src/sdl/2.0.5/SDL2-2.0.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "2.0.4",
     "Installed":      "installed/sdl/2.0.4",

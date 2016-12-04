@@ -4,9 +4,10 @@
   "SourceUrl":      "https://github.com/GNOME/evolution-data-server/tags",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--enable-vala-bindings --disable-gtk --disable-google-auth --disable-uoa --disable-weather",
+  "Configure":      "-DENABLE_VALA_BINDINGS=OFF -DENABLE_GTK_DOC=OFF -DENABLE_GTK=OFF -DENABLE_GOOGLE_AUTH=OFF -DENABLE_UOA=OFF -DENABLE_WEATHER=OFF",
   "PostInstall":    "rm -fr {INSTALL_TO}/lib/evolution-data-server/",
   "SkipObjects":    [ "evolution-data-server/" ],
+  "Configure1":     "--enable-vala-bindings --disable-gtk --disable-google-auth --disable-uoa --disable-weather",
   "GraphShortXTics": "On",
   "HeadersDiff":    "Off",
   "LatestMicro":    "1",
@@ -14,6 +15,27 @@
   "SkipVersions":   [ ".*_9\d+" ],
 
   "Versions": [
+  {
+    "Number":         "3_23_2",
+    "Installed":      "installed/evolution-data-server/3_23_2",
+    "Source":         "src/evolution-data-server/3_23_2/EVOLUTION_DATA_SERVER_3_23_2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_23_1",
+    "Installed":      "installed/evolution-data-server/3_23_1",
+    "Source":         "src/evolution-data-server/3_23_1/EVOLUTION_DATA_SERVER_3_23_1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
   {
     "Number":         "3_22_1",
     "Installed":      "installed/evolution-data-server/3_22_1",

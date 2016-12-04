@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "2.4.2",
+    "Installed":      "installed/corosync/2.4.2",
+    "Source":         "src/corosync/2.4.2/corosync-2.4.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.4.1",
     "Installed":      "installed/corosync/2.4.1",
     "Source":         "src/corosync/2.4.1/corosync-2.4.1.tar.gz",

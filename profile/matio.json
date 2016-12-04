@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "1.5.9",
+    "Installed":      "installed/matio/1.5.9",
+    "Source":         "src/matio/1.5.9/matio-1.5.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.5.8",
     "Installed":      "installed/matio/1.5.8",
     "Source":         "src/matio/1.5.8/matio-1.5.8.tar.gz",

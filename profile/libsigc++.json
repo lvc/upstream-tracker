@@ -4,7 +4,7 @@
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "BuildSystem":    "Autotools",
-  "Configure":      "CXX=/home/andrey/Software/GCC-5.1/bin/g++",
+  "Configure":      "CXX=/home/Soft/GCC-5.1/bin/g++",
   "SkipInternalSymbols": "_ZN4sigc8internal.*|_ZNK4sigc8internal.*",
   "SkipInternalTypes": "sigc::internal::",
   "HeadersDiff":    "Off",

@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "0.12.10",
+    "Installed":      "installed/gupnp-av/0.12.10",
+    "Source":         "src/gupnp-av/0.12.10/gupnp-av-0.12.10.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.12.9",
     "Installed":      "installed/gupnp-av/0.12.9",
     "Source":         "src/gupnp-av/0.12.9/gupnp-av-0.12.9.tar.xz",

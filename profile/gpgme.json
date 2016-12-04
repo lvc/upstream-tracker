@@ -9,6 +9,26 @@
 
   "Versions": [
   {
+    "Number":         "1.8.0",
+    "Installed":      "installed/gpgme/1.8.0",
+    "Source":         "src/gpgme/1.8.0/gpgme-1.8.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.1",
+    "Installed":      "installed/gpgme/1.7.1",
+    "Source":         "src/gpgme/1.7.1/gpgme-1.7.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.7.0",
     "Installed":      "installed/gpgme/1.7.0",
     "Source":         "src/gpgme/1.7.0/gpgme-1.7.0.tar.bz2",

@@ -20,6 +20,26 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "0.25.0-rc1",
+    "Installed":      "installed/libgit2/0.25.0-rc1",
+    "Source":         "src/libgit2/0.25.0-rc1/libgit2-0.25.0-rc1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.24.3",
+    "Installed":      "installed/libgit2/0.24.3",
+    "Source":         "src/libgit2/0.24.3/libgit2-0.24.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.24.2",
     "Installed":      "installed/libgit2/0.24.2",
     "Source":         "src/libgit2/0.24.2/libgit2-0.24.2.tar.gz",

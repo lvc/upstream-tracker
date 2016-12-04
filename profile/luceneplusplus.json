@@ -1,0 +1,51 @@
+{
+  "Name":           "luceneplusplus",
+  "Title":          "Lucene++",
+  "SourceUrl":      "https://github.com/luceneplusplus/LucenePlusPlus/releases",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "Package":        "rel_",
+
+  "Versions": [
+  {
+    "Number":         "3.0.7",
+    "Installed":      "installed/luceneplusplus/3.0.7",
+    "Source":         "src/luceneplusplus/3.0.7/rel_3.0.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.6",
+    "Installed":      "installed/luceneplusplus/3.0.6",
+    "Source":         "src/luceneplusplus/3.0.6/rel_3.0.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.5",
+    "Installed":      "installed/luceneplusplus/3.0.5",
+    "Source":         "src/luceneplusplus/3.0.5/rel_3.0.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.4",
+    "Installed":      "installed/luceneplusplus/3.0.4",
+    "Source":         "src/luceneplusplus/3.0.4/rel_3.0.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

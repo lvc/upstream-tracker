@@ -6,6 +6,7 @@
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "BuildScript":    "build_script/mbedtls.sh",
+  "HeadersDiff":    "Off",
 
   "Versions": [
   {
@@ -13,7 +14,17 @@
     "Installed":      "installed/mbedtls/current",
     "Source":         "src/mbedtls/current",
     "Changelog":      "On",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.0",
+    "Installed":      "installed/mbedtls/2.4.0",
+    "Source":         "src/mbedtls/2.4.0/mbedtls-2.4.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -23,7 +34,7 @@
     "Installed":      "installed/mbedtls/2.3.0",
     "Source":         "src/mbedtls/2.3.0/mbedtls-2.3.0.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -33,7 +44,7 @@
     "Installed":      "installed/mbedtls/2.2.1",
     "Source":         "src/mbedtls/2.2.1/mbedtls-2.2.1.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -43,7 +54,17 @@
     "Installed":      "installed/mbedtls/2.2.0",
     "Source":         "src/mbedtls/2.2.0/mbedtls-2.2.0.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.6",
+    "Installed":      "installed/mbedtls/2.1.6",
+    "Source":         "src/mbedtls/2.1.6/mbedtls-2.1.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -53,7 +74,7 @@
     "Installed":      "installed/mbedtls/2.1.5",
     "Source":         "src/mbedtls/2.1.5/mbedtls-2.1.5.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -63,7 +84,7 @@
     "Installed":      "installed/mbedtls/2.1.4",
     "Source":         "src/mbedtls/2.1.4/mbedtls-2.1.4.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -73,7 +94,7 @@
     "Installed":      "installed/mbedtls/2.1.3",
     "Source":         "src/mbedtls/2.1.3/mbedtls-2.1.3.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -83,7 +104,7 @@
     "Installed":      "installed/mbedtls/2.1.2",
     "Source":         "src/mbedtls/2.1.2/mbedtls-2.1.2.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -93,7 +114,7 @@
     "Installed":      "installed/mbedtls/2.1.1",
     "Source":         "src/mbedtls/2.1.1/mbedtls-2.1.1.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -103,7 +124,7 @@
     "Installed":      "installed/mbedtls/2.1.0",
     "Source":         "src/mbedtls/2.1.0/mbedtls-2.1.0.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -113,7 +134,17 @@
     "Installed":      "installed/mbedtls/2.0.0",
     "Source":         "src/mbedtls/2.0.0/mbedtls-2.0.0.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.18",
+    "Installed":      "installed/mbedtls/1.3.18",
+    "Source":         "src/mbedtls/1.3.18/mbedtls-1.3.18.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -123,7 +154,7 @@
     "Installed":      "installed/mbedtls/1.3.17",
     "Source":         "src/mbedtls/1.3.17/mbedtls-1.3.17.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -133,7 +164,7 @@
     "Installed":      "installed/mbedtls/1.3.16",
     "Source":         "src/mbedtls/1.3.16/mbedtls-1.3.16.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -143,7 +174,7 @@
     "Installed":      "installed/mbedtls/1.3.15",
     "Source":         "src/mbedtls/1.3.15/mbedtls-1.3.15.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -153,7 +184,7 @@
     "Installed":      "installed/mbedtls/1.3.14",
     "Source":         "src/mbedtls/1.3.14/mbedtls-1.3.14.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -163,7 +194,7 @@
     "Installed":      "installed/mbedtls/1.3.13",
     "Source":         "src/mbedtls/1.3.13/mbedtls-1.3.13.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -173,7 +204,7 @@
     "Installed":      "installed/mbedtls/1.3.12",
     "Source":         "src/mbedtls/1.3.12/mbedtls-1.3.12.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
@@ -183,7 +214,7 @@
     "Installed":      "installed/mbedtls/1.3.11",
     "Source":         "src/mbedtls/1.3.11/mbedtls-1.3.11.tar.gz",
     "Changelog":      "ChangeLog",
-    "HeadersDiff":    "On",
+    "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"

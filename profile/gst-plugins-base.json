@@ -24,6 +24,36 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.10.2",
+    "Installed":      "installed/gst-plugins-base/1.10.2",
+    "Source":         "src/gst-plugins-base/1.10.2/gst-plugins-base-1.10.2.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.1",
+    "Installed":      "installed/gst-plugins-base/1.10.1",
+    "Source":         "src/gst-plugins-base/1.10.1/gst-plugins-base-1.10.1.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.0",
+    "Installed":      "installed/gst-plugins-base/1.10.0",
+    "Source":         "src/gst-plugins-base/1.10.0/gst-plugins-base-1.10.0.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.9.90",
     "Installed":      "installed/gst-plugins-base/1.9.90",
     "Source":         "src/gst-plugins-base/1.9.90/gst-plugins-base-1.9.90.tar.xz",

@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "1.9.5",
+    "Installed":      "installed/subversion/1.9.5",
+    "Source":         "src/subversion/1.9.5/subversion-1.9.5.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.9.4",
     "Installed":      "installed/subversion/1.9.4",
     "Source":         "src/subversion/1.9.4/subversion-1.9.4.tar.gz",
@@ -43,6 +53,16 @@
     "Number":         "1.9.0",
     "Installed":      "installed/subversion/1.9.0",
     "Source":         "src/subversion/1.9.0/subversion-1.9.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.17",
+    "Installed":      "installed/subversion/1.8.17",
+    "Source":         "src/subversion/1.8.17/subversion-1.8.17.tar.gz",
     "Changelog":      "CHANGES",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

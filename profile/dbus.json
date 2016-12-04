@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         "1.11.8",
+    "Installed":      "installed/dbus/1.11.8",
+    "Source":         "src/dbus/1.11.8/dbus-1.11.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.11.6",
     "Installed":      "installed/dbus/1.11.6",
     "Source":         "src/dbus/1.11.6/dbus-1.11.6.tar.gz",
@@ -44,6 +54,16 @@
     "Number":         "1.11.0",
     "Installed":      "installed/dbus/1.11.0",
     "Source":         "src/dbus/1.11.0/dbus-1.11.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.14",
+    "Installed":      "installed/dbus/1.10.14",
+    "Source":         "src/dbus/1.10.14/dbus-1.10.14.tar.gz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

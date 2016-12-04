@@ -1,0 +1,62 @@
+{
+  "Name":           "libmtp",
+  "SourceUrl":      "https://sourceforge.net/projects/libmtp/files/libmtp/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-udev={INSTALL_TO}/udev",
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.0.0",
+
+  "Versions": [
+  {
+    "Number":         "1.1.12",
+    "Installed":      "installed/libmtp/1.1.12",
+    "Source":         "src/libmtp/1.1.12/libmtp-1.1.12.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.11",
+    "Installed":      "installed/libmtp/1.1.11",
+    "Source":         "src/libmtp/1.1.11/libmtp-1.1.11.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.10",
+    "Installed":      "installed/libmtp/1.1.10",
+    "Source":         "src/libmtp/1.1.10/libmtp-1.1.10.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.9",
+    "Installed":      "installed/libmtp/1.1.9",
+    "Source":         "src/libmtp/1.1.9/libmtp-1.1.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.8",
+    "Installed":      "installed/libmtp/1.1.8",
+    "Source":         "src/libmtp/1.1.8/libmtp-1.1.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

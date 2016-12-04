@@ -7,6 +7,16 @@
 
   "Versions": [
   {
+    "Number":         "1.8.0",
+    "Installed":      "installed/libssh2/1.8.0",
+    "Source":         "src/libssh2/1.8.0/libssh2-1.8.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.7.0",
     "Installed":      "installed/libssh2/1.7.0",
     "Source":         "src/libssh2/1.7.0/libssh2-1.7.0.tar.gz",

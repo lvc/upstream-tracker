@@ -12,6 +12,16 @@
 
   "Versions": [
   {
+    "Number":         "1.6.26",
+    "Installed":      "installed/libpng/1.6.26",
+    "Source":         "src/libpng/1.6.26/libpng-1.6.26.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.6.25",
     "Installed":      "installed/libpng/1.6.25",
     "Source":         "src/libpng/1.6.25/libpng-1.6.25.tar.xz",

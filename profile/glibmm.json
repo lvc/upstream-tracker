@@ -4,11 +4,41 @@
   "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/glibmm/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/glib/2.49.1/lib/pkgconfig:{INSTALL_ROOT}/libsigc++/2.9.2/lib/pkgconfig",
+  "Configure":      "CXX=/home/Soft/GCC-5.1/bin/g++ PKG_CONFIG_PATH={INSTALL_ROOT}/glib/2.51.0/lib/pkgconfig:{INSTALL_ROOT}/libsigc++/2.99.7/lib/pkgconfig",
   "SkipHeaders":    [ ".*_p\.h" ],
   "HeadersDiff":    "Off",
 
   "Versions": [
+  {
+    "Number":         "2.51.1",
+    "Installed":      "installed/glibmm/2.51.1",
+    "Source":         "src/glibmm/2.51.1/glibmm-2.51.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.50.0",
+    "Installed":      "installed/glibmm/2.50.0",
+    "Source":         "src/glibmm/2.50.0/glibmm-2.50.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.49.7",
+    "Installed":      "installed/glibmm/2.49.7",
+    "Source":         "src/glibmm/2.49.7/glibmm-2.49.7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "2.49.5",
     "Installed":      "installed/glibmm/2.49.5",

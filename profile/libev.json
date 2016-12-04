@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "4.23",
+    "Installed":      "installed/libev/4.23",
+    "Source":         "src/libev/4.23/libev-4.23.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "4.22",
     "Installed":      "installed/libev/4.22",
     "Source":         "src/libev/4.22/libev-4.22.tar.gz",

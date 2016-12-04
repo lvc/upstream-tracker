@@ -9,6 +9,26 @@
 
   "Versions": [
   {
+    "Number":         "1.10.1",
+    "Installed":      "installed/libuv/1.10.1",
+    "Source":         "src/libuv/1.10.1/node-1.10.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.0",
+    "Installed":      "installed/libuv/1.10.0",
+    "Source":         "src/libuv/1.10.0/node-1.10.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.9.1",
     "Installed":      "installed/libuv/1.9.1",
     "Source":         "src/libuv/1.9.1/node-1.9.1.tar.gz",

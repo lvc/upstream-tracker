@@ -5,7 +5,7 @@
   "Git":            "https://git.enlightenment.org/core/elementary.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/efl/{VERSION}/lib/pkgconfig/",
+  "Configure":      "--disable-systemd PKG_CONFIG_PATH={INSTALL_ROOT}/efl/{VERSION}/lib/pkgconfig/",
   "PostInstall":    "rm -fr {INSTALL_TO}/lib/elementary",
   "SkipObjects":    [ "modules/" ],
   "HeadersDiff":    "Off",

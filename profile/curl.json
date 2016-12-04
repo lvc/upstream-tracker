@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "7.51.0",
+    "Installed":      "installed/curl/7.51.0",
+    "Source":         "src/curl/7.51.0/curl-7.51.0.tar.lzma",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "7.50.3",
     "Installed":      "installed/curl/7.50.3",
     "Source":         "src/curl/7.50.3/curl-7.50.3.tar.lzma",

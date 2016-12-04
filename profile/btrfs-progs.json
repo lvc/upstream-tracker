@@ -8,6 +8,78 @@
 
   "Versions": [
   {
+    "Number":         "4.8.5",
+    "Installed":      "installed/btrfs-progs/4.8.5",
+    "Source":         "src/btrfs-progs/4.8.5/btrfs-progs-v4.8.5.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.8.4",
+    "Installed":      "installed/btrfs-progs/4.8.4",
+    "Source":         "src/btrfs-progs/4.8.4/btrfs-progs-v4.8.4.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.8.3",
+    "Installed":      "installed/btrfs-progs/4.8.3",
+    "Source":         "src/btrfs-progs/4.8.3/btrfs-progs-v4.8.3.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.8.3-rc1",
+    "Installed":      "installed/btrfs-progs/4.8.3-rc1",
+    "Source":         "src/btrfs-progs/4.8.3-rc1/btrfs-progs-v4.8.3-rc1.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "4.8.2",
+    "Installed":      "installed/btrfs-progs/4.8.2",
+    "Source":         "src/btrfs-progs/4.8.2/btrfs-progs-v4.8.2.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.8.2-rc1",
+    "Installed":      "installed/btrfs-progs/4.8.2-rc1",
+    "Source":         "src/btrfs-progs/4.8.2-rc1/btrfs-progs-v4.8.2-rc1.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "4.8.1",
+    "Installed":      "installed/btrfs-progs/4.8.1",
+    "Source":         "src/btrfs-progs/4.8.1/btrfs-progs-v4.8.1.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "4.8.1-rc2",
     "Installed":      "installed/btrfs-progs/4.8.1-rc2",
     "Source":         "src/btrfs-progs/4.8.1-rc2/btrfs-progs-v4.8.1-rc2.tar.xz",
@@ -15,7 +87,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "4.8.1-rc1",

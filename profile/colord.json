@@ -20,6 +20,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.3.4",
+    "Installed":      "installed/colord/1.3.4",
+    "Source":         "src/colord/1.3.4/colord-1.3.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.3.3",
     "Installed":      "installed/colord/1.3.3",
     "Source":         "src/colord/1.3.3/colord-1.3.3.tar.xz",

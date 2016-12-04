@@ -5,8 +5,10 @@ audit
 augeas
 babl
 bde
+boost
 botan
 btrfs-progs
+c-ares
 cairo
 cairomm
 ccrtp
@@ -20,6 +22,8 @@ cryptsetup
 curl
 dbus
 dlib
+e2fsprogs
+efivar
 efl;elementary
 elfutils
 evolution-data-server
@@ -32,6 +36,7 @@ freetype
 gdal
 gdk-pixbuf
 gegl
+geos
 giflib
 glfw
 glib
@@ -64,13 +69,17 @@ json-c
 json-glib
 jsoncpp
 krb5
+kvazaar
 libarchive
+libass
 libbluray
 libburn
 libbson
 libcap
 libccd
 libcouchbase
+libcxx
+libcxxabi
 libdb
 libdrm
 libdwarf
@@ -85,6 +94,7 @@ libinput
 libjpeg
 libjpeg-turbo
 libmicrohttpd
+libmtp
 libphonenumber
 libpng
 libqb
@@ -102,6 +112,8 @@ libtiff
 libtins
 libuv
 libvirt
+libx11
+libxcb
 libxml++
 libxml2
 libxslt
@@ -109,6 +121,7 @@ libzip
 lilv
 linux-pam
 lmdb
+luceneplusplus
 lvm2
 lz4
 matio
@@ -123,6 +136,8 @@ musl
 mysql++
 networkmanager
 newlib
+nspr
+nss
 opencv
 openmpi
 openssl
@@ -142,6 +157,7 @@ sdl
 libsodium
 sqlite
 subversion
+tinyxml2
 ucommon
 util-linux
 vlfeat

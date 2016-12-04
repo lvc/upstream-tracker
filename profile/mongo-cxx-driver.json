@@ -5,7 +5,8 @@
   "Git":            "https://github.com/mongodb/mongo-cxx-driver.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "BuildScript":    "build_script/mongo-cxx-driver.sh",
+  "BuildSystem":    "CMake",
+  "Configure":      "-DLIBBSON_DIR={INSTALL_ROOT}/libbson/1.5.0/ -DLIBMONGOC_DIR={INSTALL_ROOT}/mongo-c-driver/1.5.0/",
   "HeadersDiff":    "Off",
   "Package":        "r",
 
@@ -15,6 +16,26 @@
     "Installed":      "installed/mongo-cxx-driver/current",
     "Source":         "src/mongo-cxx-driver/current",
     "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.0-rc0",
+    "Installed":      "installed/mongo-cxx-driver/3.1.0-rc0",
+    "Source":         "src/mongo-cxx-driver/3.1.0-rc0/r3.1.0-rc0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.3",
+    "Installed":      "installed/mongo-cxx-driver/3.0.3",
+    "Source":         "src/mongo-cxx-driver/3.0.3/r3.0.3.tar.gz",
+    "Changelog":      "Off",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",

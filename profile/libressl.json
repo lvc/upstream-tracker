@@ -19,6 +19,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "2.4.4",
+    "Installed":      "installed/libressl/2.4.4",
+    "Source":         "src/libressl/2.4.4/libressl-2.4.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.4.3",
     "Installed":      "installed/libressl/2.4.3",
     "Source":         "src/libressl/2.4.3/libressl-2.4.3.tar.gz",
@@ -52,6 +62,16 @@
     "Number":         "2.4.0",
     "Installed":      "installed/libressl/2.4.0",
     "Source":         "src/libressl/2.4.0/libressl-2.4.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.9",
+    "Installed":      "installed/libressl/2.3.9",
+    "Source":         "src/libressl/2.3.9/libressl-2.3.9.tar.gz",
     "Changelog":      "ChangeLog",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "1.7.3",
+    "Installed":      "installed/cryptsetup/1.7.3",
+    "Source":         "src/cryptsetup/1.7.3/cryptsetup-1.7.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.7.2",
     "Installed":      "installed/cryptsetup/1.7.2",
     "Source":         "src/cryptsetup/1.7.2/cryptsetup-1.7.2.tar.xz",
