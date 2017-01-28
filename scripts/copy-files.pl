@@ -2,7 +2,7 @@
 ##################################################################
 # A script to transfer reports of the ABI Tracker to hosting
 #
-# Copyright (C) 2015-2016 Andrey Ponomarenko's ABI Laboratory
+# Copyright (C) 2015-2017 Andrey Ponomarenko's ABI Laboratory
 #
 # Written by Andrey Ponomarenko
 #
@@ -32,6 +32,7 @@
 use Getopt::Long;
 Getopt::Long::Configure ("posix_default", "no_ignore_case", "permute");
 use File::Basename qw(dirname);
+use Cwd qw(cwd);
 use strict;
 
 my $Testplan_Init = "scripts/testplan";
@@ -39,9 +40,15 @@ my $Testplan_Init = "scripts/testplan";
 my $HostAddr = undef;
 my $HostDir = undef;
 
-my ($Fast); # 3 times faster but 3 times more web traffic
+my $ORIG_DIR = cwd();
+my $JREPORTS = "abi-reports/report";
 
-GetOptions("fast!" => \$Fast) or exit(1);
+my %Opt;
+
+GetOptions(
+    "fast!" => \$Opt{"Fast"}, # 3 times faster but 3 times more web traffic
+    "json!" => \$Opt{"Json"}
+) or exit(1);
 
 my $Target = undef;
 if(@ARGV) {
@@ -70,7 +77,6 @@ sub initHosting()
 sub readFile($)
 {
     my $Path = $_[0];
-    return "" if(not $Path);
     
     open(FILE, "<", $Path) || die ("can't open file \'$Path\': $!\n");
     local $/ = undef;
@@ -106,7 +112,7 @@ sub sendFiles(@)
     my @Files = @_;
     
     my ($Ext, $Opt) = ("txz", "cJf");
-    if(defined $Fast) {
+    if(defined $Opt{"Fast"}) {
         ($Ext, $Opt) = ("tgz", "czf");
     }
     
@@ -195,6 +201,13 @@ sub scenario()
     
     sendFiles(@Other);
     system("ssh $HostAddr \"cd $HostDir && sed -i -e \'s/index\.html//\' index.html\"");
+    
+    if(defined $Opt{"Json"})
+    {
+        chdir($JREPORTS);
+        system("git diff --exit-code || git pull && git add . && git commit -m 'AUTO update of reports' && git push");
+        chdir($ORIG_DIR);
+    }
     
     exit(0);
 }

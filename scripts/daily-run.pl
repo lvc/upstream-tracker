@@ -1,8 +1,8 @@
 #!/usr/bin/perl
 ##################################################################
-# A script to organize daily runs of the ABI Tracker
+# A script to manage daily runs of the ABI Tracker
 #
-# Copyright (C) 2015-2016 Andrey Ponomarenko's ABI Laboratory
+# Copyright (C) 2015-2017 Andrey Ponomarenko's ABI Laboratory
 #
 # Written by Andrey Ponomarenko
 #
@@ -44,14 +44,17 @@ my $Testplan = ".testplan";
 my $TestplanLock = ".testplan.lock";
 my $Date = getDate();
 my $LogDir = "daily_log";
-my %LogPath = (
-    "0"=>$LogDir."/LOG-".$Date.".0",
-    "1"=>$LogDir."/LOG-".$Date.".1"
-);
+my %LogPath;
 
-my ($Timing);
+my $JREPORTS = "abi-reports/report";
 
-GetOptions("timing!" => \$Timing) or exit(1);
+my %Opt;
+
+GetOptions(
+    "timing!" => \$Opt{"Timing"},
+    "cores=s" => \$Opt{"Cores"},
+    "json!" => \$Opt{"Json"}
+) or exit(1);
 
 sub getDate()
 {
@@ -74,7 +77,6 @@ sub fNum($)
 sub writeFile($$)
 {
     my ($Path, $Content) = @_;
-    return if(not $Path);
     
     open(FILE, ">", $Path) || die ("can't open file \'$Path\': $!\n");
     print FILE $Content;
@@ -84,7 +86,6 @@ sub writeFile($$)
 sub appendFile($$)
 {
     my ($Path, $Content) = @_;
-    return if(not $Path);
     
     open(FILE, ">>", $Path) || die ("can't open file \'$Path\': $!\n");
     print FILE $Content;
@@ -94,7 +95,6 @@ sub appendFile($$)
 sub readFile($)
 {
     my $Path = $_[0];
-    return "" if(not $Path);
     
     open(FILE, "<", $Path) || die ("can't open file \'$Path\': $!\n");
     local $/ = undef;
@@ -120,7 +120,11 @@ sub runUpdate($$)
         system("abi-tracker -build -target graph profile/$Library.json >>$Log 2>&1");
     }
     
-    if(defined $Timing) {
+    if(defined $Opt{"Json"}) {
+        system("abi-tracker -json-report $JREPORTS profile/$Library.json >>$Log 2>&1");
+    }
+    
+    if(defined $Opt{"Timing"}) {
         appendFile($Log, "Time spent: ".showDelta(time() - $STime)."\n");
     }
 }
@@ -165,6 +169,13 @@ sub getLibs()
     return @Libs;
 }
 
+sub getTotalCores()
+{
+    my $TotalCores = qx!grep -c -P '^processor\\s+:' /proc/cpuinfo!;
+    chomp($TotalCores);
+    return $TotalCores;
+}
+
 sub scenario()
 {
     if(not -d "scripts")
@@ -173,10 +184,24 @@ sub scenario()
         exit(1);
     }
     
-    mkpath($LogDir);
+    my $TotalCores = getTotalCores();
     
-    unlink($LogPath{0});
-    unlink($LogPath{1});
+    if(defined $Opt{"Cores"})
+    {
+        if($Opt{"Cores"}>$TotalCores) {
+            print STDERR "WARNING: too many cores selected\n";
+        }
+        elsif($Opt{"Cores"}<=0)
+        {
+            print STDERR "ERROR: the number of cores should be a positive integer\n";
+            exit(1);
+        }
+    }
+    else {
+        $Opt{"Cores"} = $TotalCores/2;
+    }
+    
+    mkpath($LogDir);
 
     my @List = split(/\s*\n\s*/, readFile($Testplan_Init));
 
@@ -185,39 +210,40 @@ sub scenario()
     writeFile($TestplanLock, "This file is used to lock testplan");
     
     my $STime = time();
-    my $Pid = fork();
+    my @Pids = ();
     
-    if($Pid)
+    foreach my $Cn (0 .. $Opt{"Cores"}-1)
     {
+        $LogPath{$Cn} = $LogDir."/LOG-".$Date.".".$Cn;
+        unlink($LogPath{$Cn});
         
-        while(my @Ls = getLibs())
-        {
-            foreach my $L (@Ls) {
-                runUpdate($L, 0);
-            }
+        my $Pid = fork();
+        
+        if($Pid)
+        { # parent
+            push(@Pids, $Pid);
+            next;
         }
-        
-        if(defined $Timing) {
-            appendFile($LogPath{0}, "Done in: ".showDelta(time() - $STime)."\n");
+        else
+        {
+            while(my @Ls = getLibs())
+            {
+                foreach my $L (@Ls) {
+                    runUpdate($L, $Cn);
+                }
+            }
+            
+            if(defined $Opt{"Timing"}) {
+                appendFile($LogPath{$Cn}, "Done in: ".showDelta(time() - $STime)."\n");
+            }
+            
+            exit(0);
         }
     }
-    else
-    {
-        while(my @Ls = getLibs())
-        {
-            foreach my $L (@Ls) {
-                runUpdate($L, 1);
-            }
-        }
-        
-        if(defined $Timing) {
-            appendFile($LogPath{1}, "Done in: ".showDelta(time() - $STime)."\n");
-        }
-        
-        exit(0);
-    }
     
-    waitpid($Pid, 0);
+    foreach my $Pid (@Pids) {
+        waitpid($Pid, 0);
+    }
     
     unlink($Testplan);
     unlink($TestplanLock);
