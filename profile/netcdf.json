@@ -1,0 +1,194 @@
+{
+  "Name":           "netcdf",
+  "Title":          "NetCDF",
+  "SourceUrl":      "ftp://ftp.unidata.ucar.edu/pub/netcdf/",
+  "SourceUrlDepth": "1",
+  "OldSourceUrl":   "ftp://ftp.unidata.ucar.edu/pub/netcdf/old/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "3.6.2",
+
+  "Versions": [
+  {
+    "Number":         "4.4.1.1",
+    "Installed":      "installed/netcdf/4.4.1.1",
+    "Source":         "src/netcdf/4.4.1.1/netcdf-4.4.1.1.tar.gz",
+    "Changelog":      "RELEASE_NOTES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.1",
+    "Installed":      "installed/netcdf/4.4.1",
+    "Source":         "src/netcdf/4.4.1/netcdf-4.4.1.tar.gz",
+    "Changelog":      "RELEASE_NOTES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.0",
+    "Installed":      "installed/netcdf/4.4.0",
+    "Source":         "src/netcdf/4.4.0/netcdf-4.4.0.tar.gz",
+    "Changelog":      "RELEASE_NOTES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.3.3.1",
+    "Installed":      "installed/netcdf/4.3.3.1",
+    "Source":         "src/netcdf/4.3.3.1/netcdf-4.3.3.1.tar.gz",
+    "Changelog":      "RELEASE_NOTES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.3.3",
+    "Installed":      "installed/netcdf/4.3.3",
+    "Source":         "src/netcdf/4.3.3/netcdf-4.3.3.tar.gz",
+    "Changelog":      "RELEASE_NOTES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.3.2",
+    "Installed":      "installed/netcdf/4.3.2",
+    "Source":         "src/netcdf/4.3.2/netcdf-4.3.2.tar.gz",
+    "Changelog":      "RELEASE_NOTES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.3.1.1",
+    "Installed":      "installed/netcdf/4.3.1.1",
+    "Source":         "src/netcdf/4.3.1.1/netcdf-4.3.1.1.tar.gz",
+    "Changelog":      "RELEASE_NOTES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.3.1",
+    "Installed":      "installed/netcdf/4.3.1",
+    "Source":         "src/netcdf/4.3.1/netcdf-4.3.1.tar.gz",
+    "Changelog":      "RELEASE_NOTES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.3.0",
+    "Installed":      "installed/netcdf/4.3.0",
+    "Source":         "src/netcdf/4.3.0/netcdf-4.3.0.tar.gz",
+    "Changelog":      "RELEASE_NOTES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2.1.1",
+    "Installed":      "installed/netcdf/4.2.1.1",
+    "Source":         "src/netcdf/4.2.1.1/netcdf-4.2.1.1.tar.gz",
+    "Changelog":      "RELEASE_NOTES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2.1",
+    "Installed":      "installed/netcdf/4.2.1",
+    "Source":         "src/netcdf/4.2.1/netcdf-4.2.1.tar.gz",
+    "Changelog":      "RELEASE_NOTES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.3",
+    "Installed":      "installed/netcdf/4.1.3",
+    "Source":         "src/netcdf/4.1.3/netcdf-4.1.3.tar.gz",
+    "Changelog":      "RELEASE_NOTES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.2",
+    "Installed":      "installed/netcdf/4.1.2",
+    "Source":         "src/netcdf/4.1.2/netcdf-4.1.2.tar.gz",
+    "Changelog":      "RELEASE_NOTES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.1",
+    "Installed":      "installed/netcdf/4.1.1",
+    "Source":         "src/netcdf/4.1.1/netcdf-4.1.1.tar.gz",
+    "Changelog":      "RELEASE_NOTES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.1",
+    "Installed":      "installed/netcdf/4.0.1",
+    "Source":         "src/netcdf/4.0.1/netcdf-4.0.1.tar.gz",
+    "Changelog":      "RELEASE_NOTES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0",
+    "Installed":      "installed/netcdf/4.0",
+    "Source":         "src/netcdf/4.0/netcdf-4.0.tar.gz",
+    "Changelog":      "RELEASE_NOTES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.3",
+    "Installed":      "installed/netcdf/3.6.3",
+    "Source":         "src/netcdf/3.6.3/netcdf-3.6.3.tar.gz",
+    "Changelog":      "RELEASE_NOTES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.2",
+    "Installed":      "installed/netcdf/3.6.2",
+    "Source":         "src/netcdf/3.6.2/netcdf-3.6.2.tar.gz",
+    "Changelog":      "RELEASE_NOTES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

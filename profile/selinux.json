@@ -1,0 +1,83 @@
+{
+  "Name":           "selinux",
+  "Title":          "SELinux",
+  "SourceUrl":      "https://github.com/SELinuxProject/selinux/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/selinux.sh",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.0.98",
+  "SkipVersions":   [ "\d\d\d\d\d\d\d\d" ],
+
+  "Versions": [
+  {
+    "Number":         "2.6",
+    "Installed":      "installed/selinux/2.6",
+    "Source":         "src/selinux/2.6/libselinux-2.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5",
+    "Installed":      "installed/selinux/2.5",
+    "Source":         "src/selinux/2.5/selinux-libselinux-2.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4",
+    "Installed":      "installed/selinux/2.4",
+    "Source":         "src/selinux/2.4/selinux-libselinux-2.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3",
+    "Installed":      "installed/selinux/2.3",
+    "Source":         "src/selinux/2.3/selinux-libselinux-2.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.2",
+    "Installed":      "installed/selinux/2.2.2",
+    "Source":         "src/selinux/2.2.2/selinux-libselinux-2.2.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.1",
+    "Installed":      "installed/selinux/2.2.1",
+    "Source":         "src/selinux/2.2.1/selinux-libselinux-2.2.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2",
+    "Installed":      "installed/selinux/2.2",
+    "Source":         "src/selinux/2.2/selinux-libselinux-2.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

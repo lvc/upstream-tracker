@@ -1,0 +1,381 @@
+{
+  "Name":           "libgsf",
+  "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/libgsf/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "sed -i -e 's/ doc tools tests//' Makefile.in;sed -i -e 's/ thumbnailer//' Makefile.in",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.14",
+
+  "Versions": [
+  {
+    "Number":         "1.14.41",
+    "Installed":      "installed/libgsf/1.14.41",
+    "Source":         "src/libgsf/1.14.41/libgsf-1.14.41.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.40",
+    "Installed":      "installed/libgsf/1.14.40",
+    "Source":         "src/libgsf/1.14.40/libgsf-1.14.40.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.39",
+    "Installed":      "installed/libgsf/1.14.39",
+    "Source":         "src/libgsf/1.14.39/libgsf-1.14.39.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.38",
+    "Installed":      "installed/libgsf/1.14.38",
+    "Source":         "src/libgsf/1.14.38/libgsf-1.14.38.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.37",
+    "Installed":      "installed/libgsf/1.14.37",
+    "Source":         "src/libgsf/1.14.37/libgsf-1.14.37.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.36",
+    "Installed":      "installed/libgsf/1.14.36",
+    "Source":         "src/libgsf/1.14.36/libgsf-1.14.36.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.35",
+    "Installed":      "installed/libgsf/1.14.35",
+    "Source":         "src/libgsf/1.14.35/libgsf-1.14.35.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.34",
+    "Installed":      "installed/libgsf/1.14.34",
+    "Source":         "src/libgsf/1.14.34/libgsf-1.14.34.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.33",
+    "Installed":      "installed/libgsf/1.14.33",
+    "Source":         "src/libgsf/1.14.33/libgsf-1.14.33.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.32",
+    "Installed":      "installed/libgsf/1.14.32",
+    "Source":         "src/libgsf/1.14.32/libgsf-1.14.32.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.31",
+    "Installed":      "installed/libgsf/1.14.31",
+    "Source":         "src/libgsf/1.14.31/libgsf-1.14.31.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.30",
+    "Installed":      "installed/libgsf/1.14.30",
+    "Source":         "src/libgsf/1.14.30/libgsf-1.14.30.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.29",
+    "Installed":      "installed/libgsf/1.14.29",
+    "Source":         "src/libgsf/1.14.29/libgsf-1.14.29.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.28",
+    "Installed":      "installed/libgsf/1.14.28",
+    "Source":         "src/libgsf/1.14.28/libgsf-1.14.28.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.27",
+    "Installed":      "installed/libgsf/1.14.27",
+    "Source":         "src/libgsf/1.14.27/libgsf-1.14.27.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.26",
+    "Installed":      "installed/libgsf/1.14.26",
+    "Source":         "src/libgsf/1.14.26/libgsf-1.14.26.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.25",
+    "Installed":      "installed/libgsf/1.14.25",
+    "Source":         "src/libgsf/1.14.25/libgsf-1.14.25.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.24",
+    "Installed":      "installed/libgsf/1.14.24",
+    "Source":         "src/libgsf/1.14.24/libgsf-1.14.24.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.22",
+    "Installed":      "installed/libgsf/1.14.22",
+    "Source":         "src/libgsf/1.14.22/libgsf-1.14.22.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.21",
+    "Installed":      "installed/libgsf/1.14.21",
+    "Source":         "src/libgsf/1.14.21/libgsf-1.14.21.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.20",
+    "Installed":      "installed/libgsf/1.14.20",
+    "Source":         "src/libgsf/1.14.20/libgsf-1.14.20.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.19",
+    "Installed":      "installed/libgsf/1.14.19",
+    "Source":         "src/libgsf/1.14.19/libgsf-1.14.19.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.18",
+    "Installed":      "installed/libgsf/1.14.18",
+    "Source":         "src/libgsf/1.14.18/libgsf-1.14.18.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.17",
+    "Installed":      "installed/libgsf/1.14.17",
+    "Source":         "src/libgsf/1.14.17/libgsf-1.14.17.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.16",
+    "Installed":      "installed/libgsf/1.14.16",
+    "Source":         "src/libgsf/1.14.16/libgsf-1.14.16.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.15",
+    "Installed":      "installed/libgsf/1.14.15",
+    "Source":         "src/libgsf/1.14.15/libgsf-1.14.15.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.14",
+    "Installed":      "installed/libgsf/1.14.14",
+    "Source":         "src/libgsf/1.14.14/libgsf-1.14.14.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.13",
+    "Installed":      "installed/libgsf/1.14.13",
+    "Source":         "src/libgsf/1.14.13/libgsf-1.14.13.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.12",
+    "Installed":      "installed/libgsf/1.14.12",
+    "Source":         "src/libgsf/1.14.12/libgsf-1.14.12.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.8",
+    "Installed":      "installed/libgsf/1.14.8",
+    "Source":         "src/libgsf/1.14.8/libgsf-1.14.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.7",
+    "Installed":      "installed/libgsf/1.14.7",
+    "Source":         "src/libgsf/1.14.7/libgsf-1.14.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.6",
+    "Installed":      "installed/libgsf/1.14.6",
+    "Source":         "src/libgsf/1.14.6/libgsf-1.14.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.5",
+    "Installed":      "installed/libgsf/1.14.5",
+    "Source":         "src/libgsf/1.14.5/libgsf-1.14.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.4",
+    "Installed":      "installed/libgsf/1.14.4",
+    "Source":         "src/libgsf/1.14.4/libgsf-1.14.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.3",
+    "Installed":      "installed/libgsf/1.14.3",
+    "Source":         "src/libgsf/1.14.3/libgsf-1.14.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.2",
+    "Installed":      "installed/libgsf/1.14.2",
+    "Source":         "src/libgsf/1.14.2/libgsf-1.14.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.0",
+    "Installed":      "installed/libgsf/1.14.0",
+    "Source":         "src/libgsf/1.14.0/libgsf-1.14.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

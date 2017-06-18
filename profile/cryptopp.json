@@ -1,0 +1,92 @@
+{
+  "Name":           "cryptopp",
+  "Title":          "Crypto++",
+  "SourceUrl":      "https://github.com/weidai11/cryptopp/tags",
+  "Git":            "https://github.com/weidai11/cryptopp.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/cryptopp/current",
+    "Source":         "src/cryptopp/current",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5_6_5",
+    "Installed":      "installed/cryptopp/5_6_5",
+    "Source":         "src/cryptopp/5_6_5/CRYPTOPP_5_6_5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Comment":        "Macro CRYPTOPP_MAINTAIN_BACKWARDS_COMPATIBILITY_562 is enabled."
+  },
+  {
+    "Number":         "5_6_4",
+    "Installed":      "installed/cryptopp/5_6_4",
+    "Source":         "src/cryptopp/5_6_4/CRYPTOPP_5_6_4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5_6_3",
+    "Installed":      "installed/cryptopp/5_6_3",
+    "Source":         "src/cryptopp/5_6_3/CRYPTOPP_5_6_3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5_6_2",
+    "Installed":      "installed/cryptopp/5_6_2",
+    "Source":         "src/cryptopp/5_6_2/CRYPTOPP_5_6_2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5_6_1",
+    "Installed":      "installed/cryptopp/5_6_1",
+    "Source":         "src/cryptopp/5_6_1/CRYPTOPP_5_6_1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5_6_0",
+    "Installed":      "installed/cryptopp/5_6_0",
+    "Source":         "src/cryptopp/5_6_0/CRYPTOPP_5_6_0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5_5_2",
+    "Installed":      "installed/cryptopp/5_5_2",
+    "Source":         "src/cryptopp/5_5_2/CRYPTOPP_5_5_2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

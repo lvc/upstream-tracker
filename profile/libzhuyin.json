@@ -1,0 +1,72 @@
+{
+  "Name":           "libzhuyin",
+  "SourceUrl":      "https://github.com/libzhuyin/libzhuyin/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-static",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/libzhuyin",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.0.0",
+
+  "Versions": [
+  {
+    "Number":         "1.1.1",
+    "Installed":      "installed/libzhuyin/1.1.1",
+    "Source":         "src/libzhuyin/1.1.1/libzhuyin-1.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/libzhuyin/1.1.0",
+    "Source":         "src/libzhuyin/1.1.0/libzhuyin-1.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.91",
+    "Installed":      "installed/libzhuyin/1.0.91",
+    "Source":         "src/libzhuyin/1.0.91/libzhuyin-1.0.91.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.2",
+    "Installed":      "installed/libzhuyin/1.0.2",
+    "Source":         "src/libzhuyin/1.0.2/libzhuyin-1.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/libzhuyin/1.0.1",
+    "Source":         "src/libzhuyin/1.0.1/libzhuyin-1.0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/libzhuyin/1.0.0",
+    "Source":         "src/libzhuyin/1.0.0/libzhuyin-1.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

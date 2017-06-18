@@ -5,9 +5,39 @@
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "BuildScript":    "build_script/jemalloc.sh",
   "HeadersDiff":    "On",
-  "UseTUDump":      "1",
+  "UseTUDump":      "On",
 
   "Versions": [
+  {
+    "Number":         "5.0.0",
+    "Installed":      "installed/jemalloc/5.0.0",
+    "Source":         "src/jemalloc/5.0.0/jemalloc-5.0.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.0",
+    "Installed":      "installed/jemalloc/4.5.0",
+    "Source":         "src/jemalloc/4.5.0/jemalloc-4.5.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.0",
+    "Installed":      "installed/jemalloc/4.4.0",
+    "Source":         "src/jemalloc/4.4.0/jemalloc-4.4.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "4.3.1",
     "Installed":      "installed/jemalloc/4.3.1",

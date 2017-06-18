@@ -1,0 +1,50 @@
+{
+  "Name":           "motif",
+  "Title":          "Motif",
+  "SourceUrl":      "https://sourceforge.net/projects/motif/files/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.3.7",
+    "Installed":      "installed/motif/2.3.7",
+    "Source":         "src/motif/2.3.7/motif-2.3.7.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.6",
+    "Installed":      "installed/motif/2.3.6",
+    "Source":         "src/motif/2.3.6/motif-2.3.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.5",
+    "Installed":      "installed/motif/2.3.5",
+    "Source":         "src/motif/2.3.5/motif-2.3.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.4",
+    "Installed":      "installed/motif/2.3.4",
+    "Source":         "src/motif/2.3.4/motif-2.3.4-src.tgz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

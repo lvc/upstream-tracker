@@ -1,0 +1,103 @@
+{
+  "Name":           "rest",
+  "Title":          "librest",
+  "SourceUrl":      "https://ftp.gnome.org/pub/gnome/sources/rest/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "sed -i -e 's/examples docs tests//' Makefile.in",
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+  "NumericBeta":    "On",
+
+  "Versions": [
+  {
+    "Number":         "0.8.0",
+    "Installed":      "installed/rest/0.8.0",
+    "Source":         "src/rest/0.8.0/rest-0.8.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.12",
+    "Installed":      "installed/rest/0.7.12",
+    "Source":         "src/rest/0.7.12/rest-0.7.12.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.11",
+    "Installed":      "installed/rest/0.7.11",
+    "Source":         "src/rest/0.7.11/rest-0.7.11.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.10",
+    "Installed":      "installed/rest/0.7.10",
+    "Source":         "src/rest/0.7.10/rest-0.7.10.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.9",
+    "Installed":      "installed/rest/0.7.9",
+    "Source":         "src/rest/0.7.9/rest-0.7.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.8",
+    "Installed":      "installed/rest/0.7.8",
+    "Source":         "src/rest/0.7.8/rest-0.7.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.7",
+    "Installed":      "installed/rest/0.7.7",
+    "Source":         "src/rest/0.7.7/rest-0.7.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.6",
+    "Installed":      "installed/rest/0.7.6",
+    "Source":         "src/rest/0.7.6/rest-0.7.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.5",
+    "Installed":      "installed/rest/0.7.5",
+    "Source":         "src/rest/0.7.5/rest-0.7.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

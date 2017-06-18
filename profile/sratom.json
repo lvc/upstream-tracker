@@ -1,0 +1,71 @@
+{
+  "Name":           "sratom",
+  "Title":          "Sratom",
+  "SourceUrl":      "http://download.drobilla.net/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "ConfigureGlobal": "PKG_CONFIG_PATH={INSTALL_ROOT}/serd/0.26.0/lib/pkgconfig",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.6.0",
+    "Installed":      "installed/sratom/0.6.0",
+    "Source":         "src/sratom/0.6.0/sratom-0.6.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.6",
+    "Installed":      "installed/sratom/0.4.6",
+    "Source":         "src/sratom/0.4.6/sratom-0.4.6.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.4",
+    "Installed":      "installed/sratom/0.4.4",
+    "Source":         "src/sratom/0.4.4/sratom-0.4.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.2",
+    "Installed":      "installed/sratom/0.4.2",
+    "Source":         "src/sratom/0.4.2/sratom-0.4.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.0",
+    "Installed":      "installed/sratom/0.4.0",
+    "Source":         "src/sratom/0.4.0/sratom-0.4.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.0",
+    "Installed":      "installed/sratom/0.2.0",
+    "Source":         "src/sratom/0.2.0/sratom-0.2.0.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

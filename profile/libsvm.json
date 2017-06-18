@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         322,
+    "Installed":      "installed/libsvm/322",
+    "Source":         "src/libsvm/322/libsvm-322.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         321,
     "Installed":      "installed/libsvm/321",
     "Source":         "src/libsvm/321/libsvm-321.tar.gz",

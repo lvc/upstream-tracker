@@ -1,0 +1,55 @@
+{
+  "Name":           "devil",
+  "Title":          "DevIL",
+  "SourceUrl":      "https://sourceforge.net/projects/openil/files/DevIL/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "CMake",
+  "PreInstall":     "sed -i -e 's/-O[0123]/-Og/' configure",
+  "BuildDir":       "DevIL",
+  "Changelog":      "DevIL/ChangeLog",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.7.5",
+
+  "Versions": [
+  {
+    "Number":         "1.8.0",
+    "Installed":      "installed/devil/1.8.0",
+    "Source":         "src/devil/1.8.0/DevIL-1.8.0.tar.gz",
+    "Changelog":      "DevIL/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.8",
+    "Installed":      "installed/devil/1.7.8",
+    "Source":         "src/devil/1.7.8/DevIL-1.7.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.7",
+    "Installed":      "installed/devil/1.7.7",
+    "Source":         "src/devil/1.7.7/devil-1.7.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.5",
+    "Installed":      "installed/devil/1.7.5",
+    "Source":         "src/devil/1.7.5/DevIL-1.7.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

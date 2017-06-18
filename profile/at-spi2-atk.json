@@ -1,0 +1,156 @@
+{
+  "Name":           "at-spi2-atk",
+  "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/at-spi2-atk/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/atk/2.25.2/lib/pkgconfig:{INSTALL_ROOT}/at-spi2-core/2.25.2/lib/pkgconfig",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/gtk-2.0",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.18.0",
+  "NumericBeta":    "On",
+
+  "Versions": [
+  {
+    "Number":         "2.25.2",
+    "Installed":      "installed/at-spi2-atk/2.25.2",
+    "Source":         "src/at-spi2-atk/2.25.2/at-spi2-atk-2.25.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.25.1",
+    "Installed":      "installed/at-spi2-atk/2.25.1",
+    "Source":         "src/at-spi2-atk/2.25.1/at-spi2-atk-2.25.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.24.1",
+    "Installed":      "installed/at-spi2-atk/2.24.1",
+    "Source":         "src/at-spi2-atk/2.24.1/at-spi2-atk-2.24.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.24.0",
+    "Installed":      "installed/at-spi2-atk/2.24.0",
+    "Source":         "src/at-spi2-atk/2.24.0/at-spi2-atk-2.24.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.22.0",
+    "Installed":      "installed/at-spi2-atk/2.22.0",
+    "Source":         "src/at-spi2-atk/2.22.0/at-spi2-atk-2.22.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.21.91",
+    "Installed":      "installed/at-spi2-atk/2.21.91",
+    "Source":         "src/at-spi2-atk/2.21.91/at-spi2-atk-2.21.91.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.21.4",
+    "Installed":      "installed/at-spi2-atk/2.21.4",
+    "Source":         "src/at-spi2-atk/2.21.4/at-spi2-atk-2.21.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.20.1",
+    "Installed":      "installed/at-spi2-atk/2.20.1",
+    "Source":         "src/at-spi2-atk/2.20.1/at-spi2-atk-2.20.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.20.0",
+    "Installed":      "installed/at-spi2-atk/2.20.0",
+    "Source":         "src/at-spi2-atk/2.20.0/at-spi2-atk-2.20.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.19.92",
+    "Installed":      "installed/at-spi2-atk/2.19.92",
+    "Source":         "src/at-spi2-atk/2.19.92/at-spi2-atk-2.19.92.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.19.91",
+    "Installed":      "installed/at-spi2-atk/2.19.91",
+    "Source":         "src/at-spi2-atk/2.19.91/at-spi2-atk-2.19.91.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.19.2",
+    "Installed":      "installed/at-spi2-atk/2.19.2",
+    "Source":         "src/at-spi2-atk/2.19.2/at-spi2-atk-2.19.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.18.1",
+    "Installed":      "installed/at-spi2-atk/2.18.1",
+    "Source":         "src/at-spi2-atk/2.18.1/at-spi2-atk-2.18.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.18.0",
+    "Installed":      "installed/at-spi2-atk/2.18.0",
+    "Source":         "src/at-spi2-atk/2.18.0/at-spi2-atk-2.18.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

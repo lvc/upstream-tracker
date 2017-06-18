@@ -1,0 +1,63 @@
+{
+  "Name":           "enchant",
+  "Title":          "libenchant",
+  "SourceUrl":      "https://github.com/AbiWord/enchant/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-static PKG_CONFIG_PATH={INSTALL_ROOT}/hunspell/1.6.1/lib/pkgconfig",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/enchant",
+  "CxxFlags":       "-I{INSTALL_ROOT}/hunspell/1.6.1/include/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1-6-1",
+    "Installed":      "installed/enchant/1-6-1",
+    "Source":         "src/enchant/1-6-1/enchant-1-6-1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1-6-0",
+    "Installed":      "installed/enchant/1-6-0",
+    "Source":         "src/enchant/1-6-0/enchant-1-6-0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1-5-0",
+    "Installed":      "installed/enchant/1-5-0",
+    "Source":         "src/enchant/1-5-0/enchant-1-5-0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1-4-2",
+    "Installed":      "installed/enchant/1-4-2",
+    "Source":         "src/enchant/1-4-2/enchant-1-4-2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1-4-0",
+    "Installed":      "installed/enchant/1-4-0",
+    "Source":         "src/enchant/1-4-0/enchant-1-4-0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

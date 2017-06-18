@@ -12,6 +12,56 @@
 
   "Versions": [
   {
+    "Number":         "0.34.0",
+    "Installed":      "installed/rygel/0.34.0",
+    "Source":         "src/rygel/0.34.0/rygel-0.34.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.33.92",
+    "Installed":      "installed/rygel/0.33.92",
+    "Source":         "src/rygel/0.33.92/rygel-0.33.92.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.33.90",
+    "Installed":      "installed/rygel/0.33.90",
+    "Source":         "src/rygel/0.33.90/rygel-0.33.90.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.33.1",
+    "Installed":      "installed/rygel/0.33.1",
+    "Source":         "src/rygel/0.33.1/rygel-0.33.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.33.0",
+    "Installed":      "installed/rygel/0.33.0",
+    "Source":         "src/rygel/0.33.0/rygel-0.33.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.32.1",
     "Installed":      "installed/rygel/0.32.1",
     "Source":         "src/rygel/0.32.1/rygel-0.32.1.tar.xz",

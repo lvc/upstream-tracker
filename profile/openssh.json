@@ -1,0 +1,277 @@
+{
+  "Name":           "openssh",
+  "Title":          "OpenSSH",
+  "SourceUrl":      "https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/",
+  "SourceUrlDepth": "1",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "sed -i -e 's/fPIE/fPIC/' configure",
+  "PostInstall":    "cp -f *.h {INSTALL_TO}/include/;cp -f *.a {INSTALL_TO}/lib/",
+  "BuildShared":    "On",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "5.3",
+  "ReleasePattern": "(.+p\d+)",
+  "Soname":         "Off",
+
+  "Versions": [
+  {
+    "Number":         "7.5p1",
+    "Installed":      "installed/openssh/7.5p1",
+    "Source":         "src/openssh/7.5p1/openssh-7.5p1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.4p1",
+    "Installed":      "installed/openssh/7.4p1",
+    "Source":         "src/openssh/7.4p1/openssh-7.4p1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.3p1",
+    "Installed":      "installed/openssh/7.3p1",
+    "Source":         "src/openssh/7.3p1/openssh-7.3p1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.2p2",
+    "Installed":      "installed/openssh/7.2p2",
+    "Source":         "src/openssh/7.2p2/openssh-7.2p2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.2p1",
+    "Installed":      "installed/openssh/7.2p1",
+    "Source":         "src/openssh/7.2p1/openssh-7.2p1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.1p2",
+    "Installed":      "installed/openssh/7.1p2",
+    "Source":         "src/openssh/7.1p2/openssh-7.1p2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.1p1",
+    "Installed":      "installed/openssh/7.1p1",
+    "Source":         "src/openssh/7.1p1/openssh-7.1p1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0p1",
+    "Installed":      "installed/openssh/7.0p1",
+    "Source":         "src/openssh/7.0p1/openssh-7.0p1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.9p1",
+    "Installed":      "installed/openssh/6.9p1",
+    "Source":         "src/openssh/6.9p1/openssh-6.9p1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.8p1",
+    "Installed":      "installed/openssh/6.8p1",
+    "Source":         "src/openssh/6.8p1/openssh-6.8p1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.7p1",
+    "Installed":      "installed/openssh/6.7p1",
+    "Source":         "src/openssh/6.7p1/openssh-6.7p1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.6p1",
+    "Installed":      "installed/openssh/6.6p1",
+    "Source":         "src/openssh/6.6p1/openssh-6.6p1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.5p1",
+    "Installed":      "installed/openssh/6.5p1",
+    "Source":         "src/openssh/6.5p1/openssh-6.5p1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.4p1",
+    "Installed":      "installed/openssh/6.4p1",
+    "Source":         "src/openssh/6.4p1/openssh-6.4p1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.3p1",
+    "Installed":      "installed/openssh/6.3p1",
+    "Source":         "src/openssh/6.3p1/openssh-6.3p1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.2p2",
+    "Installed":      "installed/openssh/6.2p2",
+    "Source":         "src/openssh/6.2p2/openssh-6.2p2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.2p1",
+    "Installed":      "installed/openssh/6.2p1",
+    "Source":         "src/openssh/6.2p1/openssh-6.2p1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.1p1",
+    "Installed":      "installed/openssh/6.1p1",
+    "Source":         "src/openssh/6.1p1/openssh-6.1p1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.0p1",
+    "Installed":      "installed/openssh/6.0p1",
+    "Source":         "src/openssh/6.0p1/openssh-6.0p1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.9p1",
+    "Installed":      "installed/openssh/5.9p1",
+    "Source":         "src/openssh/5.9p1/openssh-5.9p1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.8p2",
+    "Installed":      "installed/openssh/5.8p2",
+    "Source":         "src/openssh/5.8p2/openssh-5.8p2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.8p1",
+    "Installed":      "installed/openssh/5.8p1",
+    "Source":         "src/openssh/5.8p1/openssh-5.8p1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.7p1",
+    "Installed":      "installed/openssh/5.7p1",
+    "Source":         "src/openssh/5.7p1/openssh-5.7p1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.6p1",
+    "Installed":      "installed/openssh/5.6p1",
+    "Source":         "src/openssh/5.6p1/openssh-5.6p1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.5p1",
+    "Installed":      "installed/openssh/5.5p1",
+    "Source":         "src/openssh/5.5p1/openssh-5.5p1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.4p1",
+    "Installed":      "installed/openssh/5.4p1",
+    "Source":         "src/openssh/5.4p1/openssh-5.4p1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

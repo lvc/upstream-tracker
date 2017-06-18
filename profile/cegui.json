@@ -1,0 +1,124 @@
+{
+  "Name":           "cegui",
+  "Title":          "CEGUI",
+  "SourceUrl":      "https://bitbucket.org/cegui/cegui/downloads/?tab=tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "CMakeConfigure": "-DCEGUI_BUILD_PYTHON_MODULES=OFF -DCEGUI_BUILD_APPLICATION_TEMPLATES=OFF",
+  "HeadersDiff":    "Off",
+  "Make":           "-j4",
+  "MinimalVersion": "0-7-5",
+  "SkipVersions":   [ "\d+\..+" ],
+
+  "Versions": [
+  {
+    "Number":         "0-8-7",
+    "Installed":      "installed/cegui/0-8-7",
+    "Source":         "src/cegui/0-8-7/cegui-0-8-7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0-8-6",
+    "Installed":      "installed/cegui/0-8-6",
+    "Source":         "src/cegui/0-8-6/cegui-0-8-6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0-8-5",
+    "Installed":      "installed/cegui/0-8-5",
+    "Source":         "src/cegui/0-8-5/cegui-0-8-5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0-8-4",
+    "Installed":      "installed/cegui/0-8-4",
+    "Source":         "src/cegui/0-8-4/cegui-0-8-4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0-8-3",
+    "Installed":      "installed/cegui/0-8-3",
+    "Source":         "src/cegui/0-8-3/cegui-0-8-3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0-8-2",
+    "Installed":      "installed/cegui/0-8-2",
+    "Source":         "src/cegui/0-8-2/cegui-0-8-2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0-8-1",
+    "Installed":      "installed/cegui/0-8-1",
+    "Source":         "src/cegui/0-8-1/cegui-0-8-1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0-8-0",
+    "Installed":      "installed/cegui/0-8-0",
+    "Source":         "src/cegui/0-8-0/cegui-0-8-0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0-7-9",
+    "Installed":      "installed/cegui/0-7-9",
+    "Source":         "src/cegui/0-7-9/cegui-0-7-9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0-7-8",
+    "Installed":      "installed/cegui/0-7-8",
+    "Source":         "src/cegui/0-7-8/cegui-0-7-8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0-7-7",
+    "Installed":      "installed/cegui/0-7-7",
+    "Source":         "src/cegui/0-7-7/cegui-0-7-7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

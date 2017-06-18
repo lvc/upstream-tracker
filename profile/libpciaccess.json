@@ -1,0 +1,209 @@
+{
+  "Name":           "libpciaccess",
+  "SourceUrl":      "https://www.x.org/releases/individual/lib/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.13.5",
+    "Installed":      "installed/libpciaccess/0.13.5",
+    "Source":         "src/libpciaccess/0.13.5/libpciaccess-0.13.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13.4",
+    "Installed":      "installed/libpciaccess/0.13.4",
+    "Source":         "src/libpciaccess/0.13.4/libpciaccess-0.13.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13.3",
+    "Installed":      "installed/libpciaccess/0.13.3",
+    "Source":         "src/libpciaccess/0.13.3/libpciaccess-0.13.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13.2",
+    "Installed":      "installed/libpciaccess/0.13.2",
+    "Source":         "src/libpciaccess/0.13.2/libpciaccess-0.13.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13.1",
+    "Installed":      "installed/libpciaccess/0.13.1",
+    "Source":         "src/libpciaccess/0.13.1/libpciaccess-0.13.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13",
+    "Installed":      "installed/libpciaccess/0.13",
+    "Source":         "src/libpciaccess/0.13/libpciaccess-0.13.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.12.902",
+    "Installed":      "installed/libpciaccess/0.12.902",
+    "Source":         "src/libpciaccess/0.12.902/libpciaccess-0.12.902.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.12.1",
+    "Installed":      "installed/libpciaccess/0.12.1",
+    "Source":         "src/libpciaccess/0.12.1/libpciaccess-0.12.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.12.0",
+    "Installed":      "installed/libpciaccess/0.12.0",
+    "Source":         "src/libpciaccess/0.12.0/libpciaccess-0.12.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.0",
+    "Installed":      "installed/libpciaccess/0.11.0",
+    "Source":         "src/libpciaccess/0.11.0/libpciaccess-0.11.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.9",
+    "Installed":      "installed/libpciaccess/0.10.9",
+    "Source":         "src/libpciaccess/0.10.9/libpciaccess-0.10.9.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.8",
+    "Installed":      "installed/libpciaccess/0.10.8",
+    "Source":         "src/libpciaccess/0.10.8/libpciaccess-0.10.8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.7",
+    "Installed":      "installed/libpciaccess/0.10.7",
+    "Source":         "src/libpciaccess/0.10.7/libpciaccess-0.10.7.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.6",
+    "Installed":      "installed/libpciaccess/0.10.6",
+    "Source":         "src/libpciaccess/0.10.6/libpciaccess-0.10.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.5",
+    "Installed":      "installed/libpciaccess/0.10.5",
+    "Source":         "src/libpciaccess/0.10.5/libpciaccess-0.10.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.4",
+    "Installed":      "installed/libpciaccess/0.10.4",
+    "Source":         "src/libpciaccess/0.10.4/libpciaccess-0.10.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.3",
+    "Installed":      "installed/libpciaccess/0.10.3",
+    "Source":         "src/libpciaccess/0.10.3/libpciaccess-0.10.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.2",
+    "Installed":      "installed/libpciaccess/0.10.2",
+    "Source":         "src/libpciaccess/0.10.2/libpciaccess-0.10.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10",
+    "Installed":      "installed/libpciaccess/0.10",
+    "Source":         "src/libpciaccess/0.10/libpciaccess-0.10.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.1",
+    "Installed":      "installed/libpciaccess/0.9.1",
+    "Source":         "src/libpciaccess/0.9.1/libpciaccess-0.9.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

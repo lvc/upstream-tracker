@@ -1,0 +1,33 @@
+{
+  "Name":           "antlr",
+  "Title":          "ANTLR",
+  "SourceUrl":      "http://www.antlr.org/download/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "sed -i -e 's/-O[0123]/-Og/g' CMakeLists.txt",
+  "ConfigureGlobal": "CXX=/home/Soft/GCC-5.1/bin/g++",
+  "HeadersDiff":    "Off",
+  "Package":        "antlr4-cpp-runtime",
+
+  "Versions": [
+  {
+    "Number":         "4.7",
+    "Installed":      "installed/antlr/4.7",
+    "Source":         "src/antlr/4.7/antlr4-cpp-runtime-4.7-source.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6",
+    "Installed":      "installed/antlr/4.6",
+    "Source":         "src/antlr/4.6/antlr4-cpp-runtime-4.6-source.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

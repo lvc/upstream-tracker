@@ -8,15 +8,75 @@
   "PostInstall":    "rm -fr {INSTALL_TO}/lib/NetworkManager/ {INSTALL_TO}/lib/pppd/ {INSTALL_TO}/lib/udev/ {INSTALL_TO}/lib/systemd/",
   "SkipObjects":    [ "NetworkManager/", "pppd/" ],
   "HeadersDiff":    "Off",
-  "LatestNano":     "1",
+  "LatestNano":     "On",
   "MinimalVersion": "0.9",
   "SkipVersions":   [ "0\.995\.0\.0", ".+\.9\d+" ],
 
   "Versions": [
   {
+    "Number":         "1.8.0",
+    "Installed":      "installed/networkmanager/1.8.0",
+    "Source":         "src/networkmanager/1.8.0/NetworkManager-1.8.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.2",
+    "Installed":      "installed/networkmanager/1.7.2",
+    "Source":         "src/networkmanager/1.7.2/NetworkManager-1.7.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.2",
+    "Installed":      "installed/networkmanager/1.6.2",
+    "Source":         "src/networkmanager/1.6.2/NetworkManager-1.6.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.0",
+    "Installed":      "installed/networkmanager/1.6.0",
+    "Source":         "src/networkmanager/1.6.0/NetworkManager-1.6.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.3",
+    "Installed":      "installed/networkmanager/1.5.3",
+    "Source":         "src/networkmanager/1.5.3/NetworkManager-1.5.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.5.2",
     "Installed":      "installed/networkmanager/1.5.2",
     "Source":         "src/networkmanager/1.5.2/NetworkManager-1.5.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.4",
+    "Installed":      "installed/networkmanager/1.4.4",
+    "Source":         "src/networkmanager/1.4.4/NetworkManager-1.4.4.tar.xz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
@@ -37,6 +97,16 @@
     "Number":         "1.4.0",
     "Installed":      "installed/networkmanager/1.4.0",
     "Source":         "src/networkmanager/1.4.0/NetworkManager-1.4.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.6",
+    "Installed":      "installed/networkmanager/1.2.6",
+    "Source":         "src/networkmanager/1.2.6/NetworkManager-1.2.6.tar.xz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

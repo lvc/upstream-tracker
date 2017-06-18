@@ -1,0 +1,171 @@
+{
+  "Name":           "udisks",
+  "SourceUrl":      "https://udisks.freedesktop.org/releases/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-systemdsystemunitdir={INSTALL_TO}/share --with-udevdir={INSTALL_TO}/share --enable-static=no --enable-introspection=no",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.98.0",
+
+  "Versions": [
+  {
+    "Number":         "2.1.8",
+    "Installed":      "installed/udisks/2.1.8",
+    "Source":         "src/udisks/2.1.8/udisks-2.1.8.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.7",
+    "Installed":      "installed/udisks/2.1.7",
+    "Source":         "src/udisks/2.1.7/udisks-2.1.7.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.6",
+    "Installed":      "installed/udisks/2.1.6",
+    "Source":         "src/udisks/2.1.6/udisks-2.1.6.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.5",
+    "Installed":      "installed/udisks/2.1.5",
+    "Source":         "src/udisks/2.1.5/udisks-2.1.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.4",
+    "Installed":      "installed/udisks/2.1.4",
+    "Source":         "src/udisks/2.1.4/udisks-2.1.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.3",
+    "Installed":      "installed/udisks/2.1.3",
+    "Source":         "src/udisks/2.1.3/udisks-2.1.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.2",
+    "Installed":      "installed/udisks/2.1.2",
+    "Source":         "src/udisks/2.1.2/udisks-2.1.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.1",
+    "Installed":      "installed/udisks/2.1.1",
+    "Source":         "src/udisks/2.1.1/udisks-2.1.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.0",
+    "Installed":      "installed/udisks/2.1.0",
+    "Source":         "src/udisks/2.1.0/udisks-2.1.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.92",
+    "Installed":      "installed/udisks/2.0.92",
+    "Source":         "src/udisks/2.0.92/udisks-2.0.92.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.91",
+    "Installed":      "installed/udisks/2.0.91",
+    "Source":         "src/udisks/2.0.91/udisks-2.0.91.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.90",
+    "Installed":      "installed/udisks/2.0.90",
+    "Source":         "src/udisks/2.0.90/udisks-2.0.90.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.1",
+    "Installed":      "installed/udisks/2.0.1",
+    "Source":         "src/udisks/2.0.1/udisks-2.0.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0",
+    "Installed":      "installed/udisks/2.0.0",
+    "Source":         "src/udisks/2.0.0/udisks-2.0.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.99.0",
+    "Installed":      "installed/udisks/1.99.0",
+    "Source":         "src/udisks/1.99.0/udisks-1.99.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.98.0",
+    "Installed":      "installed/udisks/1.98.0",
+    "Source":         "src/udisks/1.98.0/udisks-1.98.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

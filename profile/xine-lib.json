@@ -1,0 +1,64 @@
+{
+  "Name":           "xine-lib",
+  "Title":          "libxine",
+  "SourceUrl":      "https://sourceforge.net/projects/xine/files/xine-lib/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-vcd PKG_CONFIG_PATH='{INSTALL_ROOT}/ffmpeg/2.8.11/lib/pkgconfig/' LDFLAGS='-lavutil -L{INSTALL_ROOT}/ffmpeg/2.8.11/lib/'",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/xine",
+  "ConfigureGlobal": "LD_LIBRARY_PATH={INSTALL_ROOT}/ffmpeg/2.8.11/lib/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.1.20",
+
+  "Versions": [
+  {
+    "Number":         "1.2.8",
+    "Installed":      "installed/xine-lib/1.2.8",
+    "Source":         "src/xine-lib/1.2.8/xine-lib-1.2.8.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.6",
+    "Installed":      "installed/xine-lib/1.2.6",
+    "Source":         "src/xine-lib/1.2.6/xine-lib-1.2.6.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.5",
+    "Installed":      "installed/xine-lib/1.2.5",
+    "Source":         "src/xine-lib/1.2.5/xine-lib-1.2.5.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.4",
+    "Installed":      "installed/xine-lib/1.2.4",
+    "Source":         "src/xine-lib/1.2.4/xine-lib-1.2.4.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.3",
+    "Installed":      "installed/xine-lib/1.2.3",
+    "Source":         "src/xine-lib/1.2.3/xine-lib-1.2.3.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

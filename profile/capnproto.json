@@ -1,0 +1,174 @@
+{
+  "Name":           "capnproto",
+  "Title":          "Cap'n Proto",
+  "SourceUrl":      "https://github.com/capnproto/capnproto/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "CMake",
+  "BuildDir":       "c++",
+  "ClearInstalled": "Off",
+  "HeadersDiff":    "Off",
+  "LambdaSupport":  "On",
+
+  "Versions": [
+  {
+    "Number":         "0.6.1",
+    "Installed":      "installed/capnproto/0.6.1",
+    "Source":         "src/capnproto/0.6.1/capnproto-0.6.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.0",
+    "Installed":      "installed/capnproto/0.6.0",
+    "Source":         "src/capnproto/0.6.0/capnproto-0.6.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.3.1",
+    "Installed":      "installed/capnproto/0.5.3.1",
+    "Source":         "src/capnproto/0.5.3.1/capnproto-0.5.3.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.3",
+    "Installed":      "installed/capnproto/0.5.3",
+    "Source":         "src/capnproto/0.5.3/capnproto-0.5.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.2",
+    "Installed":      "installed/capnproto/0.5.2",
+    "Source":         "src/capnproto/0.5.2/capnproto-0.5.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.1.2",
+    "Installed":      "installed/capnproto/0.5.1.2",
+    "Source":         "src/capnproto/0.5.1.2/capnproto-0.5.1.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.1.1",
+    "Installed":      "installed/capnproto/0.5.1.1",
+    "Source":         "src/capnproto/0.5.1.1/capnproto-0.5.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.1",
+    "Installed":      "installed/capnproto/0.5.1",
+    "Source":         "src/capnproto/0.5.1/capnproto-0.5.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.0",
+    "Installed":      "installed/capnproto/0.5.0",
+    "Source":         "src/capnproto/0.5.0/capnproto-0.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.1.2",
+    "Installed":      "installed/capnproto/0.4.1.2",
+    "Source":         "src/capnproto/0.4.1.2/capnproto-0.4.1.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.1.1",
+    "Installed":      "installed/capnproto/0.4.1.1",
+    "Source":         "src/capnproto/0.4.1.1/capnproto-0.4.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.1",
+    "Installed":      "installed/capnproto/0.4.1",
+    "Source":         "src/capnproto/0.4.1/capnproto-0.4.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.0",
+    "Installed":      "installed/capnproto/0.4.0",
+    "Source":         "src/capnproto/0.4.0/capnproto-0.4.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.0",
+    "Installed":      "installed/capnproto/0.3.0",
+    "Source":         "src/capnproto/0.3.0/capnproto-0.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.1",
+    "Installed":      "installed/capnproto/0.2.1",
+    "Source":         "src/capnproto/0.2.1/capnproto-0.2.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.0",
+    "Installed":      "installed/capnproto/0.2.0",
+    "Source":         "src/capnproto/0.2.0/capnproto-0.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

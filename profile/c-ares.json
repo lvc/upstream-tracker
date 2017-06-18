@@ -4,7 +4,8 @@
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "Configure":      "--enable-debug --enable-optimize='-Og -g'",
-  "PreInstall":     "sed -i -e 's/-O2/-Og -g/' m4/cares-compilers.m4",
+  "PreInstall":     "sed -i -e 's/-O2/-Og -g/' m4/*.m4",
+  "Changelog":      "RELEASE-NOTES",
   "HeadersDiff":    "Off",
   "Package":        "cares",
 
@@ -13,7 +14,117 @@
     "Number":         "1_12_0",
     "Installed":      "installed/c-ares/1_12_0",
     "Source":         "src/c-ares/1_12_0/cares-1_12_0.tar.gz",
+    "Changelog":      "RELEASE-NOTES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_11_0",
+    "Installed":      "installed/c-ares/1_11_0",
+    "Source":         "src/c-ares/1_11_0/cares-1_11_0.tar.gz",
+    "Changelog":      "RELEASE-NOTES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_10_0",
+    "Installed":      "installed/c-ares/1_10_0",
+    "Source":         "src/c-ares/1_10_0/cares-1_10_0.tar.gz",
+    "Changelog":      "RELEASE-NOTES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_9_1",
+    "Installed":      "installed/c-ares/1_9_1",
+    "Source":         "src/c-ares/1_9_1/cares-1_9_1.tar.gz",
     "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_9_0",
+    "Installed":      "installed/c-ares/1_9_0",
+    "Source":         "src/c-ares/1_9_0/cares-1_9_0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_8_0",
+    "Installed":      "installed/c-ares/1_8_0",
+    "Source":         "src/c-ares/1_8_0/cares-1_8_0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_7_5",
+    "Installed":      "installed/c-ares/1_7_5",
+    "Source":         "src/c-ares/1_7_5/cares-1_7_5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_7_4",
+    "Installed":      "installed/c-ares/1_7_4",
+    "Source":         "src/c-ares/1_7_4/cares-1_7_4.tar.gz",
+    "Changelog":      "RELEASE-NOTES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_7_3",
+    "Installed":      "installed/c-ares/1_7_3",
+    "Source":         "src/c-ares/1_7_3/cares-1_7_3.tar.gz",
+    "Changelog":      "RELEASE-NOTES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_7_2",
+    "Installed":      "installed/c-ares/1_7_2",
+    "Source":         "src/c-ares/1_7_2/cares-1_7_2.tar.gz",
+    "Changelog":      "RELEASE-NOTES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_7_1",
+    "Installed":      "installed/c-ares/1_7_1",
+    "Source":         "src/c-ares/1_7_1/cares-1_7_1.tar.gz",
+    "Changelog":      "RELEASE-NOTES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_7_0",
+    "Installed":      "installed/c-ares/1_7_0",
+    "Source":         "src/c-ares/1_7_0/cares-1_7_0.tar.gz",
+    "Changelog":      "RELEASE-NOTES",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",

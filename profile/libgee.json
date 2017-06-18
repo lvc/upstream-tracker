@@ -1,0 +1,121 @@
+{
+  "Name":           "libgee",
+  "SourceUrl":      "https://download.gnome.org/sources/libgee/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-introspection=no --disable-doc --disable-vala",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.14",
+
+  "Versions": [
+  {
+    "Number":         "0.20.0",
+    "Installed":      "installed/libgee/0.20.0",
+    "Source":         "src/libgee/0.20.0/libgee-0.20.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19.91",
+    "Installed":      "installed/libgee/0.19.91",
+    "Source":         "src/libgee/0.19.91/libgee-0.19.91.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.18.1",
+    "Installed":      "installed/libgee/0.18.1",
+    "Source":         "src/libgee/0.18.1/libgee-0.18.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.18.0",
+    "Installed":      "installed/libgee/0.18.0",
+    "Source":         "src/libgee/0.18.0/libgee-0.18.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.17.92",
+    "Installed":      "installed/libgee/0.17.92",
+    "Source":         "src/libgee/0.17.92/libgee-0.17.92.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16.1",
+    "Installed":      "installed/libgee/0.16.1",
+    "Source":         "src/libgee/0.16.1/libgee-0.16.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16.0",
+    "Installed":      "installed/libgee/0.16.0",
+    "Source":         "src/libgee/0.16.0/libgee-0.16.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.15.92",
+    "Installed":      "installed/libgee/0.15.92",
+    "Source":         "src/libgee/0.15.92/libgee-0.15.92.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.15.90",
+    "Installed":      "installed/libgee/0.15.90",
+    "Source":         "src/libgee/0.15.90/libgee-0.15.90.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.15.3",
+    "Installed":      "installed/libgee/0.15.3",
+    "Source":         "src/libgee/0.15.3/libgee-0.15.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14.0",
+    "Installed":      "installed/libgee/0.14.0",
+    "Source":         "src/libgee/0.14.0/libgee-0.14.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

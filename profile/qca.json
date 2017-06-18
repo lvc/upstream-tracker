@@ -1,0 +1,64 @@
+{
+  "Name":           "qca",
+  "Title":          "QCA",
+  "SourceUrl":      "https://github.com/KDE/qca/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DQT4_BUILD=ON -DBUILD_TESTS=OFF -DQT_PLUGINS_DIR={INSTALL_TO}/share",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/qca-qt5",
+  "SkipObjects":    [ "crypto/" ],
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.0.3",
+
+  "Versions": [
+  {
+    "Number":         "2.1.3",
+    "Installed":      "installed/qca/2.1.3",
+    "Source":         "src/qca/2.1.3/qca-2.1.3.tar.gz",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.2",
+    "Installed":      "installed/qca/2.1.2",
+    "Source":         "src/qca/2.1.2/qca-2.1.2.tar.gz",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.1",
+    "Installed":      "installed/qca/2.1.1",
+    "Source":         "src/qca/2.1.1/qca-2.1.1.tar.gz",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.0",
+    "Installed":      "installed/qca/2.1.0",
+    "Source":         "src/qca/2.1.0/qca-2.1.0.tar.gz",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.3",
+    "Installed":      "installed/qca/2.0.3",
+    "Source":         "src/qca/2.0.3/qca-2.0.3.tar.gz",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

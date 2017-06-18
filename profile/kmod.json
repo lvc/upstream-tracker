@@ -1,0 +1,250 @@
+{
+  "Name":           "kmod",
+  "SourceUrl":      "https://www.kernel.org/pub/linux/utils/kernel/kmod/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-bashcompletiondir={INSTALL_TO}/share",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         24,
+    "Installed":      "installed/kmod/24",
+    "Source":         "src/kmod/24/kmod-24.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         23,
+    "Installed":      "installed/kmod/23",
+    "Source":         "src/kmod/23/kmod-23.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         22,
+    "Installed":      "installed/kmod/22",
+    "Source":         "src/kmod/22/kmod-22.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         21,
+    "Installed":      "installed/kmod/21",
+    "Source":         "src/kmod/21/kmod-21.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20,
+    "Installed":      "installed/kmod/20",
+    "Source":         "src/kmod/20/kmod-20.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         19,
+    "Installed":      "installed/kmod/19",
+    "Source":         "src/kmod/19/kmod-19.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         18,
+    "Installed":      "installed/kmod/18",
+    "Source":         "src/kmod/18/kmod-18.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         17,
+    "Installed":      "installed/kmod/17",
+    "Source":         "src/kmod/17/kmod-17.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         16,
+    "Installed":      "installed/kmod/16",
+    "Source":         "src/kmod/16/kmod-16.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         15,
+    "Installed":      "installed/kmod/15",
+    "Source":         "src/kmod/15/kmod-15.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         14,
+    "Installed":      "installed/kmod/14",
+    "Source":         "src/kmod/14/kmod-14.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         13,
+    "Installed":      "installed/kmod/13",
+    "Source":         "src/kmod/13/kmod-13.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         12,
+    "Installed":      "installed/kmod/12",
+    "Source":         "src/kmod/12/kmod-12.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         11,
+    "Installed":      "installed/kmod/11",
+    "Source":         "src/kmod/11/kmod-11.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         10,
+    "Installed":      "installed/kmod/10",
+    "Source":         "src/kmod/10/kmod-10.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         9,
+    "Installed":      "installed/kmod/9",
+    "Source":         "src/kmod/9/kmod-9.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         8,
+    "Installed":      "installed/kmod/8",
+    "Source":         "src/kmod/8/kmod-8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         7,
+    "Installed":      "installed/kmod/7",
+    "Source":         "src/kmod/7/kmod-7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         6,
+    "Installed":      "installed/kmod/6",
+    "Source":         "src/kmod/6/kmod-6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         5,
+    "Installed":      "installed/kmod/5",
+    "Source":         "src/kmod/5/kmod-5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         4,
+    "Installed":      "installed/kmod/4",
+    "Source":         "src/kmod/4/kmod-4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3,
+    "Installed":      "installed/kmod/3",
+    "Source":         "src/kmod/3/kmod-3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         2,
+    "Installed":      "installed/kmod/2",
+    "Source":         "src/kmod/2/kmod-2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         1,
+    "Installed":      "installed/kmod/1",
+    "Source":         "src/kmod/1/kmod-1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

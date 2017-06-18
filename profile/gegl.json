@@ -4,13 +4,63 @@
   "SourceUrl":      "http://ftp.gtk.org/pub/gegl/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--enable-introspection=no --disable-docs PKG_CONFIG_PATH={INSTALL_ROOT}/babl/0.1.16/lib/pkgconfig/",
+  "Configure":      "--enable-introspection=no --disable-docs PKG_CONFIG_PATH={INSTALL_ROOT}/babl/0.1.26/lib/pkgconfig/",
   "PreInstall":     "sed -i -e 's/ operations bin tools examples tests / /g' Makefile.in",
   "PostInstall":    "rm -fr {INSTALL_TO}/lib/gegl-0.*",
   "SkipObjects":    [ "gegl-0.1/", "gegl-0.3/" ],
   "HeadersDiff":    "Off",
 
   "Versions": [
+  {
+    "Number":         "0.3.18",
+    "Installed":      "installed/gegl/0.3.18",
+    "Source":         "src/gegl/0.3.18/gegl-0.3.18.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.16",
+    "Installed":      "installed/gegl/0.3.16",
+    "Source":         "src/gegl/0.3.16/gegl-0.3.16.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.14",
+    "Installed":      "installed/gegl/0.3.14",
+    "Source":         "src/gegl/0.3.14/gegl-0.3.14.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.12",
+    "Installed":      "installed/gegl/0.3.12",
+    "Source":         "src/gegl/0.3.12/gegl-0.3.12.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.10",
+    "Installed":      "installed/gegl/0.3.10",
+    "Source":         "src/gegl/0.3.10/gegl-0.3.10.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "0.3.8",
     "Installed":      "installed/gegl/0.3.8",

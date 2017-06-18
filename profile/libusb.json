@@ -1,0 +1,91 @@
+{
+  "Name":           "libusb",
+  "SourceUrl":      "https://github.com/libusb/libusb/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Changelog":      "ChangeLog",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.0.8",
+
+  "Versions": [
+  {
+    "Number":         "1.0.21",
+    "Installed":      "installed/libusb/1.0.21",
+    "Source":         "src/libusb/1.0.21/libusb-1.0.21.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.20",
+    "Installed":      "installed/libusb/1.0.20",
+    "Source":         "src/libusb/1.0.20/libusb-1.0.20.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.19",
+    "Installed":      "installed/libusb/1.0.19",
+    "Source":         "src/libusb/1.0.19/libusb-1.0.19.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.18",
+    "Installed":      "installed/libusb/1.0.18",
+    "Source":         "src/libusb/1.0.18/libusb-1.0.18.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.17",
+    "Installed":      "installed/libusb/1.0.17",
+    "Source":         "src/libusb/1.0.17/libusb-1.0.17.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.16",
+    "Installed":      "installed/libusb/1.0.16",
+    "Source":         "src/libusb/1.0.16/libusb-1.0.16.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.9",
+    "Installed":      "installed/libusb/1.0.9",
+    "Source":         "src/libusb/1.0.9/libusb-1.0.9.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.8",
+    "Installed":      "installed/libusb/1.0.8",
+    "Source":         "src/libusb/1.0.8/libusb-1.0.8.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,193 @@
+{
+  "Name":           "clipper",
+  "Title":          "Clipper",
+  "SourceUrl":      "https://sourceforge.net/projects/polyclipping/files/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildDir":       "cpp",
+  "Changelog":      "README",
+  "HeadersDiff":    "Off",
+  "Package":        "clipper_ver",
+
+  "Versions": [
+  {
+    "Number":         "6.4.2",
+    "Installed":      "installed/clipper/6.4.2",
+    "Source":         "src/clipper/6.4.2/clipper_ver6.4.2.zip",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.4",
+    "Installed":      "installed/clipper/6.4",
+    "Source":         "src/clipper/6.4/clipper_ver6.4.zip",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.2.1",
+    "Installed":      "installed/clipper/6.2.1",
+    "Source":         "src/clipper/6.2.1/clipper_ver6.2.1.zip",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.2.0",
+    "Installed":      "installed/clipper/6.2.0",
+    "Source":         "src/clipper/6.2.0/clipper_ver6.2.0.zip",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.1.3",
+    "Installed":      "installed/clipper/6.1.3",
+    "Source":         "src/clipper/6.1.3/clipper_ver6.1.3.zip",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.1.2",
+    "Installed":      "installed/clipper/6.1.2",
+    "Source":         "src/clipper/6.1.2/clipper_ver6.1.2.zip",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.1.1",
+    "Installed":      "installed/clipper/6.1.1",
+    "Source":         "src/clipper/6.1.1/clipper_ver6.1.1.zip",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.1.0",
+    "Installed":      "installed/clipper/6.1.0",
+    "Source":         "src/clipper/6.1.0/clipper_ver6.1.0.zip",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.0.0",
+    "Installed":      "installed/clipper/6.0.0",
+    "Source":         "src/clipper/6.0.0/clipper_ver6.0.0.zip",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.1.6",
+    "Installed":      "installed/clipper/5.1.6",
+    "Source":         "src/clipper/5.1.6/clipper_ver5.1.6.zip",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.1.5",
+    "Installed":      "installed/clipper/5.1.5",
+    "Source":         "src/clipper/5.1.5/clipper_ver5.1.5.zip",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.1.4",
+    "Installed":      "installed/clipper/5.1.4",
+    "Source":         "src/clipper/5.1.4/clipper_ver5.1.4.zip",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.1.3",
+    "Installed":      "installed/clipper/5.1.3",
+    "Source":         "src/clipper/5.1.3/clipper_ver5.1.3.zip",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.1.2",
+    "Installed":      "installed/clipper/5.1.2",
+    "Source":         "src/clipper/5.1.2/clipper_ver5.1.2.zip",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.1.0",
+    "Installed":      "installed/clipper/5.1.0",
+    "Source":         "src/clipper/5.1.0/clipper_ver5.1.0.zip",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.2",
+    "Installed":      "installed/clipper/5.0.2",
+    "Source":         "src/clipper/5.0.2/clipper_ver5.0.2.zip",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.10.0",
+    "Installed":      "installed/clipper/4.10.0",
+    "Source":         "src/clipper/4.10.0/clipper_ver4.10.0.zip",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.8.0",
+    "Installed":      "installed/clipper/4.8.0",
+    "Source":         "src/clipper/4.8.0/clipper_ver4.8.0.zip",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

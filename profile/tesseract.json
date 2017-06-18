@@ -1,0 +1,108 @@
+{
+  "Name":           "tesseract",
+  "Title":          "Tesseract",
+  "SourceUrl":      "https://github.com/tesseract-ocr/tesseract/tags",
+  "Git":            "https://github.com/tesseract-ocr/tesseract.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/leptonica/1.74.1/lib/pkgconfig LIBLEPT_HEADERSDIR={INSTALL_ROOT}/leptonica/1.74.1/include/ LDFLAGS='-L{INSTALL_ROOT}/leptonica/1.74.1/lib' CFLAGS='-g -Og -I{INSTALL_ROOT}/leptonica/1.74.1/include'",
+  "PreInstall":     "sed -i '1s/^/#include <unistd.h>\n/' ./viewer/svutil.cpp;autoreconf --force --verbose --install",
+  "Branch":         "3.05",
+  "Changelog":      "ChangeLog",
+  "GraphShortXTics": "On",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "3.00",
+  "SkipVersions":   [ "4.*" ],
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/tesseract/current",
+    "Source":         "src/tesseract/current",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.05.01",
+    "Installed":      "installed/tesseract/3.05.01",
+    "Source":         "src/tesseract/3.05.01/tesseract-3.05.01.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.05.00",
+    "Installed":      "installed/tesseract/3.05.00",
+    "Source":         "src/tesseract/3.05.00/tesseract-3.05.00.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.04.01",
+    "Installed":      "installed/tesseract/3.04.01",
+    "Source":         "src/tesseract/3.04.01/tesseract-3.04.01.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.04.00",
+    "Installed":      "installed/tesseract/3.04.00",
+    "Source":         "src/tesseract/3.04.00/tesseract-3.04.00.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.03.02",
+    "Installed":      "installed/tesseract/3.03.02",
+    "Source":         "src/tesseract/3.03.02/tesseract_3.03.02.orig.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.02.02",
+    "Installed":      "installed/tesseract/3.02.02",
+    "Source":         "src/tesseract/3.02.02/tesseract-3.02.02.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.01",
+    "Installed":      "installed/tesseract/3.01",
+    "Source":         "src/tesseract/3.01/tesseract-3.01.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.00",
+    "Installed":      "installed/tesseract/3.00",
+    "Source":         "src/tesseract/3.00/tesseract-3.00.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

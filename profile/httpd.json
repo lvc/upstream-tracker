@@ -7,9 +7,10 @@
   "BuildSystem":    "Autotools",
   "CurrentConfigure": "--with-included-apr",
   "CurrentPreInstall": "svn co http://svn.apache.org/repos/asf/apr/apr/trunk srclib/apr && cp -fr srclib/apr srclib/apr-util",
-  "PostInstall":    "mkdir -p {INSTALL_TO}/lib/ && cp -f {INSTALL_TO}/bin/httpd {INSTALL_TO}/lib/libhttpd.so && rm -fr {INSTALL_TO}/build",
+  "PostInstall":    "mkdir -p {INSTALL_TO}/lib/ && cp -f {INSTALL_TO}/bin/httpd {INSTALL_TO}/lib/libhttpd.so && rm -fr {INSTALL_TO}/build {INSTALL_TO}/lib/apr-2/",
   "SkipObjects":    [ "modules/", "apr-2/", "libapr-0.so", "libaprutil-0.so", "libexpat.so", "libapr-2.so" ],
   "HeadersDiff":    "Off",
+  "MinimalVersion": "2.0.58",
   "Soname":         "Off",
 
   "Versions": [
@@ -18,6 +19,16 @@
     "Installed":      "installed/httpd/current",
     "Source":         "src/httpd/current",
     "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.25",
+    "Installed":      "installed/httpd/2.4.25",
+    "Source":         "src/httpd/2.4.25/httpd-2.4.25.tar.gz",
+    "Changelog":      "CHANGES",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
@@ -163,6 +174,16 @@
     "ABIView":        "Off",
     "ABIDiff":        "Off",
     "Comment":        "Intended breakage of the API/ABI in 2.4 since 2.2. See <a href='https://httpd.apache.org/docs/2.4/developer/new_api_2_4.html'>API migration guide</a> for the detailed information on all API changes."
+  },
+  {
+    "Number":         "2.2.32",
+    "Installed":      "installed/httpd/2.2.32",
+    "Source":         "src/httpd/2.2.32/httpd-2.2.32.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.2.31",

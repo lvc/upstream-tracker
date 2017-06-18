@@ -5,7 +5,7 @@
   "Git":            "http://anongit.freedesktop.org/git/wayland/wayland.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--disable-documentation",
+  "Configure":      "--disable-documentation --enable-static=no",
   "Changelog":      "Off",
   "HeadersDiff":    "Off",
 
@@ -14,6 +14,46 @@
     "Number":         "current",
     "Installed":      "installed/wayland/current",
     "Source":         "src/wayland/current",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.0",
+    "Installed":      "installed/wayland/1.13.0",
+    "Source":         "src/wayland/1.13.0/wayland-1.13.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.93",
+    "Installed":      "installed/wayland/1.12.93",
+    "Source":         "src/wayland/1.12.93/wayland-1.12.93.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.92",
+    "Installed":      "installed/wayland/1.12.92",
+    "Source":         "src/wayland/1.12.92/wayland-1.12.92.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.91",
+    "Installed":      "installed/wayland/1.12.91",
+    "Source":         "src/wayland/1.12.91/wayland-1.12.91.tar.xz",
     "Changelog":      "Off",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

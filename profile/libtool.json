@@ -1,0 +1,130 @@
+{
+  "Name":           "libtool",
+  "SourceUrl":      "https://ftp.gnu.org/gnu/libtool/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.5.26",
+
+  "Versions": [
+  {
+    "Number":         "2.4.6",
+    "Installed":      "installed/libtool/2.4.6",
+    "Source":         "src/libtool/2.4.6/libtool-2.4.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.5",
+    "Installed":      "installed/libtool/2.4.5",
+    "Source":         "src/libtool/2.4.5/libtool-2.4.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.4",
+    "Installed":      "installed/libtool/2.4.4",
+    "Source":         "src/libtool/2.4.4/libtool-2.4.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.3",
+    "Installed":      "installed/libtool/2.4.3",
+    "Source":         "src/libtool/2.4.3/libtool-2.4.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.2",
+    "Installed":      "installed/libtool/2.4.2",
+    "Source":         "src/libtool/2.4.2/libtool-2.4.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4",
+    "Installed":      "installed/libtool/2.4",
+    "Source":         "src/libtool/2.4/libtool-2.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.10",
+    "Installed":      "installed/libtool/2.2.10",
+    "Source":         "src/libtool/2.2.10/libtool-2.2.10.tar.lzma",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.8",
+    "Installed":      "installed/libtool/2.2.8",
+    "Source":         "src/libtool/2.2.8/libtool-2.2.8.tar.lzma",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.4",
+    "Installed":      "installed/libtool/2.2.4",
+    "Source":         "src/libtool/2.2.4/libtool-2.2.4.tar.lzma",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.2",
+    "Installed":      "installed/libtool/2.2.2",
+    "Source":         "src/libtool/2.2.2/libtool-2.2.2.tar.lzma",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2",
+    "Installed":      "installed/libtool/2.2",
+    "Source":         "src/libtool/2.2/libtool-2.2.tar.lzma",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.26",
+    "Installed":      "installed/libtool/1.5.26",
+    "Source":         "src/libtool/1.5.26/libtool-1.5.26.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

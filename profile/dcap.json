@@ -1,0 +1,95 @@
+{
+  "Name":           "dcap",
+  "Title":          "dCap",
+  "SourceUrl":      "https://github.com/dCache/dcap/tags",
+  "OldSourceUrl":   "http://pkgs.fedoraproject.org/repo/pkgs/dcap/",
+  "OldSourceUrlDepth": "3",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "SkipObjects":    [ "libgssTunnel.so", "libtelnetTunnel.so", "libsslTunnel.so" ],
+  "Changelog":      "Off",
+  "GraphFewXTics":  "On",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.47.10",
+    "Installed":      "installed/dcap/2.47.10",
+    "Source":         "src/dcap/2.47.10/dcap-2.47.10.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.47.9",
+    "Installed":      "installed/dcap/2.47.9",
+    "Source":         "src/dcap/2.47.9/dcap-2.47.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.47.8",
+    "Installed":      "installed/dcap/2.47.8",
+    "Source":         "src/dcap/2.47.8/dcap-2.47.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.47.7",
+    "Installed":      "installed/dcap/2.47.7",
+    "Source":         "src/dcap/2.47.7/dcap-2.47.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.47.6",
+    "Installed":      "installed/dcap/2.47.6",
+    "Source":         "src/dcap/2.47.6/dcap-2.47.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.47.5",
+    "Installed":      "installed/dcap/2.47.5",
+    "Source":         "src/dcap/2.47.5/dcap-2.47.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.47.2",
+    "Installed":      "installed/dcap/2.47.2",
+    "Source":         "src/dcap/2.47.2/dcap-2.47.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.44.0",
+    "Installed":      "installed/dcap/2.44.0",
+    "Source":         "src/dcap/2.44.0/dcap-2.44.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

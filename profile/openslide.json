@@ -1,0 +1,153 @@
+{
+  "Name":           "openslide",
+  "Title":          "OpenSlide",
+  "SourceUrl":      "https://github.com/openslide/openslide/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/glib/2.28.8/lib/pkgconfig",
+  "PreInstall":     "autoreconf --force --verbose --install",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "3.1.1",
+
+  "Versions": [
+  {
+    "Number":         "3.4.1",
+    "Installed":      "installed/openslide/3.4.1",
+    "Source":         "src/openslide/3.4.1/openslide-3.4.1.tar.gz",
+    "Changelog":      "CHANGELOG.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.4.0",
+    "Installed":      "installed/openslide/3.4.0",
+    "Source":         "src/openslide/3.4.0/openslide-3.4.0.tar.gz",
+    "Changelog":      "CHANGELOG.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.3",
+    "Installed":      "installed/openslide/3.3.3",
+    "Source":         "src/openslide/3.3.3/openslide-3.3.3.tar.gz",
+    "Changelog":      "CHANGELOG.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.2",
+    "Installed":      "installed/openslide/3.3.2",
+    "Source":         "src/openslide/3.3.2/openslide-3.3.2.tar.gz",
+    "Changelog":      "CHANGELOG.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.1",
+    "Installed":      "installed/openslide/3.3.1",
+    "Source":         "src/openslide/3.3.1/openslide-3.3.1.tar.gz",
+    "Changelog":      "CHANGELOG.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.0",
+    "Installed":      "installed/openslide/3.3.0",
+    "Source":         "src/openslide/3.3.0/openslide-3.3.0.tar.gz",
+    "Changelog":      "CHANGELOG.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.6",
+    "Installed":      "installed/openslide/3.2.6",
+    "Source":         "src/openslide/3.2.6/openslide-3.2.6.tar.gz",
+    "Changelog":      "CHANGELOG.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.5",
+    "Installed":      "installed/openslide/3.2.5",
+    "Source":         "src/openslide/3.2.5/openslide-3.2.5.tar.gz",
+    "Changelog":      "CHANGELOG.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.4",
+    "Installed":      "installed/openslide/3.2.4",
+    "Source":         "src/openslide/3.2.4/openslide-3.2.4.tar.gz",
+    "Changelog":      "CHANGELOG.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.3",
+    "Installed":      "installed/openslide/3.2.3",
+    "Source":         "src/openslide/3.2.3/openslide-3.2.3.tar.gz",
+    "Changelog":      "CHANGELOG.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.2",
+    "Installed":      "installed/openslide/3.2.2",
+    "Source":         "src/openslide/3.2.2/openslide-3.2.2.tar.gz",
+    "Changelog":      "CHANGELOG.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.1",
+    "Installed":      "installed/openslide/3.2.1",
+    "Source":         "src/openslide/3.2.1/openslide-3.2.1.tar.gz",
+    "Changelog":      "CHANGELOG.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.0",
+    "Installed":      "installed/openslide/3.2.0",
+    "Source":         "src/openslide/3.2.0/openslide-3.2.0.tar.gz",
+    "Changelog":      "CHANGELOG.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.1",
+    "Installed":      "installed/openslide/3.1.1",
+    "Source":         "src/openslide/3.1.1/openslide-3.1.1.tar.gz",
+    "Changelog":      "CHANGELOG.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

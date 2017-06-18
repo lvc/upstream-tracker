@@ -1,0 +1,90 @@
+{
+  "Name":           "gexiv2",
+  "SourceUrl":      "http://ftp.acc.umu.se/pub/gnome/sources/gexiv2/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-python2-girdir={INSTALL_TO}/gir --with-python3-girdir={INSTALL_TO}/gir CXXFLAGS='-std=c++11 -g -Og'",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.10.6",
+    "Installed":      "installed/gexiv2/0.10.6",
+    "Source":         "src/gexiv2/0.10.6/gexiv2-0.10.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.5",
+    "Installed":      "installed/gexiv2/0.10.5",
+    "Source":         "src/gexiv2/0.10.5/gexiv2-0.10.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.4",
+    "Installed":      "installed/gexiv2/0.10.4",
+    "Source":         "src/gexiv2/0.10.4/gexiv2-0.10.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.3",
+    "Installed":      "installed/gexiv2/0.10.3",
+    "Source":         "src/gexiv2/0.10.3/gexiv2-0.10.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.2",
+    "Installed":      "installed/gexiv2/0.10.2",
+    "Source":         "src/gexiv2/0.10.2/gexiv2-0.10.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.1",
+    "Installed":      "installed/gexiv2/0.10.1",
+    "Source":         "src/gexiv2/0.10.1/gexiv2-0.10.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.0",
+    "Installed":      "installed/gexiv2/0.10.0",
+    "Source":         "src/gexiv2/0.10.0/gexiv2-0.10.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.1",
+    "Installed":      "installed/gexiv2/0.9.1",
+    "Source":         "src/gexiv2/0.9.1/gexiv2-0.9.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

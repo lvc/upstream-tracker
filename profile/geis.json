@@ -1,0 +1,73 @@
+{
+  "Name":           "geis",
+  "Title":          "GEIS",
+  "SourceUrl":      "https://launchpad.net/geis/+download",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-integration-tests PKG_CONFIG_PATH={INSTALL_ROOT}/grail/3.1.1/lib/pkgconfig:{INSTALL_ROOT}/frame/2.5.0/lib/pkgconfig",
+  "PreInstall":     "sed -i -e 's/testsuite python //' Makefile.in;sed -i -e 's/tools examples //' Makefile.in",
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.2.17",
+    "Installed":      "installed/geis/2.2.17",
+    "Source":         "src/geis/2.2.17/geis-2.2.17.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.16",
+    "Installed":      "installed/geis/2.2.16",
+    "Source":         "src/geis/2.2.16/geis-2.2.16.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.15",
+    "Installed":      "installed/geis/2.2.15",
+    "Source":         "src/geis/2.2.15/geis-2.2.15.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.14",
+    "Installed":      "installed/geis/2.2.14",
+    "Source":         "src/geis/2.2.14/geis-2.2.14.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.13",
+    "Installed":      "installed/geis/2.2.13",
+    "Source":         "src/geis/2.2.13/geis-2.2.13.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.11",
+    "Installed":      "installed/geis/2.2.11",
+    "Source":         "src/geis/2.2.11/geis-2.2.11.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

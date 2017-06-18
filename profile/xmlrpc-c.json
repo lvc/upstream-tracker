@@ -5,11 +5,22 @@
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "PreInstall":     "sed -i -e 's/\-O3/-Og -g/' common.mk",
-  "SkipObjects":    [ "libxmlrpc_xmlparse.so", "libxmlrpc_xmltok.so" ],
+  "SkipObjects":    [ "libxmlrpc_xmlparse.so", "libxmlrpc_xmltok.so", "libxmlrpc_abyss\+\+.so.*" ],
+  "ClearInstalled": "On",
   "HeadersDiff":    "Off",
   "MixedHeaders":   "On",
 
   "Versions": [
+  {
+    "Number":         "1.39.12",
+    "Installed":      "installed/xmlrpc-c/1.39.12",
+    "Source":         "src/xmlrpc-c/1.39.12/xmlrpc-c-1.39.12.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "1.39.11",
     "Installed":      "installed/xmlrpc-c/1.39.11",

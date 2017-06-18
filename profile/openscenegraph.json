@@ -1,0 +1,162 @@
+{
+  "Name":           "openscenegraph",
+  "Title":          "OpenSceneGraph",
+  "SourceUrl":      "https://github.com/openscenegraph/OpenSceneGraph/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DBUILD_OSG_APPLICATIONS=OFF -DBUILD_OSG_EXAMPLES=OFF",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib64/osgPlugins-*",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "3.5.6",
+    "Installed":      "installed/openscenegraph/3.5.6",
+    "Source":         "src/openscenegraph/3.5.6/OpenSceneGraph-3.5.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.5.5",
+    "Installed":      "installed/openscenegraph/3.5.5",
+    "Source":         "src/openscenegraph/3.5.5/OpenSceneGraph-3.5.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.5.4",
+    "Installed":      "installed/openscenegraph/3.5.4",
+    "Source":         "src/openscenegraph/3.5.4/OpenSceneGraph-3.5.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.5.3",
+    "Installed":      "installed/openscenegraph/3.5.3",
+    "Source":         "src/openscenegraph/3.5.3/OpenSceneGraph-3.5.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.5.2",
+    "Installed":      "installed/openscenegraph/3.5.2",
+    "Source":         "src/openscenegraph/3.5.2/OpenSceneGraph-3.5.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.5.1",
+    "Installed":      "installed/openscenegraph/3.5.1",
+    "Source":         "src/openscenegraph/3.5.1/OpenSceneGraph-3.5.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.5.0",
+    "Installed":      "installed/openscenegraph/3.5.0",
+    "Source":         "src/openscenegraph/3.5.0/OpenSceneGraph-3.5.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.4.0",
+    "Installed":      "installed/openscenegraph/3.4.0",
+    "Source":         "src/openscenegraph/3.4.0/OpenSceneGraph-3.4.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.9",
+    "Installed":      "installed/openscenegraph/3.3.9",
+    "Source":         "src/openscenegraph/3.3.9/OpenSceneGraph-3.3.9.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.8",
+    "Installed":      "installed/openscenegraph/3.3.8",
+    "Source":         "src/openscenegraph/3.3.8/OpenSceneGraph-3.3.8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.7",
+    "Installed":      "installed/openscenegraph/3.3.7",
+    "Source":         "src/openscenegraph/3.3.7/OpenSceneGraph-3.3.7.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.6",
+    "Installed":      "installed/openscenegraph/3.3.6",
+    "Source":         "src/openscenegraph/3.3.6/OpenSceneGraph-3.3.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.5",
+    "Installed":      "installed/openscenegraph/3.3.5",
+    "Source":         "src/openscenegraph/3.3.5/OpenSceneGraph-3.3.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.4",
+    "Installed":      "installed/openscenegraph/3.3.4",
+    "Source":         "src/openscenegraph/3.3.4/OpenSceneGraph-3.3.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.3",
+    "Installed":      "installed/openscenegraph/3.3.3",
+    "Source":         "src/openscenegraph/3.3.3/OpenSceneGraph-3.3.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,52 @@
+{
+  "Name":           "libblockdev",
+  "SourceUrl":      "https://github.com/rhinstaller/libblockdev/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--without-python3 --with-loop=yes --without-fs --disable-tests PKG_CONFIG_PATH={INSTALL_ROOT}/cryptsetup/1.7.5/lib/pkgconfig:{INSTALL_ROOT}/kmod/24/lib/pkgconfig:{INSTALL_ROOT}/parted/3.2/lib/pkgconfig:{INSTALL_ROOT}/libbytesize/0.10/lib/pkgconfig LDFLAGS='-L{INSTALL_ROOT}/libbytesize/0.10/lib'",
+  "SkipObjects":    [ "libbd_part_err.so" ],
+  "HeadersDiff":    "Off",
+  "MakeGlobal":     "LD_LIBRARY_PATH={INSTALL_ROOT}/libbytesize/0.10/lib/ PKG_CONFIG_PATH={INSTALL_ROOT}/cryptsetup/1.7.5/lib/pkgconfig:{INSTALL_ROOT}/parted/3.2/lib/pkgconfig:{INSTALL_ROOT}/libbytesize/0.10/lib/pkgconfig",
+
+  "Versions": [
+  {
+    "Number":         "2.9-1",
+    "Installed":      "installed/libblockdev/2.9-1",
+    "Source":         "src/libblockdev/2.9-1/libblockdev-2.9-1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8-1",
+    "Installed":      "installed/libblockdev/2.8-1",
+    "Source":         "src/libblockdev/2.8-1/libblockdev-2.8-1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.7-1",
+    "Installed":      "installed/libblockdev/2.7-1",
+    "Source":         "src/libblockdev/2.7-1/libblockdev-2.7-1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6-1",
+    "Installed":      "installed/libblockdev/2.6-1",
+    "Source":         "src/libblockdev/2.6-1/libblockdev-2.6-1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

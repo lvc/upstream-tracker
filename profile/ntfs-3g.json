@@ -1,0 +1,76 @@
+{
+  "Name":           "ntfs-3g",
+  "Title":          "NTFS-3G",
+  "SourceUrl":      "http://www.tuxera.com/community/open-source-ntfs-3g/",
+  "OldSourceUrl":   "http://pkgs.fedoraproject.org/repo/pkgs/ntfs-3g/",
+  "OldSourceUrlDepth": "3",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-extras --disable-ntfs-3g --disable-ntfsprogs --enable-static=no --exec-prefix={INSTALL_TO}",
+  "Changelog":      "On",
+  "GraphFewXTics":  "On",
+  "HeadersDiff":    "Off",
+  "Package":        "ntfs-3g_ntfsprogs-",
+
+  "Versions": [
+  {
+    "Number":         "2017.3.23",
+    "Installed":      "installed/ntfs-3g/2017.3.23",
+    "Source":         "src/ntfs-3g/2017.3.23/ntfs-3g_ntfsprogs-2017.3.23.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2016.2.22",
+    "Installed":      "installed/ntfs-3g/2016.2.22",
+    "Source":         "src/ntfs-3g/2016.2.22/ntfs-3g_ntfsprogs-2016.2.22.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2015.3.14",
+    "Installed":      "installed/ntfs-3g/2015.3.14",
+    "Source":         "src/ntfs-3g/2015.3.14/ntfs-3g_ntfsprogs-2015.3.14.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2014.2.15",
+    "Installed":      "installed/ntfs-3g/2014.2.15",
+    "Source":         "src/ntfs-3g/2014.2.15/ntfs-3g_ntfsprogs-2014.2.15.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2013.1.13",
+    "Installed":      "installed/ntfs-3g/2013.1.13",
+    "Source":         "src/ntfs-3g/2013.1.13/ntfs-3g_ntfsprogs-2013.1.13.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2012.1.15",
+    "Installed":      "installed/ntfs-3g/2012.1.15",
+    "Source":         "src/ntfs-3g/2012.1.15/ntfs-3g_ntfsprogs-2012.1.15.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

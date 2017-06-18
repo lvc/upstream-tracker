@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         31,
+    "Installed":      "installed/efivar/31",
+    "Source":         "src/efivar/31/efivar-31.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         30,
     "Installed":      "installed/efivar/30",
     "Source":         "src/efivar/30/efivar-30.tar.gz",

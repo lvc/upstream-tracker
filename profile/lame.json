@@ -1,0 +1,92 @@
+{
+  "Name":           "lame",
+  "Title":          "LAME",
+  "SourceUrl":      "https://sourceforge.net/projects/lame/files/lame/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "3.97",
+  "SkipVersions":   [ "398-2", "398" ],
+
+  "Versions": [
+  {
+    "Number":         "3.99.5",
+    "Installed":      "installed/lame/3.99.5",
+    "Source":         "src/lame/3.99.5/lame-3.99.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.99.4",
+    "Installed":      "installed/lame/3.99.4",
+    "Source":         "src/lame/3.99.4/lame-3.99.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.99.3",
+    "Installed":      "installed/lame/3.99.3",
+    "Source":         "src/lame/3.99.3/lame-3.99.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.99.2",
+    "Installed":      "installed/lame/3.99.2",
+    "Source":         "src/lame/3.99.2/lame-3.99.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.99.1",
+    "Installed":      "installed/lame/3.99.1",
+    "Source":         "src/lame/3.99.1/lame-3.99.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.99",
+    "Installed":      "installed/lame/3.99",
+    "Source":         "src/lame/3.99/lame-3.99.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.98.4",
+    "Installed":      "installed/lame/3.98.4",
+    "Source":         "src/lame/3.98.4/lame-3.98.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.97",
+    "Installed":      "installed/lame/3.97",
+    "Source":         "src/lame/3.97/lame-3.97.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,61 @@
+{
+  "Name":           "log4cpp",
+  "SourceUrl":      "https://sourceforge.net/projects/log4cpp/files/",
+  "SourceUrlDepth": "3",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Changelog":      "ChangeLog",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.1.2",
+    "Installed":      "installed/log4cpp/1.1.2",
+    "Source":         "src/log4cpp/1.1.2/log4cpp-1.1.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.1",
+    "Installed":      "installed/log4cpp/1.1.1",
+    "Source":         "src/log4cpp/1.1.1/log4cpp-1.1.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1",
+    "Installed":      "installed/log4cpp/1.1",
+    "Source":         "src/log4cpp/1.1/log4cpp-1.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0",
+    "Installed":      "installed/log4cpp/1.0",
+    "Source":         "src/log4cpp/1.0/log4cpp-1.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.3",
+    "Installed":      "installed/log4cpp/0.3.3",
+    "Source":         "src/log4cpp/0.3.3/log4cpp-0.3.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

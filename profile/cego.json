@@ -1,0 +1,167 @@
+{
+  "Name":           "cego",
+  "Title":          "Cego",
+  "SourceUrl":      "http://download.openpkg.org/components/cache/cego/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-static=no --with-lfc-include-path={INSTALL_ROOT}/lfcbase/1.9.6/include --with-lfc-lib-path={INSTALL_ROOT}/lfcbase/1.9.6/lib CXXFLAGS='-I{INSTALL_ROOT}/lfcxml/1.2.4/include -g -Og' LDFLAGS='-L{INSTALL_ROOT}/lfcxml/1.2.4/lib'",
+  "HeadersDiff":    "Off",
+  "LatestMicro":    "On",
+
+  "Versions": [
+  {
+    "Number":         "2.33.14",
+    "Installed":      "installed/cego/2.33.14",
+    "Source":         "src/cego/2.33.14/cego-2.33.14.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.33.13",
+    "Installed":      "installed/cego/2.33.13",
+    "Source":         "src/cego/2.33.13/cego-2.33.13.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.33.12",
+    "Installed":      "installed/cego/2.33.12",
+    "Source":         "src/cego/2.33.12/cego-2.33.12.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.33.11",
+    "Installed":      "installed/cego/2.33.11",
+    "Source":         "src/cego/2.33.11/cego-2.33.11.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.33.10",
+    "Installed":      "installed/cego/2.33.10",
+    "Source":         "src/cego/2.33.10/cego-2.33.10.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.33.9",
+    "Installed":      "installed/cego/2.33.9",
+    "Source":         "src/cego/2.33.9/cego-2.33.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.32.15",
+    "Installed":      "installed/cego/2.32.15",
+    "Source":         "src/cego/2.32.15/cego-2.32.15.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.31.7",
+    "Installed":      "installed/cego/2.31.7",
+    "Source":         "src/cego/2.31.7/cego-2.31.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.30.26",
+    "Installed":      "installed/cego/2.30.26",
+    "Source":         "src/cego/2.30.26/cego-2.30.26.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.29.4",
+    "Installed":      "installed/cego/2.29.4",
+    "Source":         "src/cego/2.29.4/cego-2.29.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.28.3",
+    "Installed":      "installed/cego/2.28.3",
+    "Source":         "src/cego/2.28.3/cego-2.28.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.27.4",
+    "Installed":      "installed/cego/2.27.4",
+    "Source":         "src/cego/2.27.4/cego-2.27.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.20.22",
+    "Installed":      "installed/cego/2.20.22",
+    "Source":         "src/cego/2.20.22/cego-2.20.22.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.19.14",
+    "Installed":      "installed/cego/2.19.14",
+    "Source":         "src/cego/2.19.14/cego-2.19.14.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.18.11",
+    "Installed":      "installed/cego/2.18.11",
+    "Source":         "src/cego/2.18.11/cego-2.18.11.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

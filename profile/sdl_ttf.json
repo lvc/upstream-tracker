@@ -1,0 +1,72 @@
+{
+  "Name":           "sdl_ttf",
+  "Title":          "SDL_ttf",
+  "SourceUrl":      "https://www.libsdl.org/projects/SDL_ttf/release/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.0.9",
+  "Package":        "SDL_ttf",
+
+  "Versions": [
+  {
+    "Number":         "2.0.14",
+    "Installed":      "installed/sdl_ttf/2.0.14",
+    "Source":         "src/sdl_ttf/2.0.14/SDL2_ttf-2.0.14.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.13",
+    "Installed":      "installed/sdl_ttf/2.0.13",
+    "Source":         "src/sdl_ttf/2.0.13/SDL2_ttf-2.0.13.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.12",
+    "Installed":      "installed/sdl_ttf/2.0.12",
+    "Source":         "src/sdl_ttf/2.0.12/SDL2_ttf-2.0.12.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.11",
+    "Installed":      "installed/sdl_ttf/2.0.11",
+    "Source":         "src/sdl_ttf/2.0.11/SDL_ttf-2.0.11.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.10",
+    "Installed":      "installed/sdl_ttf/2.0.10",
+    "Source":         "src/sdl_ttf/2.0.10/SDL_ttf-2.0.10.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.9",
+    "Installed":      "installed/sdl_ttf/2.0.9",
+    "Source":         "src/sdl_ttf/2.0.9/SDL_ttf-2.0.9.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

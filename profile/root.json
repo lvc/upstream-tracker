@@ -1,0 +1,110 @@
+{
+  "Name":           "root",
+  "Title":          "ROOT",
+  "SourceUrl":      "https://root.cern.ch/download/",
+  "SourceUrlDepth": "1",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "CMake",
+  "BuildScript":    "build_script/root.sh",
+  "SkipObjects":    [ "libCling.so", "lib.*Dict\.so.*", "libGLEW.so", "libFTGL.so", "libtbbmalloc.so", "libtbb.so", "libtbbmalloc_proxy.so" ],
+  "GraphShortXTics": "On",
+  "HeadersDiff":    "Off",
+  "LatestMicro":    "On",
+  "LocalBuild":     "On",
+  "MinimalVersion": "6.00.02",
+  "RegenDump":      "Off",
+  "Soname":         "Off",
+
+  "Versions": [
+  {
+    "Number":         "6.10.00",
+    "Installed":      "installed/root/6.10.00",
+    "Source":         "src/root/6.10.00/root_v6.10.00.source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.09.02",
+    "Installed":      "installed/root/6.09.02",
+    "Source":         "src/root/6.09.02/root_v6.09.02.source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.08.06",
+    "Installed":      "installed/root/6.08.06",
+    "Source":         "src/root/6.08.06/root_v6.08.06.source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.07.06",
+    "Installed":      "installed/root/6.07.06",
+    "Source":         "src/root/6.07.06/root_v6.07.06.source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.06.08",
+    "Installed":      "installed/root/6.06.08",
+    "Source":         "src/root/6.06.08/root_v6.06.08.source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.05.02",
+    "Installed":      "installed/root/6.05.02",
+    "Source":         "src/root/6.05.02/root_v6.05.02.source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.04.18",
+    "Installed":      "installed/root/6.04.18",
+    "Source":         "src/root/6.04.18/root_v6.04.18.source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.03.04",
+    "Installed":      "installed/root/6.03.04",
+    "Source":         "src/root/6.03.04/root_v6.03.04.source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.02.12",
+    "Installed":      "installed/root/6.02.12",
+    "Source":         "src/root/6.02.12/root_v6.02.12.source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

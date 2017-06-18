@@ -9,6 +9,7 @@
   "SkipObjects":    [ "engines/", "engines-1.1/" ],
   "HeadersDiff":    "Off",
   "LetterReleases": "On",
+  "MinimalVersion": "0.9.8m",
 
   "Versions": [
   {
@@ -16,6 +17,36 @@
     "Installed":      "installed/openssl/current",
     "Source":         "src/openssl/current",
     "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0f",
+    "Installed":      "installed/openssl/1.1.0f",
+    "Source":         "src/openssl/1.1.0f/openssl-1.1.0f.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0e",
+    "Installed":      "installed/openssl/1.1.0e",
+    "Source":         "src/openssl/1.1.0e/openssl-1.1.0e.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0d",
+    "Installed":      "installed/openssl/1.1.0d",
+    "Source":         "src/openssl/1.1.0d/openssl-1.1.0d.tar.gz",
+    "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
@@ -55,6 +86,26 @@
     "Number":         "1.1.0",
     "Installed":      "installed/openssl/1.1.0",
     "Source":         "src/openssl/1.1.0/openssl-1.1.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.2l",
+    "Installed":      "installed/openssl/1.0.2l",
+    "Source":         "src/openssl/1.0.2l/openssl-1.0.2l.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.2k",
+    "Installed":      "installed/openssl/1.0.2k",
+    "Source":         "src/openssl/1.0.2k/openssl-1.0.2k.tar.gz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

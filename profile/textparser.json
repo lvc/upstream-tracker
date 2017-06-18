@@ -1,0 +1,44 @@
+{
+  "Name":           "textparser",
+  "Title":          "TextParser",
+  "SourceUrl":      "https://github.com/avr-aics-riken/TextParser/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/textparser.sh",
+  "HeadersDiff":    "Off",
+  "LatestMicro":    "On",
+  "Soname":         "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.8.4",
+    "Installed":      "installed/textparser/1.8.4",
+    "Source":         "src/textparser/1.8.4/textparser-1.8.4.tar.gz",
+    "Changelog":      "ChangeLog.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.2",
+    "Installed":      "installed/textparser/1.8.2",
+    "Source":         "src/textparser/1.8.2/textparser-1.8.2.tar.gz",
+    "Changelog":      "ChangeLog.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.7.8",
+    "Installed":      "installed/textparser/1.7.8",
+    "Source":         "src/textparser/1.7.8/textparser-1.7.8.tar.gz",
+    "Changelog":      "ChangeLog.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

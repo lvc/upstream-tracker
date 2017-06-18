@@ -1,0 +1,81 @@
+{
+  "Name":           "libdvdcss",
+  "SourceUrl":      "http://download.videolan.org/pub/libdvdcss/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.2.9",
+  "NumericBeta":    "On",
+
+  "Versions": [
+  {
+    "Number":         "1.4.0",
+    "Installed":      "installed/libdvdcss/1.4.0",
+    "Source":         "src/libdvdcss/1.4.0/libdvdcss-1.4.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.0",
+    "Installed":      "installed/libdvdcss/1.3.0",
+    "Source":         "src/libdvdcss/1.3.0/libdvdcss-1.3.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.13",
+    "Installed":      "installed/libdvdcss/1.2.13",
+    "Source":         "src/libdvdcss/1.2.13/libdvdcss-1.2.13.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.12",
+    "Installed":      "installed/libdvdcss/1.2.12",
+    "Source":         "src/libdvdcss/1.2.12/libdvdcss-1.2.12.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.11",
+    "Installed":      "installed/libdvdcss/1.2.11",
+    "Source":         "src/libdvdcss/1.2.11/libdvdcss-1.2.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.10",
+    "Installed":      "installed/libdvdcss/1.2.10",
+    "Source":         "src/libdvdcss/1.2.10/libdvdcss-1.2.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.9",
+    "Installed":      "installed/libdvdcss/1.2.9",
+    "Source":         "src/libdvdcss/1.2.9/libdvdcss-1.2.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

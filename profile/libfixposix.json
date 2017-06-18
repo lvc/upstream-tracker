@@ -1,0 +1,69 @@
+{
+  "Name":           "libfixposix",
+  "SourceUrl":      "https://github.com/sionescu/libfixposix/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.4.1",
+    "Installed":      "installed/libfixposix/0.4.1",
+    "Source":         "src/libfixposix/0.4.1/libfixposix-0.4.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.0",
+    "Installed":      "installed/libfixposix/0.3.0",
+    "Source":         "src/libfixposix/0.3.0/libfixposix-0.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.4",
+    "Installed":      "installed/libfixposix/0.2.4",
+    "Source":         "src/libfixposix/0.2.4/libfixposix-0.2.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.3",
+    "Installed":      "installed/libfixposix/0.2.3",
+    "Source":         "src/libfixposix/0.2.3/libfixposix-0.2.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.2",
+    "Installed":      "installed/libfixposix/0.2.2",
+    "Source":         "src/libfixposix/0.2.2/libfixposix-0.2.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.1",
+    "Installed":      "installed/libfixposix/0.2.1",
+    "Source":         "src/libfixposix/0.2.1/libfixposix-0.2.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

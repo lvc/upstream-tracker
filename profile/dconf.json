@@ -1,0 +1,242 @@
+{
+  "Name":           "dconf",
+  "Title":          "DConf",
+  "SourceUrl":      "http://ftp.gnome.org/pub/gnome/sources/dconf/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/gio",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.14",
+
+  "Versions": [
+  {
+    "Number":         "0.26.0",
+    "Installed":      "installed/dconf/0.26.0",
+    "Source":         "src/dconf/0.26.0/dconf-0.26.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.25.1",
+    "Installed":      "installed/dconf/0.25.1",
+    "Source":         "src/dconf/0.25.1/dconf-0.25.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.24.0",
+    "Installed":      "installed/dconf/0.24.0",
+    "Source":         "src/dconf/0.24.0/dconf-0.24.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.23.2",
+    "Installed":      "installed/dconf/0.23.2",
+    "Source":         "src/dconf/0.23.2/dconf-0.23.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.23.1",
+    "Installed":      "installed/dconf/0.23.1",
+    "Source":         "src/dconf/0.23.1/dconf-0.23.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.22.0",
+    "Installed":      "installed/dconf/0.22.0",
+    "Source":         "src/dconf/0.22.0/dconf-0.22.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.21.0",
+    "Installed":      "installed/dconf/0.21.0",
+    "Source":         "src/dconf/0.21.0/dconf-0.21.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.0",
+    "Installed":      "installed/dconf/0.20.0",
+    "Source":         "src/dconf/0.20.0/dconf-0.20.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19.92",
+    "Installed":      "installed/dconf/0.19.92",
+    "Source":         "src/dconf/0.19.92/dconf-0.19.92.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19.91",
+    "Installed":      "installed/dconf/0.19.91",
+    "Source":         "src/dconf/0.19.91/dconf-0.19.91.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19.90",
+    "Installed":      "installed/dconf/0.19.90",
+    "Source":         "src/dconf/0.19.90/dconf-0.19.90.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19.3",
+    "Installed":      "installed/dconf/0.19.3",
+    "Source":         "src/dconf/0.19.3/dconf-0.19.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19.2",
+    "Installed":      "installed/dconf/0.19.2",
+    "Source":         "src/dconf/0.19.2/dconf-0.19.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.18.0",
+    "Installed":      "installed/dconf/0.18.0",
+    "Source":         "src/dconf/0.18.0/dconf-0.18.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.17.1",
+    "Installed":      "installed/dconf/0.17.1",
+    "Source":         "src/dconf/0.17.1/dconf-0.17.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.17.0",
+    "Installed":      "installed/dconf/0.17.0",
+    "Source":         "src/dconf/0.17.0/dconf-0.17.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16.1",
+    "Installed":      "installed/dconf/0.16.1",
+    "Source":         "src/dconf/0.16.1/dconf-0.16.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16.0",
+    "Installed":      "installed/dconf/0.16.0",
+    "Source":         "src/dconf/0.16.0/dconf-0.16.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.15.3",
+    "Installed":      "installed/dconf/0.15.3",
+    "Source":         "src/dconf/0.15.3/dconf-0.15.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.15.2",
+    "Installed":      "installed/dconf/0.15.2",
+    "Source":         "src/dconf/0.15.2/dconf-0.15.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.15.0",
+    "Installed":      "installed/dconf/0.15.0",
+    "Source":         "src/dconf/0.15.0/dconf-0.15.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14.1",
+    "Installed":      "installed/dconf/0.14.1",
+    "Source":         "src/dconf/0.14.1/dconf-0.14.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14.0",
+    "Installed":      "installed/dconf/0.14.0",
+    "Source":         "src/dconf/0.14.0/dconf-0.14.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

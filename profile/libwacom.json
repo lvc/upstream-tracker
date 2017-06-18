@@ -1,0 +1,269 @@
+{
+  "Name":           "libwacom",
+  "SourceUrl":      "https://sourceforge.net/projects/linuxwacom/files/libwacom/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.25",
+    "Installed":      "installed/libwacom/0.25",
+    "Source":         "src/libwacom/0.25/libwacom-0.25.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.24",
+    "Installed":      "installed/libwacom/0.24",
+    "Source":         "src/libwacom/0.24/libwacom-0.24.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.23",
+    "Installed":      "installed/libwacom/0.23",
+    "Source":         "src/libwacom/0.23/libwacom-0.23.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.22",
+    "Installed":      "installed/libwacom/0.22",
+    "Source":         "src/libwacom/0.22/libwacom-0.22.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.21",
+    "Installed":      "installed/libwacom/0.21",
+    "Source":         "src/libwacom/0.21/libwacom-0.21.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20",
+    "Installed":      "installed/libwacom/0.20",
+    "Source":         "src/libwacom/0.20/libwacom-0.20.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19",
+    "Installed":      "installed/libwacom/0.19",
+    "Source":         "src/libwacom/0.19/libwacom-0.19.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.18",
+    "Installed":      "installed/libwacom/0.18",
+    "Source":         "src/libwacom/0.18/libwacom-0.18.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.17",
+    "Installed":      "installed/libwacom/0.17",
+    "Source":         "src/libwacom/0.17/libwacom-0.17.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16",
+    "Installed":      "installed/libwacom/0.16",
+    "Source":         "src/libwacom/0.16/libwacom-0.16.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.15",
+    "Installed":      "installed/libwacom/0.15",
+    "Source":         "src/libwacom/0.15/libwacom-0.15.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13",
+    "Installed":      "installed/libwacom/0.13",
+    "Source":         "src/libwacom/0.13/libwacom-0.13.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.12",
+    "Installed":      "installed/libwacom/0.12",
+    "Source":         "src/libwacom/0.12/libwacom-0.12.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11",
+    "Installed":      "installed/libwacom/0.11",
+    "Source":         "src/libwacom/0.11/libwacom-0.11.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10",
+    "Installed":      "installed/libwacom/0.10",
+    "Source":         "src/libwacom/0.10/libwacom-0.10.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9",
+    "Installed":      "installed/libwacom/0.9",
+    "Source":         "src/libwacom/0.9/libwacom-0.9.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8",
+    "Installed":      "installed/libwacom/0.8",
+    "Source":         "src/libwacom/0.8/libwacom-0.8.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.1",
+    "Installed":      "installed/libwacom/0.7.1",
+    "Source":         "src/libwacom/0.7.1/libwacom-0.7.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7",
+    "Installed":      "installed/libwacom/0.7",
+    "Source":         "src/libwacom/0.7/libwacom-0.7.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.1",
+    "Installed":      "installed/libwacom/0.6.1",
+    "Source":         "src/libwacom/0.6.1/libwacom-0.6.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6",
+    "Installed":      "installed/libwacom/0.6",
+    "Source":         "src/libwacom/0.6/libwacom-0.6.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5",
+    "Installed":      "installed/libwacom/0.5",
+    "Source":         "src/libwacom/0.5/libwacom-0.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4",
+    "Installed":      "installed/libwacom/0.4",
+    "Source":         "src/libwacom/0.4/libwacom-0.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3",
+    "Installed":      "installed/libwacom/0.3",
+    "Source":         "src/libwacom/0.3/libwacom-0.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2",
+    "Installed":      "installed/libwacom/0.2",
+    "Source":         "src/libwacom/0.2/libwacom-0.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1",
+    "Installed":      "installed/libwacom/0.1",
+    "Source":         "src/libwacom/0.1/libwacom-0.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

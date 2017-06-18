@@ -1,0 +1,211 @@
+{
+  "Name":           "libpst",
+  "SourceUrl":      "http://www.five-ten-sg.com/libpst/packages/",
+  "SourceUrlDepth": "1",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-libpst-shared --disable-python",
+  "MinimalVersion": "0.6.49",
+
+  "Versions": [
+  {
+    "Number":         "0.6.70",
+    "Installed":      "installed/libpst/0.6.70",
+    "Source":         "src/libpst/0.6.70/libpst-0.6.70.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.69",
+    "Installed":      "installed/libpst/0.6.69",
+    "Source":         "src/libpst/0.6.69/libpst-0.6.69.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.68",
+    "Installed":      "installed/libpst/0.6.68",
+    "Source":         "src/libpst/0.6.68/libpst-0.6.68.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.67",
+    "Installed":      "installed/libpst/0.6.67",
+    "Source":         "src/libpst/0.6.67/libpst-0.6.67.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.66",
+    "Installed":      "installed/libpst/0.6.66",
+    "Source":         "src/libpst/0.6.66/libpst-0.6.66.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.65",
+    "Installed":      "installed/libpst/0.6.65",
+    "Source":         "src/libpst/0.6.65/libpst-0.6.65.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.64",
+    "Installed":      "installed/libpst/0.6.64",
+    "Source":         "src/libpst/0.6.64/libpst-0.6.64.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.63",
+    "Installed":      "installed/libpst/0.6.63",
+    "Source":         "src/libpst/0.6.63/libpst-0.6.63.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.61",
+    "Installed":      "installed/libpst/0.6.61",
+    "Source":         "src/libpst/0.6.61/libpst-0.6.61.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.60",
+    "Installed":      "installed/libpst/0.6.60",
+    "Source":         "src/libpst/0.6.60/libpst-0.6.60.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.59",
+    "Installed":      "installed/libpst/0.6.59",
+    "Source":         "src/libpst/0.6.59/libpst-0.6.59.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.58",
+    "Installed":      "installed/libpst/0.6.58",
+    "Source":         "src/libpst/0.6.58/libpst-0.6.58.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.57",
+    "Installed":      "installed/libpst/0.6.57",
+    "Source":         "src/libpst/0.6.57/libpst-0.6.57.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.56",
+    "Installed":      "installed/libpst/0.6.56",
+    "Source":         "src/libpst/0.6.56/libpst-0.6.56.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.55",
+    "Installed":      "installed/libpst/0.6.55",
+    "Source":         "src/libpst/0.6.55/libpst-0.6.55.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.54",
+    "Installed":      "installed/libpst/0.6.54",
+    "Source":         "src/libpst/0.6.54/libpst-0.6.54.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.53",
+    "Installed":      "installed/libpst/0.6.53",
+    "Source":         "src/libpst/0.6.53/libpst-0.6.53.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.52",
+    "Installed":      "installed/libpst/0.6.52",
+    "Source":         "src/libpst/0.6.52/libpst-0.6.52.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.51",
+    "Installed":      "installed/libpst/0.6.51",
+    "Source":         "src/libpst/0.6.51/libpst-0.6.51.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.49",
+    "Installed":      "installed/libpst/0.6.49",
+    "Source":         "src/libpst/0.6.49/libpst-0.6.49.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

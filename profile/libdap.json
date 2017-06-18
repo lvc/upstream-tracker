@@ -1,0 +1,200 @@
+{
+  "Name":           "libdap",
+  "Title":          "DAP++",
+  "SourceUrl":      "https://www.opendap.org/pub/source/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "3.19.0",
+    "Installed":      "installed/libdap/3.19.0",
+    "Source":         "src/libdap/3.19.0/libdap-3.19.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.18.3",
+    "Installed":      "installed/libdap/3.18.3",
+    "Source":         "src/libdap/3.18.3/libdap-3.18.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.18.2",
+    "Installed":      "installed/libdap/3.18.2",
+    "Source":         "src/libdap/3.18.2/libdap-3.18.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.18.1",
+    "Installed":      "installed/libdap/3.18.1",
+    "Source":         "src/libdap/3.18.1/libdap-3.18.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.18.0",
+    "Installed":      "installed/libdap/3.18.0",
+    "Source":         "src/libdap/3.18.0/libdap-3.18.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.17.3",
+    "Installed":      "installed/libdap/3.17.3",
+    "Source":         "src/libdap/3.17.3/libdap-3.17.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.17.2",
+    "Installed":      "installed/libdap/3.17.2",
+    "Source":         "src/libdap/3.17.2/libdap-3.17.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.17.0",
+    "Installed":      "installed/libdap/3.17.0",
+    "Source":         "src/libdap/3.17.0/libdap-3.17.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.16.0",
+    "Installed":      "installed/libdap/3.16.0",
+    "Source":         "src/libdap/3.16.0/libdap-3.16.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.15.1",
+    "Installed":      "installed/libdap/3.15.1",
+    "Source":         "src/libdap/3.15.1/libdap-3.15.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.13.3",
+    "Installed":      "installed/libdap/3.13.3",
+    "Source":         "src/libdap/3.13.3/libdap-3.13.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.13.1",
+    "Installed":      "installed/libdap/3.13.1",
+    "Source":         "src/libdap/3.13.1/libdap-3.13.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.13.0",
+    "Installed":      "installed/libdap/3.13.0",
+    "Source":         "src/libdap/3.13.0/libdap-3.13.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.12.1",
+    "Installed":      "installed/libdap/3.12.1",
+    "Source":         "src/libdap/3.12.1/libdap-3.12.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.12.0",
+    "Installed":      "installed/libdap/3.12.0",
+    "Source":         "src/libdap/3.12.0/libdap-3.12.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.11.7",
+    "Installed":      "installed/libdap/3.11.7",
+    "Source":         "src/libdap/3.11.7/libdap-3.11.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.11.6",
+    "Installed":      "installed/libdap/3.11.6",
+    "Source":         "src/libdap/3.11.6/libdap-3.11.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.11.5",
+    "Installed":      "installed/libdap/3.11.5",
+    "Source":         "src/libdap/3.11.5/libdap-3.11.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.11.2",
+    "Installed":      "installed/libdap/3.11.2",
+    "Source":         "src/libdap/3.11.2/libdap-3.11.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

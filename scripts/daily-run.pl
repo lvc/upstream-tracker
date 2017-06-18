@@ -47,18 +47,24 @@ my $LogDir = "daily_log";
 my %LogPath;
 
 my $JREPORTS = "abi-reports/report";
+my $SPONSORS_FILE = "sponsors.json";
 
 my %Opt;
 
 GetOptions(
     "timing!" => \$Opt{"Timing"},
     "cores=s" => \$Opt{"Cores"},
-    "json!" => \$Opt{"Json"}
+    "json!" => \$Opt{"Json"},
+    "regen-dump!" => \$Opt{"RegenDump"},
+    "rss!" => \$Opt{"Rss"},
+    "sponsors!" => \$Opt{"Sponsors"},
+    "all!" => \$Opt{"All"},
+    "refresh-index!" => \$Opt{"RefreshIndex"}
 ) or exit(1);
 
 sub getDate()
 {
-    my ($Sec,$Min,$Hour,$Mday,$Mon,$Year,$Wday,$Yday,$Isdst) = localtime(time);
+    my ($Sec, $Min, $Hour, $Mday, $Mon, $Year, $Wday, $Yday, $Isdst) = localtime(time);
     
     return (1900+$Year)."-".fNum($Mon+1)."-".fNum($Mday);
 }
@@ -112,12 +118,24 @@ sub runUpdate($$)
     
     my $STime = time();
     
-    system("echo ".uc($Library)." >>".$Log);
+    appendFile($Log, uc($Library)."\n");
     system("abi-monitor -get -build-new profile/$Library.json >>$Log 2>&1");
-    system("abi-tracker -build profile/$Library.json >>$Log 2>&1");
+    
+    my $Opts = "";
+    if($Opt{"RegenDump"}) {
+        $Opts .= " -regen-dump";
+    }
+    if($Opt{"Rss"}) {
+        $Opts .= " -rss";
+    }
+    if($Opt{"Sponsors"} and -f $SPONSORS_FILE) {
+        $Opts .= " -sponsors ".$SPONSORS_FILE;
+    }
+    
+    system("abi-tracker -build $Opts profile/$Library.json >>$Log 2>&1");
     
     if(-f "graph/$Library/graph.png") {
-        system("abi-tracker -build -target graph profile/$Library.json >>$Log 2>&1");
+        system("abi-tracker -build $Opts -target graph profile/$Library.json >>$Log 2>&1");
     }
     
     if(defined $Opt{"Json"}) {
@@ -126,6 +144,30 @@ sub runUpdate($$)
     
     if(defined $Opt{"Timing"}) {
         appendFile($Log, "Time spent: ".showDelta(time() - $STime)."\n");
+    }
+}
+
+sub refreshIndex($)
+{
+    my $Library = $_[0];
+    
+    my $Opts = "";
+    if($Opt{"Rss"}) {
+        $Opts .= " -rss";
+    }
+    if($Opt{"Sponsors"} and -f $SPONSORS_FILE) {
+        $Opts .= " -sponsors ".$SPONSORS_FILE;
+    }
+    
+    if(-f "graph/$Library/graph.png") {
+        system("abi-tracker -build $Opts -target graph profile/$Library.json >/dev/null 2>&1");
+    }
+    else {
+        system("abi-tracker $Opts profile/$Library.json >/dev/null 2>&1");
+    }
+    
+    if(defined $Opt{"Json"}) {
+        system("abi-tracker -json-report $JREPORTS profile/$Library.json >/dev/null 2>&1");
     }
 }
 
@@ -184,6 +226,14 @@ sub scenario()
         exit(1);
     }
     
+    if($Opt{"All"})
+    {
+        $Opt{"Json"} = 1;
+        $Opt{"RegenDump"} = 1;
+        $Opt{"Rss"} = 1;
+        $Opt{"Sponsors"} = 1;
+    }
+    
     my $TotalCores = getTotalCores();
     
     if(defined $Opt{"Cores"})
@@ -215,7 +265,10 @@ sub scenario()
     foreach my $Cn (0 .. $Opt{"Cores"}-1)
     {
         $LogPath{$Cn} = $LogDir."/LOG-".$Date.".".$Cn;
-        unlink($LogPath{$Cn});
+        
+        if(not $Opt{"RefreshIndex"}) {
+            unlink($LogPath{$Cn});
+        }
         
         my $Pid = fork();
         
@@ -228,13 +281,22 @@ sub scenario()
         {
             while(my @Ls = getLibs())
             {
-                foreach my $L (@Ls) {
-                    runUpdate($L, $Cn);
+                foreach my $L (@Ls)
+                {
+                    if($Opt{"RefreshIndex"}) {
+                        refreshIndex($L);
+                    }
+                    else {
+                        runUpdate($L, $Cn);
+                    }
                 }
             }
             
-            if(defined $Opt{"Timing"}) {
-                appendFile($LogPath{$Cn}, "Done in: ".showDelta(time() - $STime)."\n");
+            if(not $Opt{"RefreshIndex"})
+            {
+                if(defined $Opt{"Timing"}) {
+                    appendFile($LogPath{$Cn}, "Done in: ".showDelta(time() - $STime)."\n");
+                }
             }
             
             exit(0);

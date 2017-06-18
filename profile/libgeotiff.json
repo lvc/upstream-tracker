@@ -1,0 +1,91 @@
+{
+  "Name":           "libgeotiff",
+  "SourceUrl":      "http://download.osgeo.org/geotiff/libgeotiff/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "sed -i -e 's/-O[0123]/-g -Og/g' configure",
+  "HeadersDiff":    "Off",
+  "SkipVersions":   [ "\d\d\d", "1.02" ],
+
+  "Versions": [
+  {
+    "Number":         "1.4.2",
+    "Installed":      "installed/libgeotiff/1.4.2",
+    "Source":         "src/libgeotiff/1.4.2/libgeotiff-1.4.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.1",
+    "Installed":      "installed/libgeotiff/1.4.1",
+    "Source":         "src/libgeotiff/1.4.1/libgeotiff-1.4.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.0",
+    "Installed":      "installed/libgeotiff/1.4.0",
+    "Source":         "src/libgeotiff/1.4.0/libgeotiff-1.4.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.0",
+    "Installed":      "installed/libgeotiff/1.3.0",
+    "Source":         "src/libgeotiff/1.3.0/libgeotiff-1.3.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.5",
+    "Installed":      "installed/libgeotiff/1.2.5",
+    "Source":         "src/libgeotiff/1.2.5/libgeotiff-1.2.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.4",
+    "Installed":      "installed/libgeotiff/1.2.4",
+    "Source":         "src/libgeotiff/1.2.4/libgeotiff-1.2.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.3",
+    "Installed":      "installed/libgeotiff/1.2.3",
+    "Source":         "src/libgeotiff/1.2.3/libgeotiff-1.2.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.2",
+    "Installed":      "installed/libgeotiff/1.2.2",
+    "Source":         "src/libgeotiff/1.2.2/libgeotiff-1.2.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

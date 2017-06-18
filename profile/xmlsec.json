@@ -1,0 +1,113 @@
+{
+  "Name":           "xmlsec",
+  "Title":          "XMLSec",
+  "SourceUrl":      "https://www.aleksey.com/xmlsec/download/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.2.15",
+  "Package":        "xmlsec1",
+
+  "Versions": [
+  {
+    "Number":         "1.2.24",
+    "Installed":      "installed/xmlsec/1.2.24",
+    "Source":         "src/xmlsec/1.2.24/xmlsec1-1.2.24.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.23",
+    "Installed":      "installed/xmlsec/1.2.23",
+    "Source":         "src/xmlsec/1.2.23/xmlsec1-1.2.23.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.22",
+    "Installed":      "installed/xmlsec/1.2.22",
+    "Source":         "src/xmlsec/1.2.22/xmlsec1-1.2.22.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.21",
+    "Installed":      "installed/xmlsec/1.2.21",
+    "Source":         "src/xmlsec/1.2.21/xmlsec1-1.2.21.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.20",
+    "Installed":      "installed/xmlsec/1.2.20",
+    "Source":         "src/xmlsec/1.2.20/xmlsec1-1.2.20.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.19",
+    "Installed":      "installed/xmlsec/1.2.19",
+    "Source":         "src/xmlsec/1.2.19/xmlsec1-1.2.19.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.18",
+    "Installed":      "installed/xmlsec/1.2.18",
+    "Source":         "src/xmlsec/1.2.18/xmlsec1-1.2.18.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.17",
+    "Installed":      "installed/xmlsec/1.2.17",
+    "Source":         "src/xmlsec/1.2.17/xmlsec1-1.2.17.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.16",
+    "Installed":      "installed/xmlsec/1.2.16",
+    "Source":         "src/xmlsec/1.2.16/xmlsec1-1.2.16.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.15",
+    "Installed":      "installed/xmlsec/1.2.15",
+    "Source":         "src/xmlsec/1.2.15/xmlsec1-1.2.15.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

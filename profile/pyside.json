@@ -1,0 +1,61 @@
+{
+  "Name":           "pyside",
+  "Title":          "PySide",
+  "SourceUrl":      "https://github.com/pyside/PySide/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DCMAKE_PREFIX_PATH={INSTALL_ROOT}/shiboken/1.2.4",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.2.4",
+    "Installed":      "installed/pyside/1.2.4",
+    "Source":         "src/pyside/1.2.4/pyside-1.2.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.3",
+    "Installed":      "installed/pyside/1.2.3",
+    "Source":         "src/pyside/1.2.3/pyside-1.2.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.2",
+    "Installed":      "installed/pyside/1.2.2",
+    "Source":         "src/pyside/1.2.2/pyside-1.2.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.1",
+    "Installed":      "installed/pyside/1.2.1",
+    "Source":         "src/pyside/1.2.1/pyside-1.2.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/pyside/1.2.0",
+    "Source":         "src/pyside/1.2.0/pyside-1.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

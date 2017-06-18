@@ -3,10 +3,19 @@
   "SourceUrl":      "https://github.com/mfontanini/libtins/tags",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "PreInstall":     "sed -i -e 's/-O3/-Og/' configure",
   "HeadersDiff":    "Off",
 
   "Versions": [
+  {
+    "Number":         "3.5",
+    "Installed":      "installed/libtins/3.5",
+    "Source":         "src/libtins/3.5/libtins-3.5.tar.gz",
+    "Changelog":      "CHANGES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "3.4",
     "Installed":      "installed/libtins/3.4",

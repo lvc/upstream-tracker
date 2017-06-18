@@ -1,0 +1,213 @@
+{
+  "Name":           "simgear",
+  "Title":          "SimGear",
+  "SourceUrl":      "https://github.com/FlightGear/simgear/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      " -DENABLE_TESTS=OFF -DSIMGEAR_HEADLESS=ON -DSIMGEAR_SHARED=ON",
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "3.4.0",
+
+  "Versions": [
+  {
+    "Number":         "2017.3.0",
+    "Installed":      "installed/simgear/2017.3.0",
+    "Source":         "src/simgear/2017.3.0/simgear-2017.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2017.2.1",
+    "Installed":      "installed/simgear/2017.2.1",
+    "Source":         "src/simgear/2017.2.1/simgear-2017.2.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2017.2.0",
+    "Installed":      "installed/simgear/2017.2.0",
+    "Source":         "src/simgear/2017.2.0/simgear-2017.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2017.1.3",
+    "Installed":      "installed/simgear/2017.1.3",
+    "Source":         "src/simgear/2017.1.3/simgear-2017.1.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2017.1.2",
+    "Installed":      "installed/simgear/2017.1.2",
+    "Source":         "src/simgear/2017.1.2/simgear-2017.1.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2017.1.1",
+    "Installed":      "installed/simgear/2017.1.1",
+    "Source":         "src/simgear/2017.1.1/simgear-2017.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2017.1.0",
+    "Installed":      "installed/simgear/2017.1.0",
+    "Source":         "src/simgear/2017.1.0/simgear-2017.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2016.4.4",
+    "Installed":      "installed/simgear/2016.4.4",
+    "Source":         "src/simgear/2016.4.4/simgear-2016.4.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2016.4.3",
+    "Installed":      "installed/simgear/2016.4.3",
+    "Source":         "src/simgear/2016.4.3/simgear-2016.4.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2016.4.1",
+    "Installed":      "installed/simgear/2016.4.1",
+    "Source":         "src/simgear/2016.4.1/simgear-2016.4.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2016.4.0",
+    "Installed":      "installed/simgear/2016.4.0",
+    "Source":         "src/simgear/2016.4.0/simgear-2016.4.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2016.3.1",
+    "Installed":      "installed/simgear/2016.3.1",
+    "Source":         "src/simgear/2016.3.1/simgear-2016.3.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2016.3.0",
+    "Installed":      "installed/simgear/2016.3.0",
+    "Source":         "src/simgear/2016.3.0/simgear-2016.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2016.2.1",
+    "Installed":      "installed/simgear/2016.2.1",
+    "Source":         "src/simgear/2016.2.1/simgear-2016.2.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2016.2.0",
+    "Installed":      "installed/simgear/2016.2.0",
+    "Source":         "src/simgear/2016.2.0/simgear-2016.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2016.1.2",
+    "Installed":      "installed/simgear/2016.1.2",
+    "Source":         "src/simgear/2016.1.2/simgear-2016.1.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2016.1.1",
+    "Installed":      "installed/simgear/2016.1.1",
+    "Source":         "src/simgear/2016.1.1/simgear-2016.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2016.1.0",
+    "Installed":      "installed/simgear/2016.1.0",
+    "Source":         "src/simgear/2016.1.0/simgear-2016.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7.0",
+    "Installed":      "installed/simgear/3.7.0",
+    "Source":         "src/simgear/3.7.0/simgear-3.7.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.0",
+    "Installed":      "installed/simgear/3.6.0",
+    "Source":         "src/simgear/3.6.0/simgear-3.6.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

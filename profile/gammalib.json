@@ -1,0 +1,142 @@
+{
+  "Name":           "gammalib",
+  "Title":          "GammaLib",
+  "SourceUrl":      "http://gammalib.sourceforge.net/download.html",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-python-binding=no",
+  "HeadersDiff":    "Off",
+  "SkipVersions":   [ "00-.*" ],
+
+  "Versions": [
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/gammalib/1.1.0",
+    "Source":         "src/gammalib/1.1.0/gammalib-1.1.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/gammalib/1.0.1",
+    "Source":         "src/gammalib/1.0.1/gammalib-1.0.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/gammalib/1.0.0",
+    "Source":         "src/gammalib/1.0.0/gammalib-1.0.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.0",
+    "Installed":      "installed/gammalib/0.11.0",
+    "Source":         "src/gammalib/0.11.0/gammalib-0.11.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.0",
+    "Installed":      "installed/gammalib/0.10.0",
+    "Source":         "src/gammalib/0.10.0/gammalib-0.10.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.1",
+    "Installed":      "installed/gammalib/0.9.1",
+    "Source":         "src/gammalib/0.9.1/gammalib-00-09-01.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.0",
+    "Installed":      "installed/gammalib/0.9.0",
+    "Source":         "src/gammalib/0.9.0/gammalib-00-09-00.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.1",
+    "Installed":      "installed/gammalib/0.8.1",
+    "Source":         "src/gammalib/0.8.1/gammalib-00-08-01.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.0",
+    "Installed":      "installed/gammalib/0.8.0",
+    "Source":         "src/gammalib/0.8.0/gammalib-00-08-00.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.0",
+    "Installed":      "installed/gammalib/0.7.0",
+    "Source":         "src/gammalib/0.7.0/gammalib-00-07-00.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.2",
+    "Installed":      "installed/gammalib/0.6.2",
+    "Source":         "src/gammalib/0.6.2/gammalib-00-06-02.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.1",
+    "Installed":      "installed/gammalib/0.6.1",
+    "Source":         "src/gammalib/0.6.1/gammalib-00-06-01.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.0",
+    "Installed":      "installed/gammalib/0.5.0",
+    "Source":         "src/gammalib/0.5.0/gammalib-00-05-00.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

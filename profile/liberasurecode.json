@@ -1,0 +1,172 @@
+{
+  "Name":           "liberasurecode",
+  "SourceUrl":      "https://github.com/openstack/liberasurecode/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-static --disable-doxygen",
+  "PreInstall":     "sed -i -e 's/-O[0123]/-Og/g' configure.ac",
+  "SkipObjects":    [ "libnullcode.so" ],
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.4.0",
+    "Installed":      "installed/liberasurecode/1.4.0",
+    "Source":         "src/liberasurecode/1.4.0/liberasurecode-1.4.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.1",
+    "Installed":      "installed/liberasurecode/1.3.1",
+    "Source":         "src/liberasurecode/1.3.1/liberasurecode-1.3.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.0",
+    "Installed":      "installed/liberasurecode/1.3.0",
+    "Source":         "src/liberasurecode/1.3.0/liberasurecode-1.3.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/liberasurecode/1.2.0",
+    "Source":         "src/liberasurecode/1.2.0/liberasurecode-1.2.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.1",
+    "Installed":      "installed/liberasurecode/1.1.1",
+    "Source":         "src/liberasurecode/1.1.1/liberasurecode-1.1.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/liberasurecode/1.1.0",
+    "Source":         "src/liberasurecode/1.1.0/liberasurecode-1.1.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.9",
+    "Installed":      "installed/liberasurecode/1.0.9",
+    "Source":         "src/liberasurecode/1.0.9/liberasurecode-1.0.9.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.8",
+    "Installed":      "installed/liberasurecode/1.0.8",
+    "Source":         "src/liberasurecode/1.0.8/liberasurecode-1.0.8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.7",
+    "Installed":      "installed/liberasurecode/1.0.7",
+    "Source":         "src/liberasurecode/1.0.7/liberasurecode-1.0.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.6",
+    "Installed":      "installed/liberasurecode/1.0.6",
+    "Source":         "src/liberasurecode/1.0.6/liberasurecode-1.0.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.5",
+    "Installed":      "installed/liberasurecode/1.0.5",
+    "Source":         "src/liberasurecode/1.0.5/liberasurecode-1.0.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.4",
+    "Installed":      "installed/liberasurecode/1.0.4",
+    "Source":         "src/liberasurecode/1.0.4/liberasurecode-1.0.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.3",
+    "Installed":      "installed/liberasurecode/1.0.3",
+    "Source":         "src/liberasurecode/1.0.3/liberasurecode-1.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/liberasurecode/1.0.1",
+    "Source":         "src/liberasurecode/1.0.1/liberasurecode-1.0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0",
+    "Installed":      "installed/liberasurecode/1.0",
+    "Source":         "src/liberasurecode/1.0/liberasurecode-1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.10",
+    "Installed":      "installed/liberasurecode/0.9.10",
+    "Source":         "src/liberasurecode/0.9.10/liberasurecode-0.9.10.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

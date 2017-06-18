@@ -47,7 +47,8 @@ my %Opt;
 
 GetOptions(
     "fast!" => \$Opt{"Fast"}, # 3 times faster but 3 times more web traffic
-    "json!" => \$Opt{"Json"}
+    "json!" => \$Opt{"Json"},
+    "index-only!" => \$Opt{"IndexOnly"}
 ) or exit(1);
 
 my $Target = undef;
@@ -171,24 +172,34 @@ sub scenario()
         
         print "Copy $L\n";
         
-        my @Files = ("timeline/$L", "objects_report/$L", "compat_report/$L");
-        if(-d "package_diff/$L") {
-            push(@Files, "package_diff/$L");
-        }
-        if(-d "changelog/$L") {
-            push(@Files, "changelog/$L");
-        }
-        if(-d "objects_view/$L") {
-            push(@Files, "objects_view/$L");
-        }
-        if(-d "abi_view/$L") {
-            push(@Files, "abi_view/$L");
-        }
-        if(-d "headers_diff/$L") {
-            push(@Files, "headers_diff/$L");
-        }
-        if(-d "graph/$L") {
-            push(@Files, "graph/$L");
+        my @Files = ("timeline/$L");
+        
+        if(not $Opt{"IndexOnly"})
+        {
+            push(@Files, "objects_report/$L");
+            push(@Files, "compat_report/$L");
+            
+            if(-d "package_diff/$L") {
+                push(@Files, "package_diff/$L");
+            }
+            if(-d "changelog/$L") {
+                push(@Files, "changelog/$L");
+            }
+            if(-d "objects_view/$L") {
+                push(@Files, "objects_view/$L");
+            }
+            if(-d "abi_view/$L") {
+                push(@Files, "abi_view/$L");
+            }
+            if(-d "headers_diff/$L") {
+                push(@Files, "headers_diff/$L");
+            }
+            if(-d "graph/$L") {
+                push(@Files, "graph/$L");
+            }
+            if(-d "rss/$L") {
+                push(@Files, "rss/$L");
+            }
         }
         
         sendFiles(@Files);
@@ -198,9 +209,15 @@ sub scenario()
     if(-d "js") {
         push(@Other, "js");
     }
+    if(-d "images") {
+        push(@Other, "images");
+    }
+    if(-d "logo") {
+        push(@Other, "logo");
+    }
     
     sendFiles(@Other);
-    system("ssh $HostAddr \"cd $HostDir && sed -i -e \'s/index\.html//\' index.html\"");
+    system("ssh $HostAddr \"cd $HostDir && sed -i -e \'s/index\.html//\' index.html\""); # && find compat_report -empty -type d -delete
     
     if(defined $Opt{"Json"})
     {

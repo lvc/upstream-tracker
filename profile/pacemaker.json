@@ -22,6 +22,38 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.1.17-rc3",
+    "Installed":      "installed/pacemaker/1.1.17-rc3",
+    "Source":         "src/pacemaker/1.1.17-rc3/Pacemaker-1.1.17-rc3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.17-rc2",
+    "Installed":      "installed/pacemaker/1.1.17-rc2",
+    "Source":         "src/pacemaker/1.1.17-rc2/Pacemaker-1.1.17-rc2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.1.17-rc1",
+    "Installed":      "installed/pacemaker/1.1.17-rc1",
+    "Source":         "src/pacemaker/1.1.17-rc1/Pacemaker-1.1.17-rc1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "1.1.16",
     "Installed":      "installed/pacemaker/1.1.16",
     "Source":         "src/pacemaker/1.1.16/Pacemaker-1.1.16.tar.gz",

@@ -1,0 +1,89 @@
+{
+  "Name":           "libcdio",
+  "SourceUrl":      "http://ftp.gnu.org/gnu/libcdio/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.94",
+    "Installed":      "installed/libcdio/0.94",
+    "Source":         "src/libcdio/0.94/libcdio-0.94.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.93",
+    "Installed":      "installed/libcdio/0.93",
+    "Source":         "src/libcdio/0.93/libcdio-0.93.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.92",
+    "Installed":      "installed/libcdio/0.92",
+    "Source":         "src/libcdio/0.92/libcdio-0.92.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.90",
+    "Installed":      "installed/libcdio/0.90",
+    "Source":         "src/libcdio/0.90/libcdio-0.90.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.83",
+    "Installed":      "installed/libcdio/0.83",
+    "Source":         "src/libcdio/0.83/libcdio-0.83.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.82",
+    "Installed":      "installed/libcdio/0.82",
+    "Source":         "src/libcdio/0.82/libcdio-0.82.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.81",
+    "Installed":      "installed/libcdio/0.81",
+    "Source":         "src/libcdio/0.81/libcdio-0.81.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.80",
+    "Installed":      "installed/libcdio/0.80",
+    "Source":         "src/libcdio/0.80/libcdio-0.80.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

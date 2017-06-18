@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         3410,
+    "Installed":      "installed/cfitsio/3410",
+    "Source":         "src/cfitsio/3410/cfitsio3410.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         3400,
     "Installed":      "installed/cfitsio/3400",
     "Source":         "src/cfitsio/3400/cfitsio3400.tar.gz",

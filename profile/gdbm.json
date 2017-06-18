@@ -1,0 +1,60 @@
+{
+  "Name":           "gdbm",
+  "SourceUrl":      "ftp://ftp.gnu.org/gnu/gdbm/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.8.3",
+
+  "Versions": [
+  {
+    "Number":         "1.13",
+    "Installed":      "installed/gdbm/1.13",
+    "Source":         "src/gdbm/1.13/gdbm-1.13.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12",
+    "Installed":      "installed/gdbm/1.12",
+    "Source":         "src/gdbm/1.12/gdbm-1.12.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11",
+    "Installed":      "installed/gdbm/1.11",
+    "Source":         "src/gdbm/1.11/gdbm-1.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10",
+    "Installed":      "installed/gdbm/1.10",
+    "Source":         "src/gdbm/1.10/gdbm-1.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.1",
+    "Installed":      "installed/gdbm/1.9.1",
+    "Source":         "src/gdbm/1.9.1/gdbm-1.9.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

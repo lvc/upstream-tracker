@@ -1,0 +1,103 @@
+{
+  "Name":           "check",
+  "Title":          "Check",
+  "SourceUrl":      "https://github.com/libcheck/check/tags",
+  "OldSourceUrl":   "http://pkgs.fedoraproject.org/repo/pkgs/check/",
+  "OldSourceUrlDepth": "3",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.9.8",
+
+  "Versions": [
+  {
+    "Number":         "0.11.0",
+    "Installed":      "installed/check/0.11.0",
+    "Source":         "src/check/0.11.0/check-0.11.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.0",
+    "Installed":      "installed/check/0.10.0",
+    "Source":         "src/check/0.10.0/check-0.10.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.14",
+    "Installed":      "installed/check/0.9.14",
+    "Source":         "src/check/0.9.14/check-0.9.14.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.13",
+    "Installed":      "installed/check/0.9.13",
+    "Source":         "src/check/0.9.13/check-0.9.13.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.12",
+    "Installed":      "installed/check/0.9.12",
+    "Source":         "src/check/0.9.12/check-0.9.12.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.11",
+    "Installed":      "installed/check/0.9.11",
+    "Source":         "src/check/0.9.11/check-0.9.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.10",
+    "Installed":      "installed/check/0.9.10",
+    "Source":         "src/check/0.9.10/check-0.9.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.9",
+    "Installed":      "installed/check/0.9.9",
+    "Source":         "src/check/0.9.9/check-0.9.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.8",
+    "Installed":      "installed/check/0.9.8",
+    "Source":         "src/check/0.9.8/check-0.9.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

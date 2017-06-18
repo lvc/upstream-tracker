@@ -1,0 +1,203 @@
+{
+  "Name":           "zrtpcpp",
+  "Title":          "ZRTP C++",
+  "SourceUrl":      "https://github.com/wernerd/ZRTPCPP/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DCORE_LIB=ON",
+  "PreInstall":     "sed -i -e 's/-O[0123]/-Og/' CMakeLists.txt",
+  "Changelog":      "NEWS.md",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "4.6.6",
+    "Installed":      "installed/zrtpcpp/4.6.6",
+    "Source":         "src/zrtpcpp/4.6.6/zrtpcpp-4.6.6.tar.gz",
+    "Changelog":      "NEWS.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.5",
+    "Installed":      "installed/zrtpcpp/4.6.5",
+    "Source":         "src/zrtpcpp/4.6.5/zrtpcpp-4.6.5.tar.gz",
+    "Changelog":      "NEWS.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.4",
+    "Installed":      "installed/zrtpcpp/4.6.4",
+    "Source":         "src/zrtpcpp/4.6.4/zrtpcpp-4.6.4.tar.gz",
+    "Changelog":      "NEWS.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.3",
+    "Installed":      "installed/zrtpcpp/4.6.3",
+    "Source":         "src/zrtpcpp/4.6.3/zrtpcpp-4.6.3.tar.gz",
+    "Changelog":      "NEWS.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.2",
+    "Installed":      "installed/zrtpcpp/4.6.2",
+    "Source":         "src/zrtpcpp/4.6.2/zrtpcpp-4.6.2.tar.gz",
+    "Changelog":      "NEWS.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.1",
+    "Installed":      "installed/zrtpcpp/4.6.1",
+    "Source":         "src/zrtpcpp/4.6.1/zrtpcpp-4.6.1.tar.gz",
+    "Changelog":      "NEWS.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.0",
+    "Installed":      "installed/zrtpcpp/4.6.0",
+    "Source":         "src/zrtpcpp/4.6.0/zrtpcpp-4.6.0.tar.gz",
+    "Changelog":      "NEWS.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.0",
+    "Installed":      "installed/zrtpcpp/4.5.0",
+    "Source":         "src/zrtpcpp/4.5.0/zrtpcpp-4.5.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.0",
+    "Installed":      "installed/zrtpcpp/4.4.0",
+    "Source":         "src/zrtpcpp/4.4.0/zrtpcpp-4.4.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.3.1",
+    "Installed":      "installed/zrtpcpp/4.3.1",
+    "Source":         "src/zrtpcpp/4.3.1/zrtpcpp-4.3.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2.4",
+    "Installed":      "installed/zrtpcpp/4.2.4",
+    "Source":         "src/zrtpcpp/4.2.4/zrtpcpp-4.2.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2.3",
+    "Installed":      "installed/zrtpcpp/4.2.3",
+    "Source":         "src/zrtpcpp/4.2.3/zrtpcpp-4.2.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2.2",
+    "Installed":      "installed/zrtpcpp/4.2.2",
+    "Source":         "src/zrtpcpp/4.2.2/zrtpcpp-4.2.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2.1",
+    "Installed":      "installed/zrtpcpp/4.2.1",
+    "Source":         "src/zrtpcpp/4.2.1/zrtpcpp-4.2.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2.0",
+    "Installed":      "installed/zrtpcpp/4.2.0",
+    "Source":         "src/zrtpcpp/4.2.0/zrtpcpp-4.2.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.2",
+    "Installed":      "installed/zrtpcpp/4.1.2",
+    "Source":         "src/zrtpcpp/4.1.2/zrtpcpp-4.1.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.1",
+    "Installed":      "installed/zrtpcpp/4.1.1",
+    "Source":         "src/zrtpcpp/4.1.1/zrtpcpp-4.1.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.0",
+    "Installed":      "installed/zrtpcpp/4.1.0",
+    "Source":         "src/zrtpcpp/4.1.0/zrtpcpp-4.1.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.0",
+    "Installed":      "installed/zrtpcpp/4.0.0",
+    "Source":         "src/zrtpcpp/4.0.0/zrtpcpp-4.0.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

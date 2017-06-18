@@ -1,0 +1,392 @@
+{
+  "Name":           "ntl",
+  "Title":          "NTL",
+  "SourceUrl":      "http://www.shoup.net/ntl/download.html",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/ntl.sh",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "6.0.0",
+
+  "Versions": [
+  {
+    "Number":         "10.3.0",
+    "Installed":      "installed/ntl/10.3.0",
+    "Source":         "src/ntl/10.3.0/ntl-10.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.2.0",
+    "Installed":      "installed/ntl/10.2.0",
+    "Source":         "src/ntl/10.2.0/ntl-10.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.1.0",
+    "Installed":      "installed/ntl/10.1.0",
+    "Source":         "src/ntl/10.1.0/ntl-10.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.0.0",
+    "Installed":      "installed/ntl/10.0.0",
+    "Source":         "src/ntl/10.0.0/ntl-10.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.11.0",
+    "Installed":      "installed/ntl/9.11.0",
+    "Source":         "src/ntl/9.11.0/ntl-9.11.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.10.0",
+    "Installed":      "installed/ntl/9.10.0",
+    "Source":         "src/ntl/9.10.0/ntl-9.10.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.9.1",
+    "Installed":      "installed/ntl/9.9.1",
+    "Source":         "src/ntl/9.9.1/ntl-9.9.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.9.0",
+    "Installed":      "installed/ntl/9.9.0",
+    "Source":         "src/ntl/9.9.0/ntl-9.9.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.8.1",
+    "Installed":      "installed/ntl/9.8.1",
+    "Source":         "src/ntl/9.8.1/ntl-9.8.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.8.0",
+    "Installed":      "installed/ntl/9.8.0",
+    "Source":         "src/ntl/9.8.0/ntl-9.8.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.7.1",
+    "Installed":      "installed/ntl/9.7.1",
+    "Source":         "src/ntl/9.7.1/ntl-9.7.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.7.0",
+    "Installed":      "installed/ntl/9.7.0",
+    "Source":         "src/ntl/9.7.0/ntl-9.7.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.6.4",
+    "Installed":      "installed/ntl/9.6.4",
+    "Source":         "src/ntl/9.6.4/ntl-9.6.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.6.3",
+    "Installed":      "installed/ntl/9.6.3",
+    "Source":         "src/ntl/9.6.3/ntl-9.6.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.6.2",
+    "Installed":      "installed/ntl/9.6.2",
+    "Source":         "src/ntl/9.6.2/ntl-9.6.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.6.1",
+    "Installed":      "installed/ntl/9.6.1",
+    "Source":         "src/ntl/9.6.1/ntl-9.6.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.6.0",
+    "Installed":      "installed/ntl/9.6.0",
+    "Source":         "src/ntl/9.6.0/ntl-9.6.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.5.0",
+    "Installed":      "installed/ntl/9.5.0",
+    "Source":         "src/ntl/9.5.0/ntl-9.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.4.0",
+    "Installed":      "installed/ntl/9.4.0",
+    "Source":         "src/ntl/9.4.0/ntl-9.4.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.3.0",
+    "Installed":      "installed/ntl/9.3.0",
+    "Source":         "src/ntl/9.3.0/ntl-9.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.2.0",
+    "Installed":      "installed/ntl/9.2.0",
+    "Source":         "src/ntl/9.2.0/ntl-9.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.1.1",
+    "Installed":      "installed/ntl/9.1.1",
+    "Source":         "src/ntl/9.1.1/ntl-9.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.1.0",
+    "Installed":      "installed/ntl/9.1.0",
+    "Source":         "src/ntl/9.1.0/ntl-9.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.0.2",
+    "Installed":      "installed/ntl/9.0.2",
+    "Source":         "src/ntl/9.0.2/ntl-9.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.0.1",
+    "Installed":      "installed/ntl/9.0.1",
+    "Source":         "src/ntl/9.0.1/ntl-9.0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.0.0",
+    "Installed":      "installed/ntl/9.0.0",
+    "Source":         "src/ntl/9.0.0/ntl-9.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.1.2",
+    "Installed":      "installed/ntl/8.1.2",
+    "Source":         "src/ntl/8.1.2/ntl-8.1.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.1.1",
+    "Installed":      "installed/ntl/8.1.1",
+    "Source":         "src/ntl/8.1.1/ntl-8.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.1.0",
+    "Installed":      "installed/ntl/8.1.0",
+    "Source":         "src/ntl/8.1.0/ntl-8.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.0.0",
+    "Installed":      "installed/ntl/8.0.0",
+    "Source":         "src/ntl/8.0.0/ntl-8.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.2",
+    "Installed":      "installed/ntl/7.0.2",
+    "Source":         "src/ntl/7.0.2/ntl-7.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.1",
+    "Installed":      "installed/ntl/7.0.1",
+    "Source":         "src/ntl/7.0.1/ntl-7.0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.0",
+    "Installed":      "installed/ntl/7.0.0",
+    "Source":         "src/ntl/7.0.0/ntl-7.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.2.1",
+    "Installed":      "installed/ntl/6.2.1",
+    "Source":         "src/ntl/6.2.1/ntl-6.2.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.2.0",
+    "Installed":      "installed/ntl/6.2.0",
+    "Source":         "src/ntl/6.2.0/ntl-6.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.1.0",
+    "Installed":      "installed/ntl/6.1.0",
+    "Source":         "src/ntl/6.1.0/ntl-6.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.0.0",
+    "Installed":      "installed/ntl/6.0.0",
+    "Source":         "src/ntl/6.0.0/ntl-6.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.5.2",
+    "Installed":      "installed/ntl/5.5.2",
+    "Source":         "src/ntl/5.5.2/ntl-5.5.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,131 @@
+{
+  "Name":           "ktoblzcheck",
+  "Title":          "KtoBlzCheck",
+  "SourceUrl":      "https://sourceforge.net/projects/ktoblzcheck/files/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.38",
+
+  "Versions": [
+  {
+    "Number":         "1.49",
+    "Installed":      "installed/ktoblzcheck/1.49",
+    "Source":         "src/ktoblzcheck/1.49/ktoblzcheck-1.49.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.48",
+    "Installed":      "installed/ktoblzcheck/1.48",
+    "Source":         "src/ktoblzcheck/1.48/ktoblzcheck-1.48.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.47",
+    "Installed":      "installed/ktoblzcheck/1.47",
+    "Source":         "src/ktoblzcheck/1.47/ktoblzcheck-1.47.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.46",
+    "Installed":      "installed/ktoblzcheck/1.46",
+    "Source":         "src/ktoblzcheck/1.46/ktoblzcheck-1.46.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.45",
+    "Installed":      "installed/ktoblzcheck/1.45",
+    "Source":         "src/ktoblzcheck/1.45/ktoblzcheck-1.45.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.44",
+    "Installed":      "installed/ktoblzcheck/1.44",
+    "Source":         "src/ktoblzcheck/1.44/ktoblzcheck-1.44.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.43",
+    "Installed":      "installed/ktoblzcheck/1.43",
+    "Source":         "src/ktoblzcheck/1.43/ktoblzcheck-1.43.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.42",
+    "Installed":      "installed/ktoblzcheck/1.42",
+    "Source":         "src/ktoblzcheck/1.42/ktoblzcheck-1.42.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.41",
+    "Installed":      "installed/ktoblzcheck/1.41",
+    "Source":         "src/ktoblzcheck/1.41/ktoblzcheck-1.41.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.40",
+    "Installed":      "installed/ktoblzcheck/1.40",
+    "Source":         "src/ktoblzcheck/1.40/ktoblzcheck-1.40.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.39",
+    "Installed":      "installed/ktoblzcheck/1.39",
+    "Source":         "src/ktoblzcheck/1.39/ktoblzcheck-1.39.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.38",
+    "Installed":      "installed/ktoblzcheck/1.38",
+    "Source":         "src/ktoblzcheck/1.38/ktoblzcheck-1.38.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

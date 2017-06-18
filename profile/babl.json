@@ -10,6 +10,56 @@
 
   "Versions": [
   {
+    "Number":         "0.1.28",
+    "Installed":      "installed/babl/0.1.28",
+    "Source":         "src/babl/0.1.28/babl-0.1.28.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.26",
+    "Installed":      "installed/babl/0.1.26",
+    "Source":         "src/babl/0.1.26/babl-0.1.26.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.24",
+    "Installed":      "installed/babl/0.1.24",
+    "Source":         "src/babl/0.1.24/babl-0.1.24.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.22",
+    "Installed":      "installed/babl/0.1.22",
+    "Source":         "src/babl/0.1.22/babl-0.1.22.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.20",
+    "Installed":      "installed/babl/0.1.20",
+    "Source":         "src/babl/0.1.20/babl-0.1.20.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.1.18",
     "Installed":      "installed/babl/0.1.18",
     "Source":         "src/babl/0.1.18/babl-0.1.18.tar.bz2",

@@ -1,0 +1,82 @@
+{
+  "Name":           "openobex",
+  "Title":          "OpenOBEX",
+  "SourceUrl":      "https://gitlab.com/openobex/mainline/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "CMakeConfigure": "-DCMAKE_INSTALL_UDEVRULESDIR={INSTALL_TO}/share -DBUILD_DOCUMENTATION=OFF",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.1",
+
+  "Versions": [
+  {
+    "Number":         "1.7.2",
+    "Installed":      "installed/openobex/1.7.2",
+    "Source":         "src/openobex/1.7.2/openobex-1.7.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.1",
+    "Installed":      "installed/openobex/1.7.1",
+    "Source":         "src/openobex/1.7.1/openobex-1.7.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5",
+    "Installed":      "installed/openobex/1.5",
+    "Source":         "src/openobex/1.5/openobex-1.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4",
+    "Installed":      "installed/openobex/1.4",
+    "Source":         "src/openobex/1.4/openobex-1.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3",
+    "Installed":      "installed/openobex/1.3",
+    "Source":         "src/openobex/1.3/openobex-1.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2",
+    "Installed":      "installed/openobex/1.2",
+    "Source":         "src/openobex/1.2/openobex-1.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1",
+    "Installed":      "installed/openobex/1.1",
+    "Source":         "src/openobex/1.1/openobex-1.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,112 @@
+{
+  "Name":           "tomsfastmath",
+  "Title":          "TomsFastMath",
+  "SourceUrl":      "https://github.com/libtom/tomsfastmath/tags",
+  "Git":            "https://github.com/libtom/tomsfastmath.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/tomsfastmath.sh",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/tomsfastmath/current",
+    "Source":         "src/tomsfastmath/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13.1",
+    "Installed":      "installed/tomsfastmath/0.13.1",
+    "Source":         "src/tomsfastmath/0.13.1/tomsfastmath-0.13.1.tar.gz",
+    "Changelog":      "changes.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13.0",
+    "Installed":      "installed/tomsfastmath/0.13.0",
+    "Source":         "src/tomsfastmath/0.13.0/tomsfastmath-0.13.0.tar.gz",
+    "Changelog":      "changes.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.12",
+    "Installed":      "installed/tomsfastmath/0.12",
+    "Source":         "src/tomsfastmath/0.12/tomsfastmath-0.12.tar.gz",
+    "Changelog":      "changes.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10",
+    "Installed":      "installed/tomsfastmath/0.10",
+    "Source":         "src/tomsfastmath/0.10/tomsfastmath-0.10.tar.gz",
+    "Changelog":      "changes.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.09",
+    "Installed":      "installed/tomsfastmath/0.09",
+    "Source":         "src/tomsfastmath/0.09/tomsfastmath-0.09.tar.gz",
+    "Changelog":      "changes.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.08",
+    "Installed":      "installed/tomsfastmath/0.08",
+    "Source":         "src/tomsfastmath/0.08/tomsfastmath-0.08.tar.gz",
+    "Changelog":      "changes.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.07",
+    "Installed":      "installed/tomsfastmath/0.07",
+    "Source":         "src/tomsfastmath/0.07/tomsfastmath-0.07.tar.gz",
+    "Changelog":      "changes.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.06",
+    "Installed":      "installed/tomsfastmath/0.06",
+    "Source":         "src/tomsfastmath/0.06/tomsfastmath-0.06.tar.gz",
+    "Changelog":      "changes.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.05",
+    "Installed":      "installed/tomsfastmath/0.05",
+    "Source":         "src/tomsfastmath/0.05/tomsfastmath-0.05.tar.gz",
+    "Changelog":      "changes.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

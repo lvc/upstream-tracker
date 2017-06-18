@@ -1,0 +1,42 @@
+{
+  "Name":           "osgearth",
+  "Title":          "osgEarth",
+  "SourceUrl":      "https://github.com/gwaldron/osgearth/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DBUILD_OSGEARTH_EXAMPLES=OFF -DCMAKE_PREFIX_PATH='{INSTALL_ROOT}/gdal/2.1.3;{INSTALL_ROOT}/openscenegraph/3.5.3' -DOSGEARTH_USE_QT=OFF",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib64/osgdb_*",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.8",
+    "Installed":      "installed/osgearth/2.8",
+    "Source":         "src/osgearth/2.8/osgearth-2.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.7",
+    "Installed":      "installed/osgearth/2.7",
+    "Source":         "src/osgearth/2.7/osgearth-2.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6",
+    "Installed":      "installed/osgearth/2.6",
+    "Source":         "src/osgearth/2.6/osgearth-2.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

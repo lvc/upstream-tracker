@@ -4,11 +4,21 @@
   "SourceUrl":      "https://download.gnome.org/sources/gupnp/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/gssdp/0.14.15/lib/pkgconfig",
+  "Configure":      "--enable-introspection=no PKG_CONFIG_PATH={INSTALL_ROOT}/gssdp/1.0.2/lib/pkgconfig",
   "PreInstall":     "sed -i -e 's/-O0/-Og/' configure",
   "HeadersDiff":    "Off",
 
   "Versions": [
+  {
+    "Number":         "1.0.2",
+    "Installed":      "installed/gupnp/1.0.2",
+    "Source":         "src/gupnp/1.0.2/gupnp-1.0.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "1.0.0",
     "Installed":      "installed/gupnp/1.0.0",

@@ -1,0 +1,81 @@
+{
+  "Name":           "libtommath",
+  "Title":          "LibTomMath",
+  "SourceUrl":      "https://github.com/libtom/libtommath/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/libtommath.sh",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.0",
+    "Installed":      "installed/libtommath/1.0",
+    "Source":         "src/libtommath/1.0/libtommath-1.0.tar.gz",
+    "Changelog":      "changes.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.42.0",
+    "Installed":      "installed/libtommath/0.42.0",
+    "Source":         "src/libtommath/0.42.0/libtommath-0.42.0.tar.gz",
+    "Changelog":      "changes.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.41",
+    "Installed":      "installed/libtommath/0.41",
+    "Source":         "src/libtommath/0.41/libtommath-0.41.tar.gz",
+    "Changelog":      "changes.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.40",
+    "Installed":      "installed/libtommath/0.40",
+    "Source":         "src/libtommath/0.40/libtommath-0.40.tar.gz",
+    "Changelog":      "changes.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.39",
+    "Installed":      "installed/libtommath/0.39",
+    "Source":         "src/libtommath/0.39/libtommath-0.39.tar.gz",
+    "Changelog":      "changes.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.38",
+    "Installed":      "installed/libtommath/0.38",
+    "Source":         "src/libtommath/0.38/libtommath-0.38.tar.gz",
+    "Changelog":      "changes.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.37",
+    "Installed":      "installed/libtommath/0.37",
+    "Source":         "src/libtommath/0.37/libtommath-0.37.tar.gz",
+    "Changelog":      "changes.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

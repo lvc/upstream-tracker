@@ -1,0 +1,92 @@
+{
+  "Name":           "openvswitch",
+  "Title":          "Open vSwitch",
+  "SourceUrl":      "http://openvswitch.org/releases/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "SkipObjects":    [ "libofproto.*", "libovn.*", "libovsdb.*", "libsflow.*", "libvtep.*" ],
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.4.0",
+
+  "Versions": [
+  {
+    "Number":         "2.7.0",
+    "Installed":      "installed/openvswitch/2.7.0",
+    "Source":         "src/openvswitch/2.7.0/openvswitch-2.7.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.1",
+    "Installed":      "installed/openvswitch/2.6.1",
+    "Source":         "src/openvswitch/2.6.1/openvswitch-2.6.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.0",
+    "Installed":      "installed/openvswitch/2.6.0",
+    "Source":         "src/openvswitch/2.6.0/openvswitch-2.6.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.2",
+    "Installed":      "installed/openvswitch/2.5.2",
+    "Source":         "src/openvswitch/2.5.2/openvswitch-2.5.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.1",
+    "Installed":      "installed/openvswitch/2.5.1",
+    "Source":         "src/openvswitch/2.5.1/openvswitch-2.5.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.0",
+    "Installed":      "installed/openvswitch/2.5.0",
+    "Source":         "src/openvswitch/2.5.0/openvswitch-2.5.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.1",
+    "Installed":      "installed/openvswitch/2.4.1",
+    "Source":         "src/openvswitch/2.4.1/openvswitch-2.4.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.0",
+    "Installed":      "installed/openvswitch/2.4.0",
+    "Source":         "src/openvswitch/2.4.0/openvswitch-2.4.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

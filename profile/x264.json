@@ -1,0 +1,133 @@
+{
+  "Name":           "x264",
+  "OldSourceUrl":   "ftp://ftp.videolan.org/pub/x264/snapshots/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-debug --extra-cflags='-g -Og -fPIC'",
+  "PreInstall":     "sed -i -e 's/-O[0123]/-Og/g' configure",
+  "GraphFewXTics":  "On",
+  "HeadersDiff":    "Off",
+  "ReleasePattern": "snapshot-(\d\d\d\d\d\d\d\d)-\d+",
+
+  "Versions": [
+  {
+    "Number":         20170406,
+    "Installed":      "installed/x264/20170406",
+    "Source":         "src/x264/20170406/x264-snapshot-20170406-2245.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20160601,
+    "Installed":      "installed/x264/20160601",
+    "Source":         "src/x264/20160601/x264-snapshot-20160601-2245.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20150701,
+    "Installed":      "installed/x264/20150701",
+    "Source":         "src/x264/20150701/x264-snapshot-20150701-2245.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20141201,
+    "Installed":      "installed/x264/20141201",
+    "Source":         "src/x264/20141201/x264-snapshot-20141201-2245.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20130601,
+    "Installed":      "installed/x264/20130601",
+    "Source":         "src/x264/20130601/x264-snapshot-20130601-2245.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20120601,
+    "Installed":      "installed/x264/20120601",
+    "Source":         "src/x264/20120601/x264-snapshot-20120601-2245.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20110601,
+    "Installed":      "installed/x264/20110601",
+    "Source":         "src/x264/20110601/x264-snapshot-20110601-2245.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20100601,
+    "Installed":      "installed/x264/20100601",
+    "Source":         "src/x264/20100601/x264-snapshot-20100601-2245.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20090601,
+    "Installed":      "installed/x264/20090601",
+    "Source":         "src/x264/20090601/x264-snapshot-20090601-2245.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20080601,
+    "Installed":      "installed/x264/20080601",
+    "Source":         "src/x264/20080601/x264-snapshot-20080601-2245.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20070601,
+    "Installed":      "installed/x264/20070601",
+    "Source":         "src/x264/20070601/x264-snapshot-20070601-2245.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20060601,
+    "Installed":      "installed/x264/20060601",
+    "Source":         "src/x264/20060601/x264-snapshot-20060601-2245.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

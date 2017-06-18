@@ -1,0 +1,71 @@
+{
+  "Name":           "readline",
+  "SourceUrl":      "ftp://ftp.gnu.org/gnu/readline/",
+  "SourceUrlDepth": "1",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "5.2",
+
+  "Versions": [
+  {
+    "Number":         "7.0",
+    "Installed":      "installed/readline/7.0",
+    "Source":         "src/readline/7.0/readline-7.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.3",
+    "Installed":      "installed/readline/6.3",
+    "Source":         "src/readline/6.3/readline-6.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.2",
+    "Installed":      "installed/readline/6.2",
+    "Source":         "src/readline/6.2/readline-6.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.1",
+    "Installed":      "installed/readline/6.1",
+    "Source":         "src/readline/6.1/readline-6.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.0",
+    "Installed":      "installed/readline/6.0",
+    "Source":         "src/readline/6.0/readline-6.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.2",
+    "Installed":      "installed/readline/5.2",
+    "Source":         "src/readline/5.2/readline-5.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

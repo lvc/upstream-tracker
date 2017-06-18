@@ -1,0 +1,102 @@
+{
+  "Name":           "qwt",
+  "Title":          "Qwt",
+  "SourceUrl":      "https://sourceforge.net/projects/qwt/files/qwt/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/qwt.sh",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "5.2.2",
+
+  "Versions": [
+  {
+    "Number":         "6.1.3",
+    "Installed":      "installed/qwt/6.1.3",
+    "Source":         "src/qwt/6.1.3/qwt-6.1.3.tar.bz2",
+    "Changelog":      "CHANGES-6.1",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.1.2",
+    "Installed":      "installed/qwt/6.1.2",
+    "Source":         "src/qwt/6.1.2/qwt-6.1.2.tar.bz2",
+    "Changelog":      "CHANGES-6.1",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.1.1",
+    "Installed":      "installed/qwt/6.1.1",
+    "Source":         "src/qwt/6.1.1/qwt-6.1.1.tar.bz2",
+    "Changelog":      "CHANGES-6.1",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.1.0",
+    "Installed":      "installed/qwt/6.1.0",
+    "Source":         "src/qwt/6.1.0/qwt-6.1.0.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.0.2",
+    "Installed":      "installed/qwt/6.0.2",
+    "Source":         "src/qwt/6.0.2/qwt-6.0.2.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.0.1",
+    "Installed":      "installed/qwt/6.0.1",
+    "Source":         "src/qwt/6.0.1/qwt-6.0.1.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.0.0",
+    "Installed":      "installed/qwt/6.0.0",
+    "Source":         "src/qwt/6.0.0/qwt-6.0.0.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.2.3",
+    "Installed":      "installed/qwt/5.2.3",
+    "Source":         "src/qwt/5.2.3/qwt-5.2.3.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.2.2",
+    "Installed":      "installed/qwt/5.2.2",
+    "Source":         "src/qwt/5.2.2/qwt-5.2.2.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,32 @@
+{
+  "Name":           "bctoolbox",
+  "Title":          "BcToolbox",
+  "SourceUrl":      "http://linphone.org/releases/sources/bctoolbox/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "Configure":      "--with-bcunit=/home/Soft/BCUnit-354ab28091/ --with-mbedtls={INSTALL_ROOT}/mbedtls/1.3.19/ LDFLAGS='-L{INSTALL_ROOT}/mbedtls/1.3.19/lib/'",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.5.1",
+    "Installed":      "installed/bctoolbox/0.5.1",
+    "Source":         "src/bctoolbox/0.5.1/bctoolbox-0.5.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.0",
+    "Installed":      "installed/bctoolbox/0.2.0",
+    "Source":         "src/bctoolbox/0.2.0/bctoolbox-0.2.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

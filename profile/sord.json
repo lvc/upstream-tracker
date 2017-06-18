@@ -1,0 +1,111 @@
+{
+  "Name":           "sord",
+  "Title":          "Sord",
+  "SourceUrl":      "http://download.drobilla.net/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "ConfigureGlobal": "PKG_CONFIG_PATH={INSTALL_ROOT}/serd/0.26.0/lib/pkgconfig",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.16.0",
+    "Installed":      "installed/sord/0.16.0",
+    "Source":         "src/sord/0.16.0/sord-0.16.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14.0",
+    "Installed":      "installed/sord/0.14.0",
+    "Source":         "src/sord/0.14.0/sord-0.14.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.12.2",
+    "Installed":      "installed/sord/0.12.2",
+    "Source":         "src/sord/0.12.2/sord-0.12.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.12.0",
+    "Installed":      "installed/sord/0.12.0",
+    "Source":         "src/sord/0.12.0/sord-0.12.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.4",
+    "Installed":      "installed/sord/0.10.4",
+    "Source":         "src/sord/0.10.4/sord-0.10.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.0",
+    "Installed":      "installed/sord/0.10.0",
+    "Source":         "src/sord/0.10.0/sord-0.10.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.0",
+    "Installed":      "installed/sord/0.8.0",
+    "Source":         "src/sord/0.8.0/sord-0.8.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.0",
+    "Installed":      "installed/sord/0.5.0",
+    "Source":         "src/sord/0.5.0/sord-0.5.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.2",
+    "Installed":      "installed/sord/0.4.2",
+    "Source":         "src/sord/0.4.2/sord-0.4.2.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.0",
+    "Installed":      "installed/sord/0.4.0",
+    "Source":         "src/sord/0.4.0/sord-0.4.0.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

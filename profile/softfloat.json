@@ -1,0 +1,44 @@
+{
+  "Name":           "softfloat",
+  "Title":          "Berkeley SoftFloat",
+  "SourceUrl":      "http://www.jhauser.us/arithmetic/SoftFloat.html",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/softfloat.sh",
+  "BuildShared":    "On",
+  "HeadersDiff":    "Off",
+  "LetterReleases": "On",
+  "Soname":         "Off",
+
+  "Versions": [
+  {
+    "Number":         "3c",
+    "Installed":      "installed/softfloat/3c",
+    "Source":         "src/softfloat/3c/SoftFloat-3c.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3b",
+    "Installed":      "installed/softfloat/3b",
+    "Source":         "src/softfloat/3b/SoftFloat-3b.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3a",
+    "Installed":      "installed/softfloat/3a",
+    "Source":         "src/softfloat/3a/SoftFloat-3a.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

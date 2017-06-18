@@ -1,0 +1,209 @@
+{
+  "Name":           "libvcmmd",
+  "SourceUrl":      "https://github.com/OpenVZ/libvcmmd/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "7.0.22",
+    "Installed":      "installed/libvcmmd/7.0.22",
+    "Source":         "src/libvcmmd/7.0.22/libvcmmd-7.0.22.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.21",
+    "Installed":      "installed/libvcmmd/7.0.21",
+    "Source":         "src/libvcmmd/7.0.21/libvcmmd-7.0.21.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.19",
+    "Installed":      "installed/libvcmmd/7.0.19",
+    "Source":         "src/libvcmmd/7.0.19/libvcmmd-7.0.19.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.18",
+    "Installed":      "installed/libvcmmd/7.0.18",
+    "Source":         "src/libvcmmd/7.0.18/libvcmmd-7.0.18.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.17",
+    "Installed":      "installed/libvcmmd/7.0.17",
+    "Source":         "src/libvcmmd/7.0.17/libvcmmd-7.0.17.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.16",
+    "Installed":      "installed/libvcmmd/7.0.16",
+    "Source":         "src/libvcmmd/7.0.16/libvcmmd-7.0.16.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.15",
+    "Installed":      "installed/libvcmmd/7.0.15",
+    "Source":         "src/libvcmmd/7.0.15/libvcmmd-7.0.15.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.14",
+    "Installed":      "installed/libvcmmd/7.0.14",
+    "Source":         "src/libvcmmd/7.0.14/libvcmmd-7.0.14.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.13",
+    "Installed":      "installed/libvcmmd/7.0.13",
+    "Source":         "src/libvcmmd/7.0.13/libvcmmd-7.0.13.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.12",
+    "Installed":      "installed/libvcmmd/7.0.12",
+    "Source":         "src/libvcmmd/7.0.12/libvcmmd-7.0.12.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.11",
+    "Installed":      "installed/libvcmmd/7.0.11",
+    "Source":         "src/libvcmmd/7.0.11/libvcmmd-7.0.11.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.10",
+    "Installed":      "installed/libvcmmd/7.0.10",
+    "Source":         "src/libvcmmd/7.0.10/libvcmmd-7.0.10.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.9",
+    "Installed":      "installed/libvcmmd/7.0.9",
+    "Source":         "src/libvcmmd/7.0.9/libvcmmd-7.0.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.8",
+    "Installed":      "installed/libvcmmd/7.0.8",
+    "Source":         "src/libvcmmd/7.0.8/libvcmmd-7.0.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.7",
+    "Installed":      "installed/libvcmmd/7.0.7",
+    "Source":         "src/libvcmmd/7.0.7/libvcmmd-7.0.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.6",
+    "Installed":      "installed/libvcmmd/7.0.6",
+    "Source":         "src/libvcmmd/7.0.6/libvcmmd-7.0.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.5",
+    "Installed":      "installed/libvcmmd/7.0.5",
+    "Source":         "src/libvcmmd/7.0.5/libvcmmd-7.0.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.4",
+    "Installed":      "installed/libvcmmd/7.0.4",
+    "Source":         "src/libvcmmd/7.0.4/libvcmmd-7.0.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.3",
+    "Installed":      "installed/libvcmmd/7.0.3",
+    "Source":         "src/libvcmmd/7.0.3/libvcmmd-7.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.2",
+    "Installed":      "installed/libvcmmd/7.0.2",
+    "Source":         "src/libvcmmd/7.0.2/libvcmmd-7.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

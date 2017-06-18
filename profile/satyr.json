@@ -1,0 +1,110 @@
+{
+  "Name":           "satyr",
+  "SourceUrl":      "https://github.com/abrt/satyr/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--without-python3 --disable-python-manpage --without-rpm",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.23",
+    "Installed":      "installed/satyr/0.23",
+    "Source":         "src/satyr/0.23/satyr-0.23.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.22",
+    "Installed":      "installed/satyr/0.22",
+    "Source":         "src/satyr/0.22/satyr-0.22.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.21",
+    "Installed":      "installed/satyr/0.21",
+    "Source":         "src/satyr/0.21/satyr-0.21.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20",
+    "Installed":      "installed/satyr/0.20",
+    "Source":         "src/satyr/0.20/satyr-0.20.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19",
+    "Installed":      "installed/satyr/0.19",
+    "Source":         "src/satyr/0.19/satyr-0.19.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.18",
+    "Installed":      "installed/satyr/0.18",
+    "Source":         "src/satyr/0.18/satyr-0.18.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.17",
+    "Installed":      "installed/satyr/0.17",
+    "Source":         "src/satyr/0.17/satyr-0.17.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16",
+    "Installed":      "installed/satyr/0.16",
+    "Source":         "src/satyr/0.16/satyr-0.16.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.15",
+    "Installed":      "installed/satyr/0.15",
+    "Source":         "src/satyr/0.15/satyr-0.15.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14",
+    "Installed":      "installed/satyr/0.14",
+    "Source":         "src/satyr/0.14/satyr-0.14.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

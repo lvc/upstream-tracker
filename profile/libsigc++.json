@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         "2.99.8",
+    "Installed":      "installed/libsigc++/2.99.8",
+    "Source":         "src/libsigc++/2.99.8/libsigc++-2.99.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.99.7",
     "Installed":      "installed/libsigc++/2.99.7",
     "Source":         "src/libsigc++/2.99.7/libsigc++-2.99.7.tar.xz",

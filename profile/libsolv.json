@@ -1,0 +1,221 @@
+{
+  "Name":           "libsolv",
+  "SourceUrl":      "https://github.com/openSUSE/libsolv/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "sed -i -e 's/-O[01234]/-Og/' CMakeLists.txt",
+  "ClearInstalled": "Off",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.6.27",
+    "Installed":      "installed/libsolv/0.6.27",
+    "Source":         "src/libsolv/0.6.27/libsolv-0.6.27.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.26",
+    "Installed":      "installed/libsolv/0.6.26",
+    "Source":         "src/libsolv/0.6.26/libsolv-0.6.26.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.25",
+    "Installed":      "installed/libsolv/0.6.25",
+    "Source":         "src/libsolv/0.6.25/libsolv-0.6.25.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.24",
+    "Installed":      "installed/libsolv/0.6.24",
+    "Source":         "src/libsolv/0.6.24/libsolv-0.6.24.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.23",
+    "Installed":      "installed/libsolv/0.6.23",
+    "Source":         "src/libsolv/0.6.23/libsolv-0.6.23.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.22",
+    "Installed":      "installed/libsolv/0.6.22",
+    "Source":         "src/libsolv/0.6.22/libsolv-0.6.22.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.21",
+    "Installed":      "installed/libsolv/0.6.21",
+    "Source":         "src/libsolv/0.6.21/libsolv-0.6.21.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.20",
+    "Installed":      "installed/libsolv/0.6.20",
+    "Source":         "src/libsolv/0.6.20/libsolv-0.6.20.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.19",
+    "Installed":      "installed/libsolv/0.6.19",
+    "Source":         "src/libsolv/0.6.19/libsolv-0.6.19.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.18",
+    "Installed":      "installed/libsolv/0.6.18",
+    "Source":         "src/libsolv/0.6.18/libsolv-0.6.18.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.17",
+    "Installed":      "installed/libsolv/0.6.17",
+    "Source":         "src/libsolv/0.6.17/libsolv-0.6.17.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.16",
+    "Installed":      "installed/libsolv/0.6.16",
+    "Source":         "src/libsolv/0.6.16/libsolv-0.6.16.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.15",
+    "Installed":      "installed/libsolv/0.6.15",
+    "Source":         "src/libsolv/0.6.15/libsolv-0.6.15.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.14",
+    "Installed":      "installed/libsolv/0.6.14",
+    "Source":         "src/libsolv/0.6.14/libsolv-0.6.14.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.13",
+    "Installed":      "installed/libsolv/0.6.13",
+    "Source":         "src/libsolv/0.6.13/libsolv-0.6.13.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.12",
+    "Installed":      "installed/libsolv/0.6.12",
+    "Source":         "src/libsolv/0.6.12/libsolv-0.6.12.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.11",
+    "Installed":      "installed/libsolv/0.6.11",
+    "Source":         "src/libsolv/0.6.11/libsolv-0.6.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.10",
+    "Installed":      "installed/libsolv/0.6.10",
+    "Source":         "src/libsolv/0.6.10/libsolv-0.6.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.9",
+    "Installed":      "installed/libsolv/0.6.9",
+    "Source":         "src/libsolv/0.6.9/libsolv-0.6.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.8",
+    "Installed":      "installed/libsolv/0.6.8",
+    "Source":         "src/libsolv/0.6.8/libsolv-0.6.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.7",
+    "Installed":      "installed/libsolv/0.6.7",
+    "Source":         "src/libsolv/0.6.7/libsolv-0.6.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

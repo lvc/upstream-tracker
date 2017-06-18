@@ -1,0 +1,231 @@
+{
+  "Name":           "openldap",
+  "Title":          "OpenLDAP",
+  "SourceUrl":      "ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.4.23",
+
+  "Versions": [
+  {
+    "Number":         "2.4.45",
+    "Installed":      "installed/openldap/2.4.45",
+    "Source":         "src/openldap/2.4.45/openldap-2.4.45.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.44",
+    "Installed":      "installed/openldap/2.4.44",
+    "Source":         "src/openldap/2.4.44/openldap-2.4.44.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.43",
+    "Installed":      "installed/openldap/2.4.43",
+    "Source":         "src/openldap/2.4.43/openldap-2.4.43.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.42",
+    "Installed":      "installed/openldap/2.4.42",
+    "Source":         "src/openldap/2.4.42/openldap-2.4.42.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.41",
+    "Installed":      "installed/openldap/2.4.41",
+    "Source":         "src/openldap/2.4.41/openldap-2.4.41.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.40",
+    "Installed":      "installed/openldap/2.4.40",
+    "Source":         "src/openldap/2.4.40/openldap-2.4.40.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.39",
+    "Installed":      "installed/openldap/2.4.39",
+    "Source":         "src/openldap/2.4.39/openldap-2.4.39.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.38",
+    "Installed":      "installed/openldap/2.4.38",
+    "Source":         "src/openldap/2.4.38/openldap-2.4.38.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.37",
+    "Installed":      "installed/openldap/2.4.37",
+    "Source":         "src/openldap/2.4.37/openldap-2.4.37.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.36",
+    "Installed":      "installed/openldap/2.4.36",
+    "Source":         "src/openldap/2.4.36/openldap-2.4.36.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.35",
+    "Installed":      "installed/openldap/2.4.35",
+    "Source":         "src/openldap/2.4.35/openldap-2.4.35.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.34",
+    "Installed":      "installed/openldap/2.4.34",
+    "Source":         "src/openldap/2.4.34/openldap-2.4.34.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.33",
+    "Installed":      "installed/openldap/2.4.33",
+    "Source":         "src/openldap/2.4.33/openldap-2.4.33.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.32",
+    "Installed":      "installed/openldap/2.4.32",
+    "Source":         "src/openldap/2.4.32/openldap-2.4.32.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.31",
+    "Installed":      "installed/openldap/2.4.31",
+    "Source":         "src/openldap/2.4.31/openldap-2.4.31.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.30",
+    "Installed":      "installed/openldap/2.4.30",
+    "Source":         "src/openldap/2.4.30/openldap-2.4.30.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.29",
+    "Installed":      "installed/openldap/2.4.29",
+    "Source":         "src/openldap/2.4.29/openldap-2.4.29.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.28",
+    "Installed":      "installed/openldap/2.4.28",
+    "Source":         "src/openldap/2.4.28/openldap-2.4.28.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.27",
+    "Installed":      "installed/openldap/2.4.27",
+    "Source":         "src/openldap/2.4.27/openldap-2.4.27.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.26",
+    "Installed":      "installed/openldap/2.4.26",
+    "Source":         "src/openldap/2.4.26/openldap-2.4.26.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.25",
+    "Installed":      "installed/openldap/2.4.25",
+    "Source":         "src/openldap/2.4.25/openldap-2.4.25.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.24",
+    "Installed":      "installed/openldap/2.4.24",
+    "Source":         "src/openldap/2.4.24/openldap-2.4.24.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

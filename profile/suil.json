@@ -1,0 +1,82 @@
+{
+  "Name":           "suil",
+  "Title":          "Suil",
+  "SourceUrl":      "http://download.drobilla.net/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/suil-0",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.6.10",
+
+  "Versions": [
+  {
+    "Number":         "0.8.4",
+    "Installed":      "installed/suil/0.8.4",
+    "Source":         "src/suil/0.8.4/suil-0.8.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.2",
+    "Installed":      "installed/suil/0.8.2",
+    "Source":         "src/suil/0.8.2/suil-0.8.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.0",
+    "Installed":      "installed/suil/0.8.0",
+    "Source":         "src/suil/0.8.0/suil-0.8.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.16",
+    "Installed":      "installed/suil/0.6.16",
+    "Source":         "src/suil/0.6.16/suil-0.6.16.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.14",
+    "Installed":      "installed/suil/0.6.14",
+    "Source":         "src/suil/0.6.14/suil-0.6.14.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.12",
+    "Installed":      "installed/suil/0.6.12",
+    "Source":         "src/suil/0.6.12/suil-0.6.12.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.10",
+    "Installed":      "installed/suil/0.6.10",
+    "Source":         "src/suil/0.6.10/suil-0.6.10.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

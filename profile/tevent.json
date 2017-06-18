@@ -1,0 +1,171 @@
+{
+  "Name":           "tevent",
+  "SourceUrl":      "https://www.samba.org/ftp/tevent/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/tevent.sh",
+  "SkipObjects":    [ "site-packages/", "tevent/" ],
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.9.31",
+    "Installed":      "installed/tevent/0.9.31",
+    "Source":         "src/tevent/0.9.31/tevent-0.9.31.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.30",
+    "Installed":      "installed/tevent/0.9.30",
+    "Source":         "src/tevent/0.9.30/tevent-0.9.30.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.29",
+    "Installed":      "installed/tevent/0.9.29",
+    "Source":         "src/tevent/0.9.29/tevent-0.9.29.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.28",
+    "Installed":      "installed/tevent/0.9.28",
+    "Source":         "src/tevent/0.9.28/tevent-0.9.28.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.27",
+    "Installed":      "installed/tevent/0.9.27",
+    "Source":         "src/tevent/0.9.27/tevent-0.9.27.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.26",
+    "Installed":      "installed/tevent/0.9.26",
+    "Source":         "src/tevent/0.9.26/tevent-0.9.26.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.25",
+    "Installed":      "installed/tevent/0.9.25",
+    "Source":         "src/tevent/0.9.25/tevent-0.9.25.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.24",
+    "Installed":      "installed/tevent/0.9.24",
+    "Source":         "src/tevent/0.9.24/tevent-0.9.24.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.23",
+    "Installed":      "installed/tevent/0.9.23",
+    "Source":         "src/tevent/0.9.23/tevent-0.9.23.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.22",
+    "Installed":      "installed/tevent/0.9.22",
+    "Source":         "src/tevent/0.9.22/tevent-0.9.22.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.21",
+    "Installed":      "installed/tevent/0.9.21",
+    "Source":         "src/tevent/0.9.21/tevent-0.9.21.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.20",
+    "Installed":      "installed/tevent/0.9.20",
+    "Source":         "src/tevent/0.9.20/tevent-0.9.20.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.19",
+    "Installed":      "installed/tevent/0.9.19",
+    "Source":         "src/tevent/0.9.19/tevent-0.9.19.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.18",
+    "Installed":      "installed/tevent/0.9.18",
+    "Source":         "src/tevent/0.9.18/tevent-0.9.18.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.17",
+    "Installed":      "installed/tevent/0.9.17",
+    "Source":         "src/tevent/0.9.17/tevent-0.9.17.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.16",
+    "Installed":      "installed/tevent/0.9.16",
+    "Source":         "src/tevent/0.9.16/tevent-0.9.16.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

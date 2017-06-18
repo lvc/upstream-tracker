@@ -20,6 +20,56 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "2017-06-01",
+    "Installed":      "installed/re2/2017-06-01",
+    "Source":         "src/re2/2017-06-01/re2-2017-06-01.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2017-05-01",
+    "Installed":      "installed/re2/2017-05-01",
+    "Source":         "src/re2/2017-05-01/re2-2017-05-01.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2017-04-01",
+    "Installed":      "installed/re2/2017-04-01",
+    "Source":         "src/re2/2017-04-01/re2-2017-04-01.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2017-03-01",
+    "Installed":      "installed/re2/2017-03-01",
+    "Source":         "src/re2/2017-03-01/re2-2017-03-01.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2017-01-01",
+    "Installed":      "installed/re2/2017-01-01",
+    "Source":         "src/re2/2017-01-01/re2-2017-01-01.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2016-11-01",
     "Installed":      "installed/re2/2016-11-01",
     "Source":         "src/re2/2016-11-01/re2-2016-11-01.tar.gz",

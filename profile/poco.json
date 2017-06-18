@@ -1,0 +1,145 @@
+{
+  "Name":           "poco",
+  "Title":          "POCO",
+  "SourceUrl":      "https://github.com/pocoproject/poco/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/poco.sh",
+  "Changelog":      "CHANGELOG",
+  "CheckObjects":   [ "lib.+d\.so.*" ],
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.5.3",
+  "ReleasePattern": "(.+)-release\Z",
+
+  "Versions": [
+  {
+    "Number":         "1.7.8",
+    "Installed":      "installed/poco/1.7.8",
+    "Source":         "src/poco/1.7.8/poco-1.7.8-release.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.7",
+    "Installed":      "installed/poco/1.7.7",
+    "Source":         "src/poco/1.7.7/poco-1.7.7-release.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.6",
+    "Installed":      "installed/poco/1.7.6",
+    "Source":         "src/poco/1.7.6/poco-1.7.6-release.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.5",
+    "Installed":      "installed/poco/1.7.5",
+    "Source":         "src/poco/1.7.5/poco-1.7.5-release.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.4",
+    "Installed":      "installed/poco/1.7.4",
+    "Source":         "src/poco/1.7.4/poco-1.7.4-release.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.3",
+    "Installed":      "installed/poco/1.7.3",
+    "Source":         "src/poco/1.7.3/poco-1.7.3-release.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.2",
+    "Installed":      "installed/poco/1.7.2",
+    "Source":         "src/poco/1.7.2/poco-1.7.2-release.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.1",
+    "Installed":      "installed/poco/1.7.1",
+    "Source":         "src/poco/1.7.1/poco-1.7.1-release.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.0",
+    "Installed":      "installed/poco/1.7.0",
+    "Source":         "src/poco/1.7.0/poco-1.7.0-release.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.1",
+    "Installed":      "installed/poco/1.6.1",
+    "Source":         "src/poco/1.6.1/poco-1.6.1-release.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.0",
+    "Installed":      "installed/poco/1.6.0",
+    "Source":         "src/poco/1.6.0/poco-1.6.0-release.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.4",
+    "Installed":      "installed/poco/1.5.4",
+    "Source":         "src/poco/1.5.4/poco-1.5.4-release.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.3",
+    "Installed":      "installed/poco/1.5.3",
+    "Source":         "src/poco/1.5.3/poco-1.5.3-release.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

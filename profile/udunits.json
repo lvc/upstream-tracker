@@ -1,0 +1,224 @@
+{
+  "Name":           "udunits",
+  "Title":          "UDUNITS",
+  "SourceUrl":      "https://github.com/Unidata/UDUNITS-2/tags",
+  "OldSourceUrl":   "ftp://ftp.unidata.ucar.edu/pub/udunits/",
+  "OldSourceUrlDepth": "1",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Changelog":      "CHANGE_LOG",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.1.24",
+
+  "Versions": [
+  {
+    "Number":         "2.2.25",
+    "Installed":      "installed/udunits/2.2.25",
+    "Source":         "src/udunits/2.2.25/udunits-2.2.25.tar.gz",
+    "Changelog":      "CHANGE_LOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.24",
+    "Installed":      "installed/udunits/2.2.24",
+    "Source":         "src/udunits/2.2.24/udunits-2.2.24.tar.gz",
+    "Changelog":      "CHANGE_LOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.23",
+    "Installed":      "installed/udunits/2.2.23",
+    "Source":         "src/udunits/2.2.23/udunits-2.2.23.tar.gz",
+    "Changelog":      "CHANGE_LOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.22",
+    "Installed":      "installed/udunits/2.2.22",
+    "Source":         "src/udunits/2.2.22/udunits-2.2.22.tar.gz",
+    "Changelog":      "CHANGE_LOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.21",
+    "Installed":      "installed/udunits/2.2.21",
+    "Source":         "src/udunits/2.2.21/udunits-2.2.21.tar.gz",
+    "Changelog":      "CHANGE_LOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.20",
+    "Installed":      "installed/udunits/2.2.20",
+    "Source":         "src/udunits/2.2.20/udunits-2.2.20.tar.gz",
+    "Changelog":      "CHANGE_LOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.19",
+    "Installed":      "installed/udunits/2.2.19",
+    "Source":         "src/udunits/2.2.19/udunits-2.2.19.tar.gz",
+    "Changelog":      "CHANGE_LOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.18",
+    "Installed":      "installed/udunits/2.2.18",
+    "Source":         "src/udunits/2.2.18/udunits-2.2.18.tar.gz",
+    "Changelog":      "CHANGE_LOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.17",
+    "Installed":      "installed/udunits/2.2.17",
+    "Source":         "src/udunits/2.2.17/udunits-2.2.17.tar.gz",
+    "Changelog":      "CHANGE_LOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.16",
+    "Installed":      "installed/udunits/2.2.16",
+    "Source":         "src/udunits/2.2.16/udunits-2.2.16.tar.gz",
+    "Changelog":      "CHANGE_LOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.15",
+    "Installed":      "installed/udunits/2.2.15",
+    "Source":         "src/udunits/2.2.15/udunits-2.2.15.tar.gz",
+    "Changelog":      "CHANGE_LOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.14",
+    "Installed":      "installed/udunits/2.2.14",
+    "Source":         "src/udunits/2.2.14/udunits-2.2.14.tar.gz",
+    "Changelog":      "CHANGE_LOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.13",
+    "Installed":      "installed/udunits/2.2.13",
+    "Source":         "src/udunits/2.2.13/udunits-2.2.13.tar.gz",
+    "Changelog":      "CHANGE_LOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.12",
+    "Installed":      "installed/udunits/2.2.12",
+    "Source":         "src/udunits/2.2.12/udunits-2.2.12.tar.gz",
+    "Changelog":      "CHANGE_LOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.11",
+    "Installed":      "installed/udunits/2.2.11",
+    "Source":         "src/udunits/2.2.11/udunits-2.2.11.tar.gz",
+    "Changelog":      "CHANGE_LOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.10",
+    "Installed":      "installed/udunits/2.2.10",
+    "Source":         "src/udunits/2.2.10/udunits-2.2.10.tar.gz",
+    "Changelog":      "CHANGE_LOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.9",
+    "Installed":      "installed/udunits/2.2.9",
+    "Source":         "src/udunits/2.2.9/udunits-2.2.9.tar.gz",
+    "Changelog":      "CHANGE_LOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.8",
+    "Installed":      "installed/udunits/2.2.8",
+    "Source":         "src/udunits/2.2.8/udunits-2.2.8.tar.gz",
+    "Changelog":      "CHANGE_LOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.7",
+    "Installed":      "installed/udunits/2.2.7",
+    "Source":         "src/udunits/2.2.7/udunits-2.2.7.tar.gz",
+    "Changelog":      "CHANGE_LOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.6",
+    "Installed":      "installed/udunits/2.2.6",
+    "Source":         "src/udunits/2.2.6/udunits-2.2.6.tar.gz",
+    "Changelog":      "CHANGE_LOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.24",
+    "Installed":      "installed/udunits/2.1.24",
+    "Source":         "src/udunits/2.1.24/udunits-2.1.24.tar.gz",
+    "Changelog":      "CHANGE_LOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

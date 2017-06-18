@@ -1,0 +1,131 @@
+{
+  "Name":           "libunwind",
+  "SourceUrl":      "http://download.savannah.gnu.org/releases/libunwind/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "sed -i -e 's/ tests//' Makefile.in",
+  "SkipObjects":    [ "libunwind-setjmp.so" ],
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.2.1",
+    "Installed":      "installed/libunwind/1.2.1",
+    "Source":         "src/libunwind/1.2.1/libunwind-1.2.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2",
+    "Installed":      "installed/libunwind/1.2",
+    "Source":         "src/libunwind/1.2/libunwind-1.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1",
+    "Installed":      "installed/libunwind/1.1",
+    "Source":         "src/libunwind/1.1/libunwind-1.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/libunwind/1.0.1",
+    "Source":         "src/libunwind/1.0.1/libunwind-1.0.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.99",
+    "Installed":      "installed/libunwind/0.99",
+    "Source":         "src/libunwind/0.99/libunwind-0.99.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.98.6",
+    "Installed":      "installed/libunwind/0.98.6",
+    "Source":         "src/libunwind/0.98.6/libunwind-0.98.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.98.5",
+    "Installed":      "installed/libunwind/0.98.5",
+    "Source":         "src/libunwind/0.98.5/libunwind-0.98.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.98.4",
+    "Installed":      "installed/libunwind/0.98.4",
+    "Source":         "src/libunwind/0.98.4/libunwind-0.98.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.98.3",
+    "Installed":      "installed/libunwind/0.98.3",
+    "Source":         "src/libunwind/0.98.3/libunwind-0.98.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.98.2",
+    "Installed":      "installed/libunwind/0.98.2",
+    "Source":         "src/libunwind/0.98.2/libunwind-0.98.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.98.1",
+    "Installed":      "installed/libunwind/0.98.1",
+    "Source":         "src/libunwind/0.98.1/libunwind-0.98.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.98",
+    "Installed":      "installed/libunwind/0.98",
+    "Source":         "src/libunwind/0.98/libunwind-0.98.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

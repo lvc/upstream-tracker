@@ -1,0 +1,51 @@
+{
+  "Name":           "pjproject",
+  "Title":          "PJSIP",
+  "SourceUrl":      "http://www.pjsip.org/download.htm",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "SkipObjects":    [ "libportaudio.so", "libresample.so", "libgsmcodec.so", "libg7221codec.so", "libspeex.so", "libsrtp.so", "libilbccodec.so", "libyuv.so", "libwebrtc.so", "libpjmedia-videodev.so" ],
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.6",
+    "Installed":      "installed/pjproject/2.6",
+    "Source":         "src/pjproject/2.6/pjproject-2.6.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.5",
+    "Installed":      "installed/pjproject/2.4.5",
+    "Source":         "src/pjproject/2.4.5/pjproject-2.4.5.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4",
+    "Installed":      "installed/pjproject/2.4",
+    "Source":         "src/pjproject/2.4/pjproject-2.4.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3",
+    "Installed":      "installed/pjproject/2.3",
+    "Source":         "src/pjproject/2.3/pjproject-2.3.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

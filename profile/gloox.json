@@ -7,6 +7,26 @@
 
   "Versions": [
   {
+    "Number":         "1.0.20",
+    "Installed":      "installed/gloox/1.0.20",
+    "Source":         "src/gloox/1.0.20/gloox-1.0.20.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.19",
+    "Installed":      "installed/gloox/1.0.19",
+    "Source":         "src/gloox/1.0.19/gloox-1.0.19.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.0.18",
     "Installed":      "installed/gloox/1.0.18",
     "Source":         "src/gloox/1.0.18/gloox-1.0.18.tar.bz2",

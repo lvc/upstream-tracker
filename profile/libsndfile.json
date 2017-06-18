@@ -7,6 +7,16 @@
 
   "Versions": [
   {
+    "Number":         "1.0.28",
+    "Installed":      "installed/libsndfile/1.0.28",
+    "Source":         "src/libsndfile/1.0.28/libsndfile-1.0.28.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.0.27",
     "Installed":      "installed/libsndfile/1.0.27",
     "Source":         "src/libsndfile/1.0.27/libsndfile-1.0.27.tar.gz",

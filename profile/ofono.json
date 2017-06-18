@@ -1,0 +1,164 @@
+{
+  "Name":           "ofono",
+  "Title":          "oFono",
+  "SourceUrl":      "https://git.kernel.org/pub/scm/network/ofono/ofono.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "PKG_CONFIG_PATH='{INSTALL_ROOT}/bluez/5.44/lib/pkgconfig' --with-dbusconfdir={INSTALL_TO}/share --with-systemdunitdir={INSTALL_TO}/share --with-dbusdatadir={INSTALL_TO}/share --disable-test --disable-tools",
+  "PostInstall":    "mv {INSTALL_TO}/sbin/ofonod {INSTALL_TO}/lib/libofonod.so",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.53",
+  "Soname":         "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.20",
+    "Installed":      "installed/ofono/1.20",
+    "Source":         "src/ofono/1.20/ofono-1.20.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.19",
+    "Installed":      "installed/ofono/1.19",
+    "Source":         "src/ofono/1.19/ofono-1.19.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.18",
+    "Installed":      "installed/ofono/1.18",
+    "Source":         "src/ofono/1.18/ofono-1.18.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.17",
+    "Installed":      "installed/ofono/1.17",
+    "Source":         "src/ofono/1.17/ofono-1.17.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.16",
+    "Installed":      "installed/ofono/1.16",
+    "Source":         "src/ofono/1.16/ofono-1.16.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15",
+    "Installed":      "installed/ofono/1.15",
+    "Source":         "src/ofono/1.15/ofono-1.15.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14",
+    "Installed":      "installed/ofono/1.14",
+    "Source":         "src/ofono/1.14/ofono-1.14.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13",
+    "Installed":      "installed/ofono/1.13",
+    "Source":         "src/ofono/1.13/ofono-1.13.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12",
+    "Installed":      "installed/ofono/1.12",
+    "Source":         "src/ofono/1.12/ofono-1.12.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11",
+    "Installed":      "installed/ofono/1.11",
+    "Source":         "src/ofono/1.11/ofono-1.11.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10",
+    "Installed":      "installed/ofono/1.10",
+    "Source":         "src/ofono/1.10/ofono-1.10.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9",
+    "Installed":      "installed/ofono/1.9",
+    "Source":         "src/ofono/1.9/ofono-1.9.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8",
+    "Installed":      "installed/ofono/1.8",
+    "Source":         "src/ofono/1.8/ofono-1.8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7",
+    "Installed":      "installed/ofono/1.7",
+    "Source":         "src/ofono/1.7/ofono-1.7.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6",
+    "Installed":      "installed/ofono/1.6",
+    "Source":         "src/ofono/1.6/ofono-1.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

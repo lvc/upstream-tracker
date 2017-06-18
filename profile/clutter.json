@@ -5,10 +5,11 @@
   "Git":            "https://git.gnome.org/browse/clutter",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--enable-egl-backend=no --disable-examples --disable-tests PKG_CONFIG_PATH='{INSTALL_ROOT}/cogl/1.22.0/lib/pkgconfig:{INSTALL_ROOT}/gtk+/3.18.2/lib/pkgconfig'",
+  "Configure":      "--enable-gdk-backend=yes --enable-egl-backend=no --disable-examples --disable-tests PKG_CONFIG_PATH='{INSTALL_ROOT}/cogl/1.22.0/lib/pkgconfig:{INSTALL_ROOT}/gtk+/3.18.2/lib/pkgconfig'",
   "PreInstall":     "sed -i -e 's/tests doc//g' Makefile.in Makefile.am",
   "CurrentPreInstall": "sed -i -e 's/tests doc//g' Makefile.am",
   "HeadersDiff":    "Off",
+  "MinimalVersion": "1.6.16",
 
   "Versions": [
   {
@@ -16,6 +17,16 @@
     "Installed":      "installed/clutter/current",
     "Source":         "src/clutter/current",
     "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.26.2",
+    "Installed":      "installed/clutter/1.26.2",
+    "Source":         "src/clutter/1.26.2/clutter-1.26.2.tar.xz",
+    "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",

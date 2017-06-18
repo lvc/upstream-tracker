@@ -1,0 +1,114 @@
+{
+  "Name":           "log4cplus",
+  "SourceUrl":      "https://github.com/log4cplus/log4cplus/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-threads",
+  "Changelog":      "ChangeLog",
+  "GraphFewXTics":  "On",
+  "HeadersDiff":    "Off",
+  "OldPreInstall":  "sed -i -e 's/-O[0123]/-Og/g' configure",
+  "Package":        "REL_",
+
+  "Versions": [
+  {
+    "Number":         "2_0_0-RC1",
+    "Installed":      "installed/log4cplus/2_0_0-RC1",
+    "Source":         "src/log4cplus/2_0_0-RC1/REL_2_0_0-RC1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_2_0",
+    "Installed":      "installed/log4cplus/1_2_0",
+    "Source":         "src/log4cplus/1_2_0/REL_1_2_0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_1_2",
+    "Installed":      "installed/log4cplus/1_1_2",
+    "Source":         "src/log4cplus/1_1_2/REL_1_1_2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_1_1",
+    "Installed":      "installed/log4cplus/1_1_1",
+    "Source":         "src/log4cplus/1_1_1/REL_1_1_1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_1_0",
+    "Installed":      "installed/log4cplus/1_1_0",
+    "Source":         "src/log4cplus/1_1_0/REL_1_1_0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_0_4_3",
+    "Installed":      "installed/log4cplus/1_0_4_3",
+    "Source":         "src/log4cplus/1_0_4_3/REL_1_0_4_3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_0_4_2",
+    "Installed":      "installed/log4cplus/1_0_4_2",
+    "Source":         "src/log4cplus/1_0_4_2/REL_1_0_4_2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_0_4_1",
+    "Installed":      "installed/log4cplus/1_0_4_1",
+    "Source":         "src/log4cplus/1_0_4_1/REL_1_0_4_1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_0_4",
+    "Installed":      "installed/log4cplus/1_0_4",
+    "Source":         "src/log4cplus/1_0_4/REL_1_0_4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_0_2",
+    "Installed":      "installed/log4cplus/1_0_2",
+    "Source":         "src/log4cplus/1_0_2/REL_1_0_2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

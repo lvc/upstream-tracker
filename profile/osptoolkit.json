@@ -1,0 +1,373 @@
+{
+  "Name":           "osptoolkit",
+  "Title":          "OSP Toolkit",
+  "SourceUrl":      "https://sourceforge.net/projects/osp-toolkit/files/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/osptoolkit.sh",
+  "BuildShared":    "On",
+  "HeadersDiff":    "Off",
+  "Soname":         "Off",
+
+  "Versions": [
+  {
+    "Number":         "4.13.0",
+    "Installed":      "installed/osptoolkit/4.13.0",
+    "Source":         "src/osptoolkit/4.13.0/OSPToolkit-4.13.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.12.0",
+    "Installed":      "installed/osptoolkit/4.12.0",
+    "Source":         "src/osptoolkit/4.12.0/OSPToolkit-4.12.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.11.4",
+    "Installed":      "installed/osptoolkit/4.11.4",
+    "Source":         "src/osptoolkit/4.11.4/OSPToolkit-4.11.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.11.3",
+    "Installed":      "installed/osptoolkit/4.11.3",
+    "Source":         "src/osptoolkit/4.11.3/OSPToolkit-4.11.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.11.1",
+    "Installed":      "installed/osptoolkit/4.11.1",
+    "Source":         "src/osptoolkit/4.11.1/OSPToolkit-4.11.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.10.0",
+    "Installed":      "installed/osptoolkit/4.10.0",
+    "Source":         "src/osptoolkit/4.10.0/OSPToolkit-4.10.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.9.1",
+    "Installed":      "installed/osptoolkit/4.9.1",
+    "Source":         "src/osptoolkit/4.9.1/OSPToolkit-4.9.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.8.2",
+    "Installed":      "installed/osptoolkit/4.8.2",
+    "Source":         "src/osptoolkit/4.8.2/OSPToolkit-4.8.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.8.1",
+    "Installed":      "installed/osptoolkit/4.8.1",
+    "Source":         "src/osptoolkit/4.8.1/OSPToolkit-4.8.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.8.0",
+    "Installed":      "installed/osptoolkit/4.8.0",
+    "Source":         "src/osptoolkit/4.8.0/OSPToolkit-4.8.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.7.1",
+    "Installed":      "installed/osptoolkit/4.7.1",
+    "Source":         "src/osptoolkit/4.7.1/OSPToolkit-4.7.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.7.0",
+    "Installed":      "installed/osptoolkit/4.7.0",
+    "Source":         "src/osptoolkit/4.7.0/OSPToolkit-4.7.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.1",
+    "Installed":      "installed/osptoolkit/4.6.1",
+    "Source":         "src/osptoolkit/4.6.1/OSPToolkit-4.6.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.0",
+    "Installed":      "installed/osptoolkit/4.6.0",
+    "Source":         "src/osptoolkit/4.6.0/OSPToolkit-4.6.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.0",
+    "Installed":      "installed/osptoolkit/4.5.0",
+    "Source":         "src/osptoolkit/4.5.0/OSPToolkit-4.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.3",
+    "Installed":      "installed/osptoolkit/4.4.3",
+    "Source":         "src/osptoolkit/4.4.3/OSPToolkit-4.4.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.2",
+    "Installed":      "installed/osptoolkit/4.4.2",
+    "Source":         "src/osptoolkit/4.4.2/OSPToolkit-4.4.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.1",
+    "Installed":      "installed/osptoolkit/4.4.1",
+    "Source":         "src/osptoolkit/4.4.1/OSPToolkit-4.4.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.0",
+    "Installed":      "installed/osptoolkit/4.4.0",
+    "Source":         "src/osptoolkit/4.4.0/OSPToolkit-4.4.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.3.0",
+    "Installed":      "installed/osptoolkit/4.3.0",
+    "Source":         "src/osptoolkit/4.3.0/OSPToolkit-4.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2.4",
+    "Installed":      "installed/osptoolkit/4.2.4",
+    "Source":         "src/osptoolkit/4.2.4/OSPToolkit-4.2.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2.3",
+    "Installed":      "installed/osptoolkit/4.2.3",
+    "Source":         "src/osptoolkit/4.2.3/OSPToolkit-4.2.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2.2",
+    "Installed":      "installed/osptoolkit/4.2.2",
+    "Source":         "src/osptoolkit/4.2.2/OSPToolkit-4.2.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2.1",
+    "Installed":      "installed/osptoolkit/4.2.1",
+    "Source":         "src/osptoolkit/4.2.1/OSPToolkit-4.2.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2.0",
+    "Installed":      "installed/osptoolkit/4.2.0",
+    "Source":         "src/osptoolkit/4.2.0/OSPToolkit-4.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.9",
+    "Installed":      "installed/osptoolkit/4.1.9",
+    "Source":         "src/osptoolkit/4.1.9/OSPToolkit-4.1.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.8",
+    "Installed":      "installed/osptoolkit/4.1.8",
+    "Source":         "src/osptoolkit/4.1.8/OSPToolkit-4.1.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.7",
+    "Installed":      "installed/osptoolkit/4.1.7",
+    "Source":         "src/osptoolkit/4.1.7/OSPToolkit-4.1.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.6",
+    "Installed":      "installed/osptoolkit/4.1.6",
+    "Source":         "src/osptoolkit/4.1.6/OSPToolkit-4.1.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.5",
+    "Installed":      "installed/osptoolkit/4.1.5",
+    "Source":         "src/osptoolkit/4.1.5/OSPToolkit-4.1.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.4",
+    "Installed":      "installed/osptoolkit/4.1.4",
+    "Source":         "src/osptoolkit/4.1.4/OSPToolkit-4.1.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.3",
+    "Installed":      "installed/osptoolkit/4.1.3",
+    "Source":         "src/osptoolkit/4.1.3/OSPToolkit-4.1.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.3",
+    "Installed":      "installed/osptoolkit/4.0.3",
+    "Source":         "src/osptoolkit/4.0.3/OSPToolkit-4.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.2",
+    "Installed":      "installed/osptoolkit/4.0.2",
+    "Source":         "src/osptoolkit/4.0.2/OSPToolkit-4.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.1",
+    "Installed":      "installed/osptoolkit/4.0.1",
+    "Source":         "src/osptoolkit/4.0.1/OSPToolkit-4.0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.0",
+    "Installed":      "installed/osptoolkit/4.0.0",
+    "Source":         "src/osptoolkit/4.0.0/OSPToolkit-4.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,117 @@
+{
+  "Name":           "fftw",
+  "Title":          "FFTW",
+  "SourceUrl":      "https://github.com/FFTW/fftw3/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-static=no --disable-doc --disable-fortran --enable-maintainer-mode",
+  "PreInstall":     "sed -i -e 's/ tests / /g' Makefile.am;sed -i -e 's/ tools / /g' Makefile.am;sed -i -e 's/ $(DOCDIR) / /g' Makefile.am",
+  "HeadersDiff":    "Off",
+  "LetterReleases": "On",
+  "Make":           "-j2",
+  "ReleasePattern": "\A(.+\-pl\d+)\Z",
+  "SkipVersions":   [ "3.3.6-pl1", "3.3.6", "3.3.6-rc2", "3.3.6-rc1" ],
+  "UseTUDump":      "On",
+
+  "Versions": [
+  {
+    "Number":         "3.3.6-pl2",
+    "Installed":      "installed/fftw/3.3.6-pl2",
+    "Source":         "src/fftw/3.3.6-pl2/fftw-3.3.6-pl2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.6",
+    "Installed":      "installed/fftw/3.3.6",
+    "Source":         "src/fftw/3.3.6/fftw-3.3.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.5",
+    "Installed":      "installed/fftw/3.3.5",
+    "Source":         "src/fftw/3.3.5/fftw-3.3.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.4",
+    "Installed":      "installed/fftw/3.3.4",
+    "Source":         "src/fftw/3.3.4/fftw-3.3.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.3",
+    "Installed":      "installed/fftw/3.3.3",
+    "Source":         "src/fftw/3.3.3/fftw-3.3.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.2",
+    "Installed":      "installed/fftw/3.3.2",
+    "Source":         "src/fftw/3.3.2/fftw-3.3.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.1",
+    "Installed":      "installed/fftw/3.3.1",
+    "Source":         "src/fftw/3.3.1/fftw-3.3.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3",
+    "Installed":      "installed/fftw/3.3",
+    "Source":         "src/fftw/3.3/fftw-3.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.1",
+    "Installed":      "installed/fftw/3.2.1",
+    "Source":         "src/fftw/3.2.1/fftw-3.2.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2",
+    "Installed":      "installed/fftw/3.2",
+    "Source":         "src/fftw/3.2/fftw-3.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,111 @@
+{
+  "Name":           "pugixml",
+  "SourceUrl":      "https://github.com/zeux/pugixml/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "SkipSymbols":    "filters/skip_symbols/pugixml.list",
+  "HeadersDiff":    "Off",
+  "OldBuildScript": "build_script/pugixml.sh",
+
+  "Versions": [
+  {
+    "Number":         "1.8.1",
+    "Installed":      "installed/pugixml/1.8.1",
+    "Source":         "src/pugixml/1.8.1/pugixml-1.8.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8",
+    "Installed":      "installed/pugixml/1.8",
+    "Source":         "src/pugixml/1.8/pugixml-1.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7",
+    "Installed":      "installed/pugixml/1.7",
+    "Source":         "src/pugixml/1.7/pugixml-1.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6",
+    "Installed":      "installed/pugixml/1.6",
+    "Source":         "src/pugixml/1.6/pugixml-1.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5",
+    "Installed":      "installed/pugixml/1.5",
+    "Source":         "src/pugixml/1.5/pugixml-1.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4",
+    "Installed":      "installed/pugixml/1.4",
+    "Source":         "src/pugixml/1.4/pugixml-1.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2",
+    "Installed":      "installed/pugixml/1.2",
+    "Source":         "src/pugixml/1.2/pugixml-1.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0",
+    "Installed":      "installed/pugixml/1.0",
+    "Source":         "src/pugixml/1.0/pugixml-1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9",
+    "Installed":      "installed/pugixml/0.9",
+    "Source":         "src/pugixml/0.9/pugixml-0.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5",
+    "Installed":      "installed/pugixml/0.5",
+    "Source":         "src/pugixml/0.5/pugixml-0.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

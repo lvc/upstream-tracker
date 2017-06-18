@@ -1,0 +1,51 @@
+{
+  "Name":           "libtcod",
+  "SourceUrl":      "https://bitbucket.org/libtcod/libtcod/downloads/?tab=tags",
+  "SourceUrlDepth": "1",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript1":   "build_script/libtcod.sh",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.6.3",
+    "Installed":      "installed/libtcod/1.6.3",
+    "Source":         "src/libtcod/1.6.3/libtcod-1.6.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.2",
+    "Installed":      "installed/libtcod/1.6.2",
+    "Source":         "src/libtcod/1.6.2/libtcod-1.6.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.1",
+    "Installed":      "installed/libtcod/1.6.1",
+    "Source":         "src/libtcod/1.6.1/libtcod-1.6.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.0",
+    "Installed":      "installed/libtcod/1.6.0",
+    "Source":         "src/libtcod/1.6.0/libtcod-1.6.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

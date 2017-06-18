@@ -7,15 +7,97 @@
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "Configure":      "CC='gcc -Dg_memmove=memmove' --disable-tests --disable-examples",
   "PreInstall":     "sed -i -e 's/void \* yylval_param \, yyscan_t yyscanner/void \* yylval_param/g' ./gst/parse/grammar.y",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/gstreamer-*",
   "SkipObjects":    [ "gstreamer-1.0/", "gstreamer-0.10/", "gstreamer-0.11/" ],
   "Changelog":      "RELEASE",
   "HeadersDiff":    "Off",
+  "MinimalVersion": "0.10.35",
 
   "Versions": [
   {
     "Number":         "current",
     "Installed":      "installed/gstreamer/current",
     "Source":         "src/gstreamer/current",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.0",
+    "Installed":      "installed/gstreamer/1.12.0",
+    "Source":         "src/gstreamer/1.12.0/gstreamer-1.12.0.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.91",
+    "Installed":      "installed/gstreamer/1.11.91",
+    "Source":         "src/gstreamer/1.11.91/gstreamer-1.11.91.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.90",
+    "Installed":      "installed/gstreamer/1.11.90",
+    "Source":         "src/gstreamer/1.11.90/gstreamer-1.11.90.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.2",
+    "Installed":      "installed/gstreamer/1.11.2",
+    "Source":         "src/gstreamer/1.11.2/gstreamer-1.11.2.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.1",
+    "Installed":      "installed/gstreamer/1.11.1",
+    "Source":         "src/gstreamer/1.11.1/gstreamer-1.11.1.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.5",
+    "Installed":      "installed/gstreamer/1.10.5",
+    "Source":         "src/gstreamer/1.10.5/gstreamer-1.10.5.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.4",
+    "Installed":      "installed/gstreamer/1.10.4",
+    "Source":         "src/gstreamer/1.10.4/gstreamer-1.10.4.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.3",
+    "Installed":      "installed/gstreamer/1.10.3",
+    "Source":         "src/gstreamer/1.10.3/gstreamer-1.10.3.tar.xz",
     "Changelog":      "RELEASE",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

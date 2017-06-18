@@ -1,0 +1,183 @@
+{
+  "Name":           "ibus",
+  "Title":          "IBus",
+  "SourceUrl":      "https://github.com/ibus/ibus/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-ui --disable-tests --disable-emoji-dict --disable-engine --enable-gtk-doc-html=no",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/gtk*",
+  "HeadersDiff":    "Off",
+  "SkipVersions":   [ "1\.4\.99.*" ],
+
+  "Versions": [
+  {
+    "Number":         "1.5.16",
+    "Installed":      "installed/ibus/1.5.16",
+    "Source":         "src/ibus/1.5.16/ibus-1.5.16.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.15",
+    "Installed":      "installed/ibus/1.5.15",
+    "Source":         "src/ibus/1.5.15/ibus-1.5.15.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.14",
+    "Installed":      "installed/ibus/1.5.14",
+    "Source":         "src/ibus/1.5.14/ibus-1.5.14.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.13",
+    "Installed":      "installed/ibus/1.5.13",
+    "Source":         "src/ibus/1.5.13/ibus-1.5.13.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.12",
+    "Installed":      "installed/ibus/1.5.12",
+    "Source":         "src/ibus/1.5.12/ibus-1.5.12.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.11",
+    "Installed":      "installed/ibus/1.5.11",
+    "Source":         "src/ibus/1.5.11/ibus-1.5.11.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.10",
+    "Installed":      "installed/ibus/1.5.10",
+    "Source":         "src/ibus/1.5.10/ibus-1.5.10.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.9",
+    "Installed":      "installed/ibus/1.5.9",
+    "Source":         "src/ibus/1.5.9/ibus-1.5.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.8",
+    "Installed":      "installed/ibus/1.5.8",
+    "Source":         "src/ibus/1.5.8/ibus-1.5.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.7",
+    "Installed":      "installed/ibus/1.5.7",
+    "Source":         "src/ibus/1.5.7/ibus-1.5.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.6",
+    "Installed":      "installed/ibus/1.5.6",
+    "Source":         "src/ibus/1.5.6/ibus-1.5.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.5",
+    "Installed":      "installed/ibus/1.5.5",
+    "Source":         "src/ibus/1.5.5/ibus-1.5.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.4",
+    "Installed":      "installed/ibus/1.5.4",
+    "Source":         "src/ibus/1.5.4/ibus-1.5.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.3",
+    "Installed":      "installed/ibus/1.5.3",
+    "Source":         "src/ibus/1.5.3/ibus-1.5.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.2",
+    "Installed":      "installed/ibus/1.5.2",
+    "Source":         "src/ibus/1.5.2/ibus-1.5.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.1",
+    "Installed":      "installed/ibus/1.5.1",
+    "Source":         "src/ibus/1.5.1/ibus-1.5.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.0",
+    "Installed":      "installed/ibus/1.5.0",
+    "Source":         "src/ibus/1.5.0/ibus-1.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

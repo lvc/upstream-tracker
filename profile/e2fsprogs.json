@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "1.43.4",
+    "Installed":      "installed/e2fsprogs/1.43.4",
+    "Source":         "src/e2fsprogs/1.43.4/e2fsprogs-1.43.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.43.3",
     "Installed":      "installed/e2fsprogs/1.43.3",
     "Source":         "src/e2fsprogs/1.43.3/e2fsprogs-1.43.3.tar.gz",

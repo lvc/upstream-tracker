@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "1.6.5",
+    "Installed":      "installed/libx11/1.6.5",
+    "Source":         "src/libx11/1.6.5/libX11-1.6.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.6.4",
     "Installed":      "installed/libx11/1.6.4",
     "Source":         "src/libx11/1.6.4/libX11-1.6.4.tar.gz",

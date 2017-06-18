@@ -1,0 +1,133 @@
+{
+  "Name":           "libpri",
+  "SourceUrl":      "https://github.com/asterisk/libpri/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/libpri.sh",
+  "HeadersDiff":    "Off",
+  "LatestNano":     "On",
+
+  "Versions": [
+  {
+    "Number":         "1.6.0",
+    "Installed":      "installed/libpri/1.6.0",
+    "Source":         "src/libpri/1.6.0/libpri-1.6.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.0",
+    "Installed":      "installed/libpri/1.5.0",
+    "Source":         "src/libpri/1.5.0/libpri-1.5.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.15",
+    "Installed":      "installed/libpri/1.4.15",
+    "Source":         "src/libpri/1.4.15/libpri-1.4.15.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.14",
+    "Installed":      "installed/libpri/1.4.14",
+    "Source":         "src/libpri/1.4.14/libpri-1.4.14.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.13",
+    "Installed":      "installed/libpri/1.4.13",
+    "Source":         "src/libpri/1.4.13/libpri-1.4.13.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.12",
+    "Installed":      "installed/libpri/1.4.12",
+    "Source":         "src/libpri/1.4.12/libpri-1.4.12.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.11.5",
+    "Installed":      "installed/libpri/1.4.11.5",
+    "Source":         "src/libpri/1.4.11.5/libpri-1.4.11.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.11",
+    "Installed":      "installed/libpri/1.4.11",
+    "Source":         "src/libpri/1.4.11/libpri-1.4.11.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.4.10.2",
+    "Installed":      "installed/libpri/1.4.10.2",
+    "Source":         "src/libpri/1.4.10.2/libpri-1.4.10.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.10",
+    "Installed":      "installed/libpri/1.4.10",
+    "Source":         "src/libpri/1.4.10/libpri-1.4.10.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.4.9",
+    "Installed":      "installed/libpri/1.4.9",
+    "Source":         "src/libpri/1.4.9/libpri-1.4.9.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.8",
+    "Installed":      "installed/libpri/1.4.8",
+    "Source":         "src/libpri/1.4.8/libpri-1.4.8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

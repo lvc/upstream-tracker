@@ -1,0 +1,113 @@
+{
+  "Name":           "ortp",
+  "Title":          "oRTP",
+  "SourceUrl":      "http://download.savannah.gnu.org/releases/linphone/ortp/sources/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/bctoolbox/0.5.1/lib/pkgconfig",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.16.5",
+
+  "Versions": [
+  {
+    "Number":         "0.27.0",
+    "Installed":      "installed/ortp/0.27.0",
+    "Source":         "src/ortp/0.27.0/ortp-0.27.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.25.0",
+    "Installed":      "installed/ortp/0.25.0",
+    "Source":         "src/ortp/0.25.0/ortp-0.25.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.24.2",
+    "Installed":      "installed/ortp/0.24.2",
+    "Source":         "src/ortp/0.24.2/ortp-0.24.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.24.1",
+    "Installed":      "installed/ortp/0.24.1",
+    "Source":         "src/ortp/0.24.1/ortp-0.24.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.24.0",
+    "Installed":      "installed/ortp/0.24.0",
+    "Source":         "src/ortp/0.24.0/ortp-0.24.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.23.0",
+    "Installed":      "installed/ortp/0.23.0",
+    "Source":         "src/ortp/0.23.0/ortp-0.23.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.22.0",
+    "Installed":      "installed/ortp/0.22.0",
+    "Source":         "src/ortp/0.22.0/ortp-0.22.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.0",
+    "Installed":      "installed/ortp/0.20.0",
+    "Source":         "src/ortp/0.20.0/ortp-0.20.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.18.0",
+    "Installed":      "installed/ortp/0.18.0",
+    "Source":         "src/ortp/0.18.0/ortp-0.18.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16.5",
+    "Installed":      "installed/ortp/0.16.5",
+    "Source":         "src/ortp/0.16.5/ortp-0.16.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

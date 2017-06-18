@@ -1,0 +1,111 @@
+{
+  "Name":           "qjson",
+  "Title":          "QJson",
+  "SourceUrl":      "https://github.com/flavio/qjson/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DQT4_BUILD=OFF",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.9.0",
+    "Installed":      "installed/qjson/0.9.0",
+    "Source":         "src/qjson/0.9.0/qjson-0.9.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.1",
+    "Installed":      "installed/qjson/0.8.1",
+    "Source":         "src/qjson/0.8.1/qjson-0.8.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.0",
+    "Installed":      "installed/qjson/0.8.0",
+    "Source":         "src/qjson/0.8.0/qjson-0.8.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.1",
+    "Installed":      "installed/qjson/0.7.1",
+    "Source":         "src/qjson/0.7.1/qjson-0.7.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.3",
+    "Installed":      "installed/qjson/0.6.3",
+    "Source":         "src/qjson/0.6.3/qjson-0.6.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.2",
+    "Installed":      "installed/qjson/0.6.2",
+    "Source":         "src/qjson/0.6.2/qjson-0.6.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.1",
+    "Installed":      "installed/qjson/0.6.1",
+    "Source":         "src/qjson/0.6.1/qjson-0.6.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.0",
+    "Installed":      "installed/qjson/0.6.0",
+    "Source":         "src/qjson/0.6.0/qjson-0.6.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.1",
+    "Installed":      "installed/qjson/0.5.1",
+    "Source":         "src/qjson/0.5.1/qjson-0.5.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.0",
+    "Installed":      "installed/qjson/0.5.0",
+    "Source":         "src/qjson/0.5.0/qjson-0.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

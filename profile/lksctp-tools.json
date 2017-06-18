@@ -1,0 +1,103 @@
+{
+  "Name":           "lksctp-tools",
+  "SourceUrl":      "https://sourceforge.net/projects/lksctp/files/lksctp-tools/",
+  "OldSourceUrl":   "https://sourceforge.net/projects/lksctp/files/lksctp/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "SkipObjects":    [ "libwithsctp.so" ],
+  "Changelog":      "ChangeLog",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.0.9",
+
+  "Versions": [
+  {
+    "Number":         "1.0.17",
+    "Installed":      "installed/lksctp-tools/1.0.17",
+    "Source":         "src/lksctp-tools/1.0.17/lksctp-tools-1.0.17.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.16",
+    "Installed":      "installed/lksctp-tools/1.0.16",
+    "Source":         "src/lksctp-tools/1.0.16/lksctp-tools-1.0.16.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.15",
+    "Installed":      "installed/lksctp-tools/1.0.15",
+    "Source":         "src/lksctp-tools/1.0.15/lksctp-tools-1.0.15.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.14",
+    "Installed":      "installed/lksctp-tools/1.0.14",
+    "Source":         "src/lksctp-tools/1.0.14/lksctp-tools-1.0.14.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.13",
+    "Installed":      "installed/lksctp-tools/1.0.13",
+    "Source":         "src/lksctp-tools/1.0.13/lksctp-tools-1.0.13.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.12",
+    "Installed":      "installed/lksctp-tools/1.0.12",
+    "Source":         "src/lksctp-tools/1.0.12/lksctp-tools-1.0.12.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.11",
+    "Installed":      "installed/lksctp-tools/1.0.11",
+    "Source":         "src/lksctp-tools/1.0.11/lksctp-tools-1.0.11.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.10",
+    "Installed":      "installed/lksctp-tools/1.0.10",
+    "Source":         "src/lksctp-tools/1.0.10/lksctp-tools-1.0.10.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.9",
+    "Installed":      "installed/lksctp-tools/1.0.9",
+    "Source":         "src/lksctp-tools/1.0.9/lksctp-tools-1.0.9.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

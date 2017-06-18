@@ -1,7 +1,7 @@
 {
   "Name":           "ck",
   "Title":          "Concurrency Kit",
-  "SourceUrl":      "https://github.com/concurrencykit/ck/tags?after=0.2.5",
+  "SourceUrl":      "https://github.com/concurrencykit/ck/tags",
   "Git":            "https://github.com/concurrencykit/ck.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
@@ -14,6 +14,26 @@
     "Installed":      "installed/ck/current",
     "Source":         "src/ck/current",
     "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.0",
+    "Installed":      "installed/ck/0.6.0",
+    "Source":         "src/ck/0.6.0/ck-0.6.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.2",
+    "Installed":      "installed/ck/0.5.2",
+    "Source":         "src/ck/0.5.2/ck-0.5.2.tar.gz",
+    "Changelog":      "Off",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",

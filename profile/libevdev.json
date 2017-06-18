@@ -1,0 +1,370 @@
+{
+  "Name":           "libevdev",
+  "SourceUrl":      "https://www.freedesktop.org/software/libevdev/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "SkipVersions":   [ "1.0.99.1", "1.0.99.2", "1.1.99.1", "1.2.99.901", "1.2.99.902" ],
+
+  "Versions": [
+  {
+    "Number":         "1.5.7",
+    "Installed":      "installed/libevdev/1.5.7",
+    "Source":         "src/libevdev/1.5.7/libevdev-1.5.7.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.6",
+    "Installed":      "installed/libevdev/1.5.6",
+    "Source":         "src/libevdev/1.5.6/libevdev-1.5.6.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.5",
+    "Installed":      "installed/libevdev/1.5.5",
+    "Source":         "src/libevdev/1.5.5/libevdev-1.5.5.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.4",
+    "Installed":      "installed/libevdev/1.5.4",
+    "Source":         "src/libevdev/1.5.4/libevdev-1.5.4.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.3",
+    "Installed":      "installed/libevdev/1.5.3",
+    "Source":         "src/libevdev/1.5.3/libevdev-1.5.3.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.2",
+    "Installed":      "installed/libevdev/1.5.2",
+    "Source":         "src/libevdev/1.5.2/libevdev-1.5.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.1",
+    "Installed":      "installed/libevdev/1.5.1",
+    "Source":         "src/libevdev/1.5.1/libevdev-1.5.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.6",
+    "Installed":      "installed/libevdev/1.4.6",
+    "Source":         "src/libevdev/1.4.6/libevdev-1.4.6.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.5",
+    "Installed":      "installed/libevdev/1.4.5",
+    "Source":         "src/libevdev/1.4.5/libevdev-1.4.5.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.4",
+    "Installed":      "installed/libevdev/1.4.4",
+    "Source":         "src/libevdev/1.4.4/libevdev-1.4.4.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.3",
+    "Installed":      "installed/libevdev/1.4.3",
+    "Source":         "src/libevdev/1.4.3/libevdev-1.4.3.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.2",
+    "Installed":      "installed/libevdev/1.4.2",
+    "Source":         "src/libevdev/1.4.2/libevdev-1.4.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.1",
+    "Installed":      "installed/libevdev/1.4.1",
+    "Source":         "src/libevdev/1.4.1/libevdev-1.4.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4",
+    "Installed":      "installed/libevdev/1.4",
+    "Source":         "src/libevdev/1.4/libevdev-1.4.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.2",
+    "Installed":      "installed/libevdev/1.3.2",
+    "Source":         "src/libevdev/1.3.2/libevdev-1.3.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.1",
+    "Installed":      "installed/libevdev/1.3.1",
+    "Source":         "src/libevdev/1.3.1/libevdev-1.3.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3",
+    "Installed":      "installed/libevdev/1.3",
+    "Source":         "src/libevdev/1.3/libevdev-1.3.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.99.902",
+    "Installed":      "installed/libevdev/1.2.99.902",
+    "Source":         "src/libevdev/1.2.99.902/libevdev-1.2.99.902.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.99.901",
+    "Installed":      "installed/libevdev/1.2.99.901",
+    "Source":         "src/libevdev/1.2.99.901/libevdev-1.2.99.901.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.2",
+    "Installed":      "installed/libevdev/1.2.2",
+    "Source":         "src/libevdev/1.2.2/libevdev-1.2.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.1",
+    "Installed":      "installed/libevdev/1.2.1",
+    "Source":         "src/libevdev/1.2.1/libevdev-1.2.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2",
+    "Installed":      "installed/libevdev/1.2",
+    "Source":         "src/libevdev/1.2/libevdev-1.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.99.1",
+    "Installed":      "installed/libevdev/1.1.99.1",
+    "Source":         "src/libevdev/1.1.99.1/libevdev-1.1.99.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1",
+    "Installed":      "installed/libevdev/1.1",
+    "Source":         "src/libevdev/1.1/libevdev-1.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.99.2",
+    "Installed":      "installed/libevdev/1.0.99.2",
+    "Source":         "src/libevdev/1.0.99.2/libevdev-1.0.99.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.99.1",
+    "Installed":      "installed/libevdev/1.0.99.1",
+    "Source":         "src/libevdev/1.0.99.1/libevdev-1.0.99.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/libevdev/1.0.1",
+    "Source":         "src/libevdev/1.0.1/libevdev-1.0.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0",
+    "Installed":      "installed/libevdev/1.0",
+    "Source":         "src/libevdev/1.0/libevdev-1.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.1",
+    "Installed":      "installed/libevdev/0.9.1",
+    "Source":         "src/libevdev/0.9.1/libevdev-0.9.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6",
+    "Installed":      "installed/libevdev/0.6",
+    "Source":         "src/libevdev/0.6/libevdev-0.6.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5",
+    "Installed":      "installed/libevdev/0.5",
+    "Source":         "src/libevdev/0.5/libevdev-0.5.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.1",
+    "Installed":      "installed/libevdev/0.4.1",
+    "Source":         "src/libevdev/0.4.1/libevdev-0.4.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4",
+    "Installed":      "installed/libevdev/0.4",
+    "Source":         "src/libevdev/0.4/libevdev-0.4.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3",
+    "Installed":      "installed/libevdev/0.3",
+    "Source":         "src/libevdev/0.3/libevdev-0.3.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.1",
+    "Installed":      "installed/libevdev/0.2.1",
+    "Source":         "src/libevdev/0.2.1/libevdev-0.2.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2",
+    "Installed":      "installed/libevdev/0.2",
+    "Source":         "src/libevdev/0.2/libevdev-0.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

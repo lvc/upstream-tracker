@@ -1,0 +1,71 @@
+{
+  "Name":           "ffms2",
+  "Title":          "FFmpegSource",
+  "SourceUrl":      "https://github.com/FFMS/ffms2/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/ffmpeg/3.2.2/lib/pkgconfig",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.23",
+    "Installed":      "installed/ffms2/2.23",
+    "Source":         "src/ffms2/2.23/ffms2-2.23.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.22",
+    "Installed":      "installed/ffms2/2.22",
+    "Source":         "src/ffms2/2.22/ffms2-2.22.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.21",
+    "Installed":      "installed/ffms2/2.21",
+    "Source":         "src/ffms2/2.21/ffms2-2.21.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.20",
+    "Installed":      "installed/ffms2/2.20",
+    "Source":         "src/ffms2/2.20/ffms2-2.20.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.19.1",
+    "Installed":      "installed/ffms2/2.19.1",
+    "Source":         "src/ffms2/2.19.1/ffms2-2.19.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.19",
+    "Installed":      "installed/ffms2/2.19",
+    "Source":         "src/ffms2/2.19/ffms2-2.19.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

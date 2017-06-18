@@ -4,10 +4,75 @@
   "SourceUrl":      "http://download.osgeo.org/gdal/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "ClearInstalled": "Off",
   "HeadersDiff":    "Off",
   "Package":        "gdal-",
 
   "Versions": [
+  {
+    "Number":         "2.2.0",
+    "Installed":      "installed/gdal/2.2.0",
+    "Source":         "src/gdal/2.2.0/gdal-2.2.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.0RC1",
+    "Installed":      "installed/gdal/2.2.0RC1",
+    "Source":         "src/gdal/2.2.0RC1/gdal-2.2.0RC1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.2.0beta2",
+    "Installed":      "installed/gdal/2.2.0beta2",
+    "Source":         "src/gdal/2.2.0beta2/gdal-2.2.0beta2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.2.0beta1",
+    "Installed":      "installed/gdal/2.2.0beta1",
+    "Source":         "src/gdal/2.2.0beta1/gdal-2.2.0beta1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.1.3",
+    "Installed":      "installed/gdal/2.1.3",
+    "Source":         "src/gdal/2.1.3/gdal-2.1.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.3RC1",
+    "Installed":      "installed/gdal/2.1.3RC1",
+    "Source":         "src/gdal/2.1.3RC1/gdal-2.1.3RC1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
   {
     "Number":         "2.1.2",
     "Installed":      "installed/gdal/2.1.2",

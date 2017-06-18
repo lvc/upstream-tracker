@@ -1,0 +1,246 @@
+{
+  "Name":           "oath-toolkit",
+  "Title":          "OATH Toolkit",
+  "SourceUrl":      "http://download.savannah.nongnu.org/releases/oath-toolkit/",
+  "SourceUrlDepth": "1",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/xmlsec/1.2.24/lib/pkgconfig",
+  "PreInstall":     "sed -i -e 's/_GL_WARN_ON_USE (gets/\/\//g' liboath/lib/stdio.in.h oathtool/lib/stdio.in.h",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/security",
+  "HeadersDiff":    "Off",
+  "MakeGlobal":     "LD_LIBRARY_PATH={INSTALL_ROOT}/xmlsec/1.2.24/lib",
+  "MinimalVersion": "1.8.2",
+
+  "Versions": [
+  {
+    "Number":         "2.6.2",
+    "Installed":      "installed/oath-toolkit/2.6.2",
+    "Source":         "src/oath-toolkit/2.6.2/oath-toolkit-2.6.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.1",
+    "Installed":      "installed/oath-toolkit/2.6.1",
+    "Source":         "src/oath-toolkit/2.6.1/oath-toolkit-2.6.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.0",
+    "Installed":      "installed/oath-toolkit/2.6.0",
+    "Source":         "src/oath-toolkit/2.6.0/oath-toolkit-2.6.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.1",
+    "Installed":      "installed/oath-toolkit/2.4.1",
+    "Source":         "src/oath-toolkit/2.4.1/oath-toolkit-2.4.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.0",
+    "Installed":      "installed/oath-toolkit/2.4.0",
+    "Source":         "src/oath-toolkit/2.4.0/oath-toolkit-2.4.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.0",
+    "Installed":      "installed/oath-toolkit/2.2.0",
+    "Source":         "src/oath-toolkit/2.2.0/oath-toolkit-2.2.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.2",
+    "Installed":      "installed/oath-toolkit/2.0.2",
+    "Source":         "src/oath-toolkit/2.0.2/oath-toolkit-2.0.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.1",
+    "Installed":      "installed/oath-toolkit/2.0.1",
+    "Source":         "src/oath-toolkit/2.0.1/oath-toolkit-2.0.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0",
+    "Installed":      "installed/oath-toolkit/2.0.0",
+    "Source":         "src/oath-toolkit/2.0.0/oath-toolkit-2.0.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.6",
+    "Installed":      "installed/oath-toolkit/1.12.6",
+    "Source":         "src/oath-toolkit/1.12.6/oath-toolkit-1.12.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.5",
+    "Installed":      "installed/oath-toolkit/1.12.5",
+    "Source":         "src/oath-toolkit/1.12.5/oath-toolkit-1.12.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.4",
+    "Installed":      "installed/oath-toolkit/1.12.4",
+    "Source":         "src/oath-toolkit/1.12.4/oath-toolkit-1.12.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.3",
+    "Installed":      "installed/oath-toolkit/1.12.3",
+    "Source":         "src/oath-toolkit/1.12.3/oath-toolkit-1.12.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.2",
+    "Installed":      "installed/oath-toolkit/1.12.2",
+    "Source":         "src/oath-toolkit/1.12.2/oath-toolkit-1.12.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.1",
+    "Installed":      "installed/oath-toolkit/1.12.1",
+    "Source":         "src/oath-toolkit/1.12.1/oath-toolkit-1.12.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.0",
+    "Installed":      "installed/oath-toolkit/1.12.0",
+    "Source":         "src/oath-toolkit/1.12.0/oath-toolkit-1.12.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.5",
+    "Installed":      "installed/oath-toolkit/1.10.5",
+    "Source":         "src/oath-toolkit/1.10.5/oath-toolkit-1.10.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.4",
+    "Installed":      "installed/oath-toolkit/1.10.4",
+    "Source":         "src/oath-toolkit/1.10.4/oath-toolkit-1.10.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.3",
+    "Installed":      "installed/oath-toolkit/1.10.3",
+    "Source":         "src/oath-toolkit/1.10.3/oath-toolkit-1.10.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.2",
+    "Installed":      "installed/oath-toolkit/1.10.2",
+    "Source":         "src/oath-toolkit/1.10.2/oath-toolkit-1.10.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.1",
+    "Installed":      "installed/oath-toolkit/1.10.1",
+    "Source":         "src/oath-toolkit/1.10.1/oath-toolkit-1.10.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.0",
+    "Installed":      "installed/oath-toolkit/1.10.0",
+    "Source":         "src/oath-toolkit/1.10.0/oath-toolkit-1.10.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.2",
+    "Installed":      "installed/oath-toolkit/1.8.2",
+    "Source":         "src/oath-toolkit/1.8.2/oath-toolkit-1.8.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

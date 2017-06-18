@@ -6,6 +6,7 @@
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "Configure":      "--disable-systemd-daemon --disable-udev --with-bash-completion-dir={INSTALL_TO}",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/pulse-*",
   "SkipObjects":    [ "modules/", "pulseaudio/", "libpulsecore\-.*", "libpulsedsp.so", "libpulsecommon\-.*" ],
   "SkipVersions":   [ "1.99.2" ],
 
@@ -15,6 +16,26 @@
     "Installed":      "installed/pulseaudio/current",
     "Source":         "src/pulseaudio/current",
     "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.0",
+    "Installed":      "installed/pulseaudio/10.0",
+    "Source":         "src/pulseaudio/10.0/pulseaudio-10.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.99.1",
+    "Installed":      "installed/pulseaudio/9.99.1",
+    "Source":         "src/pulseaudio/9.99.1/pulseaudio-9.99.1.tar.xz",
+    "Changelog":      "NEWS",
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",

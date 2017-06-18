@@ -1,0 +1,105 @@
+{
+  "Name":           "unixodbc",
+  "Title":          "unixODBC",
+  "SourceUrl":      "ftp://ftp.unixodbc.org/pub/unixODBC/",
+  "SourceUrlDepth": "1",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-gui=no --enable-drivers=yes",
+  "SkipObjects":    [ "libodbccr.so", ".*S\.so.*" ],
+  "Changelog":      "ChangeLog",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.2.13",
+
+  "Versions": [
+  {
+    "Number":         "2.3.5-pre",
+    "Installed":      "installed/unixodbc/2.3.5-pre",
+    "Source":         "src/unixodbc/2.3.5-pre/unixODBC-2.3.5-pre.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.4",
+    "Installed":      "installed/unixodbc/2.3.4",
+    "Source":         "src/unixodbc/2.3.4/unixODBC-2.3.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.3",
+    "Installed":      "installed/unixodbc/2.3.3",
+    "Source":         "src/unixodbc/2.3.3/unixODBC-2.3.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.2",
+    "Installed":      "installed/unixodbc/2.3.2",
+    "Source":         "src/unixodbc/2.3.2/unixODBC-2.3.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.1-1",
+    "Installed":      "installed/unixodbc/2.3.1-1",
+    "Source":         "src/unixodbc/2.3.1-1/unixODBC-2.3.1-1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.1",
+    "Installed":      "installed/unixodbc/2.3.1",
+    "Source":         "src/unixodbc/2.3.1/unixODBC-2.3.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.0",
+    "Installed":      "installed/unixodbc/2.3.0",
+    "Source":         "src/unixodbc/2.3.0/unixODBC-2.3.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.14",
+    "Installed":      "installed/unixodbc/2.2.14",
+    "Source":         "src/unixodbc/2.2.14/unixODBC-2.2.14.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.13",
+    "Installed":      "installed/unixodbc/2.2.13",
+    "Source":         "src/unixodbc/2.2.13/unixODBC-2.2.13.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

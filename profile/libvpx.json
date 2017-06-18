@@ -1,0 +1,121 @@
+{
+  "Name":           "libvpx",
+  "SourceUrl":      "https://github.com/webmproject/libvpx/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/libvpx.sh",
+  "Changelog":      "CHANGELOG",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.6.1",
+    "Installed":      "installed/libvpx/1.6.1",
+    "Source":         "src/libvpx/1.6.1/libvpx-1.6.1.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.0",
+    "Installed":      "installed/libvpx/1.6.0",
+    "Source":         "src/libvpx/1.6.0/libvpx-1.6.0.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.0",
+    "Installed":      "installed/libvpx/1.5.0",
+    "Source":         "src/libvpx/1.5.0/libvpx-1.5.0.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.0",
+    "Installed":      "installed/libvpx/1.4.0",
+    "Source":         "src/libvpx/1.4.0/libvpx-1.4.0.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.0",
+    "Installed":      "installed/libvpx/1.3.0",
+    "Source":         "src/libvpx/1.3.0/libvpx-1.3.0.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/libvpx/1.2.0",
+    "Source":         "src/libvpx/1.2.0/libvpx-1.2.0.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/libvpx/1.1.0",
+    "Source":         "src/libvpx/1.1.0/libvpx-1.1.0.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/libvpx/1.0.0",
+    "Source":         "src/libvpx/1.0.0/libvpx-1.0.0.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.7",
+    "Installed":      "installed/libvpx/0.9.7",
+    "Source":         "src/libvpx/0.9.7/libvpx-0.9.7.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.6",
+    "Installed":      "installed/libvpx/0.9.6",
+    "Source":         "src/libvpx/0.9.6/libvpx-0.9.6.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.5",
+    "Installed":      "installed/libvpx/0.9.5",
+    "Source":         "src/libvpx/0.9.5/libvpx-0.9.5.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

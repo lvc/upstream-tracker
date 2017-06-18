@@ -1,0 +1,112 @@
+{
+  "Name":           "log4shib",
+  "SourceUrl":      "http://shibboleth.net/downloads/log4shib/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "sed -i -e 's/-O[0123]/-Og/g' configure",
+  "Changelog":      "Off",
+  "ClearInstalled": "On",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.0.9",
+    "Installed":      "installed/log4shib/1.0.9",
+    "Source":         "src/log4shib/1.0.9/log4shib-1.0.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.8",
+    "Installed":      "installed/log4shib/1.0.8",
+    "Source":         "src/log4shib/1.0.8/log4shib-1.0.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.7",
+    "Installed":      "installed/log4shib/1.0.7",
+    "Source":         "src/log4shib/1.0.7/log4shib-1.0.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.6",
+    "Installed":      "installed/log4shib/1.0.6",
+    "Source":         "src/log4shib/1.0.6/log4shib-1.0.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.5",
+    "Installed":      "installed/log4shib/1.0.5",
+    "Source":         "src/log4shib/1.0.5/log4shib-1.0.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.4",
+    "Installed":      "installed/log4shib/1.0.4",
+    "Source":         "src/log4shib/1.0.4/log4shib-1.0.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.3",
+    "Installed":      "installed/log4shib/1.0.3",
+    "Source":         "src/log4shib/1.0.3/log4shib-1.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.2",
+    "Installed":      "installed/log4shib/1.0.2",
+    "Source":         "src/log4shib/1.0.2/log4shib-1.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/log4shib/1.0.1",
+    "Source":         "src/log4shib/1.0.1/log4shib-1.0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0",
+    "Installed":      "installed/log4shib/1.0",
+    "Source":         "src/log4shib/1.0/log4shib-1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

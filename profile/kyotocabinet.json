@@ -1,0 +1,62 @@
+{
+  "Name":           "kyotocabinet",
+  "SourceUrl":      "http://pkgs.fedoraproject.org/repo/pkgs/kyotocabinet/",
+  "SourceUrlDepth": "3",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-devel --disable-opt --disable-static LDFLAGS='-L/usr/lib64/'",
+  "PreInstall":     "sed -i -e 's/-O[0123]/-Og/g' configure",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.2.76",
+    "Installed":      "installed/kyotocabinet/1.2.76",
+    "Source":         "src/kyotocabinet/1.2.76/kyotocabinet-1.2.76.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.70",
+    "Installed":      "installed/kyotocabinet/1.2.70",
+    "Source":         "src/kyotocabinet/1.2.70/kyotocabinet-1.2.70.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.31",
+    "Installed":      "installed/kyotocabinet/1.2.31",
+    "Source":         "src/kyotocabinet/1.2.31/kyotocabinet-1.2.31.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.29",
+    "Installed":      "installed/kyotocabinet/1.2.29",
+    "Source":         "src/kyotocabinet/1.2.29/kyotocabinet-1.2.29.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.27",
+    "Installed":      "installed/kyotocabinet/1.2.27",
+    "Source":         "src/kyotocabinet/1.2.27/kyotocabinet-1.2.27.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

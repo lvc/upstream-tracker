@@ -1,0 +1,90 @@
+{
+  "Name":           "ncurses",
+  "SourceUrl":      "http://ftp.gnu.org/pub/gnu/ncurses/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-shared --with-cxx-shared",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "6.0",
+    "Installed":      "installed/ncurses/6.0",
+    "Source":         "src/ncurses/6.0/ncurses-6.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.9",
+    "Installed":      "installed/ncurses/5.9",
+    "Source":         "src/ncurses/5.9/ncurses-5.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.8",
+    "Installed":      "installed/ncurses/5.8",
+    "Source":         "src/ncurses/5.8/ncurses-5.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.7",
+    "Installed":      "installed/ncurses/5.7",
+    "Source":         "src/ncurses/5.7/ncurses-5.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.6",
+    "Installed":      "installed/ncurses/5.6",
+    "Source":         "src/ncurses/5.6/ncurses-5.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.5",
+    "Installed":      "installed/ncurses/5.5",
+    "Source":         "src/ncurses/5.5/ncurses-5.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.4",
+    "Installed":      "installed/ncurses/5.4",
+    "Source":         "src/ncurses/5.4/ncurses-5.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.3",
+    "Installed":      "installed/ncurses/5.3",
+    "Source":         "src/ncurses/5.3/ncurses-5.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

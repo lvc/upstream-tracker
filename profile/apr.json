@@ -1,0 +1,121 @@
+{
+  "Name":           "apr",
+  "Title":          "APR",
+  "SourceUrl":      "https://github.com/apache/apr/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.6.2",
+    "Installed":      "installed/apr/1.6.2",
+    "Source":         "src/apr/1.6.2/apr-1.6.2.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.1",
+    "Installed":      "installed/apr/1.6.1",
+    "Source":         "src/apr/1.6.1/apr-1.6.1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.0",
+    "Installed":      "installed/apr/1.6.0",
+    "Source":         "src/apr/1.6.0/apr-1.6.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.2",
+    "Installed":      "installed/apr/1.5.2",
+    "Source":         "src/apr/1.5.2/apr-1.5.2.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.1",
+    "Installed":      "installed/apr/1.5.1",
+    "Source":         "src/apr/1.5.1/apr-1.5.1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.8",
+    "Installed":      "installed/apr/1.4.8",
+    "Source":         "src/apr/1.4.8/apr-1.4.8.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.7",
+    "Installed":      "installed/apr/1.4.7",
+    "Source":         "src/apr/1.4.7/apr-1.4.7.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.6",
+    "Installed":      "installed/apr/1.4.6",
+    "Source":         "src/apr/1.4.6/apr-1.4.6.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.5",
+    "Installed":      "installed/apr/1.4.5",
+    "Source":         "src/apr/1.4.5/apr-1.4.5.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.4",
+    "Installed":      "installed/apr/1.4.4",
+    "Source":         "src/apr/1.4.4/apr-1.4.4.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.3",
+    "Installed":      "installed/apr/1.4.3",
+    "Source":         "src/apr/1.4.3/apr-1.4.3.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "3.2.3",
+    "Installed":      "installed/mysql++/3.2.3",
+    "Source":         "src/mysql++/3.2.3/mysql++-3.2.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.2.2",
     "Installed":      "installed/mysql++/3.2.2",
     "Source":         "src/mysql++/3.2.2/mysql++-3.2.2.tar.gz",

@@ -1,0 +1,114 @@
+{
+  "Name":           "gjs",
+  "Title":          "Gjs",
+  "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/gjs/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-installed-tests --disable-option-checking --without-gtk PKG_CONFIG_PATH='{INSTALL_ROOT}/glib/2.50.0/lib/pkgconfig:{INSTALL_ROOT}/mozjs/38.3.0/lib/pkgconfig' LDFLAGS='-Wl,-rpath,{INSTALL_ROOT}/mozjs/38.3.0/lib/'",
+  "PreInstall":     "sed -i -e 's/Regress-1.0.gir//' Makefile.in;sed -i -e 's/WarnLib-1.0.gir//' Makefile.in;sed -i -e 's/GIMarshallingTests-1.0.gir//' Makefile.in;sed -i -e 's/GjsPrivate-1.0.gir//' Makefile.in",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.37",
+  "PostInstallPrivate": "mkdir -p {INSTALL_TO}/include/gi/;mv gi/*.h {INSTALL_TO}/include/gi/",
+
+  "Versions": [
+  {
+    "Number":         "1.49.2",
+    "Installed":      "installed/gjs/1.49.2",
+    "Source":         "src/gjs/1.49.2/gjs-1.49.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.49.1",
+    "Installed":      "installed/gjs/1.49.1",
+    "Source":         "src/gjs/1.49.1/gjs-1.49.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.48.4",
+    "Installed":      "installed/gjs/1.48.4",
+    "Source":         "src/gjs/1.48.4/gjs-1.48.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.48.3",
+    "Installed":      "installed/gjs/1.48.3",
+    "Source":         "src/gjs/1.48.3/gjs-1.48.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.48.2",
+    "Installed":      "installed/gjs/1.48.2",
+    "Source":         "src/gjs/1.48.2/gjs-1.48.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.48.1",
+    "Installed":      "installed/gjs/1.48.1",
+    "Source":         "src/gjs/1.48.1/gjs-1.48.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.48.0",
+    "Installed":      "installed/gjs/1.48.0",
+    "Source":         "src/gjs/1.48.0/gjs-1.48.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.47.92",
+    "Installed":      "installed/gjs/1.47.92",
+    "Source":         "src/gjs/1.47.92/gjs-1.47.92.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.47.91",
+    "Installed":      "installed/gjs/1.47.91",
+    "Source":         "src/gjs/1.47.91/gjs-1.47.91.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.47.90",
+    "Installed":      "installed/gjs/1.47.90",
+    "Source":         "src/gjs/1.47.90/gjs-1.47.90.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

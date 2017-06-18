@@ -1,0 +1,86 @@
+{
+  "Name":           "sox",
+  "Title":          "SoX",
+  "SourceUrl":      "https://sourceforge.net/projects/sox/files/sox/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/sox",
+  "SkipObjects":    [ "sox/" ],
+  "Changelog":      "ChangeLog",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "13.0.0",
+  "SkipVersions":   [ "13", "14" ],
+
+  "Versions": [
+  {
+    "Number":         "14.4.2",
+    "Installed":      "installed/sox/14.4.2",
+    "Source":         "src/sox/14.4.2/sox-14.4.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "14.4.1",
+    "Installed":      "installed/sox/14.4.1",
+    "Source":         "src/sox/14.4.1/sox-14.4.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "14.4.0",
+    "Installed":      "installed/sox/14.4.0",
+    "Source":         "src/sox/14.4.0/sox-14.4.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "14.3.2",
+    "Installed":      "installed/sox/14.3.2",
+    "Source":         "src/sox/14.3.2/sox-14.3.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "14.0.1",
+    "Installed":      "installed/sox/14.0.1",
+    "Source":         "src/sox/14.0.1/sox-14.0.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "14.0.0",
+    "Installed":      "installed/sox/14.0.0",
+    "Source":         "src/sox/14.0.0/sox-14.0.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "13.0.0",
+    "Installed":      "installed/sox/13.0.0",
+    "Source":         "src/sox/13.0.0/sox-13.0.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

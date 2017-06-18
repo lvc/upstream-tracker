@@ -1,0 +1,83 @@
+{
+  "Name":           "gss",
+  "Title":          "GSS",
+  "SourceUrl":      "ftp://ftp.gnu.org/gnu/gss/",
+  "OldSourceUrl":   "ftp://alpha.gnu.org/gnu/gss/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.1.3",
+  "SourceCompat":   "On",
+
+  "Versions": [
+  {
+    "Number":         "1.0.3",
+    "Installed":      "installed/gss/1.0.3",
+    "Source":         "src/gss/1.0.3/gss-1.0.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.2",
+    "Installed":      "installed/gss/1.0.2",
+    "Source":         "src/gss/1.0.2/gss-1.0.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/gss/1.0.1",
+    "Source":         "src/gss/1.0.1/gss-1.0.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/gss/1.0.0",
+    "Source":         "src/gss/1.0.0/gss-1.0.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.5",
+    "Installed":      "installed/gss/0.1.5",
+    "Source":         "src/gss/0.1.5/gss-0.1.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.4",
+    "Installed":      "installed/gss/0.1.4",
+    "Source":         "src/gss/0.1.4/gss-0.1.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.3",
+    "Installed":      "installed/gss/0.1.3",
+    "Source":         "src/gss/0.1.3/gss-0.1.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

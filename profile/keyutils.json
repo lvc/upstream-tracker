@@ -1,0 +1,132 @@
+{
+  "Name":           "keyutils",
+  "SourceUrl":      "http://people.redhat.com/~dhowells/keyutils/",
+  "SourceUrlDepth": "1",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/keyutils.sh",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.2",
+
+  "Versions": [
+  {
+    "Number":         "1.5.10",
+    "Installed":      "installed/keyutils/1.5.10",
+    "Source":         "src/keyutils/1.5.10/keyutils-1.5.10.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.9",
+    "Installed":      "installed/keyutils/1.5.9",
+    "Source":         "src/keyutils/1.5.9/keyutils-1.5.9.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.8",
+    "Installed":      "installed/keyutils/1.5.8",
+    "Source":         "src/keyutils/1.5.8/keyutils-1.5.8.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.6",
+    "Installed":      "installed/keyutils/1.5.6",
+    "Source":         "src/keyutils/1.5.6/keyutils-1.5.6.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.5",
+    "Installed":      "installed/keyutils/1.5.5",
+    "Source":         "src/keyutils/1.5.5/keyutils-1.5.5.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.4",
+    "Installed":      "installed/keyutils/1.5.4",
+    "Source":         "src/keyutils/1.5.4/keyutils-1.5.4.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.3",
+    "Installed":      "installed/keyutils/1.5.3",
+    "Source":         "src/keyutils/1.5.3/keyutils-1.5.3.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.2",
+    "Installed":      "installed/keyutils/1.5.2",
+    "Source":         "src/keyutils/1.5.2/keyutils-1.5.2.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.1",
+    "Installed":      "installed/keyutils/1.5.1",
+    "Source":         "src/keyutils/1.5.1/keyutils-1.5.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4",
+    "Installed":      "installed/keyutils/1.4",
+    "Source":         "src/keyutils/1.4/keyutils-1.4.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3",
+    "Installed":      "installed/keyutils/1.3",
+    "Source":         "src/keyutils/1.3/keyutils-1.3.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2",
+    "Installed":      "installed/keyutils/1.2",
+    "Source":         "src/keyutils/1.2/keyutils-1.2.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

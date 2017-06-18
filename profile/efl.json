@@ -2,20 +2,107 @@
   "Name":           "efl",
   "Title":          "EFL",
   "SourceUrl":      "http://download.enlightenment.org/rel/libs/efl/",
-  "Git":            "http://git.enlightenment.org/core/efl.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
   "Configure":      "--disable-systemd --disable-image-loader-gif --disable-doc",
-  "PostInstall":    "rm -fr {INSTALL_TO}/share",
+  "PostInstall":    "rm -fr {INSTALL_TO}/share {INSTALL_TO}/lib/e*",
   "SkipObjects":    [ "module.so", "libector.so" ],
   "HeadersDiff":    "Off",
+  "MinimalVersion": "1.8.1",
+  "RegenDump":      "Off",
 
   "Versions": [
   {
-    "Number":         "current",
-    "Installed":      "installed/efl/current",
-    "Source":         "src/efl/current",
-    "Changelog":      "On",
+    "Number":         "1.19.1",
+    "Installed":      "installed/efl/1.19.1",
+    "Source":         "src/efl/1.19.1/efl-1.19.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.19.0",
+    "Installed":      "installed/efl/1.19.0",
+    "Source":         "src/efl/1.19.0/efl-1.19.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.19.0-beta4",
+    "Installed":      "installed/efl/1.19.0-beta4",
+    "Source":         "src/efl/1.19.0-beta4/efl-1.19.0-beta4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.19.0-beta3",
+    "Installed":      "installed/efl/1.19.0-beta3",
+    "Source":         "src/efl/1.19.0-beta3/efl-1.19.0-beta3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.19.0-beta2",
+    "Installed":      "installed/efl/1.19.0-beta2",
+    "Source":         "src/efl/1.19.0-beta2/efl-1.19.0-beta2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.19.0-beta1",
+    "Installed":      "installed/efl/1.19.0-beta1",
+    "Source":         "src/efl/1.19.0-beta1/efl-1.19.0-beta1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.19.0-alpha1",
+    "Installed":      "installed/efl/1.19.0-alpha1",
+    "Source":         "src/efl/1.19.0-alpha1/efl-1.19.0-alpha1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.18.5",
+    "Installed":      "installed/efl/1.18.5",
+    "Source":         "src/efl/1.18.5/efl-1.18.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.18.4",
+    "Installed":      "installed/efl/1.18.4",
+    "Source":         "src/efl/1.18.4/efl-1.18.4.tar.xz",
+    "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
@@ -600,16 +687,5 @@
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
-  },
-  {
-    "Number":         "1.8.0",
-    "Installed":      "installed/efl/1.8.0",
-    "Source":         "src/efl/1.8.0/efl-1.8.0.tar.bz2",
-    "Changelog":      "NEWS",
-    "HeadersDiff":    "Off",
-    "PkgDiff":        "Off",
-    "ABIView":        "Off",
-    "ABIDiff":        "Off",
-    "Deleted":        1
   }]
 }

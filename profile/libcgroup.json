@@ -1,0 +1,173 @@
+{
+  "Name":           "libcgroup",
+  "SourceUrl":      "https://sourceforge.net/projects/libcg/files/libcgroup/",
+  "SkipUrl":        [ "v.038.rc1/", "v.038/", ".*[cb]/" ],
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-daemon --disable-tools",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/security",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.2",
+
+  "Versions": [
+  {
+    "Number":         "0.41",
+    "Installed":      "installed/libcgroup/0.41",
+    "Source":         "src/libcgroup/0.41/libcgroup-0.41.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.38",
+    "Installed":      "installed/libcgroup/0.38",
+    "Source":         "src/libcgroup/0.38/libcgroup-0.38.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.37.1",
+    "Installed":      "installed/libcgroup/0.37.1",
+    "Source":         "src/libcgroup/0.37.1/libcgroup-0.37.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.37",
+    "Installed":      "installed/libcgroup/0.37",
+    "Source":         "src/libcgroup/0.37/libcgroup-0.37.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.36.2",
+    "Installed":      "installed/libcgroup/0.36.2",
+    "Source":         "src/libcgroup/0.36.2/libcgroup-0.36.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.36.1",
+    "Installed":      "installed/libcgroup/0.36.1",
+    "Source":         "src/libcgroup/0.36.1/libcgroup-0.36.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.35.1",
+    "Installed":      "installed/libcgroup/0.35.1",
+    "Source":         "src/libcgroup/0.35.1/libcgroup-0.35.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.35",
+    "Installed":      "installed/libcgroup/0.35",
+    "Source":         "src/libcgroup/0.35/libcgroup-v0.35.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.34",
+    "Installed":      "installed/libcgroup/0.34",
+    "Source":         "src/libcgroup/0.34/libcgroup-0.34.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.33",
+    "Installed":      "installed/libcgroup/0.33",
+    "Source":         "src/libcgroup/0.33/libcgroup-0.33.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.32.2",
+    "Installed":      "installed/libcgroup/0.32.2",
+    "Source":         "src/libcgroup/0.32.2/libcgroup-0.32.2.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.32.1",
+    "Installed":      "installed/libcgroup/0.32.1",
+    "Source":         "src/libcgroup/0.32.1/libcgroup-0.32.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.32",
+    "Installed":      "installed/libcgroup/0.32",
+    "Source":         "src/libcgroup/0.32/libcgroup-0.32.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.31",
+    "Installed":      "installed/libcgroup/0.31",
+    "Source":         "src/libcgroup/0.31/libcgroup-0.31.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3",
+    "Installed":      "installed/libcgroup/0.3",
+    "Source":         "src/libcgroup/0.3/libcgroup-0.3.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2",
+    "Installed":      "installed/libcgroup/0.2",
+    "Source":         "src/libcgroup/0.2/libcgroup-0.2.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

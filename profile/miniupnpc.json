@@ -1,0 +1,133 @@
+{
+  "Name":           "miniupnpc",
+  "Title":          "MiniUPnPc",
+  "SourceUrl":      "http://miniupnp.free.fr/files/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DUPNPC_BUILD_TESTS=OFF",
+  "PreInstall":     "sed -i '1s/^/#include <sys\/socket.h>/' miniupnpc.c",
+  "HeadersDiff":    "Off",
+  "SkipVersions":   [ ".*200[5-9].*", ".*201[012345].*" ],
+
+  "Versions": [
+  {
+    "Number":         "2.0.20170509",
+    "Installed":      "installed/miniupnpc/2.0.20170509",
+    "Source":         "src/miniupnpc/2.0.20170509/miniupnpc-2.0.20170509.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.20170421",
+    "Installed":      "installed/miniupnpc/2.0.20170421",
+    "Source":         "src/miniupnpc/2.0.20170421/miniupnpc-2.0.20170421.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.20161216",
+    "Installed":      "installed/miniupnpc/2.0.20161216",
+    "Source":         "src/miniupnpc/2.0.20161216/miniupnpc-2.0.20161216.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0",
+    "Installed":      "installed/miniupnpc/2.0",
+    "Source":         "src/miniupnpc/2.0/miniupnpc-2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.20160209",
+    "Installed":      "installed/miniupnpc/1.9.20160209",
+    "Source":         "src/miniupnpc/1.9.20160209/miniupnpc-1.9.20160209.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9",
+    "Installed":      "installed/miniupnpc/1.9",
+    "Source":         "src/miniupnpc/1.9/miniupnpc-1.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8",
+    "Installed":      "installed/miniupnpc/1.8",
+    "Source":         "src/miniupnpc/1.8/miniupnpc-1.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7",
+    "Installed":      "installed/miniupnpc/1.7",
+    "Source":         "src/miniupnpc/1.7/miniupnpc-1.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6",
+    "Installed":      "installed/miniupnpc/1.6",
+    "Source":         "src/miniupnpc/1.6/miniupnpc-1.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5",
+    "Installed":      "installed/miniupnpc/1.5",
+    "Source":         "src/miniupnpc/1.5/miniupnpc-1.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4",
+    "Installed":      "installed/miniupnpc/1.4",
+    "Source":         "src/miniupnpc/1.4/miniupnpc-1.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0",
+    "Installed":      "installed/miniupnpc/1.0",
+    "Source":         "src/miniupnpc/1.0/miniupnpc-1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,62 @@
+{
+  "Name":           "ulfius",
+  "Title":          "Ulfius",
+  "SourceUrl":      "https://github.com/babelouest/ulfius/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/ulfius.sh",
+  "HeadersDiff":    "Off",
+  "Soname":         "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.0.4",
+    "Installed":      "installed/ulfius/1.0.4",
+    "Source":         "src/ulfius/1.0.4/ulfius-1.0.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.3",
+    "Installed":      "installed/ulfius/1.0.3",
+    "Source":         "src/ulfius/1.0.3/ulfius-1.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.2",
+    "Installed":      "installed/ulfius/1.0.2",
+    "Source":         "src/ulfius/1.0.2/ulfius-1.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/ulfius/1.0.1",
+    "Source":         "src/ulfius/1.0.1/ulfius-1.0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0",
+    "Installed":      "installed/ulfius/1.0",
+    "Source":         "src/ulfius/1.0/ulfius-1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

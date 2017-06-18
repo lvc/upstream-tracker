@@ -1,0 +1,64 @@
+{
+  "Name":           "cln",
+  "Title":          "CLN",
+  "SourceUrl":      "https://www.ginac.de/CLN/",
+  "SourceUrlDepth": "1",
+  "OldSourceUrl":   "http://pkgs.fedoraproject.org/repo/pkgs/cln/",
+  "OldSourceUrlDepth": "3",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-static",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.3.4",
+    "Installed":      "installed/cln/1.3.4",
+    "Source":         "src/cln/1.3.4/cln-1.3.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.3",
+    "Installed":      "installed/cln/1.3.3",
+    "Source":         "src/cln/1.3.3/cln-1.3.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.2",
+    "Installed":      "installed/cln/1.3.2",
+    "Source":         "src/cln/1.3.2/cln-1.3.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.1",
+    "Installed":      "installed/cln/1.3.1",
+    "Source":         "src/cln/1.3.1/cln-1.3.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.0",
+    "Installed":      "installed/cln/1.3.0",
+    "Source":         "src/cln/1.3.0/cln-1.3.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

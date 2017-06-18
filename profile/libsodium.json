@@ -7,6 +7,16 @@
 
   "Versions": [
   {
+    "Number":         "1.0.12",
+    "Installed":      "installed/libsodium/1.0.12",
+    "Source":         "src/libsodium/1.0.12/libsodium-1.0.12.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.0.11",
     "Installed":      "installed/libsodium/1.0.11",
     "Source":         "src/libsodium/1.0.11/libsodium-1.0.11.tar.gz",

@@ -1,0 +1,89 @@
+{
+  "Name":           "uhttpmock",
+  "SourceUrl":      "http://tecnocode.co.uk/downloads/uhttpmock/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.5.1",
+    "Installed":      "installed/uhttpmock/0.5.1",
+    "Source":         "src/uhttpmock/0.5.1/uhttpmock-0.5.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.0",
+    "Installed":      "installed/uhttpmock/0.5.0",
+    "Source":         "src/uhttpmock/0.5.0/uhttpmock-0.5.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.0",
+    "Installed":      "installed/uhttpmock/0.4.0",
+    "Source":         "src/uhttpmock/0.4.0/uhttpmock-0.4.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.3",
+    "Installed":      "installed/uhttpmock/0.3.3",
+    "Source":         "src/uhttpmock/0.3.3/uhttpmock-0.3.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.2",
+    "Installed":      "installed/uhttpmock/0.3.2",
+    "Source":         "src/uhttpmock/0.3.2/uhttpmock-0.3.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.1",
+    "Installed":      "installed/uhttpmock/0.3.1",
+    "Source":         "src/uhttpmock/0.3.1/uhttpmock-0.3.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.0",
+    "Installed":      "installed/uhttpmock/0.3.0",
+    "Source":         "src/uhttpmock/0.3.0/uhttpmock-0.3.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.0",
+    "Installed":      "installed/uhttpmock/0.2.0",
+    "Source":         "src/uhttpmock/0.2.0/uhttpmock-0.2.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

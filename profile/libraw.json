@@ -1,0 +1,112 @@
+{
+  "Name":           "libraw",
+  "Title":          "LibRaw",
+  "SourceUrl":      "http://www.libraw.org/download",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "SkipObjects":    [ "libraw_r.so" ],
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.18.2",
+    "Installed":      "installed/libraw/0.18.2",
+    "Source":         "src/libraw/0.18.2/LibRaw-0.18.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.18.0",
+    "Installed":      "installed/libraw/0.18.0",
+    "Source":         "src/libraw/0.18.0/LibRaw-0.18.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.17.2",
+    "Installed":      "installed/libraw/0.17.2",
+    "Source":         "src/libraw/0.17.2/LibRaw-0.17.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.17.1",
+    "Installed":      "installed/libraw/0.17.1",
+    "Source":         "src/libraw/0.17.1/LibRaw-0.17.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.17.0",
+    "Installed":      "installed/libraw/0.17.0",
+    "Source":         "src/libraw/0.17.0/LibRaw-0.17.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16.2",
+    "Installed":      "installed/libraw/0.16.2",
+    "Source":         "src/libraw/0.16.2/LibRaw-0.16.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16.1",
+    "Installed":      "installed/libraw/0.16.1",
+    "Source":         "src/libraw/0.16.1/LibRaw-0.16.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16.0",
+    "Installed":      "installed/libraw/0.16.0",
+    "Source":         "src/libraw/0.16.0/LibRaw-0.16.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.15.4",
+    "Installed":      "installed/libraw/0.15.4",
+    "Source":         "src/libraw/0.15.4/LibRaw-0.15.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.15.3",
+    "Installed":      "installed/libraw/0.15.3",
+    "Source":         "src/libraw/0.15.3/LibRaw-0.15.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         "1.6.6",
+    "Installed":      "installed/modemmanager/1.6.6",
+    "Source":         "src/modemmanager/1.6.6/ModemManager-1.6.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.6.4",
     "Installed":      "installed/modemmanager/1.6.4",
     "Source":         "src/modemmanager/1.6.4/ModemManager-1.6.4.tar.xz",
@@ -34,6 +44,16 @@
     "Number":         "1.6.0",
     "Installed":      "installed/modemmanager/1.6.0",
     "Source":         "src/modemmanager/1.6.0/ModemManager-1.6.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.20",
+    "Installed":      "installed/modemmanager/1.4.20",
+    "Source":         "src/modemmanager/1.4.20/ModemManager-1.4.20.tar.xz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

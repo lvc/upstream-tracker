@@ -1,0 +1,144 @@
+{
+  "Name":           "apt",
+  "Title":          "libapt",
+  "SourceUrl":      "http://ftp.debian.org/debian/pool/main/a/apt/",
+  "OldSourceUrl":   "https://mirror.yandex.ru/ubuntu-ports/pool/main/a/apt/",
+  "OldSourceUrlDepth": "1",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "CMakeConfigure": "-DDOXYGEN_EXECUTABLE=/home/Soft/doxygen-1.8.13/bin/doxygen -DCMAKE_PREFIX_PATH={INSTALL_ROOT}/lz4/1.7.5 -DWITH_DOC=OFF",
+  "Changelog":      "debian/changelog",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.4.6",
+    "Installed":      "installed/apt/1.4.6",
+    "Source":         "src/apt/1.4.6/apt_1.4.6.tar.xz",
+    "Changelog":      "debian/changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.5",
+    "Installed":      "installed/apt/1.4.5",
+    "Source":         "src/apt/1.4.5/apt_1.4.5.tar.xz",
+    "Changelog":      "debian/changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.4",
+    "Installed":      "installed/apt/1.4.4",
+    "Source":         "src/apt/1.4.4/apt_1.4.4.tar.xz",
+    "Changelog":      "debian/changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.3",
+    "Installed":      "installed/apt/1.4.3",
+    "Source":         "src/apt/1.4.3/apt_1.4.3.tar.xz",
+    "Changelog":      "debian/changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.2",
+    "Installed":      "installed/apt/1.4.2",
+    "Source":         "src/apt/1.4.2/apt_1.4.2.tar.xz",
+    "Changelog":      "debian/changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.1",
+    "Installed":      "installed/apt/1.4.1",
+    "Source":         "src/apt/1.4.1/apt_1.4.1.tar.xz",
+    "Changelog":      "debian/changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4",
+    "Installed":      "installed/apt/1.4",
+    "Source":         "src/apt/1.4/apt_1.4.tar.xz",
+    "Changelog":      "debian/changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.5",
+    "Installed":      "installed/apt/1.3.5",
+    "Source":         "src/apt/1.3.5/apt_1.3.5.tar.xz",
+    "Changelog":      "debian/changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.3",
+    "Installed":      "installed/apt/1.3.3",
+    "Source":         "src/apt/1.3.3/apt_1.3.3.tar.xz",
+    "Changelog":      "debian/changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.1",
+    "Installed":      "installed/apt/1.3.1",
+    "Source":         "src/apt/1.3.1/apt_1.3.1.tar.xz",
+    "Changelog":      "debian/changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.20",
+    "Installed":      "installed/apt/1.2.20",
+    "Source":         "src/apt/1.2.20/apt_1.2.20.tar.xz",
+    "Changelog":      "debian/changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.9.8.4",
+    "Installed":      "installed/apt/1.0.9.8.4",
+    "Source":         "src/apt/1.0.9.8.4/apt_1.0.9.8.4.tar.xz",
+    "Changelog":      "debian/changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.9.8",
+    "Installed":      "installed/apt/1.0.9.8",
+    "Source":         "src/apt/1.0.9.8/apt_1.0.9.8.tar.xz",
+    "Changelog":      "debian/changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

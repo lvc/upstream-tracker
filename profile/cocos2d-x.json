@@ -1,0 +1,158 @@
+{
+  "Name":           "cocos2d-x",
+  "Title":          "Cocos2d-x",
+  "SourceUrl":      "https://github.com/cocos2d/cocos2d-x/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DCMAKE_PREFIX_PATH='{INSTALL_ROOT}/glfw/3.2.1;{INSTALL_ROOT}/chipmunk/7.0.1;{INSTALL_ROOT}/libwebsockets/2.2.1;{INSTALL_ROOT}/bullet/2.86.1;{INSTALL_ROOT}/tinyxml2/4.0.1;/home/Soft/FMOD-10904' -DBUILD_JS_LIBS=OFF -DBUILD_LUA_LIBS=OFF -DBUILD_EXTENSIONS=OFF -DBUILD_EDITOR_COCOSBUILDER=OFF -DBUILD_EDITOR_COCOSTUDIO=OFF -DBUILD_EDITOR_SPINE=OFF -DBUILD_CPP_TESTS=OFF -DBUILD_STATIC_LIBS=OFF",
+  "PreInstall":     "cp -f /home/Soft/Cocos2d-Stuff/v3-deps-130.tar.gz . ; tar -xf v3-deps-130.tar.gz ; mv v3-deps-130/cocos2d-x-3rd-party-libs-bin-3-deps-130/* external/ ; rm -fr external/websockets",
+  "PostInstall":    "cp -fr {BUILD_SUBDIR}/lib/*.so* {INSTALL_TO}/lib/",
+  "Changelog":      "CHANGELOG",
+  "CopyHeaders":    [ "cocos" ],
+  "HeadersDiff":    "Off",
+  "Install":        "Off",
+  "Make":           "-j2",
+
+  "Versions": [
+  {
+    "Number":         "3.15.1",
+    "Installed":      "installed/cocos2d-x/3.15.1",
+    "Source":         "src/cocos2d-x/3.15.1/cocos2d-x-3.15.1.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.15",
+    "Installed":      "installed/cocos2d-x/3.15",
+    "Source":         "src/cocos2d-x/3.15/cocos2d-x-3.15.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.15rc0",
+    "Installed":      "installed/cocos2d-x/3.15rc0",
+    "Source":         "src/cocos2d-x/3.15rc0/cocos2d-x-3.15rc0.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "3.14.1",
+    "Installed":      "installed/cocos2d-x/3.14.1",
+    "Source":         "src/cocos2d-x/3.14.1/cocos2d-x-3.14.1.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.14",
+    "Installed":      "installed/cocos2d-x/3.14",
+    "Source":         "src/cocos2d-x/3.14/cocos2d-x-3.14.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.13.1",
+    "Installed":      "installed/cocos2d-x/3.13.1",
+    "Source":         "src/cocos2d-x/3.13.1/cocos2d-x-3.13.1.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.13",
+    "Installed":      "installed/cocos2d-x/3.13",
+    "Source":         "src/cocos2d-x/3.13/cocos2d-x-3.13.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.12",
+    "Installed":      "installed/cocos2d-x/3.12",
+    "Source":         "src/cocos2d-x/3.12/cocos2d-x-3.12.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.11.1",
+    "Installed":      "installed/cocos2d-x/3.11.1",
+    "Source":         "src/cocos2d-x/3.11.1/cocos2d-x-3.11.1.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.11",
+    "Installed":      "installed/cocos2d-x/3.11",
+    "Source":         "src/cocos2d-x/3.11/cocos2d-x-3.11.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.10",
+    "Installed":      "installed/cocos2d-x/3.10",
+    "Source":         "src/cocos2d-x/3.10/cocos2d-x-3.10.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.9",
+    "Installed":      "installed/cocos2d-x/3.9",
+    "Source":         "src/cocos2d-x/3.9/cocos2d-x-3.9.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.8.1",
+    "Installed":      "installed/cocos2d-x/3.8.1",
+    "Source":         "src/cocos2d-x/3.8.1/cocos2d-x-3.8.1.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.8",
+    "Installed":      "installed/cocos2d-x/3.8",
+    "Source":         "src/cocos2d-x/3.8/cocos2d-x-3.8.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

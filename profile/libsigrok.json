@@ -1,0 +1,70 @@
+{
+  "Name":           "libsigrok",
+  "SourceUrl":      "http://sigrok.org/download/source/libsigrok/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-python --disable-ruby --disable-java --disable-static --disable-all-drivers",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.5.0",
+    "Installed":      "installed/libsigrok/0.5.0",
+    "Source":         "src/libsigrok/0.5.0/libsigrok-0.5.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.0",
+    "Installed":      "installed/libsigrok/0.4.0",
+    "Source":         "src/libsigrok/0.4.0/libsigrok-0.4.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.0",
+    "Installed":      "installed/libsigrok/0.3.0",
+    "Source":         "src/libsigrok/0.3.0/libsigrok-0.3.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.2",
+    "Installed":      "installed/libsigrok/0.2.2",
+    "Source":         "src/libsigrok/0.2.2/libsigrok-0.2.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.1",
+    "Installed":      "installed/libsigrok/0.2.1",
+    "Source":         "src/libsigrok/0.2.1/libsigrok-0.2.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.0",
+    "Installed":      "installed/libsigrok/0.2.0",
+    "Source":         "src/libsigrok/0.2.0/libsigrok-0.2.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

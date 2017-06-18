@@ -1,0 +1,30 @@
+{
+  "Name":           "libvzsock",
+  "SourceUrl":      "https://github.com/OpenVZ/libvzsock/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/libvzsock.sh",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "7.0.3",
+    "Installed":      "installed/libvzsock/7.0.3",
+    "Source":         "src/libvzsock/7.0.3/libvzsock-7.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.2",
+    "Installed":      "installed/libvzsock/7.0.2",
+    "Source":         "src/libvzsock/7.0.2/libvzsock-7.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

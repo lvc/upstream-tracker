@@ -4,12 +4,82 @@
   "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/gobject-introspection/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/glib/2.51.0/lib/pkgconfig",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/glib/current/lib/pkgconfig",
   "PostInstall":    "rm -fr {INSTALL_TO}/lib/gobject-introspection/ {INSTALL_TO}/lib/girepository-1.0/",
   "Changelog":      "Off",
   "HeadersDiff":    "Off",
 
   "Versions": [
+  {
+    "Number":         "1.53.2",
+    "Installed":      "installed/gobject-introspection/1.53.2",
+    "Source":         "src/gobject-introspection/1.53.2/gobject-introspection-1.53.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.53.1",
+    "Installed":      "installed/gobject-introspection/1.53.1",
+    "Source":         "src/gobject-introspection/1.53.1/gobject-introspection-1.53.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.52.1",
+    "Installed":      "installed/gobject-introspection/1.52.1",
+    "Source":         "src/gobject-introspection/1.52.1/gobject-introspection-1.52.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.52.0",
+    "Installed":      "installed/gobject-introspection/1.52.0",
+    "Source":         "src/gobject-introspection/1.52.0/gobject-introspection-1.52.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.51.5",
+    "Installed":      "installed/gobject-introspection/1.51.5",
+    "Source":         "src/gobject-introspection/1.51.5/gobject-introspection-1.51.5.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.51.3",
+    "Installed":      "installed/gobject-introspection/1.51.3",
+    "Source":         "src/gobject-introspection/1.51.3/gobject-introspection-1.51.3.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.51.2",
+    "Installed":      "installed/gobject-introspection/1.51.2",
+    "Source":         "src/gobject-introspection/1.51.2/gobject-introspection-1.51.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "1.51.1",
     "Installed":      "installed/gobject-introspection/1.51.1",

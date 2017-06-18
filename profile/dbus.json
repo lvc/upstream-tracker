@@ -11,6 +11,26 @@
 
   "Versions": [
   {
+    "Number":         "1.11.12",
+    "Installed":      "installed/dbus/1.11.12",
+    "Source":         "src/dbus/1.11.12/dbus-1.11.12.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.10",
+    "Installed":      "installed/dbus/1.11.10",
+    "Source":         "src/dbus/1.11.10/dbus-1.11.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.11.8",
     "Installed":      "installed/dbus/1.11.8",
     "Source":         "src/dbus/1.11.8/dbus-1.11.8.tar.gz",
@@ -54,6 +74,26 @@
     "Number":         "1.11.0",
     "Installed":      "installed/dbus/1.11.0",
     "Source":         "src/dbus/1.11.0/dbus-1.11.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.18",
+    "Installed":      "installed/dbus/1.10.18",
+    "Source":         "src/dbus/1.10.18/dbus-1.10.18.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.16",
+    "Installed":      "installed/dbus/1.10.16",
+    "Source":         "src/dbus/1.10.16/dbus-1.10.16.tar.gz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

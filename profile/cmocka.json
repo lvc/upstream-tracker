@@ -1,0 +1,90 @@
+{
+  "Name":           "cmocka",
+  "Title":          "CMocka",
+  "SourceUrl":      "https://open.cryptomilk.org/projects/cmocka/files",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/cmocka/1.1.0",
+    "Source":         "src/cmocka/1.1.0/cmocka-1.1.0.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/cmocka/1.0.0",
+    "Source":         "src/cmocka/1.0.0/cmocka-1.0.0.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.1",
+    "Installed":      "installed/cmocka/0.4.1",
+    "Source":         "src/cmocka/0.4.1/cmocka-0.4.1.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.0",
+    "Installed":      "installed/cmocka/0.4.0",
+    "Source":         "src/cmocka/0.4.0/cmocka-0.4.0.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.2",
+    "Installed":      "installed/cmocka/0.3.2",
+    "Source":         "src/cmocka/0.3.2/cmocka-0.3.2.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.1",
+    "Installed":      "installed/cmocka/0.3.1",
+    "Source":         "src/cmocka/0.3.1/cmocka-0.3.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.0",
+    "Installed":      "installed/cmocka/0.3.0",
+    "Source":         "src/cmocka/0.3.0/cmocka-0.3.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.0",
+    "Installed":      "installed/cmocka/0.2.0",
+    "Source":         "src/cmocka/0.2.0/cmocka-0.2.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

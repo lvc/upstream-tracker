@@ -1,0 +1,243 @@
+{
+  "Name":           "nettle",
+  "Title":          "Nettle",
+  "SourceUrl":      "http://www.lysator.liu.se/~nisse/archive/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PostInstall":    "cp bignum.h {INSTALL_TO}/include/nettle",
+  "HeadersDiff":    "Off",
+  "IncludePreamble": "stdint.h",
+  "UseTUDump":      "On",
+
+  "Versions": [
+  {
+    "Number":         "3.3",
+    "Installed":      "installed/nettle/3.3",
+    "Source":         "src/nettle/3.3/nettle-3.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2",
+    "Installed":      "installed/nettle/3.2",
+    "Source":         "src/nettle/3.2/nettle-3.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.1",
+    "Installed":      "installed/nettle/3.1.1",
+    "Source":         "src/nettle/3.1.1/nettle-3.1.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1",
+    "Installed":      "installed/nettle/3.1",
+    "Source":         "src/nettle/3.1/nettle-3.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0",
+    "Installed":      "installed/nettle/3.0",
+    "Source":         "src/nettle/3.0/nettle-3.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.7.1",
+    "Installed":      "installed/nettle/2.7.1",
+    "Source":         "src/nettle/2.7.1/nettle-2.7.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.7",
+    "Installed":      "installed/nettle/2.7",
+    "Source":         "src/nettle/2.7/nettle-2.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6",
+    "Installed":      "installed/nettle/2.6",
+    "Source":         "src/nettle/2.6/nettle-2.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5",
+    "Installed":      "installed/nettle/2.5",
+    "Source":         "src/nettle/2.5/nettle-2.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4",
+    "Installed":      "installed/nettle/2.4",
+    "Source":         "src/nettle/2.4/nettle-2.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3",
+    "Installed":      "installed/nettle/2.3",
+    "Source":         "src/nettle/2.3/nettle-2.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2",
+    "Installed":      "installed/nettle/2.2",
+    "Source":         "src/nettle/2.2/nettle-2.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1",
+    "Installed":      "installed/nettle/2.1",
+    "Source":         "src/nettle/2.1/nettle-2.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0",
+    "Installed":      "installed/nettle/2.0",
+    "Source":         "src/nettle/2.0/nettle-2.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15",
+    "Installed":      "installed/nettle/1.15",
+    "Source":         "src/nettle/1.15/nettle-1.15.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14",
+    "Installed":      "installed/nettle/1.14",
+    "Source":         "src/nettle/1.14/nettle-1.14.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13",
+    "Installed":      "installed/nettle/1.13",
+    "Source":         "src/nettle/1.13/nettle-1.13.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12",
+    "Installed":      "installed/nettle/1.12",
+    "Source":         "src/nettle/1.12/nettle-1.12.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11",
+    "Installed":      "installed/nettle/1.11",
+    "Source":         "src/nettle/1.11/nettle-1.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10",
+    "Installed":      "installed/nettle/1.10",
+    "Source":         "src/nettle/1.10/nettle-1.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9",
+    "Installed":      "installed/nettle/1.9",
+    "Source":         "src/nettle/1.9/nettle-1.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8",
+    "Installed":      "installed/nettle/1.8",
+    "Source":         "src/nettle/1.8/nettle-1.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0",
+    "Installed":      "installed/nettle/1.0",
+    "Source":         "src/nettle/1.0/nettle-1.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

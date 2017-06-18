@@ -1,0 +1,115 @@
+{
+  "Name":           "nvidia-texture-tools",
+  "Title":          "NVIDIA Texture Tools",
+  "SourceUrl":      "https://github.com/castano/nvidia-texture-tools/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "CMake",
+  "Configure":      "-DCMAKE_PREFIX_PATH={INSTALL_ROOT}/libpng/1.4.20/",
+  "PreInstall":     "sed -i -e '1s/^/#include <unistd.h>\n/' src/nvcore/Debug.cpp",
+  "CopyHeaders":    [ "src/" ],
+  "HeadersDiff":    "Off",
+  "Soname":         "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.1.0",
+    "Installed":      "installed/nvidia-texture-tools/2.1.0",
+    "Source":         "src/nvidia-texture-tools/2.1.0/nvidia-texture-tools-2.1.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.8",
+    "Installed":      "installed/nvidia-texture-tools/2.0.8",
+    "Source":         "src/nvidia-texture-tools/2.0.8/nvidia-texture-tools-2.0.8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.7",
+    "Installed":      "installed/nvidia-texture-tools/2.0.7",
+    "Source":         "src/nvidia-texture-tools/2.0.7/nvidia-texture-tools-2.0.7.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.6",
+    "Installed":      "installed/nvidia-texture-tools/2.0.6",
+    "Source":         "src/nvidia-texture-tools/2.0.6/nvidia-texture-tools-2.0.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.5",
+    "Installed":      "installed/nvidia-texture-tools/2.0.5",
+    "Source":         "src/nvidia-texture-tools/2.0.5/nvidia-texture-tools-2.0.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.4",
+    "Installed":      "installed/nvidia-texture-tools/2.0.4",
+    "Source":         "src/nvidia-texture-tools/2.0.4/nvidia-texture-tools-2.0.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.3",
+    "Installed":      "installed/nvidia-texture-tools/2.0.3",
+    "Source":         "src/nvidia-texture-tools/2.0.3/nvidia-texture-tools-2.0.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.2",
+    "Installed":      "installed/nvidia-texture-tools/2.0.2",
+    "Source":         "src/nvidia-texture-tools/2.0.2/nvidia-texture-tools-2.0.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.1",
+    "Installed":      "installed/nvidia-texture-tools/2.0.1",
+    "Source":         "src/nvidia-texture-tools/2.0.1/nvidia-texture-tools-2.0.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0",
+    "Installed":      "installed/nvidia-texture-tools/2.0.0",
+    "Source":         "src/nvidia-texture-tools/2.0.0/nvidia-texture-tools-2.0.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

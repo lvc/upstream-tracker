@@ -1,0 +1,311 @@
+{
+  "Name":           "pixman",
+  "Title":          "Pixman",
+  "SourceUrl":      "https://www.cairographics.org/releases/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "sed -i -e 's/ demos test//g' Makefile.in;sed -i -e 's/pixman test/pixman/g' Makefile.in",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.34.0",
+    "Installed":      "installed/pixman/0.34.0",
+    "Source":         "src/pixman/0.34.0/pixman-0.34.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.32.8",
+    "Installed":      "installed/pixman/0.32.8",
+    "Source":         "src/pixman/0.32.8/pixman-0.32.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.32.6",
+    "Installed":      "installed/pixman/0.32.6",
+    "Source":         "src/pixman/0.32.6/pixman-0.32.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.32.4",
+    "Installed":      "installed/pixman/0.32.4",
+    "Source":         "src/pixman/0.32.4/pixman-0.32.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.32.2",
+    "Installed":      "installed/pixman/0.32.2",
+    "Source":         "src/pixman/0.32.2/pixman-0.32.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.32.0",
+    "Installed":      "installed/pixman/0.32.0",
+    "Source":         "src/pixman/0.32.0/pixman-0.32.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.30.2",
+    "Installed":      "installed/pixman/0.30.2",
+    "Source":         "src/pixman/0.30.2/pixman-0.30.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.30.0",
+    "Installed":      "installed/pixman/0.30.0",
+    "Source":         "src/pixman/0.30.0/pixman-0.30.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.28.2",
+    "Installed":      "installed/pixman/0.28.2",
+    "Source":         "src/pixman/0.28.2/pixman-0.28.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.28.0",
+    "Installed":      "installed/pixman/0.28.0",
+    "Source":         "src/pixman/0.28.0/pixman-0.28.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.26.2",
+    "Installed":      "installed/pixman/0.26.2",
+    "Source":         "src/pixman/0.26.2/pixman-0.26.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.26.0",
+    "Installed":      "installed/pixman/0.26.0",
+    "Source":         "src/pixman/0.26.0/pixman-0.26.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.24.4",
+    "Installed":      "installed/pixman/0.24.4",
+    "Source":         "src/pixman/0.24.4/pixman-0.24.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.24.2",
+    "Installed":      "installed/pixman/0.24.2",
+    "Source":         "src/pixman/0.24.2/pixman-0.24.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.24.0",
+    "Installed":      "installed/pixman/0.24.0",
+    "Source":         "src/pixman/0.24.0/pixman-0.24.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.22.2",
+    "Installed":      "installed/pixman/0.22.2",
+    "Source":         "src/pixman/0.22.2/pixman-0.22.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.22.0",
+    "Installed":      "installed/pixman/0.22.0",
+    "Source":         "src/pixman/0.22.0/pixman-0.22.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.2",
+    "Installed":      "installed/pixman/0.20.2",
+    "Source":         "src/pixman/0.20.2/pixman-0.20.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.0",
+    "Installed":      "installed/pixman/0.20.0",
+    "Source":         "src/pixman/0.20.0/pixman-0.20.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.18.4",
+    "Installed":      "installed/pixman/0.18.4",
+    "Source":         "src/pixman/0.18.4/pixman-0.18.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.18.2",
+    "Installed":      "installed/pixman/0.18.2",
+    "Source":         "src/pixman/0.18.2/pixman-0.18.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.18.0",
+    "Installed":      "installed/pixman/0.18.0",
+    "Source":         "src/pixman/0.18.0/pixman-0.18.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16.6",
+    "Installed":      "installed/pixman/0.16.6",
+    "Source":         "src/pixman/0.16.6/pixman-0.16.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16.4",
+    "Installed":      "installed/pixman/0.16.4",
+    "Source":         "src/pixman/0.16.4/pixman-0.16.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16.2",
+    "Installed":      "installed/pixman/0.16.2",
+    "Source":         "src/pixman/0.16.2/pixman-0.16.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16.0",
+    "Installed":      "installed/pixman/0.16.0",
+    "Source":         "src/pixman/0.16.0/pixman-0.16.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14.0",
+    "Installed":      "installed/pixman/0.14.0",
+    "Source":         "src/pixman/0.14.0/pixman-0.14.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.12.0",
+    "Installed":      "installed/pixman/0.12.0",
+    "Source":         "src/pixman/0.12.0/pixman-0.12.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.0",
+    "Installed":      "installed/pixman/0.10.0",
+    "Source":         "src/pixman/0.10.0/pixman-0.10.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.6",
+    "Installed":      "installed/pixman/0.9.6",
+    "Source":         "src/pixman/0.9.6/pixman-0.9.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,102 @@
+{
+  "Name":           "sfml",
+  "Title":          "SFML",
+  "SourceUrl":      "http://mirror0.sfml-dev.org/files/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DCMAKE_PREFIX_PATH='{INSTALL_ROOT}/openal/1.17.2/;{INSTALL_ROOT}/flac/1.3.2/'",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.6",
+
+  "Versions": [
+  {
+    "Number":         "2.4.2",
+    "Installed":      "installed/sfml/2.4.2",
+    "Source":         "src/sfml/2.4.2/SFML-2.4.2-sources.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.1",
+    "Installed":      "installed/sfml/2.4.1",
+    "Source":         "src/sfml/2.4.1/SFML-2.4.1-sources.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.0",
+    "Installed":      "installed/sfml/2.4.0",
+    "Source":         "src/sfml/2.4.0/SFML-2.4.0-sources.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.2",
+    "Installed":      "installed/sfml/2.3.2",
+    "Source":         "src/sfml/2.3.2/SFML-2.3.2-sources.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.1",
+    "Installed":      "installed/sfml/2.3.1",
+    "Source":         "src/sfml/2.3.1/SFML-2.3.1-sources.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3",
+    "Installed":      "installed/sfml/2.3",
+    "Source":         "src/sfml/2.3/SFML-2.3-sources.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2",
+    "Installed":      "installed/sfml/2.2",
+    "Source":         "src/sfml/2.2/SFML-2.2-sources.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1",
+    "Installed":      "installed/sfml/2.1",
+    "Source":         "src/sfml/2.1/SFML-2.1-sources.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0",
+    "Installed":      "installed/sfml/2.0",
+    "Source":         "src/sfml/2.0/SFML-2.0-sources.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

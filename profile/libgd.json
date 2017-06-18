@@ -1,0 +1,81 @@
+{
+  "Name":           "libgd",
+  "Title":          "GD",
+  "SourceUrl":      "https://github.com/libgd/libgd/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "Package":        "gd-",
+
+  "Versions": [
+  {
+    "Number":         "2.2.4",
+    "Installed":      "installed/libgd/2.2.4",
+    "Source":         "src/libgd/2.2.4/gd-2.2.4.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.3",
+    "Installed":      "installed/libgd/2.2.3",
+    "Source":         "src/libgd/2.2.3/gd-2.2.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.2",
+    "Installed":      "installed/libgd/2.2.2",
+    "Source":         "src/libgd/2.2.2/gd-2.2.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.1",
+    "Installed":      "installed/libgd/2.2.1",
+    "Source":         "src/libgd/2.2.1/gd-2.2.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.0",
+    "Installed":      "installed/libgd/2.2.0",
+    "Source":         "src/libgd/2.2.0/gd-2.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.1",
+    "Installed":      "installed/libgd/2.1.1",
+    "Source":         "src/libgd/2.1.1/gd-2.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.33",
+    "Installed":      "installed/libgd/2.0.33",
+    "Source":         "src/libgd/2.0.33/libgd-GD_2_0_33.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

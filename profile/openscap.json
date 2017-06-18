@@ -1,0 +1,221 @@
+{
+  "Name":           "openscap",
+  "Title":          "OpenSCAP",
+  "SourceUrl":      "https://github.com/OpenSCAP/openscap/tags",
+  "OldSourceUrl":   "https://github.com/OpenSCAP/openscap/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-python --disable-perl --disable-util-oscap --disable-oval --disable-probes --disable-bindings",
+
+  "Versions": [
+  {
+    "Number":         "1.2.14",
+    "Installed":      "installed/openscap/1.2.14",
+    "Source":         "src/openscap/1.2.14/openscap-1.2.14.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.13",
+    "Installed":      "installed/openscap/1.2.13",
+    "Source":         "src/openscap/1.2.13/openscap-1.2.13.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.12",
+    "Installed":      "installed/openscap/1.2.12",
+    "Source":         "src/openscap/1.2.12/openscap-1.2.12.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.11",
+    "Installed":      "installed/openscap/1.2.11",
+    "Source":         "src/openscap/1.2.11/openscap-1.2.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.10",
+    "Installed":      "installed/openscap/1.2.10",
+    "Source":         "src/openscap/1.2.10/openscap-1.2.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.9",
+    "Installed":      "installed/openscap/1.2.9",
+    "Source":         "src/openscap/1.2.9/openscap-1.2.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.8",
+    "Installed":      "installed/openscap/1.2.8",
+    "Source":         "src/openscap/1.2.8/openscap-1.2.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.7",
+    "Installed":      "installed/openscap/1.2.7",
+    "Source":         "src/openscap/1.2.7/openscap-1.2.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.6",
+    "Installed":      "installed/openscap/1.2.6",
+    "Source":         "src/openscap/1.2.6/openscap-1.2.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.5",
+    "Installed":      "installed/openscap/1.2.5",
+    "Source":         "src/openscap/1.2.5/openscap-1.2.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.4",
+    "Installed":      "installed/openscap/1.2.4",
+    "Source":         "src/openscap/1.2.4/openscap-1.2.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.3",
+    "Installed":      "installed/openscap/1.2.3",
+    "Source":         "src/openscap/1.2.3/openscap-1.2.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.2",
+    "Installed":      "installed/openscap/1.2.2",
+    "Source":         "src/openscap/1.2.2/openscap-1.2.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.1",
+    "Installed":      "installed/openscap/1.2.1",
+    "Source":         "src/openscap/1.2.1/openscap-1.2.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/openscap/1.2.0",
+    "Source":         "src/openscap/1.2.0/openscap-1.2.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.1",
+    "Installed":      "installed/openscap/1.1.1",
+    "Source":         "src/openscap/1.1.1/openscap-1.1.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/openscap/1.1.0",
+    "Source":         "src/openscap/1.1.0/openscap-1.1.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.10",
+    "Installed":      "installed/openscap/1.0.10",
+    "Source":         "src/openscap/1.0.10/openscap-1.0.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.9",
+    "Installed":      "installed/openscap/1.0.9",
+    "Source":         "src/openscap/1.0.9/openscap-1.0.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.8",
+    "Installed":      "installed/openscap/1.0.8",
+    "Source":         "src/openscap/1.0.8/openscap-1.0.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.7",
+    "Installed":      "installed/openscap/1.0.7",
+    "Source":         "src/openscap/1.0.7/openscap-1.0.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

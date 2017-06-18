@@ -10,13 +10,23 @@
   "HeadersDiff":    "Off",
   "IncludePaths":   "include/allegro5",
   "IncludePreamble": "allegro.h",
-  "UseTUDump":      "1",
+  "UseTUDump":      "On",
 
   "Versions": [
   {
     "Number":         "current",
     "Installed":      "installed/allegro/current",
     "Source":         "src/allegro/current",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.2.2.0",
+    "Installed":      "installed/allegro/5.2.2.0",
+    "Source":         "src/allegro/5.2.2.0/allegro-5.2.2.0.tar.gz",
     "Changelog":      "Off",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

@@ -1,0 +1,303 @@
+{
+  "Name":           "karchive",
+  "Title":          "KArchive",
+  "SourceUrl":      "http://download.kde.org/stable/frameworks/",
+  "OldSourceUrl":   "http://download.kde.org/Attic/frameworks/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DCMAKE_PREFIX_PATH='/home/Soft/Qt-5.7.1/;/home/Soft/ECM/' -DBUILD_TESTING=OFF",
+  "ChangeLog":      "Off",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "5.35.0",
+    "Installed":      "installed/karchive/5.35.0",
+    "Source":         "src/karchive/5.35.0/karchive-5.35.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.34.0",
+    "Installed":      "installed/karchive/5.34.0",
+    "Source":         "src/karchive/5.34.0/karchive-5.34.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.33.0",
+    "Installed":      "installed/karchive/5.33.0",
+    "Source":         "src/karchive/5.33.0/karchive-5.33.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.32.0",
+    "Installed":      "installed/karchive/5.32.0",
+    "Source":         "src/karchive/5.32.0/karchive-5.32.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.31.0",
+    "Installed":      "installed/karchive/5.31.0",
+    "Source":         "src/karchive/5.31.0/karchive-5.31.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.30.0",
+    "Installed":      "installed/karchive/5.30.0",
+    "Source":         "src/karchive/5.30.0/karchive-5.30.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.29.0",
+    "Installed":      "installed/karchive/5.29.0",
+    "Source":         "src/karchive/5.29.0/karchive-5.29.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.28.0",
+    "Installed":      "installed/karchive/5.28.0",
+    "Source":         "src/karchive/5.28.0/karchive-5.28.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.27.0",
+    "Installed":      "installed/karchive/5.27.0",
+    "Source":         "src/karchive/5.27.0/karchive-5.27.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.26.0",
+    "Installed":      "installed/karchive/5.26.0",
+    "Source":         "src/karchive/5.26.0/karchive-5.26.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.25.0",
+    "Installed":      "installed/karchive/5.25.0",
+    "Source":         "src/karchive/5.25.0/karchive-5.25.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.24.0",
+    "Installed":      "installed/karchive/5.24.0",
+    "Source":         "src/karchive/5.24.0/karchive-5.24.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.23.0",
+    "Installed":      "installed/karchive/5.23.0",
+    "Source":         "src/karchive/5.23.0/karchive-5.23.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.22.0",
+    "Installed":      "installed/karchive/5.22.0",
+    "Source":         "src/karchive/5.22.0/karchive-5.22.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.21.0",
+    "Installed":      "installed/karchive/5.21.0",
+    "Source":         "src/karchive/5.21.0/karchive-5.21.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.20.0",
+    "Installed":      "installed/karchive/5.20.0",
+    "Source":         "src/karchive/5.20.0/karchive-5.20.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.19.0",
+    "Installed":      "installed/karchive/5.19.0",
+    "Source":         "src/karchive/5.19.0/karchive-5.19.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.18.0",
+    "Installed":      "installed/karchive/5.18.0",
+    "Source":         "src/karchive/5.18.0/karchive-5.18.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.17.0",
+    "Installed":      "installed/karchive/5.17.0",
+    "Source":         "src/karchive/5.17.0/karchive-5.17.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.16.0",
+    "Installed":      "installed/karchive/5.16.0",
+    "Source":         "src/karchive/5.16.0/karchive-5.16.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.15.0",
+    "Installed":      "installed/karchive/5.15.0",
+    "Source":         "src/karchive/5.15.0/karchive-5.15.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.14.0",
+    "Installed":      "installed/karchive/5.14.0",
+    "Source":         "src/karchive/5.14.0/karchive-5.14.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.13.0",
+    "Installed":      "installed/karchive/5.13.0",
+    "Source":         "src/karchive/5.13.0/karchive-5.13.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.12.0",
+    "Installed":      "installed/karchive/5.12.0",
+    "Source":         "src/karchive/5.12.0/karchive-5.12.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.11.0",
+    "Installed":      "installed/karchive/5.11.0",
+    "Source":         "src/karchive/5.11.0/karchive-5.11.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.10.0",
+    "Installed":      "installed/karchive/5.10.0",
+    "Source":         "src/karchive/5.10.0/karchive-5.10.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.9.0",
+    "Installed":      "installed/karchive/5.9.0",
+    "Source":         "src/karchive/5.9.0/karchive-5.9.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.8.0",
+    "Installed":      "installed/karchive/5.8.0",
+    "Source":         "src/karchive/5.8.0/karchive-5.8.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.7.0",
+    "Installed":      "installed/karchive/5.7.0",
+    "Source":         "src/karchive/5.7.0/karchive-5.7.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

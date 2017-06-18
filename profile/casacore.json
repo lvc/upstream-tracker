@@ -1,0 +1,73 @@
+{
+  "Name":           "casacore",
+  "Title":          "Casacore",
+  "SourceUrl":      "https://github.com/casacore/casacore/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DBUILD_TESTING=OFF -DBUILD_PYTHON=OFF -DBUILD_PYTHON3=OFF -DCMAKE_PREFIX_PATH='{INSTALL_ROOT}/cfitsio/3410;{INSTALL_ROOT}/wcslib/5.16'",
+  "SkipObjects":    [ "libcasa_scimath_f.so" ],
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.4.1",
+
+  "Versions": [
+  {
+    "Number":         "2.3.0",
+    "Installed":      "installed/casacore/2.3.0",
+    "Source":         "src/casacore/2.3.0/casacore-2.3.0.tar.gz",
+    "Changelog":      "CHANGES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.0",
+    "Installed":      "installed/casacore/2.2.0",
+    "Source":         "src/casacore/2.2.0/casacore-2.2.0.tar.gz",
+    "Changelog":      "CHANGES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.0",
+    "Installed":      "installed/casacore/2.1.0",
+    "Source":         "src/casacore/2.1.0/casacore-2.1.0.tar.gz",
+    "Changelog":      "CHANGES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.3",
+    "Installed":      "installed/casacore/2.0.3",
+    "Source":         "src/casacore/2.0.3/casacore-2.0.3.tar.gz",
+    "Changelog":      "CHANGES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.1",
+    "Installed":      "installed/casacore/2.0.1",
+    "Source":         "src/casacore/2.0.1/casacore-2.0.1.tar.gz",
+    "Changelog":      "CHANGES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.0",
+    "Installed":      "installed/casacore/1.7.0",
+    "Source":         "src/casacore/1.7.0/casacore-1.7.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

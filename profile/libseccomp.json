@@ -1,0 +1,121 @@
+{
+  "Name":           "libseccomp",
+  "SourceUrl":      "https://github.com/seccomp/libseccomp/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-static",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.0.1",
+
+  "Versions": [
+  {
+    "Number":         "2.3.2",
+    "Installed":      "installed/libseccomp/2.3.2",
+    "Source":         "src/libseccomp/2.3.2/libseccomp-2.3.2.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.1",
+    "Installed":      "installed/libseccomp/2.3.1",
+    "Source":         "src/libseccomp/2.3.1/libseccomp-2.3.1.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.0",
+    "Installed":      "installed/libseccomp/2.3.0",
+    "Source":         "src/libseccomp/2.3.0/libseccomp-2.3.0.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.3",
+    "Installed":      "installed/libseccomp/2.2.3",
+    "Source":         "src/libseccomp/2.2.3/libseccomp-2.2.3.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.2",
+    "Installed":      "installed/libseccomp/2.2.2",
+    "Source":         "src/libseccomp/2.2.2/libseccomp-2.2.2.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.1",
+    "Installed":      "installed/libseccomp/2.2.1",
+    "Source":         "src/libseccomp/2.2.1/libseccomp-2.2.1.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.0",
+    "Installed":      "installed/libseccomp/2.2.0",
+    "Source":         "src/libseccomp/2.2.0/libseccomp-2.2.0.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.1",
+    "Installed":      "installed/libseccomp/2.1.1",
+    "Source":         "src/libseccomp/2.1.1/libseccomp-2.1.1.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.0",
+    "Installed":      "installed/libseccomp/2.1.0",
+    "Source":         "src/libseccomp/2.1.0/libseccomp-2.1.0.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0",
+    "Installed":      "installed/libseccomp/2.0.0",
+    "Source":         "src/libseccomp/2.0.0/libseccomp-2.0.0.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/libseccomp/1.0.1",
+    "Source":         "src/libseccomp/1.0.1/libseccomp-1.0.1.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

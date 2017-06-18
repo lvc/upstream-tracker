@@ -1,0 +1,80 @@
+{
+  "Name":           "libqtxdg",
+  "SourceUrl":      "https://github.com/lxde/libqtxdg/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "ClearInstalled": "Off",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.0.0",
+    "Installed":      "installed/libqtxdg/2.0.0",
+    "Source":         "src/libqtxdg/2.0.0/libqtxdg-2.0.0.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.0",
+    "Installed":      "installed/libqtxdg/1.3.0",
+    "Source":         "src/libqtxdg/1.3.0/libqtxdg-1.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/libqtxdg/1.2.0",
+    "Source":         "src/libqtxdg/1.2.0/libqtxdg-1.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/libqtxdg/1.1.0",
+    "Source":         "src/libqtxdg/1.1.0/libqtxdg-1.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.3",
+    "Installed":      "installed/libqtxdg/0.5.3",
+    "Source":         "src/libqtxdg/0.5.3/libqtxdg-0.5.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.1",
+    "Installed":      "installed/libqtxdg/0.5.1",
+    "Source":         "src/libqtxdg/0.5.1/libqtxdg-0.5.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.0",
+    "Installed":      "installed/libqtxdg/0.1.0",
+    "Source":         "src/libqtxdg/0.1.0/libqtxdg-0.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

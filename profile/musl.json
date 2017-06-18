@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         "1.1.16",
+    "Installed":      "installed/musl/1.1.16",
+    "Source":         "src/musl/1.1.16/musl-1.1.16.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.1.15",
     "Installed":      "installed/musl/1.1.15",
     "Source":         "src/musl/1.1.15/musl-1.1.15.tar.gz",

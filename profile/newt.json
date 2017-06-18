@@ -1,0 +1,83 @@
+{
+  "Name":           "newt",
+  "SourceUrl":      "http://pkgs.fedoraproject.org/repo/pkgs/newt/",
+  "SourceUrlDepth": "3",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--without-python",
+  "GraphFewXTics":  "On",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.52.9",
+
+  "Versions": [
+  {
+    "Number":         "0.52.19",
+    "Installed":      "installed/newt/0.52.19",
+    "Source":         "src/newt/0.52.19/newt-0.52.19.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.52.18",
+    "Installed":      "installed/newt/0.52.18",
+    "Source":         "src/newt/0.52.18/newt-0.52.18.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.52.17",
+    "Installed":      "installed/newt/0.52.17",
+    "Source":         "src/newt/0.52.17/newt-0.52.17.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.52.16",
+    "Installed":      "installed/newt/0.52.16",
+    "Source":         "src/newt/0.52.16/newt-0.52.16.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.52.15",
+    "Installed":      "installed/newt/0.52.15",
+    "Source":         "src/newt/0.52.15/newt-0.52.15.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.52.14",
+    "Installed":      "installed/newt/0.52.14",
+    "Source":         "src/newt/0.52.14/newt-0.52.14.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.52.13",
+    "Installed":      "installed/newt/0.52.13",
+    "Source":         "src/newt/0.52.13/newt-0.52.13.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

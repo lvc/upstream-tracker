@@ -1,0 +1,83 @@
+{
+  "Name":           "libsrtp",
+  "Title":          "libSRTP",
+  "SourceUrl":      "https://github.com/cisco/libsrtp/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildShared":    "On",
+  "HeadersDiff":    "Off",
+  "SkipVersions":   [ "2", "2.0", "1", "1.5" ],
+  "Soname":         "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.1.0",
+    "Installed":      "installed/libsrtp/2.1.0",
+    "Source":         "src/libsrtp/2.1.0/libsrtp-2.1.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0",
+    "Installed":      "installed/libsrtp/2.0.0",
+    "Source":         "src/libsrtp/2.0.0/libsrtp-2.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.4",
+    "Installed":      "installed/libsrtp/1.5.4",
+    "Source":         "src/libsrtp/1.5.4/libsrtp-1.5.4.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.3",
+    "Installed":      "installed/libsrtp/1.5.3",
+    "Source":         "src/libsrtp/1.5.3/libsrtp-1.5.3.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.2",
+    "Installed":      "installed/libsrtp/1.5.2",
+    "Source":         "src/libsrtp/1.5.2/libsrtp-1.5.2.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.1",
+    "Installed":      "installed/libsrtp/1.5.1",
+    "Source":         "src/libsrtp/1.5.1/libsrtp-1.5.1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.0",
+    "Installed":      "installed/libsrtp/1.5.0",
+    "Source":         "src/libsrtp/1.5.0/libsrtp-1.5.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

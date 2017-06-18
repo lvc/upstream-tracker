@@ -1,0 +1,44 @@
+{
+  "Name":           "fawkes",
+  "Title":          "Fawkes",
+  "SourceUrl":      "https://files.fawkesrobotics.org/releases/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/fawkes.sh",
+  "SkipObjects":    [ "lua/", "libfawkes_amcl_pf.so", "libfawkes_amcl_sensors.so", "libfawkes_amcl_utils.so", "libfawkesgossip.so" ],
+  "CopyHeaders":    [ "src/libs" ],
+  "CopyObjects":    [ "lib" ],
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/fawkes/1.0.1",
+    "Source":         "src/fawkes/1.0.1/fawkes-1.0.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/fawkes/1.0.0",
+    "Source":         "src/fawkes/1.0.0/fawkes-1.0.0.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.0",
+    "Installed":      "installed/fawkes/0.5.0",
+    "Source":         "src/fawkes/0.5.0/fawkes-0.5.0.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

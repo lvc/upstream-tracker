@@ -1,0 +1,85 @@
+{
+  "Name":           "gwenhywfar",
+  "Title":          "Gwenhywfar",
+  "SourceUrl":      "https://github.com/cstim/gwenhywfar/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-guis=cpp",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/gwenhywfar",
+  "Changelog":      "Off",
+  "ClearInstalled": "Off",
+  "GraphFewXTics":  "On",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "4.16.0beta",
+    "Installed":      "installed/gwenhywfar/4.16.0beta",
+    "Source":         "src/gwenhywfar/4.16.0beta/gwenhywfar-4.16.0beta.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.15.3",
+    "Installed":      "installed/gwenhywfar/4.15.3",
+    "Source":         "src/gwenhywfar/4.15.3/gwenhywfar-4.15.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.15.0",
+    "Installed":      "installed/gwenhywfar/4.15.0",
+    "Source":         "src/gwenhywfar/4.15.0/gwenhywfar-4.15.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.14.0",
+    "Installed":      "installed/gwenhywfar/4.14.0",
+    "Source":         "src/gwenhywfar/4.14.0/gwenhywfar-4.14.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.13.1",
+    "Installed":      "installed/gwenhywfar/4.13.1",
+    "Source":         "src/gwenhywfar/4.13.1/gwenhywfar-4.13.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.13.0",
+    "Installed":      "installed/gwenhywfar/4.13.0",
+    "Source":         "src/gwenhywfar/4.13.0/gwenhywfar-4.13.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.13",
+    "Installed":      "installed/gwenhywfar/4.5.13",
+    "Source":         "src/gwenhywfar/4.5.13/gwenhywfar-4.5.13.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

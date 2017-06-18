@@ -1,0 +1,203 @@
+{
+  "Name":           "shiboken",
+  "Title":          "Shiboken",
+  "SourceUrl":      "https://github.com/pyside/Shiboken/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/cmake",
+  "SkipObjects":    [ "site-packages/" ],
+  "ClearInstalled": "On",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.2.4",
+    "Installed":      "installed/shiboken/1.2.4",
+    "Source":         "src/shiboken/1.2.4/shiboken-1.2.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.3",
+    "Installed":      "installed/shiboken/1.2.3",
+    "Source":         "src/shiboken/1.2.3/shiboken-1.2.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.2",
+    "Installed":      "installed/shiboken/1.2.2",
+    "Source":         "src/shiboken/1.2.2/shiboken-1.2.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.1",
+    "Installed":      "installed/shiboken/1.2.1",
+    "Source":         "src/shiboken/1.2.1/shiboken-1.2.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/shiboken/1.2.0",
+    "Source":         "src/shiboken/1.2.0/shiboken-1.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.2",
+    "Installed":      "installed/shiboken/1.1.2",
+    "Source":         "src/shiboken/1.1.2/shiboken-1.1.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.1",
+    "Installed":      "installed/shiboken/1.1.1",
+    "Source":         "src/shiboken/1.1.1/shiboken-1.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.10",
+    "Installed":      "installed/shiboken/0.10.10",
+    "Source":         "src/shiboken/0.10.10/shiboken-0.10.10.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.9",
+    "Installed":      "installed/shiboken/0.10.9",
+    "Source":         "src/shiboken/0.10.9/shiboken-0.10.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.8",
+    "Installed":      "installed/shiboken/0.10.8",
+    "Source":         "src/shiboken/0.10.8/shiboken-0.10.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.7",
+    "Installed":      "installed/shiboken/0.10.7",
+    "Source":         "src/shiboken/0.10.7/shiboken-0.10.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.6",
+    "Installed":      "installed/shiboken/0.10.6",
+    "Source":         "src/shiboken/0.10.6/shiboken-0.10.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.5",
+    "Installed":      "installed/shiboken/0.10.5",
+    "Source":         "src/shiboken/0.10.5/shiboken-0.10.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.4",
+    "Installed":      "installed/shiboken/0.10.4",
+    "Source":         "src/shiboken/0.10.4/shiboken-0.10.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.3",
+    "Installed":      "installed/shiboken/0.10.3",
+    "Source":         "src/shiboken/0.10.3/shiboken-0.10.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.2",
+    "Installed":      "installed/shiboken/0.10.2",
+    "Source":         "src/shiboken/0.10.2/shiboken-0.10.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.1",
+    "Installed":      "installed/shiboken/0.10.1",
+    "Source":         "src/shiboken/0.10.1/shiboken-0.10.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.0",
+    "Installed":      "installed/shiboken/0.10.0",
+    "Source":         "src/shiboken/0.10.0/shiboken-0.10.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.4",
+    "Installed":      "installed/shiboken/0.9.4",
+    "Source":         "src/shiboken/0.9.4/shiboken-0.9.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

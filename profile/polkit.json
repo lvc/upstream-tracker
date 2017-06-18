@@ -1,0 +1,122 @@
+{
+  "Name":           "polkit",
+  "SourceUrl":      "https://www.freedesktop.org/software/polkit/releases/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-test --with-systemdsystemunitdir={INSTALL_TO}/share --enable-introspection=no --with-mozjs=mozjs185 PKG_CONFIG_PATH=/home/Soft/js-1.8.5/lib/pkgconfig",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/polkit-1",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.103",
+
+  "Versions": [
+  {
+    "Number":         "0.113",
+    "Installed":      "installed/polkit/0.113",
+    "Source":         "src/polkit/0.113/polkit-0.113.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.112",
+    "Installed":      "installed/polkit/0.112",
+    "Source":         "src/polkit/0.112/polkit-0.112.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.111",
+    "Installed":      "installed/polkit/0.111",
+    "Source":         "src/polkit/0.111/polkit-0.111.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.110",
+    "Installed":      "installed/polkit/0.110",
+    "Source":         "src/polkit/0.110/polkit-0.110.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.109",
+    "Installed":      "installed/polkit/0.109",
+    "Source":         "src/polkit/0.109/polkit-0.109.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.108",
+    "Installed":      "installed/polkit/0.108",
+    "Source":         "src/polkit/0.108/polkit-0.108.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.107",
+    "Installed":      "installed/polkit/0.107",
+    "Source":         "src/polkit/0.107/polkit-0.107.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.106",
+    "Installed":      "installed/polkit/0.106",
+    "Source":         "src/polkit/0.106/polkit-0.106.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.105",
+    "Installed":      "installed/polkit/0.105",
+    "Source":         "src/polkit/0.105/polkit-0.105.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.104",
+    "Installed":      "installed/polkit/0.104",
+    "Source":         "src/polkit/0.104/polkit-0.104.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.103",
+    "Installed":      "installed/polkit/0.103",
+    "Source":         "src/polkit/0.103/polkit-0.103.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

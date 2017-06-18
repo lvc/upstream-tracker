@@ -1,0 +1,93 @@
+{
+  "Name":           "ilmbase",
+  "Title":          "IlmBase",
+  "SourceUrl":      "http://download.savannah.gnu.org/releases/openexr/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "Configure":      "--enable-shared",
+  "Changelog":      "ChangeLog",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.2.0",
+    "Installed":      "installed/ilmbase/2.2.0",
+    "Source":         "src/ilmbase/2.2.0/ilmbase-2.2.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.0",
+    "Installed":      "installed/ilmbase/2.1.0",
+    "Source":         "src/ilmbase/2.1.0/ilmbase-2.1.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.1",
+    "Installed":      "installed/ilmbase/2.0.1",
+    "Source":         "src/ilmbase/2.0.1/ilmbase-2.0.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0",
+    "Installed":      "installed/ilmbase/2.0.0",
+    "Source":         "src/ilmbase/2.0.0/ilmbase-2.0.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.2",
+    "Installed":      "installed/ilmbase/1.0.2",
+    "Source":         "src/ilmbase/1.0.2/ilmbase-1.0.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/ilmbase/1.0.1",
+    "Source":         "src/ilmbase/1.0.1/ilmbase-1.0.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/ilmbase/1.0.0",
+    "Source":         "src/ilmbase/1.0.0/ilmbase-1.0.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.0",
+    "Installed":      "installed/ilmbase/0.9.0",
+    "Source":         "src/ilmbase/0.9.0/ilmbase-0.9.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

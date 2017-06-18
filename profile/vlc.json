@@ -1,0 +1,215 @@
+{
+  "Name":           "vlc",
+  "Title":          "VLC",
+  "SourceUrl":      "http://download.videolan.org/pub/vlc/",
+  "SkipUrl":        [ "SuSE", "eyetv/", "ipkg-feed/", "last/" ],
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-vlc --disable-udev --disable-lua --disable-httpd --disable-mad --disable-avcodec --disable-swscale --disable-a52 --disable-postproc --disable-freetype --with-kde-solid={INSTALL_TO}/share",
+  "PreInstall":     "sed -i -e 's/ install-exec-hook//g' Makefile.in;sed -i -e 's/-O4//g' configure",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/vlc",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.0.5",
+
+  "Versions": [
+  {
+    "Number":         "2.2.6",
+    "Installed":      "installed/vlc/2.2.6",
+    "Source":         "src/vlc/2.2.6/vlc-2.2.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.5.1",
+    "Installed":      "installed/vlc/2.2.5.1",
+    "Source":         "src/vlc/2.2.5.1/vlc-2.2.5.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.4",
+    "Installed":      "installed/vlc/2.2.4",
+    "Source":         "src/vlc/2.2.4/vlc-2.2.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.3",
+    "Installed":      "installed/vlc/2.2.3",
+    "Source":         "src/vlc/2.2.3/vlc-2.2.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.2",
+    "Installed":      "installed/vlc/2.2.2",
+    "Source":         "src/vlc/2.2.2/vlc-2.2.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.1",
+    "Installed":      "installed/vlc/2.2.1",
+    "Source":         "src/vlc/2.2.1/vlc-2.2.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.0",
+    "Installed":      "installed/vlc/2.2.0",
+    "Source":         "src/vlc/2.2.0/vlc-2.2.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.6",
+    "Installed":      "installed/vlc/2.1.6",
+    "Source":         "src/vlc/2.1.6/vlc-2.1.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.5",
+    "Installed":      "installed/vlc/2.1.5",
+    "Source":         "src/vlc/2.1.5/vlc-2.1.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.4",
+    "Installed":      "installed/vlc/2.1.4",
+    "Source":         "src/vlc/2.1.4/vlc-2.1.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.3",
+    "Installed":      "installed/vlc/2.1.3",
+    "Source":         "src/vlc/2.1.3/vlc-2.1.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.2",
+    "Installed":      "installed/vlc/2.1.2",
+    "Source":         "src/vlc/2.1.2/vlc-2.1.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.1",
+    "Installed":      "installed/vlc/2.1.1",
+    "Source":         "src/vlc/2.1.1/vlc-2.1.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.0",
+    "Installed":      "installed/vlc/2.1.0",
+    "Source":         "src/vlc/2.1.0/vlc-2.1.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.10",
+    "Installed":      "installed/vlc/2.0.10",
+    "Source":         "src/vlc/2.0.10/vlc-2.0.10.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.9",
+    "Installed":      "installed/vlc/2.0.9",
+    "Source":         "src/vlc/2.0.9/vlc-2.0.9.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.8",
+    "Installed":      "installed/vlc/2.0.8",
+    "Source":         "src/vlc/2.0.8/vlc-2.0.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.7",
+    "Installed":      "installed/vlc/2.0.7",
+    "Source":         "src/vlc/2.0.7/vlc-2.0.7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.6",
+    "Installed":      "installed/vlc/2.0.6",
+    "Source":         "src/vlc/2.0.6/vlc-2.0.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.5",
+    "Installed":      "installed/vlc/2.0.5",
+    "Source":         "src/vlc/2.0.5/vlc-2.0.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

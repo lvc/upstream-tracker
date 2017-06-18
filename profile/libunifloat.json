@@ -1,0 +1,31 @@
+{
+  "Name":           "libunifloat",
+  "Title":          "Unifloat",
+  "SourceUrl":      "https://github.com/aponomarenko/unifloat/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "SourceCompat":   "On",
+
+  "Versions": [
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/libunifloat/1.1.0",
+    "Source":         "src/libunifloat/1.1.0/libunifloat-1.1.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/libunifloat/1.0.0",
+    "Source":         "src/libunifloat/1.0.0/libunifloat-1.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

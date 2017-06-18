@@ -1,0 +1,82 @@
+{
+  "Name":           "geographiclib",
+  "Title":          "GeographicLib",
+  "SourceUrl":      "https://sourceforge.net/projects/geographiclib/files/distrib/",
+  "SourceUrlDepth": "1",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/node_modules {INSTALL_TO}/lib/python",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.48",
+    "Installed":      "installed/geographiclib/1.48",
+    "Source":         "src/geographiclib/1.48/GeographicLib-1.48.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.47",
+    "Installed":      "installed/geographiclib/1.47",
+    "Source":         "src/geographiclib/1.47/GeographicLib-1.47.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.46",
+    "Installed":      "installed/geographiclib/1.46",
+    "Source":         "src/geographiclib/1.46/GeographicLib-1.46.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.45",
+    "Installed":      "installed/geographiclib/1.45",
+    "Source":         "src/geographiclib/1.45/GeographicLib-1.45.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.44",
+    "Installed":      "installed/geographiclib/1.44",
+    "Source":         "src/geographiclib/1.44/GeographicLib-1.44.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.43",
+    "Installed":      "installed/geographiclib/1.43",
+    "Source":         "src/geographiclib/1.43/GeographicLib-1.43.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.42",
+    "Installed":      "installed/geographiclib/1.42",
+    "Source":         "src/geographiclib/1.42/GeographicLib-1.42.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

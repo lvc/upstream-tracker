@@ -1,0 +1,132 @@
+{
+  "Name":           "libidn2",
+  "SourceUrl":      "http://ftp.gnu.org/gnu/libidn/",
+  "OldSourceUrl":   "http://alpha.gnu.org/gnu/libidn/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.8",
+  "Package":        "libidn2-",
+
+  "Versions": [
+  {
+    "Number":         "2.0.2",
+    "Installed":      "installed/libidn2/2.0.2",
+    "Source":         "src/libidn2/2.0.2/libidn2-2.0.2.tar.lz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.1",
+    "Installed":      "installed/libidn2/2.0.1",
+    "Source":         "src/libidn2/2.0.1/libidn2-2.0.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0",
+    "Installed":      "installed/libidn2/2.0.0",
+    "Source":         "src/libidn2/2.0.0/libidn2-2.0.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16",
+    "Installed":      "installed/libidn2/0.16",
+    "Source":         "src/libidn2/0.16/libidn2-0.16.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.15",
+    "Installed":      "installed/libidn2/0.15",
+    "Source":         "src/libidn2/0.15/libidn2-0.15.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14",
+    "Installed":      "installed/libidn2/0.14",
+    "Source":         "src/libidn2/0.14/libidn2-0.14.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13",
+    "Installed":      "installed/libidn2/0.13",
+    "Source":         "src/libidn2/0.13/libidn2-0.13.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.12",
+    "Installed":      "installed/libidn2/0.12",
+    "Source":         "src/libidn2/0.12/libidn2-0.12.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11",
+    "Installed":      "installed/libidn2/0.11",
+    "Source":         "src/libidn2/0.11/libidn2-0.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10",
+    "Installed":      "installed/libidn2/0.10",
+    "Source":         "src/libidn2/0.10/libidn2-0.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9",
+    "Installed":      "installed/libidn2/0.9",
+    "Source":         "src/libidn2/0.9/libidn2-0.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8",
+    "Installed":      "installed/libidn2/0.8",
+    "Source":         "src/libidn2/0.8/libidn2-0.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

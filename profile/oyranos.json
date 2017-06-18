@@ -1,0 +1,65 @@
+{
+  "Name":           "oyranos",
+  "Title":          "Oyranos",
+  "SourceUrl":      "https://github.com/oyranos-cms/oyranos/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "CMake",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/oyranos {INSTALL_TO}/lib/oyranos-meta {INSTALL_TO}/lib/color",
+  "CMakeConfigure": "-DBUILD_STATIC_LIBS=OFF -DXDG_CONFIG_DIR={INSTALL_TO}/share -DCMAKE_PREFIX_PATH=/home/Soft/xcm-0.5.4/ -DDOXYGEN_EXECUTABLE=/home/Soft/doxygen-1.8.13/bin/doxygen",
+  "HeadersDiff":    "Off",
+  "MakeGlobal":     "PATH=$PATH:/home/Soft/doxygen-1.8.13/bin/",
+  "MinimalVersion": "0.9.2",
+
+  "Versions": [
+  {
+    "Number":         "0.9.6",
+    "Installed":      "installed/oyranos/0.9.6",
+    "Source":         "src/oyranos/0.9.6/oyranos-0.9.6.tar.gz",
+    "Changelog":      "ChangeLog.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.5",
+    "Installed":      "installed/oyranos/0.9.5",
+    "Source":         "src/oyranos/0.9.5/oyranos-0.9.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.4",
+    "Installed":      "installed/oyranos/0.9.4",
+    "Source":         "src/oyranos/0.9.4/oyranos-0.9.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.3",
+    "Installed":      "installed/oyranos/0.9.3",
+    "Source":         "src/oyranos/0.9.3/oyranos-0.9.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.2",
+    "Installed":      "installed/oyranos/0.9.2",
+    "Source":         "src/oyranos/0.9.2/oyranos-0.9.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

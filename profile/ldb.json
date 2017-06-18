@@ -1,0 +1,261 @@
+{
+  "Name":           "ldb",
+  "SourceUrl":      "https://www.samba.org/ftp/pub/ldb/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/ldb.sh",
+  "SkipObjects":    [ "ldb/", "modules/", "site-packages/" ],
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.1.31",
+    "Installed":      "installed/ldb/1.1.31",
+    "Source":         "src/ldb/1.1.31/ldb-1.1.31.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.30",
+    "Installed":      "installed/ldb/1.1.30",
+    "Source":         "src/ldb/1.1.30/ldb-1.1.30.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.29",
+    "Installed":      "installed/ldb/1.1.29",
+    "Source":         "src/ldb/1.1.29/ldb-1.1.29.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.28",
+    "Installed":      "installed/ldb/1.1.28",
+    "Source":         "src/ldb/1.1.28/ldb-1.1.28.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.27",
+    "Installed":      "installed/ldb/1.1.27",
+    "Source":         "src/ldb/1.1.27/ldb-1.1.27.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.26",
+    "Installed":      "installed/ldb/1.1.26",
+    "Source":         "src/ldb/1.1.26/ldb-1.1.26.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.25",
+    "Installed":      "installed/ldb/1.1.25",
+    "Source":         "src/ldb/1.1.25/ldb-1.1.25.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.24",
+    "Installed":      "installed/ldb/1.1.24",
+    "Source":         "src/ldb/1.1.24/ldb-1.1.24.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.23",
+    "Installed":      "installed/ldb/1.1.23",
+    "Source":         "src/ldb/1.1.23/ldb-1.1.23.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.22",
+    "Installed":      "installed/ldb/1.1.22",
+    "Source":         "src/ldb/1.1.22/ldb-1.1.22.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.21",
+    "Installed":      "installed/ldb/1.1.21",
+    "Source":         "src/ldb/1.1.21/ldb-1.1.21.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.20",
+    "Installed":      "installed/ldb/1.1.20",
+    "Source":         "src/ldb/1.1.20/ldb-1.1.20.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.19",
+    "Installed":      "installed/ldb/1.1.19",
+    "Source":         "src/ldb/1.1.19/ldb-1.1.19.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.18",
+    "Installed":      "installed/ldb/1.1.18",
+    "Source":         "src/ldb/1.1.18/ldb-1.1.18.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.17",
+    "Installed":      "installed/ldb/1.1.17",
+    "Source":         "src/ldb/1.1.17/ldb-1.1.17.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.16",
+    "Installed":      "installed/ldb/1.1.16",
+    "Source":         "src/ldb/1.1.16/ldb-1.1.16.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.15",
+    "Installed":      "installed/ldb/1.1.15",
+    "Source":         "src/ldb/1.1.15/ldb-1.1.15.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.14",
+    "Installed":      "installed/ldb/1.1.14",
+    "Source":         "src/ldb/1.1.14/ldb-1.1.14.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.13",
+    "Installed":      "installed/ldb/1.1.13",
+    "Source":         "src/ldb/1.1.13/ldb-1.1.13.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.12",
+    "Installed":      "installed/ldb/1.1.12",
+    "Source":         "src/ldb/1.1.12/ldb-1.1.12.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.11",
+    "Installed":      "installed/ldb/1.1.11",
+    "Source":         "src/ldb/1.1.11/ldb-1.1.11.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.10",
+    "Installed":      "installed/ldb/1.1.10",
+    "Source":         "src/ldb/1.1.10/ldb-1.1.10.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.9",
+    "Installed":      "installed/ldb/1.1.9",
+    "Source":         "src/ldb/1.1.9/ldb-1.1.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.8",
+    "Installed":      "installed/ldb/1.1.8",
+    "Source":         "src/ldb/1.1.8/ldb-1.1.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.6",
+    "Installed":      "installed/ldb/1.1.6",
+    "Source":         "src/ldb/1.1.6/ldb-1.1.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

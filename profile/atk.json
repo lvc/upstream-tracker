@@ -18,6 +18,36 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "2.25.2",
+    "Installed":      "installed/atk/2.25.2",
+    "Source":         "src/atk/2.25.2/atk-2.25.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.24.0",
+    "Installed":      "installed/atk/2.24.0",
+    "Source":         "src/atk/2.24.0/atk-2.24.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.23.4",
+    "Installed":      "installed/atk/2.23.4",
+    "Source":         "src/atk/2.23.4/atk-2.23.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.22.0",
     "Installed":      "installed/atk/2.22.0",
     "Source":         "src/atk/2.22.0/atk-2.22.0.tar.xz",

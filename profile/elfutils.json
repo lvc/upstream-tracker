@@ -1,13 +1,45 @@
 {
   "Name":           "elfutils",
   "SourceUrl":      "https://fedorahosted.org/releases/e/l/elfutils/",
-  "Git":            "https://git.fedorahosted.org/git/elfutils.git",
+  "Git":            "git://sourceware.org/git/elfutils.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "CurrentConfigure": "--enable-maintainer-mode",
+  "CurrentPreInstall": "autoreconf --force --verbose --install",
   "SkipObjects":    [ "elfutils/" ],
   "SkipSymbols":    "filters/skip_symbols/elfutils.list",
 
   "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/elfutils/current",
+    "Source":         "src/elfutils/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.169",
+    "Installed":      "installed/elfutils/0.169",
+    "Source":         "src/elfutils/0.169/elfutils-0.169.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.168",
+    "Installed":      "installed/elfutils/0.168",
+    "Source":         "src/elfutils/0.168/elfutils-0.168.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "0.167",
     "Installed":      "installed/elfutils/0.167",

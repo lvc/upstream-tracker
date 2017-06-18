@@ -1,0 +1,123 @@
+{
+  "Name":           "xmltooling",
+  "Title":          "XMLTooling-C",
+  "SourceUrl":      "http://shibboleth.net/downloads/c++-opensaml/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-log4shib={INSTALL_ROOT}/log4shib/1.0.9 --with-xerces={INSTALL_ROOT}/xerces-c/3.1.4 --with-xmlsec={INSTALL_ROOT}/xml-security-c/1.7.3",
+  "BuildScript":    "build_script/xmltooling.sh",
+  "PreInstall":     "sed -i -e 's/-O[0123]/-Og/g' configure",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.6.0",
+    "Installed":      "installed/xmltooling/1.6.0",
+    "Source":         "src/xmltooling/1.6.0/xmltooling-1.6.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.6",
+    "Installed":      "installed/xmltooling/1.5.6",
+    "Source":         "src/xmltooling/1.5.6/xmltooling-1.5.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.5",
+    "Installed":      "installed/xmltooling/1.5.5",
+    "Source":         "src/xmltooling/1.5.5/xmltooling-1.5.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.4",
+    "Installed":      "installed/xmltooling/1.5.4",
+    "Source":         "src/xmltooling/1.5.4/xmltooling-1.5.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.3",
+    "Installed":      "installed/xmltooling/1.5.3",
+    "Source":         "src/xmltooling/1.5.3/xmltooling-1.5.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.2",
+    "Installed":      "installed/xmltooling/1.5.2",
+    "Source":         "src/xmltooling/1.5.2/xmltooling-1.5.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.1",
+    "Installed":      "installed/xmltooling/1.5.1",
+    "Source":         "src/xmltooling/1.5.1/xmltooling-1.5.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.0",
+    "Installed":      "installed/xmltooling/1.5.0",
+    "Source":         "src/xmltooling/1.5.0/xmltooling-1.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.2",
+    "Installed":      "installed/xmltooling/1.4.2",
+    "Source":         "src/xmltooling/1.4.2/xmltooling-1.4.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.1",
+    "Installed":      "installed/xmltooling/1.4.1",
+    "Source":         "src/xmltooling/1.4.1/xmltooling-1.4.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4",
+    "Installed":      "installed/xmltooling/1.4",
+    "Source":         "src/xmltooling/1.4/xmltooling-1.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,71 @@
+{
+  "Name":           "log4c",
+  "SourceUrl":      "https://sourceforge.net/projects/log4c/files/log4c/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "SkipObjects":    [ "liblog4c_examples.so" ],
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.1.0",
+
+  "Versions": [
+  {
+    "Number":         "1.2.4",
+    "Installed":      "installed/log4c/1.2.4",
+    "Source":         "src/log4c/1.2.4/log4c-1.2.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.3",
+    "Installed":      "installed/log4c/1.2.3",
+    "Source":         "src/log4c/1.2.3/log4c-1.2.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.2",
+    "Installed":      "installed/log4c/1.2.2",
+    "Source":         "src/log4c/1.2.2/log4c-1.2.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.1",
+    "Installed":      "installed/log4c/1.2.1",
+    "Source":         "src/log4c/1.2.1/log4c-1.2.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/log4c/1.2.0",
+    "Source":         "src/log4c/1.2.0/log4c-1.2.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/log4c/1.1.0",
+    "Source":         "src/log4c/1.1.0/log4c-1.1.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

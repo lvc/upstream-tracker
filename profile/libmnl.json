@@ -1,0 +1,59 @@
+{
+  "Name":           "libmnl",
+  "SourceUrl":      "http://www.netfilter.org/projects/libmnl/files/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.0.4",
+    "Installed":      "installed/libmnl/1.0.4",
+    "Source":         "src/libmnl/1.0.4/libmnl-1.0.4.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.3",
+    "Installed":      "installed/libmnl/1.0.3",
+    "Source":         "src/libmnl/1.0.3/libmnl-1.0.3.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.2",
+    "Installed":      "installed/libmnl/1.0.2",
+    "Source":         "src/libmnl/1.0.2/libmnl-1.0.2.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/libmnl/1.0.1",
+    "Source":         "src/libmnl/1.0.1/libmnl-1.0.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/libmnl/1.0.0",
+    "Source":         "src/libmnl/1.0.0/libmnl-1.0.0.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

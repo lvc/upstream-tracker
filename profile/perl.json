@@ -1,0 +1,356 @@
+{
+  "Name":           "perl",
+  "Title":          "Perl",
+  "SourceUrl":      "http://www.cpan.org/src/5.0/",
+  "SourceUrlDepth": "1",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/perl.sh",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "5.6.0",
+  "SkipOdd":        "On",
+  "SkipVersions":   [ ".*RC.*" ],
+  "Soname":         "Off",
+
+  "Versions": [
+  {
+    "Number":         "5.26.0",
+    "Installed":      "installed/perl/5.26.0",
+    "Source":         "src/perl/5.26.0/perl-5.26.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.24.1",
+    "Installed":      "installed/perl/5.24.1",
+    "Source":         "src/perl/5.24.1/perl-5.24.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.24.0",
+    "Installed":      "installed/perl/5.24.0",
+    "Source":         "src/perl/5.24.0/perl-5.24.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.22.3",
+    "Installed":      "installed/perl/5.22.3",
+    "Source":         "src/perl/5.22.3/perl-5.22.3.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.22.2",
+    "Installed":      "installed/perl/5.22.2",
+    "Source":         "src/perl/5.22.2/perl-5.22.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.22.1",
+    "Installed":      "installed/perl/5.22.1",
+    "Source":         "src/perl/5.22.1/perl-5.22.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.22.0",
+    "Installed":      "installed/perl/5.22.0",
+    "Source":         "src/perl/5.22.0/perl-5.22.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.20.3",
+    "Installed":      "installed/perl/5.20.3",
+    "Source":         "src/perl/5.20.3/perl-5.20.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.20.2",
+    "Installed":      "installed/perl/5.20.2",
+    "Source":         "src/perl/5.20.2/perl-5.20.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.20.1",
+    "Installed":      "installed/perl/5.20.1",
+    "Source":         "src/perl/5.20.1/perl-5.20.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.20.0",
+    "Installed":      "installed/perl/5.20.0",
+    "Source":         "src/perl/5.20.0/perl-5.20.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.18.4",
+    "Installed":      "installed/perl/5.18.4",
+    "Source":         "src/perl/5.18.4/perl-5.18.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.18.3",
+    "Installed":      "installed/perl/5.18.3",
+    "Source":         "src/perl/5.18.3/perl-5.18.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.18.2",
+    "Installed":      "installed/perl/5.18.2",
+    "Source":         "src/perl/5.18.2/perl-5.18.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.18.1",
+    "Installed":      "installed/perl/5.18.1",
+    "Source":         "src/perl/5.18.1/perl-5.18.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.18.0",
+    "Installed":      "installed/perl/5.18.0",
+    "Source":         "src/perl/5.18.0/perl-5.18.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.16.3",
+    "Installed":      "installed/perl/5.16.3",
+    "Source":         "src/perl/5.16.3/perl-5.16.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.16.2",
+    "Installed":      "installed/perl/5.16.2",
+    "Source":         "src/perl/5.16.2/perl-5.16.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.16.1",
+    "Installed":      "installed/perl/5.16.1",
+    "Source":         "src/perl/5.16.1/perl-5.16.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.16.0",
+    "Installed":      "installed/perl/5.16.0",
+    "Source":         "src/perl/5.16.0/perl-5.16.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.14.4",
+    "Installed":      "installed/perl/5.14.4",
+    "Source":         "src/perl/5.14.4/perl-5.14.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.14.3",
+    "Installed":      "installed/perl/5.14.3",
+    "Source":         "src/perl/5.14.3/perl-5.14.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.14.2",
+    "Installed":      "installed/perl/5.14.2",
+    "Source":         "src/perl/5.14.2/perl-5.14.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.14.1",
+    "Installed":      "installed/perl/5.14.1",
+    "Source":         "src/perl/5.14.1/perl-5.14.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.14.0",
+    "Installed":      "installed/perl/5.14.0",
+    "Source":         "src/perl/5.14.0/perl-5.14.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.12.5",
+    "Installed":      "installed/perl/5.12.5",
+    "Source":         "src/perl/5.12.5/perl-5.12.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.12.4",
+    "Installed":      "installed/perl/5.12.4",
+    "Source":         "src/perl/5.12.4/perl-5.12.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.12.3",
+    "Installed":      "installed/perl/5.12.3",
+    "Source":         "src/perl/5.12.3/perl-5.12.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.12.2",
+    "Installed":      "installed/perl/5.12.2",
+    "Source":         "src/perl/5.12.2/perl-5.12.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.12.1",
+    "Installed":      "installed/perl/5.12.1",
+    "Source":         "src/perl/5.12.1/perl-5.12.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.12.0",
+    "Installed":      "installed/perl/5.12.0",
+    "Source":         "src/perl/5.12.0/perl-5.12.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.10.1",
+    "Installed":      "installed/perl/5.10.1",
+    "Source":         "src/perl/5.10.1/perl-5.10.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.10.0",
+    "Installed":      "installed/perl/5.10.0",
+    "Source":         "src/perl/5.10.0/perl-5.10.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.8.9",
+    "Installed":      "installed/perl/5.8.9",
+    "Source":         "src/perl/5.8.9/perl-5.8.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

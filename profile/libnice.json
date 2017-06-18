@@ -1,0 +1,131 @@
+{
+  "Name":           "libnice",
+  "SourceUrl":      "https://github.com/libnice/libnice/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/gstreamer-*",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.1.3",
+
+  "Versions": [
+  {
+    "Number":         "0.1.14",
+    "Installed":      "installed/libnice/0.1.14",
+    "Source":         "src/libnice/0.1.14/libnice-0.1.14.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.13",
+    "Installed":      "installed/libnice/0.1.13",
+    "Source":         "src/libnice/0.1.13/libnice-0.1.13.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.12",
+    "Installed":      "installed/libnice/0.1.12",
+    "Source":         "src/libnice/0.1.12/libnice-0.1.12.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.11",
+    "Installed":      "installed/libnice/0.1.11",
+    "Source":         "src/libnice/0.1.11/libnice-0.1.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.10",
+    "Installed":      "installed/libnice/0.1.10",
+    "Source":         "src/libnice/0.1.10/libnice-0.1.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.9",
+    "Installed":      "installed/libnice/0.1.9",
+    "Source":         "src/libnice/0.1.9/libnice-0.1.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.8",
+    "Installed":      "installed/libnice/0.1.8",
+    "Source":         "src/libnice/0.1.8/libnice-0.1.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.7",
+    "Installed":      "installed/libnice/0.1.7",
+    "Source":         "src/libnice/0.1.7/libnice-0.1.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.6",
+    "Installed":      "installed/libnice/0.1.6",
+    "Source":         "src/libnice/0.1.6/libnice-0.1.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.5",
+    "Installed":      "installed/libnice/0.1.5",
+    "Source":         "src/libnice/0.1.5/libnice-0.1.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.4",
+    "Installed":      "installed/libnice/0.1.4",
+    "Source":         "src/libnice/0.1.4/libnice-0.1.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.3",
+    "Installed":      "installed/libnice/0.1.3",
+    "Source":         "src/libnice/0.1.3/libnice-0.1.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

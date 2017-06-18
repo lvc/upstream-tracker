@@ -1,0 +1,171 @@
+{
+  "Name":           "grantlee",
+  "Title":          "Grantlee",
+  "SourceUrl":      "http://downloads.grantlee.org/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/grantlee",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "5.1.0",
+    "Installed":      "installed/grantlee/5.1.0",
+    "Source":         "src/grantlee/5.1.0/grantlee-5.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.1",
+    "Installed":      "installed/grantlee/0.5.1",
+    "Source":         "src/grantlee/0.5.1/grantlee-0.5.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.0",
+    "Installed":      "installed/grantlee/0.5.0",
+    "Source":         "src/grantlee/0.5.0/grantlee-0.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.0",
+    "Installed":      "installed/grantlee/0.4.0",
+    "Source":         "src/grantlee/0.4.0/grantlee-0.4.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.0",
+    "Installed":      "installed/grantlee/0.3.0",
+    "Source":         "src/grantlee/0.3.0/grantlee-0.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.0",
+    "Installed":      "installed/grantlee/0.2.0",
+    "Source":         "src/grantlee/0.2.0/grantlee-0.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.9",
+    "Installed":      "installed/grantlee/0.1.9",
+    "Source":         "src/grantlee/0.1.9/grantlee-0.1.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.8",
+    "Installed":      "installed/grantlee/0.1.8",
+    "Source":         "src/grantlee/0.1.8/grantlee-0.1.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.7",
+    "Installed":      "installed/grantlee/0.1.7",
+    "Source":         "src/grantlee/0.1.7/grantlee-0.1.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.6",
+    "Installed":      "installed/grantlee/0.1.6",
+    "Source":         "src/grantlee/0.1.6/grantlee-0.1.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.5",
+    "Installed":      "installed/grantlee/0.1.5",
+    "Source":         "src/grantlee/0.1.5/grantlee-0.1.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.4",
+    "Installed":      "installed/grantlee/0.1.4",
+    "Source":         "src/grantlee/0.1.4/grantlee-0.1.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.3",
+    "Installed":      "installed/grantlee/0.1.3",
+    "Source":         "src/grantlee/0.1.3/grantlee-0.1.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.2",
+    "Installed":      "installed/grantlee/0.1.2",
+    "Source":         "src/grantlee/0.1.2/grantlee-0.1.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.1",
+    "Installed":      "installed/grantlee/0.1.1",
+    "Source":         "src/grantlee/0.1.1/grantlee-v0.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.0",
+    "Installed":      "installed/grantlee/0.1.0",
+    "Source":         "src/grantlee/0.1.0/grantlee-v0.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

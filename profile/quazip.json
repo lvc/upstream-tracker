@@ -1,0 +1,114 @@
+{
+  "Name":           "quazip",
+  "Title":          "QuaZIP",
+  "SourceUrl":      "https://sourceforge.net/projects/quazip/files/quazip/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "sed -i -e 's/CMAKE_ROOT/CMAKE_INSTALL_PREFIX/' CMakeLists.txt",
+  "PostInstall":    "rm -fr {INSTALL_TO}/Modules",
+  "Changelog":      "NEWS.txt",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.5",
+
+  "Versions": [
+  {
+    "Number":         "0.7.3",
+    "Installed":      "installed/quazip/0.7.3",
+    "Source":         "src/quazip/0.7.3/quazip-0.7.3.tar.gz",
+    "Changelog":      "NEWS.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.2",
+    "Installed":      "installed/quazip/0.7.2",
+    "Source":         "src/quazip/0.7.2/quazip-0.7.2.tar.gz",
+    "Changelog":      "NEWS.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.1",
+    "Installed":      "installed/quazip/0.7.1",
+    "Source":         "src/quazip/0.7.1/quazip-0.7.1.tar.gz",
+    "Changelog":      "NEWS.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7",
+    "Installed":      "installed/quazip/0.7",
+    "Source":         "src/quazip/0.7/quazip-0.7.tar.gz",
+    "Changelog":      "NEWS.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.2",
+    "Installed":      "installed/quazip/0.6.2",
+    "Source":         "src/quazip/0.6.2/quazip-0.6.2.tar.gz",
+    "Changelog":      "NEWS.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.1",
+    "Installed":      "installed/quazip/0.6.1",
+    "Source":         "src/quazip/0.6.1/quazip-0.6.1.tar.gz",
+    "Changelog":      "NEWS.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6",
+    "Installed":      "installed/quazip/0.6",
+    "Source":         "src/quazip/0.6/quazip-0.6.tar.gz",
+    "Changelog":      "NEWS.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.2",
+    "Installed":      "installed/quazip/0.5.2",
+    "Source":         "src/quazip/0.5.2/quazip-0.5.2.tar.gz",
+    "Changelog":      "NEWS.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.1",
+    "Installed":      "installed/quazip/0.5.1",
+    "Source":         "src/quazip/0.5.1/quazip-0.5.1.tar.gz",
+    "Changelog":      "NEWS.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5",
+    "Installed":      "installed/quazip/0.5",
+    "Source":         "src/quazip/0.5/quazip-0.5.tar.gz",
+    "Changelog":      "NEWS.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

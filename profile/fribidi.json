@@ -1,0 +1,84 @@
+{
+  "Name":           "fribidi",
+  "Title":          "GNU FriBidi",
+  "SourceUrl":      "https://github.com/behdad/fribidi/tags",
+  "OldSourceUrl":   "https://www.fribidi.org/download/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "sed -i -e 's/\$(srcdir)\/bootstrap --write-configure/echo XXX/' Makefile* ; sh bootstrap",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.10.9",
+  "SkipVersions":   [ "0_19_1" ],
+
+  "Versions": [
+  {
+    "Number":         "0.19.7",
+    "Installed":      "installed/fribidi/0.19.7",
+    "Source":         "src/fribidi/0.19.7/fribidi-0.19.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19.6",
+    "Installed":      "installed/fribidi/0.19.6",
+    "Source":         "src/fribidi/0.19.6/fribidi-0.19.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19.5",
+    "Installed":      "installed/fribidi/0.19.5",
+    "Source":         "src/fribidi/0.19.5/fribidi-0.19.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19.4",
+    "Installed":      "installed/fribidi/0.19.4",
+    "Source":         "src/fribidi/0.19.4/fribidi-0.19.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19.2",
+    "Installed":      "installed/fribidi/0.19.2",
+    "Source":         "src/fribidi/0.19.2/fribidi-0.19.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19.1",
+    "Installed":      "installed/fribidi/0.19.1",
+    "Source":         "src/fribidi/0.19.1/fribidi-0.19.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.9",
+    "Installed":      "installed/fribidi/0.10.9",
+    "Source":         "src/fribidi/0.10.9/fribidi-0.10.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

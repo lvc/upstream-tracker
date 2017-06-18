@@ -1,0 +1,53 @@
+{
+  "Name":           "flickcurl",
+  "Title":          "Flickcurl",
+  "SourceUrl":      "https://github.com/dajobe/flickcurl/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-static",
+  "PreInstall":     "git clone https://github.com/dajobe/libmtwist.git libmtwist;sed -i -e 's/ docs examples//' Makefile.am",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1_21",
+
+  "Versions": [
+  {
+    "Number":         "1_26",
+    "Installed":      "installed/flickcurl/1_26",
+    "Source":         "src/flickcurl/1_26/flickcurl_1_26.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_25",
+    "Installed":      "installed/flickcurl/1_25",
+    "Source":         "src/flickcurl/1_25/flickcurl_1_25.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_24",
+    "Installed":      "installed/flickcurl/1_24",
+    "Source":         "src/flickcurl/1_24/flickcurl_1_24.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_22",
+    "Installed":      "installed/flickcurl/1_22",
+    "Source":         "src/flickcurl/1_22/flickcurl_1_22.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,85 @@
+{
+  "Name":           "octave",
+  "Title":          "GNU Octave",
+  "SourceUrl":      "ftp://ftp.gnu.org/gnu/octave/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-java --disable-docs",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/octave/*/{oct,site} {INSTALL_TO}/lib/octave/site",
+  "HeadersDiff":    "Off",
+  "Make":           "-j2",
+  "MinimalVersion": "3.6.4",
+  "SkipVersions":   [ "4.0.0_0" ],
+
+  "Versions": [
+  {
+    "Number":         "4.2.1",
+    "Installed":      "installed/octave/4.2.1",
+    "Source":         "src/octave/4.2.1/octave-4.2.1.tar.lz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2.0",
+    "Installed":      "installed/octave/4.2.0",
+    "Source":         "src/octave/4.2.0/octave-4.2.0.tar.lz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.3",
+    "Installed":      "installed/octave/4.0.3",
+    "Source":         "src/octave/4.0.3/octave-4.0.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.2",
+    "Installed":      "installed/octave/4.0.2",
+    "Source":         "src/octave/4.0.2/octave-4.0.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.1",
+    "Installed":      "installed/octave/4.0.1",
+    "Source":         "src/octave/4.0.1/octave-4.0.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.0",
+    "Installed":      "installed/octave/4.0.0",
+    "Source":         "src/octave/4.0.0/octave-4.0.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.4",
+    "Installed":      "installed/octave/3.6.4",
+    "Source":         "src/octave/3.6.4/octave-3.6.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

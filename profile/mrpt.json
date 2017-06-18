@@ -1,0 +1,44 @@
+{
+  "Name":           "mrpt",
+  "Title":          "MRPT",
+  "SourceUrl":      "https://github.com/MRPT/mrpt/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DCMAKE_BUILD_TYPE=Release -DCMAKE_C_FLAGS_RELEASE='-g -Og -w -fpermissive' -DCMAKE_CXX_FLAGS_RELEASE='-g -Og -w -fpermissive' -DBUILD_TESTING=OFF -DDISABLE_PYTHON_BINDINGS=ON -DBUILD_APPLICATIONS=OFF -DASSIMP_BUILD_STATIC_LIB=OFF -DBUILD_EXAMPLES=OFF -DBUILD_ASSIMP=OFF",
+  "SkipObjects":    [ "libassimp-mrpt.so" ],
+  "HeadersDiff":    "Off",
+  "Make":           "-j4",
+  "MinimalVersion": "0.9.6",
+
+  "Versions": [
+  {
+    "Number":         "1.5.0",
+    "Installed":      "installed/mrpt/1.5.0",
+    "Source":         "src/mrpt/1.5.0/mrpt-1.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.0",
+    "Installed":      "installed/mrpt/1.4.0",
+    "Source":         "src/mrpt/1.4.0/mrpt-1.4.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.2",
+    "Installed":      "installed/mrpt/1.3.2",
+    "Source":         "src/mrpt/1.3.2/mrpt-1.3.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

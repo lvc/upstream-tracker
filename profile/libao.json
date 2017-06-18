@@ -1,0 +1,51 @@
+{
+  "Name":           "libao",
+  "SourceUrl":      "https://github.com/xiph/libao/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/ao",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.8.8",
+
+  "Versions": [
+  {
+    "Number":         "1.2.2",
+    "Installed":      "installed/libao/1.2.2",
+    "Source":         "src/libao/1.2.2/libao-1.2.2.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/libao/1.2.0",
+    "Source":         "src/libao/1.2.0/libao-1.2.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/libao/1.1.0",
+    "Source":         "src/libao/1.1.0/libao-1.1.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/libao/1.0.0",
+    "Source":         "src/libao/1.0.0/libao-1.0.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

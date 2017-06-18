@@ -1,7 +1,12 @@
+Upstream Tracker
+================
+
 NAME:
-  Upstream Tracker - a project to monitor and verify compatibility of upstream ABI changes in C/C++ libraries.
+  Upstream Tracker — a project to monitor and verify compatibility of upstream API/ABI changes in C/C++ libraries.
   
   Web: https://abi-laboratory.pro/tracker/
+  
+  JSON-format reports: https://github.com/lvc/abi-reports
   
   Please report an issue if you'd like to add some open-source library to the tracker.
   
@@ -9,16 +14,16 @@ NAME:
 
 REQUIRES:
   Perl 5
-  ABI Tracker (1.9 or newer)
-  ABI Monitor (1.10 or newer)
-  ABI Compliance Checker (1.99.25 or newer)
-  ABI Dumper (0.99.19 or newer)
-  PkgDiff (1.6.4 or newer)
+  ABI Tracker (1.10 or newer)
+  ABI Monitor (1.11 or newer)
+  ABI Compliance Checker (2.1 or newer)
+  ABI Dumper (1.0 or newer)
+  PkgDiff (1.7.2 or newer)
   
   You can use the installer to automatically download from github and install necessary tools: https://github.com/lvc/installer
 
 TEST PLAN:
-  The file "scripts/testplan" contains the list of libraries to be monitored. You can write several libraries in one line separated by semicolon if you want to handle these libraries one-by-one in the specific order on one CPU. Other libraries will be processed in parallel on two CPUs.
+  The file "scripts/testplan" contains the list of libraries to be monitored. You can write several libraries in one line separated by semicolon if you want to handle these libraries one-by-one in the specific order on one CPU. Other libraries will be processed in parallel on different CPUs.
 
 DAILY RUN:
   This script is used to organize daily runs of the ABI Tracker and ABI Monitor tools:

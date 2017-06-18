@@ -1,0 +1,53 @@
+{
+  "Name":           "opensaml",
+  "Title":          "OpenSAML",
+  "SourceUrl":      "http://shibboleth.net/downloads/c++-opensaml/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-log4shib={INSTALL_ROOT}/log4shib/1.0.9 --with-xerces={INSTALL_ROOT}/xerces-c/3.1.4 --with-xmlsec={INSTALL_ROOT}/xml-security-c/1.7.3 --with-xmltooling={INSTALL_ROOT}/xmltooling/1.6.0",
+  "PreInstall":     "sed -i -e 's/-O[0123]/-Og/g' configure",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.5.3",
+
+  "Versions": [
+  {
+    "Number":         "2.6.0",
+    "Installed":      "installed/opensaml/2.6.0",
+    "Source":         "src/opensaml/2.6.0/opensaml-2.6.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.5",
+    "Installed":      "installed/opensaml/2.5.5",
+    "Source":         "src/opensaml/2.5.5/opensaml-2.5.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.4",
+    "Installed":      "installed/opensaml/2.5.4",
+    "Source":         "src/opensaml/2.5.4/opensaml-2.5.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.3",
+    "Installed":      "installed/opensaml/2.5.3",
+    "Source":         "src/opensaml/2.5.3/opensaml-2.5.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

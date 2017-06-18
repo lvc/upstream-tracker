@@ -1,0 +1,80 @@
+{
+  "Name":           "glog",
+  "SourceUrl":      "https://github.com/google/glog/releases",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-static CXXFLAGS='-g -Og -I{INSTALL_ROOT}/gflags/2.2.0/include' LDFLAGS='-L{INSTALL_ROOT}/gflags/2.2.0/lib'",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.3.5",
+    "Installed":      "installed/glog/0.3.5",
+    "Source":         "src/glog/0.3.5/glog-0.3.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.4",
+    "Installed":      "installed/glog/0.3.4",
+    "Source":         "src/glog/0.3.4/glog-0.3.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.3",
+    "Installed":      "installed/glog/0.3.3",
+    "Source":         "src/glog/0.3.3/glog-0.3.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.2",
+    "Installed":      "installed/glog/0.3.2",
+    "Source":         "src/glog/0.3.2/glog-0.3.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.1",
+    "Installed":      "installed/glog/0.3.1",
+    "Source":         "src/glog/0.3.1/glog-0.3.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.0",
+    "Installed":      "installed/glog/0.3.0",
+    "Source":         "src/glog/0.3.0/glog-0.3.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.1",
+    "Installed":      "installed/glog/0.2.1",
+    "Source":         "src/glog/0.2.1/glog-0.2.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

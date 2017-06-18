@@ -18,6 +18,36 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "2.4",
+    "Installed":      "installed/x265/2.4",
+    "Source":         "src/x265/2.4/x265-2.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3",
+    "Installed":      "installed/x265/2.3",
+    "Source":         "src/x265/2.3/x265-2.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2",
+    "Installed":      "installed/x265/2.2",
+    "Source":         "src/x265/2.2/x265-2.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.1",
     "Installed":      "installed/x265/2.1",
     "Source":         "src/x265/2.1/x265-2.1.tar.gz",

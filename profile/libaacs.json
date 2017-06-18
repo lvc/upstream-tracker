@@ -1,0 +1,80 @@
+{
+  "Name":           "libaacs",
+  "SourceUrl":      "ftp://ftp.videolan.org/pub/videolan/libaacs/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "sed -i -e 's/-O[0123]/-Og/g' configure",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.9.0",
+    "Installed":      "installed/libaacs/0.9.0",
+    "Source":         "src/libaacs/0.9.0/libaacs-0.9.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.1",
+    "Installed":      "installed/libaacs/0.8.1",
+    "Source":         "src/libaacs/0.8.1/libaacs-0.8.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.0",
+    "Installed":      "installed/libaacs/0.8.0",
+    "Source":         "src/libaacs/0.8.0/libaacs-0.8.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.1",
+    "Installed":      "installed/libaacs/0.7.1",
+    "Source":         "src/libaacs/0.7.1/libaacs-0.7.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.0",
+    "Installed":      "installed/libaacs/0.7.0",
+    "Source":         "src/libaacs/0.7.0/libaacs-0.7.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.0",
+    "Installed":      "installed/libaacs/0.6.0",
+    "Source":         "src/libaacs/0.6.0/libaacs-0.6.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.0",
+    "Installed":      "installed/libaacs/0.3.0",
+    "Source":         "src/libaacs/0.3.0/libaacs-0.3.0.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

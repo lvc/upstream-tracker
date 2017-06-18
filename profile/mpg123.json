@@ -1,0 +1,221 @@
+{
+  "Name":           "mpg123",
+  "SourceUrl":      "https://sourceforge.net/projects/mpg123/files/mpg123/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/mpg123",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.18.1",
+
+  "Versions": [
+  {
+    "Number":         "1.25.0",
+    "Installed":      "installed/mpg123/1.25.0",
+    "Source":         "src/mpg123/1.25.0/mpg123-1.25.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.24.0",
+    "Installed":      "installed/mpg123/1.24.0",
+    "Source":         "src/mpg123/1.24.0/mpg123-1.24.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.23.8",
+    "Installed":      "installed/mpg123/1.23.8",
+    "Source":         "src/mpg123/1.23.8/mpg123-1.23.8.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.23.7",
+    "Installed":      "installed/mpg123/1.23.7",
+    "Source":         "src/mpg123/1.23.7/mpg123-1.23.7.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.23.6",
+    "Installed":      "installed/mpg123/1.23.6",
+    "Source":         "src/mpg123/1.23.6/mpg123-1.23.6.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.23.5",
+    "Installed":      "installed/mpg123/1.23.5",
+    "Source":         "src/mpg123/1.23.5/mpg123-1.23.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.23.4",
+    "Installed":      "installed/mpg123/1.23.4",
+    "Source":         "src/mpg123/1.23.4/mpg123-1.23.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.23.3",
+    "Installed":      "installed/mpg123/1.23.3",
+    "Source":         "src/mpg123/1.23.3/mpg123-1.23.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.23.2",
+    "Installed":      "installed/mpg123/1.23.2",
+    "Source":         "src/mpg123/1.23.2/mpg123-1.23.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.23.1",
+    "Installed":      "installed/mpg123/1.23.1",
+    "Source":         "src/mpg123/1.23.1/mpg123-1.23.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.23.0",
+    "Installed":      "installed/mpg123/1.23.0",
+    "Source":         "src/mpg123/1.23.0/mpg123-1.23.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.22.4",
+    "Installed":      "installed/mpg123/1.22.4",
+    "Source":         "src/mpg123/1.22.4/mpg123-1.22.4.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.22.3",
+    "Installed":      "installed/mpg123/1.22.3",
+    "Source":         "src/mpg123/1.22.3/mpg123-1.22.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.22.2",
+    "Installed":      "installed/mpg123/1.22.2",
+    "Source":         "src/mpg123/1.22.2/mpg123-1.22.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.22.1",
+    "Installed":      "installed/mpg123/1.22.1",
+    "Source":         "src/mpg123/1.22.1/mpg123-1.22.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.22.0",
+    "Installed":      "installed/mpg123/1.22.0",
+    "Source":         "src/mpg123/1.22.0/mpg123-1.22.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.21.0",
+    "Installed":      "installed/mpg123/1.21.0",
+    "Source":         "src/mpg123/1.21.0/mpg123-1.21.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.20.1",
+    "Installed":      "installed/mpg123/1.20.1",
+    "Source":         "src/mpg123/1.20.1/mpg123-1.20.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.20.0",
+    "Installed":      "installed/mpg123/1.20.0",
+    "Source":         "src/mpg123/1.20.0/mpg123-1.20.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.19.0",
+    "Installed":      "installed/mpg123/1.19.0",
+    "Source":         "src/mpg123/1.19.0/mpg123-1.19.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.18.1",
+    "Installed":      "installed/mpg123/1.18.1",
+    "Source":         "src/mpg123/1.18.1/mpg123-1.18.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

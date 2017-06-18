@@ -1,0 +1,52 @@
+{
+  "Name":           "qwtpolar",
+  "Title":          "QwtPolar",
+  "SourceUrl":      "https://sourceforge.net/projects/qwtpolar/files/qwtpolar/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/qwtpolar.sh",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.0.0",
+
+  "Versions": [
+  {
+    "Number":         "1.1.1",
+    "Installed":      "installed/qwtpolar/1.1.1",
+    "Source":         "src/qwtpolar/1.1.1/qwtpolar-1.1.1.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/qwtpolar/1.1.0",
+    "Source":         "src/qwtpolar/1.1.0/qwtpolar-1.1.0.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/qwtpolar/1.0.1",
+    "Source":         "src/qwtpolar/1.0.1/qwtpolar-1.0.1.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/qwtpolar/1.0.0",
+    "Source":         "src/qwtpolar/1.0.0/qwtpolar-1.0.0.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

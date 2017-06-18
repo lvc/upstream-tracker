@@ -1,0 +1,76 @@
+{
+  "Name":           "soci",
+  "Title":          "SOCI",
+  "SourceUrl":      "https://github.com/SOCI/soci/tags",
+  "Git":            "https://github.com/SOCI/soci.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DSOCI_TESTS=OFF -DSOCI_STATIC=OFF",
+  "BuildDir":       "src",
+  "Changelog":      "src/CHANGES",
+  "CurrentBuildDir": ".",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "3.1.0",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/soci/current",
+    "Source":         "src/soci/current",
+    "Changelog":      "src/CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.3",
+    "Installed":      "installed/soci/3.2.3",
+    "Source":         "src/soci/3.2.3/soci-3.2.3.tar.gz",
+    "Changelog":      "src/CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.2",
+    "Installed":      "installed/soci/3.2.2",
+    "Source":         "src/soci/3.2.2/soci-3.2.2.tar.gz",
+    "Changelog":      "src/CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.1",
+    "Installed":      "installed/soci/3.2.1",
+    "Source":         "src/soci/3.2.1/soci-3.2.1.tar.gz",
+    "Changelog":      "src/CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.0",
+    "Installed":      "installed/soci/3.2.0",
+    "Source":         "src/soci/3.2.0/soci-3.2.0.tar.gz",
+    "Changelog":      "src/CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.0",
+    "Installed":      "installed/soci/3.1.0",
+    "Source":         "src/soci/3.1.0/soci-3.1.0.tar.gz",
+    "Changelog":      "src/CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

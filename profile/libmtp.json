@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "1.1.13",
+    "Installed":      "installed/libmtp/1.1.13",
+    "Source":         "src/libmtp/1.1.13/libmtp-1.1.13.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.1.12",
     "Installed":      "installed/libmtp/1.1.12",
     "Source":         "src/libmtp/1.1.12/libmtp-1.1.12.tar.gz",

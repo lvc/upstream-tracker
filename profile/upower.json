@@ -1,0 +1,82 @@
+{
+  "Name":           "upower",
+  "Title":          "UPower",
+  "SourceUrl":      "https://upower.freedesktop.org/releases/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-systemdsystemunitdir={INSTALL_TO}/share --with-systemdutildir={INSTALL_TO}/share --with-udevrulesdir={INSTALL_TO}/share",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.9.22",
+
+  "Versions": [
+  {
+    "Number":         "0.99.4",
+    "Installed":      "installed/upower/0.99.4",
+    "Source":         "src/upower/0.99.4/upower-0.99.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.99.3",
+    "Installed":      "installed/upower/0.99.3",
+    "Source":         "src/upower/0.99.3/upower-0.99.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.99.2",
+    "Installed":      "installed/upower/0.99.2",
+    "Source":         "src/upower/0.99.2/upower-0.99.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.99.1",
+    "Installed":      "installed/upower/0.99.1",
+    "Source":         "src/upower/0.99.1/upower-0.99.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.99.0",
+    "Installed":      "installed/upower/0.99.0",
+    "Source":         "src/upower/0.99.0/upower-0.99.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.23",
+    "Installed":      "installed/upower/0.9.23",
+    "Source":         "src/upower/0.9.23/upower-0.9.23.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.22",
+    "Installed":      "installed/upower/0.9.22",
+    "Source":         "src/upower/0.9.22/upower-0.9.22.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

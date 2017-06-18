@@ -1,0 +1,74 @@
+{
+  "Name":           "portaudio",
+  "Title":          "PortAudio",
+  "SourceUrl":      "http://www.portaudio.com/archives/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-cxx",
+  "GraphFewXTics":  "On",
+  "HeadersDiff":    "Off",
+  "Package":        "pa_stable_v",
+  "ReleasePattern": "(\d+_\d+)\Z",
+
+  "Versions": [
+  {
+    "Number":         "190600_20161030",
+    "Installed":      "installed/portaudio/190600_20161030",
+    "Source":         "src/portaudio/190600_20161030/pa_stable_v190600_20161030.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "19_20140130",
+    "Installed":      "installed/portaudio/19_20140130",
+    "Source":         "src/portaudio/19_20140130/pa_stable_v19_20140130.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "19_20111121",
+    "Installed":      "installed/portaudio/19_20111121",
+    "Source":         "src/portaudio/19_20111121/pa_stable_v19_20111121.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "19_20110326",
+    "Installed":      "installed/portaudio/19_20110326",
+    "Source":         "src/portaudio/19_20110326/pa_stable_v19_20110326.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "19_20071207",
+    "Installed":      "installed/portaudio/19_20071207",
+    "Source":         "src/portaudio/19_20071207/pa_stable_v19_20071207.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "19_061121",
+    "Installed":      "installed/portaudio/19_061121",
+    "Source":         "src/portaudio/19_061121/pa_stable_v19_061121.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

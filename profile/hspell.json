@@ -1,0 +1,71 @@
+{
+  "Name":           "hspell",
+  "Title":          "Hspell",
+  "SourceUrl":      "http://hspell.ivrix.org.il/download.html",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.8",
+
+  "Versions": [
+  {
+    "Number":         "1.3",
+    "Installed":      "installed/hspell/1.3",
+    "Source":         "src/hspell/1.3/hspell-1.3.tar.gz",
+    "Changelog":      "WHATSNEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2",
+    "Installed":      "installed/hspell/1.2",
+    "Source":         "src/hspell/1.2/hspell-1.2.tar.gz",
+    "Changelog":      "WHATSNEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1",
+    "Installed":      "installed/hspell/1.1",
+    "Source":         "src/hspell/1.1/hspell-1.1.tar.gz",
+    "Changelog":      "WHATSNEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0",
+    "Installed":      "installed/hspell/1.0",
+    "Source":         "src/hspell/1.0/hspell-1.0.tar.gz",
+    "Changelog":      "WHATSNEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9",
+    "Installed":      "installed/hspell/0.9",
+    "Source":         "src/hspell/0.9/hspell-0.9.tar.gz",
+    "Changelog":      "WHATSNEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8",
+    "Installed":      "installed/hspell/0.8",
+    "Source":         "src/hspell/0.8/hspell-0.8.tar.gz",
+    "Changelog":      "WHATSNEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

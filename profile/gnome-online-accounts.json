@@ -1,0 +1,355 @@
+{
+  "Name":           "gnome-online-accounts",
+  "Title":          "GNOME Online Accounts",
+  "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/gnome-online-accounts/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/gtk+/3.22.15/lib/pkgconfig:{INSTALL_ROOT}/glib/2.51.0/lib/pkgconfig:{INSTALL_ROOT}/pango/1.40.3/lib/pkgconfig:{INSTALL_ROOT}/atk/2.22.0/lib/pkgconfig:{INSTALL_ROOT}/wayland/1.13.0/lib/pkgconfig:/home/Soft/wayland-protocols-1.7/share/pkgconfig/:/home/Soft/webkitgtk-2.16.0/lib64/pkgconfig/",
+  "SkipObjects":    [ "web-extensions/" ],
+  "HeadersDiff":    "Off",
+  "MakeGlobal":     "LD_LIBRARY_PATH='{INSTALL_ROOT}/wayland/1.13.0/lib'",
+  "MinimalVersion": "3.17",
+  "NumericBeta":    "On",
+
+  "Versions": [
+  {
+    "Number":         "3.24.1",
+    "Installed":      "installed/gnome-online-accounts/3.24.1",
+    "Source":         "src/gnome-online-accounts/3.24.1/gnome-online-accounts-3.24.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.24.0",
+    "Installed":      "installed/gnome-online-accounts/3.24.0",
+    "Source":         "src/gnome-online-accounts/3.24.0/gnome-online-accounts-3.24.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.23.4",
+    "Installed":      "installed/gnome-online-accounts/3.23.4",
+    "Source":         "src/gnome-online-accounts/3.23.4/gnome-online-accounts-3.23.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.23.3",
+    "Installed":      "installed/gnome-online-accounts/3.23.3",
+    "Source":         "src/gnome-online-accounts/3.23.3/gnome-online-accounts-3.23.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.22.5",
+    "Installed":      "installed/gnome-online-accounts/3.22.5",
+    "Source":         "src/gnome-online-accounts/3.22.5/gnome-online-accounts-3.22.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.22.4",
+    "Installed":      "installed/gnome-online-accounts/3.22.4",
+    "Source":         "src/gnome-online-accounts/3.22.4/gnome-online-accounts-3.22.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.22.3",
+    "Installed":      "installed/gnome-online-accounts/3.22.3",
+    "Source":         "src/gnome-online-accounts/3.22.3/gnome-online-accounts-3.22.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.22.2",
+    "Installed":      "installed/gnome-online-accounts/3.22.2",
+    "Source":         "src/gnome-online-accounts/3.22.2/gnome-online-accounts-3.22.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.22.1",
+    "Installed":      "installed/gnome-online-accounts/3.22.1",
+    "Source":         "src/gnome-online-accounts/3.22.1/gnome-online-accounts-3.22.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.22.0",
+    "Installed":      "installed/gnome-online-accounts/3.22.0",
+    "Source":         "src/gnome-online-accounts/3.22.0/gnome-online-accounts-3.22.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.21.4",
+    "Installed":      "installed/gnome-online-accounts/3.21.4",
+    "Source":         "src/gnome-online-accounts/3.21.4/gnome-online-accounts-3.21.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.21.3",
+    "Installed":      "installed/gnome-online-accounts/3.21.3",
+    "Source":         "src/gnome-online-accounts/3.21.3/gnome-online-accounts-3.21.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.21.1",
+    "Installed":      "installed/gnome-online-accounts/3.21.1",
+    "Source":         "src/gnome-online-accounts/3.21.1/gnome-online-accounts-3.21.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.20.7",
+    "Installed":      "installed/gnome-online-accounts/3.20.7",
+    "Source":         "src/gnome-online-accounts/3.20.7/gnome-online-accounts-3.20.7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.20.6",
+    "Installed":      "installed/gnome-online-accounts/3.20.6",
+    "Source":         "src/gnome-online-accounts/3.20.6/gnome-online-accounts-3.20.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.20.5",
+    "Installed":      "installed/gnome-online-accounts/3.20.5",
+    "Source":         "src/gnome-online-accounts/3.20.5/gnome-online-accounts-3.20.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.20.4",
+    "Installed":      "installed/gnome-online-accounts/3.20.4",
+    "Source":         "src/gnome-online-accounts/3.20.4/gnome-online-accounts-3.20.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.20.3",
+    "Installed":      "installed/gnome-online-accounts/3.20.3",
+    "Source":         "src/gnome-online-accounts/3.20.3/gnome-online-accounts-3.20.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.20.2",
+    "Installed":      "installed/gnome-online-accounts/3.20.2",
+    "Source":         "src/gnome-online-accounts/3.20.2/gnome-online-accounts-3.20.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.20.1",
+    "Installed":      "installed/gnome-online-accounts/3.20.1",
+    "Source":         "src/gnome-online-accounts/3.20.1/gnome-online-accounts-3.20.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.20.0",
+    "Installed":      "installed/gnome-online-accounts/3.20.0",
+    "Source":         "src/gnome-online-accounts/3.20.0/gnome-online-accounts-3.20.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.19.4",
+    "Installed":      "installed/gnome-online-accounts/3.19.4",
+    "Source":         "src/gnome-online-accounts/3.19.4/gnome-online-accounts-3.19.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.19.3",
+    "Installed":      "installed/gnome-online-accounts/3.19.3",
+    "Source":         "src/gnome-online-accounts/3.19.3/gnome-online-accounts-3.19.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.19.2",
+    "Installed":      "installed/gnome-online-accounts/3.19.2",
+    "Source":         "src/gnome-online-accounts/3.19.2/gnome-online-accounts-3.19.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.19.1",
+    "Installed":      "installed/gnome-online-accounts/3.19.1",
+    "Source":         "src/gnome-online-accounts/3.19.1/gnome-online-accounts-3.19.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.18.6",
+    "Installed":      "installed/gnome-online-accounts/3.18.6",
+    "Source":         "src/gnome-online-accounts/3.18.6/gnome-online-accounts-3.18.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.18.5",
+    "Installed":      "installed/gnome-online-accounts/3.18.5",
+    "Source":         "src/gnome-online-accounts/3.18.5/gnome-online-accounts-3.18.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.18.4",
+    "Installed":      "installed/gnome-online-accounts/3.18.4",
+    "Source":         "src/gnome-online-accounts/3.18.4/gnome-online-accounts-3.18.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.18.3",
+    "Installed":      "installed/gnome-online-accounts/3.18.3",
+    "Source":         "src/gnome-online-accounts/3.18.3/gnome-online-accounts-3.18.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.18.2.1",
+    "Installed":      "installed/gnome-online-accounts/3.18.2.1",
+    "Source":         "src/gnome-online-accounts/3.18.2.1/gnome-online-accounts-3.18.2.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.18.2",
+    "Installed":      "installed/gnome-online-accounts/3.18.2",
+    "Source":         "src/gnome-online-accounts/3.18.2/gnome-online-accounts-3.18.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.18.1",
+    "Installed":      "installed/gnome-online-accounts/3.18.1",
+    "Source":         "src/gnome-online-accounts/3.18.1/gnome-online-accounts-3.18.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.18.0",
+    "Installed":      "installed/gnome-online-accounts/3.18.0",
+    "Source":         "src/gnome-online-accounts/3.18.0/gnome-online-accounts-3.18.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.17.2",
+    "Installed":      "installed/gnome-online-accounts/3.17.2",
+    "Source":         "src/gnome-online-accounts/3.17.2/gnome-online-accounts-3.17.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

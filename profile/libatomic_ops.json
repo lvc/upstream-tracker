@@ -1,0 +1,100 @@
+{
+  "Name":           "libatomic_ops",
+  "SourceUrl":      "https://github.com/ivmai/libatomic_ops/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "LetterReleases": "On",
+
+  "Versions": [
+  {
+    "Number":         "7.6.0",
+    "Installed":      "installed/libatomic_ops/7.6.0",
+    "Source":         "src/libatomic_ops/7.6.0/libatomic_ops-7.6.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.4.6",
+    "Installed":      "installed/libatomic_ops/7.4.6",
+    "Source":         "src/libatomic_ops/7.4.6/libatomic_ops-7.4.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7_4_4",
+    "Installed":      "installed/libatomic_ops/7_4_4",
+    "Source":         "src/libatomic_ops/7_4_4/libatomic_ops-7_4_4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7_4_2",
+    "Installed":      "installed/libatomic_ops/7_4_2",
+    "Source":         "src/libatomic_ops/7_4_2/libatomic_ops-7_4_2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7_4_0",
+    "Installed":      "installed/libatomic_ops/7_4_0",
+    "Source":         "src/libatomic_ops/7_4_0/libatomic_ops-7_4_0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7_2",
+    "Installed":      "installed/libatomic_ops/7_2",
+    "Source":         "src/libatomic_ops/7_2/libatomic_ops-7_2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_2",
+    "Installed":      "installed/libatomic_ops/1_2",
+    "Source":         "src/libatomic_ops/1_2/libatomic_ops-1_2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_1",
+    "Installed":      "installed/libatomic_ops/1_1",
+    "Source":         "src/libatomic_ops/1_1/libatomic_ops-1_1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_0",
+    "Installed":      "installed/libatomic_ops/1_0",
+    "Source":         "src/libatomic_ops/1_0/libatomic_ops-1_0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

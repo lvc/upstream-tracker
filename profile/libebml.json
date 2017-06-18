@@ -1,0 +1,121 @@
+{
+  "Name":           "libebml",
+  "SourceUrl":      "https://dl.matroska.org/downloads/libebml/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/libebml.sh",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.7.8",
+
+  "Versions": [
+  {
+    "Number":         "1.3.4",
+    "Installed":      "installed/libebml/1.3.4",
+    "Source":         "src/libebml/1.3.4/libebml-1.3.4.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.3",
+    "Installed":      "installed/libebml/1.3.3",
+    "Source":         "src/libebml/1.3.3/libebml-1.3.3.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.2",
+    "Installed":      "installed/libebml/1.3.2",
+    "Source":         "src/libebml/1.3.2/libebml-1.3.2.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.1",
+    "Installed":      "installed/libebml/1.3.1",
+    "Source":         "src/libebml/1.3.1/libebml-1.3.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.0",
+    "Installed":      "installed/libebml/1.3.0",
+    "Source":         "src/libebml/1.3.0/libebml-1.3.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.2",
+    "Installed":      "installed/libebml/1.2.2",
+    "Source":         "src/libebml/1.2.2/libebml-1.2.2.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.1",
+    "Installed":      "installed/libebml/1.2.1",
+    "Source":         "src/libebml/1.2.1/libebml-1.2.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/libebml/1.2.0",
+    "Source":         "src/libebml/1.2.0/libebml-1.2.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/libebml/1.0.0",
+    "Source":         "src/libebml/1.0.0/libebml-1.0.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.0",
+    "Installed":      "installed/libebml/0.8.0",
+    "Source":         "src/libebml/0.8.0/libebml-0.8.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.8",
+    "Installed":      "installed/libebml/0.7.8",
+    "Source":         "src/libebml/0.7.8/libebml-0.7.8.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

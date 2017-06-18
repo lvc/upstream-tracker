@@ -4,11 +4,20 @@
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "HeadersDiff":    "Off",
-  "IncludePaths":   "",
   "IncludePreamble": "isl/aff.h",
-  "UseTUDump":      "1",
+  "UseTUDump":      "On",
 
   "Versions": [
+  {
+    "Number":         "0.18",
+    "Installed":      "installed/isl/0.18",
+    "Source":         "src/isl/0.18/isl-0.18.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "0.17.1",
     "Installed":      "installed/isl/0.17.1",

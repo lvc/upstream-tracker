@@ -1,0 +1,122 @@
+{
+  "Name":           "uriparser",
+  "SourceUrl":      "https://sourceforge.net/projects/uriparser/files/Sources/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-test --disable-doc --disable-static",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.7.4",
+  "UseTUDump":      "On",
+
+  "Versions": [
+  {
+    "Number":         "0.8.4",
+    "Installed":      "installed/uriparser/0.8.4",
+    "Source":         "src/uriparser/0.8.4/uriparser-0.8.4.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.3",
+    "Installed":      "installed/uriparser/0.8.3",
+    "Source":         "src/uriparser/0.8.3/uriparser-0.8.3.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.2",
+    "Installed":      "installed/uriparser/0.8.2",
+    "Source":         "src/uriparser/0.8.2/uriparser-0.8.2.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.1",
+    "Installed":      "installed/uriparser/0.8.1",
+    "Source":         "src/uriparser/0.8.1/uriparser-0.8.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.0.1",
+    "Installed":      "installed/uriparser/0.8.0.1",
+    "Source":         "src/uriparser/0.8.0.1/uriparser-0.8.0.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.0",
+    "Installed":      "installed/uriparser/0.8.0",
+    "Source":         "src/uriparser/0.8.0/uriparser-0.8.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.9",
+    "Installed":      "installed/uriparser/0.7.9",
+    "Source":         "src/uriparser/0.7.9/uriparser-0.7.9.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.8",
+    "Installed":      "installed/uriparser/0.7.8",
+    "Source":         "src/uriparser/0.7.8/uriparser-0.7.8.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.7",
+    "Installed":      "installed/uriparser/0.7.7",
+    "Source":         "src/uriparser/0.7.7/uriparser-0.7.7.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.6",
+    "Installed":      "installed/uriparser/0.7.6",
+    "Source":         "src/uriparser/0.7.6/uriparser-0.7.6.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.5",
+    "Installed":      "installed/uriparser/0.7.5",
+    "Source":         "src/uriparser/0.7.5/uriparser-0.7.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

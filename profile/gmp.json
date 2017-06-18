@@ -6,9 +6,19 @@
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "HeadersDiff":    "Off",
-  "UseTUDump":      "1",
+  "UseTUDump":      "On",
 
   "Versions": [
+  {
+    "Number":         "6.1.2",
+    "Installed":      "installed/gmp/6.1.2",
+    "Source":         "src/gmp/6.1.2/gmp-6.1.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "6.1.1",
     "Installed":      "installed/gmp/6.1.1",

@@ -9,6 +9,7 @@
   "SkipSymbols":    "filters/skip_symbols/glibc.list",
   "SkipInternalSymbols": ".*GLIBC_PRIVATE",
   "HeadersDiff":    "Off",
+  "MinimalVersion": "2.13",
 
   "Versions": [
   {
@@ -16,6 +17,16 @@
     "Installed":      "installed/glibc/current",
     "Source":         "src/glibc/current",
     "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.25",
+    "Installed":      "installed/glibc/2.25",
+    "Source":         "src/glibc/2.25/glibc-2.25.tar.xz",
+    "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",

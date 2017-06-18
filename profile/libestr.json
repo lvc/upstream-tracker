@@ -1,0 +1,121 @@
+{
+  "Name":           "libestr",
+  "SourceUrl":      "https://github.com/rsyslog/libestr/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "autoreconf --force --verbose --install",
+  "Changelog":      "ChangeLog",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.1.10",
+    "Installed":      "installed/libestr/0.1.10",
+    "Source":         "src/libestr/0.1.10/libestr-0.1.10.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.9",
+    "Installed":      "installed/libestr/0.1.9",
+    "Source":         "src/libestr/0.1.9/libestr-0.1.9.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.8",
+    "Installed":      "installed/libestr/0.1.8",
+    "Source":         "src/libestr/0.1.8/libestr-0.1.8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.7",
+    "Installed":      "installed/libestr/0.1.7",
+    "Source":         "src/libestr/0.1.7/libestr-0.1.7.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.6",
+    "Installed":      "installed/libestr/0.1.6",
+    "Source":         "src/libestr/0.1.6/libestr-0.1.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.5",
+    "Installed":      "installed/libestr/0.1.5",
+    "Source":         "src/libestr/0.1.5/libestr-0.1.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.4",
+    "Installed":      "installed/libestr/0.1.4",
+    "Source":         "src/libestr/0.1.4/libestr-0.1.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.3",
+    "Installed":      "installed/libestr/0.1.3",
+    "Source":         "src/libestr/0.1.3/libestr-0.1.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.2",
+    "Installed":      "installed/libestr/0.1.2",
+    "Source":         "src/libestr/0.1.2/libestr-0.1.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.1",
+    "Installed":      "installed/libestr/0.1.1",
+    "Source":         "src/libestr/0.1.1/libestr-0.1.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.0",
+    "Installed":      "installed/libestr/0.1.0",
+    "Source":         "src/libestr/0.1.0/libestr-0.1.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

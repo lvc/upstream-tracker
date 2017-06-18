@@ -1,0 +1,49 @@
+{
+  "Name":           "neon",
+  "SourceUrl":      "http://www.webdav.org/neon/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.30.2",
+    "Installed":      "installed/neon/0.30.2",
+    "Source":         "src/neon/0.30.2/neon-0.30.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.30.1",
+    "Installed":      "installed/neon/0.30.1",
+    "Source":         "src/neon/0.30.1/neon-0.30.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.30.0",
+    "Installed":      "installed/neon/0.30.0",
+    "Source":         "src/neon/0.30.0/neon-0.30.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.29.6",
+    "Installed":      "installed/neon/0.29.6",
+    "Source":         "src/neon/0.29.6/neon-0.29.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

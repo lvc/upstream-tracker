@@ -1,0 +1,111 @@
+{
+  "Name":           "gperftools",
+  "SourceUrl":      "https://github.com/gperftools/gperftools/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "NumericBeta":    "On",
+
+  "Versions": [
+  {
+    "Number":         "2.5.93",
+    "Installed":      "installed/gperftools/2.5.93",
+    "Source":         "src/gperftools/2.5.93/gperftools-2.5.93.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.91",
+    "Installed":      "installed/gperftools/2.5.91",
+    "Source":         "src/gperftools/2.5.91/gperftools-2.5.91.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.5",
+    "Installed":      "installed/gperftools/2.5",
+    "Source":         "src/gperftools/2.5/gperftools-2.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4",
+    "Installed":      "installed/gperftools/2.4",
+    "Source":         "src/gperftools/2.4/gperftools-2.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3",
+    "Installed":      "installed/gperftools/2.3",
+    "Source":         "src/gperftools/2.3/gperftools-2.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.1",
+    "Installed":      "installed/gperftools/2.2.1",
+    "Source":         "src/gperftools/2.2.1/gperftools-2.2.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2",
+    "Installed":      "installed/gperftools/2.2",
+    "Source":         "src/gperftools/2.2/gperftools-2.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1",
+    "Installed":      "installed/gperftools/2.1",
+    "Source":         "src/gperftools/2.1/gperftools-2.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0",
+    "Installed":      "installed/gperftools/2.0",
+    "Source":         "src/gperftools/2.0/gperftools-2.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10",
+    "Installed":      "installed/gperftools/1.10",
+    "Source":         "src/gperftools/1.10/gperftools-google-perftools-1.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

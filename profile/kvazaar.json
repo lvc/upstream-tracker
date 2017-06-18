@@ -4,9 +4,19 @@
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "HeadersDiff":    "Off",
-  "UseTUDump":      "1",
+  "UseTUDump":      "On",
 
   "Versions": [
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/kvazaar/1.1.0",
+    "Source":         "src/kvazaar/1.1.0/kvazaar-1.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "1.0.0",
     "Installed":      "installed/kvazaar/1.0.0",

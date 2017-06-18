@@ -1,0 +1,94 @@
+{
+  "Name":           "alglib",
+  "Title":          "ALGLIB",
+  "SourceUrl":      "http://www.alglib.net/translator/re/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/alglib.sh",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "3.6.0",
+  "Package":        "alglib-{V}.cpp.gpl",
+  "Soname":         "Off",
+
+  "Versions": [
+  {
+    "Number":         "3.11.0",
+    "Installed":      "installed/alglib/3.11.0",
+    "Source":         "src/alglib/3.11.0/alglib-3.11.0.cpp.gpl.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.10.0",
+    "Installed":      "installed/alglib/3.10.0",
+    "Source":         "src/alglib/3.10.0/alglib-3.10.0.cpp.gpl.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.9.0",
+    "Installed":      "installed/alglib/3.9.0",
+    "Source":         "src/alglib/3.9.0/alglib-3.9.0.cpp.gpl.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.8.2",
+    "Installed":      "installed/alglib/3.8.2",
+    "Source":         "src/alglib/3.8.2/alglib-3.8.2.cpp.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.8.1",
+    "Installed":      "installed/alglib/3.8.1",
+    "Source":         "src/alglib/3.8.1/alglib-3.8.1.cpp.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.8.0",
+    "Installed":      "installed/alglib/3.8.0",
+    "Source":         "src/alglib/3.8.0/alglib-3.8.0.cpp.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7.0",
+    "Installed":      "installed/alglib/3.7.0",
+    "Source":         "src/alglib/3.7.0/alglib-3.7.0.cpp.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.0",
+    "Installed":      "installed/alglib/3.6.0",
+    "Source":         "src/alglib/3.6.0/alglib-3.6.0.cpp.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

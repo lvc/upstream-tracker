@@ -1,0 +1,101 @@
+{
+  "Name":           "libechonest",
+  "SourceUrl":      "https://github.com/lfranchi/libechonest/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DCMAKE_PREFIX_PATH={INSTALL_ROOT}/qjson/0.5.0",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.2.1",
+
+  "Versions": [
+  {
+    "Number":         "2.3.1",
+    "Installed":      "installed/libechonest/2.3.1",
+    "Source":         "src/libechonest/2.3.1/libechonest-2.3.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.0",
+    "Installed":      "installed/libechonest/2.3.0",
+    "Source":         "src/libechonest/2.3.0/libechonest-2.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.0",
+    "Installed":      "installed/libechonest/2.2.0",
+    "Source":         "src/libechonest/2.2.0/libechonest-2.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.0",
+    "Installed":      "installed/libechonest/2.1.0",
+    "Source":         "src/libechonest/2.1.0/libechonest-2.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.3",
+    "Installed":      "installed/libechonest/2.0.3",
+    "Source":         "src/libechonest/2.0.3/libechonest-2.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.2",
+    "Installed":      "installed/libechonest/2.0.2",
+    "Source":         "src/libechonest/2.0.2/libechonest-2.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.1",
+    "Installed":      "installed/libechonest/2.0.1",
+    "Source":         "src/libechonest/2.0.1/libechonest-2.0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0",
+    "Installed":      "installed/libechonest/2.0.0",
+    "Source":         "src/libechonest/2.0.0/libechonest-2.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.1",
+    "Installed":      "installed/libechonest/1.2.1",
+    "Source":         "src/libechonest/1.2.1/libechonest-1.2.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

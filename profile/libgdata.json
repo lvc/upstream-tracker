@@ -1,0 +1,301 @@
+{
+  "Name":           "libgdata",
+  "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/libgdata/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-vala=no --enable-introspection=no PKG_CONFIG_PATH='{INSTALL_ROOT}/gtk+/3.22.12/lib/pkgconfig'",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.10",
+
+  "Versions": [
+  {
+    "Number":         "0.17.8",
+    "Installed":      "installed/libgdata/0.17.8",
+    "Source":         "src/libgdata/0.17.8/libgdata-0.17.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.17.7",
+    "Installed":      "installed/libgdata/0.17.7",
+    "Source":         "src/libgdata/0.17.7/libgdata-0.17.7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.17.6",
+    "Installed":      "installed/libgdata/0.17.6",
+    "Source":         "src/libgdata/0.17.6/libgdata-0.17.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.17.5",
+    "Installed":      "installed/libgdata/0.17.5",
+    "Source":         "src/libgdata/0.17.5/libgdata-0.17.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.17.4",
+    "Installed":      "installed/libgdata/0.17.4",
+    "Source":         "src/libgdata/0.17.4/libgdata-0.17.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.17.3",
+    "Installed":      "installed/libgdata/0.17.3",
+    "Source":         "src/libgdata/0.17.3/libgdata-0.17.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.17.2",
+    "Installed":      "installed/libgdata/0.17.2",
+    "Source":         "src/libgdata/0.17.2/libgdata-0.17.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.17.1",
+    "Installed":      "installed/libgdata/0.17.1",
+    "Source":         "src/libgdata/0.17.1/libgdata-0.17.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.17.0",
+    "Installed":      "installed/libgdata/0.17.0",
+    "Source":         "src/libgdata/0.17.0/libgdata-0.17.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16.1",
+    "Installed":      "installed/libgdata/0.16.1",
+    "Source":         "src/libgdata/0.16.1/libgdata-0.16.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16.0",
+    "Installed":      "installed/libgdata/0.16.0",
+    "Source":         "src/libgdata/0.16.0/libgdata-0.16.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.15.2",
+    "Installed":      "installed/libgdata/0.15.2",
+    "Source":         "src/libgdata/0.15.2/libgdata-0.15.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.15.1",
+    "Installed":      "installed/libgdata/0.15.1",
+    "Source":         "src/libgdata/0.15.1/libgdata-0.15.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.15.0",
+    "Installed":      "installed/libgdata/0.15.0",
+    "Source":         "src/libgdata/0.15.0/libgdata-0.15.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14.3",
+    "Installed":      "installed/libgdata/0.14.3",
+    "Source":         "src/libgdata/0.14.3/libgdata-0.14.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14.2",
+    "Installed":      "installed/libgdata/0.14.2",
+    "Source":         "src/libgdata/0.14.2/libgdata-0.14.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14.1",
+    "Installed":      "installed/libgdata/0.14.1",
+    "Source":         "src/libgdata/0.14.1/libgdata-0.14.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14.0",
+    "Installed":      "installed/libgdata/0.14.0",
+    "Source":         "src/libgdata/0.14.0/libgdata-0.14.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13.4",
+    "Installed":      "installed/libgdata/0.13.4",
+    "Source":         "src/libgdata/0.13.4/libgdata-0.13.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13.3",
+    "Installed":      "installed/libgdata/0.13.3",
+    "Source":         "src/libgdata/0.13.3/libgdata-0.13.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13.2",
+    "Installed":      "installed/libgdata/0.13.2",
+    "Source":         "src/libgdata/0.13.2/libgdata-0.13.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13.1",
+    "Installed":      "installed/libgdata/0.13.1",
+    "Source":         "src/libgdata/0.13.1/libgdata-0.13.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13.0",
+    "Installed":      "installed/libgdata/0.13.0",
+    "Source":         "src/libgdata/0.13.0/libgdata-0.13.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.12.0",
+    "Installed":      "installed/libgdata/0.12.0",
+    "Source":         "src/libgdata/0.12.0/libgdata-0.12.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.1",
+    "Installed":      "installed/libgdata/0.11.1",
+    "Source":         "src/libgdata/0.11.1/libgdata-0.11.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.0",
+    "Installed":      "installed/libgdata/0.11.0",
+    "Source":         "src/libgdata/0.11.0/libgdata-0.11.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.2",
+    "Installed":      "installed/libgdata/0.10.2",
+    "Source":         "src/libgdata/0.10.2/libgdata-0.10.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.1",
+    "Installed":      "installed/libgdata/0.10.1",
+    "Source":         "src/libgdata/0.10.1/libgdata-0.10.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.0",
+    "Installed":      "installed/libgdata/0.10.0",
+    "Source":         "src/libgdata/0.10.0/libgdata-0.10.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

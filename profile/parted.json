@@ -1,0 +1,92 @@
+{
+  "Name":           "parted",
+  "Title":          "GNU Parted",
+  "SourceUrl":      "http://ftp.gnu.org/gnu/parted/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.9.0",
+  "PreInstall1":    "sed -i -e 's/_GL_WARN_ON_USE (gets/\/\//g' lib/stdio.in.h",
+
+  "Versions": [
+  {
+    "Number":         "3.2",
+    "Installed":      "installed/parted/3.2",
+    "Source":         "src/parted/3.2/parted-3.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1",
+    "Installed":      "installed/parted/3.1",
+    "Source":         "src/parted/3.1/parted-3.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0",
+    "Installed":      "installed/parted/3.0",
+    "Source":         "src/parted/3.0/parted-3.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4",
+    "Installed":      "installed/parted/2.4",
+    "Source":         "src/parted/2.4/parted-2.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3",
+    "Installed":      "installed/parted/2.3",
+    "Source":         "src/parted/2.3/parted-2.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2",
+    "Installed":      "installed/parted/2.2",
+    "Source":         "src/parted/2.2/parted-2.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1",
+    "Installed":      "installed/parted/2.1",
+    "Source":         "src/parted/2.1/parted-2.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.0",
+    "Installed":      "installed/parted/1.9.0",
+    "Source":         "src/parted/1.9.0/parted-1.9.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,89 @@
+{
+  "Name":           "ogre",
+  "Title":          "OGRE",
+  "SourceUrl":      "https://github.com/OGRECave/ogre/tags",
+  "Git":            "https://github.com/OGRECave/ogre.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DOGRE_INSTALL_DOCS=OFF -DOGRE_INSTALL_SAMPLES=OFF -DOGRE_INSTALL_TOOLS=OFF -DOGRE_BUILD_TOOLS=OFF -DOGRE_BUILD_SAMPLES=OFF -DOGRE_BUILD_COMPONENT_PYTHON=OFF -DFREETYPE_INCLUDE_DIR={INSTALL_ROOT}/freetype/2.7.1/include/ -DOGRE_CONFIG_CONTAINERS_USE_CUSTOM_ALLOCATOR=ON -DOGRE_BUILD_PLUGIN_BSP=OFF -DOGRE_BUILD_PLUGIN_EXRCODEC=OFF -DOGRE_BUILD_PLUGIN_OCTREE=OFF -DOGRE_BUILD_PLUGIN_PCZ=OFF -DOGRE_BUILD_PLUGIN_PFX=OFF",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/OGRE/",
+  "HeadersDiff":    "Off",
+  "LatestMicro":    "On",
+  "Make":           "-j4",
+  "MinimalVersion": "1.6.5",
+  "SourceCompat":   "On",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/ogre/current",
+    "Source":         "src/ogre/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.5",
+    "Installed":      "installed/ogre/1.10.5",
+    "Source":         "src/ogre/1.10.5/ogre-1.10.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.4",
+    "Installed":      "installed/ogre/1.10.4",
+    "Source":         "src/ogre/1.10.4/ogre-1.10.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.10.3",
+    "Installed":      "installed/ogre/1.10.3",
+    "Source":         "src/ogre/1.10.3/ogre-1.10.3.tar.gz",
+    "Changelog":      "Docs/1.10-Notes.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.9.0",
+    "Installed":      "installed/ogre/1.9.0",
+    "Source":         "src/ogre/1.9.0/sinbad-ogre-dd30349ea667.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.1",
+    "Installed":      "installed/ogre/1.8.1",
+    "Source":         "src/ogre/1.8.1/sinbad-ogre-525a7f3bcd4e.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.3",
+    "Installed":      "installed/ogre/1.7.3",
+    "Source":         "src/ogre/1.7.3/sinbad-ogre-548833a16388.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

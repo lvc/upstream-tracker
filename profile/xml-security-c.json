@@ -1,0 +1,84 @@
+{
+  "Name":           "xml-security-c",
+  "Title":          "XML Security C",
+  "SourceUrl":      "http://archive.apache.org/dist/santuario/c-library/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-xerces={INSTALL_ROOT}/xerces-c/3.1.4",
+  "PreInstall":     "sed -i -e 's/-O[0123]/-Og/g' configure",
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.5.1",
+
+  "Versions": [
+  {
+    "Number":         "1.7.3",
+    "Installed":      "installed/xml-security-c/1.7.3",
+    "Source":         "src/xml-security-c/1.7.3/xml-security-c-1.7.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.2",
+    "Installed":      "installed/xml-security-c/1.7.2",
+    "Source":         "src/xml-security-c/1.7.2/xml-security-c-1.7.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.1",
+    "Installed":      "installed/xml-security-c/1.7.1",
+    "Source":         "src/xml-security-c/1.7.1/xml-security-c-1.7.1.tar.gz",
+    "Changelog":      "CHANGELOG.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.0",
+    "Installed":      "installed/xml-security-c/1.7.0",
+    "Source":         "src/xml-security-c/1.7.0/xml-security-c-1.7.0.tar.gz",
+    "Changelog":      "CHANGELOG.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.1",
+    "Installed":      "installed/xml-security-c/1.6.1",
+    "Source":         "src/xml-security-c/1.6.1/xml-security-c-1.6.1.tar.gz",
+    "Changelog":      "CHANGELOG.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.0",
+    "Installed":      "installed/xml-security-c/1.6.0",
+    "Source":         "src/xml-security-c/1.6.0/xml-security-c-1.6.0.tar.gz",
+    "Changelog":      "CHANGELOG.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.1",
+    "Installed":      "installed/xml-security-c/1.5.1",
+    "Source":         "src/xml-security-c/1.5.1/xml-security-c-1.5.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

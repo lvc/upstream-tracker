@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "5.2.3",
+    "Installed":      "installed/xz/5.2.3",
+    "Source":         "src/xz/5.2.3/xz-5.2.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "5.2.2",
     "Installed":      "installed/xz/5.2.2",
     "Source":         "src/xz/5.2.2/xz-5.2.2.tar.xz",

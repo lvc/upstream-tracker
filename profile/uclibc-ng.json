@@ -1,0 +1,272 @@
+{
+  "Name":           "uclibc-ng",
+  "Title":          "uClibc-ng",
+  "SourceUrl":      "https://downloads.uclibc-ng.org/releases/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/uclibc-ng.sh",
+  "SkipObjects":    [ "ld64-.*" ],
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.0.25",
+    "Installed":      "installed/uclibc-ng/1.0.25",
+    "Source":         "src/uclibc-ng/1.0.25/uClibc-ng-1.0.25.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.24",
+    "Installed":      "installed/uclibc-ng/1.0.24",
+    "Source":         "src/uclibc-ng/1.0.24/uClibc-ng-1.0.24.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.23",
+    "Installed":      "installed/uclibc-ng/1.0.23",
+    "Source":         "src/uclibc-ng/1.0.23/uClibc-ng-1.0.23.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.22",
+    "Installed":      "installed/uclibc-ng/1.0.22",
+    "Source":         "src/uclibc-ng/1.0.22/uClibc-ng-1.0.22.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.21",
+    "Installed":      "installed/uclibc-ng/1.0.21",
+    "Source":         "src/uclibc-ng/1.0.21/uClibc-ng-1.0.21.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.20",
+    "Installed":      "installed/uclibc-ng/1.0.20",
+    "Source":         "src/uclibc-ng/1.0.20/uClibc-ng-1.0.20.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.19",
+    "Installed":      "installed/uclibc-ng/1.0.19",
+    "Source":         "src/uclibc-ng/1.0.19/uClibc-ng-1.0.19.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.18",
+    "Installed":      "installed/uclibc-ng/1.0.18",
+    "Source":         "src/uclibc-ng/1.0.18/uClibc-ng-1.0.18.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.17",
+    "Installed":      "installed/uclibc-ng/1.0.17",
+    "Source":         "src/uclibc-ng/1.0.17/uClibc-ng-1.0.17.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.16",
+    "Installed":      "installed/uclibc-ng/1.0.16",
+    "Source":         "src/uclibc-ng/1.0.16/uClibc-ng-1.0.16.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.15",
+    "Installed":      "installed/uclibc-ng/1.0.15",
+    "Source":         "src/uclibc-ng/1.0.15/uClibc-ng-1.0.15.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.14",
+    "Installed":      "installed/uclibc-ng/1.0.14",
+    "Source":         "src/uclibc-ng/1.0.14/uClibc-ng-1.0.14.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.13",
+    "Installed":      "installed/uclibc-ng/1.0.13",
+    "Source":         "src/uclibc-ng/1.0.13/uClibc-ng-1.0.13.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.12",
+    "Installed":      "installed/uclibc-ng/1.0.12",
+    "Source":         "src/uclibc-ng/1.0.12/uClibc-ng-1.0.12.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.11",
+    "Installed":      "installed/uclibc-ng/1.0.11",
+    "Source":         "src/uclibc-ng/1.0.11/uClibc-ng-1.0.11.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.10",
+    "Installed":      "installed/uclibc-ng/1.0.10",
+    "Source":         "src/uclibc-ng/1.0.10/uClibc-ng-1.0.10.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.9",
+    "Installed":      "installed/uclibc-ng/1.0.9",
+    "Source":         "src/uclibc-ng/1.0.9/uClibc-ng-1.0.9.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.8",
+    "Installed":      "installed/uclibc-ng/1.0.8",
+    "Source":         "src/uclibc-ng/1.0.8/uClibc-ng-1.0.8.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.7",
+    "Installed":      "installed/uclibc-ng/1.0.7",
+    "Source":         "src/uclibc-ng/1.0.7/uClibc-ng-1.0.7.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.6",
+    "Installed":      "installed/uclibc-ng/1.0.6",
+    "Source":         "src/uclibc-ng/1.0.6/uClibc-ng-1.0.6.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.5",
+    "Installed":      "installed/uclibc-ng/1.0.5",
+    "Source":         "src/uclibc-ng/1.0.5/uClibc-ng-1.0.5.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.4",
+    "Installed":      "installed/uclibc-ng/1.0.4",
+    "Source":         "src/uclibc-ng/1.0.4/uClibc-ng-1.0.4.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.3",
+    "Installed":      "installed/uclibc-ng/1.0.3",
+    "Source":         "src/uclibc-ng/1.0.3/uClibc-ng-1.0.3.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.2",
+    "Installed":      "installed/uclibc-ng/1.0.2",
+    "Source":         "src/uclibc-ng/1.0.2/uClibc-ng-1.0.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/uclibc-ng/1.0.1",
+    "Source":         "src/uclibc-ng/1.0.1/uClibc-ng-1.0.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/uclibc-ng/1.0.0",
+    "Source":         "src/uclibc-ng/1.0.0/uClibc-ng-1.0.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

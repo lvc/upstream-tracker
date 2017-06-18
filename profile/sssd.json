@@ -1,0 +1,265 @@
+{
+  "Name":           "sssd",
+  "Title":          "SSSD",
+  "SourceUrl":      "https://fedorahosted.org/released/sssd/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-sss-default-nss-plugin --disable-krb5-locator-plugin --disable-cifs-idmap-plugin --without-nfsv4-idmapd-plugin --without-samba --without-secrets --disable-config-lib --without-python3-bindings --with-python2-bindings --without-semanage --without-selinux --with-ldb-lib-dir={INSTALL_TO}/share --datadir={INSTALL_TO}/share --with-winbind-plugin-path={INSTALL_TO}/share",
+  "PreInstall":     "mkdir -p {INSTALL_TO}/share ; sed -i -e 's/\(mv $(DESTDIR)\/$(winbindplugindir)\/winbind_idmap_sss.so\)/#\1/' Makefile.in",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/{sssd,security,ldb}",
+  "SkipObjects":    [ "sssd/", "security/", "libnss_sss.so", "libsss_sudo.so", "site-packages/" ],
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.9.0",
+
+  "Versions": [
+  {
+    "Number":         "1.15.2",
+    "Installed":      "installed/sssd/1.15.2",
+    "Source":         "src/sssd/1.15.2/sssd-1.15.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.1",
+    "Installed":      "installed/sssd/1.15.1",
+    "Source":         "src/sssd/1.15.1/sssd-1.15.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.0",
+    "Installed":      "installed/sssd/1.15.0",
+    "Source":         "src/sssd/1.15.0/sssd-1.15.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.2",
+    "Installed":      "installed/sssd/1.14.2",
+    "Source":         "src/sssd/1.14.2/sssd-1.14.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.1",
+    "Installed":      "installed/sssd/1.14.1",
+    "Source":         "src/sssd/1.14.1/sssd-1.14.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.0",
+    "Installed":      "installed/sssd/1.14.0",
+    "Source":         "src/sssd/1.14.0/sssd-1.14.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.4",
+    "Installed":      "installed/sssd/1.13.4",
+    "Source":         "src/sssd/1.13.4/sssd-1.13.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.3",
+    "Installed":      "installed/sssd/1.13.3",
+    "Source":         "src/sssd/1.13.3/sssd-1.13.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.2",
+    "Installed":      "installed/sssd/1.13.2",
+    "Source":         "src/sssd/1.13.2/sssd-1.13.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.1",
+    "Installed":      "installed/sssd/1.13.1",
+    "Source":         "src/sssd/1.13.1/sssd-1.13.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.0",
+    "Installed":      "installed/sssd/1.13.0",
+    "Source":         "src/sssd/1.13.0/sssd-1.13.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.5",
+    "Installed":      "installed/sssd/1.12.5",
+    "Source":         "src/sssd/1.12.5/sssd-1.12.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.4",
+    "Installed":      "installed/sssd/1.12.4",
+    "Source":         "src/sssd/1.12.4/sssd-1.12.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.3",
+    "Installed":      "installed/sssd/1.12.3",
+    "Source":         "src/sssd/1.12.3/sssd-1.12.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.2",
+    "Installed":      "installed/sssd/1.12.2",
+    "Source":         "src/sssd/1.12.2/sssd-1.12.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.1",
+    "Installed":      "installed/sssd/1.12.1",
+    "Source":         "src/sssd/1.12.1/sssd-1.12.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.0",
+    "Installed":      "installed/sssd/1.12.0",
+    "Source":         "src/sssd/1.12.0/sssd-1.12.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.8",
+    "Installed":      "installed/sssd/1.11.8",
+    "Source":         "src/sssd/1.11.8/sssd-1.11.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.7",
+    "Installed":      "installed/sssd/1.11.7",
+    "Source":         "src/sssd/1.11.7/sssd-1.11.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.6",
+    "Installed":      "installed/sssd/1.11.6",
+    "Source":         "src/sssd/1.11.6/sssd-1.11.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.7",
+    "Installed":      "installed/sssd/1.9.7",
+    "Source":         "src/sssd/1.9.7/sssd-1.9.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.6",
+    "Installed":      "installed/sssd/1.9.6",
+    "Source":         "src/sssd/1.9.6/sssd-1.9.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.5",
+    "Installed":      "installed/sssd/1.9.5",
+    "Source":         "src/sssd/1.9.5/sssd-1.9.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.1",
+    "Installed":      "installed/sssd/1.9.1",
+    "Source":         "src/sssd/1.9.1/sssd-1.9.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.0",
+    "Installed":      "installed/sssd/1.9.0",
+    "Source":         "src/sssd/1.9.0/sssd-1.9.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

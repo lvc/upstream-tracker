@@ -1,0 +1,150 @@
+{
+  "Name":           "libtirpc",
+  "SourceUrl":      "https://sourceforge.net/projects/libtirpc/files/libtirpc/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/libtirpc/1.0.1",
+    "Source":         "src/libtirpc/1.0.1/libtirpc-1.0.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.2",
+    "Installed":      "installed/libtirpc/0.3.2",
+    "Source":         "src/libtirpc/0.3.2/libtirpc-0.3.2.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.1",
+    "Installed":      "installed/libtirpc/0.3.1",
+    "Source":         "src/libtirpc/0.3.1/libtirpc-0.3.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.0",
+    "Installed":      "installed/libtirpc/0.3.0",
+    "Source":         "src/libtirpc/0.3.0/libtirpc-0.3.0.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.5",
+    "Installed":      "installed/libtirpc/0.2.5",
+    "Source":         "src/libtirpc/0.2.5/libtirpc-0.2.5.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.4",
+    "Installed":      "installed/libtirpc/0.2.4",
+    "Source":         "src/libtirpc/0.2.4/libtirpc-0.2.4.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.3",
+    "Installed":      "installed/libtirpc/0.2.3",
+    "Source":         "src/libtirpc/0.2.3/libtirpc-0.2.3.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.2",
+    "Installed":      "installed/libtirpc/0.2.2",
+    "Source":         "src/libtirpc/0.2.2/libtirpc-0.2.2.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.1",
+    "Installed":      "installed/libtirpc/0.2.1",
+    "Source":         "src/libtirpc/0.2.1/libtirpc-0.2.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.0",
+    "Installed":      "installed/libtirpc/0.2.0",
+    "Source":         "src/libtirpc/0.2.0/libtirpc-0.2.0.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.11",
+    "Installed":      "installed/libtirpc/0.1.11",
+    "Source":         "src/libtirpc/0.1.11/libtirpc-0.1.11.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.10",
+    "Installed":      "installed/libtirpc/0.1.10",
+    "Source":         "src/libtirpc/0.1.10/libtirpc-0.1.10.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.9",
+    "Installed":      "installed/libtirpc/0.1.9",
+    "Source":         "src/libtirpc/0.1.9/libtirpc-0.1.9.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.8",
+    "Installed":      "installed/libtirpc/0.1.8",
+    "Source":         "src/libtirpc/0.1.8/libtirpc-0.1.8.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

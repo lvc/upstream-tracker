@@ -1,0 +1,175 @@
+{
+  "Name":           "hunspell",
+  "Title":          "Hunspell",
+  "SourceUrl":      "https://github.com/hunspell/hunspell/tags",
+  "OldSourceUrl":   "http://pkgs.fedoraproject.org/repo/pkgs/hunspell/",
+  "OldSourceUrlDepth": "3",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "autoreconf --force --verbose --install",
+  "Changelog":      "ChangeLog",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.2.12",
+
+  "Versions": [
+  {
+    "Number":         "1.6.1",
+    "Installed":      "installed/hunspell/1.6.1",
+    "Source":         "src/hunspell/1.6.1/hunspell-1.6.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.0",
+    "Installed":      "installed/hunspell/1.6.0",
+    "Source":         "src/hunspell/1.6.0/hunspell-1.6.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.4",
+    "Installed":      "installed/hunspell/1.5.4",
+    "Source":         "src/hunspell/1.5.4/hunspell-1.5.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.3",
+    "Installed":      "installed/hunspell/1.5.3",
+    "Source":         "src/hunspell/1.5.3/hunspell-1.5.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.2",
+    "Installed":      "installed/hunspell/1.5.2",
+    "Source":         "src/hunspell/1.5.2/hunspell-1.5.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.1",
+    "Installed":      "installed/hunspell/1.5.1",
+    "Source":         "src/hunspell/1.5.1/hunspell-1.5.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.2",
+    "Installed":      "installed/hunspell/1.4.2",
+    "Source":         "src/hunspell/1.4.2/hunspell-1.4.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.1",
+    "Installed":      "installed/hunspell/1.4.1",
+    "Source":         "src/hunspell/1.4.1/hunspell-1.4.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.0",
+    "Installed":      "installed/hunspell/1.4.0",
+    "Source":         "src/hunspell/1.4.0/hunspell-1.4.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.4",
+    "Installed":      "installed/hunspell/1.3.4",
+    "Source":         "src/hunspell/1.3.4/hunspell-1.3.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.3",
+    "Installed":      "installed/hunspell/1.3.3",
+    "Source":         "src/hunspell/1.3.3/hunspell-1.3.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.2",
+    "Installed":      "installed/hunspell/1.3.2",
+    "Source":         "src/hunspell/1.3.2/hunspell-1.3.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.15",
+    "Installed":      "installed/hunspell/1.2.15",
+    "Source":         "src/hunspell/1.2.15/hunspell-1.2.15.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.14",
+    "Installed":      "installed/hunspell/1.2.14",
+    "Source":         "src/hunspell/1.2.14/hunspell-1.2.14.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.13",
+    "Installed":      "installed/hunspell/1.2.13",
+    "Source":         "src/hunspell/1.2.13/hunspell-1.2.13.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.12",
+    "Installed":      "installed/hunspell/1.2.12",
+    "Source":         "src/hunspell/1.2.12/hunspell-1.2.12.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,95 @@
+{
+  "Name":           "ginac",
+  "Title":          "GiNaC",
+  "SourceUrl":      "https://www.ginac.de/Download.html",
+  "SourceUrlDepth": "1",
+  "OldSourceUrl":   "http://pkgs.fedoraproject.org/repo/pkgs/ginac/",
+  "OldSourceUrlDepth": "4",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/cln/1.3.4/lib/pkgconfig",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.4.4",
+
+  "Versions": [
+  {
+    "Number":         "1.7.2",
+    "Installed":      "installed/ginac/1.7.2",
+    "Source":         "src/ginac/1.7.2/ginac-1.7.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.1",
+    "Installed":      "installed/ginac/1.7.1",
+    "Source":         "src/ginac/1.7.1/ginac-1.7.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.0",
+    "Installed":      "installed/ginac/1.7.0",
+    "Source":         "src/ginac/1.7.0/ginac-1.7.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.7",
+    "Installed":      "installed/ginac/1.6.7",
+    "Source":         "src/ginac/1.6.7/ginac-1.6.7.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.5",
+    "Installed":      "installed/ginac/1.6.5",
+    "Source":         "src/ginac/1.6.5/ginac-1.6.5.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.3",
+    "Installed":      "installed/ginac/1.6.3",
+    "Source":         "src/ginac/1.6.3/ginac-1.6.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.2",
+    "Installed":      "installed/ginac/1.6.2",
+    "Source":         "src/ginac/1.6.2/ginac-1.6.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.8",
+    "Installed":      "installed/ginac/1.5.8",
+    "Source":         "src/ginac/1.5.8/ginac-1.5.8.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

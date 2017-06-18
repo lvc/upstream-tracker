@@ -1,0 +1,52 @@
+{
+  "Name":           "mediastreamer",
+  "Title":          "Mediastreamer",
+  "SourceUrl":      "http://www.linphone.org/releases/sources/mediastreamer/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "Configure":      "--disable-ffmpeg --disable-tests PKG_CONFIG_PATH={INSTALL_ROOT}/ffmpeg/3.2.4/lib/pkgconfig:{INSTALL_ROOT}/bctoolbox/0.5.1/lib/pkgconfig:/home/Soft/oRTP-235e5175b2/lib/pkgconfig",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.15.1",
+    "Installed":      "installed/mediastreamer/2.15.1",
+    "Source":         "src/mediastreamer/2.15.1/mediastreamer-2.15.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.14.0",
+    "Installed":      "installed/mediastreamer/2.14.0",
+    "Source":         "src/mediastreamer/2.14.0/mediastreamer-2.14.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.12.1",
+    "Installed":      "installed/mediastreamer/2.12.1",
+    "Source":         "src/mediastreamer/2.12.1/mediastreamer-2.12.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.12.0",
+    "Installed":      "installed/mediastreamer/2.12.0",
+    "Source":         "src/mediastreamer/2.12.0/mediastreamer-2.12.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,112 @@
+{
+  "Name":           "pcl",
+  "Title":          "PCL",
+  "SourceUrl":      "https://github.com/PointCloudLibrary/pcl/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DBUILD_TESTS=OFF -DBUILD_global_tests=OFF -DBUILD_examples=OFF -DCMAKE_PREFIX_PATH=/home/Soft/Eigen-3.0.4/",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/pcl/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.8.0",
+    "Installed":      "installed/pcl/1.8.0",
+    "Source":         "src/pcl/1.8.0/pcl-1.8.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.2",
+    "Installed":      "installed/pcl/1.7.2",
+    "Source":         "src/pcl/1.7.2/pcl-1.7.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.1",
+    "Installed":      "installed/pcl/1.7.1",
+    "Source":         "src/pcl/1.7.1/pcl-1.7.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.0",
+    "Installed":      "installed/pcl/1.7.0",
+    "Source":         "src/pcl/1.7.0/pcl-1.7.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.0",
+    "Installed":      "installed/pcl/1.6.0",
+    "Source":         "src/pcl/1.6.0/pcl-1.6.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.1",
+    "Installed":      "installed/pcl/1.5.1",
+    "Source":         "src/pcl/1.5.1/pcl-1.5.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.0",
+    "Installed":      "installed/pcl/1.5.0",
+    "Source":         "src/pcl/1.5.0/pcl-1.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.0",
+    "Installed":      "installed/pcl/1.4.0",
+    "Source":         "src/pcl/1.4.0/pcl-1.4.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.1",
+    "Installed":      "installed/pcl/1.3.1",
+    "Source":         "src/pcl/1.3.1/pcl-1.3.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.2",
+    "Installed":      "installed/pcl/1.1.2",
+    "Source":         "src/pcl/1.1.2/pcl-1.1.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,50 @@
+{
+  "Name":           "fifechan",
+  "Title":          "FIFECHAN",
+  "SourceUrl":      "https://github.com/fifengine/fifechan/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.1.4",
+    "Installed":      "installed/fifechan/0.1.4",
+    "Source":         "src/fifechan/0.1.4/fifechan-0.1.4.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.3",
+    "Installed":      "installed/fifechan/0.1.3",
+    "Source":         "src/fifechan/0.1.3/fifechan-0.1.3.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.2",
+    "Installed":      "installed/fifechan/0.1.2",
+    "Source":         "src/fifechan/0.1.2/fifechan-0.1.2.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.1",
+    "Installed":      "installed/fifechan/0.1.1",
+    "Source":         "src/fifechan/0.1.1/fifechan-0.1.1.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

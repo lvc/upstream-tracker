@@ -1,0 +1,154 @@
+{
+  "Name":           "bullet",
+  "Title":          "Bullet",
+  "SourceUrl":      "https://github.com/bulletphysics/bullet3/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "CMake",
+  "CMakeConfigure": "-DUSE_GRAPHICAL_BENCHMARK=OFF -DBUILD_UNIT_TESTS=OFF -DBUILD_OPENGL3_DEMOS=OFF -DBUILD_EXTRAS=OFF -DBUILD_CPU_DEMOS=OFF -DBUILD_BULLET2_DEMOS=OFF -DCMAKE_CXX_FLAGS_DEBUG='-g -Og' -DCMAKE_CXX_FLAGS_RELEASE='-g -Og'",
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+  "PreInstall1":    "sed -i -e 's/-O[0123]/-Og/g' src/*/*/*/flags.make",
+
+  "Versions": [
+  {
+    "Number":         "2.86.1",
+    "Installed":      "installed/bullet/2.86.1",
+    "Source":         "src/bullet/2.86.1/bullet-2.86.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.86",
+    "Installed":      "installed/bullet/2.86",
+    "Source":         "src/bullet/2.86/bullet-2.86.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.85.1",
+    "Installed":      "installed/bullet/2.85.1",
+    "Source":         "src/bullet/2.85.1/bullet-2.85.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.85",
+    "Installed":      "installed/bullet/2.85",
+    "Source":         "src/bullet/2.85/bullet-2.85.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.84",
+    "Installed":      "installed/bullet/2.84",
+    "Source":         "src/bullet/2.84/bullet-2.84.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.83.7",
+    "Installed":      "installed/bullet/2.83.7",
+    "Source":         "src/bullet/2.83.7/bullet-2.83.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.83.6",
+    "Installed":      "installed/bullet/2.83.6",
+    "Source":         "src/bullet/2.83.6/bullet-2.83.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.83.5",
+    "Installed":      "installed/bullet/2.83.5",
+    "Source":         "src/bullet/2.83.5/bullet-2.83.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.83.4",
+    "Installed":      "installed/bullet/2.83.4",
+    "Source":         "src/bullet/2.83.4/bullet-2.83.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.83",
+    "Installed":      "installed/bullet/2.83",
+    "Source":         "src/bullet/2.83/bullet-2.83.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.82",
+    "Installed":      "installed/bullet/2.82",
+    "Source":         "src/bullet/2.82/bullet-2.82.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.81",
+    "Installed":      "installed/bullet/2.81",
+    "Source":         "src/bullet/2.81/bullet-2.81-rev2613.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.80",
+    "Installed":      "installed/bullet/2.80",
+    "Source":         "src/bullet/2.80/bullet-2.80-rev2531.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.79",
+    "Installed":      "installed/bullet/2.79",
+    "Source":         "src/bullet/2.79/bullet-2.79-rev2440.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

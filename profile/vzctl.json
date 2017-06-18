@@ -1,0 +1,196 @@
+{
+  "Name":           "vzctl",
+  "SourceUrl":      "https://download.openvz.org/utils/vzctl/",
+  "SourceUrlDepth": "3",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--without-ploop --without-vz --disable-bashcomp",
+  "PostInstall":    "mv ./src/lib/.libs/*.so {INSTALL_TO}/lib/;mv include/* {INSTALL_TO}/include/",
+  "SkipObjects":    [ "libvzchown-1.0.so" ],
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+  "Install":        "Off",
+  "MinimalVersion": "3.1",
+
+  "Versions": [
+  {
+    "Number":         "4.9.4",
+    "Installed":      "installed/vzctl/4.9.4",
+    "Source":         "src/vzctl/4.9.4/vzctl-4.9.4.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.9.3",
+    "Installed":      "installed/vzctl/4.9.3",
+    "Source":         "src/vzctl/4.9.3/vzctl-4.9.3.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.9.2",
+    "Installed":      "installed/vzctl/4.9.2",
+    "Source":         "src/vzctl/4.9.2/vzctl-4.9.2.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.9.1",
+    "Installed":      "installed/vzctl/4.9.1",
+    "Source":         "src/vzctl/4.9.1/vzctl-4.9.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.9",
+    "Installed":      "installed/vzctl/4.9",
+    "Source":         "src/vzctl/4.9/vzctl-4.9.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.8",
+    "Installed":      "installed/vzctl/4.8",
+    "Source":         "src/vzctl/4.8/vzctl-4.8.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.7.2",
+    "Installed":      "installed/vzctl/4.7.2",
+    "Source":         "src/vzctl/4.7.2/vzctl-4.7.2.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.7",
+    "Installed":      "installed/vzctl/4.7",
+    "Source":         "src/vzctl/4.7/vzctl-4.7.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.1",
+    "Installed":      "installed/vzctl/4.6.1",
+    "Source":         "src/vzctl/4.6.1/vzctl-4.6.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6",
+    "Installed":      "installed/vzctl/4.6",
+    "Source":         "src/vzctl/4.6/vzctl-4.6.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.1",
+    "Installed":      "installed/vzctl/4.5.1",
+    "Source":         "src/vzctl/4.5.1/vzctl-4.5.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5",
+    "Installed":      "installed/vzctl/4.5",
+    "Source":         "src/vzctl/4.5/vzctl-4.5.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4",
+    "Installed":      "installed/vzctl/4.4",
+    "Source":         "src/vzctl/4.4/vzctl-4.4.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2",
+    "Installed":      "installed/vzctl/4.2",
+    "Source":         "src/vzctl/4.2/vzctl-4.2.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.2",
+    "Installed":      "installed/vzctl/4.1.2",
+    "Source":         "src/vzctl/4.1.2/vzctl-4.1.2.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.1",
+    "Installed":      "installed/vzctl/4.1.1",
+    "Source":         "src/vzctl/4.1.1/vzctl-4.1.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1",
+    "Installed":      "installed/vzctl/4.1",
+    "Source":         "src/vzctl/4.1/vzctl-4.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0",
+    "Installed":      "installed/vzctl/4.0",
+    "Source":         "src/vzctl/4.0/vzctl-4.0.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

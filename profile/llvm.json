@@ -1,0 +1,98 @@
+{
+  "Name":           "llvm",
+  "Title":          "LLVM",
+  "SourceUrl":      "http://releases.llvm.org/download.html",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "CMake",
+  "SkipObjects":    [ "libLLVM.+(Info|CodeGen|Printer|Desc|Disassembler|Driver)\.so.*", "libLLVM.+AsmParser\.so.*", "libLLVMGlobalISel.so", "libLLVMX86Utils.so", "libLLVMAMDGPUUtils.so", "libLLVMAArch64Utils.so", "BugpointPasses.so", "LLVMHello.so" ],
+  "ClearInstalled": "Off",
+  "HeadersDiff":    "Off",
+  "LambdaSupport":  "On",
+  "Make":           "-j2",
+  "MinimalVersion": "3.0",
+  "PostInstall1":   "cp -fr include/* {INSTALL_TO}/include/",
+  "PostInstall_Old": "find {INSTALL_TO}/lib/ -regex '.*libLLVM.+\(Info\|CodeGen\|Printer\|Desc\|Disassembler\|Driver\)\.so.*'|xargs rm -f",
+
+  "Versions": [
+  {
+    "Number":         "4.0.0",
+    "Installed":      "installed/llvm/4.0.0",
+    "Source":         "src/llvm/4.0.0/llvm-4.0.0.src.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.9.1",
+    "Installed":      "installed/llvm/3.9.1",
+    "Source":         "src/llvm/3.9.1/llvm-3.9.1.src.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.9.0",
+    "Installed":      "installed/llvm/3.9.0",
+    "Source":         "src/llvm/3.9.0/llvm-3.9.0.src.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.8.1",
+    "Installed":      "installed/llvm/3.8.1",
+    "Source":         "src/llvm/3.8.1/llvm-3.8.1.src.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.8.0",
+    "Installed":      "installed/llvm/3.8.0",
+    "Source":         "src/llvm/3.8.0/llvm-3.8.0.src.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7.1",
+    "Installed":      "installed/llvm/3.7.1",
+    "Source":         "src/llvm/3.7.1/llvm-3.7.1.src.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7.0",
+    "Installed":      "installed/llvm/3.7.0",
+    "Source":         "src/llvm/3.7.0/llvm-3.7.0.src.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.2",
+    "Installed":      "installed/llvm/3.6.2",
+    "Source":         "src/llvm/3.6.2/llvm-3.6.2.src.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

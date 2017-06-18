@@ -1,0 +1,43 @@
+{
+  "Name":           "libchipcard",
+  "SourceUrl":      "https://github.com/aqbanking/libchipcard/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-static --disable-gwenhywfar CFLAGS='-g -Og -I{INSTALL_ROOT}/gwenhywfar/4.15.3/include/gwenhywfar4' LDFLAGS='-lgwenhywfar -L{INSTALL_ROOT}/gwenhywfar/4.15.3/lib'",
+  "PreInstall":     "sed -i -e 's/ tools ct//g' src/Makefile.am",
+  "Changelog":      "Off",
+  "ConfigureGlobal": "LD_LIBRARY_PATH={INSTALL_ROOT}/gwenhywfar/4.15.3/lib",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "5.1.0beta",
+    "Installed":      "installed/libchipcard/5.1.0beta",
+    "Source":         "src/libchipcard/5.1.0beta/libchipcard-5.1.0beta.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.4",
+    "Installed":      "installed/libchipcard/5.0.4",
+    "Source":         "src/libchipcard/5.0.4/libchipcard-5.0.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.2",
+    "Installed":      "installed/libchipcard/5.0.2",
+    "Source":         "src/libchipcard/5.0.2/libchipcard-5.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

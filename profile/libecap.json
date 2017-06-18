@@ -1,0 +1,60 @@
+{
+  "Name":           "libecap",
+  "SourceUrl":      "http://www.measurement-factory.com/tmp/ecap/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Changelog":      "change.log",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/libecap/1.0.1",
+    "Source":         "src/libecap/1.0.1/libecap-1.0.1.tar.gz",
+    "Changelog":      "change.log",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/libecap/1.0.0",
+    "Source":         "src/libecap/1.0.0/libecap-1.0.0.tar.gz",
+    "Changelog":      "change.log",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.0",
+    "Installed":      "installed/libecap/0.2.0",
+    "Source":         "src/libecap/0.2.0/libecap-0.2.0.tar.gz",
+    "Changelog":      "change.log",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.0",
+    "Installed":      "installed/libecap/0.1.0",
+    "Source":         "src/libecap/0.1.0/libecap-0.1.0.tar.gz",
+    "Changelog":      "change.log",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.0.3",
+    "Installed":      "installed/libecap/0.0.3",
+    "Source":         "src/libecap/0.0.3/libecap-0.0.3.tar.gz",
+    "Changelog":      "change.log",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

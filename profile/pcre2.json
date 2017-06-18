@@ -1,0 +1,73 @@
+{
+  "Name":           "pcre2",
+  "Title":          "PCRE2",
+  "SourceUrl":      "https://sourceforge.net/projects/pcre/files/pcre2/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "HeadersDiff":    "Off",
+  "IncludeDefines": "PCRE2_CODE_UNIT_WIDTH 8",
+  "UseTUDump":      "On",
+
+  "Versions": [
+  {
+    "Number":         "10.23",
+    "Installed":      "installed/pcre2/10.23",
+    "Source":         "src/pcre2/10.23/pcre2-10.23.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.22",
+    "Installed":      "installed/pcre2/10.22",
+    "Source":         "src/pcre2/10.22/pcre2-10.22.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.21",
+    "Installed":      "installed/pcre2/10.21",
+    "Source":         "src/pcre2/10.21/pcre2-10.21.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.20",
+    "Installed":      "installed/pcre2/10.20",
+    "Source":         "src/pcre2/10.20/pcre2-10.20.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.10",
+    "Installed":      "installed/pcre2/10.10",
+    "Source":         "src/pcre2/10.10/pcre2-10.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.00",
+    "Installed":      "installed/pcre2/10.00",
+    "Source":         "src/pcre2/10.00/pcre2-10.00.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

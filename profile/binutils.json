@@ -1,0 +1,122 @@
+{
+  "Name":           "binutils",
+  "Title":          "GNU Binutils",
+  "SourceUrl":      "https://ftp.gnu.org/gnu/binutils/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PostInstall":    "rm -fr {INSTALL_TO}/x86_64-pc-linux-gnu/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.22",
+
+  "Versions": [
+  {
+    "Number":         "2.28",
+    "Installed":      "installed/binutils/2.28",
+    "Source":         "src/binutils/2.28/binutils-2.28.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.27",
+    "Installed":      "installed/binutils/2.27",
+    "Source":         "src/binutils/2.27/binutils-2.27.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.26.1",
+    "Installed":      "installed/binutils/2.26.1",
+    "Source":         "src/binutils/2.26.1/binutils-2.26.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.26",
+    "Installed":      "installed/binutils/2.26",
+    "Source":         "src/binutils/2.26/binutils-2.26.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.25.1",
+    "Installed":      "installed/binutils/2.25.1",
+    "Source":         "src/binutils/2.25.1/binutils-2.25.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.25",
+    "Installed":      "installed/binutils/2.25",
+    "Source":         "src/binutils/2.25/binutils-2.25.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.24",
+    "Installed":      "installed/binutils/2.24",
+    "Source":         "src/binutils/2.24/binutils-2.24.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.23.2",
+    "Installed":      "installed/binutils/2.23.2",
+    "Source":         "src/binutils/2.23.2/binutils-2.23.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.23.1",
+    "Installed":      "installed/binutils/2.23.1",
+    "Source":         "src/binutils/2.23.1/binutils-2.23.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.23",
+    "Installed":      "installed/binutils/2.23",
+    "Source":         "src/binutils/2.23/binutils-2.23.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.22",
+    "Installed":      "installed/binutils/2.22",
+    "Source":         "src/binutils/2.22/binutils-2.22.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

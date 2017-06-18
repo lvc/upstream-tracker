@@ -1,0 +1,62 @@
+{
+  "Name":           "libgdiplus",
+  "SourceUrl":      "https://github.com/mono/libgdiplus/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "SkipHeaders":    [ ".*-private\.h" ],
+  "Changelog":      "Off",
+  "CopyHeaders":    [ "src" ],
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "5.4",
+    "Installed":      "installed/libgdiplus/5.4",
+    "Source":         "src/libgdiplus/5.4/libgdiplus-5.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2",
+    "Installed":      "installed/libgdiplus/4.2",
+    "Source":         "src/libgdiplus/4.2/libgdiplus-4.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.12",
+    "Installed":      "installed/libgdiplus/3.12",
+    "Source":         "src/libgdiplus/3.12/libgdiplus-3.12.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.8",
+    "Installed":      "installed/libgdiplus/3.8",
+    "Source":         "src/libgdiplus/3.8/libgdiplus-3.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6",
+    "Installed":      "installed/libgdiplus/3.6",
+    "Source":         "src/libgdiplus/3.6/libgdiplus-3.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

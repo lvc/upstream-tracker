@@ -1,0 +1,109 @@
+{
+  "Name":           "libiconv",
+  "SourceUrl":      "http://ftp.gnu.org/pub/gnu/libiconv/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.15",
+    "Installed":      "installed/libiconv/1.15",
+    "Source":         "src/libiconv/1.15/libiconv-1.15.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.1",
+    "Installed":      "installed/libiconv/1.13.1",
+    "Source":         "src/libiconv/1.13.1/libiconv-1.13.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13",
+    "Installed":      "installed/libiconv/1.13",
+    "Source":         "src/libiconv/1.13/libiconv-1.13.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12",
+    "Installed":      "installed/libiconv/1.12",
+    "Source":         "src/libiconv/1.12/libiconv-1.12.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.1",
+    "Installed":      "installed/libiconv/1.11.1",
+    "Source":         "src/libiconv/1.11.1/libiconv-1.11.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11",
+    "Installed":      "installed/libiconv/1.11",
+    "Source":         "src/libiconv/1.11/libiconv-1.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10",
+    "Installed":      "installed/libiconv/1.10",
+    "Source":         "src/libiconv/1.10/libiconv-1.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.2",
+    "Installed":      "installed/libiconv/1.9.2",
+    "Source":         "src/libiconv/1.9.2/libiconv-1.9.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.1",
+    "Installed":      "installed/libiconv/1.9.1",
+    "Source":         "src/libiconv/1.9.1/libiconv-1.9.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8",
+    "Installed":      "installed/libiconv/1.8",
+    "Source":         "src/libiconv/1.8/libiconv-1.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

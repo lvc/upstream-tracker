@@ -1,0 +1,34 @@
+{
+  "Name":           "smpeg",
+  "Title":          "SMPEG",
+  "SourceUrl":      "https://github.com/Distrotech/smpeg/releases",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-gtk-player --enable-gtk-player=no --disable-gtktest --without-x",
+  "PreInstall":     "sed -i -e 's/AM_PATH_GTK(.\+)//g' configure.in",
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+  "Package":        "release_",
+
+  "Versions": [
+  {
+    "Number":         "2_0_0",
+    "Installed":      "installed/smpeg/2_0_0",
+    "Source":         "src/smpeg/2_0_0/release_2_0_0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0_4_5",
+    "Installed":      "installed/smpeg/0_4_5",
+    "Source":         "src/smpeg/0_4_5/release_0_4_5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

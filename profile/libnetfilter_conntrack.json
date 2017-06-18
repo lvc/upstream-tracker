@@ -1,0 +1,102 @@
+{
+  "Name":           "libnetfilter_conntrack",
+  "SourceUrl":      "ftp://ftp.netfilter.org/pub/libnetfilter_conntrack/",
+  "SourceUrlDepth": "1",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.9.0",
+
+  "Versions": [
+  {
+    "Number":         "1.0.6",
+    "Installed":      "installed/libnetfilter_conntrack/1.0.6",
+    "Source":         "src/libnetfilter_conntrack/1.0.6/libnetfilter_conntrack-1.0.6.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.5",
+    "Installed":      "installed/libnetfilter_conntrack/1.0.5",
+    "Source":         "src/libnetfilter_conntrack/1.0.5/libnetfilter_conntrack-1.0.5.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.4",
+    "Installed":      "installed/libnetfilter_conntrack/1.0.4",
+    "Source":         "src/libnetfilter_conntrack/1.0.4/libnetfilter_conntrack-1.0.4.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.3",
+    "Installed":      "installed/libnetfilter_conntrack/1.0.3",
+    "Source":         "src/libnetfilter_conntrack/1.0.3/libnetfilter_conntrack-1.0.3.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.2",
+    "Installed":      "installed/libnetfilter_conntrack/1.0.2",
+    "Source":         "src/libnetfilter_conntrack/1.0.2/libnetfilter_conntrack-1.0.2.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/libnetfilter_conntrack/1.0.1",
+    "Source":         "src/libnetfilter_conntrack/1.0.1/libnetfilter_conntrack-1.0.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/libnetfilter_conntrack/1.0.0",
+    "Source":         "src/libnetfilter_conntrack/1.0.0/libnetfilter_conntrack-1.0.0.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.1",
+    "Installed":      "installed/libnetfilter_conntrack/0.9.1",
+    "Source":         "src/libnetfilter_conntrack/0.9.1/libnetfilter_conntrack-0.9.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.0",
+    "Installed":      "installed/libnetfilter_conntrack/0.9.0",
+    "Source":         "src/libnetfilter_conntrack/0.9.0/libnetfilter_conntrack-0.9.0.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

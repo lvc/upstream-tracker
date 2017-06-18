@@ -1,0 +1,51 @@
+{
+  "Name":           "speex",
+  "SourceUrl":      "http://downloads.xiph.org/releases/speex/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.1.11",
+
+  "Versions": [
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/speex/1.2.0",
+    "Source":         "src/speex/1.2.0/speex-1.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.12",
+    "Installed":      "installed/speex/1.1.12",
+    "Source":         "src/speex/1.1.12/speex-1.1.12.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.11.1",
+    "Installed":      "installed/speex/1.1.11.1",
+    "Source":         "src/speex/1.1.11.1/speex-1.1.11.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.11",
+    "Installed":      "installed/speex/1.1.11",
+    "Source":         "src/speex/1.1.11/speex-1.1.11.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

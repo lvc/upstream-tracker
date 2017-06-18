@@ -1,0 +1,55 @@
+{
+  "Name":           "aqbanking",
+  "Title":          "AqBanking",
+  "SourceUrl":      "https://github.com/aqbanking/aqbanking/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-tutorials --disable-cli --disable-init-plugins --with-gwen-dir={INSTALL_ROOT}/gwenhywfar/4.16.0beta/ PKG_CONFIG_PATH={INSTALL_ROOT}/ktoblzcheck/1.49/lib/pkgconfig:{INSTALL_ROOT}/xmlsec/1.2.24/lib/pkgconfig",
+  "PreInstall":     "autoreconf --force --verbose --install;make sources",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/aqbanking",
+  "SkipObjects":    [ "libaqnone.so" ],
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "5.7.6beta",
+    "Installed":      "installed/aqbanking/5.7.6beta",
+    "Source":         "src/aqbanking/5.7.6beta/aqbanking-5.7.6beta.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.6.12",
+    "Installed":      "installed/aqbanking/5.6.12",
+    "Source":         "src/aqbanking/5.6.12/aqbanking-5.6.12.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.6.11",
+    "Installed":      "installed/aqbanking/5.6.11",
+    "Source":         "src/aqbanking/5.6.11/aqbanking-5.6.11.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.6.10",
+    "Installed":      "installed/aqbanking/5.6.10",
+    "Source":         "src/aqbanking/5.6.10/aqbanking-5.6.10.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

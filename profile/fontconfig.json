@@ -19,6 +19,26 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "2.12.3",
+    "Installed":      "installed/fontconfig/2.12.3",
+    "Source":         "src/fontconfig/2.12.3/fontconfig-2.12.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.12.2",
+    "Installed":      "installed/fontconfig/2.12.2",
+    "Source":         "src/fontconfig/2.12.2/fontconfig-2.12.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.12.1",
     "Installed":      "installed/fontconfig/2.12.1",
     "Source":         "src/fontconfig/2.12.1/fontconfig-2.12.1.tar.gz",

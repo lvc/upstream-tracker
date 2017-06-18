@@ -1,0 +1,704 @@
+{
+  "Name":           "libav",
+  "Title":          "Libav",
+  "SourceUrl":      "https://libav.org/releases/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/libav.sh",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.7",
+  "ShowTotalProblems": "On",
+  "SourceCompat":   "On",
+
+  "Versions": [
+  {
+    "Number":         "12.1",
+    "Installed":      "installed/libav/12.1",
+    "Source":         "src/libav/12.1/libav-12.1.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         12,
+    "Installed":      "installed/libav/12",
+    "Source":         "src/libav/12/libav-12.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "11.9",
+    "Installed":      "installed/libav/11.9",
+    "Source":         "src/libav/11.9/libav-11.9.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "11.8",
+    "Installed":      "installed/libav/11.8",
+    "Source":         "src/libav/11.8/libav-11.8.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "11.7",
+    "Installed":      "installed/libav/11.7",
+    "Source":         "src/libav/11.7/libav-11.7.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "11.6",
+    "Installed":      "installed/libav/11.6",
+    "Source":         "src/libav/11.6/libav-11.6.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "11.5",
+    "Installed":      "installed/libav/11.5",
+    "Source":         "src/libav/11.5/libav-11.5.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "11.4",
+    "Installed":      "installed/libav/11.4",
+    "Source":         "src/libav/11.4/libav-11.4.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "11.3",
+    "Installed":      "installed/libav/11.3",
+    "Source":         "src/libav/11.3/libav-11.3.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "11.2",
+    "Installed":      "installed/libav/11.2",
+    "Source":         "src/libav/11.2/libav-11.2.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "11.1",
+    "Installed":      "installed/libav/11.1",
+    "Source":         "src/libav/11.1/libav-11.1.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         11,
+    "Installed":      "installed/libav/11",
+    "Source":         "src/libav/11/libav-11.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.7",
+    "Installed":      "installed/libav/10.7",
+    "Source":         "src/libav/10.7/libav-10.7.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.6",
+    "Installed":      "installed/libav/10.6",
+    "Source":         "src/libav/10.6/libav-10.6.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.5",
+    "Installed":      "installed/libav/10.5",
+    "Source":         "src/libav/10.5/libav-10.5.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.4",
+    "Installed":      "installed/libav/10.4",
+    "Source":         "src/libav/10.4/libav-10.4.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.3",
+    "Installed":      "installed/libav/10.3",
+    "Source":         "src/libav/10.3/libav-10.3.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.2",
+    "Installed":      "installed/libav/10.2",
+    "Source":         "src/libav/10.2/libav-10.2.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.1",
+    "Installed":      "installed/libav/10.1",
+    "Source":         "src/libav/10.1/libav-10.1.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         10,
+    "Installed":      "installed/libav/10",
+    "Source":         "src/libav/10/libav-10.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.21",
+    "Installed":      "installed/libav/9.21",
+    "Source":         "src/libav/9.21/libav-9.21.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.20",
+    "Installed":      "installed/libav/9.20",
+    "Source":         "src/libav/9.20/libav-9.20.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.19",
+    "Installed":      "installed/libav/9.19",
+    "Source":         "src/libav/9.19/libav-9.19.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.18",
+    "Installed":      "installed/libav/9.18",
+    "Source":         "src/libav/9.18/libav-9.18.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.17",
+    "Installed":      "installed/libav/9.17",
+    "Source":         "src/libav/9.17/libav-9.17.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.16",
+    "Installed":      "installed/libav/9.16",
+    "Source":         "src/libav/9.16/libav-9.16.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.14",
+    "Installed":      "installed/libav/9.14",
+    "Source":         "src/libav/9.14/libav-9.14.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.13",
+    "Installed":      "installed/libav/9.13",
+    "Source":         "src/libav/9.13/libav-9.13.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.12",
+    "Installed":      "installed/libav/9.12",
+    "Source":         "src/libav/9.12/libav-9.12.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.11",
+    "Installed":      "installed/libav/9.11",
+    "Source":         "src/libav/9.11/libav-9.11.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.10",
+    "Installed":      "installed/libav/9.10",
+    "Source":         "src/libav/9.10/libav-9.10.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.9",
+    "Installed":      "installed/libav/9.9",
+    "Source":         "src/libav/9.9/libav-9.9.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.8",
+    "Installed":      "installed/libav/9.8",
+    "Source":         "src/libav/9.8/libav-9.8.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.7",
+    "Installed":      "installed/libav/9.7",
+    "Source":         "src/libav/9.7/libav-9.7.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.6",
+    "Installed":      "installed/libav/9.6",
+    "Source":         "src/libav/9.6/libav-9.6.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.5",
+    "Installed":      "installed/libav/9.5",
+    "Source":         "src/libav/9.5/libav-9.5.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.4",
+    "Installed":      "installed/libav/9.4",
+    "Source":         "src/libav/9.4/libav-9.4.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.3",
+    "Installed":      "installed/libav/9.3",
+    "Source":         "src/libav/9.3/libav-9.3.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.2",
+    "Installed":      "installed/libav/9.2",
+    "Source":         "src/libav/9.2/libav-9.2.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.1",
+    "Installed":      "installed/libav/9.1",
+    "Source":         "src/libav/9.1/libav-9.1.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         9,
+    "Installed":      "installed/libav/9",
+    "Source":         "src/libav/9/libav-9.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.20",
+    "Installed":      "installed/libav/0.8.20",
+    "Source":         "src/libav/0.8.20/libav-0.8.20.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.19",
+    "Installed":      "installed/libav/0.8.19",
+    "Source":         "src/libav/0.8.19/libav-0.8.19.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.18",
+    "Installed":      "installed/libav/0.8.18",
+    "Source":         "src/libav/0.8.18/libav-0.8.18.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.17",
+    "Installed":      "installed/libav/0.8.17",
+    "Source":         "src/libav/0.8.17/libav-0.8.17.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.16",
+    "Installed":      "installed/libav/0.8.16",
+    "Source":         "src/libav/0.8.16/libav-0.8.16.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.15",
+    "Installed":      "installed/libav/0.8.15",
+    "Source":         "src/libav/0.8.15/libav-0.8.15.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.13",
+    "Installed":      "installed/libav/0.8.13",
+    "Source":         "src/libav/0.8.13/libav-0.8.13.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.12",
+    "Installed":      "installed/libav/0.8.12",
+    "Source":         "src/libav/0.8.12/libav-0.8.12.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.11",
+    "Installed":      "installed/libav/0.8.11",
+    "Source":         "src/libav/0.8.11/libav-0.8.11.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.10",
+    "Installed":      "installed/libav/0.8.10",
+    "Source":         "src/libav/0.8.10/libav-0.8.10.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.9",
+    "Installed":      "installed/libav/0.8.9",
+    "Source":         "src/libav/0.8.9/libav-0.8.9.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.8",
+    "Installed":      "installed/libav/0.8.8",
+    "Source":         "src/libav/0.8.8/libav-0.8.8.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.7",
+    "Installed":      "installed/libav/0.8.7",
+    "Source":         "src/libav/0.8.7/libav-0.8.7.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.6",
+    "Installed":      "installed/libav/0.8.6",
+    "Source":         "src/libav/0.8.6/libav-0.8.6.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.5",
+    "Installed":      "installed/libav/0.8.5",
+    "Source":         "src/libav/0.8.5/libav-0.8.5.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.4",
+    "Installed":      "installed/libav/0.8.4",
+    "Source":         "src/libav/0.8.4/libav-0.8.4.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.3",
+    "Installed":      "installed/libav/0.8.3",
+    "Source":         "src/libav/0.8.3/libav-0.8.3.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.2",
+    "Installed":      "installed/libav/0.8.2",
+    "Source":         "src/libav/0.8.2/libav-0.8.2.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.1",
+    "Installed":      "installed/libav/0.8.1",
+    "Source":         "src/libav/0.8.1/libav-0.8.1.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8",
+    "Installed":      "installed/libav/0.8",
+    "Source":         "src/libav/0.8/libav-0.8.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.7",
+    "Installed":      "installed/libav/0.7.7",
+    "Source":         "src/libav/0.7.7/libav-0.7.7.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.6",
+    "Installed":      "installed/libav/0.7.6",
+    "Source":         "src/libav/0.7.6/libav-0.7.6.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.5",
+    "Installed":      "installed/libav/0.7.5",
+    "Source":         "src/libav/0.7.5/libav-0.7.5.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.4",
+    "Installed":      "installed/libav/0.7.4",
+    "Source":         "src/libav/0.7.4/libav-0.7.4.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.3",
+    "Installed":      "installed/libav/0.7.3",
+    "Source":         "src/libav/0.7.3/libav-0.7.3.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.2",
+    "Installed":      "installed/libav/0.7.2",
+    "Source":         "src/libav/0.7.2/libav-0.7.2.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.1",
+    "Installed":      "installed/libav/0.7.1",
+    "Source":         "src/libav/0.7.1/libav-0.7.1.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7",
+    "Installed":      "installed/libav/0.7",
+    "Source":         "src/libav/0.7/libav-0.7.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

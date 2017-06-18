@@ -1,0 +1,121 @@
+{
+  "Name":           "libvorbis",
+  "SourceUrl":      "http://downloads.xiph.org/releases/vorbis/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-ogg={INSTALL_ROOT}/libogg/1.3.2/ --enable-docs=no --enable-examples=no --disable-oggtest LDFLAGS='-L{INSTALL_ROOT}/libogg/1.3.2/lib/' LIBS='-logg -lc -lm'",
+  "PreInstall":     "sed -i -e 's/\-O[3210]\+/-Og/g' configure",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.3.5",
+    "Installed":      "installed/libvorbis/1.3.5",
+    "Source":         "src/libvorbis/1.3.5/libvorbis-1.3.5.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.4",
+    "Installed":      "installed/libvorbis/1.3.4",
+    "Source":         "src/libvorbis/1.3.4/libvorbis-1.3.4.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.3",
+    "Installed":      "installed/libvorbis/1.3.3",
+    "Source":         "src/libvorbis/1.3.3/libvorbis-1.3.3.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.2",
+    "Installed":      "installed/libvorbis/1.3.2",
+    "Source":         "src/libvorbis/1.3.2/libvorbis-1.3.2.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.1",
+    "Installed":      "installed/libvorbis/1.3.1",
+    "Source":         "src/libvorbis/1.3.1/libvorbis-1.3.1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.3",
+    "Installed":      "installed/libvorbis/1.2.3",
+    "Source":         "src/libvorbis/1.2.3/libvorbis-1.2.3.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.2",
+    "Installed":      "installed/libvorbis/1.2.2",
+    "Source":         "src/libvorbis/1.2.2/libvorbis-1.2.2.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/libvorbis/1.2.0",
+    "Source":         "src/libvorbis/1.2.0/libvorbis-1.2.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.2",
+    "Installed":      "installed/libvorbis/1.1.2",
+    "Source":         "src/libvorbis/1.1.2/libvorbis-1.1.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.1",
+    "Installed":      "installed/libvorbis/1.1.1",
+    "Source":         "src/libvorbis/1.1.1/libvorbis-1.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/libvorbis/1.1.0",
+    "Source":         "src/libvorbis/1.1.0/libvorbis-1.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

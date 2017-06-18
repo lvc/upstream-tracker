@@ -5,11 +5,42 @@
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "BuildSystem":    "Autotools",
+  "Configure":      "--disable-fortran",
   "Changelog":      "Off",
   "HeadersDiff":    "Off",
   "MinimalVersion": "1.9.18",
 
   "Versions": [
+  {
+    "Number":         "1.22.0",
+    "Installed":      "installed/grib_api/1.22.0",
+    "Source":         "src/grib_api/1.22.0/grib_api-1.22.0-Source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.21.0",
+    "Installed":      "installed/grib_api/1.21.0",
+    "Source":         "src/grib_api/1.21.0/grib_api-1.21.0-Source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.20.0",
+    "Installed":      "installed/grib_api/1.20.0",
+    "Source":         "src/grib_api/1.20.0/grib_api-1.20.0-Source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "1.19.0",
     "Installed":      "installed/grib_api/1.19.0",

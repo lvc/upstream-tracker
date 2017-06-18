@@ -1,0 +1,84 @@
+{
+  "Name":           "openblas",
+  "Title":          "OpenBLAS",
+  "SourceUrl":      "https://github.com/xianyi/OpenBLAS/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PostInstall":    "mv cblas.h openblas_config_template.h {INSTALL_TO}/include/ ; mv {BUILD_SUBDIR}/lib/*.so* {INSTALL_TO}/lib/",
+  "Changelog":      "Changelog.txt",
+  "HeadersDiff":    "Off",
+  "Install":        "Off",
+  "Make":           "-j2",
+
+  "Versions": [
+  {
+    "Number":         "0.2.19",
+    "Installed":      "installed/openblas/0.2.19",
+    "Source":         "src/openblas/0.2.19/openblas-0.2.19.tar.gz",
+    "Changelog":      "Changelog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.18",
+    "Installed":      "installed/openblas/0.2.18",
+    "Source":         "src/openblas/0.2.18/openblas-0.2.18.tar.gz",
+    "Changelog":      "Changelog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.17",
+    "Installed":      "installed/openblas/0.2.17",
+    "Source":         "src/openblas/0.2.17/openblas-0.2.17.tar.gz",
+    "Changelog":      "Changelog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.16",
+    "Installed":      "installed/openblas/0.2.16",
+    "Source":         "src/openblas/0.2.16/openblas-0.2.16.tar.gz",
+    "Changelog":      "Changelog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.15",
+    "Installed":      "installed/openblas/0.2.15",
+    "Source":         "src/openblas/0.2.15/openblas-0.2.15.tar.gz",
+    "Changelog":      "Changelog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.14",
+    "Installed":      "installed/openblas/0.2.14",
+    "Source":         "src/openblas/0.2.14/openblas-0.2.14.tar.gz",
+    "Changelog":      "Changelog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.13",
+    "Installed":      "installed/openblas/0.2.13",
+    "Source":         "src/openblas/0.2.13/openblas-0.2.13.tar.gz",
+    "Changelog":      "Changelog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,53 @@
+{
+  "Name":           "irrlicht",
+  "Title":          "Irrlicht",
+  "SourceUrl":      "https://sourceforge.net/projects/irrlicht/files/Irrlicht%20SDK/",
+  "SourceUrlDepth": "3",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/irrlicht.sh",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.6",
+
+  "Versions": [
+  {
+    "Number":         "1.8.4",
+    "Installed":      "installed/irrlicht/1.8.4",
+    "Source":         "src/irrlicht/1.8.4/irrlicht-1.8.4.zip",
+    "Changelog":      "changes.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.3",
+    "Installed":      "installed/irrlicht/1.8.3",
+    "Source":         "src/irrlicht/1.8.3/irrlicht-1.8.3.zip",
+    "Changelog":      "changes.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.2",
+    "Installed":      "installed/irrlicht/1.8.2",
+    "Source":         "src/irrlicht/1.8.2/irrlicht-1.8.2.zip",
+    "Changelog":      "changes.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.3",
+    "Installed":      "installed/irrlicht/1.7.3",
+    "Source":         "src/irrlicht/1.7.3/irrlicht-1.7.3.zip",
+    "Changelog":      "changes.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

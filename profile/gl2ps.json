@@ -1,0 +1,51 @@
+{
+  "Name":           "gl2ps",
+  "Title":          "GL2PS",
+  "SourceUrl":      "http://geuz.org/gl2ps/src/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.3.7",
+
+  "Versions": [
+  {
+    "Number":         "1.4.0",
+    "Installed":      "installed/gl2ps/1.4.0",
+    "Source":         "src/gl2ps/1.4.0/gl2ps-1.4.0.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.9",
+    "Installed":      "installed/gl2ps/1.3.9",
+    "Source":         "src/gl2ps/1.3.9/gl2ps-1.3.9.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.8",
+    "Installed":      "installed/gl2ps/1.3.8",
+    "Source":         "src/gl2ps/1.3.8/gl2ps-1.3.8.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.7",
+    "Installed":      "installed/gl2ps/1.3.7",
+    "Source":         "src/gl2ps/1.3.7/gl2ps-1.3.7.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

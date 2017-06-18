@@ -4,14 +4,65 @@
   "SourceUrl":      "http://ftp.openbsd.org/pub/OpenBSD/LibreSSL/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "CMake",
   "PreInstall":     "sed -i -e 's/O2/Og/g' configure",
   "HeadersDiff":    "Off",
 
   "Versions": [
   {
+    "Number":         "2.5.4",
+    "Installed":      "installed/libressl/2.5.4",
+    "Source":         "src/libressl/2.5.4/libressl-2.5.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.3",
+    "Installed":      "installed/libressl/2.5.3",
+    "Source":         "src/libressl/2.5.3/libressl-2.5.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.2",
+    "Installed":      "installed/libressl/2.5.2",
+    "Source":         "src/libressl/2.5.2/libressl-2.5.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.1",
+    "Installed":      "installed/libressl/2.5.1",
+    "Source":         "src/libressl/2.5.1/libressl-2.5.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.5.0",
     "Installed":      "installed/libressl/2.5.0",
     "Source":         "src/libressl/2.5.0/libressl-2.5.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.5",
+    "Installed":      "installed/libressl/2.4.5",
+    "Source":         "src/libressl/2.4.5/libressl-2.4.5.tar.gz",
     "Changelog":      "ChangeLog",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
@@ -62,6 +113,16 @@
     "Number":         "2.4.0",
     "Installed":      "installed/libressl/2.4.0",
     "Source":         "src/libressl/2.4.0/libressl-2.4.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.10",
+    "Installed":      "installed/libressl/2.3.10",
+    "Source":         "src/libressl/2.3.10/libressl-2.3.10.tar.gz",
     "Changelog":      "ChangeLog",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

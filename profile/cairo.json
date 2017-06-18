@@ -5,8 +5,10 @@
   "Git":            "http://anongit.freedesktop.org/git/cairo",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--enable-png=no --enable-svg=no CC='gcc -g -Og'",
+  "Configure":      "--enable-svg=no CC='gcc -g -Og'",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/cairo/",
   "SkipObjects":    [ "cairo/" ],
+  "Note":           "--enable-png=no",
 
   "Versions": [
   {
@@ -14,6 +16,26 @@
     "Installed":      "installed/cairo/current",
     "Source":         "src/cairo/current",
     "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.10",
+    "Installed":      "installed/cairo/1.14.10",
+    "Source":         "src/cairo/1.14.10/cairo-1.14.10.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.8",
+    "Installed":      "installed/cairo/1.14.8",
+    "Source":         "src/cairo/1.14.8/cairo-1.14.8.tar.xz",
+    "Changelog":      "NEWS",
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",

@@ -1,0 +1,93 @@
+{
+  "Name":           "libproxy",
+  "SourceUrl":      "https://github.com/libproxy/libproxy/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "CMake",
+  "Configure":      "-DWITH_PYTHON=OFF -DWITH_WEBKIT=OFF -DWITH_PERL=OFF -DWITH_KDE=OFF -DWITH_GNOME3=OFF -DWITH_PYTHON2=OFF -DWITH_PYTHON3=OFF",
+  "SkipObjects":    [ "modules/" ],
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.4.8",
+
+  "Versions": [
+  {
+    "Number":         "0.4.15",
+    "Installed":      "installed/libproxy/0.4.15",
+    "Source":         "src/libproxy/0.4.15/libproxy-0.4.15.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.14",
+    "Installed":      "installed/libproxy/0.4.14",
+    "Source":         "src/libproxy/0.4.14/libproxy-0.4.14.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.13",
+    "Installed":      "installed/libproxy/0.4.13",
+    "Source":         "src/libproxy/0.4.13/libproxy-0.4.13.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.12",
+    "Installed":      "installed/libproxy/0.4.12",
+    "Source":         "src/libproxy/0.4.12/libproxy-0.4.12.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "On",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.11",
+    "Installed":      "installed/libproxy/0.4.11",
+    "Source":         "src/libproxy/0.4.11/libproxy-0.4.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.10",
+    "Installed":      "installed/libproxy/0.4.10",
+    "Source":         "src/libproxy/0.4.10/libproxy-0.4.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.9",
+    "Installed":      "installed/libproxy/0.4.9",
+    "Source":         "src/libproxy/0.4.9/libproxy-0.4.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.8",
+    "Installed":      "installed/libproxy/0.4.8",
+    "Source":         "src/libproxy/0.4.8/libproxy-0.4.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

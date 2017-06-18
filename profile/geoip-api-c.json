@@ -1,0 +1,222 @@
+{
+  "Name":           "geoip-api-c",
+  "Title":          "GeoIP C API",
+  "SourceUrl":      "https://github.com/maxmind/geoip-api-c/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-data-files",
+  "PreInstall":     "perl -pi.back -e 's/\s+(data|test)\s+\\\n//g' Makefile.am ; autoreconf --force --verbose --install",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.6.11",
+    "Installed":      "installed/geoip-api-c/1.6.11",
+    "Source":         "src/geoip-api-c/1.6.11/geoip-api-c-1.6.11.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.10",
+    "Installed":      "installed/geoip-api-c/1.6.10",
+    "Source":         "src/geoip-api-c/1.6.10/geoip-api-c-1.6.10.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.9",
+    "Installed":      "installed/geoip-api-c/1.6.9",
+    "Source":         "src/geoip-api-c/1.6.9/geoip-api-c-1.6.9.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.8",
+    "Installed":      "installed/geoip-api-c/1.6.8",
+    "Source":         "src/geoip-api-c/1.6.8/geoip-api-c-1.6.8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.7",
+    "Installed":      "installed/geoip-api-c/1.6.7",
+    "Source":         "src/geoip-api-c/1.6.7/geoip-api-c-1.6.7.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.6",
+    "Installed":      "installed/geoip-api-c/1.6.6",
+    "Source":         "src/geoip-api-c/1.6.6/geoip-api-c-1.6.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.5",
+    "Installed":      "installed/geoip-api-c/1.6.5",
+    "Source":         "src/geoip-api-c/1.6.5/geoip-api-c-1.6.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.4",
+    "Installed":      "installed/geoip-api-c/1.6.4",
+    "Source":         "src/geoip-api-c/1.6.4/geoip-api-c-1.6.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.3",
+    "Installed":      "installed/geoip-api-c/1.6.3",
+    "Source":         "src/geoip-api-c/1.6.3/geoip-api-c-1.6.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.2",
+    "Installed":      "installed/geoip-api-c/1.6.2",
+    "Source":         "src/geoip-api-c/1.6.2/geoip-api-c-1.6.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.1",
+    "Installed":      "installed/geoip-api-c/1.6.1",
+    "Source":         "src/geoip-api-c/1.6.1/geoip-api-c-1.6.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.0",
+    "Installed":      "installed/geoip-api-c/1.6.0",
+    "Source":         "src/geoip-api-c/1.6.0/geoip-api-c-1.6.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.2",
+    "Installed":      "installed/geoip-api-c/1.5.2",
+    "Source":         "src/geoip-api-c/1.5.2/geoip-api-c-1.5.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.1",
+    "Installed":      "installed/geoip-api-c/1.5.1",
+    "Source":         "src/geoip-api-c/1.5.1/geoip-api-c-1.5.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.0",
+    "Installed":      "installed/geoip-api-c/1.5.0",
+    "Source":         "src/geoip-api-c/1.5.0/geoip-api-c-1.5.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.8",
+    "Installed":      "installed/geoip-api-c/1.4.8",
+    "Source":         "src/geoip-api-c/1.4.8/geoip-api-c-1.4.8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.7",
+    "Installed":      "installed/geoip-api-c/1.4.7",
+    "Source":         "src/geoip-api-c/1.4.7/geoip-api-c-1.4.7.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.6",
+    "Installed":      "installed/geoip-api-c/1.4.6",
+    "Source":         "src/geoip-api-c/1.4.6/geoip-api-c-1.4.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.5",
+    "Installed":      "installed/geoip-api-c/1.4.5",
+    "Source":         "src/geoip-api-c/1.4.5/geoip-api-c-1.4.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.4",
+    "Installed":      "installed/geoip-api-c/1.4.4",
+    "Source":         "src/geoip-api-c/1.4.4/geoip-api-c-1.4.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.3",
+    "Installed":      "installed/geoip-api-c/1.4.3",
+    "Source":         "src/geoip-api-c/1.4.3/geoip-api-c-1.4.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,87 @@
+{
+  "Name":           "inn",
+  "Title":          "INN",
+  "SourceUrl":      "ftp://ftp.isc.org/isc/inn/",
+  "SourceUrlDepth": "1",
+  "OldSourceUrl":   "ftp://ftp.isc.org/isc/inn/OLD/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-news-user=andrey --with-news-group=andrey --disable-uucp-rnews --disable-uucp-rnews --disable-static --without-perl",
+  "PreInstall":     "sed -i -e 's/ samples site//' Makefile",
+  "BuildShared":    "On",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.5.0",
+  "SkipVersions":   "2.5.2",
+
+  "Versions": [
+  {
+    "Number":         "2.6.1",
+    "Installed":      "installed/inn/2.6.1",
+    "Source":         "src/inn/2.6.1/inn-2.6.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.0",
+    "Installed":      "installed/inn/2.6.0",
+    "Source":         "src/inn/2.6.0/inn-2.6.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.5",
+    "Installed":      "installed/inn/2.5.5",
+    "Source":         "src/inn/2.5.5/inn-2.5.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.4",
+    "Installed":      "installed/inn/2.5.4",
+    "Source":         "src/inn/2.5.4/inn-2.5.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.3",
+    "Installed":      "installed/inn/2.5.3",
+    "Source":         "src/inn/2.5.3/inn-2.5.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.1",
+    "Installed":      "installed/inn/2.5.1",
+    "Source":         "src/inn/2.5.1/inn-2.5.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.0",
+    "Installed":      "installed/inn/2.5.0",
+    "Source":         "src/inn/2.5.0/inn-2.5.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

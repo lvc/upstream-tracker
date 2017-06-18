@@ -1,0 +1,332 @@
+{
+  "Name":           "bluez",
+  "Title":          "BlueZ",
+  "SourceUrl":      "https://www.kernel.org/pub/linux/bluetooth/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-library --disable-systemd --disable-udev --disable-datafiles --with-dbusconfdir={INSTALL_TO}/share/ --with-dbussystembusdir={INSTALL_TO}/share/ --with-dbussessionbusdir={INSTALL_TO}/share/ --with-udevdir={INSTALL_TO}/share/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "5.14",
+
+  "Versions": [
+  {
+    "Number":         "5.45",
+    "Installed":      "installed/bluez/5.45",
+    "Source":         "src/bluez/5.45/bluez-5.45.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.44",
+    "Installed":      "installed/bluez/5.44",
+    "Source":         "src/bluez/5.44/bluez-5.44.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.43",
+    "Installed":      "installed/bluez/5.43",
+    "Source":         "src/bluez/5.43/bluez-5.43.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.42",
+    "Installed":      "installed/bluez/5.42",
+    "Source":         "src/bluez/5.42/bluez-5.42.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.41",
+    "Installed":      "installed/bluez/5.41",
+    "Source":         "src/bluez/5.41/bluez-5.41.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.40",
+    "Installed":      "installed/bluez/5.40",
+    "Source":         "src/bluez/5.40/bluez-5.40.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.39",
+    "Installed":      "installed/bluez/5.39",
+    "Source":         "src/bluez/5.39/bluez-5.39.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.38",
+    "Installed":      "installed/bluez/5.38",
+    "Source":         "src/bluez/5.38/bluez-5.38.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.37",
+    "Installed":      "installed/bluez/5.37",
+    "Source":         "src/bluez/5.37/bluez-5.37.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.36",
+    "Installed":      "installed/bluez/5.36",
+    "Source":         "src/bluez/5.36/bluez-5.36.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.35",
+    "Installed":      "installed/bluez/5.35",
+    "Source":         "src/bluez/5.35/bluez-5.35.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.34",
+    "Installed":      "installed/bluez/5.34",
+    "Source":         "src/bluez/5.34/bluez-5.34.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.33",
+    "Installed":      "installed/bluez/5.33",
+    "Source":         "src/bluez/5.33/bluez-5.33.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.32",
+    "Installed":      "installed/bluez/5.32",
+    "Source":         "src/bluez/5.32/bluez-5.32.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.31",
+    "Installed":      "installed/bluez/5.31",
+    "Source":         "src/bluez/5.31/bluez-5.31.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.30",
+    "Installed":      "installed/bluez/5.30",
+    "Source":         "src/bluez/5.30/bluez-5.30.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.29",
+    "Installed":      "installed/bluez/5.29",
+    "Source":         "src/bluez/5.29/bluez-5.29.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.28",
+    "Installed":      "installed/bluez/5.28",
+    "Source":         "src/bluez/5.28/bluez-5.28.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.27",
+    "Installed":      "installed/bluez/5.27",
+    "Source":         "src/bluez/5.27/bluez-5.27.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.26",
+    "Installed":      "installed/bluez/5.26",
+    "Source":         "src/bluez/5.26/bluez-5.26.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.25",
+    "Installed":      "installed/bluez/5.25",
+    "Source":         "src/bluez/5.25/bluez-5.25.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.24",
+    "Installed":      "installed/bluez/5.24",
+    "Source":         "src/bluez/5.24/bluez-5.24.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.23",
+    "Installed":      "installed/bluez/5.23",
+    "Source":         "src/bluez/5.23/bluez-5.23.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.22",
+    "Installed":      "installed/bluez/5.22",
+    "Source":         "src/bluez/5.22/bluez-5.22.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.21",
+    "Installed":      "installed/bluez/5.21",
+    "Source":         "src/bluez/5.21/bluez-5.21.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.20",
+    "Installed":      "installed/bluez/5.20",
+    "Source":         "src/bluez/5.20/bluez-5.20.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.19",
+    "Installed":      "installed/bluez/5.19",
+    "Source":         "src/bluez/5.19/bluez-5.19.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.18",
+    "Installed":      "installed/bluez/5.18",
+    "Source":         "src/bluez/5.18/bluez-5.18.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.17",
+    "Installed":      "installed/bluez/5.17",
+    "Source":         "src/bluez/5.17/bluez-5.17.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.16",
+    "Installed":      "installed/bluez/5.16",
+    "Source":         "src/bluez/5.16/bluez-5.16.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.15",
+    "Installed":      "installed/bluez/5.15",
+    "Source":         "src/bluez/5.15/bluez-5.15.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.14",
+    "Installed":      "installed/bluez/5.14",
+    "Source":         "src/bluez/5.14/bluez-5.14.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

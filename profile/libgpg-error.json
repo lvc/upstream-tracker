@@ -1,0 +1,180 @@
+{
+  "Name":           "libgpg-error",
+  "SourceUrl":      "ftp://ftp.gnupg.org/gcrypt/libgpg-error/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.10",
+
+  "Versions": [
+  {
+    "Number":         "1.27",
+    "Installed":      "installed/libgpg-error/1.27",
+    "Source":         "src/libgpg-error/1.27/libgpg-error-1.27.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.26",
+    "Installed":      "installed/libgpg-error/1.26",
+    "Source":         "src/libgpg-error/1.26/libgpg-error-1.26.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.25",
+    "Installed":      "installed/libgpg-error/1.25",
+    "Source":         "src/libgpg-error/1.25/libgpg-error-1.25.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.24",
+    "Installed":      "installed/libgpg-error/1.24",
+    "Source":         "src/libgpg-error/1.24/libgpg-error-1.24.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.23",
+    "Installed":      "installed/libgpg-error/1.23",
+    "Source":         "src/libgpg-error/1.23/libgpg-error-1.23.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.22",
+    "Installed":      "installed/libgpg-error/1.22",
+    "Source":         "src/libgpg-error/1.22/libgpg-error-1.22.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.21",
+    "Installed":      "installed/libgpg-error/1.21",
+    "Source":         "src/libgpg-error/1.21/libgpg-error-1.21.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.20",
+    "Installed":      "installed/libgpg-error/1.20",
+    "Source":         "src/libgpg-error/1.20/libgpg-error-1.20.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.19",
+    "Installed":      "installed/libgpg-error/1.19",
+    "Source":         "src/libgpg-error/1.19/libgpg-error-1.19.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.18",
+    "Installed":      "installed/libgpg-error/1.18",
+    "Source":         "src/libgpg-error/1.18/libgpg-error-1.18.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.17",
+    "Installed":      "installed/libgpg-error/1.17",
+    "Source":         "src/libgpg-error/1.17/libgpg-error-1.17.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.16",
+    "Installed":      "installed/libgpg-error/1.16",
+    "Source":         "src/libgpg-error/1.16/libgpg-error-1.16.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15",
+    "Installed":      "installed/libgpg-error/1.15",
+    "Source":         "src/libgpg-error/1.15/libgpg-error-1.15.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13",
+    "Installed":      "installed/libgpg-error/1.13",
+    "Source":         "src/libgpg-error/1.13/libgpg-error-1.13.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12",
+    "Installed":      "installed/libgpg-error/1.12",
+    "Source":         "src/libgpg-error/1.12/libgpg-error-1.12.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11",
+    "Installed":      "installed/libgpg-error/1.11",
+    "Source":         "src/libgpg-error/1.11/libgpg-error-1.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10",
+    "Installed":      "installed/libgpg-error/1.10",
+    "Source":         "src/libgpg-error/1.10/libgpg-error-1.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

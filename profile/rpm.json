@@ -1,0 +1,194 @@
+{
+  "Name":           "rpm",
+  "Title":          "RPM",
+  "SourceUrl":      "http://ftp.rpm.org/releases/",
+  "SkipUrl":        [ "testing/", "historical", "rpm-4.4.x/", "rpm-4.6.x/", "rpm-4.7.x/" ],
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-external-db --without-lua --disable-plugins CFLAGS='-I/usr/include/nspr4 -I/usr/include/nss3 -g -Og'",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/rpm-plugins/ {INSTALL_TO}/lib/rpm/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "4.8.0",
+
+  "Versions": [
+  {
+    "Number":         "4.13.0.1",
+    "Installed":      "installed/rpm/4.13.0.1",
+    "Source":         "src/rpm/4.13.0.1/rpm-4.13.0.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.13.0",
+    "Installed":      "installed/rpm/4.13.0",
+    "Source":         "src/rpm/4.13.0/rpm-4.13.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.12.0.2",
+    "Installed":      "installed/rpm/4.12.0.2",
+    "Source":         "src/rpm/4.12.0.2/rpm-4.12.0.2.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.12.0.1",
+    "Installed":      "installed/rpm/4.12.0.1",
+    "Source":         "src/rpm/4.12.0.1/rpm-4.12.0.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.12.0",
+    "Installed":      "installed/rpm/4.12.0",
+    "Source":         "src/rpm/4.12.0/rpm-4.12.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.11.3",
+    "Installed":      "installed/rpm/4.11.3",
+    "Source":         "src/rpm/4.11.3/rpm-4.11.3.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.11.2",
+    "Installed":      "installed/rpm/4.11.2",
+    "Source":         "src/rpm/4.11.2/rpm-4.11.2.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.11.1",
+    "Installed":      "installed/rpm/4.11.1",
+    "Source":         "src/rpm/4.11.1/rpm-4.11.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.11.0.1",
+    "Installed":      "installed/rpm/4.11.0.1",
+    "Source":         "src/rpm/4.11.0.1/rpm-4.11.0.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.10.3.1",
+    "Installed":      "installed/rpm/4.10.3.1",
+    "Source":         "src/rpm/4.10.3.1/rpm-4.10.3.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.10.2",
+    "Installed":      "installed/rpm/4.10.2",
+    "Source":         "src/rpm/4.10.2/rpm-4.10.2.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.10.1",
+    "Installed":      "installed/rpm/4.10.1",
+    "Source":         "src/rpm/4.10.1/rpm-4.10.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.10.0",
+    "Installed":      "installed/rpm/4.10.0",
+    "Source":         "src/rpm/4.10.0/rpm-4.10.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.9.1.3",
+    "Installed":      "installed/rpm/4.9.1.3",
+    "Source":         "src/rpm/4.9.1.3/rpm-4.9.1.3.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.9.1.2",
+    "Installed":      "installed/rpm/4.9.1.2",
+    "Source":         "src/rpm/4.9.1.2/rpm-4.9.1.2.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.9.1.1",
+    "Installed":      "installed/rpm/4.9.1.1",
+    "Source":         "src/rpm/4.9.1.1/rpm-4.9.1.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.9.1",
+    "Installed":      "installed/rpm/4.9.1",
+    "Source":         "src/rpm/4.9.1/rpm-4.9.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.9.0",
+    "Installed":      "installed/rpm/4.9.0",
+    "Source":         "src/rpm/4.9.0/rpm-4.9.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

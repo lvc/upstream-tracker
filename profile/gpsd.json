@@ -1,0 +1,232 @@
+{
+  "Name":           "gpsd",
+  "Title":          "GPSd",
+  "SourceUrl":      "http://download-mirror.savannah.gnu.org/releases/gpsd/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "python=False shared=True",
+  "SkipObjects":    [ "libgpsd.so", "libQgpsmm.so" ],
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "3.16",
+    "Installed":      "installed/gpsd/3.16",
+    "Source":         "src/gpsd/3.16/gpsd-3.16.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.15",
+    "Installed":      "installed/gpsd/3.15",
+    "Source":         "src/gpsd/3.15/gpsd-3.15.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.14",
+    "Installed":      "installed/gpsd/3.14",
+    "Source":         "src/gpsd/3.14/gpsd-3.14.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.13",
+    "Installed":      "installed/gpsd/3.13",
+    "Source":         "src/gpsd/3.13/gpsd-3.13.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.12",
+    "Installed":      "installed/gpsd/3.12",
+    "Source":         "src/gpsd/3.12/gpsd-3.12.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.11",
+    "Installed":      "installed/gpsd/3.11",
+    "Source":         "src/gpsd/3.11/gpsd-3.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.10",
+    "Installed":      "installed/gpsd/3.10",
+    "Source":         "src/gpsd/3.10/gpsd-3.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.9",
+    "Installed":      "installed/gpsd/3.9",
+    "Source":         "src/gpsd/3.9/gpsd-3.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.8",
+    "Installed":      "installed/gpsd/3.8",
+    "Source":         "src/gpsd/3.8/gpsd-3.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7",
+    "Installed":      "installed/gpsd/3.7",
+    "Source":         "src/gpsd/3.7/gpsd-3.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6",
+    "Installed":      "installed/gpsd/3.6",
+    "Source":         "src/gpsd/3.6/gpsd-3.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.5",
+    "Installed":      "installed/gpsd/3.5",
+    "Source":         "src/gpsd/3.5/gpsd-3.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.4",
+    "Installed":      "installed/gpsd/3.4",
+    "Source":         "src/gpsd/3.4/gpsd-3.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3",
+    "Installed":      "installed/gpsd/3.3",
+    "Source":         "src/gpsd/3.3/gpsd-3.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2",
+    "Installed":      "installed/gpsd/3.2",
+    "Source":         "src/gpsd/3.2/gpsd-3.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1",
+    "Installed":      "installed/gpsd/3.1",
+    "Source":         "src/gpsd/3.1/gpsd-3.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0",
+    "Installed":      "installed/gpsd/3.0",
+    "Source":         "src/gpsd/3.0/gpsd-3.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.95",
+    "Installed":      "installed/gpsd/2.95",
+    "Source":         "src/gpsd/2.95/gpsd-2.95.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.39",
+    "Installed":      "installed/gpsd/2.39",
+    "Source":         "src/gpsd/2.39/gpsd-2.39.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.37",
+    "Installed":      "installed/gpsd/2.37",
+    "Source":         "src/gpsd/2.37/gpsd-2.37.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.35",
+    "Installed":      "installed/gpsd/2.35",
+    "Source":         "src/gpsd/2.35/gpsd-2.35.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1",
+    "Installed":      "installed/gpsd/2.1",
+    "Source":         "src/gpsd/2.1/gpsd-2.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

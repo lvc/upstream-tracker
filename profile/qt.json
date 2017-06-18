@@ -19,10 +19,20 @@
 
   "Versions": [
   {
+    "Number":         "5.8.0",
+    "Installed":      "installed/qt/5.8.0",
+    "Source":         "src/qt/5.8.0/qt-everywhere-opensource-src-5.8.0.tar.xz",
+    "Changelog":      "qtbase/dist/changes-5.8.0",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "5.7.0",
     "Installed":      "installed/qt/5.7.0",
     "Source":         "src/qt/5.7.0/qt-everywhere-opensource-src-5.7.0.tar.xz",
-    "Changelog":      "Off",
+    "Changelog":      "qtbase/dist/changes-5.7.0",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
@@ -32,7 +42,7 @@
     "Number":         "5.6.0",
     "Installed":      "installed/qt/5.6.0",
     "Source":         "src/qt/5.6.0/qt-everywhere-opensource-src-5.6.0.tar.gz",
-    "Changelog":      "Off",
+    "Changelog":      "qtbase/dist/changes-5.6.0",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",

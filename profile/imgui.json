@@ -1,0 +1,212 @@
+{
+  "Name":           "imgui",
+  "SourceUrl":      "https://github.com/ocornut/imgui/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/imgui.sh",
+  "HeadersDiff":    "Off",
+  "Soname":         "Off",
+  "SourceCompat":   "On",
+
+  "Versions": [
+  {
+    "Number":         "1.50",
+    "Installed":      "installed/imgui/1.50",
+    "Source":         "src/imgui/1.50/imgui-1.50.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.49",
+    "Installed":      "installed/imgui/1.49",
+    "Source":         "src/imgui/1.49/imgui-1.49.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.48",
+    "Installed":      "installed/imgui/1.48",
+    "Source":         "src/imgui/1.48/imgui-1.48.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.47",
+    "Installed":      "installed/imgui/1.47",
+    "Source":         "src/imgui/1.47/imgui-1.47.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.46",
+    "Installed":      "installed/imgui/1.46",
+    "Source":         "src/imgui/1.46/imgui-1.46.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.45",
+    "Installed":      "installed/imgui/1.45",
+    "Source":         "src/imgui/1.45/imgui-1.45.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.44",
+    "Installed":      "installed/imgui/1.44",
+    "Source":         "src/imgui/1.44/imgui-1.44.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.43",
+    "Installed":      "installed/imgui/1.43",
+    "Source":         "src/imgui/1.43/imgui-1.43.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.42",
+    "Installed":      "installed/imgui/1.42",
+    "Source":         "src/imgui/1.42/imgui-1.42.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.41",
+    "Installed":      "installed/imgui/1.41",
+    "Source":         "src/imgui/1.41/imgui-1.41.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.40",
+    "Installed":      "installed/imgui/1.40",
+    "Source":         "src/imgui/1.40/imgui-1.40.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.38",
+    "Installed":      "installed/imgui/1.38",
+    "Source":         "src/imgui/1.38/imgui-1.38.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.37",
+    "Installed":      "installed/imgui/1.37",
+    "Source":         "src/imgui/1.37/imgui-1.37.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.36",
+    "Installed":      "installed/imgui/1.36",
+    "Source":         "src/imgui/1.36/imgui-1.36.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.35",
+    "Installed":      "installed/imgui/1.35",
+    "Source":         "src/imgui/1.35/imgui-1.35.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.34",
+    "Installed":      "installed/imgui/1.34",
+    "Source":         "src/imgui/1.34/imgui-1.34.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.33",
+    "Installed":      "installed/imgui/1.33",
+    "Source":         "src/imgui/1.33/imgui-1.33.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.32",
+    "Installed":      "installed/imgui/1.32",
+    "Source":         "src/imgui/1.32/imgui-1.32.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.31",
+    "Installed":      "installed/imgui/1.31",
+    "Source":         "src/imgui/1.31/imgui-1.31.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.30",
+    "Installed":      "installed/imgui/1.30",
+    "Source":         "src/imgui/1.30/imgui-1.30.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

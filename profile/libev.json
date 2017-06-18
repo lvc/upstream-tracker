@@ -4,9 +4,19 @@
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "PreInstall":     "sed -i -e 's/-O3/-Og/' configure",
-  "StringReleases": "1",
+  "StringReleases": "On",
 
   "Versions": [
+  {
+    "Number":         "4.24",
+    "Installed":      "installed/libev/4.24",
+    "Source":         "src/libev/4.24/libev-4.24.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "4.23",
     "Installed":      "installed/libev/4.23",

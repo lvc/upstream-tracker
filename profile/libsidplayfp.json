@@ -1,0 +1,140 @@
+{
+  "Name":           "libsidplayfp",
+  "SourceUrl":      "https://sourceforge.net/projects/sidplay-residfp/files/libsidplayfp/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.5.3",
+
+  "Versions": [
+  {
+    "Number":         "2.0.0beta",
+    "Installed":      "installed/libsidplayfp/2.0.0beta",
+    "Source":         "src/libsidplayfp/2.0.0beta/libsidplayfp-2.0.0beta.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.7",
+    "Installed":      "installed/libsidplayfp/1.8.7",
+    "Source":         "src/libsidplayfp/1.8.7/libsidplayfp-1.8.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.6",
+    "Installed":      "installed/libsidplayfp/1.8.6",
+    "Source":         "src/libsidplayfp/1.8.6/libsidplayfp-1.8.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.5",
+    "Installed":      "installed/libsidplayfp/1.8.5",
+    "Source":         "src/libsidplayfp/1.8.5/libsidplayfp-1.8.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.4",
+    "Installed":      "installed/libsidplayfp/1.8.4",
+    "Source":         "src/libsidplayfp/1.8.4/libsidplayfp-1.8.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.3",
+    "Installed":      "installed/libsidplayfp/1.8.3",
+    "Source":         "src/libsidplayfp/1.8.3/libsidplayfp-1.8.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.2",
+    "Installed":      "installed/libsidplayfp/1.8.2",
+    "Source":         "src/libsidplayfp/1.8.2/libsidplayfp-1.8.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.1",
+    "Installed":      "installed/libsidplayfp/1.8.1",
+    "Source":         "src/libsidplayfp/1.8.1/libsidplayfp-1.8.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.0",
+    "Installed":      "installed/libsidplayfp/1.8.0",
+    "Source":         "src/libsidplayfp/1.8.0/libsidplayfp-1.8.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.2",
+    "Installed":      "installed/libsidplayfp/1.7.2",
+    "Source":         "src/libsidplayfp/1.7.2/libsidplayfp-1.7.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.1",
+    "Installed":      "installed/libsidplayfp/1.7.1",
+    "Source":         "src/libsidplayfp/1.7.1/libsidplayfp-1.7.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.0",
+    "Installed":      "installed/libsidplayfp/1.7.0",
+    "Source":         "src/libsidplayfp/1.7.0/libsidplayfp-1.7.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.3",
+    "Installed":      "installed/libsidplayfp/1.5.3",
+    "Source":         "src/libsidplayfp/1.5.3/libsidplayfp-1.5.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,185 @@
+{
+  "Name":           "libelektra",
+  "SourceUrl":      "https://github.com/ElektraInitiative/libelektra/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "CMake",
+  "Configure":      "-DENABLE_KDB_TESTING=OFF -DENABLE_TESTING=OFF -DINSTALL_DOCUMENTATION=OFF -DINSTALL_TESTING=OFF -DBUILD_TESTING=OFF -DBUILD_DOCUMENTATION=OFF -DINSTALL_SYSTEM_FILES=OFF",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/elektra/",
+  "Changelog":      "doc/NEWS.md",
+  "HeadersDiff":    "Off",
+  "Make":           "-j2",
+  "SkipVersions":   [ "0.8.1-2" ],
+
+  "Versions": [
+  {
+    "Number":         "0.8.19",
+    "Installed":      "installed/libelektra/0.8.19",
+    "Source":         "src/libelektra/0.8.19/libelektra-0.8.19.tar.gz",
+    "Changelog":      "doc/NEWS.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.18",
+    "Installed":      "installed/libelektra/0.8.18",
+    "Source":         "src/libelektra/0.8.18/libelektra-0.8.18.tar.gz",
+    "Changelog":      "doc/NEWS.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.17",
+    "Installed":      "installed/libelektra/0.8.17",
+    "Source":         "src/libelektra/0.8.17/libelektra-0.8.17.tar.gz",
+    "Changelog":      "doc/NEWS.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.16",
+    "Installed":      "installed/libelektra/0.8.16",
+    "Source":         "src/libelektra/0.8.16/libelektra-0.8.16.tar.gz",
+    "Changelog":      "doc/NEWS.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.15",
+    "Installed":      "installed/libelektra/0.8.15",
+    "Source":         "src/libelektra/0.8.15/libelektra-0.8.15.tar.gz",
+    "Changelog":      "doc/NEWS.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.14",
+    "Installed":      "installed/libelektra/0.8.14",
+    "Source":         "src/libelektra/0.8.14/libelektra-0.8.14.tar.gz",
+    "Changelog":      "doc/NEWS.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.13",
+    "Installed":      "installed/libelektra/0.8.13",
+    "Source":         "src/libelektra/0.8.13/libelektra-0.8.13.tar.gz",
+    "Changelog":      "doc/NEWS.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.12",
+    "Installed":      "installed/libelektra/0.8.12",
+    "Source":         "src/libelektra/0.8.12/libelektra-0.8.12.tar.gz",
+    "Changelog":      "doc/NEWS.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.11",
+    "Installed":      "installed/libelektra/0.8.11",
+    "Source":         "src/libelektra/0.8.11/libelektra-0.8.11.tar.gz",
+    "Changelog":      "doc/NEWS.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.10",
+    "Installed":      "installed/libelektra/0.8.10",
+    "Source":         "src/libelektra/0.8.10/libelektra-0.8.10.tar.gz",
+    "Changelog":      "doc/NEWS.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.9",
+    "Installed":      "installed/libelektra/0.8.9",
+    "Source":         "src/libelektra/0.8.9/libelektra-0.8.9.tar.gz",
+    "Changelog":      "doc/NEWS.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.7",
+    "Installed":      "installed/libelektra/0.8.7",
+    "Source":         "src/libelektra/0.8.7/libelektra-0.8.7.tar.gz",
+    "Changelog":      "doc/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.6",
+    "Installed":      "installed/libelektra/0.8.6",
+    "Source":         "src/libelektra/0.8.6/libelektra-0.8.6.tar.gz",
+    "Changelog":      "doc/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.5",
+    "Installed":      "installed/libelektra/0.8.5",
+    "Source":         "src/libelektra/0.8.5/libelektra-0.8.5.tar.gz",
+    "Changelog":      "doc/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.4",
+    "Installed":      "installed/libelektra/0.8.4",
+    "Source":         "src/libelektra/0.8.4/libelektra-0.8.4.tar.gz",
+    "Changelog":      "doc/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.3",
+    "Installed":      "installed/libelektra/0.8.3",
+    "Source":         "src/libelektra/0.8.3/libelektra-0.8.3.tar.gz",
+    "Changelog":      "doc/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.1",
+    "Installed":      "installed/libelektra/0.8.1",
+    "Source":         "src/libelektra/0.8.1/libelektra-0.8.1.tar.gz",
+    "Changelog":      "doc/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

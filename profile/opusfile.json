@@ -1,0 +1,90 @@
+{
+  "Name":           "opusfile",
+  "Title":          "Opusfile",
+  "SourceUrl":      "http://downloads.xiph.org/releases/opus/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.8",
+    "Installed":      "installed/opusfile/0.8",
+    "Source":         "src/opusfile/0.8/opusfile-0.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7",
+    "Installed":      "installed/opusfile/0.7",
+    "Source":         "src/opusfile/0.7/opusfile-0.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6",
+    "Installed":      "installed/opusfile/0.6",
+    "Source":         "src/opusfile/0.6/opusfile-0.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5",
+    "Installed":      "installed/opusfile/0.5",
+    "Source":         "src/opusfile/0.5/opusfile-0.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4",
+    "Installed":      "installed/opusfile/0.4",
+    "Source":         "src/opusfile/0.4/opusfile-0.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3",
+    "Installed":      "installed/opusfile/0.3",
+    "Source":         "src/opusfile/0.3/opusfile-0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2",
+    "Installed":      "installed/opusfile/0.2",
+    "Source":         "src/opusfile/0.2/opusfile-0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1",
+    "Installed":      "installed/opusfile/0.1",
+    "Source":         "src/opusfile/0.1/opusfile-0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

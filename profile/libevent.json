@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         "2.1.8",
+    "Installed":      "installed/libevent/2.1.8",
+    "Source":         "src/libevent/2.1.8/release-2.1.8-stable.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.1.7",
     "Installed":      "installed/libevent/2.1.7",
     "Source":         "src/libevent/2.1.7/release-2.1.7-rc.tar.gz",

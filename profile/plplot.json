@@ -1,0 +1,115 @@
+{
+  "Name":           "plplot",
+  "Title":          "PLplot",
+  "SourceUrl":      "https://sourceforge.net/projects/plplot/files/plplot/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DENABLE_qt=ON",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/plplot*",
+  "SkipObjects":    [ "libcsirocsa.so" ],
+  "CMakePath":      "/home/Soft/cmake-3.0.2/bin/cmake",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "5.9.6",
+
+  "Versions": [
+  {
+    "Number":         "5.12.0",
+    "Installed":      "installed/plplot/5.12.0",
+    "Source":         "src/plplot/5.12.0/plplot-5.12.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.11.1",
+    "Installed":      "installed/plplot/5.11.1",
+    "Source":         "src/plplot/5.11.1/plplot-5.11.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.11.0",
+    "Installed":      "installed/plplot/5.11.0",
+    "Source":         "src/plplot/5.11.0/plplot-5.11.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.10.0",
+    "Installed":      "installed/plplot/5.10.0",
+    "Source":         "src/plplot/5.10.0/plplot-5.10.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.9.11",
+    "Installed":      "installed/plplot/5.9.11",
+    "Source":         "src/plplot/5.9.11/plplot-5.9.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.9.10",
+    "Installed":      "installed/plplot/5.9.10",
+    "Source":         "src/plplot/5.9.10/plplot-5.9.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.9.9",
+    "Installed":      "installed/plplot/5.9.9",
+    "Source":         "src/plplot/5.9.9/plplot-5.9.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.9.8",
+    "Installed":      "installed/plplot/5.9.8",
+    "Source":         "src/plplot/5.9.8/plplot-5.9.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.9.7",
+    "Installed":      "installed/plplot/5.9.7",
+    "Source":         "src/plplot/5.9.7/plplot-5.9.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.9.6",
+    "Installed":      "installed/plplot/5.9.6",
+    "Source":         "src/plplot/5.9.6/plplot-5.9.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

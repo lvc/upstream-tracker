@@ -6,10 +6,53 @@
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "BuildScript":    "build_script/boost.sh",
-  "HeadersDiff":    "Off",
   "GraphShortXTics": "On",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.55",
 
   "Versions": [
+  {
+    "Number":         "1_64_0",
+    "Installed":      "installed/boost/1_64_0",
+    "Source":         "src/boost/1_64_0/boost_1_64_0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_63_0",
+    "Installed":      "installed/boost/1_63_0",
+    "Source":         "src/boost/1_63_0/boost_1_63_0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_63_0_rc2",
+    "Installed":      "installed/boost/1_63_0_rc2",
+    "Source":         "src/boost/1_63_0_rc2/boost_1_63_0_rc2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1_63_0_rc1",
+    "Installed":      "installed/boost/1_63_0_rc1",
+    "Source":         "src/boost/1_63_0_rc1/boost_1_63_0_rc1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
   {
     "Number":         "1_62_0",
     "Installed":      "installed/boost/1_62_0",

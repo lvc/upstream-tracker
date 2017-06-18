@@ -1,0 +1,153 @@
+{
+  "Name":           "pcsc-lite",
+  "Title":          "PCSC-Lite",
+  "SourceUrl":      "https://alioth.debian.org/frs/?group_id=30105",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-systemdsystemunitdir={INSTALL_TO}/share",
+  "Changelog":      "ChangeLog",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.8.8",
+
+  "Versions": [
+  {
+    "Number":         "1.8.21",
+    "Installed":      "installed/pcsc-lite/1.8.21",
+    "Source":         "src/pcsc-lite/1.8.21/pcsc-lite-1.8.21.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.20",
+    "Installed":      "installed/pcsc-lite/1.8.20",
+    "Source":         "src/pcsc-lite/1.8.20/pcsc-lite-1.8.20.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.19",
+    "Installed":      "installed/pcsc-lite/1.8.19",
+    "Source":         "src/pcsc-lite/1.8.19/pcsc-lite-1.8.19.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.18",
+    "Installed":      "installed/pcsc-lite/1.8.18",
+    "Source":         "src/pcsc-lite/1.8.18/pcsc-lite-1.8.18.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.17",
+    "Installed":      "installed/pcsc-lite/1.8.17",
+    "Source":         "src/pcsc-lite/1.8.17/pcsc-lite-1.8.17.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.16",
+    "Installed":      "installed/pcsc-lite/1.8.16",
+    "Source":         "src/pcsc-lite/1.8.16/pcsc-lite-1.8.16.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.15",
+    "Installed":      "installed/pcsc-lite/1.8.15",
+    "Source":         "src/pcsc-lite/1.8.15/pcsc-lite-1.8.15.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.14",
+    "Installed":      "installed/pcsc-lite/1.8.14",
+    "Source":         "src/pcsc-lite/1.8.14/pcsc-lite-1.8.14.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.13",
+    "Installed":      "installed/pcsc-lite/1.8.13",
+    "Source":         "src/pcsc-lite/1.8.13/pcsc-lite-1.8.13.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.12",
+    "Installed":      "installed/pcsc-lite/1.8.12",
+    "Source":         "src/pcsc-lite/1.8.12/pcsc-lite-1.8.12.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.11",
+    "Installed":      "installed/pcsc-lite/1.8.11",
+    "Source":         "src/pcsc-lite/1.8.11/pcsc-lite-1.8.11.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.10",
+    "Installed":      "installed/pcsc-lite/1.8.10",
+    "Source":         "src/pcsc-lite/1.8.10/pcsc-lite-1.8.10.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.9",
+    "Installed":      "installed/pcsc-lite/1.8.9",
+    "Source":         "src/pcsc-lite/1.8.9/pcsc-lite-1.8.9.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.8",
+    "Installed":      "installed/pcsc-lite/1.8.8",
+    "Source":         "src/pcsc-lite/1.8.8/pcsc-lite-1.8.8.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -3,8 +3,130 @@
   "SourceUrl":      "https://github.com/cinemast/libjson-rpc-cpp/tags",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DJSONCPP_INCLUDE_DIR={INSTALL_ROOT}/jsoncpp/1.7.7/include -DJSONCPP_LIBRARY={INSTALL_ROOT}/jsoncpp/1.7.7/lib/libjsoncpp.so -DMHD_INCLUDE_DIR={INSTALL_ROOT}/libmicrohttpd/0.9.52/include -DMHD_LIBRARY={INSTALL_ROOT}/libmicrohttpd/0.9.52/lib/libmicrohttpd.so -DCOMPILE_TESTS=Off -DCOMPILE_EXAMPLES=Off",
+  "PreInstall":     "sed -i -e 's/-O0/-Og/g' cmake/*.cmake",
+  "Changelog":      "CHANGELOG.md",
   "HeadersDiff":    "Off",
 
   "Versions": [
-  ]
+  {
+    "Number":         "0.7.0",
+    "Installed":      "installed/libjson-rpc-cpp/0.7.0",
+    "Source":         "src/libjson-rpc-cpp/0.7.0/libjson-rpc-cpp-0.7.0.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.0",
+    "Installed":      "installed/libjson-rpc-cpp/0.6.0",
+    "Source":         "src/libjson-rpc-cpp/0.6.0/libjson-rpc-cpp-0.6.0.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.0",
+    "Installed":      "installed/libjson-rpc-cpp/0.5.0",
+    "Source":         "src/libjson-rpc-cpp/0.5.0/libjson-rpc-cpp-0.5.0.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.2",
+    "Installed":      "installed/libjson-rpc-cpp/0.4.2",
+    "Source":         "src/libjson-rpc-cpp/0.4.2/libjson-rpc-cpp-0.4.2.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.1",
+    "Installed":      "installed/libjson-rpc-cpp/0.4.1",
+    "Source":         "src/libjson-rpc-cpp/0.4.1/libjson-rpc-cpp-0.4.1.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4",
+    "Installed":      "installed/libjson-rpc-cpp/0.4",
+    "Source":         "src/libjson-rpc-cpp/0.4/libjson-rpc-cpp-0.4.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.2",
+    "Installed":      "installed/libjson-rpc-cpp/0.3.2",
+    "Source":         "src/libjson-rpc-cpp/0.3.2/libjson-rpc-cpp-0.3.2.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.1",
+    "Installed":      "installed/libjson-rpc-cpp/0.3.1",
+    "Source":         "src/libjson-rpc-cpp/0.3.1/libjson-rpc-cpp-0.3.1.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3",
+    "Installed":      "installed/libjson-rpc-cpp/0.3",
+    "Source":         "src/libjson-rpc-cpp/0.3/libjson-rpc-cpp-0.3.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.1",
+    "Installed":      "installed/libjson-rpc-cpp/0.2.1",
+    "Source":         "src/libjson-rpc-cpp/0.2.1/libjson-rpc-cpp-0.2.1.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2",
+    "Installed":      "installed/libjson-rpc-cpp/0.2",
+    "Source":         "src/libjson-rpc-cpp/0.2/libjson-rpc-cpp-0.2.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1",
+    "Installed":      "installed/libjson-rpc-cpp/0.1",
+    "Source":         "src/libjson-rpc-cpp/0.1/libjson-rpc-cpp-0.1.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
 }

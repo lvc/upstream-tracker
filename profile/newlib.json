@@ -12,9 +12,19 @@
   "ShowPackageInReport": "On",
   "SkipVersions":   [ ".*\d\d\d\d\d\d\d\d" ],
   "Soname":         "Off",
-  "UseTUDump":      "1",
+  "UseTUDump":      "On",
 
   "Versions": [
+  {
+    "Number":         "2.5.0",
+    "Installed":      "installed/newlib/2.5.0",
+    "Source":         "src/newlib/2.5.0/newlib-2.5.0.tar.gz",
+    "Changelog":      "newlib/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "2.4.0",
     "Installed":      "installed/newlib/2.4.0",

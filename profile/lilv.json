@@ -10,6 +10,26 @@
 
   "Versions": [
   {
+    "Number":         "0.24.2",
+    "Installed":      "installed/lilv/0.24.2",
+    "Source":         "src/lilv/0.24.2/lilv-0.24.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.24.0",
+    "Installed":      "installed/lilv/0.24.0",
+    "Source":         "src/lilv/0.24.0/lilv-0.24.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.22.0",
     "Installed":      "installed/lilv/0.22.0",
     "Source":         "src/lilv/0.22.0/lilv-0.22.0.tar.bz2",

@@ -1,0 +1,70 @@
+{
+  "Name":           "libvncserver",
+  "Title":          "LibVNCServer",
+  "SourceUrl":      "https://github.com/LibVNC/libvncserver/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.9.11",
+    "Installed":      "installed/libvncserver/0.9.11",
+    "Source":         "src/libvncserver/0.9.11/LibVNCServer-0.9.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.10",
+    "Installed":      "installed/libvncserver/0.9.10",
+    "Source":         "src/libvncserver/0.9.10/LibVNCServer-0.9.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.9",
+    "Installed":      "installed/libvncserver/0.9.9",
+    "Source":         "src/libvncserver/0.9.9/LibVNCServer-0.9.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.8.2",
+    "Installed":      "installed/libvncserver/0.9.8.2",
+    "Source":         "src/libvncserver/0.9.8.2/LibVNCServer-0.9.8.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.8.1",
+    "Installed":      "installed/libvncserver/0.9.8.1",
+    "Source":         "src/libvncserver/0.9.8.1/LibVNCServer-0.9.8.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.8",
+    "Installed":      "installed/libvncserver/0.9.8",
+    "Source":         "src/libvncserver/0.9.8/LibVNCServer-0.9.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

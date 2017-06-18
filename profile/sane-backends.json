@@ -1,0 +1,53 @@
+{
+  "Name":           "sane-backends",
+  "Title":          "SANE",
+  "SourceUrl":      "https://alioth.debian.org/frs/?group_id=30186",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-v4l=no --disable-local-backends",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/sane",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.0.22",
+
+  "Versions": [
+  {
+    "Number":         "1.0.27",
+    "Installed":      "installed/sane-backends/1.0.27",
+    "Source":         "src/sane-backends/1.0.27/sane-backends-1.0.27.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.25",
+    "Installed":      "installed/sane-backends/1.0.25",
+    "Source":         "src/sane-backends/1.0.25/sane-backends-1.0.25.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.24",
+    "Installed":      "installed/sane-backends/1.0.24",
+    "Source":         "src/sane-backends/1.0.24/sane-backends-1.0.24.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.22",
+    "Installed":      "installed/sane-backends/1.0.22",
+    "Source":         "src/sane-backends/1.0.22/sane-backends-1.0.22.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

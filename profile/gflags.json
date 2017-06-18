@@ -1,0 +1,120 @@
+{
+  "Name":           "gflags",
+  "SourceUrl":      "https://github.com/gflags/gflags/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Changelog":      "ChangeLog.txt",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.2.0",
+    "Installed":      "installed/gflags/2.2.0",
+    "Source":         "src/gflags/2.2.0/gflags-2.2.0.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.2",
+    "Installed":      "installed/gflags/2.1.2",
+    "Source":         "src/gflags/2.1.2/gflags-2.1.2.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0",
+    "Installed":      "installed/gflags/2.0",
+    "Source":         "src/gflags/2.0/gflags-2.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7",
+    "Installed":      "installed/gflags/1.7",
+    "Source":         "src/gflags/1.7/gflags-1.7.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6",
+    "Installed":      "installed/gflags/1.6",
+    "Source":         "src/gflags/1.6/gflags-1.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5",
+    "Installed":      "installed/gflags/1.5",
+    "Source":         "src/gflags/1.5/gflags-1.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4",
+    "Installed":      "installed/gflags/1.4",
+    "Source":         "src/gflags/1.4/gflags-1.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3",
+    "Installed":      "installed/gflags/1.3",
+    "Source":         "src/gflags/1.3/gflags-1.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2",
+    "Installed":      "installed/gflags/1.2",
+    "Source":         "src/gflags/1.2/gflags-1.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1",
+    "Installed":      "installed/gflags/1.1",
+    "Source":         "src/gflags/1.1/gflags-1.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8",
+    "Installed":      "installed/gflags/0.8",
+    "Source":         "src/gflags/0.8/gflags-0.8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,45 @@
+{
+  "Name":           "grass",
+  "Title":          "GRASS GIS",
+  "SourceUrl":      "https://grass.osgeo.org/download/software/sources/",
+  "SourceUrlDepth": "1",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/grass.sh",
+  "SkipObjects":    [ "libgrass_htmldriver.*", "libgrass_dspf.*", "libgrass_pngdriver.*", "libgrass_cairodriver.*" ],
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+  "HideEmpty":      "On",
+
+  "Versions": [
+  {
+    "Number":         "7.2.0",
+    "Installed":      "installed/grass/7.2.0",
+    "Source":         "src/grass/7.2.0/grass-7.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.5",
+    "Installed":      "installed/grass/7.0.5",
+    "Source":         "src/grass/7.0.5/grass-7.0.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.4.6",
+    "Installed":      "installed/grass/6.4.6",
+    "Source":         "src/grass/6.4.6/grass-6.4.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

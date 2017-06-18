@@ -1,0 +1,110 @@
+{
+  "Name":           "libbytesize",
+  "SourceUrl":      "https://github.com/rhinstaller/libbytesize/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--without-python3",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.10",
+    "Installed":      "installed/libbytesize/0.10",
+    "Source":         "src/libbytesize/0.10/libbytesize-0.10.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9",
+    "Installed":      "installed/libbytesize/0.9",
+    "Source":         "src/libbytesize/0.9/libbytesize-0.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8",
+    "Installed":      "installed/libbytesize/0.8",
+    "Source":         "src/libbytesize/0.8/libbytesize-0.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7",
+    "Installed":      "installed/libbytesize/0.7",
+    "Source":         "src/libbytesize/0.7/libbytesize-0.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6",
+    "Installed":      "installed/libbytesize/0.6",
+    "Source":         "src/libbytesize/0.6/libbytesize-0.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5",
+    "Installed":      "installed/libbytesize/0.5",
+    "Source":         "src/libbytesize/0.5/libbytesize-0.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4",
+    "Installed":      "installed/libbytesize/0.4",
+    "Source":         "src/libbytesize/0.4/libbytesize-0.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3",
+    "Installed":      "installed/libbytesize/0.3",
+    "Source":         "src/libbytesize/0.3/libbytesize-0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2",
+    "Installed":      "installed/libbytesize/0.2",
+    "Source":         "src/libbytesize/0.2/libbytesize-0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1",
+    "Installed":      "installed/libbytesize/0.1",
+    "Source":         "src/libbytesize/0.1/libbytesize-0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

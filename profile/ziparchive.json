@@ -1,0 +1,43 @@
+{
+  "Name":           "ziparchive",
+  "Title":          "ZipArchive",
+  "SourceUrl":      "http://www.artpol-software.com/Download.aspx",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/ziparchive.sh",
+  "BuildDir":       "ZipArchive",
+  "HeadersDiff":    "Off",
+  "Soname":         "Off",
+
+  "Versions": [
+  {
+    "Number":         "4.6.4",
+    "Installed":      "installed/ziparchive/4.6.4",
+    "Source":         "src/ziparchive/4.6.4/ziparchive_src.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.3",
+    "Installed":      "installed/ziparchive/4.6.3",
+    "Source":         "src/ziparchive/4.6.3/ziparchive_src.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.2",
+    "Installed":      "installed/ziparchive/4.1.2",
+    "Source":         "src/ziparchive/4.1.2/ziparchive_src.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

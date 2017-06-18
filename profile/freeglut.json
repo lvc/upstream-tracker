@@ -1,0 +1,61 @@
+{
+  "Name":           "freeglut",
+  "SourceUrl":      "https://sourceforge.net/projects/freeglut/files/freeglut/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "sed -i -e 's/progs doc//' Makefile.in",
+  "Changelog":      "ChangeLog",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "3.0.0",
+    "Installed":      "installed/freeglut/3.0.0",
+    "Source":         "src/freeglut/3.0.0/freeglut-3.0.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.1",
+    "Installed":      "installed/freeglut/2.8.1",
+    "Source":         "src/freeglut/2.8.1/freeglut-2.8.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.0",
+    "Installed":      "installed/freeglut/2.8.0",
+    "Source":         "src/freeglut/2.8.0/freeglut-2.8.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.0",
+    "Installed":      "installed/freeglut/2.6.0",
+    "Source":         "src/freeglut/2.6.0/freeglut-2.6.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.0",
+    "Installed":      "installed/freeglut/2.4.0",
+    "Source":         "src/freeglut/2.4.0/freeglut-2.4.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

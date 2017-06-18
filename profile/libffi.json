@@ -1,0 +1,200 @@
+{
+  "Name":           "libffi",
+  "SourceUrl":      "ftp://sourceware.org/pub/libffi/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.99.8",
+
+  "Versions": [
+  {
+    "Number":         "3.2.1",
+    "Installed":      "installed/libffi/3.2.1",
+    "Source":         "src/libffi/3.2.1/libffi-3.2.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2",
+    "Installed":      "installed/libffi/3.2",
+    "Source":         "src/libffi/3.2/libffi-3.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1",
+    "Installed":      "installed/libffi/3.1",
+    "Source":         "src/libffi/3.1/libffi-3.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.13",
+    "Installed":      "installed/libffi/3.0.13",
+    "Source":         "src/libffi/3.0.13/libffi-3.0.13.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.12",
+    "Installed":      "installed/libffi/3.0.12",
+    "Source":         "src/libffi/3.0.12/libffi-3.0.12.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.11",
+    "Installed":      "installed/libffi/3.0.11",
+    "Source":         "src/libffi/3.0.11/libffi-3.0.11.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.10",
+    "Installed":      "installed/libffi/3.0.10",
+    "Source":         "src/libffi/3.0.10/libffi-3.0.10.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.9",
+    "Installed":      "installed/libffi/3.0.9",
+    "Source":         "src/libffi/3.0.9/libffi-3.0.9.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.8",
+    "Installed":      "installed/libffi/3.0.8",
+    "Source":         "src/libffi/3.0.8/libffi-3.0.8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.7",
+    "Installed":      "installed/libffi/3.0.7",
+    "Source":         "src/libffi/3.0.7/libffi-3.0.7.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.6",
+    "Installed":      "installed/libffi/3.0.6",
+    "Source":         "src/libffi/3.0.6/libffi-3.0.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.5",
+    "Installed":      "installed/libffi/3.0.5",
+    "Source":         "src/libffi/3.0.5/libffi-3.0.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.4",
+    "Installed":      "installed/libffi/3.0.4",
+    "Source":         "src/libffi/3.0.4/libffi-3.0.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.3",
+    "Installed":      "installed/libffi/3.0.3",
+    "Source":         "src/libffi/3.0.3/libffi-3.0.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.2",
+    "Installed":      "installed/libffi/3.0.2",
+    "Source":         "src/libffi/3.0.2/libffi-3.0.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.1",
+    "Installed":      "installed/libffi/3.0.1",
+    "Source":         "src/libffi/3.0.1/libffi-3.0.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.0",
+    "Installed":      "installed/libffi/3.0.0",
+    "Source":         "src/libffi/3.0.0/libffi-3.0.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.99.9",
+    "Installed":      "installed/libffi/2.99.9",
+    "Source":         "src/libffi/2.99.9/libffi-2.99.9.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.99.8",
+    "Installed":      "installed/libffi/2.99.8",
+    "Source":         "src/libffi/2.99.8/libffi-2.99.8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

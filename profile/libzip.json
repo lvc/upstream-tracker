@@ -96,15 +96,5 @@
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
-  },
-  {
-    "Number":         "0.8",
-    "Installed":      "installed/libzip/0.8",
-    "Source":         "src/libzip/0.8/libzip-0.8.tar.gz",
-    "Changelog":      "NEWS",
-    "HeadersDiff":    "Off",
-    "PkgDiff":        "Off",
-    "ABIView":        "Off",
-    "ABIDiff":        "Off"
   }]
 }

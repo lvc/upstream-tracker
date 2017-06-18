@@ -1,0 +1,101 @@
+{
+  "Name":           "lfcxml",
+  "SourceUrl":      "http://download.openpkg.org/components/cache/cego/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-static=no --with-lfc-include-path={INSTALL_ROOT}/lfcbase/1.9.6/include --with-lfc-lib-path={INSTALL_ROOT}/lfcbase/1.9.6/lib",
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.2.4",
+    "Installed":      "installed/lfcxml/1.2.4",
+    "Source":         "src/lfcxml/1.2.4/lfcxml-1.2.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.3",
+    "Installed":      "installed/lfcxml/1.2.3",
+    "Source":         "src/lfcxml/1.2.3/lfcxml-1.2.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.2",
+    "Installed":      "installed/lfcxml/1.2.2",
+    "Source":         "src/lfcxml/1.2.2/lfcxml-1.2.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/lfcxml/1.2.0",
+    "Source":         "src/lfcxml/1.2.0/lfcxml-1.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.8",
+    "Installed":      "installed/lfcxml/1.1.8",
+    "Source":         "src/lfcxml/1.1.8/lfcxml-1.1.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.7",
+    "Installed":      "installed/lfcxml/1.1.7",
+    "Source":         "src/lfcxml/1.1.7/lfcxml-1.1.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.6",
+    "Installed":      "installed/lfcxml/1.1.6",
+    "Source":         "src/lfcxml/1.1.6/lfcxml-1.1.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.5",
+    "Installed":      "installed/lfcxml/1.1.5",
+    "Source":         "src/lfcxml/1.1.5/lfcxml-1.1.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.4",
+    "Installed":      "installed/lfcxml/1.1.4",
+    "Source":         "src/lfcxml/1.1.4/lfcxml-1.1.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

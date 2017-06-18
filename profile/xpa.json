@@ -1,0 +1,73 @@
+{
+  "Name":           "xpa",
+  "Title":          "XPA",
+  "SourceUrl":      "https://github.com/ericmandel/xpa/tags",
+  "OldSourceUrl":   "http://pkgs.fedoraproject.org/repo/pkgs/xpa/",
+  "OldSourceUrlDepth": "3",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.1.12",
+
+  "Versions": [
+  {
+    "Number":         "2.1.18",
+    "Installed":      "installed/xpa/2.1.18",
+    "Source":         "src/xpa/2.1.18/xpa-2.1.18.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.17",
+    "Installed":      "installed/xpa/2.1.17",
+    "Source":         "src/xpa/2.1.17/xpa-2.1.17.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.16",
+    "Installed":      "installed/xpa/2.1.16",
+    "Source":         "src/xpa/2.1.16/xpa-2.1.16.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.15",
+    "Installed":      "installed/xpa/2.1.15",
+    "Source":         "src/xpa/2.1.15/xpa-2.1.15.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.13",
+    "Installed":      "installed/xpa/2.1.13",
+    "Source":         "src/xpa/2.1.13/xpa-2.1.13.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.12",
+    "Installed":      "installed/xpa/2.1.12",
+    "Source":         "src/xpa/2.1.12/xpa-2.1.12.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

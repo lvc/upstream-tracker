@@ -1,0 +1,111 @@
+{
+  "Name":           "rabbitmq-c",
+  "Title":          "RabbitMQ C",
+  "SourceUrl":      "https://github.com/alanxz/rabbitmq-c/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "CMake",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.8.0",
+    "Installed":      "installed/rabbitmq-c/0.8.0",
+    "Source":         "src/rabbitmq-c/0.8.0/rabbitmq-c-0.8.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.1",
+    "Installed":      "installed/rabbitmq-c/0.7.1",
+    "Source":         "src/rabbitmq-c/0.7.1/rabbitmq-c-0.7.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.0",
+    "Installed":      "installed/rabbitmq-c/0.7.0",
+    "Source":         "src/rabbitmq-c/0.7.0/rabbitmq-c-0.7.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.0",
+    "Installed":      "installed/rabbitmq-c/0.6.0",
+    "Source":         "src/rabbitmq-c/0.6.0/rabbitmq-c-0.6.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.2",
+    "Installed":      "installed/rabbitmq-c/0.5.2",
+    "Source":         "src/rabbitmq-c/0.5.2/rabbitmq-c-0.5.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.1",
+    "Installed":      "installed/rabbitmq-c/0.5.1",
+    "Source":         "src/rabbitmq-c/0.5.1/rabbitmq-c-0.5.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.0",
+    "Installed":      "installed/rabbitmq-c/0.5.0",
+    "Source":         "src/rabbitmq-c/0.5.0/rabbitmq-c-0.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.1",
+    "Installed":      "installed/rabbitmq-c/0.4.1",
+    "Source":         "src/rabbitmq-c/0.4.1/rabbitmq-c-0.4.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.0",
+    "Installed":      "installed/rabbitmq-c/0.4.0",
+    "Source":         "src/rabbitmq-c/0.4.0/rabbitmq-c-0.4.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.0",
+    "Installed":      "installed/rabbitmq-c/0.3.0",
+    "Source":         "src/rabbitmq-c/0.3.0/rabbitmq-c-0.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

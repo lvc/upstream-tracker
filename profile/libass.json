@@ -7,6 +7,36 @@
 
   "Versions": [
   {
+    "Number":         "0.13.7",
+    "Installed":      "installed/libass/0.13.7",
+    "Source":         "src/libass/0.13.7/libass-0.13.7.tar.gz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13.6",
+    "Installed":      "installed/libass/0.13.6",
+    "Source":         "src/libass/0.13.6/libass-0.13.6.tar.gz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13.5",
+    "Installed":      "installed/libass/0.13.5",
+    "Source":         "src/libass/0.13.5/libass-0.13.5.tar.gz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.13.4",
     "Installed":      "installed/libass/0.13.4",
     "Source":         "src/libass/0.13.4/libass-0.13.4.tar.gz",

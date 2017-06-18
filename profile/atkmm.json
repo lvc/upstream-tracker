@@ -1,0 +1,82 @@
+{
+  "Name":           "atkmm",
+  "Title":          "Atkmm",
+  "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/atkmm/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "CXX=/home/Soft/GCC-5.1/bin/g++ PKG_CONFIG_PATH={INSTALL_ROOT}/glibmm/2.53.1.1/lib/pkgconfig:{INSTALL_ROOT}/libsigc++/2.99.7/lib/pkgconfig:{INSTALL_ROOT}/glib/2.52.0/lib/pkgconfig",
+  "GraphFewXTics":  "On",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.25.2",
+    "Installed":      "installed/atkmm/2.25.2",
+    "Source":         "src/atkmm/2.25.2/atkmm-2.25.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.25.1",
+    "Installed":      "installed/atkmm/2.25.1",
+    "Source":         "src/atkmm/2.25.1/atkmm-2.25.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.24.2",
+    "Installed":      "installed/atkmm/2.24.2",
+    "Source":         "src/atkmm/2.24.2/atkmm-2.24.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.24.1",
+    "Installed":      "installed/atkmm/2.24.1",
+    "Source":         "src/atkmm/2.24.1/atkmm-2.24.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.24.0",
+    "Installed":      "installed/atkmm/2.24.0",
+    "Source":         "src/atkmm/2.24.0/atkmm-2.24.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.23.3",
+    "Installed":      "installed/atkmm/2.23.3",
+    "Source":         "src/atkmm/2.23.3/atkmm-2.23.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.23.2",
+    "Installed":      "installed/atkmm/2.23.2",
+    "Source":         "src/atkmm/2.23.2/atkmm-2.23.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

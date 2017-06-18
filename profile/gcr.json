@@ -1,0 +1,102 @@
+{
+  "Name":           "gcr",
+  "Title":          "Gcr",
+  "SourceUrl":      "http://ftp.gnome.org/pub/gnome/sources/gcr/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "3.10.1",
+  "SkipVersions":   [ ".*\.9\d+" ],
+
+  "Versions": [
+  {
+    "Number":         "3.20.0",
+    "Installed":      "installed/gcr/3.20.0",
+    "Source":         "src/gcr/3.20.0/gcr-3.20.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.19.4",
+    "Installed":      "installed/gcr/3.19.4",
+    "Source":         "src/gcr/3.19.4/gcr-3.19.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.18.0",
+    "Installed":      "installed/gcr/3.18.0",
+    "Source":         "src/gcr/3.18.0/gcr-3.18.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.17.4",
+    "Installed":      "installed/gcr/3.17.4",
+    "Source":         "src/gcr/3.17.4/gcr-3.17.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.16.0",
+    "Installed":      "installed/gcr/3.16.0",
+    "Source":         "src/gcr/3.16.0/gcr-3.16.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.14.0",
+    "Installed":      "installed/gcr/3.14.0",
+    "Source":         "src/gcr/3.14.0/gcr-3.14.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.12.2",
+    "Installed":      "installed/gcr/3.12.2",
+    "Source":         "src/gcr/3.12.2/gcr-3.12.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.12.0",
+    "Installed":      "installed/gcr/3.12.0",
+    "Source":         "src/gcr/3.12.0/gcr-3.12.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.10.1",
+    "Installed":      "installed/gcr/3.10.1",
+    "Source":         "src/gcr/3.10.1/gcr-3.10.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -5,9 +5,157 @@
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "BuildDir":       "cpp",
   "HeadersDiff":    "Off",
-  "LatestMicro":    "1",
+  "LatestMicro":    "On",
 
   "Versions": [
+  {
+    "Number":         "8.5.1",
+    "Installed":      "installed/libphonenumber/8.5.1",
+    "Source":         "src/libphonenumber/8.5.1/libphonenumber-8.5.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.5.0",
+    "Installed":      "installed/libphonenumber/8.5.0",
+    "Source":         "src/libphonenumber/8.5.0/libphonenumber-8.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "8.4.3",
+    "Installed":      "installed/libphonenumber/8.4.3",
+    "Source":         "src/libphonenumber/8.4.3/libphonenumber-8.4.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.4.2",
+    "Installed":      "installed/libphonenumber/8.4.2",
+    "Source":         "src/libphonenumber/8.4.2/libphonenumber-8.4.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "8.4.1",
+    "Installed":      "installed/libphonenumber/8.4.1",
+    "Source":         "src/libphonenumber/8.4.1/libphonenumber-8.4.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "8.4.0",
+    "Installed":      "installed/libphonenumber/8.4.0",
+    "Source":         "src/libphonenumber/8.4.0/libphonenumber-8.4.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "8.3.3",
+    "Installed":      "installed/libphonenumber/8.3.3",
+    "Source":         "src/libphonenumber/8.3.3/libphonenumber-8.3.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.3.2",
+    "Installed":      "installed/libphonenumber/8.3.2",
+    "Source":         "src/libphonenumber/8.3.2/libphonenumber-8.3.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "8.3.1",
+    "Installed":      "installed/libphonenumber/8.3.1",
+    "Source":         "src/libphonenumber/8.3.1/libphonenumber-8.3.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "8.3.0",
+    "Installed":      "installed/libphonenumber/8.3.0",
+    "Source":         "src/libphonenumber/8.3.0/libphonenumber-8.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "8.2.0",
+    "Installed":      "installed/libphonenumber/8.2.0",
+    "Source":         "src/libphonenumber/8.2.0/libphonenumber-8.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.1.0",
+    "Installed":      "installed/libphonenumber/8.1.0",
+    "Source":         "src/libphonenumber/8.1.0/libphonenumber-8.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.0.1",
+    "Installed":      "installed/libphonenumber/8.0.1",
+    "Source":         "src/libphonenumber/8.0.1/libphonenumber-8.0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.0.0",
+    "Installed":      "installed/libphonenumber/8.0.0",
+    "Source":         "src/libphonenumber/8.0.0/libphonenumber-8.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
   {
     "Number":         "7.7.5",
     "Installed":      "installed/libphonenumber/7.7.5",

@@ -1,0 +1,122 @@
+{
+  "Name":           "adg",
+  "Title":          "ADG",
+  "SourceUrl":      "https://github.com/ntd/adg/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-girdir={INSTALL_TO}/share --with-typelibdir={INSTALL_TO}/share",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.6.6",
+
+  "Versions": [
+  {
+    "Number":         "0.9.1",
+    "Installed":      "installed/adg/0.9.1",
+    "Source":         "src/adg/0.9.1/adg-0.9.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.0",
+    "Installed":      "installed/adg/0.9.0",
+    "Source":         "src/adg/0.9.0/adg-0.9.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.0",
+    "Installed":      "installed/adg/0.8.0",
+    "Source":         "src/adg/0.8.0/adg-0.8.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.6",
+    "Installed":      "installed/adg/0.7.6",
+    "Source":         "src/adg/0.7.6/adg-0.7.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.5",
+    "Installed":      "installed/adg/0.7.5",
+    "Source":         "src/adg/0.7.5/adg-0.7.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.4",
+    "Installed":      "installed/adg/0.7.4",
+    "Source":         "src/adg/0.7.4/adg-0.7.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.3",
+    "Installed":      "installed/adg/0.7.3",
+    "Source":         "src/adg/0.7.3/adg-0.7.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.2",
+    "Installed":      "installed/adg/0.7.2",
+    "Source":         "src/adg/0.7.2/adg-0.7.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.1",
+    "Installed":      "installed/adg/0.7.1",
+    "Source":         "src/adg/0.7.1/adg-0.7.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.0",
+    "Installed":      "installed/adg/0.7.0",
+    "Source":         "src/adg/0.7.0/adg-0.7.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.6",
+    "Installed":      "installed/adg/0.6.6",
+    "Source":         "src/adg/0.6.6/adg-0.6.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

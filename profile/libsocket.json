@@ -1,0 +1,63 @@
+{
+  "Name":           "libsocket",
+  "SourceUrl":      "https://github.com/dermesser/libsocket/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DCMAKE_C_FLAGS_DEBUG='-g -Og' -DCMAKE_CXX_FLAGS_DEBUG='-g -Og'",
+  "HeadersDiff":    "Off",
+  "InstallGlobal":  "DESTDIR={INSTALL_TO}",
+  "Package":        "stable",
+  "Soname":         "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.4.1",
+    "Installed":      "installed/libsocket/2.4.1",
+    "Source":         "src/libsocket/2.4.1/stable-2.4.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0",
+    "Installed":      "installed/libsocket/2.0",
+    "Source":         "src/libsocket/2.0/stable-2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2",
+    "Installed":      "installed/libsocket/1.2",
+    "Source":         "src/libsocket/1.2/stable-1.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1",
+    "Installed":      "installed/libsocket/1.1",
+    "Source":         "src/libsocket/1.1/stable-1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         1,
+    "Installed":      "installed/libsocket/1",
+    "Source":         "src/libsocket/1/stable-1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

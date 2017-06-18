@@ -1,0 +1,93 @@
+{
+  "Name":           "activemq-cpp",
+  "Title":          "ActiveMQ CPP",
+  "SourceUrl":      "https://archive.apache.org/dist/activemq/activemq-cpp/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Changelog":      "RELEASE_NOTES.txt",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "3.8.2",
+  "Package":        "activemq-cpp-library",
+
+  "Versions": [
+  {
+    "Number":         "3.9.4",
+    "Installed":      "installed/activemq-cpp/3.9.4",
+    "Source":         "src/activemq-cpp/3.9.4/activemq-cpp-library-3.9.4-src.tar.gz",
+    "Changelog":      "RELEASE_NOTES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.9.3",
+    "Installed":      "installed/activemq-cpp/3.9.3",
+    "Source":         "src/activemq-cpp/3.9.3/activemq-cpp-library-3.9.3-src.tar.gz",
+    "Changelog":      "RELEASE_NOTES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.9.2",
+    "Installed":      "installed/activemq-cpp/3.9.2",
+    "Source":         "src/activemq-cpp/3.9.2/activemq-cpp-library-3.9.2-src.tar.gz",
+    "Changelog":      "RELEASE_NOTES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.9.1",
+    "Installed":      "installed/activemq-cpp/3.9.1",
+    "Source":         "src/activemq-cpp/3.9.1/activemq-cpp-library-3.9.1-src.tar.gz",
+    "Changelog":      "RELEASE_NOTES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.9.0",
+    "Installed":      "installed/activemq-cpp/3.9.0",
+    "Source":         "src/activemq-cpp/3.9.0/activemq-cpp-library-3.9.0-src.tar.gz",
+    "Changelog":      "RELEASE_NOTES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.8.4",
+    "Installed":      "installed/activemq-cpp/3.8.4",
+    "Source":         "src/activemq-cpp/3.8.4/activemq-cpp-library-3.8.4-src.tar.gz",
+    "Changelog":      "RELEASE_NOTES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.8.3",
+    "Installed":      "installed/activemq-cpp/3.8.3",
+    "Source":         "src/activemq-cpp/3.8.3/activemq-cpp-library-3.8.3-src.tar.gz",
+    "Changelog":      "RELEASE_NOTES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.8.2",
+    "Installed":      "installed/activemq-cpp/3.8.2",
+    "Source":         "src/activemq-cpp/3.8.2/activemq-cpp-library-3.8.2-src.tar.gz",
+    "Changelog":      "RELEASE_NOTES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

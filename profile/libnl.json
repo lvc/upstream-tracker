@@ -1,0 +1,343 @@
+{
+  "Name":           "libnl",
+  "SourceUrl":      "https://github.com/thom311/libnl/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/libnl/cli",
+  "SkipObjects":    [ "cli/" ],
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "3_3_0",
+    "Installed":      "installed/libnl/3_3_0",
+    "Source":         "src/libnl/3_3_0/libnl3_3_0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_3_0rc1",
+    "Installed":      "installed/libnl/3_3_0rc1",
+    "Source":         "src/libnl/3_3_0rc1/libnl3_3_0rc1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "3_2_29",
+    "Installed":      "installed/libnl/3_2_29",
+    "Source":         "src/libnl/3_2_29/libnl3_2_29.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_28",
+    "Installed":      "installed/libnl/3_2_28",
+    "Source":         "src/libnl/3_2_28/libnl3_2_28.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_27",
+    "Installed":      "installed/libnl/3_2_27",
+    "Source":         "src/libnl/3_2_27/libnl3_2_27.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_26",
+    "Installed":      "installed/libnl/3_2_26",
+    "Source":         "src/libnl/3_2_26/libnl3_2_26.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_25",
+    "Installed":      "installed/libnl/3_2_25",
+    "Source":         "src/libnl/3_2_25/libnl3_2_25.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_24",
+    "Installed":      "installed/libnl/3_2_24",
+    "Source":         "src/libnl/3_2_24/libnl3_2_24.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_23",
+    "Installed":      "installed/libnl/3_2_23",
+    "Source":         "src/libnl/3_2_23/libnl3_2_23.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_22",
+    "Installed":      "installed/libnl/3_2_22",
+    "Source":         "src/libnl/3_2_22/libnl3_2_22.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_21",
+    "Installed":      "installed/libnl/3_2_21",
+    "Source":         "src/libnl/3_2_21/libnl3_2_21.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_20",
+    "Installed":      "installed/libnl/3_2_20",
+    "Source":         "src/libnl/3_2_20/libnl3_2_20.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_19",
+    "Installed":      "installed/libnl/3_2_19",
+    "Source":         "src/libnl/3_2_19/libnl3_2_19.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_18",
+    "Installed":      "installed/libnl/3_2_18",
+    "Source":         "src/libnl/3_2_18/libnl3_2_18.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_17",
+    "Installed":      "installed/libnl/3_2_17",
+    "Source":         "src/libnl/3_2_17/libnl3_2_17.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_16",
+    "Installed":      "installed/libnl/3_2_16",
+    "Source":         "src/libnl/3_2_16/libnl3_2_16.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_15",
+    "Installed":      "installed/libnl/3_2_15",
+    "Source":         "src/libnl/3_2_15/libnl3_2_15.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_14",
+    "Installed":      "installed/libnl/3_2_14",
+    "Source":         "src/libnl/3_2_14/libnl3_2_14.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_13",
+    "Installed":      "installed/libnl/3_2_13",
+    "Source":         "src/libnl/3_2_13/libnl3_2_13.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_12",
+    "Installed":      "installed/libnl/3_2_12",
+    "Source":         "src/libnl/3_2_12/libnl3_2_12.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_11",
+    "Installed":      "installed/libnl/3_2_11",
+    "Source":         "src/libnl/3_2_11/libnl3_2_11.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_10",
+    "Installed":      "installed/libnl/3_2_10",
+    "Source":         "src/libnl/3_2_10/libnl3_2_10.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_9",
+    "Installed":      "installed/libnl/3_2_9",
+    "Source":         "src/libnl/3_2_9/libnl3_2_9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_8",
+    "Installed":      "installed/libnl/3_2_8",
+    "Source":         "src/libnl/3_2_8/libnl3_2_8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_7",
+    "Installed":      "installed/libnl/3_2_7",
+    "Source":         "src/libnl/3_2_7/libnl3_2_7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_6",
+    "Installed":      "installed/libnl/3_2_6",
+    "Source":         "src/libnl/3_2_6/libnl3_2_6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_5",
+    "Installed":      "installed/libnl/3_2_5",
+    "Source":         "src/libnl/3_2_5/libnl3_2_5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_4",
+    "Installed":      "installed/libnl/3_2_4",
+    "Source":         "src/libnl/3_2_4/libnl3_2_4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_3",
+    "Installed":      "installed/libnl/3_2_3",
+    "Source":         "src/libnl/3_2_3/libnl3_2_3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_2",
+    "Installed":      "installed/libnl/3_2_2",
+    "Source":         "src/libnl/3_2_2/libnl3_2_2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2_1",
+    "Installed":      "installed/libnl/3_2_1",
+    "Source":         "src/libnl/3_2_1/libnl3_2_1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_2",
+    "Installed":      "installed/libnl/3_2",
+    "Source":         "src/libnl/3_2/libnl3_2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_1",
+    "Installed":      "installed/libnl/3_1",
+    "Source":         "src/libnl/3_1/libnl3_1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

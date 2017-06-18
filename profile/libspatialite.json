@@ -1,0 +1,76 @@
+{
+  "Name":           "libspatialite",
+  "SourceUrl":      "http://www.gaia-gis.it/gaia-sins/libspatialite-sources/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-geosconfig={INSTALL_ROOT}/geos/3.6.1/bin/geos-config --disable-static --disable-examples LDFLAGS='-L{INSTALL_ROOT}/freexl/1.0.2/lib/'",
+  "PreInstall":     "sed -i -e 's/ test examples//' Makefile.*",
+  "PostInstall":    "rm -f {INSTALL_TO}/lib/mod_spatialite*",
+  "SkipObjects":    [ "mod_spatialite.so" ],
+  "CFlags":         "-I{INSTALL_ROOT}/freexl/1.0.2/include/ -I{INSTALL_ROOT}/geos/3.6.1/include/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "3.0.1",
+  "PreInstall_Other": "sed -i -e 's/||report_path/report_path/' ./src/shapefiles/validator.c",
+
+  "Versions": [
+  {
+    "Number":         "4.4.0-RC1",
+    "Installed":      "installed/libspatialite/4.4.0-RC1",
+    "Source":         "src/libspatialite/4.4.0-RC1/libspatialite-4.4.0-RC1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.3.0",
+    "Installed":      "installed/libspatialite/4.3.0",
+    "Source":         "src/libspatialite/4.3.0/libspatialite-4.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2.0",
+    "Installed":      "installed/libspatialite/4.2.0",
+    "Source":         "src/libspatialite/4.2.0/libspatialite-4.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.1",
+    "Installed":      "installed/libspatialite/4.1.1",
+    "Source":         "src/libspatialite/4.1.1/libspatialite-4.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.0",
+    "Installed":      "installed/libspatialite/4.1.0",
+    "Source":         "src/libspatialite/4.1.0/libspatialite-4.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.0",
+    "Installed":      "installed/libspatialite/4.0.0",
+    "Source":         "src/libspatialite/4.0.0/libspatialite-4.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

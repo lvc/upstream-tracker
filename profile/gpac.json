@@ -12,6 +12,26 @@
 
   "Versions": [
   {
+    "Number":         "0.7.1",
+    "Installed":      "installed/gpac/0.7.1",
+    "Source":         "src/gpac/0.7.1/gpac-0.7.1.tar.gz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.0",
+    "Installed":      "installed/gpac/0.7.0",
+    "Source":         "src/gpac/0.7.0/gpac-0.7.0.tar.gz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.6.1",
     "Installed":      "installed/gpac/0.6.1",
     "Source":         "src/gpac/0.6.1/gpac-0.6.1.tar.gz",

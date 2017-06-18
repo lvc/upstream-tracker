@@ -1,0 +1,93 @@
+{
+  "Name":           "gdcm",
+  "Title":          "GDCM",
+  "SourceUrl":      "https://sourceforge.net/projects/gdcm/files/gdcm%202.x/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DGDCM_BUILD_SHARED_LIBS=ON -DGDCM_BUILD_DOCBOOK_MANPAGES=OFF -DGDCM_ALLOW_INSOURCE_BUILD=ON",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/gdcm-*",
+  "SkipObjects":    [ "libgdcmexpat.so", "libgdcmuuid.so", "libgdcmzlib.so" ],
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.6.8",
+    "Installed":      "installed/gdcm/2.6.8",
+    "Source":         "src/gdcm/2.6.8/gdcm-2.6.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.7",
+    "Installed":      "installed/gdcm/2.6.7",
+    "Source":         "src/gdcm/2.6.7/gdcm-2.6.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.6",
+    "Installed":      "installed/gdcm/2.6.6",
+    "Source":         "src/gdcm/2.6.6/gdcm-2.6.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.5",
+    "Installed":      "installed/gdcm/2.6.5",
+    "Source":         "src/gdcm/2.6.5/gdcm-2.6.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.4",
+    "Installed":      "installed/gdcm/2.6.4",
+    "Source":         "src/gdcm/2.6.4/gdcm-2.6.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.2",
+    "Installed":      "installed/gdcm/2.6.2",
+    "Source":         "src/gdcm/2.6.2/gdcm-2.6.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.6",
+    "Installed":      "installed/gdcm/2.4.6",
+    "Source":         "src/gdcm/2.4.6/gdcm-2.4.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.5",
+    "Installed":      "installed/gdcm/2.4.5",
+    "Source":         "src/gdcm/2.4.5/gdcm-2.4.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

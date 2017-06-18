@@ -1,0 +1,123 @@
+{
+  "Name":           "ocl-icd",
+  "Title":          "OpenCL ICD",
+  "SourceUrl":      "https://forge.imag.fr/frs/?group_id=395",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-official-khronos-headers",
+  "PostInstall":    "cp -fr khronos-headers/* {INSTALL_TO}/include/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.1.3",
+
+  "Versions": [
+  {
+    "Number":         "2.2.11",
+    "Installed":      "installed/ocl-icd/2.2.11",
+    "Source":         "src/ocl-icd/2.2.11/ocl-icd-2.2.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.10",
+    "Installed":      "installed/ocl-icd/2.2.10",
+    "Source":         "src/ocl-icd/2.2.10/ocl-icd-2.2.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.9",
+    "Installed":      "installed/ocl-icd/2.2.9",
+    "Source":         "src/ocl-icd/2.2.9/ocl-icd-2.2.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.8",
+    "Installed":      "installed/ocl-icd/2.2.8",
+    "Source":         "src/ocl-icd/2.2.8/ocl-icd-2.2.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.7",
+    "Installed":      "installed/ocl-icd/2.2.7",
+    "Source":         "src/ocl-icd/2.2.7/ocl-icd-2.2.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.6",
+    "Installed":      "installed/ocl-icd/2.2.6",
+    "Source":         "src/ocl-icd/2.2.6/ocl-icd-2.2.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.5",
+    "Installed":      "installed/ocl-icd/2.2.5",
+    "Source":         "src/ocl-icd/2.2.5/ocl-icd-2.2.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.4",
+    "Installed":      "installed/ocl-icd/2.2.4",
+    "Source":         "src/ocl-icd/2.2.4/ocl-icd-2.2.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.3",
+    "Installed":      "installed/ocl-icd/2.2.3",
+    "Source":         "src/ocl-icd/2.2.3/ocl-icd-2.2.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.2",
+    "Installed":      "installed/ocl-icd/2.2.2",
+    "Source":         "src/ocl-icd/2.2.2/ocl-icd-2.2.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.1",
+    "Installed":      "installed/ocl-icd/2.2.1",
+    "Source":         "src/ocl-icd/2.2.1/ocl-icd-2.2.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

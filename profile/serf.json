@@ -1,0 +1,112 @@
+{
+  "Name":           "serf",
+  "Title":          "Apache Serf",
+  "SourceUrl":      "https://github.com/apache/serf/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript1":   "build_script/serf.sh",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.1.1",
+
+  "Versions": [
+  {
+    "Number":         "1.3.9",
+    "Installed":      "installed/serf/1.3.9",
+    "Source":         "src/serf/1.3.9/serf-1.3.9.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.8",
+    "Installed":      "installed/serf/1.3.8",
+    "Source":         "src/serf/1.3.8/serf-1.3.8.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.7",
+    "Installed":      "installed/serf/1.3.7",
+    "Source":         "src/serf/1.3.7/serf-1.3.7.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.6",
+    "Installed":      "installed/serf/1.3.6",
+    "Source":         "src/serf/1.3.6/serf-1.3.6.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.5",
+    "Installed":      "installed/serf/1.3.5",
+    "Source":         "src/serf/1.3.5/serf-1.3.5.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.4",
+    "Installed":      "installed/serf/1.3.4",
+    "Source":         "src/serf/1.3.4/serf-1.3.4.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.3",
+    "Installed":      "installed/serf/1.3.3",
+    "Source":         "src/serf/1.3.3/serf-1.3.3.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.2",
+    "Installed":      "installed/serf/1.3.2",
+    "Source":         "src/serf/1.3.2/serf-1.3.2.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.1",
+    "Installed":      "installed/serf/1.3.1",
+    "Source":         "src/serf/1.3.1/serf-1.3.1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.0",
+    "Installed":      "installed/serf/1.3.0",
+    "Source":         "src/serf/1.3.0/serf-1.3.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

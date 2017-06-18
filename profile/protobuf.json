@@ -1,21 +1,73 @@
 {
   "Name":           "protobuf",
   "SourceUrl":      "https://github.com/google/protobuf/tags",
-  "Git":            "https://github.com/google/protobuf.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "ClearInstalled": "On",
   "HeadersDiff":    "Off",
 
   "Versions": [
   {
-    "Number":         "current",
-    "Installed":      "installed/protobuf/current",
-    "Source":         "src/protobuf/current",
-    "Changelog":      "On",
+    "Number":         "3.3.1",
+    "Installed":      "installed/protobuf/3.3.1",
+    "Source":         "src/protobuf/3.3.1/protobuf-3.3.1.tar.gz",
+    "Changelog":      "CHANGES.txt",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
     "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.0",
+    "Installed":      "installed/protobuf/3.3.0",
+    "Source":         "src/protobuf/3.3.0/protobuf-3.3.0.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.0rc1",
+    "Installed":      "installed/protobuf/3.3.0rc1",
+    "Source":         "src/protobuf/3.3.0rc1/protobuf-3.3.0rc1.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "3.2.1",
+    "Installed":      "installed/protobuf/3.2.1",
+    "Source":         "src/protobuf/3.2.1/protobuf-3.2.1.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.0",
+    "Installed":      "installed/protobuf/3.2.0",
+    "Source":         "src/protobuf/3.2.0/protobuf-3.2.0.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.0rc2",
+    "Installed":      "installed/protobuf/3.2.0rc2",
+    "Source":         "src/protobuf/3.2.0rc2/protobuf-3.2.0rc2.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "3.1.0",

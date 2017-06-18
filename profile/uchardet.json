@@ -1,0 +1,72 @@
+{
+  "Name":           "uchardet",
+  "SourceUrl":      "https://www.freedesktop.org/software/uchardet/releases/",
+  "Git":            "https://anongit.freedesktop.org/git/uchardet/uchardet.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DCMAKE_BUILD_TYPE=Release -DCMAKE_C_FLAGS_RELEASE='-g -Og' -DCMAKE_CXX_FLAGS_RELEASE='-g -Og'",
+  "PreInstall":     "sed -i -e 's/-O0/-Og/' src/CMakeLists.txt;sed -i -e 's/-g3/-g/' src/CMakeLists.txt",
+  "HeadersDiff":    "On",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/uchardet/current",
+    "Source":         "src/uchardet/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.0.6",
+    "Installed":      "installed/uchardet/0.0.6",
+    "Source":         "src/uchardet/0.0.6/uchardet-0.0.6.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.0.5",
+    "Installed":      "installed/uchardet/0.0.5",
+    "Source":         "src/uchardet/0.0.5/uchardet-0.0.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.0.4",
+    "Installed":      "installed/uchardet/0.0.4",
+    "Source":         "src/uchardet/0.0.4/uchardet-0.0.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.0.3",
+    "Installed":      "installed/uchardet/0.0.3",
+    "Source":         "src/uchardet/0.0.3/uchardet-0.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.0.2",
+    "Installed":      "installed/uchardet/0.0.2",
+    "Source":         "src/uchardet/0.0.2/uchardet-0.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

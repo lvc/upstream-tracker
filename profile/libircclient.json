@@ -1,0 +1,62 @@
+{
+  "Name":           "libircclient",
+  "SourceUrl":      "https://sourceforge.net/projects/libircclient/files/libircclient/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-debug --libdir={INSTALL_TO}/lib",
+  "PreInstall":     "sed -i -e 's/ -s / /g' src/Makefile.in",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.5",
+
+  "Versions": [
+  {
+    "Number":         "1.9",
+    "Installed":      "installed/libircclient/1.9",
+    "Source":         "src/libircclient/1.9/libircclient-1.9.tar.gz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8",
+    "Installed":      "installed/libircclient/1.8",
+    "Source":         "src/libircclient/1.8/libircclient-1.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7",
+    "Installed":      "installed/libircclient/1.7",
+    "Source":         "src/libircclient/1.7/libircclient-1.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6",
+    "Installed":      "installed/libircclient/1.6",
+    "Source":         "src/libircclient/1.6/libircclient-1.6.tar.gz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5",
+    "Installed":      "installed/libircclient/1.5",
+    "Source":         "src/libircclient/1.5/libircclient-1.5.tar.gz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

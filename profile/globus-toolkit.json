@@ -1,0 +1,23 @@
+{
+  "Name":           "globus-toolkit",
+  "Title":          "Globus Toolkit",
+  "SourceUrl":      "https://github.com/globus/globus-toolkit/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-static",
+  "SkipObjects":    [ "libglobus_gridmap_eppn_callout.so", "libglobus_gridmap_verify_myproxy_callout.so", "libglobus_oldgaa.so", "libglobus_rsl_assist.so", "libglobus_thread_pthread.so", "libglobus_xio_.*" ],
+  "HeadersDiff":    "Off",
+  "Package":        "globus_",
+
+  "Versions": [
+  {
+    "Number":         "6_0",
+    "Installed":      "installed/globus-toolkit/6_0",
+    "Source":         "src/globus-toolkit/6_0/globus_6_0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

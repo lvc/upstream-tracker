@@ -1,0 +1,196 @@
+{
+  "Name":           "guile",
+  "Title":          "Guile",
+  "SourceUrl":      "https://ftp.gnu.org/gnu/guile/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-static PKG_CONFIG_PATH={INSTALL_ROOT}/bdwgc/7_6_0/lib/pkgconfig",
+  "ClearInstalled": "On",
+  "HeadersDiff":    "Off",
+  "MakeGlobal":     "LD_LIBRARY_PATH={INSTALL_ROOT}/bdwgc/7_6_0/lib",
+  "MinimalVersion": "1.8.8",
+  "OldPostInstall": "rm -fr {INSTALL_TO}/lib/guile",
+  "OldPreInstall":  "sed -i -e 's/\tdoc/\\/g' Makefile.in;sed -i -e 's/\t\(module\|emacs\|examples\|guile-readline\|test-suite\|benchmark-suite\|gc-benchmarks\|am\)\t*\\/\\/g' Makefile.in;sed -i -e 's/_GL_WARN_ON_USE.*//g' lib/stdio.in.h",
+
+  "Versions": [
+  {
+    "Number":         "2.2.2",
+    "Installed":      "installed/guile/2.2.2",
+    "Source":         "src/guile/2.2.2/guile-2.2.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.1",
+    "Installed":      "installed/guile/2.2.1",
+    "Source":         "src/guile/2.2.1/guile-2.2.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.0",
+    "Installed":      "installed/guile/2.2.0",
+    "Source":         "src/guile/2.2.0/guile-2.2.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.14",
+    "Installed":      "installed/guile/2.0.14",
+    "Source":         "src/guile/2.0.14/guile-2.0.14.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.13",
+    "Installed":      "installed/guile/2.0.13",
+    "Source":         "src/guile/2.0.13/guile-2.0.13.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.12",
+    "Installed":      "installed/guile/2.0.12",
+    "Source":         "src/guile/2.0.12/guile-2.0.12.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.11",
+    "Installed":      "installed/guile/2.0.11",
+    "Source":         "src/guile/2.0.11/guile-2.0.11.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.10",
+    "Installed":      "installed/guile/2.0.10",
+    "Source":         "src/guile/2.0.10/guile-2.0.10.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.9",
+    "Installed":      "installed/guile/2.0.9",
+    "Source":         "src/guile/2.0.9/guile-2.0.9.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.7",
+    "Installed":      "installed/guile/2.0.7",
+    "Source":         "src/guile/2.0.7/guile-2.0.7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.6",
+    "Installed":      "installed/guile/2.0.6",
+    "Source":         "src/guile/2.0.6/guile-2.0.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.5",
+    "Installed":      "installed/guile/2.0.5",
+    "Source":         "src/guile/2.0.5/guile-2.0.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.4",
+    "Installed":      "installed/guile/2.0.4",
+    "Source":         "src/guile/2.0.4/guile-2.0.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.3",
+    "Installed":      "installed/guile/2.0.3",
+    "Source":         "src/guile/2.0.3/guile-2.0.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.2",
+    "Installed":      "installed/guile/2.0.2",
+    "Source":         "src/guile/2.0.2/guile-2.0.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.1",
+    "Installed":      "installed/guile/2.0.1",
+    "Source":         "src/guile/2.0.1/guile-2.0.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0",
+    "Installed":      "installed/guile/2.0.0",
+    "Source":         "src/guile/2.0.0/guile-2.0.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.8",
+    "Installed":      "installed/guile/1.8.8",
+    "Source":         "src/guile/1.8.8/guile-1.8.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

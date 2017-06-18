@@ -1,0 +1,297 @@
+{
+  "Name":           "samba",
+  "Title":          "Samba",
+  "SourceUrl":      "https://download.samba.org/pub/samba/",
+  "SourceUrlDepth": "1",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/samba.sh",
+  "SkipObjects":    [ "libdcerpc-samr.so", "libnss_winbind.so", "libnss_wins.so", "libdcerpc-atsvc.so", "private/", "site-packages/" ],
+  "Changelog":      "WHATSNEW.txt",
+  "CheckObjects":   [ "lib.*" ],
+  "HeadersDiff":    "Off",
+  "HideEmpty":      "On",
+  "MinimalVersion": "4.0.26",
+
+  "Versions": [
+  {
+    "Number":         "4.6.5",
+    "Installed":      "installed/samba/4.6.5",
+    "Source":         "src/samba/4.6.5/samba-4.6.5.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.4",
+    "Installed":      "installed/samba/4.6.4",
+    "Source":         "src/samba/4.6.4/samba-4.6.4.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.3",
+    "Installed":      "installed/samba/4.6.3",
+    "Source":         "src/samba/4.6.3/samba-4.6.3.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.2",
+    "Installed":      "installed/samba/4.6.2",
+    "Source":         "src/samba/4.6.2/samba-4.6.2.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.1",
+    "Installed":      "installed/samba/4.6.1",
+    "Source":         "src/samba/4.6.1/samba-4.6.1.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.0",
+    "Installed":      "installed/samba/4.6.0",
+    "Source":         "src/samba/4.6.0/samba-4.6.0.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.10",
+    "Installed":      "installed/samba/4.5.10",
+    "Source":         "src/samba/4.5.10/samba-4.5.10.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.9",
+    "Installed":      "installed/samba/4.5.9",
+    "Source":         "src/samba/4.5.9/samba-4.5.9.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.8",
+    "Installed":      "installed/samba/4.5.8",
+    "Source":         "src/samba/4.5.8/samba-4.5.8.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.7",
+    "Installed":      "installed/samba/4.5.7",
+    "Source":         "src/samba/4.5.7/samba-4.5.7.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.6",
+    "Installed":      "installed/samba/4.5.6",
+    "Source":         "src/samba/4.5.6/samba-4.5.6.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.5",
+    "Installed":      "installed/samba/4.5.5",
+    "Source":         "src/samba/4.5.5/samba-4.5.5.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.4",
+    "Installed":      "installed/samba/4.5.4",
+    "Source":         "src/samba/4.5.4/samba-4.5.4.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.3",
+    "Installed":      "installed/samba/4.5.3",
+    "Source":         "src/samba/4.5.3/samba-4.5.3.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.2",
+    "Installed":      "installed/samba/4.5.2",
+    "Source":         "src/samba/4.5.2/samba-4.5.2.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.14",
+    "Installed":      "installed/samba/4.4.14",
+    "Source":         "src/samba/4.4.14/samba-4.4.14.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.13",
+    "Installed":      "installed/samba/4.4.13",
+    "Source":         "src/samba/4.4.13/samba-4.4.13.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.12",
+    "Installed":      "installed/samba/4.4.12",
+    "Source":         "src/samba/4.4.12/samba-4.4.12.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.11",
+    "Installed":      "installed/samba/4.4.11",
+    "Source":         "src/samba/4.4.11/samba-4.4.11.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.10",
+    "Installed":      "installed/samba/4.4.10",
+    "Source":         "src/samba/4.4.10/samba-4.4.10.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.9",
+    "Installed":      "installed/samba/4.4.9",
+    "Source":         "src/samba/4.4.9/samba-4.4.9.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.8",
+    "Installed":      "installed/samba/4.4.8",
+    "Source":         "src/samba/4.4.8/samba-4.4.8.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.7",
+    "Installed":      "installed/samba/4.4.7",
+    "Source":         "src/samba/4.4.7/samba-4.4.7.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.3.13",
+    "Installed":      "installed/samba/4.3.13",
+    "Source":         "src/samba/4.3.13/samba-4.3.13.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.3.12",
+    "Installed":      "installed/samba/4.3.12",
+    "Source":         "src/samba/4.3.12/samba-4.3.12.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2.14",
+    "Installed":      "installed/samba/4.2.14",
+    "Source":         "src/samba/4.2.14/samba-4.2.14.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.23",
+    "Installed":      "installed/samba/4.1.23",
+    "Source":         "src/samba/4.1.23/samba-4.1.23.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.26",
+    "Installed":      "installed/samba/4.0.26",
+    "Source":         "src/samba/4.0.26/samba-4.0.26.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,92 @@
+{
+  "Name":           "libdkimpp",
+  "Title":          "libdkim++",
+  "SourceUrl":      "https://github.com/halon/libdkimpp/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PostInstall":    "mv {BUILD_SUBDIR}/*.so {INSTALL_TO}/lib/;mkdir -p {INSTALL_TO}/include/libdkim++;mv src/*.hpp {INSTALL_TO}/include/libdkim++/",
+  "HeadersDiff":    "Off",
+  "Install":        "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.0.10",
+    "Installed":      "installed/libdkimpp/1.0.10",
+    "Source":         "src/libdkimpp/1.0.10/libdkimpp-1.0.10.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.9",
+    "Installed":      "installed/libdkimpp/1.0.9",
+    "Source":         "src/libdkimpp/1.0.9/libdkimpp-1.0.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.8",
+    "Installed":      "installed/libdkimpp/1.0.8",
+    "Source":         "src/libdkimpp/1.0.8/libdkimpp-1.0.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.7",
+    "Installed":      "installed/libdkimpp/1.0.7",
+    "Source":         "src/libdkimpp/1.0.7/libdkimpp-1.0.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.6",
+    "Installed":      "installed/libdkimpp/1.0.6",
+    "Source":         "src/libdkimpp/1.0.6/libdkimpp-1.0.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.5",
+    "Installed":      "installed/libdkimpp/1.0.5",
+    "Source":         "src/libdkimpp/1.0.5/libdkimpp-1.0.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.4",
+    "Installed":      "installed/libdkimpp/1.0.4",
+    "Source":         "src/libdkimpp/1.0.4/libdkimpp-1.0.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.3",
+    "Installed":      "installed/libdkimpp/1.0.3",
+    "Source":         "src/libdkimpp/1.0.3/libdkimpp-1.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

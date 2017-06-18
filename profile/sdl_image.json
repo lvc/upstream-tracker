@@ -1,0 +1,52 @@
+{
+  "Name":           "sdl_image",
+  "Title":          "SDL_image",
+  "SourceUrl":      "https://www.libsdl.org/projects/SDL_image/release/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.2.11",
+  "Package":        "SDL2_image",
+
+  "Versions": [
+  {
+    "Number":         "2.0.1",
+    "Installed":      "installed/sdl_image/2.0.1",
+    "Source":         "src/sdl_image/2.0.1/SDL2_image-2.0.1.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0",
+    "Installed":      "installed/sdl_image/2.0.0",
+    "Source":         "src/sdl_image/2.0.0/SDL2_image-2.0.0.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.12",
+    "Installed":      "installed/sdl_image/1.2.12",
+    "Source":         "src/sdl_image/1.2.12/SDL_image-1.2.12.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.11",
+    "Installed":      "installed/sdl_image/1.2.11",
+    "Source":         "src/sdl_image/1.2.11/SDL_image-1.2.11.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

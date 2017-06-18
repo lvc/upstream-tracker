@@ -1,0 +1,69 @@
+{
+  "Name":           "liblo",
+  "SourceUrl":      "https://github.com/radarsat1/liblo/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.28",
+    "Installed":      "installed/liblo/0.28",
+    "Source":         "src/liblo/0.28/liblo-0.28.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.27",
+    "Installed":      "installed/liblo/0.27",
+    "Source":         "src/liblo/0.27/liblo-0.27.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.26",
+    "Installed":      "installed/liblo/0.26",
+    "Source":         "src/liblo/0.26/liblo-0.26.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.25",
+    "Installed":      "installed/liblo/0.25",
+    "Source":         "src/liblo/0.25/liblo-0.25.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.24",
+    "Installed":      "installed/liblo/0.24",
+    "Source":         "src/liblo/0.24/liblo-0.24.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.23",
+    "Installed":      "installed/liblo/0.23",
+    "Source":         "src/liblo/0.23/liblo-0.23.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

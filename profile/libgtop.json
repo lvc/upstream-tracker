@@ -1,0 +1,201 @@
+{
+  "Name":           "libgtop",
+  "SourceUrl":      "http://ftp.gnome.org/pub/gnome/sources/libgtop/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "CFlags":         "-std=c11",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.28.3",
+
+  "Versions": [
+  {
+    "Number":         "2.37.2",
+    "Installed":      "installed/libgtop/2.37.2",
+    "Source":         "src/libgtop/2.37.2/libgtop-2.37.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.36.0",
+    "Installed":      "installed/libgtop/2.36.0",
+    "Source":         "src/libgtop/2.36.0/libgtop-2.36.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.35.92",
+    "Installed":      "installed/libgtop/2.35.92",
+    "Source":         "src/libgtop/2.35.92/libgtop-2.35.92.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.35.90",
+    "Installed":      "installed/libgtop/2.35.90",
+    "Source":         "src/libgtop/2.35.90/libgtop-2.35.90.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.34.2",
+    "Installed":      "installed/libgtop/2.34.2",
+    "Source":         "src/libgtop/2.34.2/libgtop-2.34.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.34.1",
+    "Installed":      "installed/libgtop/2.34.1",
+    "Source":         "src/libgtop/2.34.1/libgtop-2.34.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.34.0",
+    "Installed":      "installed/libgtop/2.34.0",
+    "Source":         "src/libgtop/2.34.0/libgtop-2.34.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.33.91",
+    "Installed":      "installed/libgtop/2.33.91",
+    "Source":         "src/libgtop/2.33.91/libgtop-2.33.91.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.33.4",
+    "Installed":      "installed/libgtop/2.33.4",
+    "Source":         "src/libgtop/2.33.4/libgtop-2.33.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.33.3",
+    "Installed":      "installed/libgtop/2.33.3",
+    "Source":         "src/libgtop/2.33.3/libgtop-2.33.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.32.0",
+    "Installed":      "installed/libgtop/2.32.0",
+    "Source":         "src/libgtop/2.32.0/libgtop-2.32.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.31.91",
+    "Installed":      "installed/libgtop/2.31.91",
+    "Source":         "src/libgtop/2.31.91/libgtop-2.31.91.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.31.90",
+    "Installed":      "installed/libgtop/2.31.90",
+    "Source":         "src/libgtop/2.31.90/libgtop-2.31.90.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.31.4",
+    "Installed":      "installed/libgtop/2.31.4",
+    "Source":         "src/libgtop/2.31.4/libgtop-2.31.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.31.3",
+    "Installed":      "installed/libgtop/2.31.3",
+    "Source":         "src/libgtop/2.31.3/libgtop-2.31.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.30.0",
+    "Installed":      "installed/libgtop/2.30.0",
+    "Source":         "src/libgtop/2.30.0/libgtop-2.30.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.28.5",
+    "Installed":      "installed/libgtop/2.28.5",
+    "Source":         "src/libgtop/2.28.5/libgtop-2.28.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.28.4",
+    "Installed":      "installed/libgtop/2.28.4",
+    "Source":         "src/libgtop/2.28.4/libgtop-2.28.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.28.3",
+    "Installed":      "installed/libgtop/2.28.3",
+    "Source":         "src/libgtop/2.28.3/libgtop-2.28.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

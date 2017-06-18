@@ -1,0 +1,43 @@
+{
+  "Name":           "maliit",
+  "Title":          "Maliit",
+  "SourceUrl":      "https://github.com/maliit/framework/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/maliit.sh",
+  "SkipObjects":    [ "libmaliit-plugins-quick-factory.so" ],
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.94.0",
+
+  "Versions": [
+  {
+    "Number":         "0.99.1",
+    "Installed":      "installed/maliit/0.99.1",
+    "Source":         "src/maliit/0.99.1/maliit-0.99.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.99.0",
+    "Installed":      "installed/maliit/0.99.0",
+    "Source":         "src/maliit/0.99.0/maliit-0.99.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.94.2",
+    "Installed":      "installed/maliit/0.94.2",
+    "Source":         "src/maliit/0.94.2/maliit-0.94.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

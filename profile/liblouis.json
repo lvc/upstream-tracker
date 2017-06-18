@@ -1,0 +1,189 @@
+{
+  "Name":           "liblouis",
+  "SourceUrl":      "https://github.com/liblouis/liblouis/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "3.2.0",
+    "Installed":      "installed/liblouis/3.2.0",
+    "Source":         "src/liblouis/3.2.0/liblouis-3.2.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.0",
+    "Installed":      "installed/liblouis/3.1.0",
+    "Source":         "src/liblouis/3.1.0/liblouis-3.1.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.0",
+    "Installed":      "installed/liblouis/3.0.0",
+    "Source":         "src/liblouis/3.0.0/liblouis-3.0.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.5",
+    "Installed":      "installed/liblouis/2.6.5",
+    "Source":         "src/liblouis/2.6.5/liblouis-2.6.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.4",
+    "Installed":      "installed/liblouis/2.6.4",
+    "Source":         "src/liblouis/2.6.4/liblouis-2.6.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.3-1",
+    "Installed":      "installed/liblouis/2.6.3-1",
+    "Source":         "src/liblouis/2.6.3-1/liblouis-2.6.3-1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.3",
+    "Installed":      "installed/liblouis/2.6.3",
+    "Source":         "src/liblouis/2.6.3/liblouis-2.6.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.2",
+    "Installed":      "installed/liblouis/2.6.2",
+    "Source":         "src/liblouis/2.6.2/liblouis-2.6.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.1",
+    "Installed":      "installed/liblouis/2.6.1",
+    "Source":         "src/liblouis/2.6.1/liblouis-2.6.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.0",
+    "Installed":      "installed/liblouis/2.6.0",
+    "Source":         "src/liblouis/2.6.0/liblouis-2.6.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_5_4",
+    "Installed":      "installed/liblouis/2_5_4",
+    "Source":         "src/liblouis/2_5_4/liblouis_2_5_4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_5_3",
+    "Installed":      "installed/liblouis/2_5_3",
+    "Source":         "src/liblouis/2_5_3/liblouis_2_5_3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_5_2",
+    "Installed":      "installed/liblouis/2_5_2",
+    "Source":         "src/liblouis/2_5_2/liblouis_2_5_2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_5_1",
+    "Installed":      "installed/liblouis/2_5_1",
+    "Source":         "src/liblouis/2_5_1/liblouis_2_5_1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_5_0",
+    "Installed":      "installed/liblouis/2_5_0",
+    "Source":         "src/liblouis/2_5_0/liblouis_2_5_0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_4_1",
+    "Installed":      "installed/liblouis/2_4_1",
+    "Source":         "src/liblouis/2_4_1/liblouis_2_4_1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_3_9",
+    "Installed":      "installed/liblouis/2_3_9",
+    "Source":         "src/liblouis/2_3_9/liblouis_2_3_9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_3_0",
+    "Installed":      "installed/liblouis/2_3_0",
+    "Source":         "src/liblouis/2_3_0/liblouis_2_3_0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

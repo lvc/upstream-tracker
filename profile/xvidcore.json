@@ -1,0 +1,82 @@
+{
+  "Name":           "xvidcore",
+  "Title":          "Xvid",
+  "SourceUrl":      "https://labs.xvid.com/source/",
+  "OldSourceUrl":   "http://ftp.osuosl.org/pub/blfs/conglomeration/xvidcore/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildDir":       "build/generic/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.3.4",
+    "Installed":      "installed/xvidcore/1.3.4",
+    "Source":         "src/xvidcore/1.3.4/xvidcore-1.3.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.3",
+    "Installed":      "installed/xvidcore/1.3.3",
+    "Source":         "src/xvidcore/1.3.3/xvidcore-1.3.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.2",
+    "Installed":      "installed/xvidcore/1.3.2",
+    "Source":         "src/xvidcore/1.3.2/xvidcore-1.3.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.2",
+    "Installed":      "installed/xvidcore/1.2.2",
+    "Source":         "src/xvidcore/1.2.2/xvidcore-1.2.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.3",
+    "Installed":      "installed/xvidcore/1.1.3",
+    "Source":         "src/xvidcore/1.1.3/xvidcore-1.1.3.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/xvidcore/1.1.0",
+    "Source":         "src/xvidcore/1.1.0/xvidcore-1.1.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.3",
+    "Installed":      "installed/xvidcore/1.0.3",
+    "Source":         "src/xvidcore/1.0.3/xvidcore-1.0.3.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

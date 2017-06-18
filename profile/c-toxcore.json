@@ -1,0 +1,161 @@
+{
+  "Name":           "c-toxcore",
+  "SourceUrl":      "https://github.com/TokTok/c-toxcore/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-soname-versions",
+  "SkipObjects":    [ "libtoxcrypto.so", "libtoxdht.so", "libtoxfriends.so", "libtoxgroup.so", "libtoxmessenger.so", "libtoxnetcrypto.so", "libtoxnetwork.so" ],
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.1.9",
+    "Installed":      "installed/c-toxcore/0.1.9",
+    "Source":         "src/c-toxcore/0.1.9/c-toxcore-0.1.9.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.8",
+    "Installed":      "installed/c-toxcore/0.1.8",
+    "Source":         "src/c-toxcore/0.1.8/c-toxcore-0.1.8.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.7",
+    "Installed":      "installed/c-toxcore/0.1.7",
+    "Source":         "src/c-toxcore/0.1.7/c-toxcore-0.1.7.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.6",
+    "Installed":      "installed/c-toxcore/0.1.6",
+    "Source":         "src/c-toxcore/0.1.6/c-toxcore-0.1.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.5",
+    "Installed":      "installed/c-toxcore/0.1.5",
+    "Source":         "src/c-toxcore/0.1.5/c-toxcore-0.1.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.4",
+    "Installed":      "installed/c-toxcore/0.1.4",
+    "Source":         "src/c-toxcore/0.1.4/c-toxcore-0.1.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.3",
+    "Installed":      "installed/c-toxcore/0.1.3",
+    "Source":         "src/c-toxcore/0.1.3/c-toxcore-0.1.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.2",
+    "Installed":      "installed/c-toxcore/0.1.2",
+    "Source":         "src/c-toxcore/0.1.2/c-toxcore-0.1.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.1",
+    "Installed":      "installed/c-toxcore/0.1.1",
+    "Source":         "src/c-toxcore/0.1.1/c-toxcore-0.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.0",
+    "Installed":      "installed/c-toxcore/0.1.0",
+    "Source":         "src/c-toxcore/0.1.0/c-toxcore-0.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.0.5",
+    "Installed":      "installed/c-toxcore/0.0.5",
+    "Source":         "src/c-toxcore/0.0.5/c-toxcore-0.0.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.0.4",
+    "Installed":      "installed/c-toxcore/0.0.4",
+    "Source":         "src/c-toxcore/0.0.4/c-toxcore-0.0.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.0.3",
+    "Installed":      "installed/c-toxcore/0.0.3",
+    "Source":         "src/c-toxcore/0.0.3/c-toxcore-0.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.0.2",
+    "Installed":      "installed/c-toxcore/0.0.2",
+    "Source":         "src/c-toxcore/0.0.2/c-toxcore-0.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.0.1",
+    "Installed":      "installed/c-toxcore/0.0.1",
+    "Source":         "src/c-toxcore/0.0.1/c-toxcore-0.0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

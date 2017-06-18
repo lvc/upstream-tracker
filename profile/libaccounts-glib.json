@@ -1,0 +1,103 @@
+{
+  "Name":           "libaccounts-glib",
+  "SourceUrl":      "https://gitlab.com/accounts-sso/libaccounts-glib/tags",
+  "SourceUrlDepth": "1",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-introspection=no --disable-tests --disable-gcov",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/libaccounts-glib/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.12",
+
+  "Versions": [
+  {
+    "Number":         "1.23",
+    "Installed":      "installed/libaccounts-glib/1.23",
+    "Source":         "src/libaccounts-glib/1.23/libaccounts-glib-1.23.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.22",
+    "Installed":      "installed/libaccounts-glib/1.22",
+    "Source":         "src/libaccounts-glib/1.22/libaccounts-glib-1.22.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.21",
+    "Installed":      "installed/libaccounts-glib/1.21",
+    "Source":         "src/libaccounts-glib/1.21/libaccounts-glib-1.21.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.20",
+    "Installed":      "installed/libaccounts-glib/1.20",
+    "Source":         "src/libaccounts-glib/1.20/libaccounts-glib-1.20.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.19",
+    "Installed":      "installed/libaccounts-glib/1.19",
+    "Source":         "src/libaccounts-glib/1.19/libaccounts-glib-1.19.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.18",
+    "Installed":      "installed/libaccounts-glib/1.18",
+    "Source":         "src/libaccounts-glib/1.18/libaccounts-glib-1.18.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.17",
+    "Installed":      "installed/libaccounts-glib/1.17",
+    "Source":         "src/libaccounts-glib/1.17/libaccounts-glib-1.17.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13",
+    "Installed":      "installed/libaccounts-glib/1.13",
+    "Source":         "src/libaccounts-glib/1.13/libaccounts-glib-1.13.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12",
+    "Installed":      "installed/libaccounts-glib/1.12",
+    "Source":         "src/libaccounts-glib/1.12/libaccounts-glib-1.12.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

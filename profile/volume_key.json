@@ -1,0 +1,111 @@
+{
+  "Name":           "volume_key",
+  "SourceUrl":      "http://releases.pagure.org/volume_key/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/cryptsetup/1.7.5/lib/pkgconfig",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib64/python*",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.3.9",
+    "Installed":      "installed/volume_key/0.3.9",
+    "Source":         "src/volume_key/0.3.9/volume_key-0.3.9.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.8",
+    "Installed":      "installed/volume_key/0.3.8",
+    "Source":         "src/volume_key/0.3.8/volume_key-0.3.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.7",
+    "Installed":      "installed/volume_key/0.3.7",
+    "Source":         "src/volume_key/0.3.7/volume_key-0.3.7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.6",
+    "Installed":      "installed/volume_key/0.3.6",
+    "Source":         "src/volume_key/0.3.6/volume_key-0.3.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.5",
+    "Installed":      "installed/volume_key/0.3.5",
+    "Source":         "src/volume_key/0.3.5/volume_key-0.3.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.4",
+    "Installed":      "installed/volume_key/0.3.4",
+    "Source":         "src/volume_key/0.3.4/volume_key-0.3.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.3",
+    "Installed":      "installed/volume_key/0.3.3",
+    "Source":         "src/volume_key/0.3.3/volume_key-0.3.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.2",
+    "Installed":      "installed/volume_key/0.3.2",
+    "Source":         "src/volume_key/0.3.2/volume_key-0.3.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.1",
+    "Installed":      "installed/volume_key/0.3.1",
+    "Source":         "src/volume_key/0.3.1/volume_key-0.3.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3",
+    "Installed":      "installed/volume_key/0.3",
+    "Source":         "src/volume_key/0.3/volume_key-0.3.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,252 @@
+{
+  "Name":           "pcre",
+  "Title":          "PCRE",
+  "SourceUrl":      "https://sourceforge.net/projects/pcre/files/pcre/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "7.6",
+
+  "Versions": [
+  {
+    "Number":         "8.40",
+    "Installed":      "installed/pcre/8.40",
+    "Source":         "src/pcre/8.40/pcre-8.40.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.39",
+    "Installed":      "installed/pcre/8.39",
+    "Source":         "src/pcre/8.39/pcre-8.39.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.38",
+    "Installed":      "installed/pcre/8.38",
+    "Source":         "src/pcre/8.38/pcre-8.38.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.37",
+    "Installed":      "installed/pcre/8.37",
+    "Source":         "src/pcre/8.37/pcre-8.37.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.36",
+    "Installed":      "installed/pcre/8.36",
+    "Source":         "src/pcre/8.36/pcre-8.36.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.35",
+    "Installed":      "installed/pcre/8.35",
+    "Source":         "src/pcre/8.35/pcre-8.35.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.34",
+    "Installed":      "installed/pcre/8.34",
+    "Source":         "src/pcre/8.34/pcre-8.34.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.33",
+    "Installed":      "installed/pcre/8.33",
+    "Source":         "src/pcre/8.33/pcre-8.33.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.32",
+    "Installed":      "installed/pcre/8.32",
+    "Source":         "src/pcre/8.32/pcre-8.32.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.31",
+    "Installed":      "installed/pcre/8.31",
+    "Source":         "src/pcre/8.31/pcre-8.31.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.30",
+    "Installed":      "installed/pcre/8.30",
+    "Source":         "src/pcre/8.30/pcre-8.30.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.21",
+    "Installed":      "installed/pcre/8.21",
+    "Source":         "src/pcre/8.21/pcre-8.21.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.20",
+    "Installed":      "installed/pcre/8.20",
+    "Source":         "src/pcre/8.20/pcre-8.20.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.13",
+    "Installed":      "installed/pcre/8.13",
+    "Source":         "src/pcre/8.13/pcre-8.13.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.12",
+    "Installed":      "installed/pcre/8.12",
+    "Source":         "src/pcre/8.12/pcre-8.12.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.11",
+    "Installed":      "installed/pcre/8.11",
+    "Source":         "src/pcre/8.11/pcre-8.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.10",
+    "Installed":      "installed/pcre/8.10",
+    "Source":         "src/pcre/8.10/pcre-8.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.02",
+    "Installed":      "installed/pcre/8.02",
+    "Source":         "src/pcre/8.02/pcre-8.02.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.01",
+    "Installed":      "installed/pcre/8.01",
+    "Source":         "src/pcre/8.01/pcre-8.01.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.00",
+    "Installed":      "installed/pcre/8.00",
+    "Source":         "src/pcre/8.00/pcre-8.00.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.9",
+    "Installed":      "installed/pcre/7.9",
+    "Source":         "src/pcre/7.9/pcre-7.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.8",
+    "Installed":      "installed/pcre/7.8",
+    "Source":         "src/pcre/7.8/pcre-7.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.7",
+    "Installed":      "installed/pcre/7.7",
+    "Source":         "src/pcre/7.7/pcre-7.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.6",
+    "Installed":      "installed/pcre/7.6",
+    "Source":         "src/pcre/7.6/pcre-7.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

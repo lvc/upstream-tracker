@@ -1,0 +1,53 @@
+{
+  "Name":           "quagga",
+  "Title":          "Quagga",
+  "SourceUrl":      "http://download.savannah.gnu.org/releases/quagga/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "SkipObjects":    [ "libfpm_pb.so", "libquagga_pb.so" ],
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.1.0",
+
+  "Versions": [
+  {
+    "Number":         "1.2.1",
+    "Installed":      "installed/quagga/1.2.1",
+    "Source":         "src/quagga/1.2.1/quagga-1.2.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/quagga/1.2.0",
+    "Source":         "src/quagga/1.2.0/quagga-1.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.1",
+    "Installed":      "installed/quagga/1.1.1",
+    "Source":         "src/quagga/1.1.1/quagga-1.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/quagga/1.1.0",
+    "Source":         "src/quagga/1.1.0/quagga-1.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

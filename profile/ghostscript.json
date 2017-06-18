@@ -1,0 +1,104 @@
+{
+  "Name":           "ghostscript",
+  "Title":          "Ghostscript",
+  "SourceUrl":      "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/ghostscript.sh",
+  "SkipObjects":    [ "X11.so" ],
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "9.10",
+
+  "Versions": [
+  {
+    "Number":         "9.21",
+    "Installed":      "installed/ghostscript/9.21",
+    "Source":         "src/ghostscript/9.21/ghostscript-9.21.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.21rc1",
+    "Installed":      "installed/ghostscript/9.21rc1",
+    "Source":         "src/ghostscript/9.21rc1/ghostscript-9.21rc1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "9.20",
+    "Installed":      "installed/ghostscript/9.20",
+    "Source":         "src/ghostscript/9.20/ghostscript-9.20.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.19",
+    "Installed":      "installed/ghostscript/9.19",
+    "Source":         "src/ghostscript/9.19/ghostscript-9.19.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.18",
+    "Installed":      "installed/ghostscript/9.18",
+    "Source":         "src/ghostscript/9.18/ghostscript-9.18.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.16",
+    "Installed":      "installed/ghostscript/9.16",
+    "Source":         "src/ghostscript/9.16/ghostscript-9.16.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.15",
+    "Installed":      "installed/ghostscript/9.15",
+    "Source":         "src/ghostscript/9.15/ghostscript-9.15.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.14",
+    "Installed":      "installed/ghostscript/9.14",
+    "Source":         "src/ghostscript/9.14/ghostscript-9.14.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.10",
+    "Installed":      "installed/ghostscript/9.10",
+    "Source":         "src/ghostscript/9.10/ghostscript-9.10.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

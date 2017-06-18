@@ -22,6 +22,26 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "3.1.1",
+    "Installed":      "installed/mongo-cxx-driver/3.1.1",
+    "Source":         "src/mongo-cxx-driver/3.1.1/r3.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.0",
+    "Installed":      "installed/mongo-cxx-driver/3.1.0",
+    "Source":         "src/mongo-cxx-driver/3.1.0/r3.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.1.0-rc0",
     "Installed":      "installed/mongo-cxx-driver/3.1.0-rc0",
     "Source":         "src/mongo-cxx-driver/3.1.0-rc0/r3.1.0-rc0.tar.gz",
@@ -29,7 +49,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "3.0.3",

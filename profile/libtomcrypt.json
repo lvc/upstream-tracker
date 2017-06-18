@@ -1,0 +1,133 @@
+{
+  "Name":           "libtomcrypt",
+  "Title":          "LibTomCrypt",
+  "SourceUrl":      "https://github.com/libtom/libtomcrypt/tags",
+  "Git":            "https://github.com/libtom/libtomcrypt.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/libtomcrypt.sh",
+  "Changelog":      "changes",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/libtomcrypt/current",
+    "Source":         "src/libtomcrypt/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.17",
+    "Installed":      "installed/libtomcrypt/1.17",
+    "Source":         "src/libtomcrypt/1.17/libtomcrypt-1.17.tar.gz",
+    "Changelog":      "changes",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.16",
+    "Installed":      "installed/libtomcrypt/1.16",
+    "Source":         "src/libtomcrypt/1.16/libtomcrypt-1.16.tar.gz",
+    "Changelog":      "changes",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15",
+    "Installed":      "installed/libtomcrypt/1.15",
+    "Source":         "src/libtomcrypt/1.15/libtomcrypt-1.15.tar.gz",
+    "Changelog":      "changes",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14",
+    "Installed":      "installed/libtomcrypt/1.14",
+    "Source":         "src/libtomcrypt/1.14/libtomcrypt-1.14.tar.gz",
+    "Changelog":      "changes",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13",
+    "Installed":      "installed/libtomcrypt/1.13",
+    "Source":         "src/libtomcrypt/1.13/libtomcrypt-1.13.tar.gz",
+    "Changelog":      "changes",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12",
+    "Installed":      "installed/libtomcrypt/1.12",
+    "Source":         "src/libtomcrypt/1.12/libtomcrypt-1.12.tar.gz",
+    "Changelog":      "changes",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11",
+    "Installed":      "installed/libtomcrypt/1.11",
+    "Source":         "src/libtomcrypt/1.11/libtomcrypt-1.11.tar.gz",
+    "Changelog":      "changes",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10",
+    "Installed":      "installed/libtomcrypt/1.10",
+    "Source":         "src/libtomcrypt/1.10/libtomcrypt-1.10.tar.gz",
+    "Changelog":      "changes",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.09",
+    "Installed":      "installed/libtomcrypt/1.09",
+    "Source":         "src/libtomcrypt/1.09/libtomcrypt-1.09.tar.gz",
+    "Changelog":      "changes",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.08",
+    "Installed":      "installed/libtomcrypt/1.08",
+    "Source":         "src/libtomcrypt/1.08/libtomcrypt-1.08.tar.gz",
+    "Changelog":      "changes",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.07",
+    "Installed":      "installed/libtomcrypt/1.07",
+    "Source":         "src/libtomcrypt/1.07/libtomcrypt-1.07.tar.gz",
+    "Changelog":      "changes",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

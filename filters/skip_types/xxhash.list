@@ -1,0 +1,2 @@
+struct XXH32_state_s
+struct XXH64_state_s

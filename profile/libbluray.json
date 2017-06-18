@@ -3,11 +3,31 @@
   "SourceUrl":      "http://ftp.videolan.org/pub/videolan/libbluray/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--disable-bdjava",
+  "Configure":      "--disable-bdjava --disable-bdjava-jar",
   "PreInstall":     "sed -i -e 's/-O3/-Og/' configure",
   "HeadersDiff":    "Off",
 
   "Versions": [
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/libbluray/1.0.1",
+    "Source":         "src/libbluray/1.0.1/libbluray-1.0.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/libbluray/1.0.0",
+    "Source":         "src/libbluray/1.0.0/libbluray-1.0.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "0.9.3",
     "Installed":      "installed/libbluray/0.9.3",

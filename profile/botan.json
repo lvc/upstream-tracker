@@ -9,6 +9,36 @@
 
   "Versions": [
   {
+    "Number":         "2.1.0",
+    "Installed":      "installed/botan/2.1.0",
+    "Source":         "src/botan/2.1.0/Botan-2.1.0.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.1",
+    "Installed":      "installed/botan/2.0.1",
+    "Source":         "src/botan/2.0.1/Botan-2.0.1.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0",
+    "Installed":      "installed/botan/2.0.0",
+    "Source":         "src/botan/2.0.0/Botan-2.0.0.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.11.34",
     "Installed":      "installed/botan/1.11.34",
     "Source":         "src/botan/1.11.34/Botan-1.11.34.tgz",
@@ -342,6 +372,26 @@
     "Number":         "1.11.0",
     "Installed":      "installed/botan/1.11.0",
     "Source":         "src/botan/1.11.0/Botan-1.11.0.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.16",
+    "Installed":      "installed/botan/1.10.16",
+    "Source":         "src/botan/1.10.16/Botan-1.10.16.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.15",
+    "Installed":      "installed/botan/1.10.15",
+    "Source":         "src/botan/1.10.15/Botan-1.10.15.tgz",
     "Changelog":      "Off",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

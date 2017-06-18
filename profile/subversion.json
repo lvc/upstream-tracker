@@ -6,7 +6,8 @@
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "SkipObjects":    [ "libsvn_fs_(base|fs|util|x).*", "libsvn_ra_local-1.so" ],
   "HeadersDiff":    "Off",
-  "HideEmpty":      "1",
+  "HideEmpty":      "On",
+  "MinimalVersion": "1.4.0",
 
   "Versions": [
   {

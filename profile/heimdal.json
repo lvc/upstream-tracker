@@ -1,0 +1,63 @@
+{
+  "Name":           "heimdal",
+  "Title":          "Heimdal",
+  "SourceUrl":      "http://www.h5l.org/dist/src/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-pthread-support --disable-heimdal-documentation --disable-static",
+  "SkipObjects":    [ "windc.so", "libheimsqlite.so" ],
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.4",
+
+  "Versions": [
+  {
+    "Number":         "7.1.0",
+    "Installed":      "installed/heimdal/7.1.0",
+    "Source":         "src/heimdal/7.1.0/heimdal-7.1.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.3",
+    "Installed":      "installed/heimdal/1.5.3",
+    "Source":         "src/heimdal/1.5.3/heimdal-1.5.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.2",
+    "Installed":      "installed/heimdal/1.5.2",
+    "Source":         "src/heimdal/1.5.2/heimdal-1.5.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.1",
+    "Installed":      "installed/heimdal/1.5.1",
+    "Source":         "src/heimdal/1.5.1/heimdal-1.5.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5",
+    "Installed":      "installed/heimdal/1.5",
+    "Source":         "src/heimdal/1.5/heimdal-1.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,112 @@
+{
+  "Name":           "libgda",
+  "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/libgda/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-introspection --disable-tools",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/libgda-5.0/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "5.0.3",
+
+  "Versions": [
+  {
+    "Number":         "5.2.4",
+    "Installed":      "installed/libgda/5.2.4",
+    "Source":         "src/libgda/5.2.4/libgda-5.2.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.2.3",
+    "Installed":      "installed/libgda/5.2.3",
+    "Source":         "src/libgda/5.2.3/libgda-5.2.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.2.2",
+    "Installed":      "installed/libgda/5.2.2",
+    "Source":         "src/libgda/5.2.2/libgda-5.2.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.2.1",
+    "Installed":      "installed/libgda/5.2.1",
+    "Source":         "src/libgda/5.2.1/libgda-5.2.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.2.0",
+    "Installed":      "installed/libgda/5.2.0",
+    "Source":         "src/libgda/5.2.0/libgda-5.2.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.1.2",
+    "Installed":      "installed/libgda/5.1.2",
+    "Source":         "src/libgda/5.1.2/libgda-5.1.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.1.1",
+    "Installed":      "installed/libgda/5.1.1",
+    "Source":         "src/libgda/5.1.1/libgda-5.1.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.1.0",
+    "Installed":      "installed/libgda/5.1.0",
+    "Source":         "src/libgda/5.1.0/libgda-5.1.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.4",
+    "Installed":      "installed/libgda/5.0.4",
+    "Source":         "src/libgda/5.0.4/libgda-5.0.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.3",
+    "Installed":      "installed/libgda/5.0.3",
+    "Source":         "src/libgda/5.0.3/libgda-5.0.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

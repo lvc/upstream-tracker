@@ -1,0 +1,71 @@
+{
+  "Name":           "cloog",
+  "Title":          "CLooG",
+  "SourceUrl":      "http://www.bastoul.net/cloog/pages/download/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.16.3",
+
+  "Versions": [
+  {
+    "Number":         "0.18.4",
+    "Installed":      "installed/cloog/0.18.4",
+    "Source":         "src/cloog/0.18.4/cloog-0.18.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.18.3",
+    "Installed":      "installed/cloog/0.18.3",
+    "Source":         "src/cloog/0.18.3/cloog-0.18.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.18.1",
+    "Installed":      "installed/cloog/0.18.1",
+    "Source":         "src/cloog/0.18.1/cloog-0.18.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.18.0",
+    "Installed":      "installed/cloog/0.18.0",
+    "Source":         "src/cloog/0.18.0/cloog-0.18.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.17.0",
+    "Installed":      "installed/cloog/0.17.0",
+    "Source":         "src/cloog/0.17.0/cloog-0.17.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16.3",
+    "Installed":      "installed/cloog/0.16.3",
+    "Source":         "src/cloog/0.16.3/cloog-0.16.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,91 @@
+{
+  "Name":           "libsamplerate",
+  "SourceUrl":      "http://www.mega-nerd.com/libsamplerate/download.html",
+  "OldSourceUrl":   "http://pkgs.fedoraproject.org/repo/pkgs/libsamplerate/",
+  "OldSourceUrlDepth": "3",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.1.9",
+    "Installed":      "installed/libsamplerate/0.1.9",
+    "Source":         "src/libsamplerate/0.1.9/libsamplerate-0.1.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.8",
+    "Installed":      "installed/libsamplerate/0.1.8",
+    "Source":         "src/libsamplerate/0.1.8/libsamplerate-0.1.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.7",
+    "Installed":      "installed/libsamplerate/0.1.7",
+    "Source":         "src/libsamplerate/0.1.7/libsamplerate-0.1.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.6",
+    "Installed":      "installed/libsamplerate/0.1.6",
+    "Source":         "src/libsamplerate/0.1.6/libsamplerate-0.1.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.4",
+    "Installed":      "installed/libsamplerate/0.1.4",
+    "Source":         "src/libsamplerate/0.1.4/libsamplerate-0.1.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.3",
+    "Installed":      "installed/libsamplerate/0.1.3",
+    "Source":         "src/libsamplerate/0.1.3/libsamplerate-0.1.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.2",
+    "Installed":      "installed/libsamplerate/0.1.2",
+    "Source":         "src/libsamplerate/0.1.2/libsamplerate-0.1.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.0.15",
+    "Installed":      "installed/libsamplerate/0.0.15",
+    "Source":         "src/libsamplerate/0.0.15/libsamplerate-0.0.15.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

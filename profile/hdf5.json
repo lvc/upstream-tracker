@@ -2,7 +2,7 @@
   "Name":           "hdf5",
   "Title":          "HDF5",
   "SourceUrl":      "http://www.hdfgroup.org/ftp/HDF5/prev-releases/",
-  "SourceUrlDepth": "3",
+  "SourceUrlDepth": "4",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "BuildSystem":    "Autotools",
@@ -10,6 +10,46 @@
   "HeadersDiff":    "Off",
 
   "Versions": [
+  {
+    "Number":         "1.10.1",
+    "Installed":      "installed/hdf5/1.10.1",
+    "Source":         "src/hdf5/1.10.1/hdf5-1.10.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.0",
+    "Installed":      "installed/hdf5/1.10.0",
+    "Source":         "src/hdf5/1.10.0/hdf5-1.10.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.19",
+    "Installed":      "installed/hdf5/1.8.19",
+    "Source":         "src/hdf5/1.8.19/hdf5-1.8.19.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.18",
+    "Installed":      "installed/hdf5/1.8.18",
+    "Source":         "src/hdf5/1.8.18/hdf5-1.8.18.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "1.8.17",
     "Installed":      "installed/hdf5/1.8.17",
@@ -64,6 +104,16 @@
     "Number":         "1.8.12",
     "Installed":      "installed/hdf5/1.8.12",
     "Source":         "src/hdf5/1.8.12/hdf5-1.8.12.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.5",
+    "Installed":      "installed/hdf5/1.8.5",
+    "Source":         "src/hdf5/1.8.5/hdf5-1.8.5.tar.gz",
     "Changelog":      "Off",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

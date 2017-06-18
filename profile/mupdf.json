@@ -1,0 +1,76 @@
+{
+  "Name":           "mupdf",
+  "Title":          "MuPDF",
+  "SourceUrl":      "http://mupdf.com/downloads/archive/",
+  "SourceUrlDepth": "1",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/mupdf.sh",
+  "HeadersDiff":    "Off",
+  "LetterReleases": "On",
+  "MinimalVersion": "1.9",
+  "Soname":         "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.11",
+    "Installed":      "installed/mupdf/1.11",
+    "Source":         "src/mupdf/1.11/mupdf-1.11-source.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11-rc1",
+    "Installed":      "installed/mupdf/1.11-rc1",
+    "Source":         "src/mupdf/1.11-rc1/mupdf-1.11-rc1-source.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.10a",
+    "Installed":      "installed/mupdf/1.10a",
+    "Source":         "src/mupdf/1.10a/mupdf-1.10a-source.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10",
+    "Installed":      "installed/mupdf/1.10",
+    "Source":         "src/mupdf/1.10/mupdf-1.10-source.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9a",
+    "Installed":      "installed/mupdf/1.9a",
+    "Source":         "src/mupdf/1.9a/mupdf-1.9a-source.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9",
+    "Installed":      "installed/mupdf/1.9",
+    "Source":         "src/mupdf/1.9/mupdf-1.9-source.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

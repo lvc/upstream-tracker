@@ -1,0 +1,112 @@
+{
+  "Name":           "libiodbc",
+  "Title":          "iODBC",
+  "SourceUrl":      "https://sourceforge.net/projects/iodbc/files/iodbc/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "SkipObjects":    [ "libiodbcadm.so" ],
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "3.52.1",
+
+  "Versions": [
+  {
+    "Number":         "3.52.12",
+    "Installed":      "installed/libiodbc/3.52.12",
+    "Source":         "src/libiodbc/3.52.12/libiodbc-3.52.12.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.52.10",
+    "Installed":      "installed/libiodbc/3.52.10",
+    "Source":         "src/libiodbc/3.52.10/libiodbc-3.52.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.52.9",
+    "Installed":      "installed/libiodbc/3.52.9",
+    "Source":         "src/libiodbc/3.52.9/libiodbc-3.52.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.52.8",
+    "Installed":      "installed/libiodbc/3.52.8",
+    "Source":         "src/libiodbc/3.52.8/libiodbc-3.52.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.52.7",
+    "Installed":      "installed/libiodbc/3.52.7",
+    "Source":         "src/libiodbc/3.52.7/libiodbc-3.52.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.52.6",
+    "Installed":      "installed/libiodbc/3.52.6",
+    "Source":         "src/libiodbc/3.52.6/libiodbc-3.52.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.52.5",
+    "Installed":      "installed/libiodbc/3.52.5",
+    "Source":         "src/libiodbc/3.52.5/libiodbc-3.52.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.52.4",
+    "Installed":      "installed/libiodbc/3.52.4",
+    "Source":         "src/libiodbc/3.52.4/libiodbc-3.52.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.52.3",
+    "Installed":      "installed/libiodbc/3.52.3",
+    "Source":         "src/libiodbc/3.52.3/libiodbc-3.52.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.52.1",
+    "Installed":      "installed/libiodbc/3.52.1",
+    "Source":         "src/libiodbc/3.52.1/libiodbc-3.52.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

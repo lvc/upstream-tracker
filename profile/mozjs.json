@@ -1,0 +1,62 @@
+{
+  "Name":           "mozjs",
+  "Title":          "SpiderMonkey",
+  "SourceUrl":      "https://people-mozilla.org/~sfink/",
+  "SourceUrlDepth": "1",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/mozjs.sh",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "52.0",
+    "Installed":      "installed/mozjs/52.0",
+    "Source":         "src/mozjs/52.0/firefox-52.0.source.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "47.0.2",
+    "Installed":      "installed/mozjs/47.0.2",
+    "Source":         "src/mozjs/47.0.2/firefox-47.0.2.source.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "45.8.0",
+    "Installed":      "installed/mozjs/45.8.0",
+    "Source":         "src/mozjs/45.8.0/firefox-45.8.0esr.source.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "45.0.2",
+    "Installed":      "installed/mozjs/45.0.2",
+    "Source":         "src/mozjs/45.0.2/mozjs-45.0.2.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "38.3.0",
+    "Installed":      "installed/mozjs/38.3.0",
+    "Source":         "src/mozjs/38.3.0/mozjs-38.3.0.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

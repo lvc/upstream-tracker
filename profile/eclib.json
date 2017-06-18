@@ -1,0 +1,163 @@
+{
+  "Name":           "eclib",
+  "SourceUrl":      "https://github.com/JohnCremona/eclib/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-static --disable-allprogs --with-pari={INSTALL_ROOT}/pari/2.9.2 --with-ntl={INSTALL_ROOT}/ntl/10.3.0",
+  "Changelog":      "Off",
+  "GraphFewXTics":  "On",
+  "HeadersDiff":    "Off",
+  "SkipVersions":   [ "1.0.0" ],
+
+  "Versions": [
+  {
+    "Number":         20170330,
+    "Installed":      "installed/eclib/20170330",
+    "Source":         "src/eclib/20170330/eclib-20170330.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20170122,
+    "Installed":      "installed/eclib/20170122",
+    "Source":         "src/eclib/20170122/eclib-20170122.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20161230,
+    "Installed":      "installed/eclib/20161230",
+    "Source":         "src/eclib/20161230/eclib-20161230.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20161223,
+    "Installed":      "installed/eclib/20161223",
+    "Source":         "src/eclib/20161223/eclib-20161223.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20161219,
+    "Installed":      "installed/eclib/20161219",
+    "Source":         "src/eclib/20161219/eclib-20161219.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20160720,
+    "Installed":      "installed/eclib/20160720",
+    "Source":         "src/eclib/20160720/eclib-20160720.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20160206,
+    "Installed":      "installed/eclib/20160206",
+    "Source":         "src/eclib/20160206/eclib-20160206.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20160101,
+    "Installed":      "installed/eclib/20160101",
+    "Source":         "src/eclib/20160101/eclib-20160101.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20150827,
+    "Installed":      "installed/eclib/20150827",
+    "Source":         "src/eclib/20150827/eclib-20150827.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20150826,
+    "Installed":      "installed/eclib/20150826",
+    "Source":         "src/eclib/20150826/eclib-20150826.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20150510,
+    "Installed":      "installed/eclib/20150510",
+    "Source":         "src/eclib/20150510/eclib-20150510.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20150423,
+    "Installed":      "installed/eclib/20150423",
+    "Source":         "src/eclib/20150423/eclib-20150423.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20150408,
+    "Installed":      "installed/eclib/20150408",
+    "Source":         "src/eclib/20150408/eclib-20150408.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20150323,
+    "Installed":      "installed/eclib/20150323",
+    "Source":         "src/eclib/20150323/eclib-20150323.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20150127,
+    "Installed":      "installed/eclib/20150127",
+    "Source":         "src/eclib/20150127/eclib-20150127.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

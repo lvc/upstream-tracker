@@ -1,0 +1,33 @@
+{
+  "Name":           "netcdf-cxx",
+  "Title":          "NetCDF C++",
+  "SourceUrl":      "ftp://ftp.unidata.ucar.edu/pub/netcdf/",
+  "SourceUrlDepth": "1",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "HeadersDiff":    "Off",
+  "Package":        "netcdf-cxx4-",
+
+  "Versions": [
+  {
+    "Number":         "4.3.0",
+    "Installed":      "installed/netcdf-cxx/4.3.0",
+    "Source":         "src/netcdf-cxx/4.3.0/netcdf-cxx4-4.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2",
+    "Installed":      "installed/netcdf-cxx/4.2",
+    "Source":         "src/netcdf-cxx/4.2/netcdf-cxx4-4.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

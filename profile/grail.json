@@ -1,0 +1,62 @@
+{
+  "Name":           "grail",
+  "Title":          "Grail",
+  "SourceUrl":      "https://launchpad.net/grail/+download",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/frame/2.5.0/lib/pkgconfig",
+  "HeadersDiff":    "Off",
+  "SourceCompat":   "On",
+
+  "Versions": [
+  {
+    "Number":         "3.1.1",
+    "Installed":      "installed/grail/3.1.1",
+    "Source":         "src/grail/3.1.1/grail-3.1.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.0",
+    "Installed":      "installed/grail/3.1.0",
+    "Source":         "src/grail/3.1.0/grail-3.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.9",
+    "Installed":      "installed/grail/3.0.9",
+    "Source":         "src/grail/3.0.9/grail-3.0.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.8",
+    "Installed":      "installed/grail/3.0.8",
+    "Source":         "src/grail/3.0.8/grail-3.0.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.6",
+    "Installed":      "installed/grail/3.0.6",
+    "Source":         "src/grail/3.0.6/grail-3.0.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

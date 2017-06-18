@@ -1,12 +1,14 @@
 {
   "Name":           "openmpi",
-  "Title":          "OpenMPI",
+  "Title":          "Open MPI",
   "SourceUrl":      "http://www.open-mpi.org/software/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "BuildSystem":    "Autotools",
+  "Configure":      "--disable-mpi-fortran --disable-oshmem-fortran",
   "CurrentPreInstall": "perl autogen.pl",
-  "SkipObjects":    [ "openmpi/", "libmca_common_sm.so", "libopen-pal.so", "libvt-mpi-unify.so", "libopal.so", "libopen-rte.so", "liborte.so", "libopenmpi_malloc.so", "monitoring_prof.so", "libopenmpi-malloc.so", "libmca_common_ompio.so" ],
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/openmpi/ {INSTALL_TO}/lib/*.mod",
+  "SkipObjects":    [ "openmpi/", "libmca_common_sm.so", "libopen-pal.so", "libvt-mpi-unify.so", "libopal.so", "libopen-rte.so", "liborte.so", "libopenmpi_malloc.so", "monitoring_prof.so", "libopenmpi-malloc.so", "libmca_common_ompio.so", "libmpi_mpifh.so", "libmpi_usempi_ignore_tkr.so", "libmpi_usempif08.so" ],
   "SkipSymbols":    "filters/skip_symbols/openmpi.list",
   "SkipInternalSymbols": "ompi_.*",
   "SkipTypes":      "filters/skip_types/openmpi.list",
@@ -14,6 +16,113 @@
   "HeadersDiff":    "Off",
 
   "Versions": [
+  {
+    "Number":         "2.1.1",
+    "Installed":      "installed/openmpi/2.1.1",
+    "Source":         "src/openmpi/2.1.1/openmpi-2.1.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.1rc1",
+    "Installed":      "installed/openmpi/2.1.1rc1",
+    "Source":         "src/openmpi/2.1.1rc1/openmpi-2.1.1rc1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.1.0",
+    "Installed":      "installed/openmpi/2.1.0",
+    "Source":         "src/openmpi/2.1.0/openmpi-2.1.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.0rc3",
+    "Installed":      "installed/openmpi/2.1.0rc3",
+    "Source":         "src/openmpi/2.1.0rc3/openmpi-2.1.0rc3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.1.0rc2",
+    "Installed":      "installed/openmpi/2.1.0rc2",
+    "Source":         "src/openmpi/2.1.0rc2/openmpi-2.1.0rc2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.0.2",
+    "Installed":      "installed/openmpi/2.0.2",
+    "Source":         "src/openmpi/2.0.2/openmpi-2.0.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.2rc4",
+    "Installed":      "installed/openmpi/2.0.2rc4",
+    "Source":         "src/openmpi/2.0.2rc4/openmpi-2.0.2rc4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.0.2rc3",
+    "Installed":      "installed/openmpi/2.0.2rc3",
+    "Source":         "src/openmpi/2.0.2rc3/openmpi-2.0.2rc3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.0.2rc2",
+    "Installed":      "installed/openmpi/2.0.2rc2",
+    "Source":         "src/openmpi/2.0.2rc2/openmpi-2.0.2rc2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.0.2rc1",
+    "Installed":      "installed/openmpi/2.0.2rc1",
+    "Source":         "src/openmpi/2.0.2rc1/openmpi-2.0.2rc1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
   {
     "Number":         "2.0.1",
     "Installed":      "installed/openmpi/2.0.1",
@@ -77,6 +186,36 @@
     "ABIView":        "Off",
     "ABIDiff":        "Off",
     "Deleted":        1
+  },
+  {
+    "Number":         "1.10.6",
+    "Installed":      "installed/openmpi/1.10.6",
+    "Source":         "src/openmpi/1.10.6/openmpi-1.10.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.5",
+    "Installed":      "installed/openmpi/1.10.5",
+    "Source":         "src/openmpi/1.10.5/openmpi-1.10.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.4",
+    "Installed":      "installed/openmpi/1.10.4",
+    "Source":         "src/openmpi/1.10.4/openmpi-1.10.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "1.10.2",

@@ -1,0 +1,116 @@
+{
+  "Name":           "vigra",
+  "Title":          "VIGRA",
+  "SourceUrl":      "https://github.com/ukoethe/vigra/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/vigra",
+  "AutotoolsConfigure": "--enable-static=no PKG_CONFIG_PATH={INSTALL_ROOT}/libpng/1.2.57/lib/pkgconfig",
+  "CMakeConfigure": "-DWITH_VIGRANUMPY=OFF -DCMAKE_PREFIX_PATH={INSTALL_ROOT}/libpng/1.2.57/",
+  "HeadersDiff":    "Off",
+  "LambdaSupport":  "On",
+  "Package":        "Version-",
+  "PreInstall1":    "sed -i '1s/^/#include <stddef.h>/' include/vigra/random_forest/rf_split.hxx",
+
+  "Versions": [
+  {
+    "Number":         "1-11-1",
+    "Installed":      "installed/vigra/1-11-1",
+    "Source":         "src/vigra/1-11-1/Version-1-11-1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1-11-0",
+    "Installed":      "installed/vigra/1-11-0",
+    "Source":         "src/vigra/1-11-0/Version-1-11-0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1-10-0",
+    "Installed":      "installed/vigra/1-10-0",
+    "Source":         "src/vigra/1-10-0/Version-1-10-0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1-9-0",
+    "Installed":      "installed/vigra/1-9-0",
+    "Source":         "src/vigra/1-9-0/Version-1-9-0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1-8-0",
+    "Installed":      "installed/vigra/1-8-0",
+    "Source":         "src/vigra/1-8-0/Version-1-8-0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1-7-1",
+    "Installed":      "installed/vigra/1-7-1",
+    "Source":         "src/vigra/1-7-1/Version-1-7-1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1-7-0",
+    "Installed":      "installed/vigra/1-7-0",
+    "Source":         "src/vigra/1-7-0/Version-1-7-0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1-6-0",
+    "Installed":      "installed/vigra/1-6-0",
+    "Source":         "src/vigra/1-6-0/Version-1-6-0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1-5-0",
+    "Installed":      "installed/vigra/1-5-0",
+    "Source":         "src/vigra/1-5-0/Version-1-5-0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1-4-0",
+    "Installed":      "installed/vigra/1-4-0",
+    "Source":         "src/vigra/1-4-0/Version-1-4-0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

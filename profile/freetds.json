@@ -1,0 +1,34 @@
+{
+  "Name":           "freetds",
+  "Title":          "FreeTDS",
+  "SourceUrl":      "https://github.com/FreeTDS/freetds/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-static",
+  "PreInstall":     "sed -i -e 's/doc samples/ /g' Makefile.am",
+  "SkipObjects":    [ "libtdsodbc.so" ],
+  "HeadersDiff":    "Off",
+  "Package":        "R",
+
+  "Versions": [
+  {
+    "Number":         "1_00",
+    "Installed":      "installed/freetds/1_00",
+    "Source":         "src/freetds/1_00/R1_00.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0_95",
+    "Installed":      "installed/freetds/0_95",
+    "Source":         "src/freetds/0_95/R0_95.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

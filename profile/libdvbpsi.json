@@ -1,0 +1,90 @@
+{
+  "Name":           "libdvbpsi",
+  "SourceUrl":      "http://download.videolan.org/pub/libdvbpsi/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.2.2",
+
+  "Versions": [
+  {
+    "Number":         "1.3.1",
+    "Installed":      "installed/libdvbpsi/1.3.1",
+    "Source":         "src/libdvbpsi/1.3.1/libdvbpsi-1.3.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.0",
+    "Installed":      "installed/libdvbpsi/1.3.0",
+    "Source":         "src/libdvbpsi/1.3.0/libdvbpsi-1.3.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/libdvbpsi/1.2.0",
+    "Source":         "src/libdvbpsi/1.2.0/libdvbpsi-1.2.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.2",
+    "Installed":      "installed/libdvbpsi/1.1.2",
+    "Source":         "src/libdvbpsi/1.1.2/libdvbpsi-1.1.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.1",
+    "Installed":      "installed/libdvbpsi/1.1.1",
+    "Source":         "src/libdvbpsi/1.1.1/libdvbpsi-1.1.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/libdvbpsi/1.1.0",
+    "Source":         "src/libdvbpsi/1.1.0/libdvbpsi-1.1.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/libdvbpsi/1.0.0",
+    "Source":         "src/libdvbpsi/1.0.0/libdvbpsi-1.0.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.2",
+    "Installed":      "installed/libdvbpsi/0.2.2",
+    "Source":         "src/libdvbpsi/0.2.2/libdvbpsi-0.2.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

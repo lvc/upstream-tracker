@@ -1,0 +1,52 @@
+{
+  "Name":           "cunit",
+  "Title":          "CUnit",
+  "SourceUrl":      "https://sourceforge.net/projects/cunit/files/CUnit/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Changelog":      "ChangeLog",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.1-0",
+
+  "Versions": [
+  {
+    "Number":         "2.1-3",
+    "Installed":      "installed/cunit/2.1-3",
+    "Source":         "src/cunit/2.1-3/CUnit-2.1-3.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1-2",
+    "Installed":      "installed/cunit/2.1-2",
+    "Source":         "src/cunit/2.1-2/CUnit-2.1-2-src.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1-1",
+    "Installed":      "installed/cunit/2.1-1",
+    "Source":         "src/cunit/2.1-1/CUnit-2.1-1-src.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1-0",
+    "Installed":      "installed/cunit/2.1-0",
+    "Source":         "src/cunit/2.1-0/CUnit-2.1-0-src.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

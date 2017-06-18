@@ -1,0 +1,65 @@
+{
+  "Name":           "polylib",
+  "Title":          "Polylib",
+  "SourceUrl":      "https://github.com/avr-aics-riken/Polylib/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "sed -i -e 's/STATIC/SHARED/g' src/CMakeLists.txt;sed -i -e 's/-O[0123]/-Og/g' cmake/*.cmake",
+  "PostInstall":    "mv {BUILD_SUBDIR}/src/*.so {INSTALL_TO}/lib/;mv include/* {INSTALL_TO}/include/",
+  "CxxFlags":       "-I{INSTALL_ROOT}/textparser/1.8.2/include/ -I{INSTALL_ROOT}/openmpi/2.1.1/include/ -L{INSTALL_ROOT}/textparser/1.8.2/lib/",
+  "HeadersDiff":    "Off",
+  "Install":        "Off",
+  "Soname":         "Off",
+
+  "Versions": [
+  {
+    "Number":         "3.6.5",
+    "Installed":      "installed/polylib/3.6.5",
+    "Source":         "src/polylib/3.6.5/polylib-3.6.5.tar.gz",
+    "Changelog":      "ChangeLog.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.4",
+    "Installed":      "installed/polylib/3.6.4",
+    "Source":         "src/polylib/3.6.4/polylib-3.6.4.tar.gz",
+    "Changelog":      "ChangeLog.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.2",
+    "Installed":      "installed/polylib/3.6.2",
+    "Source":         "src/polylib/3.6.2/polylib-3.6.2.tar.gz",
+    "Changelog":      "ChangeLog.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.1",
+    "Installed":      "installed/polylib/3.6.1",
+    "Source":         "src/polylib/3.6.1/polylib-3.6.1.tar.gz",
+    "Changelog":      "ChangeLog.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.0",
+    "Installed":      "installed/polylib/3.6.0",
+    "Source":         "src/polylib/3.6.0/polylib-3.6.0.tar.gz",
+    "Changelog":      "ChangeLog.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

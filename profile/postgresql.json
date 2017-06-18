@@ -11,6 +11,36 @@
 
   "Versions": [
   {
+    "Number":         "10beta1",
+    "Installed":      "installed/postgresql/10beta1",
+    "Source":         "src/postgresql/10beta1/postgresql-10beta1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.6.3",
+    "Installed":      "installed/postgresql/9.6.3",
+    "Source":         "src/postgresql/9.6.3/postgresql-9.6.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.6.2",
+    "Installed":      "installed/postgresql/9.6.2",
+    "Source":         "src/postgresql/9.6.2/postgresql-9.6.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "9.6.1",
     "Installed":      "installed/postgresql/9.6.1",
     "Source":         "src/postgresql/9.6.1/postgresql-9.6.1.tar.gz",
@@ -40,6 +70,26 @@
     "ABIView":        "Off",
     "ABIDiff":        "Off",
     "Deleted":        1
+  },
+  {
+    "Number":         "9.5.7",
+    "Installed":      "installed/postgresql/9.5.7",
+    "Source":         "src/postgresql/9.5.7/postgresql-9.5.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.5.6",
+    "Installed":      "installed/postgresql/9.5.6",
+    "Source":         "src/postgresql/9.5.6/postgresql-9.5.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "9.5.5",
@@ -95,6 +145,26 @@
     "Number":         "9.5.0",
     "Installed":      "installed/postgresql/9.5.0",
     "Source":         "src/postgresql/9.5.0/postgresql-9.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.4.12",
+    "Installed":      "installed/postgresql/9.4.12",
+    "Source":         "src/postgresql/9.4.12/postgresql-9.4.12.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.4.11",
+    "Installed":      "installed/postgresql/9.4.11",
+    "Source":         "src/postgresql/9.4.11/postgresql-9.4.11.tar.gz",
     "Changelog":      "Off",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

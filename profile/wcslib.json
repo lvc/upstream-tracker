@@ -1,0 +1,102 @@
+{
+  "Name":           "wcslib",
+  "Title":          "WCSLIB",
+  "SourceUrl":      "ftp://ftp.atnf.csiro.au/pub/software/wcslib/",
+  "OldSourceUrl":   "http://pkgs.fedoraproject.org/repo/pkgs/wcslib/",
+  "OldSourceUrlDepth": "3",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "5.16",
+    "Installed":      "installed/wcslib/5.16",
+    "Source":         "src/wcslib/5.16/wcslib-5.16.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.15",
+    "Installed":      "installed/wcslib/5.15",
+    "Source":         "src/wcslib/5.15/wcslib-5.15.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.14",
+    "Installed":      "installed/wcslib/5.14",
+    "Source":         "src/wcslib/5.14/wcslib-5.14.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.13",
+    "Installed":      "installed/wcslib/5.13",
+    "Source":         "src/wcslib/5.13/wcslib-5.13.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.12",
+    "Installed":      "installed/wcslib/5.12",
+    "Source":         "src/wcslib/5.12/wcslib-5.12.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.9",
+    "Installed":      "installed/wcslib/5.9",
+    "Source":         "src/wcslib/5.9/wcslib-5.9.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.25.1",
+    "Installed":      "installed/wcslib/4.25.1",
+    "Source":         "src/wcslib/4.25.1/wcslib-4.25.1.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.23",
+    "Installed":      "installed/wcslib/4.23",
+    "Source":         "src/wcslib/4.23/wcslib-4.23.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.22",
+    "Installed":      "installed/wcslib/4.22",
+    "Source":         "src/wcslib/4.22/wcslib-4.22.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

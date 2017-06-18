@@ -1,0 +1,254 @@
+{
+  "Name":           "vips",
+  "Title":          "VIPS",
+  "SourceUrl":      "https://github.com/jcupitt/libvips/tags",
+  "OldSourceUrl":   "http://www.vips.ecs.soton.ac.uk/supported/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--without-python --enable-static=no",
+  "Changelog":      "ChangeLog",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "7.40.11",
+
+  "Versions": [
+  {
+    "Number":         "8.5.6",
+    "Installed":      "installed/vips/8.5.6",
+    "Source":         "src/vips/8.5.6/vips-8.5.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.5.5",
+    "Installed":      "installed/vips/8.5.5",
+    "Source":         "src/vips/8.5.5/vips-8.5.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.5.4",
+    "Installed":      "installed/vips/8.5.4",
+    "Source":         "src/vips/8.5.4/vips-8.5.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.5.3",
+    "Installed":      "installed/vips/8.5.3",
+    "Source":         "src/vips/8.5.3/vips-8.5.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.5.2",
+    "Installed":      "installed/vips/8.5.2",
+    "Source":         "src/vips/8.5.2/vips-8.5.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.5.1",
+    "Installed":      "installed/vips/8.5.1",
+    "Source":         "src/vips/8.5.1/vips-8.5.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.4.6",
+    "Installed":      "installed/vips/8.4.6",
+    "Source":         "src/vips/8.4.6/vips-8.4.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.3.3",
+    "Installed":      "installed/vips/8.3.3",
+    "Source":         "src/vips/8.3.3/vips-8.3.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.3.2",
+    "Installed":      "installed/vips/8.3.2",
+    "Source":         "src/vips/8.3.2/vips-8.3.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.3.1",
+    "Installed":      "installed/vips/8.3.1",
+    "Source":         "src/vips/8.3.1/vips-8.3.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.3.0",
+    "Installed":      "installed/vips/8.3.0",
+    "Source":         "src/vips/8.3.0/vips-8.3.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.2.3",
+    "Installed":      "installed/vips/8.2.3",
+    "Source":         "src/vips/8.2.3/vips-8.2.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.2.2",
+    "Installed":      "installed/vips/8.2.2",
+    "Source":         "src/vips/8.2.2/vips-8.2.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.2.1",
+    "Installed":      "installed/vips/8.2.1",
+    "Source":         "src/vips/8.2.1/vips-8.2.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.2.0",
+    "Installed":      "installed/vips/8.2.0",
+    "Source":         "src/vips/8.2.0/vips-8.2.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.1",
+    "Installed":      "installed/vips/8.1",
+    "Source":         "src/vips/8.1/vips-8.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.0.2",
+    "Installed":      "installed/vips/8.0.2",
+    "Source":         "src/vips/8.0.2/vips-8.0.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.0.1",
+    "Installed":      "installed/vips/8.0.1",
+    "Source":         "src/vips/8.0.1/vips-8.0.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.0.0",
+    "Installed":      "installed/vips/8.0.0",
+    "Source":         "src/vips/8.0.0/vips-8.0.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.42.3",
+    "Installed":      "installed/vips/7.42.3",
+    "Source":         "src/vips/7.42.3/vips-7.42.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.42.2",
+    "Installed":      "installed/vips/7.42.2",
+    "Source":         "src/vips/7.42.2/vips-7.42.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.42.1",
+    "Installed":      "installed/vips/7.42.1",
+    "Source":         "src/vips/7.42.1/vips-7.42.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.42.0",
+    "Installed":      "installed/vips/7.42.0",
+    "Source":         "src/vips/7.42.0/vips-7.42.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.40.11",
+    "Installed":      "installed/vips/7.40.11",
+    "Source":         "src/vips/7.40.11/vips-7.40.11.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

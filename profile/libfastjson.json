@@ -1,0 +1,59 @@
+{
+  "Name":           "libfastjson",
+  "SourceUrl":      "https://github.com/rsyslog/libfastjson/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.99.5",
+    "Installed":      "installed/libfastjson/0.99.5",
+    "Source":         "src/libfastjson/0.99.5/libfastjson-0.99.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.99.4",
+    "Installed":      "installed/libfastjson/0.99.4",
+    "Source":         "src/libfastjson/0.99.4/libfastjson-0.99.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.99.3",
+    "Installed":      "installed/libfastjson/0.99.3",
+    "Source":         "src/libfastjson/0.99.3/libfastjson-0.99.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.99.2",
+    "Installed":      "installed/libfastjson/0.99.2",
+    "Source":         "src/libfastjson/0.99.2/libfastjson-0.99.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.99.0",
+    "Installed":      "installed/libfastjson/0.99.0",
+    "Source":         "src/libfastjson/0.99.0/libfastjson-0.99.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

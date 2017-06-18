@@ -1,0 +1,254 @@
+{
+  "Name":           "gromacs",
+  "Title":          "GROMACS",
+  "SourceUrl":      "ftp://ftp.gromacs.org/pub/gromacs/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "CMake",
+  "Configure":      "-DGMX_BUILD_UNITTESTS=OFF -DBUILD_TESTING=OFF",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "4.5.5",
+  "SkipVersions":   [ "\d\d\d\d.*" ],
+
+  "Versions": [
+  {
+    "Number":         "5.1.4",
+    "Installed":      "installed/gromacs/5.1.4",
+    "Source":         "src/gromacs/5.1.4/gromacs-5.1.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.1.3",
+    "Installed":      "installed/gromacs/5.1.3",
+    "Source":         "src/gromacs/5.1.3/gromacs-5.1.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.1.2",
+    "Installed":      "installed/gromacs/5.1.2",
+    "Source":         "src/gromacs/5.1.2/gromacs-5.1.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.1.1",
+    "Installed":      "installed/gromacs/5.1.1",
+    "Source":         "src/gromacs/5.1.1/gromacs-5.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.1",
+    "Installed":      "installed/gromacs/5.1",
+    "Source":         "src/gromacs/5.1/gromacs-5.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.7",
+    "Installed":      "installed/gromacs/5.0.7",
+    "Source":         "src/gromacs/5.0.7/gromacs-5.0.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.6",
+    "Installed":      "installed/gromacs/5.0.6",
+    "Source":         "src/gromacs/5.0.6/gromacs-5.0.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.5",
+    "Installed":      "installed/gromacs/5.0.5",
+    "Source":         "src/gromacs/5.0.5/gromacs-5.0.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.4",
+    "Installed":      "installed/gromacs/5.0.4",
+    "Source":         "src/gromacs/5.0.4/gromacs-5.0.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.3",
+    "Installed":      "installed/gromacs/5.0.3",
+    "Source":         "src/gromacs/5.0.3/gromacs-5.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.2",
+    "Installed":      "installed/gromacs/5.0.2",
+    "Source":         "src/gromacs/5.0.2/gromacs-5.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.1",
+    "Installed":      "installed/gromacs/5.0.1",
+    "Source":         "src/gromacs/5.0.1/gromacs-5.0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0",
+    "Installed":      "installed/gromacs/5.0",
+    "Source":         "src/gromacs/5.0/gromacs-5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.7",
+    "Installed":      "installed/gromacs/4.6.7",
+    "Source":         "src/gromacs/4.6.7/gromacs-4.6.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.6",
+    "Installed":      "installed/gromacs/4.6.6",
+    "Source":         "src/gromacs/4.6.6/gromacs-4.6.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.5",
+    "Installed":      "installed/gromacs/4.6.5",
+    "Source":         "src/gromacs/4.6.5/gromacs-4.6.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.4",
+    "Installed":      "installed/gromacs/4.6.4",
+    "Source":         "src/gromacs/4.6.4/gromacs-4.6.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.3",
+    "Installed":      "installed/gromacs/4.6.3",
+    "Source":         "src/gromacs/4.6.3/gromacs-4.6.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.2",
+    "Installed":      "installed/gromacs/4.6.2",
+    "Source":         "src/gromacs/4.6.2/gromacs-4.6.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.1",
+    "Installed":      "installed/gromacs/4.6.1",
+    "Source":         "src/gromacs/4.6.1/gromacs-4.6.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6",
+    "Installed":      "installed/gromacs/4.6",
+    "Source":         "src/gromacs/4.6/gromacs-4.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.7",
+    "Installed":      "installed/gromacs/4.5.7",
+    "Source":         "src/gromacs/4.5.7/gromacs-4.5.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.6",
+    "Installed":      "installed/gromacs/4.5.6",
+    "Source":         "src/gromacs/4.5.6/gromacs-4.5.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.5",
+    "Installed":      "installed/gromacs/4.5.5",
+    "Source":         "src/gromacs/4.5.5/gromacs-4.5.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

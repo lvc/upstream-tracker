@@ -4,10 +4,31 @@
   "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/pangomm/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "CXX=/home/Soft/GCC-5.1/bin/g++ PKG_CONFIG_PATH={INSTALL_ROOT}/glibmm/2.51.1/lib/pkgconfig:{INSTALL_ROOT}/pango/1.40.1/lib/pkgconfig:{INSTALL_ROOT}/cairomm/1.15.1/lib/pkgconfig:{INSTALL_ROOT}/libsigc++/2.99.7/lib/pkgconfig",
+  "Configure":      "CXX=/home/Soft/GCC-5.1/bin/g++ PKG_CONFIG_PATH={INSTALL_ROOT}/glibmm/2.53.1.1/lib/pkgconfig:{INSTALL_ROOT}/pango/1.40.1/lib/pkgconfig:{INSTALL_ROOT}/cairomm/1.15.1/lib/pkgconfig:{INSTALL_ROOT}/libsigc++/2.99.7/lib/pkgconfig",
+  "PreInstall":     "sed -i -e 's/ tools //g' Makefile.in",
   "HeadersDiff":    "Off",
 
   "Versions": [
+  {
+    "Number":         "2.41.3",
+    "Installed":      "installed/pangomm/2.41.3",
+    "Source":         "src/pangomm/2.41.3/pangomm-2.41.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.41.2",
+    "Installed":      "installed/pangomm/2.41.2",
+    "Source":         "src/pangomm/2.41.2/pangomm-2.41.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "2.41.1",
     "Installed":      "installed/pangomm/2.41.1",

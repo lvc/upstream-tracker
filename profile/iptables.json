@@ -1,0 +1,203 @@
+{
+  "Name":           "iptables",
+  "SourceUrl":      "http://www.netfilter.org/projects/iptables/files/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-nftables",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/xtables/",
+  "SkipObjects":    [ "libiptc.so" ],
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.4.11",
+
+  "Versions": [
+  {
+    "Number":         "1.6.1",
+    "Installed":      "installed/iptables/1.6.1",
+    "Source":         "src/iptables/1.6.1/iptables-1.6.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.0",
+    "Installed":      "installed/iptables/1.6.0",
+    "Source":         "src/iptables/1.6.0/iptables-1.6.0.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.21",
+    "Installed":      "installed/iptables/1.4.21",
+    "Source":         "src/iptables/1.4.21/iptables-1.4.21.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.20",
+    "Installed":      "installed/iptables/1.4.20",
+    "Source":         "src/iptables/1.4.20/iptables-1.4.20.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.19.1",
+    "Installed":      "installed/iptables/1.4.19.1",
+    "Source":         "src/iptables/1.4.19.1/iptables-1.4.19.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.19",
+    "Installed":      "installed/iptables/1.4.19",
+    "Source":         "src/iptables/1.4.19/iptables-1.4.19.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.18",
+    "Installed":      "installed/iptables/1.4.18",
+    "Source":         "src/iptables/1.4.18/iptables-1.4.18.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.17",
+    "Installed":      "installed/iptables/1.4.17",
+    "Source":         "src/iptables/1.4.17/iptables-1.4.17.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.16.3",
+    "Installed":      "installed/iptables/1.4.16.3",
+    "Source":         "src/iptables/1.4.16.3/iptables-1.4.16.3.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.16.2",
+    "Installed":      "installed/iptables/1.4.16.2",
+    "Source":         "src/iptables/1.4.16.2/iptables-1.4.16.2.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.16.1",
+    "Installed":      "installed/iptables/1.4.16.1",
+    "Source":         "src/iptables/1.4.16.1/iptables-1.4.16.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.16",
+    "Installed":      "installed/iptables/1.4.16",
+    "Source":         "src/iptables/1.4.16/iptables-1.4.16.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.15",
+    "Installed":      "installed/iptables/1.4.15",
+    "Source":         "src/iptables/1.4.15/iptables-1.4.15.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.14",
+    "Installed":      "installed/iptables/1.4.14",
+    "Source":         "src/iptables/1.4.14/iptables-1.4.14.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.13",
+    "Installed":      "installed/iptables/1.4.13",
+    "Source":         "src/iptables/1.4.13/iptables-1.4.13.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.12.2",
+    "Installed":      "installed/iptables/1.4.12.2",
+    "Source":         "src/iptables/1.4.12.2/iptables-1.4.12.2.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.12.1",
+    "Installed":      "installed/iptables/1.4.12.1",
+    "Source":         "src/iptables/1.4.12.1/iptables-1.4.12.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.12",
+    "Installed":      "installed/iptables/1.4.12",
+    "Source":         "src/iptables/1.4.12/iptables-1.4.12.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.11.1",
+    "Installed":      "installed/iptables/1.4.11.1",
+    "Source":         "src/iptables/1.4.11.1/iptables-1.4.11.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

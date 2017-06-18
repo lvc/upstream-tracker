@@ -1,0 +1,74 @@
+{
+  "Name":           "fltk",
+  "Title":          "FLTK",
+  "SourceUrl":      "http://fltk.org/pub/fltk/",
+  "SkipUrl":        [ "snapshots/ " ],
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "Configure":      "--enable-shared --with-abiversion",
+  "PreInstall":     "sed -i -e 's/-Os/-Og/g' configure",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.3.4-1",
+    "Installed":      "installed/fltk/1.3.4-1",
+    "Source":         "src/fltk/1.3.4-1/fltk-1.3.4-1-source.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.4",
+    "Installed":      "installed/fltk/1.3.4",
+    "Source":         "src/fltk/1.3.4/fltk-1.3.4-source.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.3",
+    "Installed":      "installed/fltk/1.3.3",
+    "Source":         "src/fltk/1.3.3/fltk-1.3.3-source.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.2",
+    "Installed":      "installed/fltk/1.3.2",
+    "Source":         "src/fltk/1.3.2/fltk-1.3.2-source.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.1",
+    "Installed":      "installed/fltk/1.3.1",
+    "Source":         "src/fltk/1.3.1/fltk-1.3.1-source.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.0",
+    "Installed":      "installed/fltk/1.3.0",
+    "Source":         "src/fltk/1.3.0/fltk-1.3.0-source.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

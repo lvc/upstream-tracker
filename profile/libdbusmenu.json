@@ -1,0 +1,42 @@
+{
+  "Name":           "libdbusmenu",
+  "Title":          "DBus Menu",
+  "SourceUrl":      "https://launchpad.net/libdbusmenu/+download",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-introspection --disable-static --disable-vala",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "12.10.1",
+
+  "Versions": [
+  {
+    "Number":         "16.04.0",
+    "Installed":      "installed/libdbusmenu/16.04.0",
+    "Source":         "src/libdbusmenu/16.04.0/libdbusmenu-16.04.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "12.10.2",
+    "Installed":      "installed/libdbusmenu/12.10.2",
+    "Source":         "src/libdbusmenu/12.10.2/libdbusmenu-12.10.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "12.10.1",
+    "Installed":      "installed/libdbusmenu/12.10.1",
+    "Source":         "src/libdbusmenu/12.10.1/libdbusmenu-12.10.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -11,6 +11,76 @@
 
   "Versions": [
   {
+    "Number":         3190300,
+    "Installed":      "installed/sqlite/3190300",
+    "Source":         "src/sqlite/3190300/sqlite-src-3190300.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3190200,
+    "Installed":      "installed/sqlite/3190200",
+    "Source":         "src/sqlite/3190200/sqlite-src-3190200.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3190000,
+    "Installed":      "installed/sqlite/3190000",
+    "Source":         "src/sqlite/3190000/sqlite-src-3190000.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3180000,
+    "Installed":      "installed/sqlite/3180000",
+    "Source":         "src/sqlite/3180000/sqlite-src-3180000.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3170000,
+    "Installed":      "installed/sqlite/3170000",
+    "Source":         "src/sqlite/3170000/sqlite-src-3170000.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3160200,
+    "Installed":      "installed/sqlite/3160200",
+    "Source":         "src/sqlite/3160200/sqlite-src-3160200.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3160100,
+    "Installed":      "installed/sqlite/3160100",
+    "Source":         "src/sqlite/3160100/sqlite-src-3160100.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         3150200,
     "Installed":      "installed/sqlite/3150200",
     "Source":         "src/sqlite/3150200/sqlite-src-3150200.zip",

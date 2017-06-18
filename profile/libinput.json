@@ -20,6 +20,146 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.7.3",
+    "Installed":      "installed/libinput/1.7.3",
+    "Source":         "src/libinput/1.7.3/libinput-1.7.3.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.2",
+    "Installed":      "installed/libinput/1.7.2",
+    "Source":         "src/libinput/1.7.2/libinput-1.7.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.1",
+    "Installed":      "installed/libinput/1.7.1",
+    "Source":         "src/libinput/1.7.1/libinput-1.7.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.0",
+    "Installed":      "installed/libinput/1.7.0",
+    "Source":         "src/libinput/1.7.0/libinput-1.7.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.902",
+    "Installed":      "installed/libinput/1.6.902",
+    "Source":         "src/libinput/1.6.902/libinput-1.6.902.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.901",
+    "Installed":      "installed/libinput/1.6.901",
+    "Source":         "src/libinput/1.6.901/libinput-1.6.901.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.3",
+    "Installed":      "installed/libinput/1.6.3",
+    "Source":         "src/libinput/1.6.3/libinput-1.6.3.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.2",
+    "Installed":      "installed/libinput/1.6.2",
+    "Source":         "src/libinput/1.6.2/libinput-1.6.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.1",
+    "Installed":      "installed/libinput/1.6.1",
+    "Source":         "src/libinput/1.6.1/libinput-1.6.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.0",
+    "Installed":      "installed/libinput/1.6.0",
+    "Source":         "src/libinput/1.6.0/libinput-1.6.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.902",
+    "Installed":      "installed/libinput/1.5.902",
+    "Source":         "src/libinput/1.5.902/libinput-1.5.902.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.901",
+    "Installed":      "installed/libinput/1.5.901",
+    "Source":         "src/libinput/1.5.901/libinput-1.5.901.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.4",
+    "Installed":      "installed/libinput/1.5.4",
+    "Source":         "src/libinput/1.5.4/libinput-1.5.4.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.3",
+    "Installed":      "installed/libinput/1.5.3",
+    "Source":         "src/libinput/1.5.3/libinput-1.5.3.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.5.2",
     "Installed":      "installed/libinput/1.5.2",
     "Source":         "src/libinput/1.5.2/libinput-1.5.2.tar.xz",

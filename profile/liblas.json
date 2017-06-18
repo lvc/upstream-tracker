@@ -1,0 +1,51 @@
+{
+  "Name":           "liblas",
+  "Title":          "libLAS",
+  "SourceUrl":      "http://download.osgeo.org/liblas/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DCMAKE_PREFIX_PATH={INSTALL_ROOT}/libgeotiff/1.4.2 -DWITH_TESTS=FALSE -DWITH_UTILITIES=FALSE",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.8.1",
+    "Installed":      "installed/liblas/1.8.1",
+    "Source":         "src/liblas/1.8.1/libLAS-1.8.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.0",
+    "Installed":      "installed/liblas/1.7.0",
+    "Source":         "src/liblas/1.7.0/libLAS-1.7.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.1",
+    "Installed":      "installed/liblas/1.6.1",
+    "Source":         "src/liblas/1.6.1/libLAS-1.6.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.0",
+    "Installed":      "installed/liblas/1.6.0",
+    "Source":         "src/liblas/1.6.0/libLAS-1.6.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

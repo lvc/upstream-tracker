@@ -1,0 +1,213 @@
+{
+  "Name":           "libtorrent",
+  "SourceUrl":      "https://github.com/arvidn/libtorrent/tags",
+  "Git":            "https://github.com/arvidn/libtorrent.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-static=no",
+  "Changelog":      "ChangeLog",
+  "HeadersDiff":    "Off",
+  "Make":           "-j4",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/libtorrent/current",
+    "Source":         "src/libtorrent/current",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_1_3",
+    "Installed":      "installed/libtorrent/1_1_3",
+    "Source":         "src/libtorrent/1_1_3/libtorrent-1_1_3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_1_2",
+    "Installed":      "installed/libtorrent/1_1_2",
+    "Source":         "src/libtorrent/1_1_2/libtorrent-1_1_2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_1_1",
+    "Installed":      "installed/libtorrent/1_1_1",
+    "Source":         "src/libtorrent/1_1_1/libtorrent-1_1_1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_1",
+    "Installed":      "installed/libtorrent/1_1",
+    "Source":         "src/libtorrent/1_1/libtorrent-1_1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_0_11",
+    "Installed":      "installed/libtorrent/1_0_11",
+    "Source":         "src/libtorrent/1_0_11/libtorrent-1_0_11.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_0_10",
+    "Installed":      "installed/libtorrent/1_0_10",
+    "Source":         "src/libtorrent/1_0_10/libtorrent-1_0_10.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_0_9",
+    "Installed":      "installed/libtorrent/1_0_9",
+    "Source":         "src/libtorrent/1_0_9/libtorrent-1_0_9.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_0_8",
+    "Installed":      "installed/libtorrent/1_0_8",
+    "Source":         "src/libtorrent/1_0_8/libtorrent-1_0_8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_0_7",
+    "Installed":      "installed/libtorrent/1_0_7",
+    "Source":         "src/libtorrent/1_0_7/libtorrent-1_0_7.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_0_6",
+    "Installed":      "installed/libtorrent/1_0_6",
+    "Source":         "src/libtorrent/1_0_6/libtorrent-1_0_6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_0_5",
+    "Installed":      "installed/libtorrent/1_0_5",
+    "Source":         "src/libtorrent/1_0_5/libtorrent-1_0_5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_0_4",
+    "Installed":      "installed/libtorrent/1_0_4",
+    "Source":         "src/libtorrent/1_0_4/libtorrent-1_0_4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_0_3",
+    "Installed":      "installed/libtorrent/1_0_3",
+    "Source":         "src/libtorrent/1_0_3/libtorrent-1_0_3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_0_2",
+    "Installed":      "installed/libtorrent/1_0_2",
+    "Source":         "src/libtorrent/1_0_2/libtorrent-1_0_2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_0_1",
+    "Installed":      "installed/libtorrent/1_0_1",
+    "Source":         "src/libtorrent/1_0_1/libtorrent-1_0_1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_0",
+    "Installed":      "installed/libtorrent/1_0",
+    "Source":         "src/libtorrent/1_0/libtorrent-1_0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0_16_19",
+    "Installed":      "installed/libtorrent/0_16_19",
+    "Source":         "src/libtorrent/0_16_19/libtorrent-0_16_19.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0_16_18",
+    "Installed":      "installed/libtorrent/0_16_18",
+    "Source":         "src/libtorrent/0_16_18/libtorrent-0_16_18.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0_16_17",
+    "Installed":      "installed/libtorrent/0_16_17",
+    "Source":         "src/libtorrent/0_16_17/libtorrent-0_16_17.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

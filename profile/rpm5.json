@@ -1,0 +1,86 @@
+{
+  "Name":           "rpm5",
+  "Title":          "RPM 5",
+  "SourceUrl":      "http://rpm5.org/files/rpm/",
+  "SkipUrl":        [ "rpm-[1-4].+/" ],
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-static=no --with-db={INSTALL_ROOT}/libdb/5.3.28 --with-sqlite={INSTALL_ROOT}/sqlite/3180000 CFLAGS='-g -Og -std=gnu11 -fPIC'",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/rpm/ {INSTALL_TO}/src",
+  "SkipObjects":    [ "librpmmisc-5.4.so" ],
+  "Changelog":      "CHANGES",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "5.4.0",
+
+  "Versions": [
+  {
+    "Number":         "5.4.17",
+    "Installed":      "installed/rpm5/5.4.17",
+    "Source":         "src/rpm5/5.4.17/rpm-5.4.17.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.4.16",
+    "Installed":      "installed/rpm5/5.4.16",
+    "Source":         "src/rpm5/5.4.16/rpm-5.4.16.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.4.14",
+    "Installed":      "installed/rpm5/5.4.14",
+    "Source":         "src/rpm5/5.4.14/rpm-5.4.14.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.4.13",
+    "Installed":      "installed/rpm5/5.4.13",
+    "Source":         "src/rpm5/5.4.13/rpm-5.4.13.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.4.12",
+    "Installed":      "installed/rpm5/5.4.12",
+    "Source":         "src/rpm5/5.4.12/rpm-5.4.12.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.4.11",
+    "Installed":      "installed/rpm5/5.4.11",
+    "Source":         "src/rpm5/5.4.11/rpm-5.4.11.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.4.10",
+    "Installed":      "installed/rpm5/5.4.10",
+    "Source":         "src/rpm5/5.4.10/rpm-5.4.10.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,86 @@
+{
+  "Name":           "directfb",
+  "Title":          "DirectFB",
+  "SourceUrl":      "https://github.com/deniskropp/DirectFB/tags",
+  "OldSourceUrl":   "http://pkgs.fedoraproject.org/repo/pkgs/directfb/",
+  "OldSourceUrlDepth": "3",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--without-tools",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/directfb-*",
+  "GraphFewXTics":  "On",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.5.3",
+
+  "Versions": [
+  {
+    "Number":         "1_7_7",
+    "Installed":      "installed/directfb/1_7_7",
+    "Source":         "src/directfb/1_7_7/DIRECTFB_1_7_7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_7_4",
+    "Installed":      "installed/directfb/1_7_4",
+    "Source":         "src/directfb/1_7_4/DIRECTFB_1_7_4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_7_1",
+    "Installed":      "installed/directfb/1_7_1",
+    "Source":         "src/directfb/1_7_1/DIRECTFB_1_7_1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_7_0",
+    "Installed":      "installed/directfb/1_7_0",
+    "Source":         "src/directfb/1_7_0/DIRECTFB_1_7_0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.3",
+    "Installed":      "installed/directfb/1.6.3",
+    "Source":         "src/directfb/1.6.3/DirectFB-1.6.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.2",
+    "Installed":      "installed/directfb/1.6.2",
+    "Source":         "src/directfb/1.6.2/DirectFB-1.6.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.1",
+    "Installed":      "installed/directfb/1.6.1",
+    "Source":         "src/directfb/1.6.1/DirectFB-1.6.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,143 @@
+{
+  "Name":           "libreport",
+  "SourceUrl":      "http://pkgs.fedoraproject.org/repo/pkgs/libreport/",
+  "SourceUrlDepth": "3",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/satyr/0.22/lib/pkgconfig --without-bugzilla --with-augeaslenslibdir={INSTALL_TO}/share",
+  "SkipObjects":    [ "site-packages/" ],
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.0.19",
+
+  "Versions": [
+  {
+    "Number":         "2.8.0",
+    "Installed":      "installed/libreport/2.8.0",
+    "Source":         "src/libreport/2.8.0/libreport-2.8.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.7.2",
+    "Installed":      "installed/libreport/2.7.2",
+    "Source":         "src/libreport/2.7.2/libreport-2.7.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.7.1",
+    "Installed":      "installed/libreport/2.7.1",
+    "Source":         "src/libreport/2.7.1/libreport-2.7.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.7.0",
+    "Installed":      "installed/libreport/2.7.0",
+    "Source":         "src/libreport/2.7.0/libreport-2.7.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.4",
+    "Installed":      "installed/libreport/2.6.4",
+    "Source":         "src/libreport/2.6.4/libreport-2.6.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.3",
+    "Installed":      "installed/libreport/2.6.3",
+    "Source":         "src/libreport/2.6.3/libreport-2.6.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.2",
+    "Installed":      "installed/libreport/2.6.2",
+    "Source":         "src/libreport/2.6.2/libreport-2.6.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.1",
+    "Installed":      "installed/libreport/2.6.1",
+    "Source":         "src/libreport/2.6.1/libreport-2.6.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.0",
+    "Installed":      "installed/libreport/2.6.0",
+    "Source":         "src/libreport/2.6.0/libreport-2.6.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.1",
+    "Installed":      "installed/libreport/2.5.1",
+    "Source":         "src/libreport/2.5.1/libreport-2.5.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.0",
+    "Installed":      "installed/libreport/2.5.0",
+    "Source":         "src/libreport/2.5.0/libreport-2.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.0",
+    "Installed":      "installed/libreport/2.4.0",
+    "Source":         "src/libreport/2.4.0/libreport-2.4.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.0",
+    "Installed":      "installed/libreport/2.3.0",
+    "Source":         "src/libreport/2.3.0/libreport-2.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

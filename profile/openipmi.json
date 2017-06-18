@@ -1,0 +1,127 @@
+{
+  "Name":           "openipmi",
+  "Title":          "Open IPMI",
+  "SourceUrl":      "https://sourceforge.net/projects/openipmi/files/OpenIPMI%202.0%20Library/",
+  "SourceUrlDepth": "1",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-glib12=no",
+  "GraphFewXTics":  "On",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "2.0.14",
+
+  "Versions": [
+  {
+    "Number":         "2.0.23",
+    "Installed":      "installed/openipmi/2.0.23",
+    "Source":         "src/openipmi/2.0.23/OpenIPMI-2.0.23.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.23-rc3",
+    "Installed":      "installed/openipmi/2.0.23-rc3",
+    "Source":         "src/openipmi/2.0.23-rc3/OpenIPMI-2.0.23-rc3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.0.23-rc2",
+    "Installed":      "installed/openipmi/2.0.23-rc2",
+    "Source":         "src/openipmi/2.0.23-rc2/OpenIPMI-2.0.23-rc2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.0.23-rc1",
+    "Installed":      "installed/openipmi/2.0.23-rc1",
+    "Source":         "src/openipmi/2.0.23-rc1/OpenIPMI-2.0.23-rc1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.0.22",
+    "Installed":      "installed/openipmi/2.0.22",
+    "Source":         "src/openipmi/2.0.22/OpenIPMI-2.0.22.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.21",
+    "Installed":      "installed/openipmi/2.0.21",
+    "Source":         "src/openipmi/2.0.21/OpenIPMI-2.0.21.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.19",
+    "Installed":      "installed/openipmi/2.0.19",
+    "Source":         "src/openipmi/2.0.19/OpenIPMI-2.0.19.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.18",
+    "Installed":      "installed/openipmi/2.0.18",
+    "Source":         "src/openipmi/2.0.18/OpenIPMI-2.0.18.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.17",
+    "Installed":      "installed/openipmi/2.0.17",
+    "Source":         "src/openipmi/2.0.17/OpenIPMI-2.0.17.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.16",
+    "Installed":      "installed/openipmi/2.0.16",
+    "Source":         "src/openipmi/2.0.16/OpenIPMI-2.0.16.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.14",
+    "Installed":      "installed/openipmi/2.0.14",
+    "Source":         "src/openipmi/2.0.14/OpenIPMI-2.0.14.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

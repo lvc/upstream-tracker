@@ -1,0 +1,117 @@
+{
+  "Name":           "indi",
+  "Title":          "INDI",
+  "SourceUrl":      "https://github.com/indilib/indi/tags",
+  "OldSourceUrl":   "http://pkgs.fedoraproject.org/repo/pkgs/libindi/",
+  "OldSourceUrlDepth": "3",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DCMAKE_PREFIX_PATH='{INSTALL_ROOT}/cfitsio/3410;{INSTALL_ROOT}/gsl/2.3' -DUDEVRULES_INSTALL_DIR={INSTALL_TO}/udev -DLIB_DESTINATION={INSTALL_TO}/lib",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib64/indi",
+  "BuildDir":       "libindi",
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.9.7",
+
+  "Versions": [
+  {
+    "Number":         "1.4.1",
+    "Installed":      "installed/indi/1.4.1",
+    "Source":         "src/indi/1.4.1/indi-1.4.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.0",
+    "Installed":      "installed/indi/1.4.0",
+    "Source":         "src/indi/1.4.0/indi-1.4.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.1",
+    "Installed":      "installed/indi/1.3.1",
+    "Source":         "src/indi/1.3.1/indi-1.3.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3",
+    "Installed":      "installed/indi/1.3",
+    "Source":         "src/indi/1.3/indi-1.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/indi/1.2.0",
+    "Source":         "src/indi/1.2.0/libindi_1.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/indi/1.1.0",
+    "Source":         "src/indi/1.1.0/libindi_1.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/indi/1.0.0",
+    "Source":         "src/indi/1.0.0/libindi_1.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.9",
+    "Installed":      "installed/indi/0.9.9",
+    "Source":         "src/indi/0.9.9/libindi_0.9.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.8.1",
+    "Installed":      "installed/indi/0.9.8.1",
+    "Source":         "src/indi/0.9.8.1/libindi_0.9.8.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.7",
+    "Installed":      "installed/indi/0.9.7",
+    "Source":         "src/indi/0.9.7/libindi_0.9.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

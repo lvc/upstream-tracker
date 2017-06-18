@@ -1,0 +1,53 @@
+{
+  "Name":           "exiv2",
+  "Title":          "Exiv2",
+  "SourceUrl":      "http://www.exiv2.org/download.html",
+  "OldSourceUrl":   "http://pkgs.fedoraproject.org/repo/pkgs/exiv2/",
+  "OldSourceUrlDepth": "3",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.22",
+
+  "Versions": [
+  {
+    "Number":         "0.25",
+    "Installed":      "installed/exiv2/0.25",
+    "Source":         "src/exiv2/0.25/exiv2-0.25.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.24",
+    "Installed":      "installed/exiv2/0.24",
+    "Source":         "src/exiv2/0.24/exiv2-0.24.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.23",
+    "Installed":      "installed/exiv2/0.23",
+    "Source":         "src/exiv2/0.23/exiv2-0.23.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.22",
+    "Installed":      "installed/exiv2/0.22",
+    "Source":         "src/exiv2/0.22/exiv2-0.22.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

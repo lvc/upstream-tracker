@@ -1,0 +1,104 @@
+{
+  "Name":           "clamav",
+  "Title":          "ClamAV",
+  "SourceUrl":      "https://sourceforge.net/projects/clamav/files/clamav/",
+  "SkipUrl":        [ "win32/" ],
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-clamav",
+  "SkipObjects":    [ "libclamunrar.so", "libclamunrar_iface.so" ],
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.98",
+
+  "Versions": [
+  {
+    "Number":         "0.99.1",
+    "Installed":      "installed/clamav/0.99.1",
+    "Source":         "src/clamav/0.99.1/clamav-0.99.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.99",
+    "Installed":      "installed/clamav/0.99",
+    "Source":         "src/clamav/0.99/clamav-0.99.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.98.7",
+    "Installed":      "installed/clamav/0.98.7",
+    "Source":         "src/clamav/0.98.7/clamav-0.98.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.98.6",
+    "Installed":      "installed/clamav/0.98.6",
+    "Source":         "src/clamav/0.98.6/clamav-0.98.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.98.5",
+    "Installed":      "installed/clamav/0.98.5",
+    "Source":         "src/clamav/0.98.5/clamav-0.98.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.98.4",
+    "Installed":      "installed/clamav/0.98.4",
+    "Source":         "src/clamav/0.98.4/clamav-0.98.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.98.3",
+    "Installed":      "installed/clamav/0.98.3",
+    "Source":         "src/clamav/0.98.3/clamav-0.98.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.98.1",
+    "Installed":      "installed/clamav/0.98.1",
+    "Source":         "src/clamav/0.98.1/clamav-0.98.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.98",
+    "Installed":      "installed/clamav/0.98",
+    "Source":         "src/clamav/0.98/clamav-0.98.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

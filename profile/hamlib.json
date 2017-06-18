@@ -1,0 +1,132 @@
+{
+  "Name":           "hamlib",
+  "Title":          "Hamlib",
+  "SourceUrl":      "https://sourceforge.net/projects/hamlib/files/hamlib/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/hamlib*",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.2.7",
+
+  "Versions": [
+  {
+    "Number":         "3.1",
+    "Installed":      "installed/hamlib/3.1",
+    "Source":         "src/hamlib/3.1/hamlib-3.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.1",
+    "Installed":      "installed/hamlib/3.0.1",
+    "Source":         "src/hamlib/3.0.1/hamlib-3.0.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0",
+    "Installed":      "installed/hamlib/3.0",
+    "Source":         "src/hamlib/3.0/hamlib-3.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.15.3",
+    "Installed":      "installed/hamlib/1.2.15.3",
+    "Source":         "src/hamlib/1.2.15.3/hamlib-1.2.15.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.15.2",
+    "Installed":      "installed/hamlib/1.2.15.2",
+    "Source":         "src/hamlib/1.2.15.2/hamlib-1.2.15.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.15.1",
+    "Installed":      "installed/hamlib/1.2.15.1",
+    "Source":         "src/hamlib/1.2.15.1/hamlib-1.2.15.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.15",
+    "Installed":      "installed/hamlib/1.2.15",
+    "Source":         "src/hamlib/1.2.15/hamlib-1.2.15.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.14",
+    "Installed":      "installed/hamlib/1.2.14",
+    "Source":         "src/hamlib/1.2.14/hamlib-1.2.14.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.13.1",
+    "Installed":      "installed/hamlib/1.2.13.1",
+    "Source":         "src/hamlib/1.2.13.1/hamlib-1.2.13.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.13",
+    "Installed":      "installed/hamlib/1.2.13",
+    "Source":         "src/hamlib/1.2.13/hamlib-1.2.13.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.12",
+    "Installed":      "installed/hamlib/1.2.12",
+    "Source":         "src/hamlib/1.2.12/hamlib-1.2.12.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.11",
+    "Installed":      "installed/hamlib/1.2.11",
+    "Source":         "src/hamlib/1.2.11/hamlib-1.2.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

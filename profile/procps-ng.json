@@ -1,0 +1,139 @@
+{
+  "Name":           "procps-ng",
+  "SourceUrl":      "https://gitlab.com/procps-ng/procps/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "3.3.12",
+    "Installed":      "installed/procps-ng/3.3.12",
+    "Source":         "src/procps-ng/3.3.12/procps-ng-v3.3.12.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.11",
+    "Installed":      "installed/procps-ng/3.3.11",
+    "Source":         "src/procps-ng/3.3.11/procps-ng-v3.3.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.10",
+    "Installed":      "installed/procps-ng/3.3.10",
+    "Source":         "src/procps-ng/3.3.10/procps-ng-v3.3.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.9",
+    "Installed":      "installed/procps-ng/3.3.9",
+    "Source":         "src/procps-ng/3.3.9/procps-ng-v3.3.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.8",
+    "Installed":      "installed/procps-ng/3.3.8",
+    "Source":         "src/procps-ng/3.3.8/procps-ng-v3.3.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.7",
+    "Installed":      "installed/procps-ng/3.3.7",
+    "Source":         "src/procps-ng/3.3.7/procps-ng-v3.3.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.6",
+    "Installed":      "installed/procps-ng/3.3.6",
+    "Source":         "src/procps-ng/3.3.6/procps-ng-v3.3.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.5",
+    "Installed":      "installed/procps-ng/3.3.5",
+    "Source":         "src/procps-ng/3.3.5/procps-ng-v3.3.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.4",
+    "Installed":      "installed/procps-ng/3.3.4",
+    "Source":         "src/procps-ng/3.3.4/procps-ng-v3.3.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.3",
+    "Installed":      "installed/procps-ng/3.3.3",
+    "Source":         "src/procps-ng/3.3.3/procps-ng-v3.3.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.2",
+    "Installed":      "installed/procps-ng/3.3.2",
+    "Source":         "src/procps-ng/3.3.2/procps-ng-v3.3.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.1",
+    "Installed":      "installed/procps-ng/3.3.1",
+    "Source":         "src/procps-ng/3.3.1/procps-ng-v3.3.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.0",
+    "Installed":      "installed/procps-ng/3.3.0",
+    "Source":         "src/procps-ng/3.3.0/procps-ng-v3.3.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}
