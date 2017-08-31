@@ -12,6 +12,16 @@
 
   "Versions": [
   {
+    "Number":         "1.7.16",
+    "Installed":      "installed/oiio/1.7.16",
+    "Source":         "src/oiio/1.7.16/Release-1.7.16.tar.gz",
+    "Changelog":      "CHANGES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.7.15",
     "Installed":      "installed/oiio/1.7.15",
     "Source":         "src/oiio/1.7.15/Release-1.7.15.tar.gz",

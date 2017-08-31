@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "1.8.0",
+    "Installed":      "installed/lz4/1.8.0",
+    "Source":         "src/lz4/1.8.0/lz4-1.8.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.7.5",
     "Installed":      "installed/lz4/1.7.5",
     "Source":         "src/lz4/1.7.5/lz4-1.7.5.tar.gz",

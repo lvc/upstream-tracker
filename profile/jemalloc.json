@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "5.0.1",
+    "Installed":      "installed/jemalloc/5.0.1",
+    "Source":         "src/jemalloc/5.0.1/jemalloc-5.0.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "5.0.0",
     "Installed":      "installed/jemalloc/5.0.0",
     "Source":         "src/jemalloc/5.0.0/jemalloc-5.0.0.tar.gz",

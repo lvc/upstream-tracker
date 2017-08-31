@@ -1,24 +1,14 @@
 {
   "Name":           "colord",
   "SourceUrl":      "http://www.freedesktop.org/software/colord/releases/",
-  "Git":            "https://github.com/hughsie/colord.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "Configure":      "--disable-argyllcms-sensor --disable-systemd-login --disable-bash-completion --disable-gusb --disable-sane --with-udevrulesdir={INSTALL_TO}/udev --with-tmpfilesdir={INSTALL_TO}/tmp --with-systemdsystemunitdir={INSTALL_TO}/systemd",
+  "BuildScript":    "build_script/colord.sh",
   "PostInstall":    "rm -fr {INSTALL_TO}/lib/colord-plugins/ {INSTALL_TO}/lib/colord-sensors/",
   "SkipObjects":    [ "colord-sensors/", "colord-plugins/" ],
 
   "Versions": [
-  {
-    "Number":         "current",
-    "Installed":      "installed/colord/current",
-    "Source":         "src/colord/current",
-    "Changelog":      "On",
-    "HeadersDiff":    "On",
-    "PkgDiff":        "Off",
-    "ABIView":        "Off",
-    "ABIDiff":        "Off"
-  },
   {
     "Number":         "1.3.5",
     "Installed":      "installed/colord/1.3.5",

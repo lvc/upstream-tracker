@@ -1,0 +1,33 @@
+{
+  "Name":           "nanopb",
+  "Title":          "Nanopb",
+  "SourceUrl":      "https://github.com/nanopb/nanopb/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/nanopb.sh",
+  "BuildShared":    "On",
+  "HeadersDiff":    "Off",
+  "Soname":         "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.3.8",
+    "Installed":      "installed/nanopb/0.3.8",
+    "Source":         "src/nanopb/0.3.8/nanopb-0.3.8.tar.gz",
+    "Changelog":      "CHANGELOG.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.7",
+    "Installed":      "installed/nanopb/0.3.7",
+    "Source":         "src/nanopb/0.3.7/nanopb-0.3.7.tar.gz",
+    "Changelog":      "CHANGELOG.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "2.4",
+    "Installed":      "installed/gsl/2.4",
+    "Source":         "src/gsl/2.4/gsl-2.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.3",
     "Installed":      "installed/gsl/2.3",
     "Source":         "src/gsl/2.3/gsl-2.3.tar.gz",

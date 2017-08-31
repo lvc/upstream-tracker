@@ -4,11 +4,22 @@
   "OldSourceUrl":   "http://alpha.gnu.org/gnu/libidn/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-doc",
   "HeadersDiff":    "Off",
   "MinimalVersion": "0.8",
   "Package":        "libidn2-",
 
   "Versions": [
+  {
+    "Number":         "2.0.3",
+    "Installed":      "installed/libidn2/2.0.3",
+    "Source":         "src/libidn2/2.0.3/libidn2-2.0.3.tar.lz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "2.0.2",
     "Installed":      "installed/libidn2/2.0.2",

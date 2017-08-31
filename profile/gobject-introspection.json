@@ -11,6 +11,26 @@
 
   "Versions": [
   {
+    "Number":         "1.53.4",
+    "Installed":      "installed/gobject-introspection/1.53.4",
+    "Source":         "src/gobject-introspection/1.53.4/gobject-introspection-1.53.4.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.53.3",
+    "Installed":      "installed/gobject-introspection/1.53.3",
+    "Source":         "src/gobject-introspection/1.53.3/gobject-introspection-1.53.3.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.53.2",
     "Installed":      "installed/gobject-introspection/1.53.2",
     "Source":         "src/gobject-introspection/1.53.2/gobject-introspection-1.53.2.tar.xz",

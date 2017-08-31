@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "1-1.4",
+    "Installed":      "installed/libftdi/1-1.4",
+    "Source":         "src/libftdi/1-1.4/libftdi1-1.4.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1-1.3",
     "Installed":      "installed/libftdi/1-1.3",
     "Source":         "src/libftdi/1-1.3/libftdi1-1.3.tar.bz2",

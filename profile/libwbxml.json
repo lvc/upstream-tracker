@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "0.11.6",
+    "Installed":      "installed/libwbxml/0.11.6",
+    "Source":         "src/libwbxml/0.11.6/libwbxml-0.11.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.11.5",
     "Installed":      "installed/libwbxml/0.11.5",
     "Source":         "src/libwbxml/0.11.5/libwbxml-0.11.5.tar.gz",

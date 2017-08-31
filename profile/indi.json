@@ -15,6 +15,16 @@
 
   "Versions": [
   {
+    "Number":         "1.5.0",
+    "Installed":      "installed/indi/1.5.0",
+    "Source":         "src/indi/1.5.0/indi-1.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.4.1",
     "Installed":      "installed/indi/1.4.1",
     "Source":         "src/indi/1.4.1/indi-1.4.1.tar.gz",

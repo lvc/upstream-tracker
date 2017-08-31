@@ -1,0 +1,102 @@
+{
+  "Name":           "arpack-ng",
+  "Title":          "ARPACK-NG",
+  "SourceUrl":      "https://github.com/opencollab/arpack-ng/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "sh bootstrap 2>/dev/null; sed -i -e 's/\-O[0123]/-Og/g' configure",
+  "HeadersDiff":    "Off",
+  "PrivateABI":     "On",
+
+  "Versions": [
+  {
+    "Number":         "3.5.0",
+    "Installed":      "installed/arpack-ng/3.5.0",
+    "Source":         "src/arpack-ng/3.5.0/arpack-ng-3.5.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.4.0",
+    "Installed":      "installed/arpack-ng/3.4.0",
+    "Source":         "src/arpack-ng/3.4.0/arpack-ng-3.4.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.0",
+    "Installed":      "installed/arpack-ng/3.3.0",
+    "Source":         "src/arpack-ng/3.3.0/arpack-ng-3.3.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.0",
+    "Installed":      "installed/arpack-ng/3.2.0",
+    "Source":         "src/arpack-ng/3.2.0/arpack-ng-3.2.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.5",
+    "Installed":      "installed/arpack-ng/3.1.5",
+    "Source":         "src/arpack-ng/3.1.5/arpack-ng-3.1.5.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.3",
+    "Installed":      "installed/arpack-ng/3.1.3",
+    "Source":         "src/arpack-ng/3.1.3/arpack-ng-3.1.3.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.2",
+    "Installed":      "installed/arpack-ng/3.1.2",
+    "Source":         "src/arpack-ng/3.1.2/arpack-ng-3.1.2.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.1",
+    "Installed":      "installed/arpack-ng/3.1.1",
+    "Source":         "src/arpack-ng/3.1.1/arpack-ng-3.1.1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.1",
+    "Installed":      "installed/arpack-ng/3.0.1",
+    "Source":         "src/arpack-ng/3.0.1/arpack-ng-3.0.1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -21,6 +21,38 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.18.0-rc3",
+    "Installed":      "installed/libtomcrypt/1.18.0-rc3",
+    "Source":         "src/libtomcrypt/1.18.0-rc3/libtomcrypt-1.18.0-rc3.tar.gz",
+    "Changelog":      "changes",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.18.0-rc2",
+    "Installed":      "installed/libtomcrypt/1.18.0-rc2",
+    "Source":         "src/libtomcrypt/1.18.0-rc2/libtomcrypt-1.18.0-rc2.tar.gz",
+    "Changelog":      "changes",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.18.0-rc1",
+    "Installed":      "installed/libtomcrypt/1.18.0-rc1",
+    "Source":         "src/libtomcrypt/1.18.0-rc1/libtomcrypt-1.18.0-rc1.tar.gz",
+    "Changelog":      "changes",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "1.17",
     "Installed":      "installed/libtomcrypt/1.17",
     "Source":         "src/libtomcrypt/1.17/libtomcrypt-1.17.tar.gz",

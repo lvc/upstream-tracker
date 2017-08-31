@@ -17,6 +17,27 @@
 
   "Versions": [
   {
+    "Number":         "2.1.2rc2",
+    "Installed":      "installed/openmpi/2.1.2rc2",
+    "Source":         "src/openmpi/2.1.2rc2/openmpi-2.1.2rc2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.2rc1",
+    "Installed":      "installed/openmpi/2.1.2rc1",
+    "Source":         "src/openmpi/2.1.2rc1/openmpi-2.1.2rc1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "2.1.1",
     "Installed":      "installed/openmpi/2.1.1",
     "Source":         "src/openmpi/2.1.1/openmpi-2.1.1.tar.gz",

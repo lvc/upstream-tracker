@@ -80,6 +80,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "3.4.1",
+    "Installed":      "installed/openscenegraph/3.4.1",
+    "Source":         "src/openscenegraph/3.4.1/OpenSceneGraph-3.4.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.4.0",
     "Installed":      "installed/openscenegraph/3.4.0",
     "Source":         "src/openscenegraph/3.4.0/OpenSceneGraph-3.4.0.tar.gz",

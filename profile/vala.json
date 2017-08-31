@@ -4,13 +4,65 @@
   "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/vala/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/graphviz/2.40.1/lib/pkgconfig LIBGVC_CFLAGS='-I{INSTALL_ROOT}/graphviz/2.40.1/include/'",
   "PostInstall":    "rm -fr {INSTALL_TO}/lib/vala-*",
+  "SkipObjects":    [ "valadoc/" ],
   "HeadersDiff":    "Off",
   "Make":           "-j2",
   "MinimalVersion": "0.21.2",
   "SkipVersions":   [ "0.35.90" ],
 
   "Versions": [
+  {
+    "Number":         "0.37.91",
+    "Installed":      "installed/vala/0.37.91",
+    "Source":         "src/vala/0.37.91/vala-0.37.91.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.37.90",
+    "Installed":      "installed/vala/0.37.90",
+    "Source":         "src/vala/0.37.90/vala-0.37.90.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.37.2",
+    "Installed":      "installed/vala/0.37.2",
+    "Source":         "src/vala/0.37.2/vala-0.37.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.37.1",
+    "Installed":      "installed/vala/0.37.1",
+    "Source":         "src/vala/0.37.1/vala-0.37.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.36.4",
+    "Installed":      "installed/vala/0.36.4",
+    "Source":         "src/vala/0.36.4/vala-0.36.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "0.36.3",
     "Installed":      "installed/vala/0.36.3",
@@ -115,6 +167,16 @@
     "Number":         "0.35.1",
     "Installed":      "installed/vala/0.35.1",
     "Source":         "src/vala/0.35.1/vala-0.35.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.34.9",
+    "Installed":      "installed/vala/0.34.9",
+    "Source":         "src/vala/0.34.9/vala-0.34.9.tar.xz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

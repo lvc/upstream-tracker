@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "2.58.2",
+    "Installed":      "installed/libsoup/2.58.2",
+    "Source":         "src/libsoup/2.58.2/libsoup-2.58.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.58.1",
     "Installed":      "installed/libsoup/2.58.1",
     "Source":         "src/libsoup/2.58.1/libsoup-2.58.1.tar.xz",
@@ -33,6 +43,16 @@
     "Number":         "2.57.1",
     "Installed":      "installed/libsoup/2.57.1",
     "Source":         "src/libsoup/2.57.1/libsoup-2.57.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.56.1",
+    "Installed":      "installed/libsoup/2.56.1",
+    "Source":         "src/libsoup/2.56.1/libsoup-2.56.1.tar.xz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

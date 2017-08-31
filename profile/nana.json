@@ -11,6 +11,36 @@
 
   "Versions": [
   {
+    "Number":         "1.5.4",
+    "Installed":      "installed/nana/1.5.4",
+    "Source":         "src/nana/1.5.4/nana-1.5.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.3",
+    "Installed":      "installed/nana/1.5.3",
+    "Source":         "src/nana/1.5.3/nana-1.5.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.2",
+    "Installed":      "installed/nana/1.5.2",
+    "Source":         "src/nana/1.5.2/nana-1.5.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.5.1",
     "Installed":      "installed/nana/1.5.1",
     "Source":         "src/nana/1.5.1/nana-1.5.1.tar.gz",

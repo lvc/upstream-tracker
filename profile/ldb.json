@@ -9,6 +9,26 @@
 
   "Versions": [
   {
+    "Number":         "1.2.1",
+    "Installed":      "installed/ldb/1.2.1",
+    "Source":         "src/ldb/1.2.1/ldb-1.2.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/ldb/1.2.0",
+    "Source":         "src/ldb/1.2.0/ldb-1.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.1.31",
     "Installed":      "installed/ldb/1.1.31",
     "Source":         "src/ldb/1.1.31/ldb-1.1.31.tar.gz",

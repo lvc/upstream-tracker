@@ -21,6 +21,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1_1_4",
+    "Installed":      "installed/libtorrent/1_1_4",
+    "Source":         "src/libtorrent/1_1_4/libtorrent-1_1_4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1_1_3",
     "Installed":      "installed/libtorrent/1_1_3",
     "Source":         "src/libtorrent/1_1_3/libtorrent-1_1_3.tar.gz",

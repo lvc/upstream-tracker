@@ -4,7 +4,7 @@
   "SourceUrl":      "https://fedorahosted.org/released/sssd/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--disable-sss-default-nss-plugin --disable-krb5-locator-plugin --disable-cifs-idmap-plugin --without-nfsv4-idmapd-plugin --without-samba --without-secrets --disable-config-lib --without-python3-bindings --with-python2-bindings --without-semanage --without-selinux --with-ldb-lib-dir={INSTALL_TO}/share --datadir={INSTALL_TO}/share --with-winbind-plugin-path={INSTALL_TO}/share",
+  "Configure":      "--disable-sss-default-nss-plugin --disable-krb5-locator-plugin --disable-cifs-idmap-plugin --without-nfsv4-idmapd-plugin --without-samba --without-secrets --disable-config-lib --without-python3-bindings --with-python2-bindings --without-semanage --without-selinux --with-ldb-lib-dir={INSTALL_TO}/share --datadir={INSTALL_TO}/share --with-winbind-plugin-path={INSTALL_TO}/share PKG_CONFIG_PATH={INSTALL_ROOT}/curl/7.54.1/lib/pkgconfig",
   "PreInstall":     "mkdir -p {INSTALL_TO}/share ; sed -i -e 's/\(mv $(DESTDIR)\/$(winbindplugindir)\/winbind_idmap_sss.so\)/#\1/' Makefile.in",
   "PostInstall":    "rm -fr {INSTALL_TO}/lib/{sssd,security,ldb}",
   "SkipObjects":    [ "sssd/", "security/", "libnss_sss.so", "libsss_sudo.so", "site-packages/" ],
@@ -12,6 +12,16 @@
   "MinimalVersion": "1.9.0",
 
   "Versions": [
+  {
+    "Number":         "1.15.3",
+    "Installed":      "installed/sssd/1.15.3",
+    "Source":         "src/sssd/1.15.3/sssd-1.15.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "1.15.2",
     "Installed":      "installed/sssd/1.15.2",

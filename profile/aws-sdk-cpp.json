@@ -1,0 +1,32 @@
+{
+  "Name":           "aws-sdk-cpp",
+  "Title":          "AWS SDK for C++",
+  "SourceUrl":      "https://github.com/aws/aws-sdk-cpp/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "KeepMicroMult":  [ "10" ],
+  "Make":           "-j6",
+
+  "Versions": [
+  {
+    "Number":         "1.1.20",
+    "Installed":      "installed/aws-sdk-cpp/1.1.20",
+    "Source":         "src/aws-sdk-cpp/1.1.20/aws-sdk-cpp-1.1.20.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.20",
+    "Installed":      "installed/aws-sdk-cpp/1.0.20",
+    "Source":         "src/aws-sdk-cpp/1.0.20/aws-sdk-cpp-1.0.20.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "0.4.27",
+    "Installed":      "installed/orc/0.4.27",
+    "Source":         "src/orc/0.4.27/orc-0.4.27.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.4.26",
     "Installed":      "installed/orc/0.4.26",
     "Source":         "src/orc/0.4.26/orc-0.4.26.tar.xz",

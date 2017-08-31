@@ -7,6 +7,16 @@
 
   "Versions": [
   {
+    "Number":         "0.29",
+    "Installed":      "installed/liblo/0.29",
+    "Source":         "src/liblo/0.29/liblo-0.29.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.28",
     "Installed":      "installed/liblo/0.28",
     "Source":         "src/liblo/0.28/liblo-0.28.tar.gz",

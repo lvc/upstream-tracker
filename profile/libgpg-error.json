@@ -3,6 +3,7 @@
   "SourceUrl":      "ftp://ftp.gnupg.org/gcrypt/libgpg-error/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "ClearInstalled": "Off",
   "HeadersDiff":    "Off",
   "MinimalVersion": "1.10",
 

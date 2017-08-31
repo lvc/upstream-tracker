@@ -9,6 +9,38 @@
 
   "Versions": [
   {
+    "Number":         "3.7.0",
+    "Installed":      "installed/ice/3.7.0",
+    "Source":         "src/ice/3.7.0/ice-3.7.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7.0-rc1",
+    "Installed":      "installed/ice/3.7.0-rc1",
+    "Source":         "src/ice/3.7.0-rc1/ice-3.7.0-rc1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "3.7.0-rc0",
+    "Installed":      "installed/ice/3.7.0-rc0",
+    "Source":         "src/ice/3.7.0-rc0/ice-3.7.0-rc0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "3.7.0-beta0",
     "Installed":      "installed/ice/3.7.0-beta0",
     "Source":         "src/ice/3.7.0-beta0/ice-3.7.0-beta0.tar.gz",
@@ -16,7 +48,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "3.7.0-alpha3",

@@ -9,6 +9,46 @@
 
   "Versions": [
   {
+    "Number":         "2.2.4",
+    "Installed":      "installed/expat/2.2.4",
+    "Source":         "src/expat/2.2.4/expat-2.2.4.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.3",
+    "Installed":      "installed/expat/2.2.3",
+    "Source":         "src/expat/2.2.3/expat-2.2.3.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.2",
+    "Installed":      "installed/expat/2.2.2",
+    "Source":         "src/expat/2.2.2/expat-2.2.2.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.1",
+    "Installed":      "installed/expat/2.2.1",
+    "Source":         "src/expat/2.2.1/expat-2.2.1.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.2.0",
     "Installed":      "installed/expat/2.2.0",
     "Source":         "src/expat/2.2.0/expat-2.2.0.tar.bz2",

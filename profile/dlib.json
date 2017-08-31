@@ -8,6 +8,26 @@
 
   "Versions": [
   {
+    "Number":         "19.6",
+    "Installed":      "installed/dlib/19.6",
+    "Source":         "src/dlib/19.6/dlib-19.6.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "19.5",
+    "Installed":      "installed/dlib/19.5",
+    "Source":         "src/dlib/19.5/dlib-19.5.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "19.4",
     "Installed":      "installed/dlib/19.4",
     "Source":         "src/dlib/19.4/dlib-19.4.tar.bz2",

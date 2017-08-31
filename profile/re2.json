@@ -6,6 +6,7 @@
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "BuildScript":    "build_script/re2.sh",
+  "Changelog":      "Off",
   "GraphShortXTics": "On",
 
   "Versions": [
@@ -13,7 +14,27 @@
     "Number":         "current",
     "Installed":      "installed/re2/current",
     "Source":         "src/re2/current",
-    "Changelog":      "On",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2017-08-01",
+    "Installed":      "installed/re2/2017-08-01",
+    "Source":         "src/re2/2017-08-01/re2-2017-08-01.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2017-07-01",
+    "Installed":      "installed/re2/2017-07-01",
+    "Source":         "src/re2/2017-07-01/re2-2017-07-01.tar.gz",
+    "Changelog":      "Off",
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",

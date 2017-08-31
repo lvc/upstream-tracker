@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "2.2.0",
+    "Installed":      "installed/botan/2.2.0",
+    "Source":         "src/botan/2.2.0/Botan-2.2.0.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.1.0",
     "Installed":      "installed/botan/2.1.0",
     "Source":         "src/botan/2.1.0/Botan-2.1.0.tgz",

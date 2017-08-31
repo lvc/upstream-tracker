@@ -4,13 +4,34 @@
   "SourceUrl":      "http://ftp.gnome.org/pub/gnome/sources/gtk+/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--enable-wayland-backend --enable-x11-backend --disable-glibtest PKG_CONFIG_PATH={INSTALL_ROOT}/atk/2.18.0/lib/pkgconfig:{INSTALL_ROOT}/pango/1.38.1/lib/pkgconfig:{INSTALL_ROOT}/glib/2.53.2/lib/pkgconfig:{INSTALL_ROOT}/graphene/1.5.2/lib64/pkgconfig:{INSTALL_ROOT}/wayland/1.13.0/lib/pkgconfig:/home/Soft/wayland-protocols-1.7/share/pkgconfig/",
+  "Configure":      "--enable-wayland-backend --enable-x11-backend --disable-glibtest PKG_CONFIG_PATH={INSTALL_ROOT}/atk/2.18.0/lib/pkgconfig:{INSTALL_ROOT}/pango/1.38.1/lib/pkgconfig:{INSTALL_ROOT}/glib/2.53.2/lib/pkgconfig:{INSTALL_ROOT}/graphene/1.5.2/lib64/pkgconfig:{INSTALL_ROOT}/wayland/1.13.0/lib/pkgconfig:/home/Soft/wayland-protocols-1.10/share/pkgconfig/",
   "PostInstall":    "rm -fr {INSTALL_TO}/lib/gtk-*",
   "SkipObjects":    [ "gtk-3.0/", "gtk-4.0/", "/modules/", "/immodules/", "/printbackends/", "/engines/" ],
   "HeadersDiff":    "Off",
+  "Make":           "-j2",
   "MinimalVersion": "3.4.0",
 
   "Versions": [
+  {
+    "Number":         "3.91.2",
+    "Installed":      "installed/gtk+/3.91.2",
+    "Source":         "src/gtk+/3.91.2/gtk+-3.91.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.91.1",
+    "Installed":      "installed/gtk+/3.91.1",
+    "Source":         "src/gtk+/3.91.1/gtk+-3.91.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "3.91.0",
     "Installed":      "installed/gtk+/3.91.0",
@@ -75,6 +96,46 @@
     "Number":         "3.89.1",
     "Installed":      "installed/gtk+/3.89.1",
     "Source":         "src/gtk+/3.89.1/gtk+-3.89.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.22.19",
+    "Installed":      "installed/gtk+/3.22.19",
+    "Source":         "src/gtk+/3.22.19/gtk+-3.22.19.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.22.18",
+    "Installed":      "installed/gtk+/3.22.18",
+    "Source":         "src/gtk+/3.22.18/gtk+-3.22.18.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.22.17",
+    "Installed":      "installed/gtk+/3.22.17",
+    "Source":         "src/gtk+/3.22.17/gtk+-3.22.17.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.22.16",
+    "Installed":      "installed/gtk+/3.22.16",
+    "Source":         "src/gtk+/3.22.16/gtk+-3.22.16.tar.xz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

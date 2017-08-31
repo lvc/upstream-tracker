@@ -8,6 +8,26 @@
 
   "Versions": [
   {
+    "Number":         "1.2.1",
+    "Installed":      "installed/opus/1.2.1",
+    "Source":         "src/opus/1.2.1/opus-1.2.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2",
+    "Installed":      "installed/opus/1.2",
+    "Source":         "src/opus/1.2/opus-1.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.2-rc1",
     "Installed":      "installed/opus/1.2-rc1",
     "Source":         "src/opus/1.2-rc1/opus-1.2-rc1.tar.gz",
@@ -15,7 +35,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "1.2-beta",

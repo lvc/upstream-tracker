@@ -4,13 +4,23 @@
   "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/rygel/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--disable-tracker-plugin --disable-tests --enable-apidocs=no --with-systemduserunitdir={INSTALL_TO}/systemd PKG_CONFIG_PATH={INSTALL_ROOT}/gssdp/0.14.16/lib/pkgconfig:{INSTALL_ROOT}/gupnp/0.20.14/lib/pkgconfig:{INSTALL_ROOT}/gupnp-av/0.12.8/lib/pkgconfig",
+  "Configure":      "--enable-introspection=no --disable-tracker-plugin --disable-tests --enable-apidocs=no --with-systemduserunitdir={INSTALL_TO}/systemd PKG_CONFIG_PATH={INSTALL_ROOT}/gssdp/0.14.16/lib/pkgconfig:{INSTALL_ROOT}/gupnp/0.20.14/lib/pkgconfig:{INSTALL_ROOT}/gupnp-av/0.12.8/lib/pkgconfig",
   "PostInstall":    "rm -fr {INSTALL_TO}/lib/rygel-*/plugins {INSTALL_TO}/lib/rygel-*/engines",
   "SkipObjects":    [ "engines/", "plugins/" ],
   "HeadersDiff":    "Off",
   "MinimalVersion": "0.17",
 
   "Versions": [
+  {
+    "Number":         "0.35.0",
+    "Installed":      "installed/rygel/0.35.0",
+    "Source":         "src/rygel/0.35.0/rygel-0.35.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "0.34.0",
     "Installed":      "installed/rygel/0.34.0",

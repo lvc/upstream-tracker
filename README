@@ -1,4 +1,4 @@
-Upstream Tracker 2.0
+Upstream Tracker 2.1
 ====================
 
 NAME:
@@ -14,10 +14,10 @@ NAME:
 
 REQUIRES:
   Perl 5
-  ABI Tracker (1.10 or newer)
-  ABI Monitor (1.11 or newer)
-  ABI Compliance Checker (2.1 or newer)
-  ABI Dumper (1.0 or newer)
+  ABI Tracker (1.11 or newer)
+  ABI Monitor (1.12 or newer)
+  ABI Compliance Checker (2.2 or newer)
+  ABI Dumper (1.1 or newer)
   PkgDiff (1.7.2 or newer)
   
   You can use the installer to automatically download from github and install necessary tools: https://github.com/lvc/installer

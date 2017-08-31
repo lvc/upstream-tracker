@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "2.1.10",
+    "Installed":      "installed/talloc/2.1.10",
+    "Source":         "src/talloc/2.1.10/talloc-2.1.10.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.1.9",
     "Installed":      "installed/talloc/2.1.9",
     "Source":         "src/talloc/2.1.9/talloc-2.1.9.tar.gz",

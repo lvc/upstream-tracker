@@ -1,0 +1,484 @@
+{
+  "Name":           "libfuse",
+  "SourceUrl":      "https://github.com/libfuse/libfuse/tags?after=fuse_2_3_pre1",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--enable-lib --disable-static --disable-util --disable-example --disable-test --disable-kernel-module",
+  "PreInstall":     "sh makeconf.sh >/dev/null 2>&1;sed -i -e 's|FUSE_SYMVER|//|g' lib/fuse.c;sed -i -e 's|-O[0123]|-Og|g' configure.in",
+  "Changelog":      "ChangeLog.rst",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1_9",
+  "Package":        "fuse",
+
+  "Versions": [
+  {
+    "Number":         "3.1.0",
+    "Installed":      "installed/libfuse/3.1.0",
+    "Source":         "src/libfuse/3.1.0/fuse-3.1.0.tar.gz",
+    "Changelog":      "ChangeLog.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.2",
+    "Installed":      "installed/libfuse/3.0.2",
+    "Source":         "src/libfuse/3.0.2/fuse-3.0.2.tar.gz",
+    "Changelog":      "ChangeLog.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.1",
+    "Installed":      "installed/libfuse/3.0.1",
+    "Source":         "src/libfuse/3.0.1/fuse-3.0.1.tar.gz",
+    "Changelog":      "ChangeLog.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.0",
+    "Installed":      "installed/libfuse/3.0.0",
+    "Source":         "src/libfuse/3.0.0/fuse-3.0.0.tar.gz",
+    "Changelog":      "ChangeLog.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.9.7",
+    "Installed":      "installed/libfuse/2.9.7",
+    "Source":         "src/libfuse/2.9.7/fuse-2.9.7.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.9.6",
+    "Installed":      "installed/libfuse/2.9.6",
+    "Source":         "src/libfuse/2.9.6/fuse-2.9.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_9_5",
+    "Installed":      "installed/libfuse/2_9_5",
+    "Source":         "src/libfuse/2_9_5/fuse_2_9_5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_9_4",
+    "Installed":      "installed/libfuse/2_9_4",
+    "Source":         "src/libfuse/2_9_4/fuse_2_9_4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_9_3",
+    "Installed":      "installed/libfuse/2_9_3",
+    "Source":         "src/libfuse/2_9_3/fuse_2_9_3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_9_2",
+    "Installed":      "installed/libfuse/2_9_2",
+    "Source":         "src/libfuse/2_9_2/fuse_2_9_2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_9_1",
+    "Installed":      "installed/libfuse/2_9_1",
+    "Source":         "src/libfuse/2_9_1/fuse_2_9_1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_9_0",
+    "Installed":      "installed/libfuse/2_9_0",
+    "Source":         "src/libfuse/2_9_0/fuse_2_9_0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_8_7",
+    "Installed":      "installed/libfuse/2_8_7",
+    "Source":         "src/libfuse/2_8_7/fuse_2_8_7.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_8_6",
+    "Installed":      "installed/libfuse/2_8_6",
+    "Source":         "src/libfuse/2_8_6/fuse_2_8_6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_8_5",
+    "Installed":      "installed/libfuse/2_8_5",
+    "Source":         "src/libfuse/2_8_5/fuse_2_8_5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_8_4",
+    "Installed":      "installed/libfuse/2_8_4",
+    "Source":         "src/libfuse/2_8_4/fuse_2_8_4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_8_3",
+    "Installed":      "installed/libfuse/2_8_3",
+    "Source":         "src/libfuse/2_8_3/fuse_2_8_3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_8_2",
+    "Installed":      "installed/libfuse/2_8_2",
+    "Source":         "src/libfuse/2_8_2/fuse_2_8_2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_8_1",
+    "Installed":      "installed/libfuse/2_8_1",
+    "Source":         "src/libfuse/2_8_1/fuse_2_8_1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_8_0",
+    "Installed":      "installed/libfuse/2_8_0",
+    "Source":         "src/libfuse/2_8_0/fuse_2_8_0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_7_5",
+    "Installed":      "installed/libfuse/2_7_5",
+    "Source":         "src/libfuse/2_7_5/fuse_2_7_5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_7_4",
+    "Installed":      "installed/libfuse/2_7_4",
+    "Source":         "src/libfuse/2_7_4/fuse_2_7_4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_7_3",
+    "Installed":      "installed/libfuse/2_7_3",
+    "Source":         "src/libfuse/2_7_3/fuse_2_7_3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_7_2",
+    "Installed":      "installed/libfuse/2_7_2",
+    "Source":         "src/libfuse/2_7_2/fuse_2_7_2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_7_1",
+    "Installed":      "installed/libfuse/2_7_1",
+    "Source":         "src/libfuse/2_7_1/fuse_2_7_1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_7_0",
+    "Installed":      "installed/libfuse/2_7_0",
+    "Source":         "src/libfuse/2_7_0/fuse_2_7_0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_6_5",
+    "Installed":      "installed/libfuse/2_6_5",
+    "Source":         "src/libfuse/2_6_5/fuse_2_6_5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_6_4",
+    "Installed":      "installed/libfuse/2_6_4",
+    "Source":         "src/libfuse/2_6_4/fuse_2_6_4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_6_3",
+    "Installed":      "installed/libfuse/2_6_3",
+    "Source":         "src/libfuse/2_6_3/fuse_2_6_3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_6_2",
+    "Installed":      "installed/libfuse/2_6_2",
+    "Source":         "src/libfuse/2_6_2/fuse_2_6_2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_6_1",
+    "Installed":      "installed/libfuse/2_6_1",
+    "Source":         "src/libfuse/2_6_1/fuse_2_6_1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_6_0",
+    "Installed":      "installed/libfuse/2_6_0",
+    "Source":         "src/libfuse/2_6_0/fuse_2_6_0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_5_3",
+    "Installed":      "installed/libfuse/2_5_3",
+    "Source":         "src/libfuse/2_5_3/fuse_2_5_3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_5_2",
+    "Installed":      "installed/libfuse/2_5_2",
+    "Source":         "src/libfuse/2_5_2/fuse_2_5_2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_5_0",
+    "Installed":      "installed/libfuse/2_5_0",
+    "Source":         "src/libfuse/2_5_0/fuse_2_5_0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_4_2",
+    "Installed":      "installed/libfuse/2_4_2",
+    "Source":         "src/libfuse/2_4_2/fuse_2_4_2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_4_1",
+    "Installed":      "installed/libfuse/2_4_1",
+    "Source":         "src/libfuse/2_4_1/fuse_2_4_1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_4_0",
+    "Installed":      "installed/libfuse/2_4_0",
+    "Source":         "src/libfuse/2_4_0/fuse_2_4_0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_3_0",
+    "Installed":      "installed/libfuse/2_3_0",
+    "Source":         "src/libfuse/2_3_0/fuse_2_3_0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_2_1",
+    "Installed":      "installed/libfuse/2_2_1",
+    "Source":         "src/libfuse/2_2_1/fuse_2_2_1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_2",
+    "Installed":      "installed/libfuse/2_2",
+    "Source":         "src/libfuse/2_2/fuse_2_2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2_1",
+    "Installed":      "installed/libfuse/2_1",
+    "Source":         "src/libfuse/2_1/fuse_2_1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_9",
+    "Installed":      "installed/libfuse/1_9",
+    "Source":         "src/libfuse/1_9/fuse_1_9.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_4",
+    "Installed":      "installed/libfuse/1_4",
+    "Source":         "src/libfuse/1_4/fuse_1_4.tar.gz",
+    "Changelog":      "ChangeLog.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_3",
+    "Installed":      "installed/libfuse/1_3",
+    "Source":         "src/libfuse/1_3/fuse_1_3.tar.gz",
+    "Changelog":      "ChangeLog.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_2",
+    "Installed":      "installed/libfuse/1_2",
+    "Source":         "src/libfuse/1_2/fuse_1_2.tar.gz",
+    "Changelog":      "ChangeLog.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_1",
+    "Installed":      "installed/libfuse/1_1",
+    "Source":         "src/libfuse/1_1/fuse_1_1.tar.gz",
+    "Changelog":      "ChangeLog.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

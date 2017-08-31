@@ -29,6 +29,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "0.3.4",
+    "Installed":      "installed/fcl/0.3.4",
+    "Source":         "src/fcl/0.3.4/fcl-0.3.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.3.3",
     "Installed":      "installed/fcl/0.3.3",
     "Source":         "src/fcl/0.3.3/fcl-0.3.3.tar.gz",

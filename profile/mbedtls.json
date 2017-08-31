@@ -20,6 +20,26 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "2.6.0",
+    "Installed":      "installed/mbedtls/2.6.0",
+    "Source":         "src/mbedtls/2.6.0/mbedtls-2.6.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.1",
+    "Installed":      "installed/mbedtls/2.5.1",
+    "Source":         "src/mbedtls/2.5.1/mbedtls-2.5.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.5.0",
     "Installed":      "installed/mbedtls/2.5.0",
     "Source":         "src/mbedtls/2.5.0/mbedtls-2.5.0.tar.gz",
@@ -83,6 +103,26 @@
     "Number":         "2.2.0",
     "Installed":      "installed/mbedtls/2.2.0",
     "Source":         "src/mbedtls/2.2.0/mbedtls-2.2.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.9",
+    "Installed":      "installed/mbedtls/2.1.9",
+    "Source":         "src/mbedtls/2.1.9/mbedtls-2.1.9.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.8",
+    "Installed":      "installed/mbedtls/2.1.8",
+    "Source":         "src/mbedtls/2.1.8/mbedtls-2.1.8.tar.gz",
     "Changelog":      "ChangeLog",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
@@ -173,6 +213,26 @@
     "Number":         "2.0.0",
     "Installed":      "installed/mbedtls/2.0.0",
     "Source":         "src/mbedtls/2.0.0/mbedtls-2.0.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.21",
+    "Installed":      "installed/mbedtls/1.3.21",
+    "Source":         "src/mbedtls/1.3.21/mbedtls-1.3.21.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.20",
+    "Installed":      "installed/mbedtls/1.3.20",
+    "Source":         "src/mbedtls/1.3.20/mbedtls-1.3.20.tar.gz",
     "Changelog":      "ChangeLog",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

@@ -13,6 +13,36 @@
 
   "Versions": [
   {
+    "Number":         "3.6.8",
+    "Installed":      "installed/polylib/3.6.8",
+    "Source":         "src/polylib/3.6.8/polylib-3.6.8.tar.gz",
+    "Changelog":      "ChangeLog.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.7",
+    "Installed":      "installed/polylib/3.6.7",
+    "Source":         "src/polylib/3.6.7/polylib-3.6.7.tar.gz",
+    "Changelog":      "ChangeLog.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.6",
+    "Installed":      "installed/polylib/3.6.6",
+    "Source":         "src/polylib/3.6.6/polylib-3.6.6.tar.gz",
+    "Changelog":      "ChangeLog.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.6.5",
     "Installed":      "installed/polylib/3.6.5",
     "Source":         "src/polylib/3.6.5/polylib-3.6.5.tar.gz",

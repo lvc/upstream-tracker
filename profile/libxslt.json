@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "1.1.30-rc1",
+    "Installed":      "installed/libxslt/1.1.30-rc1",
+    "Source":         "src/libxslt/1.1.30-rc1/libxslt-1.1.30-rc1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.1.29",
     "Installed":      "installed/libxslt/1.1.29",
     "Source":         "src/libxslt/1.1.29/libxslt-1.1.29.tar.gz",

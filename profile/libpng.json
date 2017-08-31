@@ -14,6 +14,36 @@
 
   "Versions": [
   {
+    "Number":         "1.6.32",
+    "Installed":      "installed/libpng/1.6.32",
+    "Source":         "src/libpng/1.6.32/libpng-1.6.32.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.31",
+    "Installed":      "installed/libpng/1.6.31",
+    "Source":         "src/libpng/1.6.31/libpng-1.6.31.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.30",
+    "Installed":      "installed/libpng/1.6.30",
+    "Source":         "src/libpng/1.6.30/libpng-1.6.30.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.6.29",
     "Installed":      "installed/libpng/1.6.29",
     "Source":         "src/libpng/1.6.29/libpng-1.6.29.tar.xz",
@@ -607,6 +637,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.4.21",
+    "Installed":      "installed/libpng/1.4.21",
+    "Source":         "src/libpng/1.4.21/libpng-1.4.21.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.4.20",
     "Installed":      "installed/libpng/1.4.20",
     "Source":         "src/libpng/1.4.20/libpng-1.4.20.tar.xz",
@@ -630,6 +670,16 @@
     "Number":         "1.4.18",
     "Installed":      "installed/libpng/1.4.18",
     "Source":         "src/libpng/1.4.18/libpng-1.4.18.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.58",
+    "Installed":      "installed/libpng/1.2.58",
+    "Source":         "src/libpng/1.2.58/libpng-1.2.58.tar.xz",
     "Changelog":      "Off",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "3.6.2",
+    "Installed":      "installed/geos/3.6.2",
+    "Source":         "src/geos/3.6.2/geos-3.6.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.6.1",
     "Installed":      "installed/geos/3.6.1",
     "Source":         "src/geos/3.6.1/geos-3.6.1.tar.bz2",

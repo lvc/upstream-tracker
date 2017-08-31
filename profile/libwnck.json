@@ -10,6 +10,26 @@
 
   "Versions": [
   {
+    "Number":         "3.24.1",
+    "Installed":      "installed/libwnck/3.24.1",
+    "Source":         "src/libwnck/3.24.1/libwnck-3.24.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.24.0",
+    "Installed":      "installed/libwnck/3.24.0",
+    "Source":         "src/libwnck/3.24.0/libwnck-3.24.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.20.1",
     "Installed":      "installed/libwnck/3.20.1",
     "Source":         "src/libwnck/3.20.1/libwnck-3.20.1.tar.xz",

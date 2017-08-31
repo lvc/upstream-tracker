@@ -7,10 +7,30 @@
   "BuildDir":       "cpp",
   "Configure1":     "-DMSGPACK_BUILD_EXAMPLES=OFF -DMSGPACK_BUILD_TESTS=OFF -DBUILD_TESTING=OFF",
   "HeadersDiff":    "Off",
-  "Package":        "cpp-",
+  "Package":        "cpp",
   "PreInstall1":    "sed -i -e 's/-O[0123]/-Og/g' CMakeLists.txt",
 
   "Versions": [
+  {
+    "Number":         "2.1.5",
+    "Installed":      "installed/msgpack-c/2.1.5",
+    "Source":         "src/msgpack-c/2.1.5/cpp-2.1.5.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.4",
+    "Installed":      "installed/msgpack-c/2.1.4",
+    "Source":         "src/msgpack-c/2.1.4/cpp-2.1.4.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "2.1.3",
     "Installed":      "installed/msgpack-c/2.1.3",

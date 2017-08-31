@@ -12,6 +12,16 @@
 
   "Versions": [
   {
+    "Number":         "1_65_0",
+    "Installed":      "installed/boost/1_65_0",
+    "Source":         "src/boost/1_65_0/boost_1_65_0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1_64_0",
     "Installed":      "installed/boost/1_64_0",
     "Source":         "src/boost/1_64_0/boost_1_64_0.tar.gz",

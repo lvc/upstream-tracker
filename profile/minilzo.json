@@ -1,0 +1,122 @@
+{
+  "Name":           "minilzo",
+  "Title":          "miniLZO",
+  "SourceUrl":      "http://www.oberhumer.com/opensource/lzo/download/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/minilzo.sh",
+  "HeadersDiff":    "Off",
+  "Soname":         "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.10",
+    "Installed":      "installed/minilzo/2.10",
+    "Source":         "src/minilzo/2.10/minilzo-2.10.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.09",
+    "Installed":      "installed/minilzo/2.09",
+    "Source":         "src/minilzo/2.09/minilzo-2.09.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.08",
+    "Installed":      "installed/minilzo/2.08",
+    "Source":         "src/minilzo/2.08/minilzo-2.08.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.07",
+    "Installed":      "installed/minilzo/2.07",
+    "Source":         "src/minilzo/2.07/minilzo-2.07.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.06",
+    "Installed":      "installed/minilzo/2.06",
+    "Source":         "src/minilzo/2.06/minilzo-2.06.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.05",
+    "Installed":      "installed/minilzo/2.05",
+    "Source":         "src/minilzo/2.05/minilzo-2.05.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.04",
+    "Installed":      "installed/minilzo/2.04",
+    "Source":         "src/minilzo/2.04/minilzo-2.04.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.03",
+    "Installed":      "installed/minilzo/2.03",
+    "Source":         "src/minilzo/2.03/minilzo-2.03.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02",
+    "Installed":      "installed/minilzo/2.02",
+    "Source":         "src/minilzo/2.02/minilzo-2.02.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.01",
+    "Installed":      "installed/minilzo/2.01",
+    "Source":         "src/minilzo/2.01/minilzo-2.01.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.00",
+    "Installed":      "installed/minilzo/2.00",
+    "Source":         "src/minilzo/2.00/minilzo-2.00.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

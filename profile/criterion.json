@@ -1,0 +1,81 @@
+{
+  "Name":           "criterion",
+  "Title":          "Criterion",
+  "SourceUrl":      "https://github.com/Snaipe/Criterion/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "git clone https://github.com/attractivechaos/klib.git dependencies/klib;git clone https://github.com/nanopb/nanopb.git dependencies/nanopb;git clone https://github.com/scottt/debugbreak dependencies/debugbreak;git clone https://github.com/Snaipe/BoxFort dependencies/boxfort;git clone https://github.com/nanomsg/nanomsg.git dependencies/nanomsg; git clone https://github.com/alex85k/wingetopt.git dependencies/wingetopt;git clone https://github.com/Snaipe/dyncall.git dependencies/dyncall;git clone https://github.com/Snaipe/libcsptr.git dependencies/libcsptr",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.3.2",
+    "Installed":      "installed/criterion/2.3.2",
+    "Source":         "src/criterion/2.3.2/criterion-2.3.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.1",
+    "Installed":      "installed/criterion/2.3.1",
+    "Source":         "src/criterion/2.3.1/criterion-2.3.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.0-1",
+    "Installed":      "installed/criterion/2.3.0-1",
+    "Source":         "src/criterion/2.3.0-1/criterion-2.3.0-1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.0",
+    "Installed":      "installed/criterion/2.3.0",
+    "Source":         "src/criterion/2.3.0/criterion-2.3.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.2",
+    "Installed":      "installed/criterion/2.2.2",
+    "Source":         "src/criterion/2.2.2/criterion-2.2.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.1",
+    "Installed":      "installed/criterion/2.2.1",
+    "Source":         "src/criterion/2.2.1/criterion-2.2.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.0",
+    "Installed":      "installed/criterion/2.2.0",
+    "Source":         "src/criterion/2.2.0/criterion-2.2.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

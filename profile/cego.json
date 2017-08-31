@@ -4,11 +4,119 @@
   "SourceUrl":      "http://download.openpkg.org/components/cache/cego/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--enable-static=no --with-lfc-include-path={INSTALL_ROOT}/lfcbase/1.9.6/include --with-lfc-lib-path={INSTALL_ROOT}/lfcbase/1.9.6/lib CXXFLAGS='-I{INSTALL_ROOT}/lfcxml/1.2.4/include -g -Og' LDFLAGS='-L{INSTALL_ROOT}/lfcxml/1.2.4/lib'",
+  "Configure":      "--enable-static=no --with-lfc-include-path={INSTALL_ROOT}/lfcbase/1.10.0/include --with-lfc-lib-path={INSTALL_ROOT}/lfcbase/1.10.0/lib CXXFLAGS='-I{INSTALL_ROOT}/lfcxml/1.2.4/include -g -Og' LDFLAGS='-L{INSTALL_ROOT}/lfcxml/1.2.4/lib'",
   "HeadersDiff":    "Off",
   "LatestMicro":    "On",
 
   "Versions": [
+  {
+    "Number":         "2.34.1",
+    "Installed":      "installed/cego/2.34.1",
+    "Source":         "src/cego/2.34.1/cego-2.34.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.34.0",
+    "Installed":      "installed/cego/2.34.0",
+    "Source":         "src/cego/2.34.0/cego-2.34.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.33.23",
+    "Installed":      "installed/cego/2.33.23",
+    "Source":         "src/cego/2.33.23/cego-2.33.23.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.33.21",
+    "Installed":      "installed/cego/2.33.21",
+    "Source":         "src/cego/2.33.21/cego-2.33.21.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.33.20",
+    "Installed":      "installed/cego/2.33.20",
+    "Source":         "src/cego/2.33.20/cego-2.33.20.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.33.19",
+    "Installed":      "installed/cego/2.33.19",
+    "Source":         "src/cego/2.33.19/cego-2.33.19.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.33.18",
+    "Installed":      "installed/cego/2.33.18",
+    "Source":         "src/cego/2.33.18/cego-2.33.18.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.33.17",
+    "Installed":      "installed/cego/2.33.17",
+    "Source":         "src/cego/2.33.17/cego-2.33.17.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.33.16",
+    "Installed":      "installed/cego/2.33.16",
+    "Source":         "src/cego/2.33.16/cego-2.33.16.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.33.15",
+    "Installed":      "installed/cego/2.33.15",
+    "Source":         "src/cego/2.33.15/cego-2.33.15.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
   {
     "Number":         "2.33.14",
     "Installed":      "installed/cego/2.33.14",
@@ -17,7 +125,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "2.33.13",

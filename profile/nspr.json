@@ -12,6 +12,16 @@
 
   "Versions": [
   {
+    "Number":         "4.16",
+    "Installed":      "installed/nspr/4.16",
+    "Source":         "src/nspr/4.16/nspr-4.16.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "4.15",
     "Installed":      "installed/nspr/4.15",
     "Source":         "src/nspr/4.15/nspr-4.15.tar.gz",

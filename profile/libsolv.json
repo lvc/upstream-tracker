@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "0.6.28",
+    "Installed":      "installed/libsolv/0.6.28",
+    "Source":         "src/libsolv/0.6.28/libsolv-0.6.28.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.6.27",
     "Installed":      "installed/libsolv/0.6.27",
     "Source":         "src/libsolv/0.6.27/libsolv-0.6.27.tar.gz",

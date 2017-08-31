@@ -24,6 +24,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "5.24.2",
+    "Installed":      "installed/perl/5.24.2",
+    "Source":         "src/perl/5.24.2/perl-5.24.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "5.24.1",
     "Installed":      "installed/perl/5.24.1",
     "Source":         "src/perl/5.24.1/perl-5.24.1.tar.xz",
@@ -37,6 +47,16 @@
     "Number":         "5.24.0",
     "Installed":      "installed/perl/5.24.0",
     "Source":         "src/perl/5.24.0/perl-5.24.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.22.4",
+    "Installed":      "installed/perl/5.22.4",
+    "Source":         "src/perl/5.22.4/perl-5.22.4.tar.xz",
     "Changelog":      "Off",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

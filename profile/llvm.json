@@ -13,8 +13,19 @@
   "MinimalVersion": "3.0",
   "PostInstall1":   "cp -fr include/* {INSTALL_TO}/include/",
   "PostInstall_Old": "find {INSTALL_TO}/lib/ -regex '.*libLLVM.+\(Info\|CodeGen\|Printer\|Desc\|Disassembler\|Driver\)\.so.*'|xargs rm -f",
+  "RegenDump":      "On",
 
   "Versions": [
+  {
+    "Number":         "4.0.1",
+    "Installed":      "installed/llvm/4.0.1",
+    "Source":         "src/llvm/4.0.1/llvm-4.0.1.src.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "4.0.0",
     "Installed":      "installed/llvm/4.0.0",

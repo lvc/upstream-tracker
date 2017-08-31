@@ -5,9 +5,9 @@
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "Configure":      "--with-defaults --disable-static --disable-embedded-perl --without-perl-modules --without-python-modules",
+  "SkipObjects":    [ "libnetsnmptrapd.so" ],
   "HeadersDiff":    "Off",
   "SkipVersions":   [ "5.7.2.1" ],
-  "SkipObjects":    [ "libnetsnmptrapd.so" ],
 
   "Versions": [
   {

@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "8.41",
+    "Installed":      "installed/pcre/8.41",
+    "Source":         "src/pcre/8.41/pcre-8.41.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "8.40",
     "Installed":      "installed/pcre/8.40",
     "Source":         "src/pcre/8.40/pcre-8.40.tar.gz",

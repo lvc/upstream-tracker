@@ -12,6 +12,16 @@
 
   "Versions": [
   {
+    "Number":         "2_0_0-RC2",
+    "Installed":      "installed/log4cplus/2_0_0-RC2",
+    "Source":         "src/log4cplus/2_0_0-RC2/REL_2_0_0-RC2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2_0_0-RC1",
     "Installed":      "installed/log4cplus/2_0_0-RC1",
     "Source":         "src/log4cplus/2_0_0-RC1/REL_2_0_0-RC1.tar.gz",
@@ -19,7 +29,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "1_2_0",

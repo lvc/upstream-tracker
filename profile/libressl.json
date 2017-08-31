@@ -10,6 +10,26 @@
 
   "Versions": [
   {
+    "Number":         "2.6.0",
+    "Installed":      "installed/libressl/2.6.0",
+    "Source":         "src/libressl/2.6.0/libressl-2.6.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.5",
+    "Installed":      "installed/libressl/2.5.5",
+    "Source":         "src/libressl/2.5.5/libressl-2.5.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.5.4",
     "Installed":      "installed/libressl/2.5.4",
     "Source":         "src/libressl/2.5.4/libressl-2.5.4.tar.gz",

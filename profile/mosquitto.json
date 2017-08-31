@@ -1,0 +1,603 @@
+{
+  "Name":           "mosquitto",
+  "Title":          "Mosquitto",
+  "SourceUrl":      "http://mosquitto.org/files/source/",
+  "Git":            "https://github.com/eclipse/mosquitto",
+  "PreInstall":     "sed -i -e 's|EXEC_PROGRAM(/sbin/ldconfig)||g' src/CMakeLists.txt lib/CMakeLists.txt lib/cpp/CMakeLists.txt;sed -i -e 's|add_subdirectory(man)||g' CMakeLists.txt",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.8",
+  "OldBuildScript": "build_script/mosquitto.sh",
+  "OldPostInstall": "cp -f ./lib/cpp/mosquittopp.h ./lib/mosquitto.h {INSTALL_TO}/include/",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/mosquitto/current",
+    "Source":         "src/mosquitto/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.14",
+    "Installed":      "installed/mosquitto/1.4.14",
+    "Source":         "src/mosquitto/1.4.14/mosquitto-1.4.14.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.13",
+    "Installed":      "installed/mosquitto/1.4.13",
+    "Source":         "src/mosquitto/1.4.13/mosquitto-1.4.13.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.12",
+    "Installed":      "installed/mosquitto/1.4.12",
+    "Source":         "src/mosquitto/1.4.12/mosquitto-1.4.12.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.11",
+    "Installed":      "installed/mosquitto/1.4.11",
+    "Source":         "src/mosquitto/1.4.11/mosquitto-1.4.11.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.10",
+    "Installed":      "installed/mosquitto/1.4.10",
+    "Source":         "src/mosquitto/1.4.10/mosquitto-1.4.10.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.9",
+    "Installed":      "installed/mosquitto/1.4.9",
+    "Source":         "src/mosquitto/1.4.9/mosquitto-1.4.9.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.8",
+    "Installed":      "installed/mosquitto/1.4.8",
+    "Source":         "src/mosquitto/1.4.8/mosquitto-1.4.8.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.7",
+    "Installed":      "installed/mosquitto/1.4.7",
+    "Source":         "src/mosquitto/1.4.7/mosquitto-1.4.7.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.5",
+    "Installed":      "installed/mosquitto/1.4.5",
+    "Source":         "src/mosquitto/1.4.5/mosquitto-1.4.5.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.4",
+    "Installed":      "installed/mosquitto/1.4.4",
+    "Source":         "src/mosquitto/1.4.4/mosquitto-1.4.4.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.3",
+    "Installed":      "installed/mosquitto/1.4.3",
+    "Source":         "src/mosquitto/1.4.3/mosquitto-1.4.3.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.2",
+    "Installed":      "installed/mosquitto/1.4.2",
+    "Source":         "src/mosquitto/1.4.2/mosquitto-1.4.2.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.1",
+    "Installed":      "installed/mosquitto/1.4.1",
+    "Source":         "src/mosquitto/1.4.1/mosquitto-1.4.1.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4",
+    "Installed":      "installed/mosquitto/1.4",
+    "Source":         "src/mosquitto/1.4/mosquitto-1.4.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.5",
+    "Installed":      "installed/mosquitto/1.3.5",
+    "Source":         "src/mosquitto/1.3.5/mosquitto-1.3.5.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.4",
+    "Installed":      "installed/mosquitto/1.3.4",
+    "Source":         "src/mosquitto/1.3.4/mosquitto-1.3.4.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.3",
+    "Installed":      "installed/mosquitto/1.3.3",
+    "Source":         "src/mosquitto/1.3.3/mosquitto-1.3.3.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.2",
+    "Installed":      "installed/mosquitto/1.3.2",
+    "Source":         "src/mosquitto/1.3.2/mosquitto-1.3.2.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.1",
+    "Installed":      "installed/mosquitto/1.3.1",
+    "Source":         "src/mosquitto/1.3.1/mosquitto-1.3.1.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3",
+    "Installed":      "installed/mosquitto/1.3",
+    "Source":         "src/mosquitto/1.3/mosquitto-1.3.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.3",
+    "Installed":      "installed/mosquitto/1.2.3",
+    "Source":         "src/mosquitto/1.2.3/mosquitto-1.2.3.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.2",
+    "Installed":      "installed/mosquitto/1.2.2",
+    "Source":         "src/mosquitto/1.2.2/mosquitto-1.2.2.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.1",
+    "Installed":      "installed/mosquitto/1.2.1",
+    "Source":         "src/mosquitto/1.2.1/mosquitto-1.2.1.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2",
+    "Installed":      "installed/mosquitto/1.2",
+    "Source":         "src/mosquitto/1.2/mosquitto-1.2.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.90",
+    "Installed":      "installed/mosquitto/1.1.90",
+    "Source":         "src/mosquitto/1.1.90/mosquitto-1.1.90.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.3",
+    "Installed":      "installed/mosquitto/1.1.3",
+    "Source":         "src/mosquitto/1.1.3/mosquitto-1.1.3.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.2",
+    "Installed":      "installed/mosquitto/1.1.2",
+    "Source":         "src/mosquitto/1.1.2/mosquitto-1.1.2.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.1",
+    "Installed":      "installed/mosquitto/1.1.1",
+    "Source":         "src/mosquitto/1.1.1/mosquitto-1.1.1.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1",
+    "Installed":      "installed/mosquitto/1.1",
+    "Source":         "src/mosquitto/1.1/mosquitto-1.1.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.5",
+    "Installed":      "installed/mosquitto/1.0.5",
+    "Source":         "src/mosquitto/1.0.5/mosquitto-1.0.5.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.4",
+    "Installed":      "installed/mosquitto/1.0.4",
+    "Source":         "src/mosquitto/1.0.4/mosquitto-1.0.4.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.3",
+    "Installed":      "installed/mosquitto/1.0.3",
+    "Source":         "src/mosquitto/1.0.3/mosquitto-1.0.3.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.2",
+    "Installed":      "installed/mosquitto/1.0.2",
+    "Source":         "src/mosquitto/1.0.2/mosquitto-1.0.2.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.1",
+    "Installed":      "installed/mosquitto/1.0.1",
+    "Source":         "src/mosquitto/1.0.1/mosquitto-1.0.1.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0",
+    "Installed":      "installed/mosquitto/1.0",
+    "Source":         "src/mosquitto/1.0/mosquitto-1.0.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.99.2",
+    "Installed":      "installed/mosquitto/0.99.2",
+    "Source":         "src/mosquitto/0.99.2/mosquitto-0.99.2.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.15",
+    "Installed":      "installed/mosquitto/0.15",
+    "Source":         "src/mosquitto/0.15/mosquitto-0.15.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14.4",
+    "Installed":      "installed/mosquitto/0.14.4",
+    "Source":         "src/mosquitto/0.14.4/mosquitto-0.14.4.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14.3",
+    "Installed":      "installed/mosquitto/0.14.3",
+    "Source":         "src/mosquitto/0.14.3/mosquitto-0.14.3.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14.2",
+    "Installed":      "installed/mosquitto/0.14.2",
+    "Source":         "src/mosquitto/0.14.2/mosquitto-0.14.2.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14.1",
+    "Installed":      "installed/mosquitto/0.14.1",
+    "Source":         "src/mosquitto/0.14.1/mosquitto-0.14.1.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14",
+    "Installed":      "installed/mosquitto/0.14",
+    "Source":         "src/mosquitto/0.14/mosquitto-0.14.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13",
+    "Installed":      "installed/mosquitto/0.13",
+    "Source":         "src/mosquitto/0.13/mosquitto-0.13.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.12",
+    "Installed":      "installed/mosquitto/0.12",
+    "Source":         "src/mosquitto/0.12/mosquitto-0.12.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.3",
+    "Installed":      "installed/mosquitto/0.11.3",
+    "Source":         "src/mosquitto/0.11.3/mosquitto-0.11.3.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.2",
+    "Installed":      "installed/mosquitto/0.11.2",
+    "Source":         "src/mosquitto/0.11.2/mosquitto-0.11.2.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.1",
+    "Installed":      "installed/mosquitto/0.11.1",
+    "Source":         "src/mosquitto/0.11.1/mosquitto-0.11.1.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.2",
+    "Installed":      "installed/mosquitto/0.10.2",
+    "Source":         "src/mosquitto/0.10.2/mosquitto-0.10.2.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.1",
+    "Installed":      "installed/mosquitto/0.10.1",
+    "Source":         "src/mosquitto/0.10.1/mosquitto-0.10.1.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10",
+    "Installed":      "installed/mosquitto/0.10",
+    "Source":         "src/mosquitto/0.10/mosquitto-0.10.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.3",
+    "Installed":      "installed/mosquitto/0.9.3",
+    "Source":         "src/mosquitto/0.9.3/mosquitto-0.9.3.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.2",
+    "Installed":      "installed/mosquitto/0.9.2",
+    "Source":         "src/mosquitto/0.9.2/mosquitto-0.9.2.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.1",
+    "Installed":      "installed/mosquitto/0.9.1",
+    "Source":         "src/mosquitto/0.9.1/mosquitto-0.9.1.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9",
+    "Installed":      "installed/mosquitto/0.9",
+    "Source":         "src/mosquitto/0.9/mosquitto-0.9.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.3",
+    "Installed":      "installed/mosquitto/0.8.3",
+    "Source":         "src/mosquitto/0.8.3/mosquitto-0.8.3.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.2",
+    "Installed":      "installed/mosquitto/0.8.2",
+    "Source":         "src/mosquitto/0.8.2/mosquitto-0.8.2.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.1",
+    "Installed":      "installed/mosquitto/0.8.1",
+    "Source":         "src/mosquitto/0.8.1/mosquitto-0.8.1.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8",
+    "Installed":      "installed/mosquitto/0.8",
+    "Source":         "src/mosquitto/0.8/mosquitto-0.8.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

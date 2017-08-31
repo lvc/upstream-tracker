@@ -8,6 +8,26 @@
 
   "Versions": [
   {
+    "Number":         "2.6.1",
+    "Installed":      "installed/gperftools/2.6.1",
+    "Source":         "src/gperftools/2.6.1/gperftools-2.6.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6",
+    "Installed":      "installed/gperftools/2.6",
+    "Source":         "src/gperftools/2.6/gperftools-2.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.5.93",
     "Installed":      "installed/gperftools/2.5.93",
     "Source":         "src/gperftools/2.5.93/gperftools-2.5.93.tar.gz",
@@ -15,7 +35,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "2.5.91",

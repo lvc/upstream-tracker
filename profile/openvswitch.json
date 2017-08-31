@@ -10,6 +10,26 @@
 
   "Versions": [
   {
+    "Number":         "2.7.2",
+    "Installed":      "installed/openvswitch/2.7.2",
+    "Source":         "src/openvswitch/2.7.2/openvswitch-2.7.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.7.1",
+    "Installed":      "installed/openvswitch/2.7.1",
+    "Source":         "src/openvswitch/2.7.1/openvswitch-2.7.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.7.0",
     "Installed":      "installed/openvswitch/2.7.0",
     "Source":         "src/openvswitch/2.7.0/openvswitch-2.7.0.tar.gz",
@@ -33,6 +53,16 @@
     "Number":         "2.6.0",
     "Installed":      "installed/openvswitch/2.6.0",
     "Source":         "src/openvswitch/2.6.0/openvswitch-2.6.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.3",
+    "Installed":      "installed/openvswitch/2.5.3",
+    "Source":         "src/openvswitch/2.5.3/openvswitch-2.5.3.tar.gz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

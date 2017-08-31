@@ -6,7 +6,7 @@
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "BuildShared":    "On",
   "HeadersDiff":    "Off",
-  "SkipVersions":   [ "2", "2.0", "1", "1.5" ],
+  "SkipVersions":   [ "2", "2.0", "1", "1.5", "\A\d+\.\d+\Z" ],
   "Soname":         "Off",
 
   "Versions": [
@@ -25,6 +25,16 @@
     "Installed":      "installed/libsrtp/2.0.0",
     "Source":         "src/libsrtp/2.0.0/libsrtp-2.0.0.tar.gz",
     "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.0",
+    "Installed":      "installed/libsrtp/1.6.0",
+    "Source":         "src/libsrtp/1.6.0/libsrtp-1.6.0.tar.gz",
+    "Changelog":      "CHANGES",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",

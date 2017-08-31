@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "1.8.0",
+    "Installed":      "installed/librepo/1.8.0",
+    "Source":         "src/librepo/1.8.0/librepo-1.8.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.7.20",
     "Installed":      "installed/librepo/1.7.20",
     "Source":         "src/librepo/1.7.20/librepo-1.7.20.tar.gz",

@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "1.0.3",
+    "Installed":      "installed/freexl/1.0.3",
+    "Source":         "src/freexl/1.0.3/freexl-1.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.0.2",
     "Installed":      "installed/freexl/1.0.2",
     "Source":         "src/freexl/1.0.2/freexl-1.0.2.tar.gz",

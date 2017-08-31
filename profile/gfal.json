@@ -11,6 +11,36 @@
 
   "Versions": [
   {
+    "Number":         "2.14.2",
+    "Installed":      "installed/gfal/2.14.2",
+    "Source":         "src/gfal/2.14.2/gfal-v2.14.2.tar.gz",
+    "Changelog":      "RELEASE-NOTES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.14.1",
+    "Installed":      "installed/gfal/2.14.1",
+    "Source":         "src/gfal/2.14.1/gfal-v2.14.1.tar.gz",
+    "Changelog":      "RELEASE-NOTES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.14.0",
+    "Installed":      "installed/gfal/2.14.0",
+    "Source":         "src/gfal/2.14.0/gfal-v2.14.0.tar.gz",
+    "Changelog":      "RELEASE-NOTES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.13.4",
     "Installed":      "installed/gfal/2.13.4",
     "Source":         "src/gfal/2.13.4/gfal-v2.13.4.tar.gz",

@@ -4,10 +4,40 @@
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "Configure":      "--disable-dtrace",
-  "SkipHeaders":    "uv-private/",
+  "SkipHeaders":    [ "uv-private/" ],
   "Package":        "node",
 
   "Versions": [
+  {
+    "Number":         "1.14.0",
+    "Installed":      "installed/libuv/1.14.0",
+    "Source":         "src/libuv/1.14.0/node-1.14.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.1",
+    "Installed":      "installed/libuv/1.13.1",
+    "Source":         "src/libuv/1.13.1/node-1.13.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.0",
+    "Installed":      "installed/libuv/1.13.0",
+    "Source":         "src/libuv/1.13.0/node-1.13.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "1.12.0",
     "Installed":      "installed/libuv/1.12.0",

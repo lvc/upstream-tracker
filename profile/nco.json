@@ -12,6 +12,16 @@
 
   "Versions": [
   {
+    "Number":         "4.6.8",
+    "Installed":      "installed/nco/4.6.8",
+    "Source":         "src/nco/4.6.8/nco-4.6.8.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "4.6.7",
     "Installed":      "installed/nco/4.6.7",
     "Source":         "src/nco/4.6.7/nco-4.6.7.tar.gz",

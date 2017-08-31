@@ -25,6 +25,26 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "2.4.27",
+    "Installed":      "installed/httpd/2.4.27",
+    "Source":         "src/httpd/2.4.27/httpd-2.4.27.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.26",
+    "Installed":      "installed/httpd/2.4.26",
+    "Source":         "src/httpd/2.4.26/httpd-2.4.26.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.4.25",
     "Installed":      "installed/httpd/2.4.25",
     "Source":         "src/httpd/2.4.25/httpd-2.4.25.tar.gz",
@@ -174,6 +194,16 @@
     "ABIView":        "Off",
     "ABIDiff":        "Off",
     "Comment":        "Intended breakage of the API/ABI in 2.4 since 2.2. See <a href='https://httpd.apache.org/docs/2.4/developer/new_api_2_4.html'>API migration guide</a> for the detailed information on all API changes."
+  },
+  {
+    "Number":         "2.2.34",
+    "Installed":      "installed/httpd/2.2.34",
+    "Source":         "src/httpd/2.2.34/httpd-2.2.34.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.2.32",

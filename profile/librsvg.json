@@ -23,6 +23,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "2.40.18",
+    "Installed":      "installed/librsvg/2.40.18",
+    "Source":         "src/librsvg/2.40.18/librsvg-2.40.18.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.40.17",
     "Installed":      "installed/librsvg/2.40.17",
     "Source":         "src/librsvg/2.40.17/librsvg-2.40.17.tar.xz",

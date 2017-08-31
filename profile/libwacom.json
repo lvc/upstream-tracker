@@ -7,6 +7,16 @@
 
   "Versions": [
   {
+    "Number":         "0.26",
+    "Installed":      "installed/libwacom/0.26",
+    "Source":         "src/libwacom/0.26/libwacom-0.26.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.25",
     "Installed":      "installed/libwacom/0.25",
     "Source":         "src/libwacom/0.25/libwacom-0.25.tar.bz2",

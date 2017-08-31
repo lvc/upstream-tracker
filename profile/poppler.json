@@ -22,6 +22,26 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "0.57.0",
+    "Installed":      "installed/poppler/0.57.0",
+    "Source":         "src/poppler/0.57.0/poppler-0.57.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.56.0",
+    "Installed":      "installed/poppler/0.56.0",
+    "Source":         "src/poppler/0.56.0/poppler-0.56.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.55.0",
     "Installed":      "installed/poppler/0.55.0",
     "Source":         "src/poppler/0.55.0/poppler-0.55.0.tar.xz",

@@ -1,0 +1,54 @@
+{
+  "Name":           "libmad",
+  "SourceUrl":      "ftp://ftp.mars.org/pub/mpeg/",
+  "SourceUrlDepth": "1",
+  "OldSourceUrl":   "ftp://ftp.mars.org/pub/mpeg/archive/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "LetterReleases": "On",
+  "OldBuildScript": "build_script/libmad.sh",
+  "Package":        "libmad",
+
+  "Versions": [
+  {
+    "Number":         "0.15.1b",
+    "Installed":      "installed/libmad/0.15.1b",
+    "Source":         "src/libmad/0.15.1b/libmad-0.15.1b.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.15.0b",
+    "Installed":      "installed/libmad/0.15.0b",
+    "Source":         "src/libmad/0.15.0b/libmad-0.15.0b.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14.2b",
+    "Installed":      "installed/libmad/0.14.2b",
+    "Source":         "src/libmad/0.14.2b/mad-0.14.2b.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14.1b",
+    "Installed":      "installed/libmad/0.14.1b",
+    "Source":         "src/libmad/0.14.1b/mad-0.14.1b.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,53 @@
+{
+  "Name":           "freeradius-client",
+  "Title":          "FreeRADIUS Client",
+  "SourceUrl":      "ftp://ftp.freeradius.org/pub/freeradius/",
+  "SourceUrlDepth": "1",
+  "OldSourceUrl":   "ftp://ftp.freeradius.org/pub/freeradius/old/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "autoreconf --force --verbose --install",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.1.7",
+    "Installed":      "installed/freeradius-client/1.1.7",
+    "Source":         "src/freeradius-client/1.1.7/freeradius-client-1.1.7.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.6",
+    "Installed":      "installed/freeradius-client/1.1.6",
+    "Source":         "src/freeradius-client/1.1.6/freeradius-client-1.1.6.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.5",
+    "Installed":      "installed/freeradius-client/1.1.5",
+    "Source":         "src/freeradius-client/1.1.5/freeradius-client-1.1.5.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.4",
+    "Installed":      "installed/freeradius-client/1.1.4",
+    "Source":         "src/freeradius-client/1.1.4/freeradius-client-1.1.4.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

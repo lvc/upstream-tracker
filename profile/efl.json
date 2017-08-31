@@ -9,10 +9,95 @@
   "PostInstall":    "rm -fr {INSTALL_TO}/share {INSTALL_TO}/lib/e*",
   "SkipObjects":    [ "module.so", "libector.so" ],
   "HeadersDiff":    "Off",
+  "Make":           "-j2",
   "MinimalVersion": "1.8.1",
-  "RegenDump":      "Off",
+  "RegenDump":      "On",
 
   "Versions": [
+  {
+    "Number":         "1.20.2",
+    "Installed":      "installed/efl/1.20.2",
+    "Source":         "src/efl/1.20.2/efl-1.20.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.20.1",
+    "Installed":      "installed/efl/1.20.1",
+    "Source":         "src/efl/1.20.1/efl-1.20.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.20.0",
+    "Installed":      "installed/efl/1.20.0",
+    "Source":         "src/efl/1.20.0/efl-1.20.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.20.0-beta3",
+    "Installed":      "installed/efl/1.20.0-beta3",
+    "Source":         "src/efl/1.20.0-beta3/efl-1.20.0-beta3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.20.0-beta2",
+    "Installed":      "installed/efl/1.20.0-beta2",
+    "Source":         "src/efl/1.20.0-beta2/efl-1.20.0-beta2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.20.0-beta1",
+    "Installed":      "installed/efl/1.20.0-beta1",
+    "Source":         "src/efl/1.20.0-beta1/efl-1.20.0-beta1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.20.0-alpha1",
+    "Installed":      "installed/efl/1.20.0-alpha1",
+    "Source":         "src/efl/1.20.0-alpha1/efl-1.20.0-alpha1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.19.2",
+    "Installed":      "installed/efl/1.19.2",
+    "Source":         "src/efl/1.19.2/efl-1.19.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "1.19.1",
     "Installed":      "installed/efl/1.19.1",

@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         "1_13_0",
+    "Installed":      "installed/c-ares/1_13_0",
+    "Source":         "src/c-ares/1_13_0/cares-1_13_0.tar.gz",
+    "Changelog":      "RELEASE-NOTES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1_12_0",
     "Installed":      "installed/c-ares/1_12_0",
     "Source":         "src/c-ares/1_12_0/cares-1_12_0.tar.gz",

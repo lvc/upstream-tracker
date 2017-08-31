@@ -13,6 +13,16 @@
 
   "Versions": [
   {
+    "Number":         "2.1.1",
+    "Installed":      "installed/nvidia-texture-tools/2.1.1",
+    "Source":         "src/nvidia-texture-tools/2.1.1/nvidia-texture-tools-2.1.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.1.0",
     "Installed":      "installed/nvidia-texture-tools/2.1.0",
     "Source":         "src/nvidia-texture-tools/2.1.0/nvidia-texture-tools-2.1.0.tar.gz",

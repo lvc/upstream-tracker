@@ -12,6 +12,16 @@
 
   "Versions": [
   {
+    "Number":         "1.6.0",
+    "Installed":      "installed/radare2/1.6.0",
+    "Source":         "src/radare2/1.6.0/radare2-1.6.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.5.0",
     "Installed":      "installed/radare2/1.5.0",
     "Source":         "src/radare2/1.5.0/radare2-1.5.0.tar.gz",

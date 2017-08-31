@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "2.2.1",
+    "Installed":      "installed/gflags/2.2.1",
+    "Source":         "src/gflags/2.2.1/gflags-2.2.1.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.2.0",
     "Installed":      "installed/gflags/2.2.0",
     "Source":         "src/gflags/2.2.0/gflags-2.2.0.tar.gz",

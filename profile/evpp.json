@@ -10,6 +10,36 @@
 
   "Versions": [
   {
+    "Number":         "0.7.0",
+    "Installed":      "installed/evpp/0.7.0",
+    "Source":         "src/evpp/0.7.0/evpp-0.7.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.1",
+    "Installed":      "installed/evpp/0.6.1",
+    "Source":         "src/evpp/0.6.1/evpp-0.6.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.0",
+    "Installed":      "installed/evpp/0.6.0",
+    "Source":         "src/evpp/0.6.0/evpp-0.6.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.5.0",
     "Installed":      "installed/evpp/0.5.0",
     "Source":         "src/evpp/0.5.0/evpp-0.5.0.tar.gz",

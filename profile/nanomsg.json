@@ -1,0 +1,91 @@
+{
+  "Name":           "nanomsg",
+  "SourceUrl":      "https://github.com/nanomsg/nanomsg/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem1":   "CMake",
+  "HeadersDiff":    "Off",
+  "ReleasePattern": "\A([\d\.]+)\-beta\Z",
+
+  "Versions": [
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/nanomsg/1.0.0",
+    "Source":         "src/nanomsg/1.0.0/nanomsg-1.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9",
+    "Installed":      "installed/nanomsg/0.9",
+    "Source":         "src/nanomsg/0.9/nanomsg-0.9-beta.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8",
+    "Installed":      "installed/nanomsg/0.8",
+    "Source":         "src/nanomsg/0.8/nanomsg-0.8-beta.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7",
+    "Installed":      "installed/nanomsg/0.7",
+    "Source":         "src/nanomsg/0.7/nanomsg-0.7-beta.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6",
+    "Installed":      "installed/nanomsg/0.6",
+    "Source":         "src/nanomsg/0.6/nanomsg-0.6-beta.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5",
+    "Installed":      "installed/nanomsg/0.5",
+    "Source":         "src/nanomsg/0.5/nanomsg-0.5-beta.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4",
+    "Installed":      "installed/nanomsg/0.4",
+    "Source":         "src/nanomsg/0.4/nanomsg-0.4-beta.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3",
+    "Installed":      "installed/nanomsg/0.3",
+    "Source":         "src/nanomsg/0.3/nanomsg-0.3-beta.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

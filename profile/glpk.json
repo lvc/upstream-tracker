@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "4.63",
+    "Installed":      "installed/glpk/4.63",
+    "Source":         "src/glpk/4.63/glpk-4.63.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "4.62",
     "Installed":      "installed/glpk/4.62",
     "Source":         "src/glpk/4.62/glpk-4.62.tar.gz",

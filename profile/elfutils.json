@@ -21,6 +21,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "0.170",
+    "Installed":      "installed/elfutils/0.170",
+    "Source":         "src/elfutils/0.170/elfutils-0.170.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.169",
     "Installed":      "installed/elfutils/0.169",
     "Source":         "src/elfutils/0.169/elfutils-0.169.tar.bz2",

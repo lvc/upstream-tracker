@@ -16,6 +16,16 @@
 
   "Versions": [
   {
+    "Number":         "4.12.0",
+    "Installed":      "installed/xfsprogs/4.12.0",
+    "Source":         "src/xfsprogs/4.12.0/xfsprogs-4.12.0.tar.xz",
+    "Changelog":      "doc/CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "4.11.0",
     "Installed":      "installed/xfsprogs/4.11.0",
     "Source":         "src/xfsprogs/4.11.0/xfsprogs-4.11.0.tar.xz",

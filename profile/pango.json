@@ -21,6 +21,56 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.40.11",
+    "Installed":      "installed/pango/1.40.11",
+    "Source":         "src/pango/1.40.11/pango-1.40.11.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.40.10",
+    "Installed":      "installed/pango/1.40.10",
+    "Source":         "src/pango/1.40.10/pango-1.40.10.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.40.9",
+    "Installed":      "installed/pango/1.40.9",
+    "Source":         "src/pango/1.40.9/pango-1.40.9.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.40.8",
+    "Installed":      "installed/pango/1.40.8",
+    "Source":         "src/pango/1.40.8/pango-1.40.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.40.7",
+    "Installed":      "installed/pango/1.40.7",
+    "Source":         "src/pango/1.40.7/pango-1.40.7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.40.6",
     "Installed":      "installed/pango/1.40.6",
     "Source":         "src/pango/1.40.6/pango-1.40.6.tar.xz",

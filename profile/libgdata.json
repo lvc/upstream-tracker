@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "0.17.9",
+    "Installed":      "installed/libgdata/0.17.9",
+    "Source":         "src/libgdata/0.17.9/libgdata-0.17.9.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.17.8",
     "Installed":      "installed/libgdata/0.17.8",
     "Source":         "src/libgdata/0.17.8/libgdata-0.17.8.tar.xz",

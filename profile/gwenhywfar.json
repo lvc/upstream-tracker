@@ -13,6 +13,26 @@
 
   "Versions": [
   {
+    "Number":         "4.18.0",
+    "Installed":      "installed/gwenhywfar/4.18.0",
+    "Source":         "src/gwenhywfar/4.18.0/gwenhywfar-4.18.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.17.0",
+    "Installed":      "installed/gwenhywfar/4.17.0",
+    "Source":         "src/gwenhywfar/4.17.0/gwenhywfar-4.17.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "4.16.0beta",
     "Installed":      "installed/gwenhywfar/4.16.0beta",
     "Source":         "src/gwenhywfar/4.16.0beta/gwenhywfar-4.16.0beta.tar.gz",
@@ -20,7 +40,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "4.15.3",

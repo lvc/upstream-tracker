@@ -15,6 +15,26 @@
 
   "Versions": [
   {
+    "Number":         "4.6.7",
+    "Installed":      "installed/samba/4.6.7",
+    "Source":         "src/samba/4.6.7/samba-4.6.7.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.6",
+    "Installed":      "installed/samba/4.6.6",
+    "Source":         "src/samba/4.6.6/samba-4.6.6.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "4.6.5",
     "Installed":      "installed/samba/4.6.5",
     "Source":         "src/samba/4.6.5/samba-4.6.5.tar.gz",
@@ -68,6 +88,26 @@
     "Number":         "4.6.0",
     "Installed":      "installed/samba/4.6.0",
     "Source":         "src/samba/4.6.0/samba-4.6.0.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.12",
+    "Installed":      "installed/samba/4.5.12",
+    "Source":         "src/samba/4.5.12/samba-4.5.12.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.5.11",
+    "Installed":      "installed/samba/4.5.11",
+    "Source":         "src/samba/4.5.11/samba-4.5.11.tar.gz",
     "Changelog":      "WHATSNEW.txt",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
@@ -158,6 +198,16 @@
     "Number":         "4.5.2",
     "Installed":      "installed/samba/4.5.2",
     "Source":         "src/samba/4.5.2/samba-4.5.2.tar.gz",
+    "Changelog":      "WHATSNEW.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.15",
+    "Installed":      "installed/samba/4.4.15",
+    "Source":         "src/samba/4.4.15/samba-4.4.15.tar.gz",
     "Changelog":      "WHATSNEW.txt",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

@@ -1,0 +1,84 @@
+{
+  "Name":           "cpputest",
+  "Title":          "CppUTest",
+  "SourceUrl":      "https://github.com/cpputest/cpputest/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "Autotools",
+  "BuildShared":    "On",
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+  "Soname":         "Off",
+
+  "Versions": [
+  {
+    "Number":         "3.8",
+    "Installed":      "installed/cpputest/3.8",
+    "Source":         "src/cpputest/3.8/cpputest-3.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7.2",
+    "Installed":      "installed/cpputest/3.7.2",
+    "Source":         "src/cpputest/3.7.2/cpputest-3.7.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7.1",
+    "Installed":      "installed/cpputest/3.7.1",
+    "Source":         "src/cpputest/3.7.1/cpputest-3.7.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7",
+    "Installed":      "installed/cpputest/3.7",
+    "Source":         "src/cpputest/3.7/cpputest-3.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6",
+    "Installed":      "installed/cpputest/3.6",
+    "Source":         "src/cpputest/3.6/cpputest-3.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.5",
+    "Installed":      "installed/cpputest/3.5",
+    "Source":         "src/cpputest/3.5/cpputest-3.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.4",
+    "Installed":      "installed/cpputest/3.4",
+    "Source":         "src/cpputest/3.4/cpputest-3.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "3.5.5",
+    "Installed":      "installed/pciutils/3.5.5",
+    "Source":         "src/pciutils/3.5.5/pciutils-3.5.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.5.4",
     "Installed":      "installed/pciutils/3.5.4",
     "Source":         "src/pciutils/3.5.4/pciutils-3.5.4.tar.gz",

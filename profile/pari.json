@@ -12,6 +12,16 @@
 
   "Versions": [
   {
+    "Number":         "2.9.3",
+    "Installed":      "installed/pari/2.9.3",
+    "Source":         "src/pari/2.9.3/pari-2.9.3.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.9.2",
     "Installed":      "installed/pari/2.9.2",
     "Source":         "src/pari/2.9.2/pari-2.9.2.tar.gz",

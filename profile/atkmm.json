@@ -4,11 +4,21 @@
   "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/atkmm/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "CXX=/home/Soft/GCC-5.1/bin/g++ PKG_CONFIG_PATH={INSTALL_ROOT}/glibmm/2.53.1.1/lib/pkgconfig:{INSTALL_ROOT}/libsigc++/2.99.7/lib/pkgconfig:{INSTALL_ROOT}/glib/2.52.0/lib/pkgconfig",
+  "Configure":      "CXX=/home/Soft/GCC-5.1/bin/g++ PKG_CONFIG_PATH={INSTALL_ROOT}/glibmm/2.55.1/lib/pkgconfig:{INSTALL_ROOT}/libsigc++/2.99.7/lib/pkgconfig:{INSTALL_ROOT}/glib/2.53.6/lib/pkgconfig",
   "GraphFewXTics":  "On",
   "HeadersDiff":    "Off",
 
   "Versions": [
+  {
+    "Number":         "2.25.4",
+    "Installed":      "installed/atkmm/2.25.4",
+    "Source":         "src/atkmm/2.25.4/atkmm-2.25.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "2.25.2",
     "Installed":      "installed/atkmm/2.25.2",

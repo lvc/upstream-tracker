@@ -3,11 +3,21 @@
   "SourceUrl":      "https://dl.matroska.org/downloads/libebml/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "BuildScript":    "build_script/libebml.sh",
+  "BuildScript1":   "build_script/libebml.sh",
   "HeadersDiff":    "Off",
   "MinimalVersion": "0.7.8",
 
   "Versions": [
+  {
+    "Number":         "1.3.5",
+    "Installed":      "installed/libebml/1.3.5",
+    "Source":         "src/libebml/1.3.5/libebml-1.3.5.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "1.3.4",
     "Installed":      "installed/libebml/1.3.4",

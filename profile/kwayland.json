@@ -11,6 +11,26 @@
 
   "Versions": [
   {
+    "Number":         "5.37.0",
+    "Installed":      "installed/kwayland/5.37.0",
+    "Source":         "src/kwayland/5.37.0/kwayland-5.37.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.36.0",
+    "Installed":      "installed/kwayland/5.36.0",
+    "Source":         "src/kwayland/5.36.0/kwayland-5.36.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "5.35.0",
     "Installed":      "installed/kwayland/5.35.0",
     "Source":         "src/kwayland/5.35.0/kwayland-5.35.0.tar.xz",

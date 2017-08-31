@@ -13,10 +13,31 @@
   "LatestMicro":    "On",
   "LocalBuild":     "On",
   "MinimalVersion": "6.00.02",
-  "RegenDump":      "Off",
+  "RegenDump":      "On",
   "Soname":         "Off",
 
   "Versions": [
+  {
+    "Number":         "6.10.04",
+    "Installed":      "installed/root/6.10.04",
+    "Source":         "src/root/6.10.04/root_v6.10.04.source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.10.02",
+    "Installed":      "installed/root/6.10.02",
+    "Source":         "src/root/6.10.02/root_v6.10.02.source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
   {
     "Number":         "6.10.00",
     "Installed":      "installed/root/6.10.00",
@@ -25,7 +46,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "6.09.02",

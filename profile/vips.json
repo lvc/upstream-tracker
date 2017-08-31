@@ -12,6 +12,36 @@
 
   "Versions": [
   {
+    "Number":         "8.6.0-alpha1",
+    "Installed":      "installed/vips/8.6.0-alpha1",
+    "Source":         "src/vips/8.6.0-alpha1/vips-8.6.0-alpha1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.5.8",
+    "Installed":      "installed/vips/8.5.8",
+    "Source":         "src/vips/8.5.8/vips-8.5.8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.5.7",
+    "Installed":      "installed/vips/8.5.7",
+    "Source":         "src/vips/8.5.7/vips-8.5.7.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "8.5.6",
     "Installed":      "installed/vips/8.5.6",
     "Source":         "src/vips/8.5.6/vips-8.5.6.tar.gz",

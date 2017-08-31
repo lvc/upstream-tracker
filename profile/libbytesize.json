@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "0.11",
+    "Installed":      "installed/libbytesize/0.11",
+    "Source":         "src/libbytesize/0.11/libbytesize-0.11.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.10",
     "Installed":      "installed/libbytesize/0.10",
     "Source":         "src/libbytesize/0.10/libbytesize-0.10.tar.gz",

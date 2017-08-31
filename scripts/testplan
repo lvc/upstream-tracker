@@ -7,6 +7,7 @@ antlr
 apr
 apt
 aqbanking
+arpack-ng
 assimp
 at-spi2-atk
 at-spi2-core
@@ -16,6 +17,7 @@ attica
 audit
 augeas
 avogadro
+babeltrace
 babl
 bctoolbox
 bde
@@ -54,6 +56,8 @@ cogl
 colord
 corosync
 cpl
+cpputest
+criterion
 criu
 cryptopp
 cryptsetup
@@ -97,6 +101,8 @@ fmt
 fontconfig
 frame
 freeglut
+freeradius-client
+freeradius-server
 freetds
 freetype
 freexl
@@ -130,7 +136,6 @@ glfw
 glib
 glibc
 glibmm
-globus-toolkit
 glog
 gloox
 glpk
@@ -245,6 +250,7 @@ libchipcard
 libconfig
 libconfuse
 libcouchbase
+libcsptr
 libcutl
 libcxx
 libcxxabi
@@ -273,6 +279,7 @@ libfastjson
 libffi
 libfixposix
 libftdi
+libfuse
 libgadu
 libgcrypt
 libgd
@@ -307,6 +314,7 @@ liblo
 liblognorm
 liblouis
 liblxqt
+libmad
 libmbim
 libmicrohttpd
 libmng
@@ -321,11 +329,13 @@ libnotify
 libodb
 libogg
 libosip2
+libosmocore
 libpcap
 libpciaccess
 libpfm
 libphonenumber
 libpng
+libpqxx
 libpri
 libproxy
 libpst
@@ -334,6 +344,7 @@ libqmi
 libqtxdg
 libratbag
 libraw
+librdkafka
 librelp
 librepo
 libreport
@@ -399,6 +410,7 @@ linux-pam
 lksctp-tools
 llvm
 llvm_libunwind
+llvm_openmp
 lmdb
 log4c
 log4cplus
@@ -410,16 +422,19 @@ luceneplusplus
 lvm2
 lxc
 lz4
+lzo
 maliit
 matio
 mbedtls
 mediastreamer
 metis
+minilzo
 miniupnpc
 modemmanager
 modemmanager-qt
 mongo-c-driver
 mongo-cxx-driver
+mosquitto
 motif
 mpc
 mpfr
@@ -431,6 +446,8 @@ mupdf
 musl
 mysql++
 nana
+nanomsg
+nanopb
 nco
 ncurses
 neon
@@ -526,6 +543,7 @@ radare2
 re2
 readline
 rest
+rocksdb
 root
 rpm
 rpm5
@@ -546,6 +564,7 @@ shiboken
 simgear
 slang
 smpeg
+snappy
 soci
 softfloat
 solid
@@ -622,3 +641,4 @@ zimlib
 ziparchive
 zlib
 zrtpcpp
+zstd

@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "1.2",
+    "Installed":      "installed/rpmalloc/1.2",
+    "Source":         "src/rpmalloc/1.2/rpmalloc-1.2.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.1",
     "Installed":      "installed/rpmalloc/1.1",
     "Source":         "src/rpmalloc/1.1/rpmalloc-1.1.tar.gz",

@@ -9,9 +9,43 @@
   "PostInstall":    "rm -fr {INSTALL_TO}/lib/qgis",
   "HeadersDiff":    "Off",
   "LatestMicro":    "On",
+  "Make":           "-j4",
   "MinimalVersion": "1.8.0",
+  "RegenDump":      "On",
 
   "Versions": [
+  {
+    "Number":         "2.18.12",
+    "Installed":      "installed/qgis/2.18.12",
+    "Source":         "src/qgis/2.18.12/qgis-2.18.12.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.18.11",
+    "Installed":      "installed/qgis/2.18.11",
+    "Source":         "src/qgis/2.18.11/qgis-2.18.11.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.18.10",
+    "Installed":      "installed/qgis/2.18.10",
+    "Source":         "src/qgis/2.18.10/qgis-2.18.10.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
   {
     "Number":         "2.18.9",
     "Installed":      "installed/qgis/2.18.9",
@@ -20,7 +54,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "2.16.3",
@@ -33,6 +68,38 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "2.14.18",
+    "Installed":      "installed/qgis/2.14.18",
+    "Source":         "src/qgis/2.14.18/qgis-2.14.18.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.14.17",
+    "Installed":      "installed/qgis/2.14.17",
+    "Source":         "src/qgis/2.14.17/qgis-2.14.17.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.14.16",
+    "Installed":      "installed/qgis/2.14.16",
+    "Source":         "src/qgis/2.14.16/qgis-2.14.16.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "2.14.15",
     "Installed":      "installed/qgis/2.14.15",
     "Source":         "src/qgis/2.14.15/qgis-2.14.15.tar.bz2",
@@ -40,7 +107,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "2.12.3",

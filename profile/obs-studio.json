@@ -11,6 +11,36 @@
 
   "Versions": [
   {
+    "Number":         "20.0.1",
+    "Installed":      "installed/obs-studio/20.0.1",
+    "Source":         "src/obs-studio/20.0.1/obs-studio-20.0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "20.0.0",
+    "Installed":      "installed/obs-studio/20.0.0",
+    "Source":         "src/obs-studio/20.0.0/obs-studio-20.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "19.0.3",
+    "Installed":      "installed/obs-studio/19.0.3",
+    "Source":         "src/obs-studio/19.0.3/obs-studio-19.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "19.0.2",
     "Installed":      "installed/obs-studio/19.0.2",
     "Source":         "src/obs-studio/19.0.2/obs-studio-19.0.2.tar.gz",

@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "0.6.71",
+    "Installed":      "installed/libpst/0.6.71",
+    "Source":         "src/libpst/0.6.71/libpst-0.6.71.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.6.70",
     "Installed":      "installed/libpst/0.6.70",
     "Source":         "src/libpst/0.6.70/libpst-0.6.70.tar.gz",

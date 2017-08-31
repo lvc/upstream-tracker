@@ -10,6 +10,26 @@
 
   "Versions": [
   {
+    "Number":         "10.5.0",
+    "Installed":      "installed/ntl/10.5.0",
+    "Source":         "src/ntl/10.5.0/ntl-10.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.4.0",
+    "Installed":      "installed/ntl/10.4.0",
+    "Source":         "src/ntl/10.4.0/ntl-10.4.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "10.3.0",
     "Installed":      "installed/ntl/10.3.0",
     "Source":         "src/ntl/10.3.0/ntl-10.3.0.tar.gz",

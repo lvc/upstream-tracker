@@ -13,6 +13,27 @@
 
   "Versions": [
   {
+    "Number":         "4.7.0",
+    "Installed":      "installed/xrootd/4.7.0",
+    "Source":         "src/xrootd/4.7.0/xrootd-4.7.0.tar.gz",
+    "Changelog":      "docs/ReleaseNotes.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.7.0-rc1",
+    "Installed":      "installed/xrootd/4.7.0-rc1",
+    "Source":         "src/xrootd/4.7.0-rc1/xrootd-4.7.0-rc1.tar.gz",
+    "Changelog":      "docs/ReleaseNotes.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "4.6.1",
     "Installed":      "installed/xrootd/4.6.1",
     "Source":         "src/xrootd/4.6.1/xrootd-4.6.1.tar.gz",

@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         "1.8.5",
+    "Installed":      "installed/textparser/1.8.5",
+    "Source":         "src/textparser/1.8.5/textparser-1.8.5.tar.gz",
+    "Changelog":      "ChangeLog.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.8.4",
     "Installed":      "installed/textparser/1.8.4",
     "Source":         "src/textparser/1.8.4/textparser-1.8.4.tar.gz",
@@ -18,7 +28,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "1.8.2",

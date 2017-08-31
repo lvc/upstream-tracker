@@ -31,7 +31,8 @@
 ##################################################################
 use Getopt::Long;
 Getopt::Long::Configure ("posix_default", "no_ignore_case", "permute");
-use File::Basename qw(dirname);
+use File::Basename qw(dirname basename);
+use File::Temp qw(tempdir);
 use Cwd qw(cwd);
 use strict;
 
@@ -40,6 +41,7 @@ my $Testplan_Init = "scripts/testplan";
 my $HostAddr = undef;
 my $HostDir = undef;
 
+my $TMP_DIR = tempdir(CLEANUP=>1);
 my $ORIG_DIR = cwd();
 my $JREPORTS = "abi-reports/report";
 
@@ -48,7 +50,8 @@ my %Opt;
 GetOptions(
     "fast!" => \$Opt{"Fast"}, # 3 times faster but 3 times more web traffic
     "json!" => \$Opt{"Json"},
-    "index-only!" => \$Opt{"IndexOnly"}
+    "index-only!" => \$Opt{"IndexOnly"},
+    "renew!" => \$Opt{"Renew"}
 ) or exit(1);
 
 my $Target = undef;
@@ -95,12 +98,14 @@ sub sendPackage($)
         return;
     }
     
+    my $Name = basename($Pkg);
+    
     system("scp $Pkg $HostAddr:$HostDir");
     if($?) {
         print STDERR "ERROR: failed to send package\n";
     }
     
-    system("ssh $HostAddr \"cd $HostDir && tar -xf $Pkg && rm -f $Pkg\"");
+    system("ssh $HostAddr \"cd $HostDir && tar -xf $Name && rm -f $Name\"");
     if($?) {
         print STDERR "ERROR: failed to extract package\n";
     }
@@ -117,7 +122,7 @@ sub sendFiles(@)
         ($Ext, $Opt) = ("tgz", "czf");
     }
     
-    my $Pkg = "update.package.$Ext";
+    my $Pkg = $TMP_DIR."/update.package.$Ext";
     system("tar -$Opt $Pkg ".join(" ", @Files)." --exclude='*.json'");
     
     sendPackage($Pkg);
@@ -147,18 +152,17 @@ sub scenario()
     
     if(defined $Target)
     {
-        if(not grep {$_ eq $Target} @List_F)
-        {
+        if(not grep {$_ eq $Target} @List_F) {
             print STDERR "WARNING: the library \'$Target\' is not presented in the testplan\n";
-            
-            if(not -d "timeline/".$Target)
-            {
-                print STDERR "ERROR: there is no report for \'$Target\'\n";
-                exit(1);
-            }
-            
-            @List_F = ($Target);
         }
+        
+        if(not -d "timeline/".$Target)
+        {
+            print STDERR "ERROR: there is no report for \'$Target\'\n";
+            exit(1);
+        }
+        
+        @List_F = ($Target);
     }
     
     foreach my $L (@List_F)
@@ -200,6 +204,10 @@ sub scenario()
             if(-d "rss/$L") {
                 push(@Files, "rss/$L");
             }
+        }
+        
+        if($Opt{"Renew"}) {
+            system("ssh $HostAddr \"cd $HostDir && rm -fr ".join(" ", @Files)." \"");
         }
         
         sendFiles(@Files);

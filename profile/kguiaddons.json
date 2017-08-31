@@ -11,6 +11,26 @@
 
   "Versions": [
   {
+    "Number":         "5.37.0",
+    "Installed":      "installed/kguiaddons/5.37.0",
+    "Source":         "src/kguiaddons/5.37.0/kguiaddons-5.37.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.36.0",
+    "Installed":      "installed/kguiaddons/5.36.0",
+    "Source":         "src/kguiaddons/5.36.0/kguiaddons-5.36.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "5.35.0",
     "Installed":      "installed/kguiaddons/5.35.0",
     "Source":         "src/kguiaddons/5.35.0/kguiaddons-5.35.0.tar.xz",

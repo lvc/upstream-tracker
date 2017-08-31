@@ -7,6 +7,16 @@
 
   "Versions": [
   {
+    "Number":         "0.99.6",
+    "Installed":      "installed/libfastjson/0.99.6",
+    "Source":         "src/libfastjson/0.99.6/libfastjson-0.99.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.99.5",
     "Installed":      "installed/libfastjson/0.99.5",
     "Source":         "src/libfastjson/0.99.5/libfastjson-0.99.5.tar.gz",

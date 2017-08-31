@@ -4,7 +4,7 @@
   "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/gnome-online-accounts/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/gtk+/3.22.15/lib/pkgconfig:{INSTALL_ROOT}/glib/2.51.0/lib/pkgconfig:{INSTALL_ROOT}/pango/1.40.3/lib/pkgconfig:{INSTALL_ROOT}/atk/2.22.0/lib/pkgconfig:{INSTALL_ROOT}/wayland/1.13.0/lib/pkgconfig:/home/Soft/wayland-protocols-1.7/share/pkgconfig/:/home/Soft/webkitgtk-2.16.0/lib64/pkgconfig/",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/gtk+/3.22.15/lib/pkgconfig:{INSTALL_ROOT}/glib/2.53.3/lib/pkgconfig:{INSTALL_ROOT}/pango/1.40.3/lib/pkgconfig:{INSTALL_ROOT}/atk/2.22.0/lib/pkgconfig:{INSTALL_ROOT}/wayland/1.13.0/lib/pkgconfig:/home/Soft/wayland-protocols-1.7/share/pkgconfig/:/home/Soft/webkitgtk-2.16.0/lib64/pkgconfig/",
   "SkipObjects":    [ "web-extensions/" ],
   "HeadersDiff":    "Off",
   "MakeGlobal":     "LD_LIBRARY_PATH='{INSTALL_ROOT}/wayland/1.13.0/lib'",
@@ -12,6 +12,46 @@
   "NumericBeta":    "On",
 
   "Versions": [
+  {
+    "Number":         "3.25.90",
+    "Installed":      "installed/gnome-online-accounts/3.25.90",
+    "Source":         "src/gnome-online-accounts/3.25.90/gnome-online-accounts-3.25.90.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.25.4",
+    "Installed":      "installed/gnome-online-accounts/3.25.4",
+    "Source":         "src/gnome-online-accounts/3.25.4/gnome-online-accounts-3.25.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.25.3",
+    "Installed":      "installed/gnome-online-accounts/3.25.3",
+    "Source":         "src/gnome-online-accounts/3.25.3/gnome-online-accounts-3.25.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.24.2",
+    "Installed":      "installed/gnome-online-accounts/3.24.2",
+    "Source":         "src/gnome-online-accounts/3.24.2/gnome-online-accounts-3.24.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "3.24.1",
     "Installed":      "installed/gnome-online-accounts/3.24.1",
@@ -46,6 +86,16 @@
     "Number":         "3.23.3",
     "Installed":      "installed/gnome-online-accounts/3.23.3",
     "Source":         "src/gnome-online-accounts/3.23.3/gnome-online-accounts-3.23.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.22.6",
+    "Installed":      "installed/gnome-online-accounts/3.22.6",
+    "Source":         "src/gnome-online-accounts/3.22.6/gnome-online-accounts-3.22.6.tar.xz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
@@ -136,6 +186,16 @@
     "Number":         "3.21.1",
     "Installed":      "installed/gnome-online-accounts/3.21.1",
     "Source":         "src/gnome-online-accounts/3.21.1/gnome-online-accounts-3.21.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.20.8",
+    "Installed":      "installed/gnome-online-accounts/3.20.8",
+    "Source":         "src/gnome-online-accounts/3.20.8/gnome-online-accounts-3.20.8.tar.xz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

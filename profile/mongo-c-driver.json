@@ -2,7 +2,6 @@
   "Name":           "mongo-c-driver",
   "Title":          "MongoDB C Driver",
   "SourceUrl":      "https://github.com/mongodb/mongo-c-driver/tags",
-  "Git":            "https://github.com/mongodb/mongo-c-driver.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "BuildSystem":    "CMake",
@@ -13,16 +12,6 @@
   "HeadersDiff":    "Off",
 
   "Versions": [
-  {
-    "Number":         "current",
-    "Installed":      "installed/mongo-c-driver/current",
-    "Source":         "src/mongo-c-driver/current",
-    "Changelog":      "On",
-    "HeadersDiff":    "Off",
-    "PkgDiff":        "Off",
-    "ABIView":        "Off",
-    "ABIDiff":        "Off"
-  },
   {
     "Number":         "1.6.3",
     "Installed":      "installed/mongo-c-driver/1.6.3",

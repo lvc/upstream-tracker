@@ -7,8 +7,19 @@
   "Configure":      "--disable-celt051",
   "HeadersDiff":    "Off",
   "MinimalVersion": "0.8.0",
+  "Note":           "Requires latest spice-protocol in /usr",
 
   "Versions": [
+  {
+    "Number":         "0.13.90",
+    "Installed":      "installed/spice/0.13.90",
+    "Source":         "src/spice/0.13.90/spice-0.13.90.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "0.13.3",
     "Installed":      "installed/spice/0.13.3",

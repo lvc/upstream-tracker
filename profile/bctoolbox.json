@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "0.6.0",
+    "Installed":      "installed/bctoolbox/0.6.0",
+    "Source":         "src/bctoolbox/0.6.0/bctoolbox-0.6.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.5.1",
     "Installed":      "installed/bctoolbox/0.5.1",
     "Source":         "src/bctoolbox/0.5.1/bctoolbox-0.5.1.tar.gz",

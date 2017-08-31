@@ -59,7 +59,9 @@ GetOptions(
     "rss!" => \$Opt{"Rss"},
     "sponsors!" => \$Opt{"Sponsors"},
     "all!" => \$Opt{"All"},
-    "refresh-index!" => \$Opt{"RefreshIndex"}
+    "refresh-index!" => \$Opt{"RefreshIndex"},
+    "compress!" => \$Opt{"Compress"},
+    "clean-unused!" => \$Opt{"CleanUnused"}
 ) or exit(1);
 
 sub getDate()
@@ -134,7 +136,7 @@ sub runUpdate($$)
     
     system("abi-tracker -build $Opts profile/$Library.json >>$Log 2>&1");
     
-    if(-f "graph/$Library/graph.png") {
+    if(-d "graph/$Library") {
         system("abi-tracker -build $Opts -target graph profile/$Library.json >>$Log 2>&1");
     }
     
@@ -145,6 +147,20 @@ sub runUpdate($$)
     if(defined $Opt{"Timing"}) {
         appendFile($Log, "Time spent: ".showDelta(time() - $STime)."\n");
     }
+}
+
+sub cleanUnused($)
+{
+    my $Library = $_[0];
+    print "Clean unused data of $Library\n";
+    system("abi-tracker -clean-unused -force profile/$Library.json >/dev/null 2>&1");
+}
+
+sub compressData($)
+{
+    my $Library = $_[0];
+    print "Compressing $Library\n";
+    system("abi-tracker -build -target compress profile/$Library.json >/dev/null 2>&1");
 }
 
 sub refreshIndex($)
@@ -159,7 +175,7 @@ sub refreshIndex($)
         $Opts .= " -sponsors ".$SPONSORS_FILE;
     }
     
-    if(-f "graph/$Library/graph.png") {
+    if(-d "graph/$Library") {
         system("abi-tracker -build $Opts -target graph profile/$Library.json >/dev/null 2>&1");
     }
     else {
@@ -266,7 +282,7 @@ sub scenario()
     {
         $LogPath{$Cn} = $LogDir."/LOG-".$Date.".".$Cn;
         
-        if(not $Opt{"RefreshIndex"}) {
+        if(not $Opt{"RefreshIndex"} and not $Opt{"Compress"} and not $Opt{"CleanUnused"}) {
             unlink($LogPath{$Cn});
         }
         
@@ -283,7 +299,13 @@ sub scenario()
             {
                 foreach my $L (@Ls)
                 {
-                    if($Opt{"RefreshIndex"}) {
+                    if($Opt{"CleanUnused"}) {
+                        cleanUnused($L);
+                    }
+                    elsif($Opt{"Compress"}) {
+                        compressData($L);
+                    }
+                    elsif($Opt{"RefreshIndex"}) {
                         refreshIndex($L);
                     }
                     else {
@@ -292,7 +314,7 @@ sub scenario()
                 }
             }
             
-            if(not $Opt{"RefreshIndex"})
+            if(not $Opt{"RefreshIndex"} and not $Opt{"Compress"} and not $Opt{"CleanUnused"})
             {
                 if(defined $Opt{"Timing"}) {
                     appendFile($LogPath{$Cn}, "Done in: ".showDelta(time() - $STime)."\n");

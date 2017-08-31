@@ -15,6 +15,26 @@
 
   "Versions": [
   {
+    "Number":         "3.32",
+    "Installed":      "installed/nss/3.32",
+    "Source":         "src/nss/3.32/nss-3.32.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.31.1",
+    "Installed":      "installed/nss/3.31.1",
+    "Source":         "src/nss/3.31.1/nss-3.31.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.31",
     "Installed":      "installed/nss/3.31",
     "Source":         "src/nss/3.31/nss-3.31.tar.gz",

@@ -4,6 +4,7 @@
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "HeadersDiff":    "Off",
+  "SkipVersions":   [ "2.5.2" ],
 
   "Versions": [
   {

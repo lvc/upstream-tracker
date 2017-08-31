@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "1.51",
+    "Installed":      "installed/imgui/1.51",
+    "Source":         "src/imgui/1.51/imgui-1.51.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.50",
     "Installed":      "installed/imgui/1.50",
     "Source":         "src/imgui/1.50/imgui-1.50.tar.gz",

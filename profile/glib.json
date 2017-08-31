@@ -20,6 +20,46 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "2.53.6",
+    "Installed":      "installed/glib/2.53.6",
+    "Source":         "src/glib/2.53.6/glib-2.53.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.53.5",
+    "Installed":      "installed/glib/2.53.5",
+    "Source":         "src/glib/2.53.5/glib-2.53.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.53.4",
+    "Installed":      "installed/glib/2.53.4",
+    "Source":         "src/glib/2.53.4/glib-2.53.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.53.3",
+    "Installed":      "installed/glib/2.53.3",
+    "Source":         "src/glib/2.53.3/glib-2.53.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.53.2",
     "Installed":      "installed/glib/2.53.2",
     "Source":         "src/glib/2.53.2/glib-2.53.2.tar.xz",
@@ -33,6 +73,16 @@
     "Number":         "2.53.1",
     "Installed":      "installed/glib/2.53.1",
     "Source":         "src/glib/2.53.1/glib-2.53.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.52.3",
+    "Installed":      "installed/glib/2.52.3",
+    "Source":         "src/glib/2.52.3/glib-2.52.3.tar.xz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",

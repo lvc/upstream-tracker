@@ -1,0 +1,176 @@
+{
+  "Name":           "freeradius-server",
+  "Title":          "FreeRADIUS Server",
+  "SourceUrl":      "ftp://ftp.freeradius.org/pub/freeradius/",
+  "SourceUrlDepth": "1",
+  "OldSourceUrl":   "ftp://ftp.freeradius.org/pub/freeradius/old/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "autoreconf --force --verbose --install",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/rlm_* {INSTALL_TO}/lib/proto_*",
+  "SkipObjects":    [ "libfreeradius-dhcp.so" ],
+  "HeadersDiff":    "Off",
+  "Soname":         "Off",
+
+  "Versions": [
+  {
+    "Number":         "3.0.15",
+    "Installed":      "installed/freeradius-server/3.0.15",
+    "Source":         "src/freeradius-server/3.0.15/freeradius-server-3.0.15.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.14",
+    "Installed":      "installed/freeradius-server/3.0.14",
+    "Source":         "src/freeradius-server/3.0.14/freeradius-server-3.0.14.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.13",
+    "Installed":      "installed/freeradius-server/3.0.13",
+    "Source":         "src/freeradius-server/3.0.13/freeradius-server-3.0.13.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.12",
+    "Installed":      "installed/freeradius-server/3.0.12",
+    "Source":         "src/freeradius-server/3.0.12/freeradius-server-3.0.12.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.11",
+    "Installed":      "installed/freeradius-server/3.0.11",
+    "Source":         "src/freeradius-server/3.0.11/freeradius-server-3.0.11.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.10",
+    "Installed":      "installed/freeradius-server/3.0.10",
+    "Source":         "src/freeradius-server/3.0.10/freeradius-server-3.0.10.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.9",
+    "Installed":      "installed/freeradius-server/3.0.9",
+    "Source":         "src/freeradius-server/3.0.9/freeradius-server-3.0.9.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.8",
+    "Installed":      "installed/freeradius-server/3.0.8",
+    "Source":         "src/freeradius-server/3.0.8/freeradius-server-3.0.8.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.7",
+    "Installed":      "installed/freeradius-server/3.0.7",
+    "Source":         "src/freeradius-server/3.0.7/freeradius-server-3.0.7.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.6",
+    "Installed":      "installed/freeradius-server/3.0.6",
+    "Source":         "src/freeradius-server/3.0.6/freeradius-server-3.0.6.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.5",
+    "Installed":      "installed/freeradius-server/3.0.5",
+    "Source":         "src/freeradius-server/3.0.5/freeradius-server-3.0.5.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.4",
+    "Installed":      "installed/freeradius-server/3.0.4",
+    "Source":         "src/freeradius-server/3.0.4/freeradius-server-3.0.4.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.3",
+    "Installed":      "installed/freeradius-server/3.0.3",
+    "Source":         "src/freeradius-server/3.0.3/freeradius-server-3.0.3.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.2",
+    "Installed":      "installed/freeradius-server/3.0.2",
+    "Source":         "src/freeradius-server/3.0.2/freeradius-server-3.0.2.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.1",
+    "Installed":      "installed/freeradius-server/3.0.1",
+    "Source":         "src/freeradius-server/3.0.1/freeradius-server-3.0.1.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.0",
+    "Installed":      "installed/freeradius-server/3.0.0",
+    "Source":         "src/freeradius-server/3.0.0/freeradius-server-3.0.0.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

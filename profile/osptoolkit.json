@@ -7,6 +7,7 @@
   "BuildScript":    "build_script/osptoolkit.sh",
   "BuildShared":    "On",
   "HeadersDiff":    "Off",
+  "MinimalVersion": "4.0.0",
   "Soname":         "Off",
 
   "Versions": [

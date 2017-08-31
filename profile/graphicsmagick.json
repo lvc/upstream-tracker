@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "1.3.26",
+    "Installed":      "installed/graphicsmagick/1.3.26",
+    "Source":         "src/graphicsmagick/1.3.26/GraphicsMagick-1.3.26.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.3.25",
     "Installed":      "installed/graphicsmagick/1.3.25",
     "Source":         "src/graphicsmagick/1.3.25/GraphicsMagick-1.3.25.tar.xz",

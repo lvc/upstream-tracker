@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "3.2.1",
+    "Installed":      "installed/libconfuse/3.2.1",
+    "Source":         "src/libconfuse/3.2.1/libconfuse-3.2.1.tar.gz",
+    "Changelog":      "ChangeLog.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.2",
     "Installed":      "installed/libconfuse/3.2",
     "Source":         "src/libconfuse/3.2/libconfuse-3.2.tar.gz",

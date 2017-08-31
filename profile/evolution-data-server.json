@@ -2,7 +2,6 @@
   "Name":           "evolution-data-server",
   "Title":          "Evolution Data Server",
   "SourceUrl":      "https://github.com/GNOME/evolution-data-server/tags",
-  "Git":            "https://github.com/GNOME/evolution-data-server.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "PostInstall":    "rm -fr {INSTALL_TO}/lib/evolution-data-server/",
@@ -17,16 +16,6 @@
 
   "Versions": [
   {
-    "Number":         "current",
-    "Installed":      "installed/evolution-data-server/current",
-    "Source":         "src/evolution-data-server/current",
-    "Changelog":      "On",
-    "HeadersDiff":    "Off",
-    "PkgDiff":        "Off",
-    "ABIView":        "Off",
-    "ABIDiff":        "Off"
-  },
-  {
     "Number":         "3_25_1",
     "Installed":      "installed/evolution-data-server/3_25_1",
     "Source":         "src/evolution-data-server/3_25_1/EVOLUTION_DATA_SERVER_3_25_1.tar.gz",
@@ -37,6 +26,38 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "3_24_5",
+    "Installed":      "installed/evolution-data-server/3_24_5",
+    "Source":         "src/evolution-data-server/3_24_5/EVOLUTION_DATA_SERVER_3_24_5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_24_4",
+    "Installed":      "installed/evolution-data-server/3_24_4",
+    "Source":         "src/evolution-data-server/3_24_4/EVOLUTION_DATA_SERVER_3_24_4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "3_24_3",
+    "Installed":      "installed/evolution-data-server/3_24_3",
+    "Source":         "src/evolution-data-server/3_24_3/EVOLUTION_DATA_SERVER_3_24_3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "3_24_2",
     "Installed":      "installed/evolution-data-server/3_24_2",
     "Source":         "src/evolution-data-server/3_24_2/EVOLUTION_DATA_SERVER_3_24_2.tar.gz",
@@ -44,7 +65,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "3_24_1",

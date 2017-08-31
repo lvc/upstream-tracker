@@ -4,11 +4,22 @@
   "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/gtkmm/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "CXX=/home/Soft/GCC-5.1/bin/g++ --disable-documentation PKG_CONFIG_PATH={INSTALL_ROOT}/glibmm/2.53.2/lib/pkgconfig:{INSTALL_ROOT}/pangomm/2.41.3/lib/pkgconfig:{INSTALL_ROOT}/cairomm/1.15.3/lib/pkgconfig:{INSTALL_ROOT}/libsigc++/2.99.7/lib/pkgconfig:{INSTALL_ROOT}/pango/1.40.3/lib/pkgconfig:{INSTALL_ROOT}/gtk+/3.91.0/lib/pkgconfig:{INSTALL_ROOT}/glib/2.52.0/lib/pkgconfig:{INSTALL_ROOT}/atkmm/2.25.2/lib/pkgconfig:{INSTALL_ROOT}/atk/2.22.0/lib/pkgconfig:{INSTALL_ROOT}/gdk-pixbuf/2.36.0/lib/pkgconfig",
+  "Configure":      "CXX=/home/Soft/GCC-5.1/bin/g++ --disable-documentation PKG_CONFIG_PATH={INSTALL_ROOT}/glibmm/2.55.1/lib/pkgconfig:{INSTALL_ROOT}/pangomm/2.41.4/lib/pkgconfig:{INSTALL_ROOT}/cairomm/1.15.5/lib/pkgconfig:{INSTALL_ROOT}/libsigc++/2.99.7/lib/pkgconfig:{INSTALL_ROOT}/pango/1.40.3/lib/pkgconfig:{INSTALL_ROOT}/gtk+/3.91.2/lib/pkgconfig:{INSTALL_ROOT}/glib/2.53.6/lib/pkgconfig:{INSTALL_ROOT}/atkmm/2.25.4/lib/pkgconfig:{INSTALL_ROOT}/atk/2.22.0/lib/pkgconfig:{INSTALL_ROOT}/gdk-pixbuf/2.36.0/lib/pkgconfig:{INSTALL_ROOT}/wayland/1.13.0/lib/pkgconfig:/home/Soft/wayland-protocols-1.10/share/pkgconfig/",
   "HeadersDiff":    "Off",
+  "MakeGlobal":     "LD_LIBRARY_PATH={INSTALL_ROOT}/wayland/1.13.0/lib/",
   "MinimalVersion": "3.12.0",
 
   "Versions": [
+  {
+    "Number":         "3.91.2",
+    "Installed":      "installed/gtkmm/3.91.2",
+    "Source":         "src/gtkmm/3.91.2/gtkmm-3.91.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "3.89.5.1",
     "Installed":      "installed/gtkmm/3.89.5.1",

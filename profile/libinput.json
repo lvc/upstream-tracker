@@ -4,7 +4,7 @@
   "Git":            "http://anongit.freedesktop.org/git/wayland/libinput.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--disable-libwacom --disable-documentation --disable-tests",
+  "Configure":      "--disable-libwacom --disable-documentation --disable-tests --disable-debug-gui",
   "Changelog":      "Off",
   "Note":           "Requires libevdev-devel, libwacom-devel",
 
@@ -13,6 +13,46 @@
     "Number":         "current",
     "Installed":      "installed/libinput/current",
     "Source":         "src/libinput/current",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.1",
+    "Installed":      "installed/libinput/1.8.1",
+    "Source":         "src/libinput/1.8.1/libinput-1.8.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.0",
+    "Installed":      "installed/libinput/1.8.0",
+    "Source":         "src/libinput/1.8.0/libinput-1.8.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.902",
+    "Installed":      "installed/libinput/1.7.902",
+    "Source":         "src/libinput/1.7.902/libinput-1.7.902.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.901",
+    "Installed":      "installed/libinput/1.7.901",
+    "Source":         "src/libinput/1.7.901/libinput-1.7.901.tar.xz",
     "Changelog":      "Off",
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",

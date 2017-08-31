@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "1.15.5",
+    "Installed":      "installed/cairomm/1.15.5",
+    "Source":         "src/cairomm/1.15.5/cairomm-1.15.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.15.3",
     "Installed":      "installed/cairomm/1.15.3",
     "Source":         "src/cairomm/1.15.3/cairomm-1.15.3.tar.gz",

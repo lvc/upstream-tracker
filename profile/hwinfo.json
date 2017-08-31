@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "21.47",
+    "Installed":      "installed/hwinfo/21.47",
+    "Source":         "src/hwinfo/21.47/hwinfo-21.47.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "21.46",
     "Installed":      "installed/hwinfo/21.46",
     "Source":         "src/hwinfo/21.46/hwinfo-21.46.tar.gz",

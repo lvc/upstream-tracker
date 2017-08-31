@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "4.11-beta1",
+    "Installed":      "installed/cgal/4.11-beta1",
+    "Source":         "src/cgal/4.11-beta1/CGAL-4.11-beta1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "4.10",
     "Installed":      "installed/cgal/4.10",
     "Source":         "src/cgal/4.10/CGAL-4.10.tar.gz",

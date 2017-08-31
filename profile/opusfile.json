@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "0.9",
+    "Installed":      "installed/opusfile/0.9",
+    "Source":         "src/opusfile/0.9/opusfile-0.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.8",
     "Installed":      "installed/opusfile/0.8",
     "Source":         "src/opusfile/0.8/opusfile-0.8.tar.gz",

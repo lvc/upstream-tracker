@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "0.1.10",
+    "Installed":      "installed/c-toxcore/0.1.10",
+    "Source":         "src/c-toxcore/0.1.10/c-toxcore-0.1.10.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.1.9",
     "Installed":      "installed/c-toxcore/0.1.9",
     "Source":         "src/c-toxcore/0.1.9/c-toxcore-0.1.9.tar.gz",

@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "0.28.0",
+    "Installed":      "installed/serd/0.28.0",
+    "Source":         "src/serd/0.28.0/serd-0.28.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.26.0",
     "Installed":      "installed/serd/0.26.0",
     "Source":         "src/serd/0.26.0/serd-0.26.0.tar.bz2",

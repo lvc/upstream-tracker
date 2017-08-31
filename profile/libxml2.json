@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "2.9.5-rc1",
+    "Installed":      "installed/libxml2/2.9.5-rc1",
+    "Source":         "src/libxml2/2.9.5-rc1/libxml2-2.9.5-rc1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.9.4",
     "Installed":      "installed/libxml2/2.9.4",
     "Source":         "src/libxml2/2.9.4/libxml2-2.9.4.tar.gz",

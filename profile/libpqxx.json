@@ -1,0 +1,276 @@
+{
+  "Name":           "libpqxx",
+  "SourceUrl":      "https://github.com/jtv/libpqxx/tags",
+  "OldSourceUrl":   "http://pqxx.org/download/software/libpqxx/",
+  "Git":            "https://github.com/jtv/libpqxx.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-documentation --disable-thread-safety",
+  "PreInstall":     "sed -i '1s/^/#include <stddef.h>\n#include <string.h>\n#include <stdlib.h>\n/' ./include/pqxx/compiler-internal.hxx",
+  "SkipHeaders":    [ "internal/" ],
+  "HeadersDiff":    "Off",
+  "OldPreInstall":  "sed -i '1s/^/#include <stddef.h>\n#include <string.h>\n#include <stdlib.h>\n/' ./include/pqxx/compiler.h include/pqxx/binarystring.hxx",
+  "VeryOldSourceUrl": "http://download.nust.na/pub2/openpkg1/sources/DST/postgresql/",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/libpqxx/current",
+    "Source":         "src/libpqxx/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.1.0",
+    "Installed":      "installed/libpqxx/5.1.0",
+    "Source":         "src/libpqxx/5.1.0/libpqxx-5.1.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.1",
+    "Installed":      "installed/libpqxx/5.0.1",
+    "Source":         "src/libpqxx/5.0.1/libpqxx-5.0.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.0",
+    "Installed":      "installed/libpqxx/5.0.0",
+    "Source":         "src/libpqxx/5.0.0/libpqxx-5.0.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.1",
+    "Installed":      "installed/libpqxx/4.0.1",
+    "Source":         "src/libpqxx/4.0.1/libpqxx-4.0.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0",
+    "Installed":      "installed/libpqxx/4.0",
+    "Source":         "src/libpqxx/4.0/libpqxx-4.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.1",
+    "Installed":      "installed/libpqxx/3.1.1",
+    "Source":         "src/libpqxx/3.1.1/libpqxx-3.1.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1",
+    "Installed":      "installed/libpqxx/3.1",
+    "Source":         "src/libpqxx/3.1/libpqxx-3.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.3",
+    "Installed":      "installed/libpqxx/3.0.3",
+    "Source":         "src/libpqxx/3.0.3/libpqxx-3.0.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.2",
+    "Installed":      "installed/libpqxx/3.0.2",
+    "Source":         "src/libpqxx/3.0.2/libpqxx-3.0.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.1",
+    "Installed":      "installed/libpqxx/3.0.1",
+    "Source":         "src/libpqxx/3.0.1/libpqxx-3.0.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0",
+    "Installed":      "installed/libpqxx/3.0",
+    "Source":         "src/libpqxx/3.0/libpqxx-3.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.9",
+    "Installed":      "installed/libpqxx/2.6.9",
+    "Source":         "src/libpqxx/2.6.9/libpqxx-2.6.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.8",
+    "Installed":      "installed/libpqxx/2.6.8",
+    "Source":         "src/libpqxx/2.6.8/libpqxx-2.6.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.7",
+    "Installed":      "installed/libpqxx/2.6.7",
+    "Source":         "src/libpqxx/2.6.7/libpqxx-2.6.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.6",
+    "Installed":      "installed/libpqxx/2.6.6",
+    "Source":         "src/libpqxx/2.6.6/libpqxx-2.6.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.5",
+    "Installed":      "installed/libpqxx/2.6.5",
+    "Source":         "src/libpqxx/2.6.5/libpqxx-2.6.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.4",
+    "Installed":      "installed/libpqxx/2.6.4",
+    "Source":         "src/libpqxx/2.6.4/libpqxx-2.6.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.3",
+    "Installed":      "installed/libpqxx/2.6.3",
+    "Source":         "src/libpqxx/2.6.3/libpqxx-2.6.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.2",
+    "Installed":      "installed/libpqxx/2.6.2",
+    "Source":         "src/libpqxx/2.6.2/libpqxx-2.6.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.1",
+    "Installed":      "installed/libpqxx/2.6.1",
+    "Source":         "src/libpqxx/2.6.1/libpqxx-2.6.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.5",
+    "Installed":      "installed/libpqxx/2.5.5",
+    "Source":         "src/libpqxx/2.5.5/libpqxx-2.5.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.4",
+    "Installed":      "installed/libpqxx/2.5.4",
+    "Source":         "src/libpqxx/2.5.4/libpqxx-2.5.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.3",
+    "Installed":      "installed/libpqxx/2.5.3",
+    "Source":         "src/libpqxx/2.5.3/libpqxx-2.5.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.3",
+    "Installed":      "installed/libpqxx/2.4.3",
+    "Source":         "src/libpqxx/2.4.3/libpqxx-2.4.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.1",
+    "Installed":      "installed/libpqxx/2.2.1",
+    "Source":         "src/libpqxx/2.2.1/libpqxx-2.2.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         "2.1.0",
+    "Installed":      "installed/glew/2.1.0",
+    "Source":         "src/glew/2.1.0/glew-2.1.0.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.0.0",
     "Installed":      "installed/glew/2.0.0",
     "Source":         "src/glew/2.0.0/glew-2.0.0.tgz",

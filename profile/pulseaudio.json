@@ -22,6 +22,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "10.99.1",
+    "Installed":      "installed/pulseaudio/10.99.1",
+    "Source":         "src/pulseaudio/10.99.1/pulseaudio-10.99.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "10.0",
     "Installed":      "installed/pulseaudio/10.0",
     "Source":         "src/pulseaudio/10.0/pulseaudio-10.0.tar.xz",

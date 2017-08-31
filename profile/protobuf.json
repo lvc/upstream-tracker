@@ -8,6 +8,59 @@
 
   "Versions": [
   {
+    "Number":         "3.4.0",
+    "Installed":      "installed/protobuf/3.4.0",
+    "Source":         "src/protobuf/3.4.0/protobuf-3.4.0.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.4.0rc3",
+    "Installed":      "installed/protobuf/3.4.0rc3",
+    "Source":         "src/protobuf/3.4.0rc3/protobuf-3.4.0rc3.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "3.4.0rc2",
+    "Installed":      "installed/protobuf/3.4.0rc2",
+    "Source":         "src/protobuf/3.4.0rc2/protobuf-3.4.0rc2.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "3.4.0rc1",
+    "Installed":      "installed/protobuf/3.4.0rc1",
+    "Source":         "src/protobuf/3.4.0rc1/protobuf-3.4.0rc1.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "3.3.2",
+    "Installed":      "installed/protobuf/3.3.2",
+    "Source":         "src/protobuf/3.3.2/protobuf-3.3.2.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.3.1",
     "Installed":      "installed/protobuf/3.3.1",
     "Source":         "src/protobuf/3.3.1/protobuf-3.3.1.tar.gz",

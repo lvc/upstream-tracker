@@ -12,6 +12,16 @@
 
   "Versions": [
   {
+    "Number":         "3.12.0",
+    "Installed":      "installed/alglib/3.12.0",
+    "Source":         "src/alglib/3.12.0/alglib-3.12.0.cpp.gpl.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.11.0",
     "Installed":      "installed/alglib/3.11.0",
     "Source":         "src/alglib/3.11.0/alglib-3.11.0.cpp.gpl.zip",

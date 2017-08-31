@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         "1.36.5",
+    "Installed":      "installed/libguestfs/1.36.5",
+    "Source":         "src/libguestfs/1.36.5/libguestfs-1.36.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.36.4",
     "Installed":      "installed/libguestfs/1.36.4",
     "Source":         "src/libguestfs/1.36.4/libguestfs-1.36.4.tar.gz",
@@ -18,7 +28,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "1.36.3",

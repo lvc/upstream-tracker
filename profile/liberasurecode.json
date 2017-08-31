@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "1.5.0",
+    "Installed":      "installed/liberasurecode/1.5.0",
+    "Source":         "src/liberasurecode/1.5.0/liberasurecode-1.5.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.4.0",
     "Installed":      "installed/liberasurecode/1.4.0",
     "Source":         "src/liberasurecode/1.4.0/liberasurecode-1.4.0.tar.gz",

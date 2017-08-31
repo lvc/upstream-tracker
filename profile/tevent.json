@@ -9,6 +9,26 @@
 
   "Versions": [
   {
+    "Number":         "0.9.33",
+    "Installed":      "installed/tevent/0.9.33",
+    "Source":         "src/tevent/0.9.33/tevent-0.9.33.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.32",
+    "Installed":      "installed/tevent/0.9.32",
+    "Source":         "src/tevent/0.9.32/tevent-0.9.32.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.9.31",
     "Installed":      "installed/tevent/0.9.31",
     "Source":         "src/tevent/0.9.31/tevent-0.9.31.tar.gz",

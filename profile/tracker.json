@@ -5,12 +5,56 @@
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "Configure":      "--disable-static --enable-minimal --without-bash-completion-dir PKG_CONFIG_PATH={INSTALL_ROOT}/libseccomp/2.3.2/lib/pkgconfig",
-  "PostInstall":    "rm -fr {INSTALL_TO}/lib/tracker-1.0/",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/tracker-1.0/ {INSTALL_TO}/lib/tracker-2.0/",
+  "SkipObjects":    [ "tracker-1.0/", "tracker-2.0/" ],
   "HeadersDiff":    "Off",
   "LatestMicro":    "On",
   "MinimalVersion": "0.17.0",
 
   "Versions": [
+  {
+    "Number":         "1.99.3",
+    "Installed":      "installed/tracker/1.99.3",
+    "Source":         "src/tracker/1.99.3/tracker-1.99.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.99.2",
+    "Installed":      "installed/tracker/1.99.2",
+    "Source":         "src/tracker/1.99.2/tracker-1.99.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.99.1",
+    "Installed":      "installed/tracker/1.99.1",
+    "Source":         "src/tracker/1.99.1/tracker-1.99.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.99.0",
+    "Installed":      "installed/tracker/1.99.0",
+    "Source":         "src/tracker/1.99.0/tracker-1.99.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
   {
     "Number":         "1.13.0",
     "Installed":      "installed/tracker/1.13.0",
@@ -22,6 +66,38 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.12.3",
+    "Installed":      "installed/tracker/1.12.3",
+    "Source":         "src/tracker/1.12.3/tracker-1.12.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.2",
+    "Installed":      "installed/tracker/1.12.2",
+    "Source":         "src/tracker/1.12.2/tracker-1.12.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.12.1",
+    "Installed":      "installed/tracker/1.12.1",
+    "Source":         "src/tracker/1.12.1/tracker-1.12.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "1.12.0",
     "Installed":      "installed/tracker/1.12.0",
     "Source":         "src/tracker/1.12.0/tracker-1.12.0.tar.xz",
@@ -29,7 +105,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "1.11.4",

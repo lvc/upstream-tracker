@@ -5,10 +5,31 @@
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "PostInstall":    "rm -fr {INSTALL_TO}/x86_64-pc-linux-gnu/",
+  "ClearInstalled": "Off",
   "HeadersDiff":    "Off",
   "MinimalVersion": "2.22",
 
   "Versions": [
+  {
+    "Number":         "2.29",
+    "Installed":      "installed/binutils/2.29",
+    "Source":         "src/binutils/2.29/binutils-2.29.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.28.1",
+    "Installed":      "installed/binutils/2.28.1",
+    "Source":         "src/binutils/2.28.1/binutils-2.28.1.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "2.28",
     "Installed":      "installed/binutils/2.28",

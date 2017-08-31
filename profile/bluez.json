@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "5.46",
+    "Installed":      "installed/bluez/5.46",
+    "Source":         "src/bluez/5.46/bluez-5.46.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "5.45",
     "Installed":      "installed/bluez/5.45",
     "Source":         "src/bluez/5.45/bluez-5.45.tar.xz",

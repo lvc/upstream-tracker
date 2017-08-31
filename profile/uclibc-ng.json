@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "1.0.26",
+    "Installed":      "installed/uclibc-ng/1.0.26",
+    "Source":         "src/uclibc-ng/1.0.26/uClibc-ng-1.0.26.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.0.25",
     "Installed":      "installed/uclibc-ng/1.0.25",
     "Source":         "src/uclibc-ng/1.0.25/uClibc-ng-1.0.25.tar.xz",

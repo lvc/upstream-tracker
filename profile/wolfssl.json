@@ -24,6 +24,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "3.12.0",
+    "Installed":      "installed/wolfssl/3.12.0",
+    "Source":         "src/wolfssl/3.12.0/wolfssl-3.12.0-stable.tar.gz",
+    "Changelog":      "README",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.11.0",
     "Installed":      "installed/wolfssl/3.11.0",
     "Source":         "src/wolfssl/3.11.0/wolfssl-3.11.0-stable.tar.gz",

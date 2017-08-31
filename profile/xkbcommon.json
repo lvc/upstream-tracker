@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "0.7.2",
+    "Installed":      "installed/xkbcommon/0.7.2",
+    "Source":         "src/xkbcommon/0.7.2/xkbcommon-0.7.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.7.1",
     "Installed":      "installed/xkbcommon/0.7.1",
     "Source":         "src/xkbcommon/0.7.1/xkbcommon-0.7.1.tar.gz",

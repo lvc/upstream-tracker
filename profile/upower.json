@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "0.99.5",
+    "Installed":      "installed/upower/0.99.5",
+    "Source":         "src/upower/0.99.5/upower-0.99.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.99.4",
     "Installed":      "installed/upower/0.99.4",
     "Source":         "src/upower/0.99.4/upower-0.99.4.tar.xz",

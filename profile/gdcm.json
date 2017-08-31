@@ -11,6 +11,46 @@
 
   "Versions": [
   {
+    "Number":         "2.8.2",
+    "Installed":      "installed/gdcm/2.8.2",
+    "Source":         "src/gdcm/2.8.2/gdcm-2.8.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.1",
+    "Installed":      "installed/gdcm/2.8.1",
+    "Source":         "src/gdcm/2.8.1/gdcm-2.8.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.0",
+    "Installed":      "installed/gdcm/2.8.0",
+    "Source":         "src/gdcm/2.8.0/gdcm-2.8.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.9",
+    "Installed":      "installed/gdcm/2.6.9",
+    "Source":         "src/gdcm/2.6.9/gdcm-2.6.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.6.8",
     "Installed":      "installed/gdcm/2.6.8",
     "Source":         "src/gdcm/2.6.8/gdcm-2.6.8.tar.gz",

@@ -1,0 +1,120 @@
+{
+  "Name":           "lzo",
+  "Title":          "LZO",
+  "SourceUrl":      "http://www.oberhumer.com/opensource/lzo/download/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.10",
+    "Installed":      "installed/lzo/2.10",
+    "Source":         "src/lzo/2.10/lzo-2.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.09",
+    "Installed":      "installed/lzo/2.09",
+    "Source":         "src/lzo/2.09/lzo-2.09.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.08",
+    "Installed":      "installed/lzo/2.08",
+    "Source":         "src/lzo/2.08/lzo-2.08.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.07",
+    "Installed":      "installed/lzo/2.07",
+    "Source":         "src/lzo/2.07/lzo-2.07.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.06",
+    "Installed":      "installed/lzo/2.06",
+    "Source":         "src/lzo/2.06/lzo-2.06.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.05",
+    "Installed":      "installed/lzo/2.05",
+    "Source":         "src/lzo/2.05/lzo-2.05.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.04",
+    "Installed":      "installed/lzo/2.04",
+    "Source":         "src/lzo/2.04/lzo-2.04.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.03",
+    "Installed":      "installed/lzo/2.03",
+    "Source":         "src/lzo/2.03/lzo-2.03.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.02",
+    "Installed":      "installed/lzo/2.02",
+    "Source":         "src/lzo/2.02/lzo-2.02.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.01",
+    "Installed":      "installed/lzo/2.01",
+    "Source":         "src/lzo/2.01/lzo-2.01.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.00",
+    "Installed":      "installed/lzo/2.00",
+    "Source":         "src/lzo/2.00/lzo-2.00.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

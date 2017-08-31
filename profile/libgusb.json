@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "0_2_11",
+    "Installed":      "installed/libgusb/0_2_11",
+    "Source":         "src/libgusb/0_2_11/gusb_0_2_11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0_2_10",
     "Installed":      "installed/libgusb/0_2_10",
     "Source":         "src/libgusb/0_2_10/gusb_0_2_10.tar.gz",

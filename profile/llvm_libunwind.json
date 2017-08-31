@@ -12,6 +12,16 @@
 
   "Versions": [
   {
+    "Number":         "4.0.1",
+    "Installed":      "installed/llvm_libunwind/4.0.1",
+    "Source":         "src/llvm_libunwind/4.0.1/libunwind-4.0.1.src.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "4.0.0",
     "Installed":      "installed/llvm_libunwind/4.0.0",
     "Source":         "src/llvm_libunwind/4.0.0/libunwind-4.0.0.src.tar.xz",

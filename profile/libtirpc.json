@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "1.0.2",
+    "Installed":      "installed/libtirpc/1.0.2",
+    "Source":         "src/libtirpc/1.0.2/libtirpc-1.0.2.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.0.1",
     "Installed":      "installed/libtirpc/1.0.1",
     "Source":         "src/libtirpc/1.0.1/libtirpc-1.0.1.tar.bz2",

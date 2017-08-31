@@ -3,12 +3,22 @@
   "SourceUrl":      "https://github.com/cinemast/libjson-rpc-cpp/tags",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "-DJSONCPP_INCLUDE_DIR={INSTALL_ROOT}/jsoncpp/1.7.7/include -DJSONCPP_LIBRARY={INSTALL_ROOT}/jsoncpp/1.7.7/lib/libjsoncpp.so -DMHD_INCLUDE_DIR={INSTALL_ROOT}/libmicrohttpd/0.9.52/include -DMHD_LIBRARY={INSTALL_ROOT}/libmicrohttpd/0.9.52/lib/libmicrohttpd.so -DCOMPILE_TESTS=Off -DCOMPILE_EXAMPLES=Off",
+  "Configure":      "-DJSONCPP_INCLUDE_DIR={INSTALL_ROOT}/jsoncpp/0.10.6/include -DJSONCPP_LIBRARY={INSTALL_ROOT}/jsoncpp/0.10.6/lib/libjsoncpp.so -DMHD_INCLUDE_DIR={INSTALL_ROOT}/libmicrohttpd/0.9.52/include -DMHD_LIBRARY={INSTALL_ROOT}/libmicrohttpd/0.9.52/lib/libmicrohttpd.so -DCOMPILE_TESTS=Off -DCOMPILE_EXAMPLES=Off -DHIREDIS_INCLUDE_DIR={INSTALL_ROOT}/installed/hiredis/0.13.3/include -DHIREDIS_LIBRARY={INSTALL_ROOT}/installed/hiredis/0.13.3/lib -DREDIS_CLIENT=NO -DREDIS_SERVER=NO",
   "PreInstall":     "sed -i -e 's/-O0/-Og/g' cmake/*.cmake",
   "Changelog":      "CHANGELOG.md",
   "HeadersDiff":    "Off",
 
   "Versions": [
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/libjson-rpc-cpp/1.0.0",
+    "Source":         "src/libjson-rpc-cpp/1.0.0/libjson-rpc-cpp-1.0.0.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "0.7.0",
     "Installed":      "installed/libjson-rpc-cpp/0.7.0",

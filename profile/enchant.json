@@ -11,6 +11,26 @@
 
   "Versions": [
   {
+    "Number":         "2.1.0",
+    "Installed":      "installed/enchant/2.1.0",
+    "Source":         "src/enchant/2.1.0/enchant-2.1.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0",
+    "Installed":      "installed/enchant/2.0.0",
+    "Source":         "src/enchant/2.0.0/enchant-2.0.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1-6-1",
     "Installed":      "installed/enchant/1-6-1",
     "Source":         "src/enchant/1-6-1/enchant-1-6-1.tar.gz",

@@ -7,6 +7,16 @@
 
   "Versions": [
   {
+    "Number":         "2.3.0",
+    "Installed":      "installed/libcaer/2.3.0",
+    "Source":         "src/libcaer/2.3.0/libcaer-2.3.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.2.0",
     "Installed":      "installed/libcaer/2.2.0",
     "Source":         "src/libcaer/2.2.0/libcaer-2.2.0.tar.gz",

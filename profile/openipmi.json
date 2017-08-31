@@ -12,6 +12,16 @@
 
   "Versions": [
   {
+    "Number":         "2.0.24",
+    "Installed":      "installed/openipmi/2.0.24",
+    "Source":         "src/openipmi/2.0.24/OpenIPMI-2.0.24.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.0.23",
     "Installed":      "installed/openipmi/2.0.23",
     "Source":         "src/openipmi/2.0.23/OpenIPMI-2.0.23.tar.gz",

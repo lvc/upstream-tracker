@@ -32,6 +32,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "11.10",
+    "Installed":      "installed/libav/11.10",
+    "Source":         "src/libav/11.10/libav-11.10.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "11.9",
     "Installed":      "installed/libav/11.9",
     "Source":         "src/libav/11.9/libav-11.9.tar.xz",

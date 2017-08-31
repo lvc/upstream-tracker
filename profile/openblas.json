@@ -12,6 +12,16 @@
 
   "Versions": [
   {
+    "Number":         "0.2.20",
+    "Installed":      "installed/openblas/0.2.20",
+    "Source":         "src/openblas/0.2.20/openblas-0.2.20.tar.gz",
+    "Changelog":      "Changelog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.2.19",
     "Installed":      "installed/openblas/0.2.19",
     "Source":         "src/openblas/0.2.19/openblas-0.2.19.tar.gz",

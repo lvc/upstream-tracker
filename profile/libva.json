@@ -40,6 +40,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.8.3",
+    "Installed":      "installed/libva/1.8.3",
+    "Source":         "src/libva/1.8.3/libva-1.8.3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.8.2",
     "Installed":      "installed/libva/1.8.2",
     "Source":         "src/libva/1.8.2/libva-1.8.2.tar.gz",
