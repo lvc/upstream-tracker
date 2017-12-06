@@ -2,6 +2,7 @@
   "Name":           "libtommath",
   "Title":          "LibTomMath",
   "SourceUrl":      "https://github.com/libtom/libtommath/tags",
+  "Git":            "https://github.com/libtom/libtommath.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "BuildScript":    "build_script/libtommath.sh",
