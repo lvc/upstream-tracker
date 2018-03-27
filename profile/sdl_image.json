@@ -4,11 +4,22 @@
   "SourceUrl":      "https://www.libsdl.org/projects/SDL_image/release/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-static PKG_CONFIG_PATH={INSTALL_ROOT}/sdl/2.0.8/lib/pkgconfig",
   "HeadersDiff":    "Off",
   "MinimalVersion": "1.2.11",
   "Package":        "SDL2_image",
 
   "Versions": [
+  {
+    "Number":         "2.0.3",
+    "Installed":      "installed/sdl_image/2.0.3",
+    "Source":         "src/sdl_image/2.0.3/SDL2_image-2.0.3.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "2.0.1",
     "Installed":      "installed/sdl_image/2.0.1",

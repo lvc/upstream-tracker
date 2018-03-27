@@ -1,15 +1,54 @@
 {
   "Name":           "libreport",
-  "SourceUrl":      "http://pkgs.fedoraproject.org/repo/pkgs/libreport/",
-  "SourceUrlDepth": "3",
+  "SourceUrl":      "https://github.com/abrt/libreport/tags",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/satyr/0.22/lib/pkgconfig --without-bugzilla --with-augeaslenslibdir={INSTALL_TO}/share",
+  "Configure":      "PKG_CONFIG_PATH='{INSTALL_ROOT}/satyr/0.25/lib/pkgconfig:{INSTALL_ROOT}/gtk+/3.20.6/lib/pkgconfig' --without-bugzilla --with-augeaslenslibdir={INSTALL_TO}/share GTK_CFLAGS='-I{INSTALL_ROOT}/gtk+/3.20.6/include/gtk-3.0 -I{INSTALL_ROOT}/pango/1.40.14/include/pango-1.0 -I{INSTALL_ROOT}/cairo/1.15.10/include/cairo -I{INSTALL_ROOT}/gdk-pixbuf/2.36.11/include/gdk-pixbuf-2.0 -I{INSTALL_ROOT}/atk/2.28.0/include/atk-1.0' GTK_LIBS='-L{INSTALL_ROOT}/gtk+/3.20.6/lib -lgtk-3 -lgdk-3 -L{INSTALL_ROOT}/pango/1.40.14/lib -lpango-1.0 -lpangoft2-1.0 -L{INSTALL_ROOT}/harfbuzz/1.7.6/lib -lharfbuzz'",
   "SkipObjects":    [ "site-packages/" ],
   "HeadersDiff":    "Off",
   "MinimalVersion": "2.0.19",
 
   "Versions": [
+  {
+    "Number":         "2.9.3",
+    "Installed":      "installed/libreport/2.9.3",
+    "Source":         "src/libreport/2.9.3/libreport-2.9.3.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.9.2",
+    "Installed":      "installed/libreport/2.9.2",
+    "Source":         "src/libreport/2.9.2/libreport-2.9.2.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.9.1",
+    "Installed":      "installed/libreport/2.9.1",
+    "Source":         "src/libreport/2.9.1/libreport-2.9.1.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.9.0",
+    "Installed":      "installed/libreport/2.9.0",
+    "Source":         "src/libreport/2.9.0/libreport-2.9.0.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "2.8.0",
     "Installed":      "installed/libreport/2.8.0",

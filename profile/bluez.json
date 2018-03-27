@@ -10,6 +10,36 @@
 
   "Versions": [
   {
+    "Number":         "5.49",
+    "Installed":      "installed/bluez/5.49",
+    "Source":         "src/bluez/5.49/bluez-5.49.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.48",
+    "Installed":      "installed/bluez/5.48",
+    "Source":         "src/bluez/5.48/bluez-5.48.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.47",
+    "Installed":      "installed/bluez/5.47",
+    "Source":         "src/bluez/5.47/bluez-5.47.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "5.46",
     "Installed":      "installed/bluez/5.46",
     "Source":         "src/bluez/5.46/bluez-5.46.tar.xz",

@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "current",
+    "Installed":      "installed/libtommath/current",
+    "Source":         "src/libtommath/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.0.1",
     "Installed":      "installed/libtommath/1.0.1",
     "Source":         "src/libtommath/1.0.1/libtommath-1.0.1.tar.gz",

@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "1.5.0",
+    "Installed":      "installed/libepoxy/1.5.0",
+    "Source":         "src/libepoxy/1.5.0/libepoxy-1.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.4.3",
     "Installed":      "installed/libepoxy/1.4.3",
     "Source":         "src/libepoxy/1.4.3/libepoxy-1.4.3.tar.gz",

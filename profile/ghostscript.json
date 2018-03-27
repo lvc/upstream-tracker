@@ -11,6 +11,59 @@
 
   "Versions": [
   {
+    "Number":         "9.23",
+    "Installed":      "installed/ghostscript/9.23",
+    "Source":         "src/ghostscript/9.23/ghostscript-9.23.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.23rc1",
+    "Installed":      "installed/ghostscript/9.23rc1",
+    "Source":         "src/ghostscript/9.23rc1/ghostscript-9.23rc1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "9.22",
+    "Installed":      "installed/ghostscript/9.22",
+    "Source":         "src/ghostscript/9.22/ghostscript-9.22.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.22rc2",
+    "Installed":      "installed/ghostscript/9.22rc2",
+    "Source":         "src/ghostscript/9.22rc2/ghostscript-9.22rc2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "9.22rc1",
+    "Installed":      "installed/ghostscript/9.22rc1",
+    "Source":         "src/ghostscript/9.22rc1/ghostscript-9.22rc1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "9.21",
     "Installed":      "installed/ghostscript/9.21",
     "Source":         "src/ghostscript/9.21/ghostscript-9.21.tar.xz",

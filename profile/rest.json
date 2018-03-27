@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         "0.8.1",
+    "Installed":      "installed/rest/0.8.1",
+    "Source":         "src/rest/0.8.1/rest-0.8.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.8.0",
     "Installed":      "installed/rest/0.8.0",
     "Source":         "src/rest/0.8.0/rest-0.8.0.tar.xz",

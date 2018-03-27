@@ -11,6 +11,27 @@
 
   "Versions": [
   {
+    "Number":         "1.2.25",
+    "Installed":      "installed/xmlsec/1.2.25",
+    "Source":         "src/xmlsec/1.2.25/xmlsec1-1.2.25.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.25-rc1",
+    "Installed":      "installed/xmlsec/1.2.25-rc1",
+    "Source":         "src/xmlsec/1.2.25-rc1/xmlsec1-1.2.25-rc1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "1.2.24",
     "Installed":      "installed/xmlsec/1.2.24",
     "Source":         "src/xmlsec/1.2.24/xmlsec1-1.2.24.tar.gz",

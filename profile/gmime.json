@@ -1,0 +1,44 @@
+{
+  "Name":           "gmime",
+  "Title":          "GMime",
+  "SourceUrl":      "https://download.gnome.org/sources/gmime/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+  "LatestMicro":    "On",
+  "MinimalVersion": "2.0",
+  "SkipVersions":   [ "2.99.0" ],
+
+  "Versions": [
+  {
+    "Number":         "3.2.0",
+    "Installed":      "installed/gmime/3.2.0",
+    "Source":         "src/gmime/3.2.0/gmime-3.2.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.5",
+    "Installed":      "installed/gmime/3.0.5",
+    "Source":         "src/gmime/3.0.5/gmime-3.0.5.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.23",
+    "Installed":      "installed/gmime/2.6.23",
+    "Source":         "src/gmime/2.6.23/gmime-2.6.23.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

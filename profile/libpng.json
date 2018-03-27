@@ -14,6 +14,26 @@
 
   "Versions": [
   {
+    "Number":         "1.6.34",
+    "Installed":      "installed/libpng/1.6.34",
+    "Source":         "src/libpng/1.6.34/libpng-1.6.34.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.33",
+    "Installed":      "installed/libpng/1.6.33",
+    "Source":         "src/libpng/1.6.33/libpng-1.6.33.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.6.32",
     "Installed":      "installed/libpng/1.6.32",
     "Source":         "src/libpng/1.6.32/libpng-1.6.32.tar.xz",
@@ -637,6 +657,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.4.22",
+    "Installed":      "installed/libpng/1.4.22",
+    "Source":         "src/libpng/1.4.22/libpng-1.4.22.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.4.21",
     "Installed":      "installed/libpng/1.4.21",
     "Source":         "src/libpng/1.4.21/libpng-1.4.21.tar.xz",
@@ -670,6 +700,16 @@
     "Number":         "1.4.18",
     "Installed":      "installed/libpng/1.4.18",
     "Source":         "src/libpng/1.4.18/libpng-1.4.18.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.59",
+    "Installed":      "installed/libpng/1.2.59",
+    "Source":         "src/libpng/1.2.59/libpng-1.2.59.tar.xz",
     "Changelog":      "Off",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

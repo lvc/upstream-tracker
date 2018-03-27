@@ -13,6 +13,26 @@
 
   "Versions": [
   {
+    "Number":         "2.47.12",
+    "Installed":      "installed/dcap/2.47.12",
+    "Source":         "src/dcap/2.47.12/dcap-2.47.12.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.47.11",
+    "Installed":      "installed/dcap/2.47.11",
+    "Source":         "src/dcap/2.47.11/dcap-2.47.11.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.47.10",
     "Installed":      "installed/dcap/2.47.10",
     "Source":         "src/dcap/2.47.10/dcap-2.47.10.tar.gz",

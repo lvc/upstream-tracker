@@ -3,11 +3,84 @@
   "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/at-spi2-core/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/at-spi2-core.sh",
   "HeadersDiff":    "Off",
   "MinimalVersion": "2.11.1",
   "NumericBeta":    "On",
 
   "Versions": [
+  {
+    "Number":         "2.28.0",
+    "Installed":      "installed/at-spi2-core/2.28.0",
+    "Source":         "src/at-spi2-core/2.28.0/at-spi2-core-2.28.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.27.92",
+    "Installed":      "installed/at-spi2-core/2.27.92",
+    "Source":         "src/at-spi2-core/2.27.92/at-spi2-core-2.27.92.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.27.1",
+    "Installed":      "installed/at-spi2-core/2.27.1",
+    "Source":         "src/at-spi2-core/2.27.1/at-spi2-core-2.27.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.26.2",
+    "Installed":      "installed/at-spi2-core/2.26.2",
+    "Source":         "src/at-spi2-core/2.26.2/at-spi2-core-2.26.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.26.1",
+    "Installed":      "installed/at-spi2-core/2.26.1",
+    "Source":         "src/at-spi2-core/2.26.1/at-spi2-core-2.26.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.26.0",
+    "Installed":      "installed/at-spi2-core/2.26.0",
+    "Source":         "src/at-spi2-core/2.26.0/at-spi2-core-2.26.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.25.92",
+    "Installed":      "installed/at-spi2-core/2.25.92",
+    "Source":         "src/at-spi2-core/2.25.92/at-spi2-core-2.25.92.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
   {
     "Number":         "2.25.91",
     "Installed":      "installed/at-spi2-core/2.25.91",
@@ -16,7 +89,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "2.25.90",

@@ -7,6 +7,36 @@
 
   "Versions": [
   {
+    "Number":         "2.0.0",
+    "Installed":      "installed/libcdio/2.0.0",
+    "Source":         "src/libcdio/2.0.0/libcdio-2.0.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/libcdio/1.1.0",
+    "Source":         "src/libcdio/1.1.0/libcdio-1.1.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/libcdio/1.0.0",
+    "Source":         "src/libcdio/1.0.0/libcdio-1.0.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.94",
     "Installed":      "installed/libcdio/0.94",
     "Source":         "src/libcdio/0.94/libcdio-0.94.tar.gz",

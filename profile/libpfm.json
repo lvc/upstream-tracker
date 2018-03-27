@@ -14,6 +14,16 @@
 
   "Versions": [
   {
+    "Number":         "4.9.0",
+    "Installed":      "installed/libpfm/4.9.0",
+    "Source":         "src/libpfm/4.9.0/libpfm-4.9.0.tar.gz",
+    "Changelog":      "debian/changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "4.8.0",
     "Installed":      "installed/libpfm/4.8.0",
     "Source":         "src/libpfm/4.8.0/libpfm-4.8.0.tar.gz",

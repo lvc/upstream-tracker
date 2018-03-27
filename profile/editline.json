@@ -7,6 +7,16 @@
 
   "Versions": [
   {
+    "Number":         "1.15.3",
+    "Installed":      "installed/editline/1.15.3",
+    "Source":         "src/editline/1.15.3/editline-1.15.3.tar.gz",
+    "Changelog":      "ChangeLog.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.15.2",
     "Installed":      "installed/editline/1.15.2",
     "Source":         "src/editline/1.15.2/editline-1.15.2.tar.gz",

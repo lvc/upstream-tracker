@@ -12,6 +12,76 @@
 
   "Versions": [
   {
+    "Number":         "5.44.0",
+    "Installed":      "installed/ki18n/5.44.0",
+    "Source":         "src/ki18n/5.44.0/ki18n-5.44.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.43.0",
+    "Installed":      "installed/ki18n/5.43.0",
+    "Source":         "src/ki18n/5.43.0/ki18n-5.43.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.42.0",
+    "Installed":      "installed/ki18n/5.42.0",
+    "Source":         "src/ki18n/5.42.0/ki18n-5.42.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.41.0",
+    "Installed":      "installed/ki18n/5.41.0",
+    "Source":         "src/ki18n/5.41.0/ki18n-5.41.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.40.0",
+    "Installed":      "installed/ki18n/5.40.0",
+    "Source":         "src/ki18n/5.40.0/ki18n-5.40.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.39.0",
+    "Installed":      "installed/ki18n/5.39.0",
+    "Source":         "src/ki18n/5.39.0/ki18n-5.39.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.38.0",
+    "Installed":      "installed/ki18n/5.38.0",
+    "Source":         "src/ki18n/5.38.0/ki18n-5.38.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "5.37.0",
     "Installed":      "installed/ki18n/5.37.0",
     "Source":         "src/ki18n/5.37.0/ki18n-5.37.0.tar.xz",

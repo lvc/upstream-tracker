@@ -1,0 +1,231 @@
+{
+  "Name":           "tcl",
+  "Title":          "Tcl",
+  "SourceUrl":      "https://sourceforge.net/projects/tcl/files/Tcl/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "sed -i -e 's/-O2/-g -Og/g' configure *.m4",
+  "PostInstall":    "cp -f ./libtclstub* {INSTALL_TO}/lib/",
+  "SkipObjects":    [ "libsqlite.*", "libtdbcmysql.*", "libtdbcodbc.*", "libtdbcpostgres.*", "libthread.*", "libtdbc.*", "libitcl.*" ],
+  "SkipHeaders":    [ "tclInt.*", ".*Port\.h" ],
+  "BuildDir":       "unix",
+  "Changelog":      "Off",
+  "ClearInstalled": "Off",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "8.5.9",
+  "OldPreInstall":  "sed -i -e 's/-O2/-g -Og/g' configure *.m4 ../pkgs/*/configure ../pkgs/*/*/*.m4",
+  "SkipExt":        [ "zip" ],
+  "Soname":         "Off",
+
+  "Versions": [
+  {
+    "Number":         "8.7a1",
+    "Installed":      "installed/tcl/8.7a1",
+    "Source":         "src/tcl/8.7a1/tcl8.7a1-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.6.8",
+    "Installed":      "installed/tcl/8.6.8",
+    "Source":         "src/tcl/8.6.8/tcl8.6.8-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.6.7",
+    "Installed":      "installed/tcl/8.6.7",
+    "Source":         "src/tcl/8.6.7/tcl8.6.7-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.6.6",
+    "Installed":      "installed/tcl/8.6.6",
+    "Source":         "src/tcl/8.6.6/tcl8.6.6-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.6.5",
+    "Installed":      "installed/tcl/8.6.5",
+    "Source":         "src/tcl/8.6.5/tcl8.6.5-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.6.4",
+    "Installed":      "installed/tcl/8.6.4",
+    "Source":         "src/tcl/8.6.4/tcl8.6.4-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.6.3",
+    "Installed":      "installed/tcl/8.6.3",
+    "Source":         "src/tcl/8.6.3/tcl8.6.3-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.6.2",
+    "Installed":      "installed/tcl/8.6.2",
+    "Source":         "src/tcl/8.6.2/tcl8.6.2-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.6.1",
+    "Installed":      "installed/tcl/8.6.1",
+    "Source":         "src/tcl/8.6.1/tcl8.6.1-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.6.0",
+    "Installed":      "installed/tcl/8.6.0",
+    "Source":         "src/tcl/8.6.0/tcl8.6.0-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.5.19",
+    "Installed":      "installed/tcl/8.5.19",
+    "Source":         "src/tcl/8.5.19/tcl8.5.19-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.5.18",
+    "Installed":      "installed/tcl/8.5.18",
+    "Source":         "src/tcl/8.5.18/tcl8.5.18-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.5.17",
+    "Installed":      "installed/tcl/8.5.17",
+    "Source":         "src/tcl/8.5.17/tcl8.5.17-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.5.16",
+    "Installed":      "installed/tcl/8.5.16",
+    "Source":         "src/tcl/8.5.16/tcl8.5.16-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.5.15",
+    "Installed":      "installed/tcl/8.5.15",
+    "Source":         "src/tcl/8.5.15/tcl8.5.15-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.5.14",
+    "Installed":      "installed/tcl/8.5.14",
+    "Source":         "src/tcl/8.5.14/tcl8.5.14-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.5.13",
+    "Installed":      "installed/tcl/8.5.13",
+    "Source":         "src/tcl/8.5.13/tcl8.5.13-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.5.12",
+    "Installed":      "installed/tcl/8.5.12",
+    "Source":         "src/tcl/8.5.12/tcl8.5.12-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.5.11",
+    "Installed":      "installed/tcl/8.5.11",
+    "Source":         "src/tcl/8.5.11/tcl8.5.11-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.5.10",
+    "Installed":      "installed/tcl/8.5.10",
+    "Source":         "src/tcl/8.5.10/tcl8.5.10-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.5.9",
+    "Installed":      "installed/tcl/8.5.9",
+    "Source":         "src/tcl/8.5.9/tcl8.5.9-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

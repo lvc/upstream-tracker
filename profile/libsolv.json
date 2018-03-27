@@ -9,6 +9,66 @@
 
   "Versions": [
   {
+    "Number":         "0.6.34",
+    "Installed":      "installed/libsolv/0.6.34",
+    "Source":         "src/libsolv/0.6.34/libsolv-0.6.34.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.33",
+    "Installed":      "installed/libsolv/0.6.33",
+    "Source":         "src/libsolv/0.6.33/libsolv-0.6.33.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.32",
+    "Installed":      "installed/libsolv/0.6.32",
+    "Source":         "src/libsolv/0.6.32/libsolv-0.6.32.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.31",
+    "Installed":      "installed/libsolv/0.6.31",
+    "Source":         "src/libsolv/0.6.31/libsolv-0.6.31.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.30",
+    "Installed":      "installed/libsolv/0.6.30",
+    "Source":         "src/libsolv/0.6.30/libsolv-0.6.30.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.29",
+    "Installed":      "installed/libsolv/0.6.29",
+    "Source":         "src/libsolv/0.6.29/libsolv-0.6.29.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.6.28",
     "Installed":      "installed/libsolv/0.6.28",
     "Source":         "src/libsolv/0.6.28/libsolv-0.6.28.tar.gz",

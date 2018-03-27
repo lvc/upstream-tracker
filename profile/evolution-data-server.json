@@ -26,6 +26,27 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "3_24_7",
+    "Installed":      "installed/evolution-data-server/3_24_7",
+    "Source":         "src/evolution-data-server/3_24_7/EVOLUTION_DATA_SERVER_3_24_7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_24_6",
+    "Installed":      "installed/evolution-data-server/3_24_6",
+    "Source":         "src/evolution-data-server/3_24_6/EVOLUTION_DATA_SERVER_3_24_6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "3_24_5",
     "Installed":      "installed/evolution-data-server/3_24_5",
     "Source":         "src/evolution-data-server/3_24_5/EVOLUTION_DATA_SERVER_3_24_5.tar.gz",
@@ -33,7 +54,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "3_24_4",

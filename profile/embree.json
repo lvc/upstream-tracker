@@ -1,0 +1,60 @@
+{
+  "Name":           "embree",
+  "Title":          "Embree",
+  "SourceUrl":      "https://github.com/embree/embree/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "3.0.0",
+    "Installed":      "installed/embree/3.0.0",
+    "Source":         "src/embree/3.0.0/embree-3.0.0.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.17.4",
+    "Installed":      "installed/embree/2.17.4",
+    "Source":         "src/embree/2.17.4/embree-2.17.4.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.17.3",
+    "Installed":      "installed/embree/2.17.3",
+    "Source":         "src/embree/2.17.3/embree-2.17.3.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.17.2",
+    "Installed":      "installed/embree/2.17.2",
+    "Source":         "src/embree/2.17.2/embree-2.17.2.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.17.1",
+    "Installed":      "installed/embree/2.17.1",
+    "Source":         "src/embree/2.17.1/embree-2.17.1.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

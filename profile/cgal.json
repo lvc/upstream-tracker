@@ -10,9 +10,60 @@
 
   "Versions": [
   {
+    "Number":         "4.12-beta1",
+    "Installed":      "installed/cgal/4.12-beta1",
+    "Source":         "src/cgal/4.12-beta1/CGAL-4.12-beta1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.11.1",
+    "Installed":      "installed/cgal/4.11.1",
+    "Source":         "src/cgal/4.11.1/CGAL-4.11.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.11",
+    "Installed":      "installed/cgal/4.11",
+    "Source":         "src/cgal/4.11/CGAL-4.11.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "4.11-beta1",
     "Installed":      "installed/cgal/4.11-beta1",
     "Source":         "src/cgal/4.11-beta1/CGAL-4.11-beta1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "4.10.2",
+    "Installed":      "installed/cgal/4.10.2",
+    "Source":         "src/cgal/4.10.2/CGAL-4.10.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.10.1",
+    "Installed":      "installed/cgal/4.10.1",
+    "Source":         "src/cgal/4.10.1/CGAL-4.10.1.tar.gz",
     "Changelog":      "Off",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

@@ -15,6 +15,66 @@
 
   "Versions": [
   {
+    "Number":         "3.36",
+    "Installed":      "installed/nss/3.36",
+    "Source":         "src/nss/3.36/nss-3.36.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.35",
+    "Installed":      "installed/nss/3.35",
+    "Source":         "src/nss/3.35/nss-3.35.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.34.1",
+    "Installed":      "installed/nss/3.34.1",
+    "Source":         "src/nss/3.34.1/nss-3.34.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.34",
+    "Installed":      "installed/nss/3.34",
+    "Source":         "src/nss/3.34/nss-3.34.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.33",
+    "Installed":      "installed/nss/3.33",
+    "Source":         "src/nss/3.33/nss-3.33.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.32.1",
+    "Installed":      "installed/nss/3.32.1",
+    "Source":         "src/nss/3.32.1/nss-3.32.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.32",
     "Installed":      "installed/nss/3.32",
     "Source":         "src/nss/3.32/nss-3.32.tar.gz",
@@ -118,6 +178,16 @@
     "Number":         "3.29",
     "Installed":      "installed/nss/3.29",
     "Source":         "src/nss/3.29/nss-3.29.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.28.6",
+    "Installed":      "installed/nss/3.28.6",
+    "Source":         "src/nss/3.28.6/nss-3.28.6.tar.gz",
     "Changelog":      "Off",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

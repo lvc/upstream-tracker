@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "2.0.4",
+    "Installed":      "installed/liblognorm/2.0.4",
+    "Source":         "src/liblognorm/2.0.4/liblognorm-2.0.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.0.3",
     "Installed":      "installed/liblognorm/2.0.3",
     "Source":         "src/liblognorm/2.0.3/liblognorm-2.0.3.tar.gz",

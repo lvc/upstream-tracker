@@ -7,6 +7,16 @@
 
   "Versions": [
   {
+    "Number":         "0.14",
+    "Installed":      "installed/libpciaccess/0.14",
+    "Source":         "src/libpciaccess/0.14/libpciaccess-0.14.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.13.5",
     "Installed":      "installed/libpciaccess/0.13.5",
     "Source":         "src/libpciaccess/0.13.5/libpciaccess-0.13.5.tar.gz",

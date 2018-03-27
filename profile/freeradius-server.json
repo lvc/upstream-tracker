@@ -14,6 +14,16 @@
 
   "Versions": [
   {
+    "Number":         "3.0.16",
+    "Installed":      "installed/freeradius-server/3.0.16",
+    "Source":         "src/freeradius-server/3.0.16/freeradius-server-3.0.16.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.0.15",
     "Installed":      "installed/freeradius-server/3.0.15",
     "Source":         "src/freeradius-server/3.0.15/freeradius-server-3.0.15.tar.gz",

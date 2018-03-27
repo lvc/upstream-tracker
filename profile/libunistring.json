@@ -7,6 +7,26 @@
 
   "Versions": [
   {
+    "Number":         "0.9.9",
+    "Installed":      "installed/libunistring/0.9.9",
+    "Source":         "src/libunistring/0.9.9/libunistring-0.9.9.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.8",
+    "Installed":      "installed/libunistring/0.9.8",
+    "Source":         "src/libunistring/0.9.8/libunistring-0.9.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.9.7",
     "Installed":      "installed/libunistring/0.9.7",
     "Source":         "src/libunistring/0.9.7/libunistring-0.9.7.tar.xz",

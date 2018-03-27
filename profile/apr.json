@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "1.6.3",
+    "Installed":      "installed/apr/1.6.3",
+    "Source":         "src/apr/1.6.3/apr-1.6.3.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.6.2",
     "Installed":      "installed/apr/1.6.2",
     "Source":         "src/apr/1.6.2/apr-1.6.2.tar.gz",

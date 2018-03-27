@@ -11,6 +11,36 @@
 
   "Versions": [
   {
+    "Number":         "1.2.4",
+    "Installed":      "installed/quagga/1.2.4",
+    "Source":         "src/quagga/1.2.4/quagga-1.2.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.3",
+    "Installed":      "installed/quagga/1.2.3",
+    "Source":         "src/quagga/1.2.3/quagga-1.2.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.2",
+    "Installed":      "installed/quagga/1.2.2",
+    "Source":         "src/quagga/1.2.2/quagga-1.2.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.2.1",
     "Installed":      "installed/quagga/1.2.1",
     "Source":         "src/quagga/1.2.1/quagga-1.2.1.tar.gz",

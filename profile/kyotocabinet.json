@@ -1,7 +1,6 @@
 {
   "Name":           "kyotocabinet",
-  "SourceUrl":      "http://pkgs.fedoraproject.org/repo/pkgs/kyotocabinet/",
-  "SourceUrlDepth": "3",
+  "SourceUrl":      "http://fallabs.com/kyotocabinet/pkg/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "Configure":      "--enable-devel --disable-opt --disable-static LDFLAGS='-L/usr/lib64/'",

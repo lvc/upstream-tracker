@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "1.7.0",
+    "Installed":      "installed/libvpx/1.7.0",
+    "Source":         "src/libvpx/1.7.0/libvpx-1.7.0.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.6.1",
     "Installed":      "installed/libvpx/1.6.1",
     "Source":         "src/libvpx/1.6.1/libvpx-1.6.1.tar.gz",

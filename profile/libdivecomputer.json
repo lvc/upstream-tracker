@@ -7,6 +7,16 @@
 
   "Versions": [
   {
+    "Number":         "0.6.0",
+    "Installed":      "installed/libdivecomputer/0.6.0",
+    "Source":         "src/libdivecomputer/0.6.0/libdivecomputer-0.6.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.5.0",
     "Installed":      "installed/libdivecomputer/0.5.0",
     "Source":         "src/libdivecomputer/0.5.0/libdivecomputer-0.5.0.tar.gz",

@@ -12,6 +12,124 @@
 
   "Versions": [
   {
+    "Number":         "9.12.1",
+    "Installed":      "installed/bind/9.12.1",
+    "Source":         "src/bind/9.12.1/bind-9.12.1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.12.1rc2",
+    "Installed":      "installed/bind/9.12.1rc2",
+    "Source":         "src/bind/9.12.1rc2/bind-9.12.1rc2.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "9.12.1rc1",
+    "Installed":      "installed/bind/9.12.1rc1",
+    "Source":         "src/bind/9.12.1rc1/bind-9.12.1rc1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "9.12.1b1",
+    "Installed":      "installed/bind/9.12.1b1",
+    "Source":         "src/bind/9.12.1b1/bind-9.12.1b1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "9.12.0",
+    "Installed":      "installed/bind/9.12.0",
+    "Source":         "src/bind/9.12.0/bind-9.12.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.12.0rc3",
+    "Installed":      "installed/bind/9.12.0rc3",
+    "Source":         "src/bind/9.12.0rc3/bind-9.12.0rc3.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "9.12.0rc1",
+    "Installed":      "installed/bind/9.12.0rc1",
+    "Source":         "src/bind/9.12.0rc1/bind-9.12.0rc1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "9.12.0b2",
+    "Installed":      "installed/bind/9.12.0b2",
+    "Source":         "src/bind/9.12.0b2/bind-9.12.0b2.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "9.12.0b1",
+    "Installed":      "installed/bind/9.12.0b1",
+    "Source":         "src/bind/9.12.0b1/bind-9.12.0b1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "9.12.0a1",
+    "Installed":      "installed/bind/9.12.0a1",
+    "Source":         "src/bind/9.12.0a1/bind-9.12.0a1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "9.11.3",
+    "Installed":      "installed/bind/9.11.3",
+    "Source":         "src/bind/9.11.3/bind-9.11.3.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "9.11.2",
     "Installed":      "installed/bind/9.11.2",
     "Source":         "src/bind/9.11.2/bind-9.11.2.tar.gz",
@@ -68,6 +186,16 @@
     "Number":         "9.11.0",
     "Installed":      "installed/bind/9.11.0",
     "Source":         "src/bind/9.11.0/bind-9.11.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.10.7",
+    "Installed":      "installed/bind/9.10.7",
+    "Source":         "src/bind/9.10.7/bind-9.10.7.tar.gz",
     "Changelog":      "CHANGES",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
@@ -138,6 +266,16 @@
     "Number":         "9.10.0",
     "Installed":      "installed/bind/9.10.0",
     "Source":         "src/bind/9.10.0/bind-9.10.0.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "9.9.12",
+    "Installed":      "installed/bind/9.9.12",
+    "Source":         "src/bind/9.9.12/bind-9.9.12.tar.gz",
     "Changelog":      "CHANGES",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

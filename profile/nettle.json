@@ -11,6 +11,27 @@
 
   "Versions": [
   {
+    "Number":         "3.4",
+    "Installed":      "installed/nettle/3.4",
+    "Source":         "src/nettle/3.4/nettle-3.4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.4rc2",
+    "Installed":      "installed/nettle/3.4rc2",
+    "Source":         "src/nettle/3.4rc2/nettle-3.4rc2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "3.3",
     "Installed":      "installed/nettle/3.3",
     "Source":         "src/nettle/3.3/nettle-3.3.tar.gz",

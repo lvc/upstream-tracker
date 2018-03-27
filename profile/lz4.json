@@ -9,6 +9,26 @@
 
   "Versions": [
   {
+    "Number":         "1.8.1.2",
+    "Installed":      "installed/lz4/1.8.1.2",
+    "Source":         "src/lz4/1.8.1.2/lz4-1.8.1.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.1",
+    "Installed":      "installed/lz4/1.8.1",
+    "Source":         "src/lz4/1.8.1/lz4-1.8.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.8.0",
     "Installed":      "installed/lz4/1.8.0",
     "Source":         "src/lz4/1.8.0/lz4-1.8.0.tar.gz",

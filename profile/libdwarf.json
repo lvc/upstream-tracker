@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         20180129,
+    "Installed":      "installed/libdwarf/20180129",
+    "Source":         "src/libdwarf/20180129/libdwarf-20180129.tar.gz",
+    "Changelog":      "libdwarf/ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         20170709,
     "Installed":      "installed/libdwarf/20170709",
     "Source":         "src/libdwarf/20170709/libdwarf-20170709.tar.gz",

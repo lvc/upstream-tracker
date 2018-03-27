@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "2.3.8",
+    "Installed":      "installed/motif/2.3.8",
+    "Source":         "src/motif/2.3.8/motif-2.3.8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.3.7",
     "Installed":      "installed/motif/2.3.7",
     "Source":         "src/motif/2.3.7/motif-2.3.7.tar.gz",

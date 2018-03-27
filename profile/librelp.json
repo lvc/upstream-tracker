@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "1.2.15",
+    "Installed":      "installed/librelp/1.2.15",
+    "Source":         "src/librelp/1.2.15/librelp-1.2.15.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.2.14",
     "Installed":      "installed/librelp/1.2.14",
     "Source":         "src/librelp/1.2.14/librelp-1.2.14.tar.gz",

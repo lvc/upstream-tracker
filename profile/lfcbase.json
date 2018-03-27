@@ -8,6 +8,116 @@
 
   "Versions": [
   {
+    "Number":         "1.11.7",
+    "Installed":      "installed/lfcbase/1.11.7",
+    "Source":         "src/lfcbase/1.11.7/lfcbase-1.11.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.6",
+    "Installed":      "installed/lfcbase/1.11.6",
+    "Source":         "src/lfcbase/1.11.6/lfcbase-1.11.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.5",
+    "Installed":      "installed/lfcbase/1.11.5",
+    "Source":         "src/lfcbase/1.11.5/lfcbase-1.11.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.4",
+    "Installed":      "installed/lfcbase/1.11.4",
+    "Source":         "src/lfcbase/1.11.4/lfcbase-1.11.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.3",
+    "Installed":      "installed/lfcbase/1.11.3",
+    "Source":         "src/lfcbase/1.11.3/lfcbase-1.11.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.2",
+    "Installed":      "installed/lfcbase/1.11.2",
+    "Source":         "src/lfcbase/1.11.2/lfcbase-1.11.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.1",
+    "Installed":      "installed/lfcbase/1.11.1",
+    "Source":         "src/lfcbase/1.11.1/lfcbase-1.11.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.0",
+    "Installed":      "installed/lfcbase/1.11.0",
+    "Source":         "src/lfcbase/1.11.0/lfcbase-1.11.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.3",
+    "Installed":      "installed/lfcbase/1.10.3",
+    "Source":         "src/lfcbase/1.10.3/lfcbase-1.10.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.2",
+    "Installed":      "installed/lfcbase/1.10.2",
+    "Source":         "src/lfcbase/1.10.2/lfcbase-1.10.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.1",
+    "Installed":      "installed/lfcbase/1.10.1",
+    "Source":         "src/lfcbase/1.10.1/lfcbase-1.10.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.10.0",
     "Installed":      "installed/lfcbase/1.10.0",
     "Source":         "src/lfcbase/1.10.0/lfcbase-1.10.0.tar.gz",

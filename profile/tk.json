@@ -1,0 +1,127 @@
+{
+  "Name":           "tk",
+  "Title":          "Tk",
+  "SourceUrl":      "https://sourceforge.net/projects/tcl/files/Tcl/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-tcl={INSTALL_ROOT}/tcl/{VERSION}/lib/ CFLAGS='-I{INSTALL_ROOT}/tcl/{VERSION}/include/ -g -Og' LDFLAGS='-L{INSTALL_ROOT}/tcl/{VERSION}/lib/' PKG_CONFIG_PATH={INSTALL_ROOT}/tcl/{VERSION}/lib/pkgconfig",
+  "PreInstall":     "sed -i -e 's/-O2/-g -Og/g' configure *.m4",
+  "BuildDir":       "unix",
+  "Changelog":      "Off",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "8.5.19",
+  "SkipExt":        [ "zip" ],
+  "Soname":         "Off",
+
+  "Versions": [
+  {
+    "Number":         "8.7a1",
+    "Installed":      "installed/tk/8.7a1",
+    "Source":         "src/tk/8.7a1/tk8.7a1-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.6.8",
+    "Installed":      "installed/tk/8.6.8",
+    "Source":         "src/tk/8.6.8/tk8.6.8-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.6.7",
+    "Installed":      "installed/tk/8.6.7",
+    "Source":         "src/tk/8.6.7/tk8.6.7-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.6.6",
+    "Installed":      "installed/tk/8.6.6",
+    "Source":         "src/tk/8.6.6/tk8.6.6-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.6.5",
+    "Installed":      "installed/tk/8.6.5",
+    "Source":         "src/tk/8.6.5/tk8.6.5-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.6.4",
+    "Installed":      "installed/tk/8.6.4",
+    "Source":         "src/tk/8.6.4/tk8.6.4-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.6.3",
+    "Installed":      "installed/tk/8.6.3",
+    "Source":         "src/tk/8.6.3/tk8.6.3-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.6.2",
+    "Installed":      "installed/tk/8.6.2",
+    "Source":         "src/tk/8.6.2/tk8.6.2-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.6.1",
+    "Installed":      "installed/tk/8.6.1",
+    "Source":         "src/tk/8.6.1/tk8.6.1-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.6.0",
+    "Installed":      "installed/tk/8.6.0",
+    "Source":         "src/tk/8.6.0/tk8.6.0-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.5.19",
+    "Installed":      "installed/tk/8.5.19",
+    "Source":         "src/tk/8.5.19/tk8.5.19-src.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -8,6 +8,26 @@
 
   "Versions": [
   {
+    "Number":         3430,
+    "Installed":      "installed/cfitsio/3430",
+    "Source":         "src/cfitsio/3430/cfitsio3430.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         3420,
+    "Installed":      "installed/cfitsio/3420",
+    "Source":         "src/cfitsio/3420/cfitsio3420.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         3410,
     "Installed":      "installed/cfitsio/3410",
     "Source":         "src/cfitsio/3410/cfitsio3410.tar.gz",

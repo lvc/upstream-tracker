@@ -8,6 +8,26 @@
 
   "Versions": [
   {
+    "Number":         "1.16.0",
+    "Installed":      "installed/libmbim/1.16.0",
+    "Source":         "src/libmbim/1.16.0/libmbim-1.16.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.4",
+    "Installed":      "installed/libmbim/1.14.4",
+    "Source":         "src/libmbim/1.14.4/libmbim-1.14.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.14.2",
     "Installed":      "installed/libmbim/1.14.2",
     "Source":         "src/libmbim/1.14.2/libmbim-1.14.2.tar.xz",

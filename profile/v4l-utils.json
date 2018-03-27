@@ -11,6 +11,46 @@
 
   "Versions": [
   {
+    "Number":         "1.14.2",
+    "Installed":      "installed/v4l-utils/1.14.2",
+    "Source":         "src/v4l-utils/1.14.2/v4l-utils-1.14.2.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.1",
+    "Installed":      "installed/v4l-utils/1.14.1",
+    "Source":         "src/v4l-utils/1.14.1/v4l-utils-1.14.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.0",
+    "Installed":      "installed/v4l-utils/1.14.0",
+    "Source":         "src/v4l-utils/1.14.0/v4l-utils-1.14.0.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.6",
+    "Installed":      "installed/v4l-utils/1.12.6",
+    "Source":         "src/v4l-utils/1.12.6/v4l-utils-1.12.6.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.12.5",
     "Installed":      "installed/v4l-utils/1.12.5",
     "Source":         "src/v4l-utils/1.12.5/v4l-utils-1.12.5.tar.bz2",

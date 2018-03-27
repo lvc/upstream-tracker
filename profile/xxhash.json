@@ -10,6 +10,26 @@
 
   "Versions": [
   {
+    "Number":         "0.6.4",
+    "Installed":      "installed/xxhash/0.6.4",
+    "Source":         "src/xxhash/0.6.4/xxhash-0.6.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.6.3",
+    "Installed":      "installed/xxhash/0.6.3",
+    "Source":         "src/xxhash/0.6.3/xxhash-0.6.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.6.2",
     "Installed":      "installed/xxhash/0.6.2",
     "Source":         "src/xxhash/0.6.2/xxhash-0.6.2.tar.gz",

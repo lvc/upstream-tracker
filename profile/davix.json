@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "0_6_7",
+    "Installed":      "installed/davix/0_6_7",
+    "Source":         "src/davix/0_6_7/R_0_6_7.tar.gz",
+    "Changelog":      "RELEASE-NOTES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0_6_6",
     "Installed":      "installed/davix/0_6_6",
     "Source":         "src/davix/0_6_6/R_0_6_6.tar.gz",

@@ -4,11 +4,43 @@
   "SourceUrl":      "https://github.com/corosync/corosync/tags",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/kronosnet/1.0/lib/pkgconfig",
   "PreInstall":     "sed -i -e 's/O3/Og/' configure.ac",
   "SkipObjects":    [ "libpload.so" ],
+  "CFlags":         "-I{INSTALL_ROOT}/kronosnet/1.0/include/",
   "HeadersDiff":    "Off",
 
   "Versions": [
+  {
+    "Number":         "2.99.1",
+    "Installed":      "installed/corosync/2.99.1",
+    "Source":         "src/corosync/2.99.1/corosync-2.99.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.99.0",
+    "Installed":      "installed/corosync/2.99.0",
+    "Source":         "src/corosync/2.99.0/corosync-2.99.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.3",
+    "Installed":      "installed/corosync/2.4.3",
+    "Source":         "src/corosync/2.4.3/corosync-2.4.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "2.4.2",
     "Installed":      "installed/corosync/2.4.2",
@@ -173,6 +205,16 @@
     "Number":         "2.0.0",
     "Installed":      "installed/corosync/2.0.0",
     "Source":         "src/corosync/2.0.0/corosync-2.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.9",
+    "Installed":      "installed/corosync/1.4.9",
+    "Source":         "src/corosync/1.4.9/corosync-1.4.9.tar.gz",
     "Changelog":      "Off",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

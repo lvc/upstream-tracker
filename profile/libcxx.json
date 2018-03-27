@@ -19,6 +19,36 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "6.0.0",
+    "Installed":      "installed/libcxx/6.0.0",
+    "Source":         "src/libcxx/6.0.0/libcxx-6.0.0.src.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.1",
+    "Installed":      "installed/libcxx/5.0.1",
+    "Source":         "src/libcxx/5.0.1/libcxx-5.0.1.src.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.0",
+    "Installed":      "installed/libcxx/5.0.0",
+    "Source":         "src/libcxx/5.0.0/libcxx-5.0.0.src.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "4.0.1",
     "Installed":      "installed/libcxx/4.0.1",
     "Source":         "src/libcxx/4.0.1/libcxx-4.0.1.src.tar.xz",

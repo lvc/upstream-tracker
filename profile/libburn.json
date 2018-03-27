@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "1.4.8",
+    "Installed":      "installed/libburn/1.4.8",
+    "Source":         "src/libburn/1.4.8/libburn-1.4.8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.4.6",
     "Installed":      "installed/libburn/1.4.6",
     "Source":         "src/libburn/1.4.6/libburn-1.4.6.tar.gz",

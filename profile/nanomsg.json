@@ -3,11 +3,42 @@
   "SourceUrl":      "https://github.com/nanomsg/nanomsg/tags",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "BuildSystem1":   "CMake",
+  "BuildSystem":    "CMake",
   "HeadersDiff":    "Off",
   "ReleasePattern": "\A([\d\.]+)\-beta\Z",
 
   "Versions": [
+  {
+    "Number":         "1.1.2",
+    "Installed":      "installed/nanomsg/1.1.2",
+    "Source":         "src/nanomsg/1.1.2/nanomsg-1.1.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/nanomsg/1.1.0",
+    "Source":         "src/nanomsg/1.1.0/nanomsg-1.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0-rc1",
+    "Installed":      "installed/nanomsg/1.1.0-rc1",
+    "Source":         "src/nanomsg/1.1.0-rc1/nanomsg-1.1.0-rc1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
   {
     "Number":         "1.0.0",
     "Installed":      "installed/nanomsg/1.0.0",

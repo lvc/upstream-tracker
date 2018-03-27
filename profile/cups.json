@@ -11,6 +11,26 @@
 
   "Versions": [
   {
+    "Number":         "2.2.6",
+    "Installed":      "installed/cups/2.2.6",
+    "Source":         "src/cups/2.2.6/cups-2.2.6.tar.gz",
+    "Changelog":      "CHANGES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.5",
+    "Installed":      "installed/cups/2.2.5",
+    "Source":         "src/cups/2.2.5/cups-2.2.5.tar.gz",
+    "Changelog":      "CHANGES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.2.4",
     "Installed":      "installed/cups/2.2.4",
     "Source":         "src/cups/2.2.4/cups-2.2.4.tar.gz",

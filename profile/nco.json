@@ -12,6 +12,56 @@
 
   "Versions": [
   {
+    "Number":         "4.7.3",
+    "Installed":      "installed/nco/4.7.3",
+    "Source":         "src/nco/4.7.3/nco-4.7.3.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.7.2",
+    "Installed":      "installed/nco/4.7.2",
+    "Source":         "src/nco/4.7.2/nco-4.7.2.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.7.1",
+    "Installed":      "installed/nco/4.7.1",
+    "Source":         "src/nco/4.7.1/nco-4.7.1.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.7.0",
+    "Installed":      "installed/nco/4.7.0",
+    "Source":         "src/nco/4.7.0/nco-4.7.0.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.6.9",
+    "Installed":      "installed/nco/4.6.9",
+    "Source":         "src/nco/4.6.9/nco-4.6.9.tar.gz",
+    "Changelog":      "doc/ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "4.6.8",
     "Installed":      "installed/nco/4.6.8",
     "Source":         "src/nco/4.6.8/nco-4.6.8.tar.gz",

@@ -11,6 +11,26 @@
 
   "Versions": [
   {
+    "Number":         "2017.4.0",
+    "Installed":      "installed/simgear/2017.4.0",
+    "Source":         "src/simgear/2017.4.0/simgear-2017.4.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2017.3.1",
+    "Installed":      "installed/simgear/2017.3.1",
+    "Source":         "src/simgear/2017.3.1/simgear-2017.3.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2017.3.0",
     "Installed":      "installed/simgear/2017.3.0",
     "Source":         "src/simgear/2017.3.0/simgear-2017.3.0.tar.gz",

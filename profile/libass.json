@@ -7,6 +7,16 @@
 
   "Versions": [
   {
+    "Number":         "0.14.0",
+    "Installed":      "installed/libass/0.14.0",
+    "Source":         "src/libass/0.14.0/libass-0.14.0.tar.gz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.13.7",
     "Installed":      "installed/libass/0.13.7",
     "Source":         "src/libass/0.13.7/libass-0.13.7.tar.gz",

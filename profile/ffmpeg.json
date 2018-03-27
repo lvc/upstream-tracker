@@ -21,6 +21,66 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "3.4.2",
+    "Installed":      "installed/ffmpeg/3.4.2",
+    "Source":         "src/ffmpeg/3.4.2/ffmpeg-3.4.2.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.4.1",
+    "Installed":      "installed/ffmpeg/3.4.1",
+    "Source":         "src/ffmpeg/3.4.1/ffmpeg-3.4.1.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.4",
+    "Installed":      "installed/ffmpeg/3.4",
+    "Source":         "src/ffmpeg/3.4/ffmpeg-3.4.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.6",
+    "Installed":      "installed/ffmpeg/3.3.6",
+    "Source":         "src/ffmpeg/3.3.6/ffmpeg-3.3.6.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.5",
+    "Installed":      "installed/ffmpeg/3.3.5",
+    "Source":         "src/ffmpeg/3.3.5/ffmpeg-3.3.5.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.4",
+    "Installed":      "installed/ffmpeg/3.3.4",
+    "Source":         "src/ffmpeg/3.3.4/ffmpeg-3.3.4.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.3.3",
     "Installed":      "installed/ffmpeg/3.3.3",
     "Source":         "src/ffmpeg/3.3.3/ffmpeg-3.3.3.tar.xz",
@@ -54,6 +114,36 @@
     "Number":         "3.3",
     "Installed":      "installed/ffmpeg/3.3",
     "Source":         "src/ffmpeg/3.3/ffmpeg-3.3.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.10",
+    "Installed":      "installed/ffmpeg/3.2.10",
+    "Source":         "src/ffmpeg/3.2.10/ffmpeg-3.2.10.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.9",
+    "Installed":      "installed/ffmpeg/3.2.9",
+    "Source":         "src/ffmpeg/3.2.9/ffmpeg-3.2.9.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.2.8",
+    "Installed":      "installed/ffmpeg/3.2.8",
+    "Source":         "src/ffmpeg/3.2.8/ffmpeg-3.2.8.tar.xz",
     "Changelog":      "Changelog",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
@@ -134,6 +224,16 @@
     "Number":         "3.2",
     "Installed":      "installed/ffmpeg/3.2",
     "Source":         "src/ffmpeg/3.2/ffmpeg-3.2.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.11",
+    "Installed":      "installed/ffmpeg/3.1.11",
+    "Source":         "src/ffmpeg/3.1.11/ffmpeg-3.1.11.tar.xz",
     "Changelog":      "Changelog",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
@@ -251,6 +351,26 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "3.0.11",
+    "Installed":      "installed/ffmpeg/3.0.11",
+    "Source":         "src/ffmpeg/3.0.11/ffmpeg-3.0.11.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.10",
+    "Installed":      "installed/ffmpeg/3.0.10",
+    "Source":         "src/ffmpeg/3.0.10/ffmpeg-3.0.10.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.0.9",
     "Installed":      "installed/ffmpeg/3.0.9",
     "Source":         "src/ffmpeg/3.0.9/ffmpeg-3.0.9.tar.xz",
@@ -344,6 +464,26 @@
     "Number":         "3.0",
     "Installed":      "installed/ffmpeg/3.0",
     "Source":         "src/ffmpeg/3.0/ffmpeg-3.0.tar.bz2",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.14",
+    "Installed":      "installed/ffmpeg/2.8.14",
+    "Source":         "src/ffmpeg/2.8.14/ffmpeg-2.8.14.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.13",
+    "Installed":      "installed/ffmpeg/2.8.13",
+    "Source":         "src/ffmpeg/2.8.13/ffmpeg-2.8.13.tar.xz",
     "Changelog":      "Changelog",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
@@ -774,6 +914,16 @@
     "Number":         "2.5",
     "Installed":      "installed/ffmpeg/2.5",
     "Source":         "src/ffmpeg/2.5/ffmpeg-2.5.tar.bz2",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.14",
+    "Installed":      "installed/ffmpeg/2.4.14",
+    "Source":         "src/ffmpeg/2.4.14/ffmpeg-2.4.14.tar.xz",
     "Changelog":      "Changelog",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

@@ -1,0 +1,230 @@
+{
+  "Name":           "c-blosc",
+  "Title":          "Blosc",
+  "SourceUrl":      "https://github.com/Blosc/c-blosc/tags",
+  "Maintainer":     "Andrey P.",
+  "Changelog":      "RELEASE_NOTES.rst",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.14.2",
+    "Installed":      "installed/c-blosc/1.14.2",
+    "Source":         "src/c-blosc/1.14.2/c-blosc-1.14.2.tar.gz",
+    "Changelog":      "RELEASE_NOTES.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.1",
+    "Installed":      "installed/c-blosc/1.14.1",
+    "Source":         "src/c-blosc/1.14.1/c-blosc-1.14.1.tar.gz",
+    "Changelog":      "RELEASE_NOTES.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.0",
+    "Installed":      "installed/c-blosc/1.14.0",
+    "Source":         "src/c-blosc/1.14.0/c-blosc-1.14.0.tar.gz",
+    "Changelog":      "RELEASE_NOTES.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.7",
+    "Installed":      "installed/c-blosc/1.13.7",
+    "Source":         "src/c-blosc/1.13.7/c-blosc-1.13.7.tar.gz",
+    "Changelog":      "RELEASE_NOTES.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.6",
+    "Installed":      "installed/c-blosc/1.13.6",
+    "Source":         "src/c-blosc/1.13.6/c-blosc-1.13.6.tar.gz",
+    "Changelog":      "RELEASE_NOTES.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.5",
+    "Installed":      "installed/c-blosc/1.13.5",
+    "Source":         "src/c-blosc/1.13.5/c-blosc-1.13.5.tar.gz",
+    "Changelog":      "RELEASE_NOTES.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.4",
+    "Installed":      "installed/c-blosc/1.13.4",
+    "Source":         "src/c-blosc/1.13.4/c-blosc-1.13.4.tar.gz",
+    "Changelog":      "RELEASE_NOTES.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.3",
+    "Installed":      "installed/c-blosc/1.13.3",
+    "Source":         "src/c-blosc/1.13.3/c-blosc-1.13.3.tar.gz",
+    "Changelog":      "RELEASE_NOTES.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.2",
+    "Installed":      "installed/c-blosc/1.13.2",
+    "Source":         "src/c-blosc/1.13.2/c-blosc-1.13.2.tar.gz",
+    "Changelog":      "RELEASE_NOTES.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.1",
+    "Installed":      "installed/c-blosc/1.13.1",
+    "Source":         "src/c-blosc/1.13.1/c-blosc-1.13.1.tar.gz",
+    "Changelog":      "RELEASE_NOTES.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.0",
+    "Installed":      "installed/c-blosc/1.13.0",
+    "Source":         "src/c-blosc/1.13.0/c-blosc-1.13.0.tar.gz",
+    "Changelog":      "RELEASE_NOTES.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.1",
+    "Installed":      "installed/c-blosc/1.12.1",
+    "Source":         "src/c-blosc/1.12.1/c-blosc-1.12.1.tar.gz",
+    "Changelog":      "RELEASE_NOTES.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.0",
+    "Installed":      "installed/c-blosc/1.12.0",
+    "Source":         "src/c-blosc/1.12.0/c-blosc-1.12.0.tar.gz",
+    "Changelog":      "RELEASE_NOTES.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.3",
+    "Installed":      "installed/c-blosc/1.11.3",
+    "Source":         "src/c-blosc/1.11.3/c-blosc-1.11.3.tar.gz",
+    "Changelog":      "RELEASE_NOTES.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.2",
+    "Installed":      "installed/c-blosc/1.11.2",
+    "Source":         "src/c-blosc/1.11.2/c-blosc-1.11.2.tar.gz",
+    "Changelog":      "RELEASE_NOTES.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.1",
+    "Installed":      "installed/c-blosc/1.11.1",
+    "Source":         "src/c-blosc/1.11.1/c-blosc-1.11.1.tar.gz",
+    "Changelog":      "RELEASE_NOTES.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.0",
+    "Installed":      "installed/c-blosc/1.11.0",
+    "Source":         "src/c-blosc/1.11.0/c-blosc-1.11.0.tar.gz",
+    "Changelog":      "RELEASE_NOTES.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.2",
+    "Installed":      "installed/c-blosc/1.10.2",
+    "Source":         "src/c-blosc/1.10.2/c-blosc-1.10.2.tar.gz",
+    "Changelog":      "RELEASE_NOTES.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.1",
+    "Installed":      "installed/c-blosc/1.10.1",
+    "Source":         "src/c-blosc/1.10.1/c-blosc-1.10.1.tar.gz",
+    "Changelog":      "RELEASE_NOTES.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.0",
+    "Installed":      "installed/c-blosc/1.10.0",
+    "Source":         "src/c-blosc/1.10.0/c-blosc-1.10.0.tar.gz",
+    "Changelog":      "RELEASE_NOTES.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.3",
+    "Installed":      "installed/c-blosc/1.9.3",
+    "Source":         "src/c-blosc/1.9.3/c-blosc-1.9.3.tar.gz",
+    "Changelog":      "RELEASE_NOTES.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.2",
+    "Installed":      "installed/c-blosc/1.9.2",
+    "Source":         "src/c-blosc/1.9.2/c-blosc-1.9.2.tar.gz",
+    "Changelog":      "RELEASE_NOTES.rst",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

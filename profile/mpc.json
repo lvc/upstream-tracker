@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "1.1.0",
+    "Installed":      "installed/mpc/1.1.0",
+    "Source":         "src/mpc/1.1.0/mpc-1.1.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.0.3",
     "Installed":      "installed/mpc/1.0.3",
     "Source":         "src/mpc/1.0.3/mpc-1.0.3.tar.gz",

@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "0.19",
+    "Installed":      "installed/isl/0.19",
+    "Source":         "src/isl/0.19/isl-0.19.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.18",
     "Installed":      "installed/isl/0.18",
     "Source":         "src/isl/0.18/isl-0.18.tar.xz",

@@ -1,6 +1,7 @@
 {
   "Name":           "babl",
   "SourceUrl":      "http://ftp.gtk.org/pub/babl/",
+  "Git":            "https://github.com/GNOME/babl.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "PostInstall":    "rm -fr {INSTALL_TO}/lib/babl-0.1/",
@@ -9,6 +10,86 @@
   "HeadersDiff":    "Off",
 
   "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/babl/current",
+    "Source":         "src/babl/current",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.44",
+    "Installed":      "installed/babl/0.1.44",
+    "Source":         "src/babl/0.1.44/babl-0.1.44.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.42",
+    "Installed":      "installed/babl/0.1.42",
+    "Source":         "src/babl/0.1.42/babl-0.1.42.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.40",
+    "Installed":      "installed/babl/0.1.40",
+    "Source":         "src/babl/0.1.40/babl-0.1.40.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.38",
+    "Installed":      "installed/babl/0.1.38",
+    "Source":         "src/babl/0.1.38/babl-0.1.38.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.36",
+    "Installed":      "installed/babl/0.1.36",
+    "Source":         "src/babl/0.1.36/babl-0.1.36.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.34",
+    "Installed":      "installed/babl/0.1.34",
+    "Source":         "src/babl/0.1.34/babl-0.1.34.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.32",
+    "Installed":      "installed/babl/0.1.32",
+    "Source":         "src/babl/0.1.32/babl-0.1.32.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "0.1.30",
     "Installed":      "installed/babl/0.1.30",

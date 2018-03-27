@@ -1,18 +1,49 @@
 {
   "Name":           "util-linux",
   "SourceUrl":      "https://www.kernel.org/pub/linux/utils/util-linux/",
-  "Git":            "https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--disable-wall --disable-bash-completion --with-systemdsystemunitdir={INSTALL_TO}/systemd --without-ncurses --disable-login --disable-su",
+  "Configure":      "--disable-mount --disable-wall --disable-bash-completion --with-systemdsystemunitdir={INSTALL_TO}/systemd --without-ncurses --disable-login --disable-su",
   "SkipObjects":    [ "site-packages/" ],
 
   "Versions": [
   {
-    "Number":         "current",
-    "Installed":      "installed/util-linux/current",
-    "Source":         "src/util-linux/current",
-    "Changelog":      "On",
+    "Number":         "2.32",
+    "Installed":      "installed/util-linux/2.32",
+    "Source":         "src/util-linux/2.32/util-linux-2.32.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.32-rc2",
+    "Installed":      "installed/util-linux/2.32-rc2",
+    "Source":         "src/util-linux/2.32-rc2/util-linux-2.32-rc2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.32-rc1",
+    "Installed":      "installed/util-linux/2.32-rc1",
+    "Source":         "src/util-linux/2.32-rc1/util-linux-2.32-rc1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.31",
+    "Installed":      "installed/util-linux/2.31",
+    "Source":         "src/util-linux/2.31/util-linux-2.31.tar.xz",
+    "Changelog":      "NEWS",
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",

@@ -7,6 +7,26 @@
 
   "Versions": [
   {
+    "Number":         "1.4.2",
+    "Installed":      "installed/json-glib/1.4.2",
+    "Source":         "src/json-glib/1.4.2/json-glib-1.4.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.0",
+    "Installed":      "installed/json-glib/1.4.0",
+    "Source":         "src/json-glib/1.4.0/json-glib-1.4.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.2.8",
     "Installed":      "installed/json-glib/1.2.8",
     "Source":         "src/json-glib/1.2.8/json-glib-1.2.8.tar.xz",

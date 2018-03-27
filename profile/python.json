@@ -16,6 +16,91 @@
 
   "Versions": [
   {
+    "Number":         "3.7.0b2",
+    "Installed":      "installed/python/3.7.0b2",
+    "Source":         "src/python/3.7.0b2/Python-3.7.0b2.tgz",
+    "Changelog":      "Misc/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7.0b1",
+    "Installed":      "installed/python/3.7.0b1",
+    "Source":         "src/python/3.7.0b1/Python-3.7.0b1.tgz",
+    "Changelog":      "Misc/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "3.7.0a4",
+    "Installed":      "installed/python/3.7.0a4",
+    "Source":         "src/python/3.7.0a4/Python-3.7.0a4.tgz",
+    "Changelog":      "Misc/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "3.7.0a3",
+    "Installed":      "installed/python/3.7.0a3",
+    "Source":         "src/python/3.7.0a3/Python-3.7.0a3.tgz",
+    "Changelog":      "Misc/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "3.7.0a2",
+    "Installed":      "installed/python/3.7.0a2",
+    "Source":         "src/python/3.7.0a2/Python-3.7.0a2.tgz",
+    "Changelog":      "Misc/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "3.7.0a1",
+    "Installed":      "installed/python/3.7.0a1",
+    "Source":         "src/python/3.7.0a1/Python-3.7.0a1.tgz",
+    "Changelog":      "Misc/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "3.6.4",
+    "Installed":      "installed/python/3.6.4",
+    "Source":         "src/python/3.6.4/Python-3.6.4.tgz",
+    "Changelog":      "Misc/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6.3",
+    "Installed":      "installed/python/3.6.3",
+    "Source":         "src/python/3.6.3/Python-3.6.3.tgz",
+    "Changelog":      "Misc/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.6.2",
     "Installed":      "installed/python/3.6.2",
     "Source":         "src/python/3.6.2/Python-3.6.2.tgz",
@@ -79,6 +164,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "3.5.5",
+    "Installed":      "installed/python/3.5.5",
+    "Source":         "src/python/3.5.5/Python-3.5.5.tgz",
+    "Changelog":      "Misc/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.5.4",
     "Installed":      "installed/python/3.5.4",
     "Source":         "src/python/3.5.4/Python-3.5.4.tgz",
@@ -122,6 +217,16 @@
     "Number":         "3.5.0",
     "Installed":      "installed/python/3.5.0",
     "Source":         "src/python/3.5.0/Python-3.5.0.tgz",
+    "Changelog":      "Misc/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.4.8",
+    "Installed":      "installed/python/3.4.8",
+    "Source":         "src/python/3.4.8/Python-3.4.8.tgz",
     "Changelog":      "Misc/NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
@@ -202,6 +307,16 @@
     "Number":         "3.4.0",
     "Installed":      "installed/python/3.4.0",
     "Source":         "src/python/3.4.0/Python-3.4.0.tgz",
+    "Changelog":      "Misc/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.7",
+    "Installed":      "installed/python/3.3.7",
+    "Source":         "src/python/3.3.7/Python-3.3.7.tgz",
     "Changelog":      "Misc/NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

@@ -8,6 +8,46 @@
 
   "Versions": [
   {
+    "Number":         "3.0.3",
+    "Installed":      "installed/libical/3.0.3",
+    "Source":         "src/libical/3.0.3/libical-3.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.2",
+    "Installed":      "installed/libical/3.0.2",
+    "Source":         "src/libical/3.0.2/libical-3.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.1",
+    "Installed":      "installed/libical/3.0.1",
+    "Source":         "src/libical/3.0.1/libical-3.0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.0",
+    "Installed":      "installed/libical/3.0.0",
+    "Source":         "src/libical/3.0.0/libical-3.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.0.0",
     "Installed":      "installed/libical/2.0.0",
     "Source":         "src/libical/2.0.0/libical-2.0.0.tar.gz",

@@ -8,6 +8,26 @@
 
   "Versions": [
   {
+    "Number":         "1.5.9",
+    "Installed":      "installed/libevdev/1.5.9",
+    "Source":         "src/libevdev/1.5.9/libevdev-1.5.9.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.8",
+    "Installed":      "installed/libevdev/1.5.8",
+    "Source":         "src/libevdev/1.5.8/libevdev-1.5.8.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.5.7",
     "Installed":      "installed/libevdev/1.5.7",
     "Source":         "src/libevdev/1.5.7/libevdev-1.5.7.tar.xz",

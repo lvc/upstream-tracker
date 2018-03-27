@@ -11,6 +11,76 @@
 
   "Versions": [
   {
+    "Number":         "5.44.0",
+    "Installed":      "installed/kguiaddons/5.44.0",
+    "Source":         "src/kguiaddons/5.44.0/kguiaddons-5.44.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.43.0",
+    "Installed":      "installed/kguiaddons/5.43.0",
+    "Source":         "src/kguiaddons/5.43.0/kguiaddons-5.43.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.42.0",
+    "Installed":      "installed/kguiaddons/5.42.0",
+    "Source":         "src/kguiaddons/5.42.0/kguiaddons-5.42.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.41.0",
+    "Installed":      "installed/kguiaddons/5.41.0",
+    "Source":         "src/kguiaddons/5.41.0/kguiaddons-5.41.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.40.0",
+    "Installed":      "installed/kguiaddons/5.40.0",
+    "Source":         "src/kguiaddons/5.40.0/kguiaddons-5.40.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.39.0",
+    "Installed":      "installed/kguiaddons/5.39.0",
+    "Source":         "src/kguiaddons/5.39.0/kguiaddons-5.39.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.38.0",
+    "Installed":      "installed/kguiaddons/5.38.0",
+    "Source":         "src/kguiaddons/5.38.0/kguiaddons-5.38.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "5.37.0",
     "Installed":      "installed/kguiaddons/5.37.0",
     "Source":         "src/kguiaddons/5.37.0/kguiaddons-5.37.0.tar.xz",

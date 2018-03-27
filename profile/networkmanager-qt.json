@@ -5,12 +5,104 @@
   "OldSourceUrl":   "http://download.kde.org/Attic/frameworks/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "-DCMAKE_PREFIX_PATH='/home/Soft/Qt-5.7.1/;/home/Soft/ECM/;{INSTALL_ROOT}/networkmanager/1.8.2/' -DBUILD_TESTING=OFF",
+  "Configure":      "-DCMAKE_PREFIX_PATH='/home/Soft/Qt-5.7.1/;/home/Soft/ECM/;{INSTALL_ROOT}/networkmanager/1.10.2/' -DBUILD_TESTING=OFF",
   "PreInstall":     "sed -i -e 's/ SYSTEM//' src/CMakeLists.txt;sed -i -e 's/ SYSTEM PUBLIC//' src/CMakeLists.txt",
   "ChangeLog":      "Off",
+  "ConfigureGlobal": "PKG_CONFIG_PATH={INSTALL_ROOT}/networkmanager/1.10.2/lib/pkgconfig",
+  "CxxFlags":       "-I{INSTALL_ROOT}/networkmanager/1.10.2/include",
   "HeadersDiff":    "Off",
 
   "Versions": [
+  {
+    "Number":         "5.44.0",
+    "Installed":      "installed/networkmanager-qt/5.44.0",
+    "Source":         "src/networkmanager-qt/5.44.0/networkmanager-qt-5.44.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.43.0",
+    "Installed":      "installed/networkmanager-qt/5.43.0",
+    "Source":         "src/networkmanager-qt/5.43.0/networkmanager-qt-5.43.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.42.0",
+    "Installed":      "installed/networkmanager-qt/5.42.0",
+    "Source":         "src/networkmanager-qt/5.42.0/networkmanager-qt-5.42.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.41.0",
+    "Installed":      "installed/networkmanager-qt/5.41.0",
+    "Source":         "src/networkmanager-qt/5.41.0/networkmanager-qt-5.41.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.40.0",
+    "Installed":      "installed/networkmanager-qt/5.40.0",
+    "Source":         "src/networkmanager-qt/5.40.0/networkmanager-qt-5.40.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.39.0",
+    "Installed":      "installed/networkmanager-qt/5.39.0",
+    "Source":         "src/networkmanager-qt/5.39.0/networkmanager-qt-5.39.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.38.0",
+    "Installed":      "installed/networkmanager-qt/5.38.0",
+    "Source":         "src/networkmanager-qt/5.38.0/networkmanager-qt-5.38.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.37.0",
+    "Installed":      "installed/networkmanager-qt/5.37.0",
+    "Source":         "src/networkmanager-qt/5.37.0/networkmanager-qt-5.37.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.36.0",
+    "Installed":      "installed/networkmanager-qt/5.36.0",
+    "Source":         "src/networkmanager-qt/5.36.0/networkmanager-qt-5.36.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "5.35.0",
     "Installed":      "installed/networkmanager-qt/5.35.0",

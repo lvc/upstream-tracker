@@ -9,6 +9,26 @@
 
   "Versions": [
   {
+    "Number":         "4.0.4",
+    "Installed":      "installed/givaro/4.0.4",
+    "Source":         "src/givaro/4.0.4/givaro-4.0.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.3",
+    "Installed":      "installed/givaro/4.0.3",
+    "Source":         "src/givaro/4.0.3/givaro-4.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "4.0.2",
     "Installed":      "installed/givaro/4.0.2",
     "Source":         "src/givaro/4.0.2/givaro-4.0.2.tar.gz",

@@ -27,6 +27,26 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "3.1.1-rc",
+    "Installed":      "installed/wxwidgets/3.1.1-rc",
+    "Source":         "src/wxwidgets/3.1.1-rc/wxwidgets-3.1.1-rc.tar.gz",
+    "Changelog":      "docs/readme.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.4",
+    "Installed":      "installed/wxwidgets/3.0.4",
+    "Source":         "src/wxwidgets/3.0.4/wxwidgets-3.0.4.tar.gz",
+    "Changelog":      "docs/readme.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.0.3.1",
     "Installed":      "installed/wxwidgets/3.0.3.1",
     "Source":         "src/wxwidgets/3.0.3.1/wxwidgets-3.0.3.1.tar.gz",

@@ -1,0 +1,232 @@
+{
+  "Name":           "skalibs",
+  "SourceUrl":      "https://github.com/skarnet/skalibs/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-static",
+  "PreInstall":     "sed -i -e 's/-O2/-g -Og/' configure",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/skalibs/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.6.3.1",
+    "Installed":      "installed/skalibs/2.6.3.1",
+    "Source":         "src/skalibs/2.6.3.1/skalibs-2.6.3.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.3.0",
+    "Installed":      "installed/skalibs/2.6.3.0",
+    "Source":         "src/skalibs/2.6.3.0/skalibs-2.6.3.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.2.0",
+    "Installed":      "installed/skalibs/2.6.2.0",
+    "Source":         "src/skalibs/2.6.2.0/skalibs-2.6.2.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.1.0",
+    "Installed":      "installed/skalibs/2.6.1.0",
+    "Source":         "src/skalibs/2.6.1.0/skalibs-2.6.1.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.0.2",
+    "Installed":      "installed/skalibs/2.6.0.2",
+    "Source":         "src/skalibs/2.6.0.2/skalibs-2.6.0.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.0.1",
+    "Installed":      "installed/skalibs/2.6.0.1",
+    "Source":         "src/skalibs/2.6.0.1/skalibs-2.6.0.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.6.0.0",
+    "Installed":      "installed/skalibs/2.6.0.0",
+    "Source":         "src/skalibs/2.6.0.0/skalibs-2.6.0.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.1.1",
+    "Installed":      "installed/skalibs/2.5.1.1",
+    "Source":         "src/skalibs/2.5.1.1/skalibs-2.5.1.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.1.0",
+    "Installed":      "installed/skalibs/2.5.1.0",
+    "Source":         "src/skalibs/2.5.1.0/skalibs-2.5.1.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.0.0",
+    "Installed":      "installed/skalibs/2.5.0.0",
+    "Source":         "src/skalibs/2.5.0.0/skalibs-2.5.0.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.0.2",
+    "Installed":      "installed/skalibs/2.4.0.2",
+    "Source":         "src/skalibs/2.4.0.2/skalibs-2.4.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.0.1",
+    "Installed":      "installed/skalibs/2.4.0.1",
+    "Source":         "src/skalibs/2.4.0.1/skalibs-2.4.0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.0.0",
+    "Installed":      "installed/skalibs/2.4.0.0",
+    "Source":         "src/skalibs/2.4.0.0/skalibs-2.4.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.10.0",
+    "Installed":      "installed/skalibs/2.3.10.0",
+    "Source":         "src/skalibs/2.3.10.0/skalibs-2.3.10.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.9.0",
+    "Installed":      "installed/skalibs/2.3.9.0",
+    "Source":         "src/skalibs/2.3.9.0/skalibs-2.3.9.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.8.3",
+    "Installed":      "installed/skalibs/2.3.8.3",
+    "Source":         "src/skalibs/2.3.8.3/skalibs-2.3.8.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.8.2",
+    "Installed":      "installed/skalibs/2.3.8.2",
+    "Source":         "src/skalibs/2.3.8.2/skalibs-2.3.8.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.8.1",
+    "Installed":      "installed/skalibs/2.3.8.1",
+    "Source":         "src/skalibs/2.3.8.1/skalibs-2.3.8.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.8.0",
+    "Installed":      "installed/skalibs/2.3.8.0",
+    "Source":         "src/skalibs/2.3.8.0/skalibs-2.3.8.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.7.1",
+    "Installed":      "installed/skalibs/2.3.7.1",
+    "Source":         "src/skalibs/2.3.7.1/skalibs-2.3.7.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.7.0",
+    "Installed":      "installed/skalibs/2.3.7.0",
+    "Source":         "src/skalibs/2.3.7.0/skalibs-2.3.7.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.6.1",
+    "Installed":      "installed/skalibs/2.3.6.1",
+    "Source":         "src/skalibs/2.3.6.1/skalibs-2.3.6.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

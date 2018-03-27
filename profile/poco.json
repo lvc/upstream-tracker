@@ -4,14 +4,65 @@
   "SourceUrl":      "https://github.com/pocoproject/poco/tags",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "BuildScript":    "build_script/poco.sh",
+  "BuildSystem":    "CMake",
   "Changelog":      "CHANGELOG",
   "CheckObjects":   [ "lib.+d\.so.*" ],
   "HeadersDiff":    "Off",
   "MinimalVersion": "1.5.3",
+  "OldBuildScript": "build_script/poco.sh",
   "ReleasePattern": "(.+)-release\Z",
 
   "Versions": [
+  {
+    "Number":         "1.9.0",
+    "Installed":      "installed/poco/1.9.0",
+    "Source":         "src/poco/1.9.0/poco-1.9.0-release.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.1",
+    "Installed":      "installed/poco/1.8.1",
+    "Source":         "src/poco/1.8.1/poco-1.8.1-release.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.0.1",
+    "Installed":      "installed/poco/1.8.0.1",
+    "Source":         "src/poco/1.8.0.1/poco-1.8.0.1-release.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.0",
+    "Installed":      "installed/poco/1.8.0",
+    "Source":         "src/poco/1.8.0/poco-1.8.0-release.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.7.9",
+    "Installed":      "installed/poco/1.7.9",
+    "Source":         "src/poco/1.7.9/poco-1.7.9-release.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "1.7.8",
     "Installed":      "installed/poco/1.7.8",

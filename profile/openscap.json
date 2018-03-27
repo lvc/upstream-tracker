@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "1.2.16",
+    "Installed":      "installed/openscap/1.2.16",
+    "Source":         "src/openscap/1.2.16/openscap-1.2.16.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.2.15",
     "Installed":      "installed/openscap/1.2.15",
     "Source":         "src/openscap/1.2.15/openscap-1.2.15.tar.gz",

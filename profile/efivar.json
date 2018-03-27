@@ -8,6 +8,36 @@
 
   "Versions": [
   {
+    "Number":         34,
+    "Installed":      "installed/efivar/34",
+    "Source":         "src/efivar/34/efivar-34.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         33,
+    "Installed":      "installed/efivar/33",
+    "Source":         "src/efivar/33/efivar-33.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         32,
+    "Installed":      "installed/efivar/32",
+    "Source":         "src/efivar/32/efivar-32.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         31,
     "Installed":      "installed/efivar/31",
     "Source":         "src/efivar/31/efivar-31.tar.gz",

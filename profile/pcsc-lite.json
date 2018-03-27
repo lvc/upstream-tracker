@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         "1.8.23",
+    "Installed":      "installed/pcsc-lite/1.8.23",
+    "Source":         "src/pcsc-lite/1.8.23/pcsc-lite-1.8.23.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.8.22",
     "Installed":      "installed/pcsc-lite/1.8.22",
     "Source":         "src/pcsc-lite/1.8.22/pcsc-lite-1.8.22.tar.bz2",

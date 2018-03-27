@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "1.3.6",
+    "Installed":      "installed/libvorbis/1.3.6",
+    "Source":         "src/libvorbis/1.3.6/libvorbis-1.3.6.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.3.5",
     "Installed":      "installed/libvorbis/1.3.5",
     "Source":         "src/libvorbis/1.3.5/libvorbis-1.3.5.tar.xz",

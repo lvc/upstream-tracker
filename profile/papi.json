@@ -7,7 +7,7 @@
   "OldSourceUrlDepth": "3",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--with-static-lib=no --with-debug=yes",
+  "Configure":      "--with-shared-lib=yes --with-debug=yes",
   "PreInstall":     "sed -i -e 's/-O[0123]/-Og/g' configure;sed -i -e 's/utils tests//g' Makefile.inc",
   "SkipObjects":    [ "libpfm.so" ],
   "BuildDir":       "src",
@@ -15,6 +15,16 @@
   "MinimalVersion": "4.4.0",
 
   "Versions": [
+  {
+    "Number":         "5.6.0",
+    "Installed":      "installed/papi/5.6.0",
+    "Source":         "src/papi/5.6.0/papi-5.6.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "5.5.1",
     "Installed":      "installed/papi/5.5.1",

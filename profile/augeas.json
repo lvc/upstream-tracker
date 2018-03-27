@@ -8,6 +8,36 @@
 
   "Versions": [
   {
+    "Number":         "1.10.1",
+    "Installed":      "installed/augeas/1.10.1",
+    "Source":         "src/augeas/1.10.1/augeas-1.10.1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.0",
+    "Installed":      "installed/augeas/1.10.0",
+    "Source":         "src/augeas/1.10.0/augeas-1.10.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.0",
+    "Installed":      "installed/augeas/1.9.0",
+    "Source":         "src/augeas/1.9.0/augeas-1.9.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.8.1",
     "Installed":      "installed/augeas/1.8.1",
     "Source":         "src/augeas/1.8.1/augeas-1.8.1.tar.gz",

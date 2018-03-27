@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "1.49",
+    "Installed":      "installed/geographiclib/1.49",
+    "Source":         "src/geographiclib/1.49/GeographicLib-1.49.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.48",
     "Installed":      "installed/geographiclib/1.48",
     "Source":         "src/geographiclib/1.48/GeographicLib-1.48.tar.gz",

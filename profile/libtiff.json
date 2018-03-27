@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         "4.0.9",
+    "Installed":      "installed/libtiff/4.0.9",
+    "Source":         "src/libtiff/4.0.9/tiff-4.0.9.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "4.0.8",
     "Installed":      "installed/libtiff/4.0.8",
     "Source":         "src/libtiff/4.0.8/tiff-4.0.8.tar.gz",

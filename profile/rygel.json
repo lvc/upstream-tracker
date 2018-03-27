@@ -12,6 +12,26 @@
 
   "Versions": [
   {
+    "Number":         "0.36.1",
+    "Installed":      "installed/rygel/0.36.1",
+    "Source":         "src/rygel/0.36.1/rygel-0.36.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.36.0",
+    "Installed":      "installed/rygel/0.36.0",
+    "Source":         "src/rygel/0.36.0/rygel-0.36.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.35.0",
     "Installed":      "installed/rygel/0.35.0",
     "Source":         "src/rygel/0.35.0/rygel-0.35.0.tar.xz",

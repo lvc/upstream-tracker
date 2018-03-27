@@ -12,6 +12,26 @@
 
   "Versions": [
   {
+    "Number":         "12.3",
+    "Installed":      "installed/libav/12.3",
+    "Source":         "src/libav/12.3/libav-12.3.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "12.2",
+    "Installed":      "installed/libav/12.2",
+    "Source":         "src/libav/12.2/libav-12.2.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "12.1",
     "Installed":      "installed/libav/12.1",
     "Source":         "src/libav/12.1/libav-12.1.tar.xz",
@@ -25,6 +45,26 @@
     "Number":         12,
     "Installed":      "installed/libav/12",
     "Source":         "src/libav/12/libav-12.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "11.12",
+    "Installed":      "installed/libav/11.12",
+    "Source":         "src/libav/11.12/libav-11.12.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "11.11",
+    "Installed":      "installed/libav/11.11",
+    "Source":         "src/libav/11.11/libav-11.11.tar.xz",
     "Changelog":      "Changelog",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
@@ -425,6 +465,16 @@
     "Number":         9,
     "Installed":      "installed/libav/9",
     "Source":         "src/libav/9/libav-9.tar.xz",
+    "Changelog":      "Changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.21",
+    "Installed":      "installed/libav/0.8.21",
+    "Source":         "src/libav/0.8.21/libav-0.8.21.tar.xz",
     "Changelog":      "Changelog",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

@@ -1,0 +1,141 @@
+{
+  "Name":           "qpdf",
+  "Title":          "QPDF",
+  "SourceUrl":      "https://ftp.osuosl.org/pub/blfs/conglomeration/qpdf/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "5.0.0",
+
+  "Versions": [
+  {
+    "Number":         "8.0.2",
+    "Installed":      "installed/qpdf/8.0.2",
+    "Source":         "src/qpdf/8.0.2/qpdf-8.0.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.0.0",
+    "Installed":      "installed/qpdf/8.0.0",
+    "Source":         "src/qpdf/8.0.0/qpdf-8.0.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.1.1",
+    "Installed":      "installed/qpdf/7.1.1",
+    "Source":         "src/qpdf/7.1.1/qpdf-7.1.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.1.0",
+    "Installed":      "installed/qpdf/7.1.0",
+    "Source":         "src/qpdf/7.1.0/qpdf-7.1.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.0",
+    "Installed":      "installed/qpdf/7.0.0",
+    "Source":         "src/qpdf/7.0.0/qpdf-7.0.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.0.0",
+    "Installed":      "installed/qpdf/6.0.0",
+    "Source":         "src/qpdf/6.0.0/qpdf-6.0.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.2.0",
+    "Installed":      "installed/qpdf/5.2.0",
+    "Source":         "src/qpdf/5.2.0/qpdf-5.2.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.1.3",
+    "Installed":      "installed/qpdf/5.1.3",
+    "Source":         "src/qpdf/5.1.3/qpdf-5.1.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.1.2",
+    "Installed":      "installed/qpdf/5.1.2",
+    "Source":         "src/qpdf/5.1.2/qpdf-5.1.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.1.1",
+    "Installed":      "installed/qpdf/5.1.1",
+    "Source":         "src/qpdf/5.1.1/qpdf-5.1.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.1.0",
+    "Installed":      "installed/qpdf/5.1.0",
+    "Source":         "src/qpdf/5.1.0/qpdf-5.1.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.1",
+    "Installed":      "installed/qpdf/5.0.1",
+    "Source":         "src/qpdf/5.0.1/qpdf-5.0.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.0",
+    "Installed":      "installed/qpdf/5.0.0",
+    "Source":         "src/qpdf/5.0.0/qpdf-5.0.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

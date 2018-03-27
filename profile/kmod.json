@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         25,
+    "Installed":      "installed/kmod/25",
+    "Source":         "src/kmod/25/kmod-25.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         24,
     "Installed":      "installed/kmod/24",
     "Source":         "src/kmod/24/kmod-24.tar.xz",

@@ -13,6 +13,26 @@
 
   "Versions": [
   {
+    "Number":         "1.5.5",
+    "Installed":      "installed/mrpt/1.5.5",
+    "Source":         "src/mrpt/1.5.5/mrpt-1.5.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.4",
+    "Installed":      "installed/mrpt/1.5.4",
+    "Source":         "src/mrpt/1.5.4/mrpt-1.5.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.5.3",
     "Installed":      "installed/mrpt/1.5.3",
     "Source":         "src/mrpt/1.5.3/mrpt-1.5.3.tar.gz",

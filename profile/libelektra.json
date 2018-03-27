@@ -13,6 +13,36 @@
 
   "Versions": [
   {
+    "Number":         "0.8.22",
+    "Installed":      "installed/libelektra/0.8.22",
+    "Source":         "src/libelektra/0.8.22/libelektra-0.8.22.tar.gz",
+    "Changelog":      "doc/NEWS.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.21",
+    "Installed":      "installed/libelektra/0.8.21",
+    "Source":         "src/libelektra/0.8.21/libelektra-0.8.21.tar.gz",
+    "Changelog":      "doc/NEWS.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.20",
+    "Installed":      "installed/libelektra/0.8.20",
+    "Source":         "src/libelektra/0.8.20/libelektra-0.8.20.tar.gz",
+    "Changelog":      "doc/NEWS.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.8.19",
     "Installed":      "installed/libelektra/0.8.19",
     "Source":         "src/libelektra/0.8.19/libelektra-0.8.19.tar.gz",

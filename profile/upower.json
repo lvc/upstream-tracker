@@ -10,6 +10,26 @@
 
   "Versions": [
   {
+    "Number":         "0.99.7",
+    "Installed":      "installed/upower/0.99.7",
+    "Source":         "src/upower/0.99.7/upower-0.99.7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.99.6",
+    "Installed":      "installed/upower/0.99.6",
+    "Source":         "src/upower/0.99.6/upower-0.99.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.99.5",
     "Installed":      "installed/upower/0.99.5",
     "Source":         "src/upower/0.99.5/upower-0.99.5.tar.xz",

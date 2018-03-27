@@ -9,6 +9,26 @@
 
   "Versions": [
   {
+    "Number":         "2.38.0",
+    "Installed":      "installed/libgtop/2.38.0",
+    "Source":         "src/libgtop/2.38.0/libgtop-2.38.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.37.92",
+    "Installed":      "installed/libgtop/2.37.92",
+    "Source":         "src/libgtop/2.37.92/libgtop-2.37.92.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.37.90",
     "Installed":      "installed/libgtop/2.37.90",
     "Source":         "src/libgtop/2.37.90/libgtop-2.37.90.tar.xz",

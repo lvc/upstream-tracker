@@ -4,10 +4,40 @@
   "SourceUrl":      "https://ftp.gnu.org/gnu/mpfr/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--with-gmp={INSTALL_ROOT}/gmp/4.3.2/",
   "HeadersDiff":    "Off",
+  "OldConfigure":   "--with-gmp={INSTALL_ROOT}/gmp/6.1.2/",
 
   "Versions": [
+  {
+    "Number":         "4.0.1",
+    "Installed":      "installed/mpfr/4.0.1",
+    "Source":         "src/mpfr/4.0.1/mpfr-4.0.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.0",
+    "Installed":      "installed/mpfr/4.0.0",
+    "Source":         "src/mpfr/4.0.0/mpfr-4.0.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.1.6",
+    "Installed":      "installed/mpfr/3.1.6",
+    "Source":         "src/mpfr/3.1.6/mpfr-3.1.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "3.1.5",
     "Installed":      "installed/mpfr/3.1.5",

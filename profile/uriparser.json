@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "0.8.5",
+    "Installed":      "installed/uriparser/0.8.5",
+    "Source":         "src/uriparser/0.8.5/uriparser-0.8.5.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.8.4",
     "Installed":      "installed/uriparser/0.8.4",
     "Source":         "src/uriparser/0.8.4/uriparser-0.8.4.tar.bz2",

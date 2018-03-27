@@ -21,6 +21,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.4.15",
+    "Installed":      "installed/mosquitto/1.4.15",
+    "Source":         "src/mosquitto/1.4.15/mosquitto-1.4.15.tar.gz",
+    "Changelog":      "ChangeLog.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.4.14",
     "Installed":      "installed/mosquitto/1.4.14",
     "Source":         "src/mosquitto/1.4.14/mosquitto-1.4.14.tar.gz",

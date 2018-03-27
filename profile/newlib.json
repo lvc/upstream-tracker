@@ -16,6 +16,16 @@
 
   "Versions": [
   {
+    "Number":         "3.0.0",
+    "Installed":      "installed/newlib/3.0.0",
+    "Source":         "src/newlib/3.0.0/newlib-3.0.0.tar.gz",
+    "Changelog":      "newlib/NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.5.0",
     "Installed":      "installed/newlib/2.5.0",
     "Source":         "src/newlib/2.5.0/newlib-2.5.0.tar.gz",

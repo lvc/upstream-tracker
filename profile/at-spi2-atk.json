@@ -11,6 +11,36 @@
 
   "Versions": [
   {
+    "Number":         "2.26.2",
+    "Installed":      "installed/at-spi2-atk/2.26.2",
+    "Source":         "src/at-spi2-atk/2.26.2/at-spi2-atk-2.26.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.26.1",
+    "Installed":      "installed/at-spi2-atk/2.26.1",
+    "Source":         "src/at-spi2-atk/2.26.1/at-spi2-atk-2.26.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.26.0",
+    "Installed":      "installed/at-spi2-atk/2.26.0",
+    "Source":         "src/at-spi2-atk/2.26.0/at-spi2-atk-2.26.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.25.3",
     "Installed":      "installed/at-spi2-atk/2.25.3",
     "Source":         "src/at-spi2-atk/2.25.3/at-spi2-atk-2.25.3.tar.xz",

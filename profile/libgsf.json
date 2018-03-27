@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "1.14.42",
+    "Installed":      "installed/libgsf/1.14.42",
+    "Source":         "src/libgsf/1.14.42/libgsf-1.14.42.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.14.41",
     "Installed":      "installed/libgsf/1.14.41",
     "Source":         "src/libgsf/1.14.41/libgsf-1.14.41.tar.xz",

@@ -5,8 +5,9 @@
   "Git":            "https://git.gnome.org/browse/pango",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/cairo/1.14.8/lib/pkgconfig:{INSTALL_ROOT}/harfbuzz/1.4.6/lib/pkgconfig",
+  "Configure":      "PKG_CONFIG_PATH='{INSTALL_ROOT}/cairo/1.14.12/lib/pkgconfig:{INSTALL_ROOT}/harfbuzz/1.7.2/lib/pkgconfig:{INSTALL_ROOT}/glib/2.54.2/lib/pkgconfig:{INSTALL_ROOT}/fontconfig/2.12.6/lib/pkgconfig:{INSTALL_ROOT}/fribidi/1.0.1/lib/pkgconfig' HARFBUZZ_CFLAGS='-I{INSTALL_ROOT}/harfbuzz/1.7.2/include/harfbuzz'",
   "SkipObjects":    [ "modules/" ],
+  "Make":           "V=1",
   "SkipSoversions": [ "2-1.0.0" ],
 
   "Versions": [
@@ -15,6 +16,36 @@
     "Installed":      "installed/pango/current",
     "Source":         "src/pango/current",
     "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.40.14",
+    "Installed":      "installed/pango/1.40.14",
+    "Source":         "src/pango/1.40.14/pango-1.40.14.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.40.13",
+    "Installed":      "installed/pango/1.40.13",
+    "Source":         "src/pango/1.40.13/pango-1.40.13.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.40.12",
+    "Installed":      "installed/pango/1.40.12",
+    "Source":         "src/pango/1.40.12/pango-1.40.12.tar.xz",
+    "Changelog":      "NEWS",
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",

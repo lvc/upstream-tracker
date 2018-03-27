@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "2.3.3",
+    "Installed":      "installed/libseccomp/2.3.3",
+    "Source":         "src/libseccomp/2.3.3/libseccomp-2.3.3.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.3.2",
     "Installed":      "installed/libseccomp/2.3.2",
     "Source":         "src/libseccomp/2.3.2/libseccomp-2.3.2.tar.gz",

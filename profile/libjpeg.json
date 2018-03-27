@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         "9c",
+    "Installed":      "installed/libjpeg/9c",
+    "Source":         "src/libjpeg/9c/jpegsrc.v9c.tar.gz",
+    "Changelog":      "change.log",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "9b",
     "Installed":      "installed/libjpeg/9b",
     "Source":         "src/libjpeg/9b/jpegsrc.v9b.tar.gz",

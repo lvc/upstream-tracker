@@ -8,6 +8,36 @@
 
   "Versions": [
   {
+    "Number":         "3.5.0",
+    "Installed":      "installed/liblouis/3.5.0",
+    "Source":         "src/liblouis/3.5.0/liblouis-3.5.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.4.0",
+    "Installed":      "installed/liblouis/3.4.0",
+    "Source":         "src/liblouis/3.4.0/liblouis-3.4.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.3.0",
+    "Installed":      "installed/liblouis/3.3.0",
+    "Source":         "src/liblouis/3.3.0/liblouis-3.3.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.2.0",
     "Installed":      "installed/liblouis/3.2.0",
     "Source":         "src/liblouis/3.2.0/liblouis-3.2.0.tar.gz",

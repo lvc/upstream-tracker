@@ -1,6 +1,6 @@
 {
   "Name":           "libfuse",
-  "SourceUrl":      "https://github.com/libfuse/libfuse/tags?after=fuse_2_3_pre1",
+  "SourceUrl":      "https://github.com/libfuse/libfuse/tags",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "Configure":      "--enable-lib --disable-static --disable-util --disable-example --disable-test --disable-kernel-module",

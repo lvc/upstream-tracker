@@ -12,6 +12,66 @@
 
   "Versions": [
   {
+    "Number":         "2.4.0",
+    "Installed":      "installed/radare2/2.4.0",
+    "Source":         "src/radare2/2.4.0/radare2-2.4.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.0",
+    "Installed":      "installed/radare2/2.3.0",
+    "Source":         "src/radare2/2.3.0/radare2-2.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.0",
+    "Installed":      "installed/radare2/2.2.0",
+    "Source":         "src/radare2/2.2.0/radare2-2.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.0",
+    "Installed":      "installed/radare2/2.1.0",
+    "Source":         "src/radare2/2.1.0/radare2-2.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.1",
+    "Installed":      "installed/radare2/2.0.1",
+    "Source":         "src/radare2/2.0.1/radare2-2.0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0",
+    "Installed":      "installed/radare2/2.0.0",
+    "Source":         "src/radare2/2.0.0/radare2-2.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.6.0",
     "Installed":      "installed/radare2/1.6.0",
     "Source":         "src/radare2/1.6.0/radare2-1.6.0.tar.gz",

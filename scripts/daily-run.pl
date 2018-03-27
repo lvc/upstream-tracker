@@ -2,7 +2,7 @@
 ##################################################################
 # A script to manage daily runs of the ABI Tracker
 #
-# Copyright (C) 2015-2017 Andrey Ponomarenko's ABI Laboratory
+# Copyright (C) 2015-2018 Andrey Ponomarenko's ABI Laboratory
 #
 # Written by Andrey Ponomarenko
 #
@@ -19,29 +19,37 @@
 #  ABI Dumper (0.99.15 or newer)
 #  PkgDiff (1.6.4 or newer)
 #
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License or the GNU Lesser
-# General Public License as published by the Free Software Foundation.
+# This library is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
 #
-# This program is distributed in the hope that it will be useful,
+# This library is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# Lesser General Public License for more details.
 #
-# You should have received a copy of the GNU General Public License
-# and the GNU Lesser General Public License along with this program.
-# If not, see <http://www.gnu.org/licenses/>.
+# You should have received a copy of the GNU Lesser General Public
+# License along with this library; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+# MA  02110-1301 USA
 ##################################################################
 use Getopt::Long;
 Getopt::Long::Configure ("posix_default", "no_ignore_case", "permute");
 use Fcntl qw(:flock SEEK_END);
 use File::Path qw(mkpath rmtree);
+use File::Temp qw(tempdir);
 use File::Basename qw(dirname);
 use Data::Dumper;
 
 my $Testplan_Init = "scripts/testplan";
-my $Testplan = ".testplan";
-my $TestplanLock = ".testplan.lock";
+
+my $UpdateList = "scripts/update.info";
+my $UpdateLock = "scripts/.update.lock";
+
+my $TMP_DIR = tempdir(CLEANUP=>1);
+my $Testplan = $TMP_DIR."/.testplan";
+my $TestplanLock = $TMP_DIR."/.testplan.lock";
 my $Date = getDate();
 my $LogDir = "daily_log";
 my %LogPath;
@@ -86,6 +94,11 @@ sub writeFile($$)
 {
     my ($Path, $Content) = @_;
     
+    my $Dir = dirname($Path);
+    if(not -d $Dir) {
+        mkpath($Dir);
+    }
+    
     open(FILE, ">", $Path) || die ("can't open file \'$Path\': $!\n");
     print FILE $Content;
     close(FILE);
@@ -112,6 +125,24 @@ sub readFile($)
     return $Content;
 }
 
+sub registerUpdate($)
+{
+    my $Library = $_[0];
+    
+    open(my $ULock, $UpdateLock) or die "Can't open updates lock: $!";
+    flock($ULock, LOCK_EX) or die "Can't lock updates: $!\n";
+    
+    my $UpdateInfo = {};
+    if(-f $UpdateList) {
+        $UpdateInfo = eval(readFile($UpdateList));
+    }
+    $UpdateInfo->{"Updated"}{$Library} = 1;
+    writeFile($UpdateList, Dumper($UpdateInfo));
+    
+    flock($ULock, LOCK_UN) or die "Can't unlock updates: $!\n";
+    close($ULock);
+}
+
 sub runUpdate($$)
 {
     my ($Library, $N) = @_;
@@ -121,7 +152,11 @@ sub runUpdate($$)
     my $STime = time();
     
     appendFile($Log, uc($Library)."\n");
-    system("abi-monitor -get -build-new profile/$Library.json >>$Log 2>&1");
+    my $Output = `abi-monitor -get -build-new profile/$Library.json 2>&1 | tee -a $Log`;
+    
+    if($Output=~/Downloading/i) {
+        registerUpdate($Library);
+    }
     
     my $Opts = "";
     if($Opt{"RegenDump"}) {
@@ -200,8 +235,8 @@ sub showDelta($)
 
 sub getLibs()
 {
-    open(my $Lock, $TestplanLock) or die "Can't open testplan lock: $!";
-    flock($Lock, LOCK_EX) or die "Can't lock testplan: $!\n";
+    open(my $TLock, $TestplanLock) or die "Can't open testplan lock: $!";
+    flock($TLock, LOCK_EX) or die "Can't lock testplan: $!\n";
     
     my $Content = eval(readFile($Testplan));
     my @Libs = ();
@@ -221,8 +256,8 @@ sub getLibs()
     
     writeFile($Testplan, Dumper($Content));
     
-    flock($Lock, LOCK_UN) or die "Can't unlock testplan: $!\n";
-    close($Lock);
+    flock($TLock, LOCK_UN) or die "Can't unlock testplan: $!\n";
+    close($TLock);
     
     return @Libs;
 }
@@ -236,6 +271,8 @@ sub getTotalCores()
 
 sub scenario()
 {
+    $Data::Dumper::Sortkeys = 1;
+    
     if(not -d "scripts")
     {
         print STDERR "ERROR: can't find ./scripts directory\n";
@@ -269,11 +306,18 @@ sub scenario()
     
     mkpath($LogDir);
 
-    my @List = split(/\s*\n\s*/, readFile($Testplan_Init));
+    my $InitContent = readFile($Testplan_Init);
+    $InitContent=~s/#.*\n//g;
+    my @List = split(/\s*\n\s*/, $InitContent);
 
     my %Hash = map {$_=>0} @List;
     writeFile($Testplan, Dumper(\%Hash));
     writeFile($TestplanLock, "This file is used to lock testplan");
+    writeFile($UpdateLock, "This file is used to lock update list");
+    
+    if(-e $UpdateList) {
+        unlink($UpdateList);
+    }
     
     my $STime = time();
     my @Pids = ();
@@ -331,6 +375,7 @@ sub scenario()
     
     unlink($Testplan);
     unlink($TestplanLock);
+    unlink($UpdateLock);
     
     system("abi-tracker -global-index");
     

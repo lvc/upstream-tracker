@@ -13,6 +13,16 @@
 
   "Versions": [
   {
+    "Number":         "2.2.1",
+    "Installed":      "installed/openexr/2.2.1",
+    "Source":         "src/openexr/2.2.1/openexr-2.2.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.2.0",
     "Installed":      "installed/openexr/2.2.0",
     "Source":         "src/openexr/2.2.0/openexr-2.2.0.tar.gz",

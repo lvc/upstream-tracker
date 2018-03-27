@@ -2,7 +2,7 @@
 ##################################################################
 # A script to transfer reports of the ABI Tracker to hosting
 #
-# Copyright (C) 2015-2017 Andrey Ponomarenko's ABI Laboratory
+# Copyright (C) 2015-2018 Andrey Ponomarenko's ABI Laboratory
 #
 # Written by Andrey Ponomarenko
 #
@@ -16,27 +16,29 @@
 #  ssh
 #  scp
 #
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License or the GNU Lesser
-# General Public License as published by the Free Software Foundation.
+# This library is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
 #
-# This program is distributed in the hope that it will be useful,
+# This library is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# Lesser General Public License for more details.
 #
-# You should have received a copy of the GNU General Public License
-# and the GNU Lesser General Public License along with this program.
-# If not, see <http://www.gnu.org/licenses/>.
+# You should have received a copy of the GNU Lesser General Public
+# License along with this library; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+# MA  02110-1301 USA
 ##################################################################
 use Getopt::Long;
 Getopt::Long::Configure ("posix_default", "no_ignore_case", "permute");
 use File::Basename qw(dirname basename);
 use File::Temp qw(tempdir);
 use Cwd qw(cwd);
-use strict;
 
 my $Testplan_Init = "scripts/testplan";
+my $UpdateList = "scripts/update.info";
 
 my $HostAddr = undef;
 my $HostDir = undef;
@@ -51,6 +53,7 @@ GetOptions(
     "fast!" => \$Opt{"Fast"}, # 3 times faster but 3 times more web traffic
     "json!" => \$Opt{"Json"},
     "index-only!" => \$Opt{"IndexOnly"},
+    "all!" => \$Opt{"All"},
     "renew!" => \$Opt{"Renew"}
 ) or exit(1);
 
@@ -139,20 +142,20 @@ sub scenario()
     
     initHosting();
     
-    my @List = split(/\s*\n\s*/, readFile($Testplan_Init));
-    my @List_F = ();
-    
-    foreach my $L (@List)
+    my @List_A = ();
+    foreach my $L (split(/\s*\n\s*/, readFile($Testplan_Init)))
     {
         foreach my $LL (split(/;/, $L))
         {
-            push(@List_F, $LL);
+            push(@List_A, $LL);
         }
     }
     
+    my @List_F = ();
+    
     if(defined $Target)
     {
-        if(not grep {$_ eq $Target} @List_F) {
+        if(not grep {$_ eq $Target} @List_A) {
             print STDERR "WARNING: the library \'$Target\' is not presented in the testplan\n";
         }
         
@@ -164,6 +167,43 @@ sub scenario()
         
         @List_F = ($Target);
     }
+    elsif($Opt{"All"})
+    {
+        @List_F = @List_A;
+    }
+    else
+    {
+        if(-e $UpdateList)
+        {
+            my $UpdateInfo = eval(readFile($UpdateList));
+            
+            if(not $UpdateInfo or not $UpdateInfo->{"Updated"})
+            {
+                print STDERR "ERROR: there are no updates to copy\n";
+                exit(1);
+            }
+            
+            @List_F = sort keys(%{$UpdateInfo->{"Updated"}});
+        }
+        else
+        {
+            print STDERR "ERROR: there are no updates to copy\n";
+            exit(1);
+        }
+    }
+    
+    my @Other = ("index.html", "css");
+    if(-d "js") {
+        push(@Other, "js");
+    }
+    if(-d "images") {
+        push(@Other, "images");
+    }
+    if(-d "logo") {
+        push(@Other, "logo");
+    }
+    
+    sendFiles(@Other);
     
     foreach my $L (@List_F)
     {
@@ -213,18 +253,6 @@ sub scenario()
         sendFiles(@Files);
     }
     
-    my @Other = ("index.html", "css");
-    if(-d "js") {
-        push(@Other, "js");
-    }
-    if(-d "images") {
-        push(@Other, "images");
-    }
-    if(-d "logo") {
-        push(@Other, "logo");
-    }
-    
-    sendFiles(@Other);
     system("ssh $HostAddr \"cd $HostDir && sed -i -e \'s/index\.html//\' index.html\""); # && find compat_report -empty -type d -delete
     
     if(defined $Opt{"Json"})

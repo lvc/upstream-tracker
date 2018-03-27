@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "2.2.5",
+    "Installed":      "installed/expat/2.2.5",
+    "Source":         "src/expat/2.2.5/expat-2.2.5.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.2.4",
     "Installed":      "installed/expat/2.2.4",
     "Source":         "src/expat/2.2.4/expat-2.2.4.tar.bz2",

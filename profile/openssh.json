@@ -15,6 +15,16 @@
 
   "Versions": [
   {
+    "Number":         "7.6p1",
+    "Installed":      "installed/openssh/7.6p1",
+    "Source":         "src/openssh/7.6p1/openssh-7.6p1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "7.5p1",
     "Installed":      "installed/openssh/7.5p1",
     "Source":         "src/openssh/7.5p1/openssh-7.5p1.tar.gz",

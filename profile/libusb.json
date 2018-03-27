@@ -9,6 +9,60 @@
 
   "Versions": [
   {
+    "Number":         "1.0.22",
+    "Installed":      "installed/libusb/1.0.22",
+    "Source":         "src/libusb/1.0.22/libusb-1.0.22.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.22-rc4",
+    "Installed":      "installed/libusb/1.0.22-rc4",
+    "Source":         "src/libusb/1.0.22-rc4/libusb-1.0.22-rc4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.0.22-rc3",
+    "Installed":      "installed/libusb/1.0.22-rc3",
+    "Source":         "src/libusb/1.0.22-rc3/libusb-1.0.22-rc3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.0.22-rc2",
+    "Installed":      "installed/libusb/1.0.22-rc2",
+    "Source":         "src/libusb/1.0.22-rc2/libusb-1.0.22-rc2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.0.22-rc1",
+    "Installed":      "installed/libusb/1.0.22-rc1",
+    "Source":         "src/libusb/1.0.22-rc1/libusb-1.0.22-rc1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "1.0.21",
     "Installed":      "installed/libusb/1.0.21",
     "Source":         "src/libusb/1.0.21/libusb-1.0.21.tar.gz",

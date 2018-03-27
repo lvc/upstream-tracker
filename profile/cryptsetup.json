@@ -4,9 +4,62 @@
   "SourceUrl":      "https://www.kernel.org/pub/linux/utils/cryptsetup/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-tmpfilesdir={INSTALL_TO}/share/",
   "HeadersDiff":    "Off",
 
   "Versions": [
+  {
+    "Number":         "2.0.2",
+    "Installed":      "installed/cryptsetup/2.0.2",
+    "Source":         "src/cryptsetup/2.0.2/cryptsetup-2.0.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.1",
+    "Installed":      "installed/cryptsetup/2.0.1",
+    "Source":         "src/cryptsetup/2.0.1/cryptsetup-2.0.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0",
+    "Installed":      "installed/cryptsetup/2.0.0",
+    "Source":         "src/cryptsetup/2.0.0/cryptsetup-2.0.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0-rc1",
+    "Installed":      "installed/cryptsetup/2.0.0-rc1",
+    "Source":         "src/cryptsetup/2.0.0-rc1/cryptsetup-2.0.0-rc1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.0.0-rc0",
+    "Installed":      "installed/cryptsetup/2.0.0-rc0",
+    "Source":         "src/cryptsetup/2.0.0-rc0/cryptsetup-2.0.0-rc0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
   {
     "Number":         "1.7.5",
     "Installed":      "installed/cryptsetup/1.7.5",

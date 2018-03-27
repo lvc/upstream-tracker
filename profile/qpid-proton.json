@@ -8,6 +8,56 @@
 
   "Versions": [
   {
+    "Number":         "0.21.0",
+    "Installed":      "installed/qpid-proton/0.21.0",
+    "Source":         "src/qpid-proton/0.21.0/qpid-proton-0.21.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.0",
+    "Installed":      "installed/qpid-proton/0.20.0",
+    "Source":         "src/qpid-proton/0.20.0/qpid-proton-0.20.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19.0",
+    "Installed":      "installed/qpid-proton/0.19.0",
+    "Source":         "src/qpid-proton/0.19.0/qpid-proton-0.19.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.18.1",
+    "Installed":      "installed/qpid-proton/0.18.1",
+    "Source":         "src/qpid-proton/0.18.1/qpid-proton-0.18.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.18.0",
+    "Installed":      "installed/qpid-proton/0.18.0",
+    "Source":         "src/qpid-proton/0.18.0/qpid-proton-0.18.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.17.0",
     "Installed":      "installed/qpid-proton/0.17.0",
     "Source":         "src/qpid-proton/0.17.0/qpid-proton-0.17.0.tar.gz",

@@ -12,6 +12,16 @@
 
   "Versions": [
   {
+    "Number":         "1.4.8",
+    "Installed":      "installed/apt/1.4.8",
+    "Source":         "src/apt/1.4.8/apt_1.4.8.tar.xz",
+    "Changelog":      "debian/changelog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.4.7",
     "Installed":      "installed/apt/1.4.7",
     "Source":         "src/apt/1.4.7/apt_1.4.7.tar.xz",

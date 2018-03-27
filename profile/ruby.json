@@ -13,6 +13,47 @@
 
   "Versions": [
   {
+    "Number":         "2.5.0",
+    "Installed":      "installed/ruby/2.5.0",
+    "Source":         "src/ruby/2.5.0/ruby-2.5.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.0-rc1",
+    "Installed":      "installed/ruby/2.5.0-rc1",
+    "Source":         "src/ruby/2.5.0-rc1/ruby-2.5.0-rc1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.4.3",
+    "Installed":      "installed/ruby/2.4.3",
+    "Source":         "src/ruby/2.4.3/ruby-2.4.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.2",
+    "Installed":      "installed/ruby/2.4.2",
+    "Source":         "src/ruby/2.4.2/ruby-2.4.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.4.1",
     "Installed":      "installed/ruby/2.4.1",
     "Source":         "src/ruby/2.4.1/ruby-2.4.1.tar.xz",
@@ -77,6 +118,26 @@
     "Deleted":        1
   },
   {
+    "Number":         "2.3.6",
+    "Installed":      "installed/ruby/2.3.6",
+    "Source":         "src/ruby/2.3.6/ruby-2.3.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.5",
+    "Installed":      "installed/ruby/2.3.5",
+    "Source":         "src/ruby/2.3.5/ruby-2.3.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.3.4",
     "Installed":      "installed/ruby/2.3.4",
     "Source":         "src/ruby/2.3.4/ruby-2.3.4.tar.xz",
@@ -120,6 +181,26 @@
     "Number":         "2.3.0",
     "Installed":      "installed/ruby/2.3.0",
     "Source":         "src/ruby/2.3.0/ruby-2.3.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.9",
+    "Installed":      "installed/ruby/2.2.9",
+    "Source":         "src/ruby/2.2.9/ruby-2.2.9.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.8",
+    "Installed":      "installed/ruby/2.2.8",
+    "Source":         "src/ruby/2.2.8/ruby-2.2.8.tar.xz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

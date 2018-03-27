@@ -10,6 +10,26 @@
 
   "Versions": [
   {
+    "Number":         "1.5.1",
+    "Installed":      "installed/imlib2/1.5.1",
+    "Source":         "src/imlib2/1.5.1/imlib2-1.5.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.0",
+    "Installed":      "installed/imlib2/1.5.0",
+    "Source":         "src/imlib2/1.5.0/imlib2-1.5.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.4.10",
     "Installed":      "installed/imlib2/1.4.10",
     "Source":         "src/imlib2/1.4.10/imlib2-1.4.10.tar.gz",

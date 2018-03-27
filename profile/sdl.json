@@ -11,6 +11,36 @@
 
   "Versions": [
   {
+    "Number":         "2.0.8",
+    "Installed":      "installed/sdl/2.0.8",
+    "Source":         "src/sdl/2.0.8/SDL2-2.0.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.7",
+    "Installed":      "installed/sdl/2.0.7",
+    "Source":         "src/sdl/2.0.7/SDL2-2.0.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.6",
+    "Installed":      "installed/sdl/2.0.6",
+    "Source":         "src/sdl/2.0.6/SDL2-2.0.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.0.5",
     "Installed":      "installed/sdl/2.0.5",
     "Source":         "src/sdl/2.0.5/SDL2-2.0.5.tar.gz",

@@ -4,7 +4,7 @@
   "SourceUrl":      "https://github.com/cocos2d/cocos2d-x/tags",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "-DCMAKE_PREFIX_PATH='{INSTALL_ROOT}/glfw/3.2.1;{INSTALL_ROOT}/chipmunk/7.0.1;{INSTALL_ROOT}/libwebsockets/2.2.1;{INSTALL_ROOT}/bullet/2.86.1;{INSTALL_ROOT}/tinyxml2/4.0.1;/home/Soft/FMOD-10904' -DBUILD_JS_LIBS=OFF -DBUILD_LUA_LIBS=OFF -DBUILD_EXTENSIONS=OFF -DBUILD_EDITOR_COCOSBUILDER=OFF -DBUILD_EDITOR_COCOSTUDIO=OFF -DBUILD_EDITOR_SPINE=OFF -DBUILD_CPP_TESTS=OFF -DBUILD_STATIC_LIBS=OFF",
+  "Configure":      "-DCMAKE_PREFIX_PATH='{INSTALL_ROOT}/glfw/3.2.1;{INSTALL_ROOT}/chipmunk/7.0.1;{INSTALL_ROOT}/libwebsockets/2.2.1;{INSTALL_ROOT}/bullet/2.87;{INSTALL_ROOT}/tinyxml2/4.0.1;/home/Soft/FMOD-10904' -DBUILD_JS_LIBS=OFF -DBUILD_LUA_LIBS=OFF -DBUILD_EXTENSIONS=OFF -DBUILD_EDITOR_COCOSBUILDER=OFF -DBUILD_EDITOR_COCOSTUDIO=OFF -DBUILD_EDITOR_SPINE=OFF -DBUILD_CPP_TESTS=OFF -DBUILD_STATIC_LIBS=OFF",
   "PreInstall":     "cp -f /home/Soft/Cocos2d-Stuff/v3-deps-130.tar.gz . ; tar -xf v3-deps-130.tar.gz ; mv v3-deps-130/cocos2d-x-3rd-party-libs-bin-3-deps-130/* external/ ; rm -fr external/websockets",
   "PostInstall":    "cp -fr {BUILD_SUBDIR}/lib/*.so* {INSTALL_TO}/lib/",
   "Changelog":      "CHANGELOG",

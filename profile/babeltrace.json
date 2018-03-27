@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "1.5.4",
+    "Installed":      "installed/babeltrace/1.5.4",
+    "Source":         "src/babeltrace/1.5.4/babeltrace-1.5.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.5.3",
     "Installed":      "installed/babeltrace/1.5.3",
     "Source":         "src/babeltrace/1.5.3/babeltrace-1.5.3.tar.gz",
@@ -42,6 +52,16 @@
     "Number":         "1.5.0",
     "Installed":      "installed/babeltrace/1.5.0",
     "Source":         "src/babeltrace/1.5.0/babeltrace-1.5.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.4",
+    "Installed":      "installed/babeltrace/1.4.4",
+    "Source":         "src/babeltrace/1.4.4/babeltrace-1.4.4.tar.gz",
     "Changelog":      "ChangeLog",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

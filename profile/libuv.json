@@ -9,6 +9,96 @@
 
   "Versions": [
   {
+    "Number":         "1.19.2",
+    "Installed":      "installed/libuv/1.19.2",
+    "Source":         "src/libuv/1.19.2/node-1.19.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.19.1",
+    "Installed":      "installed/libuv/1.19.1",
+    "Source":         "src/libuv/1.19.1/node-1.19.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.19.0",
+    "Installed":      "installed/libuv/1.19.0",
+    "Source":         "src/libuv/1.19.0/node-1.19.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.18.0",
+    "Installed":      "installed/libuv/1.18.0",
+    "Source":         "src/libuv/1.18.0/node-1.18.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.17.0",
+    "Installed":      "installed/libuv/1.17.0",
+    "Source":         "src/libuv/1.17.0/node-1.17.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.16.1",
+    "Installed":      "installed/libuv/1.16.1",
+    "Source":         "src/libuv/1.16.1/node-1.16.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.16.0",
+    "Installed":      "installed/libuv/1.16.0",
+    "Source":         "src/libuv/1.16.0/node-1.16.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.0",
+    "Installed":      "installed/libuv/1.15.0",
+    "Source":         "src/libuv/1.15.0/node-1.15.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.1",
+    "Installed":      "installed/libuv/1.14.1",
+    "Source":         "src/libuv/1.14.1/node-1.14.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.14.0",
     "Installed":      "installed/libuv/1.14.0",
     "Source":         "src/libuv/1.14.0/node-1.14.0.tar.gz",

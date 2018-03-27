@@ -1,0 +1,33 @@
+{
+  "Name":           "libjit",
+  "Title":          "LibJIT",
+  "SourceUrl":      "https://ftp.gnu.org/old-gnu/dotgnu/libjit/",
+  "OldSourceUrl":   "https://ftp.gnu.org/old-gnu/dotgnu/pnet/",
+  "Git":            "https://git.savannah.gnu.org/git/libjit.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "CFlags":         "-std=gnu11",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/libjit/current",
+    "Source":         "src/libjit/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.2",
+    "Installed":      "installed/libjit/0.1.2",
+    "Source":         "src/libjit/0.1.2/libjit-0.1.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

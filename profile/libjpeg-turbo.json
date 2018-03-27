@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "1.5.3",
+    "Installed":      "installed/libjpeg-turbo/1.5.3",
+    "Source":         "src/libjpeg-turbo/1.5.3/libjpeg-turbo-1.5.3.tar.gz",
+    "Changelog":      "ChangeLog.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.5.2",
     "Installed":      "installed/libjpeg-turbo/1.5.2",
     "Source":         "src/libjpeg-turbo/1.5.2/libjpeg-turbo-1.5.2.tar.gz",

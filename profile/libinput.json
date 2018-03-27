@@ -1,10 +1,10 @@
 {
   "Name":           "libinput",
   "SourceUrl":      "http://www.freedesktop.org/software/libinput/",
-  "Git":            "http://anongit.freedesktop.org/git/wayland/libinput.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "Configure":      "--disable-libwacom --disable-documentation --disable-tests --disable-debug-gui",
+  "BuildScript":    "build_script/libinput.sh",
   "Changelog":      "Off",
   "Note":           "Requires libevdev-devel, libwacom-devel",
 
@@ -12,7 +12,166 @@
   {
     "Number":         "current",
     "Installed":      "installed/libinput/current",
-    "Source":         "src/libinput/current",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.3",
+    "Installed":      "installed/libinput/1.10.3",
+    "Source":         "src/libinput/1.10.3/libinput-1.10.3.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.2",
+    "Installed":      "installed/libinput/1.10.2",
+    "Source":         "src/libinput/1.10.2/libinput-1.10.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.1",
+    "Installed":      "installed/libinput/1.10.1",
+    "Source":         "src/libinput/1.10.1/libinput-1.10.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.0",
+    "Installed":      "installed/libinput/1.10.0",
+    "Source":         "src/libinput/1.10.0/libinput-1.10.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.902",
+    "Installed":      "installed/libinput/1.9.902",
+    "Source":         "src/libinput/1.9.902/libinput-1.9.902.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.901",
+    "Installed":      "installed/libinput/1.9.901",
+    "Source":         "src/libinput/1.9.901/libinput-1.9.901.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.4",
+    "Installed":      "installed/libinput/1.9.4",
+    "Source":         "src/libinput/1.9.4/libinput-1.9.4.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.3",
+    "Installed":      "installed/libinput/1.9.3",
+    "Source":         "src/libinput/1.9.3/libinput-1.9.3.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.2",
+    "Installed":      "installed/libinput/1.9.2",
+    "Source":         "src/libinput/1.9.2/libinput-1.9.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.1",
+    "Installed":      "installed/libinput/1.9.1",
+    "Source":         "src/libinput/1.9.1/libinput-1.9.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.0",
+    "Installed":      "installed/libinput/1.9.0",
+    "Source":         "src/libinput/1.9.0/libinput-1.9.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.902",
+    "Installed":      "installed/libinput/1.8.902",
+    "Source":         "src/libinput/1.8.902/libinput-1.8.902.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.901",
+    "Installed":      "installed/libinput/1.8.901",
+    "Source":         "src/libinput/1.8.901/libinput-1.8.901.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.4",
+    "Installed":      "installed/libinput/1.8.4",
+    "Source":         "src/libinput/1.8.4/libinput-1.8.4.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.3",
+    "Installed":      "installed/libinput/1.8.3",
+    "Source":         "src/libinput/1.8.3/libinput-1.8.3.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.2",
+    "Installed":      "installed/libinput/1.8.2",
+    "Source":         "src/libinput/1.8.2/libinput-1.8.2.tar.xz",
     "Changelog":      "Off",
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",

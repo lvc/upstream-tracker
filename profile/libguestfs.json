@@ -11,6 +11,60 @@
 
   "Versions": [
   {
+    "Number":         "1.36.13",
+    "Installed":      "installed/libguestfs/1.36.13",
+    "Source":         "src/libguestfs/1.36.13/libguestfs-1.36.13.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.36.11",
+    "Installed":      "installed/libguestfs/1.36.11",
+    "Source":         "src/libguestfs/1.36.11/libguestfs-1.36.11.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.36.10",
+    "Installed":      "installed/libguestfs/1.36.10",
+    "Source":         "src/libguestfs/1.36.10/libguestfs-1.36.10.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.36.7",
+    "Installed":      "installed/libguestfs/1.36.7",
+    "Source":         "src/libguestfs/1.36.7/libguestfs-1.36.7.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.36.6",
+    "Installed":      "installed/libguestfs/1.36.6",
+    "Source":         "src/libguestfs/1.36.6/libguestfs-1.36.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "1.36.5",
     "Installed":      "installed/libguestfs/1.36.5",
     "Source":         "src/libguestfs/1.36.5/libguestfs-1.36.5.tar.gz",
@@ -18,7 +72,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "1.36.4",

@@ -4,12 +4,32 @@
   "SourceUrl":      "https://www.spice-space.org/download/releases/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--disable-celt051",
+  "Configure":      "--disable-celt051 PKG_CONFIG_PATH={INSTALL_ROOT}/orc/0.4.27/lib/pkgconfig",
   "HeadersDiff":    "Off",
   "MinimalVersion": "0.8.0",
   "Note":           "Requires latest spice-protocol in /usr",
 
   "Versions": [
+  {
+    "Number":         "0.14.0",
+    "Installed":      "installed/spice/0.14.0",
+    "Source":         "src/spice/0.14.0/spice-0.14.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13.91",
+    "Installed":      "installed/spice/0.13.91",
+    "Source":         "src/spice/0.13.91/spice-0.13.91.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "0.13.90",
     "Installed":      "installed/spice/0.13.90",

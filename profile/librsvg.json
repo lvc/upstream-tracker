@@ -3,19 +3,89 @@
   "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/librsvg/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--disable-pixbuf-loader",
+  "Configure":      "--disable-static --disable-tools --disable-gtk-doc-html --disable-pixbuf-loader PKG_CONFIG_PATH='{INSTALL_ROOT}/pango/1.40.12/lib/pkgconfig:{INSTALL_ROOT}/glib/2.55.2/lib/pkgconfig:{INSTALL_ROOT}/cairo/1.15.10/lib/pkgconfig:{INSTALL_ROOT}/freetype/2.9/lib/pkgconfig' LDFLAGS='-lharfbuzz -L{INSTALL_ROOT}/harfbuzz/1.6.0/lib'",
   "PostInstall":    "rm -fr {INSTALL_TO}/lib/gtk-*",
   "SkipObjects":    [ "engines/" ],
-  "ConfigureGlobal": "PATH=$PATH:/home/Soft/rust-1.15.1/bin/",
+  "ConfigureGlobal": "PATH=$PATH:/home/Soft/rust-latest/bin/",
   "HeadersDiff":    "Off",
-  "MakeGlobal":     "PATH=$PATH:/home/Soft/rust-1.15.1/bin/",
+  "MakeGlobal":     "PATH=$PATH:/home/Soft/rust-latest/bin/",
   "MinimalVersion": "2.22",
 
   "Versions": [
   {
+    "Number":         "2.42.2",
+    "Installed":      "installed/librsvg/2.42.2",
+    "Source":         "src/librsvg/2.42.2/librsvg-2.42.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.42.1",
+    "Installed":      "installed/librsvg/2.42.1",
+    "Source":         "src/librsvg/2.42.1/librsvg-2.42.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.42.0",
+    "Installed":      "installed/librsvg/2.42.0",
+    "Source":         "src/librsvg/2.42.0/librsvg-2.42.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.41.2",
+    "Installed":      "installed/librsvg/2.41.2",
+    "Source":         "src/librsvg/2.41.2/librsvg-2.41.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.41.1",
+    "Installed":      "installed/librsvg/2.41.1",
+    "Source":         "src/librsvg/2.41.1/librsvg-2.41.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.41.0",
     "Installed":      "installed/librsvg/2.41.0",
     "Source":         "src/librsvg/2.41.0/librsvg-2.41.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.40.20",
+    "Installed":      "installed/librsvg/2.40.20",
+    "Source":         "src/librsvg/2.40.20/librsvg-2.40.20.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.40.19",
+    "Installed":      "installed/librsvg/2.40.19",
+    "Source":         "src/librsvg/2.40.19/librsvg-2.40.19.tar.xz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

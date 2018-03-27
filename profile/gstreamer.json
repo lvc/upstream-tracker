@@ -25,6 +25,66 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.14.0",
+    "Installed":      "installed/gstreamer/1.14.0",
+    "Source":         "src/gstreamer/1.14.0/gstreamer-1.14.0.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.91",
+    "Installed":      "installed/gstreamer/1.13.91",
+    "Source":         "src/gstreamer/1.13.91/gstreamer-1.13.91.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.90",
+    "Installed":      "installed/gstreamer/1.13.90",
+    "Source":         "src/gstreamer/1.13.90/gstreamer-1.13.90.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.13.1",
+    "Installed":      "installed/gstreamer/1.13.1",
+    "Source":         "src/gstreamer/1.13.1/gstreamer-1.13.1.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.4",
+    "Installed":      "installed/gstreamer/1.12.4",
+    "Source":         "src/gstreamer/1.12.4/gstreamer-1.12.4.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12.3",
+    "Installed":      "installed/gstreamer/1.12.3",
+    "Source":         "src/gstreamer/1.12.3/gstreamer-1.12.3.tar.xz",
+    "Changelog":      "RELEASE",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.12.2",
     "Installed":      "installed/gstreamer/1.12.2",
     "Source":         "src/gstreamer/1.12.2/gstreamer-1.12.2.tar.xz",

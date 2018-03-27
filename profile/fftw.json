@@ -15,6 +15,16 @@
 
   "Versions": [
   {
+    "Number":         "3.3.7",
+    "Installed":      "installed/fftw/3.3.7",
+    "Source":         "src/fftw/3.3.7/fftw-3.3.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.3.6-pl2",
     "Installed":      "installed/fftw/3.3.6-pl2",
     "Source":         "src/fftw/3.3.6-pl2/fftw-3.3.6-pl2.tar.gz",

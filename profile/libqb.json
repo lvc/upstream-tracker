@@ -7,6 +7,16 @@
 
   "Versions": [
   {
+    "Number":         "1.0.3",
+    "Installed":      "installed/libqb/1.0.3",
+    "Source":         "src/libqb/1.0.3/libqb-1.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.0.2",
     "Installed":      "installed/libqb/1.0.2",
     "Source":         "src/libqb/1.0.2/libqb-1.0.2.tar.gz",

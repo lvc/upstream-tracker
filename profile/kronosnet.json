@@ -1,0 +1,42 @@
+{
+  "Name":           "kronosnet",
+  "Title":          "Kronosnet",
+  "SourceUrl":      "https://github.com/kronosnet/kronosnet/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-rpm-debuginfo --disable-kronosnetd --disable-libknet-sctp PKG_CONFIG_PATH={INSTALL_ROOT}/lz4/1.8.1.2/lib/pkgconfig",
+  "PreInstall":     "sed -i -e 's/all-local: $(SPEC)/all-local:/g' Makefile.am;sed -i -e 's/-O3/-Og/g' configure.ac",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.0",
+    "Installed":      "installed/kronosnet/1.0",
+    "Source":         "src/kronosnet/1.0/kronosnet-1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9",
+    "Installed":      "installed/kronosnet/0.9",
+    "Source":         "src/kronosnet/0.9/kronosnet-0.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8",
+    "Installed":      "installed/kronosnet/0.8",
+    "Source":         "src/kronosnet/0.8/kronosnet-0.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

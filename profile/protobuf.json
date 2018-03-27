@@ -8,6 +8,66 @@
 
   "Versions": [
   {
+    "Number":         "3.5.2",
+    "Installed":      "installed/protobuf/3.5.2",
+    "Source":         "src/protobuf/3.5.2/protobuf-3.5.2.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.5.1.1",
+    "Installed":      "installed/protobuf/3.5.1.1",
+    "Source":         "src/protobuf/3.5.1.1/protobuf-3.5.1.1.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.5.1",
+    "Installed":      "installed/protobuf/3.5.1",
+    "Source":         "src/protobuf/3.5.1/protobuf-3.5.1.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.5.0.1",
+    "Installed":      "installed/protobuf/3.5.0.1",
+    "Source":         "src/protobuf/3.5.0.1/protobuf-3.5.0.1.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.5.0",
+    "Installed":      "installed/protobuf/3.5.0",
+    "Source":         "src/protobuf/3.5.0/protobuf-3.5.0.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.4.1",
+    "Installed":      "installed/protobuf/3.4.1",
+    "Source":         "src/protobuf/3.4.1/protobuf-3.4.1.tar.gz",
+    "Changelog":      "CHANGES.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.4.0",
     "Installed":      "installed/protobuf/3.4.0",
     "Source":         "src/protobuf/3.4.0/protobuf-3.4.0.tar.gz",

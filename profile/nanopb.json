@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         "0.3.9",
+    "Installed":      "installed/nanopb/0.3.9",
+    "Source":         "src/nanopb/0.3.9/nanopb-0.3.9.tar.gz",
+    "Changelog":      "CHANGELOG.txt",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.3.8",
     "Installed":      "installed/nanopb/0.3.8",
     "Source":         "src/nanopb/0.3.8/nanopb-0.3.8.tar.gz",

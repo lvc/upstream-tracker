@@ -10,6 +10,125 @@
 
   "Versions": [
   {
+    "Number":         "7.2.3",
+    "Installed":      "installed/php/7.2.3",
+    "Source":         "src/php/7.2.3/php-7.2.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.2.2",
+    "Installed":      "installed/php/7.2.2",
+    "Source":         "src/php/7.2.2/php-7.2.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "7.2.1",
+    "Installed":      "installed/php/7.2.1",
+    "Source":         "src/php/7.2.1/php-7.2.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "7.2.0",
+    "Installed":      "installed/php/7.2.0",
+    "Source":         "src/php/7.2.0/php-7.2.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "7.1.15",
+    "Installed":      "installed/php/7.1.15",
+    "Source":         "src/php/7.1.15/php-7.1.15.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.1.14",
+    "Installed":      "installed/php/7.1.14",
+    "Source":         "src/php/7.1.14/php-7.1.14.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "7.1.13",
+    "Installed":      "installed/php/7.1.13",
+    "Source":         "src/php/7.1.13/php-7.1.13.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "7.1.12",
+    "Installed":      "installed/php/7.1.12",
+    "Source":         "src/php/7.1.12/php-7.1.12.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "7.1.11",
+    "Installed":      "installed/php/7.1.11",
+    "Source":         "src/php/7.1.11/php-7.1.11.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "7.1.10",
+    "Installed":      "installed/php/7.1.10",
+    "Source":         "src/php/7.1.10/php-7.1.10.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "7.1.9",
+    "Installed":      "installed/php/7.1.9",
+    "Source":         "src/php/7.1.9/php-7.1.9.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "7.1.8",
     "Installed":      "installed/php/7.1.8",
     "Source":         "src/php/7.1.8/php-7.1.8.tar.xz",
@@ -17,7 +136,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "7.1.7",
@@ -86,6 +206,60 @@
     "Deleted":        1
   },
   {
+    "Number":         "7.0.28",
+    "Installed":      "installed/php/7.0.28",
+    "Source":         "src/php/7.0.28/php-7.0.28.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.0.27",
+    "Installed":      "installed/php/7.0.27",
+    "Source":         "src/php/7.0.27/php-7.0.27.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "7.0.26",
+    "Installed":      "installed/php/7.0.26",
+    "Source":         "src/php/7.0.26/php-7.0.26.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "7.0.25",
+    "Installed":      "installed/php/7.0.25",
+    "Source":         "src/php/7.0.25/php-7.0.25.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "7.0.24",
+    "Installed":      "installed/php/7.0.24",
+    "Source":         "src/php/7.0.24/php-7.0.24.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "7.0.23",
     "Installed":      "installed/php/7.0.23",
     "Source":         "src/php/7.0.23/php-7.0.23.tar.xz",
@@ -93,7 +267,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "7.0.22",
@@ -173,6 +348,38 @@
     "Deleted":        1
   },
   {
+    "Number":         "5.6.34",
+    "Installed":      "installed/php/5.6.34",
+    "Source":         "src/php/5.6.34/php-5.6.34.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.6.33",
+    "Installed":      "installed/php/5.6.33",
+    "Source":         "src/php/5.6.33/php-5.6.33.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "5.6.32",
+    "Installed":      "installed/php/5.6.32",
+    "Source":         "src/php/5.6.32/php-5.6.32.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "5.6.31",
     "Installed":      "installed/php/5.6.31",
     "Source":         "src/php/5.6.31/php-5.6.31.tar.xz",
@@ -180,7 +387,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "5.6.30",

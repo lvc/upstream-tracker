@@ -17,6 +17,59 @@
 
   "Versions": [
   {
+    "Number":         "3.0.1rc4",
+    "Installed":      "installed/openmpi/3.0.1rc4",
+    "Source":         "src/openmpi/3.0.1rc4/openmpi-3.0.1rc4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.1rc3",
+    "Installed":      "installed/openmpi/3.0.1rc3",
+    "Source":         "src/openmpi/3.0.1rc3/openmpi-3.0.1rc3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "3.0.1rc2",
+    "Installed":      "installed/openmpi/3.0.1rc2",
+    "Source":         "src/openmpi/3.0.1rc2/openmpi-3.0.1rc2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "3.0.0",
+    "Installed":      "installed/openmpi/3.0.0",
+    "Source":         "src/openmpi/3.0.0/openmpi-3.0.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.2rc3",
+    "Installed":      "installed/openmpi/2.1.2rc3",
+    "Source":         "src/openmpi/2.1.2rc3/openmpi-2.1.2rc3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "2.1.2rc2",
     "Installed":      "installed/openmpi/2.1.2rc2",
     "Source":         "src/openmpi/2.1.2rc2/openmpi-2.1.2rc2.tar.gz",
@@ -24,7 +77,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "2.1.2rc1",

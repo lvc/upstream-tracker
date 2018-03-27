@@ -9,6 +9,26 @@
 
   "Versions": [
   {
+    "Number":         "1.4.2",
+    "Installed":      "installed/libdvdcss/1.4.2",
+    "Source":         "src/libdvdcss/1.4.2/libdvdcss-1.4.2.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.4.1",
+    "Installed":      "installed/libdvdcss/1.4.1",
+    "Source":         "src/libdvdcss/1.4.1/libdvdcss-1.4.1.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.4.0",
     "Installed":      "installed/libdvdcss/1.4.0",
     "Source":         "src/libdvdcss/1.4.0/libdvdcss-1.4.0.tar.bz2",

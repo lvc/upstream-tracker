@@ -10,6 +10,81 @@
 
   "Versions": [
   {
+    "Number":         "5.0.1RC1",
+    "Installed":      "installed/proj/5.0.1RC1",
+    "Source":         "src/proj/5.0.1RC1/proj-5.0.1RC1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.0",
+    "Installed":      "installed/proj/5.0.0",
+    "Source":         "src/proj/5.0.0/proj-5.0.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.0RC6",
+    "Installed":      "installed/proj/5.0.0RC6",
+    "Source":         "src/proj/5.0.0RC6/proj-5.0.0RC6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "5.0.0RC4",
+    "Installed":      "installed/proj/5.0.0RC4",
+    "Source":         "src/proj/5.0.0RC4/proj-5.0.0RC4.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "5.0.0RC3",
+    "Installed":      "installed/proj/5.0.0RC3",
+    "Source":         "src/proj/5.0.0RC3/proj-5.0.0RC3.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "5.0.0RC2",
+    "Installed":      "installed/proj/5.0.0RC2",
+    "Source":         "src/proj/5.0.0RC2/proj-5.0.0RC2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "5.0.0RC1",
+    "Installed":      "installed/proj/5.0.0RC1",
+    "Source":         "src/proj/5.0.0RC1/proj-5.0.0RC1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "4.9.3",
     "Installed":      "installed/proj/4.9.3",
     "Source":         "src/proj/4.9.3/proj-4.9.3.tar.gz",

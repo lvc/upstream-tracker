@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "1.6.2",
+    "Installed":      "installed/graphene/1.6.2",
+    "Source":         "src/graphene/1.6.2/graphene-1.6.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.6.0",
     "Installed":      "installed/graphene/1.6.0",
     "Source":         "src/graphene/1.6.0/graphene-1.6.0.tar.gz",

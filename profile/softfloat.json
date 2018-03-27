@@ -12,6 +12,16 @@
 
   "Versions": [
   {
+    "Number":         "3e",
+    "Installed":      "installed/softfloat/3e",
+    "Source":         "src/softfloat/3e/SoftFloat-3e.zip",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3d",
     "Installed":      "installed/softfloat/3d",
     "Source":         "src/softfloat/3d/SoftFloat-3d.zip",

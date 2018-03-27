@@ -9,6 +9,26 @@
 
   "Versions": [
   {
+    "Number":         "1.2.6",
+    "Installed":      "installed/lfcxml/1.2.6",
+    "Source":         "src/lfcxml/1.2.6/lfcxml-1.2.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.5",
+    "Installed":      "installed/lfcxml/1.2.5",
+    "Source":         "src/lfcxml/1.2.5/lfcxml-1.2.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.2.4",
     "Installed":      "installed/lfcxml/1.2.4",
     "Source":         "src/lfcxml/1.2.4/lfcxml-1.2.4.tar.gz",

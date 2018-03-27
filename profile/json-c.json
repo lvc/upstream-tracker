@@ -20,6 +20,26 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "0.13.1-20180305",
+    "Installed":      "installed/json-c/0.13.1-20180305",
+    "Source":         "src/json-c/0.13.1-20180305/json-c-0.13.1-20180305.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13-20171207",
+    "Installed":      "installed/json-c/0.13-20171207",
+    "Source":         "src/json-c/0.13-20171207/json-c-0.13-20171207.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.12.1-20160607",
     "Installed":      "installed/json-c/0.12.1-20160607",
     "Source":         "src/json-c/0.12.1-20160607/json-c-0.12.1-20160607.tar.gz",

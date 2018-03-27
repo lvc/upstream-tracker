@@ -10,6 +10,56 @@
 
   "Versions": [
   {
+    "Number":         "21.52",
+    "Installed":      "installed/hwinfo/21.52",
+    "Source":         "src/hwinfo/21.52/hwinfo-21.52.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "21.51",
+    "Installed":      "installed/hwinfo/21.51",
+    "Source":         "src/hwinfo/21.51/hwinfo-21.51.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "21.50",
+    "Installed":      "installed/hwinfo/21.50",
+    "Source":         "src/hwinfo/21.50/hwinfo-21.50.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "21.49",
+    "Installed":      "installed/hwinfo/21.49",
+    "Source":         "src/hwinfo/21.49/hwinfo-21.49.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "21.48",
+    "Installed":      "installed/hwinfo/21.48",
+    "Source":         "src/hwinfo/21.48/hwinfo-21.48.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "21.47",
     "Installed":      "installed/hwinfo/21.47",
     "Source":         "src/hwinfo/21.47/hwinfo-21.47.tar.gz",

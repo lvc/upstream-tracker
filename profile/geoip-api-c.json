@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "1.6.12",
+    "Installed":      "installed/geoip-api-c/1.6.12",
+    "Source":         "src/geoip-api-c/1.6.12/geoip-api-c-1.6.12.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.6.11",
     "Installed":      "installed/geoip-api-c/1.6.11",
     "Source":         "src/geoip-api-c/1.6.11/geoip-api-c-1.6.11.tar.gz",

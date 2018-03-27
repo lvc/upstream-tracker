@@ -1,0 +1,6 @@
+meson -Denable-documentation=false -Denable-tests=false -Dlibwacom=false -Dtests=false -Ddocumentation=false -Ddebug-gui=false --buildtype debug . build_dir --prefix="$INSTALL_TO"
+cd build_dir
+sed -i -e "s/ -g / -g -Og -w -fpermissive /g" build.ninja
+sed -i -e "s/ -O0//g" build.ninja
+ninja
+ninja install

@@ -3,10 +3,124 @@
   "SourceUrl":      "https://www.kernel.org/pub/linux/kernel/people/kdave/btrfs-progs/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-zstd",
   "PreInstall":     "sed -i -e 's|\@UDEVDIR\@|\Q{INSTALL_TO}\E|' Makefile.inc.in",
   "HeadersDiff":    "Off",
 
   "Versions": [
+  {
+    "Number":         "4.15.1",
+    "Installed":      "installed/btrfs-progs/4.15.1",
+    "Source":         "src/btrfs-progs/4.15.1/btrfs-progs-v4.15.1.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.15.1-rc1",
+    "Installed":      "installed/btrfs-progs/4.15.1-rc1",
+    "Source":         "src/btrfs-progs/4.15.1-rc1/btrfs-progs-v4.15.1-rc1.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "4.15",
+    "Installed":      "installed/btrfs-progs/4.15",
+    "Source":         "src/btrfs-progs/4.15/btrfs-progs-v4.15.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.15-rc1",
+    "Installed":      "installed/btrfs-progs/4.15-rc1",
+    "Source":         "src/btrfs-progs/4.15-rc1/btrfs-progs-v4.15-rc1.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "4.14.1",
+    "Installed":      "installed/btrfs-progs/4.14.1",
+    "Source":         "src/btrfs-progs/4.14.1/btrfs-progs-v4.14.1.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.14",
+    "Installed":      "installed/btrfs-progs/4.14",
+    "Source":         "src/btrfs-progs/4.14/btrfs-progs-v4.14.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.14-rc1",
+    "Installed":      "installed/btrfs-progs/4.14-rc1",
+    "Source":         "src/btrfs-progs/4.14-rc1/btrfs-progs-v4.14-rc1.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "4.13.3",
+    "Installed":      "installed/btrfs-progs/4.13.3",
+    "Source":         "src/btrfs-progs/4.13.3/btrfs-progs-v4.13.3.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.13.2",
+    "Installed":      "installed/btrfs-progs/4.13.2",
+    "Source":         "src/btrfs-progs/4.13.2/btrfs-progs-v4.13.2.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.13.1",
+    "Installed":      "installed/btrfs-progs/4.13.1",
+    "Source":         "src/btrfs-progs/4.13.1/btrfs-progs-v4.13.1.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.13",
+    "Installed":      "installed/btrfs-progs/4.13",
+    "Source":         "src/btrfs-progs/4.13/btrfs-progs-v4.13.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "4.12.1",
     "Installed":      "installed/btrfs-progs/4.12.1",

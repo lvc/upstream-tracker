@@ -10,6 +10,26 @@
 
   "Versions": [
   {
+    "Number":         "1.0.5",
+    "Installed":      "installed/freexl/1.0.5",
+    "Source":         "src/freexl/1.0.5/freexl-1.0.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.4",
+    "Installed":      "installed/freexl/1.0.4",
+    "Source":         "src/freexl/1.0.4/freexl-1.0.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.0.3",
     "Installed":      "installed/freexl/1.0.3",
     "Source":         "src/freexl/1.0.3/freexl-1.0.3.tar.gz",

@@ -4,11 +4,21 @@
   "SourceUrl":      "https://github.com/LASzip/LASzip/tags",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "PreInstall":     "sed -i -e 's/-O[0123]/-Og/g' configure.ac",
   "Changelog":      "Off",
   "HeadersDiff":    "Off",
+  "OldPreInstall":  "sed -i -e 's/-O[0123]/-Og/g' configure.ac",
 
   "Versions": [
+  {
+    "Number":         "3.2.0",
+    "Installed":      "installed/laszip/3.2.0",
+    "Source":         "src/laszip/3.2.0/laszip-3.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "2.2.0",
     "Installed":      "installed/laszip/2.2.0",

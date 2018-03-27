@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "2.11",
+    "Installed":      "installed/jansson/2.11",
+    "Source":         "src/jansson/2.11/jansson-2.11.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.10",
     "Installed":      "installed/jansson/2.10",
     "Source":         "src/jansson/2.10/jansson-2.10.tar.gz",

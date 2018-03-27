@@ -33,6 +33,16 @@
     "Deleted":        1
   },
   {
+    "Number":         "1_2_1",
+    "Installed":      "installed/log4cplus/1_2_1",
+    "Source":         "src/log4cplus/1_2_1/REL_1_2_1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1_2_0",
     "Installed":      "installed/log4cplus/1_2_0",
     "Source":         "src/log4cplus/1_2_0/REL_1_2_0.tar.gz",

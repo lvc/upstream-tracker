@@ -9,6 +9,46 @@
 
   "Versions": [
   {
+    "Number":         "6.8.1",
+    "Installed":      "installed/oniguruma/6.8.1",
+    "Source":         "src/oniguruma/6.8.1/oniguruma-6.8.1.tar.gz",
+    "Changelog":      "HISTORY",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.8.0",
+    "Installed":      "installed/oniguruma/6.8.0",
+    "Source":         "src/oniguruma/6.8.0/oniguruma-6.8.0.tar.gz",
+    "Changelog":      "HISTORY",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.7.1",
+    "Installed":      "installed/oniguruma/6.7.1",
+    "Source":         "src/oniguruma/6.7.1/oniguruma-6.7.1.tar.gz",
+    "Changelog":      "HISTORY",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.7.0",
+    "Installed":      "installed/oniguruma/6.7.0",
+    "Source":         "src/oniguruma/6.7.0/oniguruma-6.7.0.tar.gz",
+    "Changelog":      "HISTORY",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "6.6.1",
     "Installed":      "installed/oniguruma/6.6.1",
     "Source":         "src/oniguruma/6.6.1/oniguruma-6.6.1.tar.gz",

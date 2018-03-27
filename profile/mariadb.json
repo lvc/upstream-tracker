@@ -1,0 +1,263 @@
+{
+  "Name":           "mariadb",
+  "Title":          "MariaDB",
+  "SourceUrl":      "https://github.com/MariaDB/server/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/mariadb.sh",
+  "SkipObjects":    [ "/plugin/" ],
+  "SkipHeaders":    [ "private/" ],
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "10.3.4",
+    "Installed":      "installed/mariadb/10.3.4",
+    "Source":         "src/mariadb/10.3.4/mariadb-10.3.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.3.3",
+    "Installed":      "installed/mariadb/10.3.3",
+    "Source":         "src/mariadb/10.3.3/mariadb-10.3.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.3.2",
+    "Installed":      "installed/mariadb/10.3.2",
+    "Source":         "src/mariadb/10.3.2/mariadb-10.3.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.3.1",
+    "Installed":      "installed/mariadb/10.3.1",
+    "Source":         "src/mariadb/10.3.1/mariadb-10.3.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.2.12",
+    "Installed":      "installed/mariadb/10.2.12",
+    "Source":         "src/mariadb/10.2.12/mariadb-10.2.12.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.2.11",
+    "Installed":      "installed/mariadb/10.2.11",
+    "Source":         "src/mariadb/10.2.11/mariadb-10.2.11.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.2.10",
+    "Installed":      "installed/mariadb/10.2.10",
+    "Source":         "src/mariadb/10.2.10/mariadb-10.2.10.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.2.9",
+    "Installed":      "installed/mariadb/10.2.9",
+    "Source":         "src/mariadb/10.2.9/mariadb-10.2.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.2.8",
+    "Installed":      "installed/mariadb/10.2.8",
+    "Source":         "src/mariadb/10.2.8/mariadb-10.2.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.2.7",
+    "Installed":      "installed/mariadb/10.2.7",
+    "Source":         "src/mariadb/10.2.7/mariadb-10.2.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.1.31",
+    "Installed":      "installed/mariadb/10.1.31",
+    "Source":         "src/mariadb/10.1.31/mariadb-10.1.31.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.1.30",
+    "Installed":      "installed/mariadb/10.1.30",
+    "Source":         "src/mariadb/10.1.30/mariadb-10.1.30.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.1.29",
+    "Installed":      "installed/mariadb/10.1.29",
+    "Source":         "src/mariadb/10.1.29/mariadb-10.1.29.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.1.28",
+    "Installed":      "installed/mariadb/10.1.28",
+    "Source":         "src/mariadb/10.1.28/mariadb-10.1.28.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.1.27",
+    "Installed":      "installed/mariadb/10.1.27",
+    "Source":         "src/mariadb/10.1.27/mariadb-10.1.27.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.1.26",
+    "Installed":      "installed/mariadb/10.1.26",
+    "Source":         "src/mariadb/10.1.26/mariadb-10.1.26.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.1.25",
+    "Installed":      "installed/mariadb/10.1.25",
+    "Source":         "src/mariadb/10.1.25/mariadb-10.1.25.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.1.24",
+    "Installed":      "installed/mariadb/10.1.24",
+    "Source":         "src/mariadb/10.1.24/mariadb-10.1.24.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.0.34",
+    "Installed":      "installed/mariadb/10.0.34",
+    "Source":         "src/mariadb/10.0.34/mariadb-10.0.34.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.0.33",
+    "Installed":      "installed/mariadb/10.0.33",
+    "Source":         "src/mariadb/10.0.33/mariadb-10.0.33.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.0.32",
+    "Installed":      "installed/mariadb/10.0.32",
+    "Source":         "src/mariadb/10.0.32/mariadb-10.0.32.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "10.0.31",
+    "Installed":      "installed/mariadb/10.0.31",
+    "Source":         "src/mariadb/10.0.31/mariadb-10.0.31.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.5.59",
+    "Installed":      "installed/mariadb/5.5.59",
+    "Source":         "src/mariadb/5.5.59/mariadb-5.5.59.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.5.58",
+    "Installed":      "installed/mariadb/5.5.58",
+    "Source":         "src/mariadb/5.5.58/mariadb-5.5.58.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.5.57",
+    "Installed":      "installed/mariadb/5.5.57",
+    "Source":         "src/mariadb/5.5.57/mariadb-5.5.57.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

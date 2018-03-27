@@ -14,6 +14,16 @@
 
   "Versions": [
   {
+    "Number":         "2.2.3",
+    "Installed":      "installed/guile/2.2.3",
+    "Source":         "src/guile/2.2.3/guile-2.2.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.2.2",
     "Installed":      "installed/guile/2.2.2",
     "Source":         "src/guile/2.2.2/guile-2.2.2.tar.xz",

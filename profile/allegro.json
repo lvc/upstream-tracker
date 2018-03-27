@@ -24,6 +24,26 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "5.2.4.0",
+    "Installed":      "installed/allegro/5.2.4.0",
+    "Source":         "src/allegro/5.2.4.0/allegro-5.2.4.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.2.3.0",
+    "Installed":      "installed/allegro/5.2.3.0",
+    "Source":         "src/allegro/5.2.3.0/allegro-5.2.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "5.2.2.0",
     "Installed":      "installed/allegro/5.2.2.0",
     "Source":         "src/allegro/5.2.2.0/allegro-5.2.2.0.tar.gz",

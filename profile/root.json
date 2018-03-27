@@ -18,6 +18,68 @@
 
   "Versions": [
   {
+    "Number":         "6.13.02",
+    "Installed":      "installed/root/6.13.02",
+    "Source":         "src/root/6.13.02/root_v6.13.02.source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.12.06",
+    "Installed":      "installed/root/6.12.06",
+    "Source":         "src/root/6.12.06/root_v6.12.06.source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.12.04",
+    "Installed":      "installed/root/6.12.04",
+    "Source":         "src/root/6.12.04/root_v6.12.04.source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "6.11.02",
+    "Installed":      "installed/root/6.11.02",
+    "Source":         "src/root/6.11.02/root_v6.11.02.source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.10.08",
+    "Installed":      "installed/root/6.10.08",
+    "Source":         "src/root/6.10.08/root_v6.10.08.source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "6.10.06",
+    "Installed":      "installed/root/6.10.06",
+    "Source":         "src/root/6.10.06/root_v6.10.06.source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "6.10.04",
     "Installed":      "installed/root/6.10.04",
     "Source":         "src/root/6.10.04/root_v6.10.04.source.tar.gz",
@@ -25,7 +87,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "6.10.02",

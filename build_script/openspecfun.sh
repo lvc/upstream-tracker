@@ -1,0 +1,1 @@
+make install CFLAGS='-g -Og' prefix=$INSTALL_TO

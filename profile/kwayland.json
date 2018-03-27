@@ -7,9 +7,80 @@
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "Configure":      "-DCMAKE_PREFIX_PATH='/home/Soft/Qt-5.7.1/;/home/Soft/ECM/' -DBUILD_TESTING=OFF",
   "ChangeLog":      "Off",
+  "ConfigureGlobal": "PKG_CONFIG_PATH={INSTALL_ROOT}/wayland/1.14.0/lib/pkgconfig",
   "HeadersDiff":    "Off",
 
   "Versions": [
+  {
+    "Number":         "5.44.0",
+    "Installed":      "installed/kwayland/5.44.0",
+    "Source":         "src/kwayland/5.44.0/kwayland-5.44.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.43.0",
+    "Installed":      "installed/kwayland/5.43.0",
+    "Source":         "src/kwayland/5.43.0/kwayland-5.43.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.42.0",
+    "Installed":      "installed/kwayland/5.42.0",
+    "Source":         "src/kwayland/5.42.0/kwayland-5.42.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.41.0",
+    "Installed":      "installed/kwayland/5.41.0",
+    "Source":         "src/kwayland/5.41.0/kwayland-5.41.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.40.0",
+    "Installed":      "installed/kwayland/5.40.0",
+    "Source":         "src/kwayland/5.40.0/kwayland-5.40.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.39.0",
+    "Installed":      "installed/kwayland/5.39.0",
+    "Source":         "src/kwayland/5.39.0/kwayland-5.39.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.38.0",
+    "Installed":      "installed/kwayland/5.38.0",
+    "Source":         "src/kwayland/5.38.0/kwayland-5.38.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "5.37.0",
     "Installed":      "installed/kwayland/5.37.0",

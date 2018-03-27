@@ -1,0 +1,211 @@
+{
+  "Name":           "libedit",
+  "SourceUrl":      "http://thrysoee.dk/editline/",
+  "OldSourceUrl":   "http://download.openpkg.org/components/cache/libedit/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "GraphFewXTics":  "On",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "20170329-3.1",
+    "Installed":      "installed/libedit/20170329-3.1",
+    "Source":         "src/libedit/20170329-3.1/libedit-20170329-3.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "20160903-3.1",
+    "Installed":      "installed/libedit/20160903-3.1",
+    "Source":         "src/libedit/20160903-3.1/libedit-20160903-3.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "20160618-3.1",
+    "Installed":      "installed/libedit/20160618-3.1",
+    "Source":         "src/libedit/20160618-3.1/libedit-20160618-3.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "20150325-3.1",
+    "Installed":      "installed/libedit/20150325-3.1",
+    "Source":         "src/libedit/20150325-3.1/libedit-20150325-3.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "20141030-3.1",
+    "Installed":      "installed/libedit/20141030-3.1",
+    "Source":         "src/libedit/20141030-3.1/libedit-20141030-3.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "20140620-3.1",
+    "Installed":      "installed/libedit/20140620-3.1",
+    "Source":         "src/libedit/20140620-3.1/libedit-20140620-3.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "20140618-3.1",
+    "Installed":      "installed/libedit/20140618-3.1",
+    "Source":         "src/libedit/20140618-3.1/libedit-20140618-3.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "20140213-3.1",
+    "Installed":      "installed/libedit/20140213-3.1",
+    "Source":         "src/libedit/20140213-3.1/libedit-20140213-3.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "20130712-3.1",
+    "Installed":      "installed/libedit/20130712-3.1",
+    "Source":         "src/libedit/20130712-3.1/libedit-20130712-3.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "20130710-3.1",
+    "Installed":      "installed/libedit/20130710-3.1",
+    "Source":         "src/libedit/20130710-3.1/libedit-20130710-3.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "20130611-3.1",
+    "Installed":      "installed/libedit/20130611-3.1",
+    "Source":         "src/libedit/20130611-3.1/libedit-20130611-3.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "20130601-3.1",
+    "Installed":      "installed/libedit/20130601-3.1",
+    "Source":         "src/libedit/20130601-3.1/libedit-20130601-3.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "20121213-3.0",
+    "Installed":      "installed/libedit/20121213-3.0",
+    "Source":         "src/libedit/20121213-3.0/libedit-20121213-3.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "20120601-3.0",
+    "Installed":      "installed/libedit/20120601-3.0",
+    "Source":         "src/libedit/20120601-3.0/libedit-20120601-3.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "20120522-3.0",
+    "Installed":      "installed/libedit/20120522-3.0",
+    "Source":         "src/libedit/20120522-3.0/libedit-20120522-3.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "20120311-3.0",
+    "Installed":      "installed/libedit/20120311-3.0",
+    "Source":         "src/libedit/20120311-3.0/libedit-20120311-3.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "20110802-3.0",
+    "Installed":      "installed/libedit/20110802-3.0",
+    "Source":         "src/libedit/20110802-3.0/libedit-20110802-3.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "20110709-3.0",
+    "Installed":      "installed/libedit/20110709-3.0",
+    "Source":         "src/libedit/20110709-3.0/libedit-20110709-3.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "20110227-3.0",
+    "Installed":      "installed/libedit/20110227-3.0",
+    "Source":         "src/libedit/20110227-3.0/libedit-20110227-3.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "20100424-3.0",
+    "Installed":      "installed/libedit/20100424-3.0",
+    "Source":         "src/libedit/20100424-3.0/libedit-20100424-3.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

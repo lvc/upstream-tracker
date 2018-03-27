@@ -12,6 +12,16 @@
 
   "Versions": [
   {
+    "Number":         "2.2.26",
+    "Installed":      "installed/udunits/2.2.26",
+    "Source":         "src/udunits/2.2.26/udunits-2.2.26.tar.gz",
+    "Changelog":      "CHANGE_LOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.2.25",
     "Installed":      "installed/udunits/2.2.25",
     "Source":         "src/udunits/2.2.25/udunits-2.2.25.tar.gz",

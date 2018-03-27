@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "3.2.1",
+    "Installed":      "installed/xerces-c/3.2.1",
+    "Source":         "src/xerces-c/3.2.1/xerces-c-3.2.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.2.0",
     "Installed":      "installed/xerces-c/3.2.0",
     "Source":         "src/xerces-c/3.2.0/xerces-c-3.2.0.tar.xz",

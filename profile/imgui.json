@@ -10,6 +10,26 @@
 
   "Versions": [
   {
+    "Number":         "1.53",
+    "Installed":      "installed/imgui/1.53",
+    "Source":         "src/imgui/1.53/imgui-1.53.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.52",
+    "Installed":      "installed/imgui/1.52",
+    "Source":         "src/imgui/1.52/imgui-1.52.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.51",
     "Installed":      "installed/imgui/1.51",
     "Source":         "src/imgui/1.51/imgui-1.51.tar.gz",

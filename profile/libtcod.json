@@ -4,10 +4,31 @@
   "SourceUrlDepth": "1",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildDir":       "build/autotools",
   "BuildScript1":   "build_script/libtcod.sh",
   "HeadersDiff":    "Off",
 
   "Versions": [
+  {
+    "Number":         "1.6.5",
+    "Installed":      "installed/libtcod/1.6.5",
+    "Source":         "src/libtcod/1.6.5/libtcod-1.6.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.6.4",
+    "Installed":      "installed/libtcod/1.6.4",
+    "Source":         "src/libtcod/1.6.4/libtcod-1.6.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "1.6.3",
     "Installed":      "installed/libtcod/1.6.3",

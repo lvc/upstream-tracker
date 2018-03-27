@@ -3,7 +3,7 @@
   "SourceUrl":      "http://www.netfilter.org/projects/iptables/files/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--disable-nftables",
+  "Configure":      "--disable-nftables --disable-bpf-compiler",
   "PostInstall":    "rm -fr {INSTALL_TO}/lib/xtables/",
   "SkipObjects":    [ "libiptc.so" ],
   "HeadersDiff":    "Off",

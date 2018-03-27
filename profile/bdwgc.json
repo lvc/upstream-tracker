@@ -10,9 +10,59 @@
 
   "Versions": [
   {
+    "Number":         "7.6.4",
+    "Installed":      "installed/bdwgc/7.6.4",
+    "Source":         "src/bdwgc/7.6.4/gc-7.6.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.6.2",
+    "Installed":      "installed/bdwgc/7.6.2",
+    "Source":         "src/bdwgc/7.6.2/gc-7.6.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "7_6_0",
     "Installed":      "installed/bdwgc/7_6_0",
     "Source":         "src/bdwgc/7_6_0/gc7_6_0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.4.10",
+    "Installed":      "installed/bdwgc/7.4.10",
+    "Source":         "src/bdwgc/7.4.10/gc-7.4.10.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.4.8",
+    "Installed":      "installed/bdwgc/7.4.8",
+    "Source":         "src/bdwgc/7.4.8/gc-7.4.8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.4.6",
+    "Installed":      "installed/bdwgc/7.4.6",
+    "Source":         "src/bdwgc/7.4.6/gc-7.4.6.tar.gz",
     "Changelog":      "ChangeLog",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

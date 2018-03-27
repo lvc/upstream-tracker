@@ -1,0 +1,70 @@
+{
+  "Name":           "wavpack",
+  "Title":          "WavPack",
+  "SourceUrl":      "https://github.com/dbry/WavPack/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "5.1.0",
+    "Installed":      "installed/wavpack/5.1.0",
+    "Source":         "src/wavpack/5.1.0/wavpack-5.1.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.0.0",
+    "Installed":      "installed/wavpack/5.0.0",
+    "Source":         "src/wavpack/5.0.0/wavpack-5.0.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.80.0",
+    "Installed":      "installed/wavpack/4.80.0",
+    "Source":         "src/wavpack/4.80.0/wavpack-4.80.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.75.2",
+    "Installed":      "installed/wavpack/4.75.2",
+    "Source":         "src/wavpack/4.75.2/wavpack-4.75.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.75.0",
+    "Installed":      "installed/wavpack/4.75.0",
+    "Source":         "src/wavpack/4.75.0/wavpack-4.75.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.60.0",
+    "Installed":      "installed/wavpack/4.60.0",
+    "Source":         "src/wavpack/4.60.0/wavpack-4.60.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

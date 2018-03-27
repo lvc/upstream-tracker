@@ -28,9 +28,11 @@ bluez
 bluez-qt
 boost
 botan
+brotli
 btrfs-progs
 bullet
 c-ares
+c-blosc
 c-toxcore
 cairo
 cairomm
@@ -64,6 +66,8 @@ cryptsetup
 cunit
 cups
 curl
+cyrus-imapd
+cyrus-sasl
 davix
 dbus
 dcap
@@ -79,6 +83,7 @@ editline
 efivar
 efl;elementary
 elfutils
+embree
 enchant
 enet
 erfa
@@ -139,8 +144,10 @@ glibmm
 glog
 gloox
 glpk
+gmime
 gmp
 gnome-online-accounts
+gnutls
 gobject-introspection
 googletest
 gpac
@@ -181,6 +188,7 @@ hwloc
 ibus
 ice
 icecast
+icu4c
 ilmbase
 imagemagick
 imgui
@@ -193,6 +201,7 @@ iptables
 irrlicht
 isl
 jansson
+jasper
 jemalloc
 jreen
 json-c
@@ -230,6 +239,7 @@ libaccounts-glib
 libao
 libarchive
 libass
+libassuan
 libatomic_ops
 libav
 libblockdev
@@ -267,6 +277,7 @@ libdwarf
 libebml
 libecap
 libechonest
+libedit
 libelektra
 libepoxy
 liberasurecode
@@ -291,6 +302,7 @@ libgeotiff
 libgit2
 libgovirt
 libgpg-error
+libgsasl
 libgsf
 libgta
 libgtop
@@ -306,6 +318,7 @@ libiodbc
 libircclient
 libisoburn
 libisofs
+libjit
 libjpeg
 libjpeg-turbo
 libjson-rpc-cpp
@@ -315,6 +328,7 @@ liblognorm
 liblouis
 liblxqt
 libmad
+libmaxminddb
 libmbim
 libmicrohttpd
 libmng
@@ -326,6 +340,7 @@ libnftnl
 libnice
 libnl
 libnotify
+libntlm
 libodb
 libogg
 libosip2
@@ -424,9 +439,12 @@ lxc
 lz4
 lzo
 maliit
+mariadb-connector-c
+mariadb
 matio
 mbedtls
 mediastreamer
+mesa
 metis
 minilzo
 miniupnpc
@@ -459,6 +477,7 @@ networkmanager
 networkmanager-qt
 newlib
 newt
+notmuch
 nspr
 nss
 ntfs-3g
@@ -478,15 +497,19 @@ openblas
 openbox
 opencv
 openexr
+openfst
 openh264
 openipmi
 openldap
+openlibm
 openmpi
 openobex
+openrc
 opensaml
 openscap
 openscenegraph
 openslide
+openspecfun
 openssh
 openssl
 openvswitch
@@ -506,7 +529,7 @@ papi
 pari
 parted
 pciutils
-pcl
+# pcl
 pcre
 pcre2
 pcsc-lite
@@ -533,7 +556,9 @@ python
 qca
 qgis
 qjson
+qpdf
 qpid-proton
+# qt
 quagga
 quazip
 qwt
@@ -543,6 +568,7 @@ radare2
 re2
 readline
 rest
+rhash
 rocksdb
 root
 rpm
@@ -562,6 +588,7 @@ serf
 sfml
 shiboken
 simgear
+skalibs
 slang
 smpeg
 snappy
@@ -577,14 +604,18 @@ sratom
 sssd
 subversion
 suil
+suitesparse
 taglib
 talloc
+tbb
+tcl
 tdb
 tesseract
 tevent
 textparser
 threadweaver
 tinyxml2
+tk
 tomsfastmath
 tracker
 uchardet
@@ -608,6 +639,7 @@ vlfeat
 volume_key
 vtk
 vzctl
+wavpack
 wayland
 wcslib
 wcstools

@@ -1,7 +1,8 @@
 {
   "Name":           "boost",
   "Title":          "Boost",
-  "SourceUrl":      "https://sourceforge.net/projects/boost/files/boost/",
+  "SourceUrl":      "http://www.boost.org/users/download/",
+  "OldSourceUrl":   "https://sourceforge.net/projects/boost/files/boost/",
   "SkipUrl":        [ ".*beta.*" ],
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
@@ -11,6 +12,26 @@
   "MinimalVersion": "1.55",
 
   "Versions": [
+  {
+    "Number":         "1_66_0",
+    "Installed":      "installed/boost/1_66_0",
+    "Source":         "src/boost/1_66_0/boost_1_66_0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_65_1",
+    "Installed":      "installed/boost/1_65_1",
+    "Source":         "src/boost/1_65_1/boost_1_65_1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "1_65_0",
     "Installed":      "installed/boost/1_65_0",

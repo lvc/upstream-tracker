@@ -4,7 +4,8 @@
   "SourceUrl":      "http://ftp.gnome.org/pub/GNOME/sources/vala/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/graphviz/2.40.1/lib/pkgconfig LIBGVC_CFLAGS='-I{INSTALL_ROOT}/graphviz/2.40.1/include/'",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/graphviz/2.40.1/lib/pkgconfig LIBGVC_CFLAGS='-I{INSTALL_ROOT}/graphviz/2.40.1/include/ -I{INSTALL_ROOT}/graphviz/2.40.1/include/graphviz'",
+  "PreInstall":     "sed -i -e 's/libvaladoc /doc /' Makefile.*; sed -i -e 's/valadoc /doc /' Makefile.*;autoreconf",
   "PostInstall":    "rm -fr {INSTALL_TO}/lib/vala-*",
   "SkipObjects":    [ "valadoc/" ],
   "HeadersDiff":    "Off",
@@ -13,6 +14,186 @@
   "SkipVersions":   [ "0.35.90" ],
 
   "Versions": [
+  {
+    "Number":         "0.40.0",
+    "Installed":      "installed/vala/0.40.0",
+    "Source":         "src/vala/0.40.0/vala-0.40.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.39.92",
+    "Installed":      "installed/vala/0.39.92",
+    "Source":         "src/vala/0.39.92/vala-0.39.92.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.39.91",
+    "Installed":      "installed/vala/0.39.91",
+    "Source":         "src/vala/0.39.91/vala-0.39.91.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.39.7",
+    "Installed":      "installed/vala/0.39.7",
+    "Source":         "src/vala/0.39.7/vala-0.39.7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.39.6",
+    "Installed":      "installed/vala/0.39.6",
+    "Source":         "src/vala/0.39.6/vala-0.39.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.39.5",
+    "Installed":      "installed/vala/0.39.5",
+    "Source":         "src/vala/0.39.5/vala-0.39.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.39.4",
+    "Installed":      "installed/vala/0.39.4",
+    "Source":         "src/vala/0.39.4/vala-0.39.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.39.3",
+    "Installed":      "installed/vala/0.39.3",
+    "Source":         "src/vala/0.39.3/vala-0.39.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.39.2",
+    "Installed":      "installed/vala/0.39.2",
+    "Source":         "src/vala/0.39.2/vala-0.39.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.39.1",
+    "Installed":      "installed/vala/0.39.1",
+    "Source":         "src/vala/0.39.1/vala-0.39.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.38.7",
+    "Installed":      "installed/vala/0.38.7",
+    "Source":         "src/vala/0.38.7/vala-0.38.7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.38.6",
+    "Installed":      "installed/vala/0.38.6",
+    "Source":         "src/vala/0.38.6/vala-0.38.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.38.5",
+    "Installed":      "installed/vala/0.38.5",
+    "Source":         "src/vala/0.38.5/vala-0.38.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.38.4",
+    "Installed":      "installed/vala/0.38.4",
+    "Source":         "src/vala/0.38.4/vala-0.38.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.38.3",
+    "Installed":      "installed/vala/0.38.3",
+    "Source":         "src/vala/0.38.3/vala-0.38.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.38.2",
+    "Installed":      "installed/vala/0.38.2",
+    "Source":         "src/vala/0.38.2/vala-0.38.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.38.1",
+    "Installed":      "installed/vala/0.38.1",
+    "Source":         "src/vala/0.38.1/vala-0.38.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.38.0",
+    "Installed":      "installed/vala/0.38.0",
+    "Source":         "src/vala/0.38.0/vala-0.38.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "0.37.91",
     "Installed":      "installed/vala/0.37.91",
@@ -47,6 +228,86 @@
     "Number":         "0.37.1",
     "Installed":      "installed/vala/0.37.1",
     "Source":         "src/vala/0.37.1/vala-0.37.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.36.12",
+    "Installed":      "installed/vala/0.36.12",
+    "Source":         "src/vala/0.36.12/vala-0.36.12.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.36.11",
+    "Installed":      "installed/vala/0.36.11",
+    "Source":         "src/vala/0.36.11/vala-0.36.11.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.36.10",
+    "Installed":      "installed/vala/0.36.10",
+    "Source":         "src/vala/0.36.10/vala-0.36.10.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.36.9",
+    "Installed":      "installed/vala/0.36.9",
+    "Source":         "src/vala/0.36.9/vala-0.36.9.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.36.8",
+    "Installed":      "installed/vala/0.36.8",
+    "Source":         "src/vala/0.36.8/vala-0.36.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.36.7",
+    "Installed":      "installed/vala/0.36.7",
+    "Source":         "src/vala/0.36.7/vala-0.36.7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.36.6",
+    "Installed":      "installed/vala/0.36.6",
+    "Source":         "src/vala/0.36.6/vala-0.36.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.36.5",
+    "Installed":      "installed/vala/0.36.5",
+    "Source":         "src/vala/0.36.5/vala-0.36.5.tar.xz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
@@ -167,6 +428,86 @@
     "Number":         "0.35.1",
     "Installed":      "installed/vala/0.35.1",
     "Source":         "src/vala/0.35.1/vala-0.35.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.34.17",
+    "Installed":      "installed/vala/0.34.17",
+    "Source":         "src/vala/0.34.17/vala-0.34.17.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.34.16",
+    "Installed":      "installed/vala/0.34.16",
+    "Source":         "src/vala/0.34.16/vala-0.34.16.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.34.15",
+    "Installed":      "installed/vala/0.34.15",
+    "Source":         "src/vala/0.34.15/vala-0.34.15.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.34.14",
+    "Installed":      "installed/vala/0.34.14",
+    "Source":         "src/vala/0.34.14/vala-0.34.14.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.34.13",
+    "Installed":      "installed/vala/0.34.13",
+    "Source":         "src/vala/0.34.13/vala-0.34.13.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.34.12",
+    "Installed":      "installed/vala/0.34.12",
+    "Source":         "src/vala/0.34.12/vala-0.34.12.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.34.11",
+    "Installed":      "installed/vala/0.34.11",
+    "Source":         "src/vala/0.34.11/vala-0.34.11.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.34.10",
+    "Installed":      "installed/vala/0.34.10",
+    "Source":         "src/vala/0.34.10/vala-0.34.10.tar.xz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

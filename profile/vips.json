@@ -12,9 +12,146 @@
 
   "Versions": [
   {
+    "Number":         "8.7.0",
+    "Installed":      "installed/vips/8.7.0",
+    "Source":         "src/vips/8.7.0/vips-8.7.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.7",
+    "Installed":      "installed/vips/8.7",
+    "Source":         "src/vips/8.7/vips-8.7.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.6.3",
+    "Installed":      "installed/vips/8.6.3",
+    "Source":         "src/vips/8.6.3/vips-8.6.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.6.2",
+    "Installed":      "installed/vips/8.6.2",
+    "Source":         "src/vips/8.6.2/vips-8.6.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.6.1",
+    "Installed":      "installed/vips/8.6.1",
+    "Source":         "src/vips/8.6.1/vips-8.6.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.6.0",
+    "Installed":      "installed/vips/8.6.0",
+    "Source":         "src/vips/8.6.0/vips-8.6.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "8.6.0-beta2",
+    "Installed":      "installed/vips/8.6.0-beta2",
+    "Source":         "src/vips/8.6.0-beta2/vips-8.6.0-beta2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "8.6.0-beta1",
+    "Installed":      "installed/vips/8.6.0-beta1",
+    "Source":         "src/vips/8.6.0-beta1/vips-8.6.0-beta1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "8.6.0-alpha5",
+    "Installed":      "installed/vips/8.6.0-alpha5",
+    "Source":         "src/vips/8.6.0-alpha5/vips-8.6.0-alpha5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "8.6.0-alpha4",
+    "Installed":      "installed/vips/8.6.0-alpha4",
+    "Source":         "src/vips/8.6.0-alpha4/vips-8.6.0-alpha4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "8.6.0-alpha3",
+    "Installed":      "installed/vips/8.6.0-alpha3",
+    "Source":         "src/vips/8.6.0-alpha3/vips-8.6.0-alpha3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "8.6.0-alpha2",
+    "Installed":      "installed/vips/8.6.0-alpha2",
+    "Source":         "src/vips/8.6.0-alpha2/vips-8.6.0-alpha2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "8.6.0-alpha1",
     "Installed":      "installed/vips/8.6.0-alpha1",
     "Source":         "src/vips/8.6.0-alpha1/vips-8.6.0-alpha1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "8.5.9",
+    "Installed":      "installed/vips/8.5.9",
+    "Source":         "src/vips/8.5.9/vips-8.5.9.tar.gz",
     "Changelog":      "ChangeLog",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

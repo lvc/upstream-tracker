@@ -7,6 +7,16 @@
 
   "Versions": [
   {
+    "Number":         "4.0",
+    "Installed":      "installed/libtins/4.0",
+    "Source":         "src/libtins/4.0/libtins-4.0.tar.gz",
+    "Changelog":      "CHANGES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.5",
     "Installed":      "installed/libtins/3.5",
     "Source":         "src/libtins/3.5/libtins-3.5.tar.gz",

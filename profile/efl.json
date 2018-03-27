@@ -15,6 +15,56 @@
 
   "Versions": [
   {
+    "Number":         "1.20.7",
+    "Installed":      "installed/efl/1.20.7",
+    "Source":         "src/efl/1.20.7/efl-1.20.7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.20.6",
+    "Installed":      "installed/efl/1.20.6",
+    "Source":         "src/efl/1.20.6/efl-1.20.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.20.5",
+    "Installed":      "installed/efl/1.20.5",
+    "Source":         "src/efl/1.20.5/efl-1.20.5.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.20.4",
+    "Installed":      "installed/efl/1.20.4",
+    "Source":         "src/efl/1.20.4/efl-1.20.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.20.3",
+    "Installed":      "installed/efl/1.20.3",
+    "Source":         "src/efl/1.20.3/efl-1.20.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.20.2",
     "Installed":      "installed/efl/1.20.2",
     "Source":         "src/efl/1.20.2/efl-1.20.2.tar.xz",

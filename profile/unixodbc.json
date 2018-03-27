@@ -5,13 +5,54 @@
   "SourceUrlDepth": "1",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--enable-gui=no --enable-drivers=yes",
+  "Configure":      "--enable-gui=no --enable-drivers=yes --enable-inicaching=no",
   "SkipObjects":    [ "libodbccr.so", ".*S\.so.*" ],
   "Changelog":      "ChangeLog",
   "HeadersDiff":    "Off",
   "MinimalVersion": "2.2.13",
 
   "Versions": [
+  {
+    "Number":         "2.3.7pre",
+    "Installed":      "installed/unixodbc/2.3.7pre",
+    "Source":         "src/unixodbc/2.3.7pre/unixODBC-2.3.7pre.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.6",
+    "Installed":      "installed/unixodbc/2.3.6",
+    "Source":         "src/unixodbc/2.3.6/unixODBC-2.3.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.6-pre",
+    "Installed":      "installed/unixodbc/2.3.6-pre",
+    "Source":         "src/unixodbc/2.3.6-pre/unixODBC-2.3.6-pre.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.3.5",
+    "Installed":      "installed/unixodbc/2.3.5",
+    "Source":         "src/unixodbc/2.3.5/unixODBC-2.3.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "2.3.5-pre",
     "Installed":      "installed/unixodbc/2.3.5-pre",
@@ -20,7 +61,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "2.3.4",

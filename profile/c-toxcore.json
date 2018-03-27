@@ -9,6 +9,36 @@
 
   "Versions": [
   {
+    "Number":         "0.2.1",
+    "Installed":      "installed/c-toxcore/0.2.1",
+    "Source":         "src/c-toxcore/0.2.1/c-toxcore-0.2.1.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.0",
+    "Installed":      "installed/c-toxcore/0.2.0",
+    "Source":         "src/c-toxcore/0.2.0/c-toxcore-0.2.0.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.11",
+    "Installed":      "installed/c-toxcore/0.1.11",
+    "Source":         "src/c-toxcore/0.1.11/c-toxcore-0.1.11.tar.gz",
+    "Changelog":      "CHANGELOG.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.1.10",
     "Installed":      "installed/c-toxcore/0.1.10",
     "Source":         "src/c-toxcore/0.1.10/c-toxcore-0.1.10.tar.gz",

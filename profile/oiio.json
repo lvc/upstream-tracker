@@ -12,6 +12,77 @@
 
   "Versions": [
   {
+    "Number":         "1.8.9",
+    "Installed":      "installed/oiio/1.8.9",
+    "Source":         "src/oiio/1.8.9/Release-1.8.9.tar.gz",
+    "Changelog":      "CHANGES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.8",
+    "Installed":      "installed/oiio/1.8.8",
+    "Source":         "src/oiio/1.8.8/Release-1.8.8.tar.gz",
+    "Changelog":      "CHANGES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.7",
+    "Installed":      "installed/oiio/1.8.7",
+    "Source":         "src/oiio/1.8.7/Release-1.8.7.tar.gz",
+    "Changelog":      "CHANGES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.6",
+    "Installed":      "installed/oiio/1.8.6",
+    "Source":         "src/oiio/1.8.6/Release-1.8.6.tar.gz",
+    "Changelog":      "CHANGES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.5",
+    "Installed":      "installed/oiio/1.8.5",
+    "Source":         "src/oiio/1.8.5/Release-1.8.5.tar.gz",
+    "Changelog":      "CHANGES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.8.5RC1",
+    "Installed":      "installed/oiio/1.8.5RC1",
+    "Source":         "src/oiio/1.8.5RC1/Release-1.8.5RC1.tar.gz",
+    "Changelog":      "CHANGES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.7.17",
+    "Installed":      "installed/oiio/1.7.17",
+    "Source":         "src/oiio/1.7.17/Release-1.7.17.tar.gz",
+    "Changelog":      "CHANGES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.7.16",
     "Installed":      "installed/oiio/1.7.16",
     "Source":         "src/oiio/1.7.16/Release-1.7.16.tar.gz",

@@ -4,12 +4,23 @@
   "SourceUrl":      "https://archive.apache.org/dist/subversion/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--with-utf8proc=internal",
   "SkipObjects":    [ "libsvn_fs_(base|fs|util|x).*", "libsvn_ra_local-1.so" ],
   "HeadersDiff":    "Off",
   "HideEmpty":      "On",
   "MinimalVersion": "1.4.0",
 
   "Versions": [
+  {
+    "Number":         "1.10.0-rc1",
+    "Installed":      "installed/subversion/1.10.0-rc1",
+    "Source":         "src/subversion/1.10.0-rc1/subversion-1.10.0-rc1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "1.10.0-alpha3",
     "Installed":      "installed/subversion/1.10.0-alpha3",
@@ -18,7 +29,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "1.9.7",

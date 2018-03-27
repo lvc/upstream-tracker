@@ -2,15 +2,27 @@
   "Name":           "pcl",
   "Title":          "PCL",
   "SourceUrl":      "https://github.com/PointCloudLibrary/pcl/tags",
+  "Git":            "https://github.com/PointCloudLibrary/pcl.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "-DBUILD_TESTS=OFF -DBUILD_global_tests=OFF -DBUILD_examples=OFF -DCMAKE_PREFIX_PATH=/home/Soft/Eigen-3.0.4/",
+  "Configure":      "-DBUILD_TESTS=OFF -DBUILD_global_tests=OFF -DBUILD_examples=OFF -DBUILD_tools=OFF -DWITH_QT=OFF -DWITH_VTK=OFF -DBUILD_apps=OFF -DCMAKE_PREFIX_PATH=/home/Soft/Eigen-3.0.4/",
   "PostInstall":    "rm -fr {INSTALL_TO}/lib/pcl/",
   "HeadersDiff":    "Off",
   "Make":           "-j4",
-  "RegenDump":      "On",
+  "RegenDump":      "Off",
+  "Schedule":       [ "Wed" ],
 
   "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/pcl/current",
+    "Source":         "src/pcl/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "1.8.1",
     "Installed":      "installed/pcl/1.8.1",

@@ -31,6 +31,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.8.20",
+    "Installed":      "installed/hdf5/1.8.20",
+    "Source":         "src/hdf5/1.8.20/hdf5-1.8.20.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.8.19",
     "Installed":      "installed/hdf5/1.8.19",
     "Source":         "src/hdf5/1.8.19/hdf5-1.8.19.tar.gz",

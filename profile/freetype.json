@@ -23,6 +23,26 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "2.9",
+    "Installed":      "installed/freetype/2.9",
+    "Source":         "src/freetype/2.9/freetype-2.9.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.1",
+    "Installed":      "installed/freetype/2.8.1",
+    "Source":         "src/freetype/2.8.1/freetype-2.8.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.8",
     "Installed":      "installed/freetype/2.8",
     "Source":         "src/freetype/2.8/freetype-2.8.tar.gz",

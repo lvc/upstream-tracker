@@ -11,6 +11,36 @@
 
   "Versions": [
   {
+    "Number":         "1.1.19",
+    "Installed":      "installed/musl/1.1.19",
+    "Source":         "src/musl/1.1.19/musl-1.1.19.tar.gz",
+    "Changelog":      "WHATSNEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.18",
+    "Installed":      "installed/musl/1.1.18",
+    "Source":         "src/musl/1.1.18/musl-1.1.18.tar.gz",
+    "Changelog":      "WHATSNEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.17",
+    "Installed":      "installed/musl/1.1.17",
+    "Source":         "src/musl/1.1.17/musl-1.1.17.tar.gz",
+    "Changelog":      "WHATSNEW",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.1.16",
     "Installed":      "installed/musl/1.1.16",
     "Source":         "src/musl/1.1.16/musl-1.1.16.tar.gz",

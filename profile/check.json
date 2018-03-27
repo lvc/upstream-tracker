@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         "0.12.0",
+    "Installed":      "installed/check/0.12.0",
+    "Source":         "src/check/0.12.0/check-0.12.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.11.0",
     "Installed":      "installed/check/0.11.0",
     "Source":         "src/check/0.11.0/check-0.11.0.tar.gz",

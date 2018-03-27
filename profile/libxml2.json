@@ -10,6 +10,90 @@
 
   "Versions": [
   {
+    "Number":         "2.9.8",
+    "Installed":      "installed/libxml2/2.9.8",
+    "Source":         "src/libxml2/2.9.8/libxml2-2.9.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.9.8-rc1",
+    "Installed":      "installed/libxml2/2.9.8-rc1",
+    "Source":         "src/libxml2/2.9.8-rc1/libxml2-2.9.8-rc1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.9.7",
+    "Installed":      "installed/libxml2/2.9.7",
+    "Source":         "src/libxml2/2.9.7/libxml2-2.9.7.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.9.7-rc1",
+    "Installed":      "installed/libxml2/2.9.7-rc1",
+    "Source":         "src/libxml2/2.9.7-rc1/libxml2-2.9.7-rc1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.9.6",
+    "Installed":      "installed/libxml2/2.9.6",
+    "Source":         "src/libxml2/2.9.6/libxml2-2.9.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.9.6-rc1",
+    "Installed":      "installed/libxml2/2.9.6-rc1",
+    "Source":         "src/libxml2/2.9.6-rc1/libxml2-2.9.6-rc1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.9.5",
+    "Installed":      "installed/libxml2/2.9.5",
+    "Source":         "src/libxml2/2.9.5/libxml2-2.9.5.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.9.5-rc2",
+    "Installed":      "installed/libxml2/2.9.5-rc2",
+    "Source":         "src/libxml2/2.9.5-rc2/libxml2-2.9.5-rc2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "2.9.5-rc1",
     "Installed":      "installed/libxml2/2.9.5-rc1",
     "Source":         "src/libxml2/2.9.5-rc1/libxml2-2.9.5-rc1.tar.gz",
@@ -17,7 +101,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "2.9.4",

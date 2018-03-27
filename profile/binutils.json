@@ -11,6 +11,26 @@
 
   "Versions": [
   {
+    "Number":         "2.30",
+    "Installed":      "installed/binutils/2.30",
+    "Source":         "src/binutils/2.30/binutils-2.30.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.29.1",
+    "Installed":      "installed/binutils/2.29.1",
+    "Source":         "src/binutils/2.29.1/binutils-2.29.1.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.29",
     "Installed":      "installed/binutils/2.29",
     "Source":         "src/binutils/2.29/binutils-2.29.tar.xz",

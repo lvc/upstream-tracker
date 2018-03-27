@@ -10,6 +10,26 @@
 
   "Versions": [
   {
+    "Number":         "3.28.0",
+    "Installed":      "installed/gcr/3.28.0",
+    "Source":         "src/gcr/3.28.0/gcr-3.28.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.27.4",
+    "Installed":      "installed/gcr/3.27.4",
+    "Source":         "src/gcr/3.27.4/gcr-3.27.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.20.0",
     "Installed":      "installed/gcr/3.20.0",
     "Source":         "src/gcr/3.20.0/gcr-3.20.0.tar.xz",

@@ -11,6 +11,86 @@
 
   "Versions": [
   {
+    "Number":         "5.44.0",
+    "Installed":      "installed/kwidgetsaddons/5.44.0",
+    "Source":         "src/kwidgetsaddons/5.44.0/kwidgetsaddons-5.44.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.43.0",
+    "Installed":      "installed/kwidgetsaddons/5.43.0",
+    "Source":         "src/kwidgetsaddons/5.43.0/kwidgetsaddons-5.43.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.42.1",
+    "Installed":      "installed/kwidgetsaddons/5.42.1",
+    "Source":         "src/kwidgetsaddons/5.42.1/kwidgetsaddons-5.42.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.42.0",
+    "Installed":      "installed/kwidgetsaddons/5.42.0",
+    "Source":         "src/kwidgetsaddons/5.42.0/kwidgetsaddons-5.42.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.41.0",
+    "Installed":      "installed/kwidgetsaddons/5.41.0",
+    "Source":         "src/kwidgetsaddons/5.41.0/kwidgetsaddons-5.41.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.40.0",
+    "Installed":      "installed/kwidgetsaddons/5.40.0",
+    "Source":         "src/kwidgetsaddons/5.40.0/kwidgetsaddons-5.40.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.39.0",
+    "Installed":      "installed/kwidgetsaddons/5.39.0",
+    "Source":         "src/kwidgetsaddons/5.39.0/kwidgetsaddons-5.39.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.38.0",
+    "Installed":      "installed/kwidgetsaddons/5.38.0",
+    "Source":         "src/kwidgetsaddons/5.38.0/kwidgetsaddons-5.38.0.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "5.37.0",
     "Installed":      "installed/kwidgetsaddons/5.37.0",
     "Source":         "src/kwidgetsaddons/5.37.0/kwidgetsaddons-5.37.0.tar.xz",

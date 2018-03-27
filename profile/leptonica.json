@@ -5,12 +5,52 @@
   "OldSourceUrl":   "http://www.leptonica.com/download.html",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--without-zlib",
+  "Configure":      "--without-zlib --without-giflib",
   "PreInstall":     "chmod +x configure;sh autobuild;sed -i '1s/^/#include <zlib.h>\n/' src/pngio.c",
   "HeadersDiff":    "Off",
   "MinimalVersion": "1.67",
 
   "Versions": [
+  {
+    "Number":         "1.75.3",
+    "Installed":      "installed/leptonica/1.75.3",
+    "Source":         "src/leptonica/1.75.3/leptonica-1.75.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.75.2",
+    "Installed":      "installed/leptonica/1.75.2",
+    "Source":         "src/leptonica/1.75.2/leptonica-1.75.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.75.1",
+    "Installed":      "installed/leptonica/1.75.1",
+    "Source":         "src/leptonica/1.75.1/leptonica-1.75.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.75.0",
+    "Installed":      "installed/leptonica/1.75.0",
+    "Source":         "src/leptonica/1.75.0/leptonica-1.75.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "1.74.4",
     "Installed":      "installed/leptonica/1.74.4",

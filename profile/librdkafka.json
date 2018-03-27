@@ -12,6 +12,69 @@
 
   "Versions": [
   {
+    "Number":         "0.11.4-RC2",
+    "Installed":      "installed/librdkafka/0.11.4-RC2",
+    "Source":         "src/librdkafka/0.11.4-RC2/librdkafka-0.11.4-RC2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.4-RC1",
+    "Installed":      "installed/librdkafka/0.11.4-RC1",
+    "Source":         "src/librdkafka/0.11.4-RC1/librdkafka-0.11.4-RC1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "0.11.3",
+    "Installed":      "installed/librdkafka/0.11.3",
+    "Source":         "src/librdkafka/0.11.3/librdkafka-0.11.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.3-RC1",
+    "Installed":      "installed/librdkafka/0.11.3-RC1",
+    "Source":         "src/librdkafka/0.11.3-RC1/librdkafka-0.11.3-RC1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "0.11.1",
+    "Installed":      "installed/librdkafka/0.11.1",
+    "Source":         "src/librdkafka/0.11.1/librdkafka-0.11.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.1-RC1",
+    "Installed":      "installed/librdkafka/0.11.1-RC1",
+    "Source":         "src/librdkafka/0.11.1-RC1/librdkafka-0.11.1-RC1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "0.11.0",
     "Installed":      "installed/librdkafka/0.11.0",
     "Source":         "src/librdkafka/0.11.0/librdkafka-0.11.0.tar.gz",

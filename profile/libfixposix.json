@@ -7,6 +7,26 @@
 
   "Versions": [
   {
+    "Number":         "0.4.3",
+    "Installed":      "installed/libfixposix/0.4.3",
+    "Source":         "src/libfixposix/0.4.3/libfixposix-0.4.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.2",
+    "Installed":      "installed/libfixposix/0.4.2",
+    "Source":         "src/libfixposix/0.4.2/libfixposix-0.4.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.4.1",
     "Installed":      "installed/libfixposix/0.4.1",
     "Source":         "src/libfixposix/0.4.1/libfixposix-0.4.1.tar.gz",

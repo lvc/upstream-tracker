@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "1.18.2",
+    "Installed":      "installed/openal/1.18.2",
+    "Source":         "src/openal/1.18.2/openal-soft-1.18.2.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.18.1",
     "Installed":      "installed/openal/1.18.1",
     "Source":         "src/openal/1.18.1/openal-soft-1.18.1.tar.bz2",

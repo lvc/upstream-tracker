@@ -4,6 +4,7 @@
   "SourceUrl":      "https://github.com/pyside/Shiboken/tags",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildSystem":    "CMake",
   "PostInstall":    "rm -fr {INSTALL_TO}/lib/cmake",
   "SkipObjects":    [ "site-packages/" ],
   "ClearInstalled": "On",

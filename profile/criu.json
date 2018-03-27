@@ -10,6 +10,46 @@
 
   "Versions": [
   {
+    "Number":         "3.8",
+    "Installed":      "installed/criu/3.8",
+    "Source":         "src/criu/3.8/criu-3.8.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7",
+    "Installed":      "installed/criu/3.7",
+    "Source":         "src/criu/3.7/criu-3.7.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.6",
+    "Installed":      "installed/criu/3.6",
+    "Source":         "src/criu/3.6/criu-3.6.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.5",
+    "Installed":      "installed/criu/3.5",
+    "Source":         "src/criu/3.5/criu-3.5.tar.bz2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.4",
     "Installed":      "installed/criu/3.4",
     "Source":         "src/criu/3.4/criu-3.4.tar.bz2",

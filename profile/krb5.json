@@ -10,6 +10,38 @@
 
   "Versions": [
   {
+    "Number":         "1.16",
+    "Installed":      "installed/krb5/1.16",
+    "Source":         "src/krb5/1.16/krb5-1.16.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.16-beta2",
+    "Installed":      "installed/krb5/1.16-beta2",
+    "Source":         "src/krb5/1.16-beta2/krb5-1.16-beta2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.16-beta1",
+    "Installed":      "installed/krb5/1.16-beta1",
+    "Source":         "src/krb5/1.16-beta1/krb5-1.16-beta1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "1.15",
     "Installed":      "installed/krb5/1.15",
     "Source":         "src/krb5/1.15/krb5-1.15.tar.gz",

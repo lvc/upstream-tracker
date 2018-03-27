@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "0.10.0",
+    "Installed":      "installed/suil/0.10.0",
+    "Source":         "src/suil/0.10.0/suil-0.10.0.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.8.4",
     "Installed":      "installed/suil/0.8.4",
     "Source":         "src/suil/0.8.4/suil-0.8.4.tar.bz2",

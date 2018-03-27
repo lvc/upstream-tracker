@@ -7,6 +7,16 @@
 
   "Versions": [
   {
+    "Number":         "0.6.1",
+    "Installed":      "installed/ding-libs/0.6.1",
+    "Source":         "src/ding-libs/0.6.1/ding-libs-0.6.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.6.0",
     "Installed":      "installed/ding-libs/0.6.0",
     "Source":         "src/ding-libs/0.6.0/ding-libs-0.6.0.tar.gz",

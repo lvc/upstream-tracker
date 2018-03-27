@@ -4,12 +4,32 @@
   "SourceUrl":      "https://github.com/ibus/ibus/tags",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--disable-ui --disable-tests --disable-emoji-dict --disable-engine --enable-gtk-doc-html=no",
+  "Configure":      "--disable-ui --disable-tests --disable-emoji-dict --disable-engine --enable-gtk-doc-html=no --disable-unicode-dict",
   "PostInstall":    "rm -fr {INSTALL_TO}/lib/gtk*",
   "HeadersDiff":    "Off",
   "SkipVersions":   [ "1\.4\.99.*" ],
 
   "Versions": [
+  {
+    "Number":         "1.5.18",
+    "Installed":      "installed/ibus/1.5.18",
+    "Source":         "src/ibus/1.5.18/ibus-1.5.18.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.17",
+    "Installed":      "installed/ibus/1.5.17",
+    "Source":         "src/ibus/1.5.17/ibus-1.5.17.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "1.5.16",
     "Installed":      "installed/ibus/1.5.16",

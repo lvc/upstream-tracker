@@ -12,6 +12,176 @@
 
   "Versions": [
   {
+    "Number":         "4.1.0",
+    "Installed":      "installed/libvirt/4.1.0",
+    "Source":         "src/libvirt/4.1.0/libvirt-4.1.0.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.0-rc2",
+    "Installed":      "installed/libvirt/4.1.0-rc2",
+    "Source":         "src/libvirt/4.1.0-rc2/libvirt-4.1.0-rc2.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "4.1.0-rc1",
+    "Installed":      "installed/libvirt/4.1.0-rc1",
+    "Source":         "src/libvirt/4.1.0-rc1/libvirt-4.1.0-rc1.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "4.0.0",
+    "Installed":      "installed/libvirt/4.0.0",
+    "Source":         "src/libvirt/4.0.0/libvirt-4.0.0.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.0-rc2",
+    "Installed":      "installed/libvirt/4.0.0-rc2",
+    "Source":         "src/libvirt/4.0.0-rc2/libvirt-4.0.0-rc2.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "4.0.0-rc1",
+    "Installed":      "installed/libvirt/4.0.0-rc1",
+    "Source":         "src/libvirt/4.0.0-rc1/libvirt-4.0.0-rc1.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "3.10.0",
+    "Installed":      "installed/libvirt/3.10.0",
+    "Source":         "src/libvirt/3.10.0/libvirt-3.10.0.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.10.0-rc2",
+    "Installed":      "installed/libvirt/3.10.0-rc2",
+    "Source":         "src/libvirt/3.10.0-rc2/libvirt-3.10.0-rc2.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "3.10.0-rc1",
+    "Installed":      "installed/libvirt/3.10.0-rc1",
+    "Source":         "src/libvirt/3.10.0-rc1/libvirt-3.10.0-rc1.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "3.9.0",
+    "Installed":      "installed/libvirt/3.9.0",
+    "Source":         "src/libvirt/3.9.0/libvirt-3.9.0.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.9.0-rc2",
+    "Installed":      "installed/libvirt/3.9.0-rc2",
+    "Source":         "src/libvirt/3.9.0-rc2/libvirt-3.9.0-rc2.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "3.9.0-rc1",
+    "Installed":      "installed/libvirt/3.9.0-rc1",
+    "Source":         "src/libvirt/3.9.0-rc1/libvirt-3.9.0-rc1.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "3.8.0",
+    "Installed":      "installed/libvirt/3.8.0",
+    "Source":         "src/libvirt/3.8.0/libvirt-3.8.0.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.8.0-rc1",
+    "Installed":      "installed/libvirt/3.8.0-rc1",
+    "Source":         "src/libvirt/3.8.0-rc1/libvirt-3.8.0-rc1.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "3.7.0",
+    "Installed":      "installed/libvirt/3.7.0",
+    "Source":         "src/libvirt/3.7.0/libvirt-3.7.0.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.7.0-rc2",
+    "Installed":      "installed/libvirt/3.7.0-rc2",
+    "Source":         "src/libvirt/3.7.0-rc2/libvirt-3.7.0-rc2.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "3.7.0-rc1",
     "Installed":      "installed/libvirt/3.7.0-rc1",
     "Source":         "src/libvirt/3.7.0-rc1/libvirt-3.7.0-rc1.tar.xz",
@@ -19,7 +189,8 @@
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "3.6.0",

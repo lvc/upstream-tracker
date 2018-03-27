@@ -8,6 +8,26 @@
 
   "Versions": [
   {
+    "Number":         "1.5.12",
+    "Installed":      "installed/matio/1.5.12",
+    "Source":         "src/matio/1.5.12/matio-1.5.12.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.11",
+    "Installed":      "installed/matio/1.5.11",
+    "Source":         "src/matio/1.5.11/matio-1.5.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.5.10",
     "Installed":      "installed/matio/1.5.10",
     "Source":         "src/matio/1.5.10/matio-1.5.10.tar.gz",

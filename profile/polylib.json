@@ -13,6 +13,16 @@
 
   "Versions": [
   {
+    "Number":         "3.7.0",
+    "Installed":      "installed/polylib/3.7.0",
+    "Source":         "src/polylib/3.7.0/polylib-3.7.0.tar.gz",
+    "Changelog":      "ChangeLog.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.6.8",
     "Installed":      "installed/polylib/3.6.8",
     "Source":         "src/polylib/3.6.8/polylib-3.6.8.tar.gz",

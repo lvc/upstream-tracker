@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "2.4.46",
+    "Installed":      "installed/openldap/2.4.46",
+    "Source":         "src/openldap/2.4.46/openldap-2.4.46.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.4.45",
     "Installed":      "installed/openldap/2.4.45",
     "Source":         "src/openldap/2.4.45/openldap-2.4.45.tgz",

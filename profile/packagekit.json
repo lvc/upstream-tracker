@@ -11,6 +11,26 @@
 
   "Versions": [
   {
+    "Number":         "1.1.8",
+    "Installed":      "installed/packagekit/1.1.8",
+    "Source":         "src/packagekit/1.1.8/PackageKit-1.1.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.7",
+    "Installed":      "installed/packagekit/1.1.7",
+    "Source":         "src/packagekit/1.1.7/PackageKit-1.1.7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.1.6",
     "Installed":      "installed/packagekit/1.1.6",
     "Source":         "src/packagekit/1.1.6/PackageKit-1.1.6.tar.xz",

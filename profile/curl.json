@@ -10,6 +10,56 @@
 
   "Versions": [
   {
+    "Number":         "7.59.0",
+    "Installed":      "installed/curl/7.59.0",
+    "Source":         "src/curl/7.59.0/curl-7.59.0.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.58.0",
+    "Installed":      "installed/curl/7.58.0",
+    "Source":         "src/curl/7.58.0/curl-7.58.0.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.57.0",
+    "Installed":      "installed/curl/7.57.0",
+    "Source":         "src/curl/7.57.0/curl-7.57.0.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.56.1",
+    "Installed":      "installed/curl/7.56.1",
+    "Source":         "src/curl/7.56.1/curl-7.56.1.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.56.0",
+    "Installed":      "installed/curl/7.56.0",
+    "Source":         "src/curl/7.56.0/curl-7.56.0.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "7.55.0",
     "Installed":      "installed/curl/7.55.0",
     "Source":         "src/curl/7.55.0/curl-7.55.0.tar.xz",

@@ -15,6 +15,71 @@
 
   "Versions": [
   {
+    "Number":         "2.18.18",
+    "Installed":      "installed/qgis/2.18.18",
+    "Source":         "src/qgis/2.18.18/qgis-2.18.18.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.18.17",
+    "Installed":      "installed/qgis/2.18.17",
+    "Source":         "src/qgis/2.18.17/qgis-2.18.17.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.18.16",
+    "Installed":      "installed/qgis/2.18.16",
+    "Source":         "src/qgis/2.18.16/qgis-2.18.16.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.18.15",
+    "Installed":      "installed/qgis/2.18.15",
+    "Source":         "src/qgis/2.18.15/qgis-2.18.15.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.18.14",
+    "Installed":      "installed/qgis/2.18.14",
+    "Source":         "src/qgis/2.18.14/qgis-2.18.14.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.18.13",
+    "Installed":      "installed/qgis/2.18.13",
+    "Source":         "src/qgis/2.18.13/qgis-2.18.13.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "2.18.12",
     "Installed":      "installed/qgis/2.18.12",
     "Source":         "src/qgis/2.18.12/qgis-2.18.12.tar.bz2",
@@ -22,7 +87,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "2.18.11",
@@ -68,6 +134,49 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "2.14.22",
+    "Installed":      "installed/qgis/2.14.22",
+    "Source":         "src/qgis/2.14.22/qgis-2.14.22.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.14.21",
+    "Installed":      "installed/qgis/2.14.21",
+    "Source":         "src/qgis/2.14.21/qgis-2.14.21.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.14.20",
+    "Installed":      "installed/qgis/2.14.20",
+    "Source":         "src/qgis/2.14.20/qgis-2.14.20.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.14.19",
+    "Installed":      "installed/qgis/2.14.19",
+    "Source":         "src/qgis/2.14.19/qgis-2.14.19.tar.bz2",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "2.14.18",
     "Installed":      "installed/qgis/2.14.18",
     "Source":         "src/qgis/2.14.18/qgis-2.14.18.tar.bz2",
@@ -75,7 +184,8 @@
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
-    "ABIDiff":        "Off"
+    "ABIDiff":        "Off",
+    "Deleted":        1
   },
   {
     "Number":         "2.14.17",

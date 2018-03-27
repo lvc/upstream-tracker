@@ -7,6 +7,66 @@
 
   "Versions": [
   {
+    "Number":         "2.8.5",
+    "Installed":      "installed/libcouchbase/2.8.5",
+    "Source":         "src/libcouchbase/2.8.5/libcouchbase-2.8.5.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.4",
+    "Installed":      "installed/libcouchbase/2.8.4",
+    "Source":         "src/libcouchbase/2.8.4/libcouchbase-2.8.4.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.3",
+    "Installed":      "installed/libcouchbase/2.8.3",
+    "Source":         "src/libcouchbase/2.8.3/libcouchbase-2.8.3.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.2",
+    "Installed":      "installed/libcouchbase/2.8.2",
+    "Source":         "src/libcouchbase/2.8.2/libcouchbase-2.8.2.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.1",
+    "Installed":      "installed/libcouchbase/2.8.1",
+    "Source":         "src/libcouchbase/2.8.1/libcouchbase-2.8.1.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.8.0",
+    "Installed":      "installed/libcouchbase/2.8.0",
+    "Source":         "src/libcouchbase/2.8.0/libcouchbase-2.8.0.tar.gz",
+    "Changelog":      "RELEASE_NOTES.markdown",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.7.7",
     "Installed":      "installed/libcouchbase/2.7.7",
     "Source":         "src/libcouchbase/2.7.7/libcouchbase-2.7.7.tar.gz",

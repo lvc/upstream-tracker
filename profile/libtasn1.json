@@ -8,6 +8,16 @@
 
   "Versions": [
   {
+    "Number":         "4.13",
+    "Installed":      "installed/libtasn1/4.13",
+    "Source":         "src/libtasn1/4.13/libtasn1-4.13.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "4.12",
     "Installed":      "installed/libtasn1/4.12",
     "Source":         "src/libtasn1/4.12/libtasn1-4.12.tar.gz",

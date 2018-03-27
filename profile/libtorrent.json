@@ -21,6 +21,26 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1_1_6",
+    "Installed":      "installed/libtorrent/1_1_6",
+    "Source":         "src/libtorrent/1_1_6/libtorrent-1_1_6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1_1_5",
+    "Installed":      "installed/libtorrent/1_1_5",
+    "Source":         "src/libtorrent/1_1_5/libtorrent-1_1_5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1_1_4",
     "Installed":      "installed/libtorrent/1_1_4",
     "Source":         "src/libtorrent/1_1_4/libtorrent-1_1_4.tar.gz",

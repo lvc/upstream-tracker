@@ -10,6 +10,58 @@
 
   "Versions": [
   {
+    "Number":         "2.2.4",
+    "Installed":      "installed/gdal/2.2.4",
+    "Source":         "src/gdal/2.2.4/gdal-2.2.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.4RC1",
+    "Installed":      "installed/gdal/2.2.4RC1",
+    "Source":         "src/gdal/2.2.4RC1/gdal-2.2.4RC1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.2.3",
+    "Installed":      "installed/gdal/2.2.3",
+    "Source":         "src/gdal/2.2.3/gdal-2.2.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.3RC1",
+    "Installed":      "installed/gdal/2.2.3RC1",
+    "Source":         "src/gdal/2.2.3RC1/gdal-2.2.3RC1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.2.2",
+    "Installed":      "installed/gdal/2.2.2",
+    "Source":         "src/gdal/2.2.2/gdal-2.2.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.2.1",
     "Installed":      "installed/gdal/2.2.1",
     "Source":         "src/gdal/2.2.1/gdal-2.2.1.tar.xz",

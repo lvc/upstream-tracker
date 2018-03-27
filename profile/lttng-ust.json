@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "2.10.1",
+    "Installed":      "installed/lttng-ust/2.10.1",
+    "Source":         "src/lttng-ust/2.10.1/lttng-ust-2.10.1.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.10.0",
     "Installed":      "installed/lttng-ust/2.10.0",
     "Source":         "src/lttng-ust/2.10.0/lttng-ust-2.10.0.tar.bz2",
@@ -28,6 +38,16 @@
     "ABIView":        "Off",
     "ABIDiff":        "Off",
     "Deleted":        1
+  },
+  {
+    "Number":         "2.9.2",
+    "Installed":      "installed/lttng-ust/2.9.2",
+    "Source":         "src/lttng-ust/2.9.2/lttng-ust-2.9.2.tar.bz2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
   },
   {
     "Number":         "2.9.1",

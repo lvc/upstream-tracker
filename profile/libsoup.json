@@ -10,6 +10,76 @@
 
   "Versions": [
   {
+    "Number":         "2.62.0",
+    "Installed":      "installed/libsoup/2.62.0",
+    "Source":         "src/libsoup/2.62.0/libsoup-2.62.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.61.2",
+    "Installed":      "installed/libsoup/2.61.2",
+    "Source":         "src/libsoup/2.61.2/libsoup-2.61.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.61.1",
+    "Installed":      "installed/libsoup/2.61.1",
+    "Source":         "src/libsoup/2.61.1/libsoup-2.61.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.60.3",
+    "Installed":      "installed/libsoup/2.60.3",
+    "Source":         "src/libsoup/2.60.3/libsoup-2.60.3.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.60.2",
+    "Installed":      "installed/libsoup/2.60.2",
+    "Source":         "src/libsoup/2.60.2/libsoup-2.60.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.60.1",
+    "Installed":      "installed/libsoup/2.60.1",
+    "Source":         "src/libsoup/2.60.1/libsoup-2.60.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.60.0",
+    "Installed":      "installed/libsoup/2.60.0",
+    "Source":         "src/libsoup/2.60.0/libsoup-2.60.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.58.2",
     "Installed":      "installed/libsoup/2.58.2",
     "Source":         "src/libsoup/2.58.2/libsoup-2.58.2.tar.xz",

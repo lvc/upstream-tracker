@@ -10,6 +10,27 @@
 
   "Versions": [
   {
+    "Number":         "3_4_0",
+    "Installed":      "installed/libnl/3_4_0",
+    "Source":         "src/libnl/3_4_0/libnl3_4_0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3_4_0rc1",
+    "Installed":      "installed/libnl/3_4_0rc1",
+    "Source":         "src/libnl/3_4_0rc1/libnl3_4_0rc1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "3_3_0",
     "Installed":      "installed/libnl/3_3_0",
     "Source":         "src/libnl/3_3_0/libnl3_3_0.tar.gz",

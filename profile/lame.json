@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "3.100",
+    "Installed":      "installed/lame/3.100",
+    "Source":         "src/lame/3.100/lame-3.100.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.99.5",
     "Installed":      "installed/lame/3.99.5",
     "Source":         "src/lame/3.99.5/lame-3.99.5.tar.gz",

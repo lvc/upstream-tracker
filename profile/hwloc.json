@@ -7,6 +7,68 @@
 
   "Versions": [
   {
+    "Number":         "2.0.1rc1",
+    "Installed":      "installed/hwloc/2.0.1rc1",
+    "Source":         "src/hwloc/2.0.1rc1/hwloc-2.0.1rc1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0",
+    "Installed":      "installed/hwloc/2.0.0",
+    "Source":         "src/hwloc/2.0.0/hwloc-2.0.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.0rc2",
+    "Installed":      "installed/hwloc/2.0.0rc2",
+    "Source":         "src/hwloc/2.0.0rc2/hwloc-2.0.0rc2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.0.0rc1",
+    "Installed":      "installed/hwloc/2.0.0rc1",
+    "Source":         "src/hwloc/2.0.0rc1/hwloc-2.0.0rc1.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "1.11.9",
+    "Installed":      "installed/hwloc/1.11.9",
+    "Source":         "src/hwloc/1.11.9/hwloc-1.11.9.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.8",
+    "Installed":      "installed/hwloc/1.11.8",
+    "Source":         "src/hwloc/1.11.8/hwloc-1.11.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.11.7",
     "Installed":      "installed/hwloc/1.11.7",
     "Source":         "src/hwloc/1.11.7/hwloc-1.11.7.tar.gz",

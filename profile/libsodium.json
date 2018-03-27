@@ -7,6 +7,36 @@
 
   "Versions": [
   {
+    "Number":         "1.0.16",
+    "Installed":      "installed/libsodium/1.0.16",
+    "Source":         "src/libsodium/1.0.16/libsodium-1.0.16.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.15",
+    "Installed":      "installed/libsodium/1.0.15",
+    "Source":         "src/libsodium/1.0.15/libsodium-1.0.15.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.14",
+    "Installed":      "installed/libsodium/1.0.14",
+    "Source":         "src/libsodium/1.0.14/libsodium-1.0.14.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.0.13",
     "Installed":      "installed/libsodium/1.0.13",
     "Source":         "src/libsodium/1.0.13/libsodium-1.0.13.tar.gz",

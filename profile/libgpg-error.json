@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "1.28",
+    "Installed":      "installed/libgpg-error/1.28",
+    "Source":         "src/libgpg-error/1.28/libgpg-error-1.28.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.27",
     "Installed":      "installed/libgpg-error/1.27",
     "Source":         "src/libgpg-error/1.27/libgpg-error-1.27.tar.gz",

@@ -12,6 +12,36 @@
 
   "Versions": [
   {
+    "Number":         "1.26.0",
+    "Installed":      "installed/grib_api/1.26.0",
+    "Source":         "src/grib_api/1.26.0/grib_api-1.26.0-Source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.25.0",
+    "Installed":      "installed/grib_api/1.25.0",
+    "Source":         "src/grib_api/1.25.0/grib_api-1.25.0-Source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.24.0",
+    "Installed":      "installed/grib_api/1.24.0",
+    "Source":         "src/grib_api/1.24.0/grib_api-1.24.0-Source.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.23.1",
     "Installed":      "installed/grib_api/1.23.1",
     "Source":         "src/grib_api/1.23.1/grib_api-1.23.1-Source.tar.gz",

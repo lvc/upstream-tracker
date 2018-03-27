@@ -10,6 +10,68 @@
 
   "Versions": [
   {
+    "Number":         "3.0.0.beta3",
+    "Installed":      "installed/lxc/3.0.0.beta3",
+    "Source":         "src/lxc/3.0.0.beta3/lxc-3.0.0.beta3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.0.beta2",
+    "Installed":      "installed/lxc/3.0.0.beta2",
+    "Source":         "src/lxc/3.0.0.beta2/lxc-3.0.0.beta2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "3.0.0.beta1",
+    "Installed":      "installed/lxc/3.0.0.beta1",
+    "Source":         "src/lxc/3.0.0.beta1/lxc-3.0.0.beta1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.1.1",
+    "Installed":      "installed/lxc/2.1.1",
+    "Source":         "src/lxc/2.1.1/lxc-2.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.0",
+    "Installed":      "installed/lxc/2.1.0",
+    "Source":         "src/lxc/2.1.0/lxc-2.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.9",
+    "Installed":      "installed/lxc/2.0.9",
+    "Source":         "src/lxc/2.0.9/lxc-2.0.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.0.8",
     "Installed":      "installed/lxc/2.0.8",
     "Source":         "src/lxc/2.0.8/lxc-2.0.8.tar.gz",
@@ -153,6 +215,16 @@
     "Number":         "1.1.0",
     "Installed":      "installed/lxc/1.1.0",
     "Source":         "src/lxc/1.1.0/lxc-1.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.11",
+    "Installed":      "installed/lxc/1.0.11",
+    "Source":         "src/lxc/1.0.11/lxc-1.0.11.tar.gz",
     "Changelog":      "Off",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

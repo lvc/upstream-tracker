@@ -1,7 +1,8 @@
 {
   "Name":           "cairo",
   "Title":          "Cairo",
-  "SourceUrl":      "http://cairographics.org/releases/",
+  "SourceUrl":      "https://www.cairographics.org/snapshots/",
+  "OldSourceUrl":   "http://cairographics.org/releases/",
   "Git":            "http://anongit.freedesktop.org/git/cairo",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
@@ -16,6 +17,66 @@
     "Installed":      "installed/cairo/current",
     "Source":         "src/cairo/current",
     "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.10",
+    "Installed":      "installed/cairo/1.15.10",
+    "Source":         "src/cairo/1.15.10/cairo-1.15.10.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.8",
+    "Installed":      "installed/cairo/1.15.8",
+    "Source":         "src/cairo/1.15.8/cairo-1.15.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.6",
+    "Installed":      "installed/cairo/1.15.6",
+    "Source":         "src/cairo/1.15.6/cairo-1.15.6.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.4",
+    "Installed":      "installed/cairo/1.15.4",
+    "Source":         "src/cairo/1.15.4/cairo-1.15.4.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.15.2",
+    "Installed":      "installed/cairo/1.15.2",
+    "Source":         "src/cairo/1.15.2/cairo-1.15.2.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.14.12",
+    "Installed":      "installed/cairo/1.14.12",
+    "Source":         "src/cairo/1.14.12/cairo-1.14.12.tar.xz",
+    "Changelog":      "NEWS",
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",
@@ -182,6 +243,16 @@
     "ABIDiff":        "Off"
   },
   {
+    "Number":         "1.11.2",
+    "Installed":      "installed/cairo/1.11.2",
+    "Source":         "src/cairo/1.11.2/cairo-1.11.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.10.2",
     "Installed":      "installed/cairo/1.10.2",
     "Source":         "src/cairo/1.10.2/cairo-1.10.2.tar.gz",
@@ -195,6 +266,66 @@
     "Number":         "1.10.0",
     "Installed":      "installed/cairo/1.10.0",
     "Source":         "src/cairo/1.10.0/cairo-1.10.0.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.14",
+    "Installed":      "installed/cairo/1.9.14",
+    "Source":         "src/cairo/1.9.14/cairo-1.9.14.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.12",
+    "Installed":      "installed/cairo/1.9.12",
+    "Source":         "src/cairo/1.9.12/cairo-1.9.12.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.10",
+    "Installed":      "installed/cairo/1.9.10",
+    "Source":         "src/cairo/1.9.10/cairo-1.9.10.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.8",
+    "Installed":      "installed/cairo/1.9.8",
+    "Source":         "src/cairo/1.9.8/cairo-1.9.8.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.6",
+    "Installed":      "installed/cairo/1.9.6",
+    "Source":         "src/cairo/1.9.6/cairo-1.9.6.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.9.4",
+    "Installed":      "installed/cairo/1.9.4",
+    "Source":         "src/cairo/1.9.4/cairo-1.9.4.tar.gz",
     "Changelog":      "NEWS",
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",

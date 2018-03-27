@@ -12,6 +12,16 @@
 
   "Versions": [
   {
+    "Number":         "5.1.5",
+    "Installed":      "installed/gromacs/5.1.5",
+    "Source":         "src/gromacs/5.1.5/gromacs-5.1.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "5.1.4",
     "Installed":      "installed/gromacs/5.1.4",
     "Source":         "src/gromacs/5.1.4/gromacs-5.1.4.tar.gz",

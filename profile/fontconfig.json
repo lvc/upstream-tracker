@@ -2,17 +2,66 @@
   "Name":           "fontconfig",
   "Title":          "Fontconfig",
   "SourceUrl":      "http://www.freedesktop.org/software/fontconfig/release/",
-  "Git":            "http://anongit.freedesktop.org/git/fontconfig",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--disable-docs",
+  "Configure":      "--disable-docs PKG_CONFIG_PATH={INSTALL_ROOT}/freetype/2.8.1/lib/pkgconfig",
 
   "Versions": [
   {
-    "Number":         "current",
-    "Installed":      "installed/fontconfig/current",
-    "Source":         "src/fontconfig/current",
-    "Changelog":      "On",
+    "Number":         "2.13.0",
+    "Installed":      "installed/fontconfig/2.13.0",
+    "Source":         "src/fontconfig/2.13.0/fontconfig-2.13.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.12.93",
+    "Installed":      "installed/fontconfig/2.12.93",
+    "Source":         "src/fontconfig/2.12.93/fontconfig-2.12.93.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.12.92",
+    "Installed":      "installed/fontconfig/2.12.92",
+    "Source":         "src/fontconfig/2.12.92/fontconfig-2.12.92.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.12.91",
+    "Installed":      "installed/fontconfig/2.12.91",
+    "Source":         "src/fontconfig/2.12.91/fontconfig-2.12.91.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.12.6",
+    "Installed":      "installed/fontconfig/2.12.6",
+    "Source":         "src/fontconfig/2.12.6/fontconfig-2.12.6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.12.5",
+    "Installed":      "installed/fontconfig/2.12.5",
+    "Source":         "src/fontconfig/2.12.5/fontconfig-2.12.5.tar.gz",
+    "Changelog":      "ChangeLog",
     "HeadersDiff":    "On",
     "PkgDiff":        "Off",
     "ABIView":        "Off",

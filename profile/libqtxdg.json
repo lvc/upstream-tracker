@@ -3,10 +3,31 @@
   "SourceUrl":      "https://github.com/lxde/libqtxdg/tags",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "-DCMAKE_PREFIX_PATH=/home/Soft/Qt-5.7.1/",
   "ClearInstalled": "Off",
   "HeadersDiff":    "Off",
 
   "Versions": [
+  {
+    "Number":         "3.1.0",
+    "Installed":      "installed/libqtxdg/3.1.0",
+    "Source":         "src/libqtxdg/3.1.0/libqtxdg-3.1.0.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.0",
+    "Installed":      "installed/libqtxdg/3.0.0",
+    "Source":         "src/libqtxdg/3.0.0/libqtxdg-3.0.0.tar.gz",
+    "Changelog":      "CHANGELOG",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "2.0.0",
     "Installed":      "installed/libqtxdg/2.0.0",

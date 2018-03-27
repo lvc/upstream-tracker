@@ -1,0 +1,228 @@
+{
+  "Name":           "icu4c",
+  "Title":          "ICU4C",
+  "SourceUrl":      "http://download.icu-project.org/files/icu4c/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--disable-renaming --disable-static --disable-plugins --disable-tests --disable-samples CXX=/home/Soft/GCC-7.1/bin/g++",
+  "PreInstall":     "sed -i -e 's/\-O[0123]/-Og/g' configure;sed -i -e 's/U_DISABLE_RENAMING 0/U_DISABLE_RENAMING 1/g' common/unicode/uconfig.h",
+  "SkipObjects":    [ "libicutest.so", "libicutu.so" ],
+  "BuildDir":       "source",
+  "HeadersDiff":    "Off",
+  "InstallGlobal":  "LD_LIBRARY_PATH=/home/Soft/GCC-7.1/lib64/",
+  "MakeGlobal":     "LD_LIBRARY_PATH=/home/Soft/GCC-7.1/lib64/",
+  "MinimalVersion": "49.1",
+
+  "Versions": [
+  {
+    "Number":         "61rc",
+    "Installed":      "installed/icu4c/61rc",
+    "Source":         "src/icu4c/61rc/icu4c-61rc-src.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "60_2",
+    "Installed":      "installed/icu4c/60_2",
+    "Source":         "src/icu4c/60_2/icu4c-60_2-src.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "60_1",
+    "Installed":      "installed/icu4c/60_1",
+    "Source":         "src/icu4c/60_1/icu4c-60_1-src.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "60rc",
+    "Installed":      "installed/icu4c/60rc",
+    "Source":         "src/icu4c/60rc/icu4c-60rc-src.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "59_1",
+    "Installed":      "installed/icu4c/59_1",
+    "Source":         "src/icu4c/59_1/icu4c-59_1-src.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "58_2",
+    "Installed":      "installed/icu4c/58_2",
+    "Source":         "src/icu4c/58_2/icu4c-58_2-src.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "58_1",
+    "Installed":      "installed/icu4c/58_1",
+    "Source":         "src/icu4c/58_1/icu4c-58_1-src.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "57_1",
+    "Installed":      "installed/icu4c/57_1",
+    "Source":         "src/icu4c/57_1/icu4c-57_1-src.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "56_1",
+    "Installed":      "installed/icu4c/56_1",
+    "Source":         "src/icu4c/56_1/icu4c-56_1-src.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "55_1",
+    "Installed":      "installed/icu4c/55_1",
+    "Source":         "src/icu4c/55_1/icu4c-55_1-src.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "54_1",
+    "Installed":      "installed/icu4c/54_1",
+    "Source":         "src/icu4c/54_1/icu4c-54_1-src.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "53_1",
+    "Installed":      "installed/icu4c/53_1",
+    "Source":         "src/icu4c/53_1/icu4c-53_1-src.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "52_1",
+    "Installed":      "installed/icu4c/52_1",
+    "Source":         "src/icu4c/52_1/icu4c-52_1-src.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "51_2",
+    "Installed":      "installed/icu4c/51_2",
+    "Source":         "src/icu4c/51_2/icu4c-51_2-src.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "51_1",
+    "Installed":      "installed/icu4c/51_1",
+    "Source":         "src/icu4c/51_1/icu4c-51_1-src.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "50_1_2",
+    "Installed":      "installed/icu4c/50_1_2",
+    "Source":         "src/icu4c/50_1_2/icu4c-50_1_2-src.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "50_1_1",
+    "Installed":      "installed/icu4c/50_1_1",
+    "Source":         "src/icu4c/50_1_1/icu4c-50_1_1-src.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "50_1",
+    "Installed":      "installed/icu4c/50_1",
+    "Source":         "src/icu4c/50_1/icu4c-50_1-src.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "49_1_2",
+    "Installed":      "installed/icu4c/49_1_2",
+    "Source":         "src/icu4c/49_1_2/icu4c-49_1_2-src.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "49_1_1",
+    "Installed":      "installed/icu4c/49_1_1",
+    "Source":         "src/icu4c/49_1_1/icu4c-49_1_1-src.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "49_1",
+    "Installed":      "installed/icu4c/49_1",
+    "Source":         "src/icu4c/49_1/icu4c-49_1-src.tgz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

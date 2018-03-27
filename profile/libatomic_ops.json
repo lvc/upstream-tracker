@@ -8,9 +8,39 @@
 
   "Versions": [
   {
+    "Number":         "7.6.2",
+    "Installed":      "installed/libatomic_ops/7.6.2",
+    "Source":         "src/libatomic_ops/7.6.2/libatomic_ops-7.6.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "7.6.0",
     "Installed":      "installed/libatomic_ops/7.6.0",
     "Source":         "src/libatomic_ops/7.6.0/libatomic_ops-7.6.0.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.4.10",
+    "Installed":      "installed/libatomic_ops/7.4.10",
+    "Source":         "src/libatomic_ops/7.4.10/libatomic_ops-7.4.10.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "7.4.8",
+    "Installed":      "installed/libatomic_ops/7.4.8",
+    "Source":         "src/libatomic_ops/7.4.8/libatomic_ops-7.4.8.tar.gz",
     "Changelog":      "ChangeLog",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",

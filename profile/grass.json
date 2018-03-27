@@ -13,6 +13,16 @@
 
   "Versions": [
   {
+    "Number":         "7.2.2",
+    "Installed":      "installed/grass/7.2.2",
+    "Source":         "src/grass/7.2.2/grass-7.2.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "7.2.0",
     "Installed":      "installed/grass/7.2.0",
     "Source":         "src/grass/7.2.0/grass-7.2.0.tar.gz",

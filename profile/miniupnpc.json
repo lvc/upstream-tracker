@@ -11,6 +11,46 @@
 
   "Versions": [
   {
+    "Number":         "2.0.20180222",
+    "Installed":      "installed/miniupnpc/2.0.20180222",
+    "Source":         "src/miniupnpc/2.0.20180222/miniupnpc-2.0.20180222.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.20180203",
+    "Installed":      "installed/miniupnpc/2.0.20180203",
+    "Source":         "src/miniupnpc/2.0.20180203/miniupnpc-2.0.20180203.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.20171212",
+    "Installed":      "installed/miniupnpc/2.0.20171212",
+    "Source":         "src/miniupnpc/2.0.20171212/miniupnpc-2.0.20171212.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.0.20171102",
+    "Installed":      "installed/miniupnpc/2.0.20171102",
+    "Source":         "src/miniupnpc/2.0.20171102/miniupnpc-2.0.20171102.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.0.20170509",
     "Installed":      "installed/miniupnpc/2.0.20170509",
     "Source":         "src/miniupnpc/2.0.20170509/miniupnpc-2.0.20170509.tar.gz",

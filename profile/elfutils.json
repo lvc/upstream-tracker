@@ -1,6 +1,7 @@
 {
   "Name":           "elfutils",
-  "SourceUrl":      "https://fedorahosted.org/releases/e/l/elfutils/",
+  "SourceUrl":      "https://sourceware.org/elfutils/ftp/",
+  "OldSourceUrl":   "https://fedorahosted.org/releases/e/l/elfutils/",
   "Git":            "git://sourceware.org/git/elfutils.git",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",

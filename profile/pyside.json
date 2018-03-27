@@ -4,7 +4,7 @@
   "SourceUrl":      "https://github.com/pyside/PySide/tags",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "-DCMAKE_PREFIX_PATH={INSTALL_ROOT}/shiboken/1.2.4",
+  "Configure":      "-DCMAKE_PREFIX_PATH='{INSTALL_ROOT}/shiboken/1.2.4;/home/Soft/Qt-5.7.1/' -DBUILD_TESTS=OFF",
   "HeadersDiff":    "Off",
 
   "Versions": [

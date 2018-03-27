@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         "10.31",
+    "Installed":      "installed/pcre2/10.31",
+    "Source":         "src/pcre2/10.31/pcre2-10.31.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "10.30",
     "Installed":      "installed/pcre2/10.30",
     "Source":         "src/pcre2/10.30/pcre2-10.30.tar.gz",

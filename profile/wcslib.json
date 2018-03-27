@@ -10,6 +10,26 @@
 
   "Versions": [
   {
+    "Number":         "5.18",
+    "Installed":      "installed/wcslib/5.18",
+    "Source":         "src/wcslib/5.18/wcslib-5.18.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "5.17",
+    "Installed":      "installed/wcslib/5.17",
+    "Source":         "src/wcslib/5.17/wcslib-5.17.tar.bz2",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "5.16",
     "Installed":      "installed/wcslib/5.16",
     "Source":         "src/wcslib/5.16/wcslib-5.16.tar.bz2",

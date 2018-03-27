@@ -12,6 +12,36 @@
 
   "Versions": [
   {
+    "Number":         "4.19",
+    "Installed":      "installed/nspr/4.19",
+    "Source":         "src/nspr/4.19/nspr-4.19.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.18",
+    "Installed":      "installed/nspr/4.18",
+    "Source":         "src/nspr/4.18/nspr-4.18.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.17",
+    "Installed":      "installed/nspr/4.17",
+    "Source":         "src/nspr/4.17/nspr-4.17.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "4.16",
     "Installed":      "installed/nspr/4.16",
     "Source":         "src/nspr/4.16/nspr-4.16.tar.gz",

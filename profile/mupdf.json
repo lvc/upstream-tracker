@@ -13,6 +13,27 @@
 
   "Versions": [
   {
+    "Number":         "1.12.0",
+    "Installed":      "installed/mupdf/1.12.0",
+    "Source":         "src/mupdf/1.12.0/mupdf-1.12.0-source.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.12-rc1",
+    "Installed":      "installed/mupdf/1.12-rc1",
+    "Source":         "src/mupdf/1.12-rc1/mupdf-1.12-rc1-source.tar.xz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
     "Number":         "1.11",
     "Installed":      "installed/mupdf/1.11",
     "Source":         "src/mupdf/1.11/mupdf-1.11-source.tar.gz",

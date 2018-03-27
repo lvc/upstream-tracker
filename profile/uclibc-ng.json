@@ -10,6 +10,36 @@
 
   "Versions": [
   {
+    "Number":         "1.0.29",
+    "Installed":      "installed/uclibc-ng/1.0.29",
+    "Source":         "src/uclibc-ng/1.0.29/uClibc-ng-1.0.29.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.28",
+    "Installed":      "installed/uclibc-ng/1.0.28",
+    "Source":         "src/uclibc-ng/1.0.28/uClibc-ng-1.0.28.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.27",
+    "Installed":      "installed/uclibc-ng/1.0.27",
+    "Source":         "src/uclibc-ng/1.0.27/uClibc-ng-1.0.27.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.0.26",
     "Installed":      "installed/uclibc-ng/1.0.26",
     "Source":         "src/uclibc-ng/1.0.26/uClibc-ng-1.0.26.tar.xz",

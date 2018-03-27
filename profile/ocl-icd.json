@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         "2.2.12",
+    "Installed":      "installed/ocl-icd/2.2.12",
+    "Source":         "src/ocl-icd/2.2.12/ocl-icd-2.2.12.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.2.11",
     "Installed":      "installed/ocl-icd/2.2.11",
     "Source":         "src/ocl-icd/2.2.11/ocl-icd-2.2.11.tar.gz",

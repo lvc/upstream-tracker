@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "0.9.21",
+    "Installed":      "installed/vlfeat/0.9.21",
+    "Source":         "src/vlfeat/0.9.21/vlfeat-0.9.21.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.9.20",
     "Installed":      "installed/vlfeat/0.9.20",
     "Source":         "src/vlfeat/0.9.20/vlfeat-0.9.20.tar.gz",

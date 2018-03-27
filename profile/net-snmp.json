@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         "5.8.pre2",
+    "Installed":      "installed/net-snmp/5.8.pre2",
+    "Source":         "src/net-snmp/5.8.pre2/net-snmp-5.8.pre2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "5.7.3",
     "Installed":      "installed/net-snmp/5.7.3",
     "Source":         "src/net-snmp/5.7.3/net-snmp-5.7.3.tar.gz",

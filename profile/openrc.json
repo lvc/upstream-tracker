@@ -1,0 +1,458 @@
+{
+  "Name":           "openrc",
+  "Title":          "OpenRC",
+  "SourceUrl":      "https://github.com/OpenRC/openrc/tags",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/openrc.sh",
+  "HeadersDiff":    "Off",
+  "LatestMicro":    "On",
+
+  "Versions": [
+  {
+    "Number":         "0.35.5",
+    "Installed":      "installed/openrc/0.35.5",
+    "Source":         "src/openrc/0.35.5/openrc-0.35.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.35.3",
+    "Installed":      "installed/openrc/0.35.3",
+    "Source":         "src/openrc/0.35.3/openrc-0.35.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "0.35.2",
+    "Installed":      "installed/openrc/0.35.2",
+    "Source":         "src/openrc/0.35.2/openrc-0.35.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "0.34.11",
+    "Installed":      "installed/openrc/0.34.11",
+    "Source":         "src/openrc/0.34.11/openrc-0.34.11.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.34.10",
+    "Installed":      "installed/openrc/0.34.10",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "0.34.9",
+    "Installed":      "installed/openrc/0.34.9",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "0.34.8",
+    "Installed":      "installed/openrc/0.34.8",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "0.34.7",
+    "Installed":      "installed/openrc/0.34.7",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "0.34.6",
+    "Installed":      "installed/openrc/0.34.6",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "0.34.5",
+    "Installed":      "installed/openrc/0.34.5",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "0.34.4",
+    "Installed":      "installed/openrc/0.34.4",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "0.34.3",
+    "Installed":      "installed/openrc/0.34.3",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "0.34.2",
+    "Installed":      "installed/openrc/0.34.2",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "0.34.1",
+    "Installed":      "installed/openrc/0.34.1",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "0.34",
+    "Installed":      "installed/openrc/0.34",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "0.33.1",
+    "Installed":      "installed/openrc/0.33.1",
+    "Source":         "src/openrc/0.33.1/openrc-0.33.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.33",
+    "Installed":      "installed/openrc/0.33",
+    "Source":         "src/openrc/0.33/openrc-0.33.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "0.32.1",
+    "Installed":      "installed/openrc/0.32.1",
+    "Source":         "src/openrc/0.32.1/openrc-0.32.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.32",
+    "Installed":      "installed/openrc/0.32",
+    "Source":         "src/openrc/0.32/openrc-0.32.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "0.31.2",
+    "Installed":      "installed/openrc/0.31.2",
+    "Source":         "src/openrc/0.31.2/openrc-0.31.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.31.1",
+    "Installed":      "installed/openrc/0.31.1",
+    "Source":         "src/openrc/0.31.1/openrc-0.31.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "0.31",
+    "Installed":      "installed/openrc/0.31",
+    "Source":         "src/openrc/0.31/openrc-0.31.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "0.30",
+    "Installed":      "installed/openrc/0.30",
+    "Source":         "src/openrc/0.30/openrc-0.30.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.29",
+    "Installed":      "installed/openrc/0.29",
+    "Source":         "src/openrc/0.29/openrc-0.29.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.28",
+    "Installed":      "installed/openrc/0.28",
+    "Source":         "src/openrc/0.28/openrc-0.28.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.27.2",
+    "Installed":      "installed/openrc/0.27.2",
+    "Source":         "src/openrc/0.27.2/openrc-0.27.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.26.3",
+    "Installed":      "installed/openrc/0.26.3",
+    "Source":         "src/openrc/0.26.3/openrc-0.26.3.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.25",
+    "Installed":      "installed/openrc/0.25",
+    "Source":         "src/openrc/0.25/openrc-0.25.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.24.2",
+    "Installed":      "installed/openrc/0.24.2",
+    "Source":         "src/openrc/0.24.2/openrc-0.24.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.23.2",
+    "Installed":      "installed/openrc/0.23.2",
+    "Source":         "src/openrc/0.23.2/openrc-0.23.2.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.22.4",
+    "Installed":      "installed/openrc/0.22.4",
+    "Source":         "src/openrc/0.22.4/openrc-0.22.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.21.7",
+    "Installed":      "installed/openrc/0.21.7",
+    "Source":         "src/openrc/0.21.7/openrc-0.21.7.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.20.5",
+    "Installed":      "installed/openrc/0.20.5",
+    "Source":         "src/openrc/0.20.5/openrc-0.20.5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.19.1",
+    "Installed":      "installed/openrc/0.19.1",
+    "Source":         "src/openrc/0.19.1/openrc-0.19.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.18.4",
+    "Installed":      "installed/openrc/0.18.4",
+    "Source":         "src/openrc/0.18.4/openrc-0.18.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.17",
+    "Installed":      "installed/openrc/0.17",
+    "Source":         "src/openrc/0.17/openrc-0.17.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.16.4",
+    "Installed":      "installed/openrc/0.16.4",
+    "Source":         "src/openrc/0.16.4/openrc-0.16.4.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.15.1",
+    "Installed":      "installed/openrc/0.15.1",
+    "Source":         "src/openrc/0.15.1/openrc-0.15.1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.14",
+    "Installed":      "installed/openrc/0.14",
+    "Source":         "src/openrc/0.14/openrc-0.14.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.13.11",
+    "Installed":      "installed/openrc/0.13.11",
+    "Source":         "src/openrc/0.13.11/openrc-0.13.11.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.12.4",
+    "Installed":      "installed/openrc/0.12.4",
+    "Source":         "src/openrc/0.12.4/openrc-0.12.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.11.8",
+    "Installed":      "installed/openrc/0.11.8",
+    "Source":         "src/openrc/0.11.8/openrc-0.11.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.10.5",
+    "Installed":      "installed/openrc/0.10.5",
+    "Source":         "src/openrc/0.10.5/openrc-0.10.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.3",
+    "Installed":      "installed/openrc/0.8.3",
+    "Source":         "src/openrc/0.8.3/openrc-0.8.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

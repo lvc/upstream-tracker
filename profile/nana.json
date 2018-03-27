@@ -4,12 +4,32 @@
   "SourceUrl":      "https://github.com/cnjinhao/nana/tags",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "-DCMAKE_SHARED_LINKER_FLAGS='-L{INSTALL_ROOT}/libiconv/1.15/lib/'",
+  "Configure":      "-DCMAKE_SHARED_LINKER_FLAGS='-L{INSTALL_ROOT}/libiconv/1.15/lib/' -DNANA_CMAKE_SHARED_LIB=ON",
   "HeadersDiff":    "Off",
   "LambdaSupport":  "On",
   "Soname":         "Off",
 
   "Versions": [
+  {
+    "Number":         "1.5.6",
+    "Installed":      "installed/nana/1.5.6",
+    "Source":         "src/nana/1.5.6/nana-1.5.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.5.5",
+    "Installed":      "installed/nana/1.5.5",
+    "Source":         "src/nana/1.5.5/nana-1.5.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "1.5.4",
     "Installed":      "installed/nana/1.5.4",

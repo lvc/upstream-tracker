@@ -7,6 +7,16 @@
 
   "Versions": [
   {
+    "Number":         "0.8.7",
+    "Installed":      "installed/libbsd/0.8.7",
+    "Source":         "src/libbsd/0.8.7/libbsd-0.8.7.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.8.6",
     "Installed":      "installed/libbsd/0.8.6",
     "Source":         "src/libbsd/0.8.6/libbsd-0.8.6.tar.xz",

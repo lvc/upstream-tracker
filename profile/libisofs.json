@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "1.4.8",
+    "Installed":      "installed/libisofs/1.4.8",
+    "Source":         "src/libisofs/1.4.8/libisofs-1.4.8.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.4.6",
     "Installed":      "installed/libisofs/1.4.6",
     "Source":         "src/libisofs/1.4.6/libisofs-1.4.6.tar.gz",

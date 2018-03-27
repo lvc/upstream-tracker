@@ -7,8 +7,9 @@
   "BuildSystem":    "CMake",
   "Configure":      "-DCMAKE_PREFIX_PATH={INSTALL_ROOT}/libpng/1.4.20/",
   "PreInstall":     "sed -i -e '1s/^/#include <unistd.h>\n/' src/nvcore/Debug.cpp",
-  "CopyHeaders":    [ "src/" ],
+  "SkipObjects":    [ "libnvcore.so", "libnvmath.so", "libnvthread.so", "libnvimage.so" ],
   "HeadersDiff":    "Off",
+  "OldCopyHeaders": [ "src/" ],
   "Soname":         "Off",
 
   "Versions": [

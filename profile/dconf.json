@@ -10,6 +10,16 @@
 
   "Versions": [
   {
+    "Number":         "0.26.1",
+    "Installed":      "installed/dconf/0.26.1",
+    "Source":         "src/dconf/0.26.1/dconf-0.26.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.26.0",
     "Installed":      "installed/dconf/0.26.0",
     "Source":         "src/dconf/0.26.0/dconf-0.26.0.tar.xz",

@@ -85,6 +85,16 @@
     "Deleted":        1
   },
   {
+    "Number":         "3.6.4",
+    "Installed":      "installed/ice/3.6.4",
+    "Source":         "src/ice/3.6.4/ice-3.6.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "3.6.3",
     "Installed":      "installed/ice/3.6.3",
     "Source":         "src/ice/3.6.3/ice-3.6.3.tar.gz",

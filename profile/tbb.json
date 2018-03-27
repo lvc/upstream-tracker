@@ -1,0 +1,245 @@
+{
+  "Name":           "tbb",
+  "Title":          "Intel TBB",
+  "SourceUrl":      "https://github.com/01org/tbb/tags",
+  "OldSourceUrl":   "https://github.com/01org/tbb/blob/master/download.md",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "BuildScript":    "build_script/tbb.sh",
+  "CopyHeaders":    [ "include/" ],
+  "HeadersDiff":    "Off",
+  "LetterReleases": "On",
+  "ReleasePattern": "\A(\d+_U\d+)\Z",
+
+  "Versions": [
+  {
+    "Number":         "2018_U2",
+    "Installed":      "installed/tbb/2018_U2",
+    "Source":         "src/tbb/2018_U2/tbb-2018_U2.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2018_U1",
+    "Installed":      "installed/tbb/2018_U1",
+    "Source":         "src/tbb/2018_U1/tbb-2018_U1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         2018,
+    "Installed":      "installed/tbb/2018",
+    "Source":         "src/tbb/2018/tbb-2018.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2017_U8",
+    "Installed":      "installed/tbb/2017_U8",
+    "Source":         "src/tbb/2017_U8/tbb-2017_U8.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2017_U7",
+    "Installed":      "installed/tbb/2017_U7",
+    "Source":         "src/tbb/2017_U7/tbb-2017_U7.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2017_U6",
+    "Installed":      "installed/tbb/2017_U6",
+    "Source":         "src/tbb/2017_U6/tbb-2017_U6.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2017_U5",
+    "Installed":      "installed/tbb/2017_U5",
+    "Source":         "src/tbb/2017_U5/tbb-2017_U5.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2017_U4",
+    "Installed":      "installed/tbb/2017_U4",
+    "Source":         "src/tbb/2017_U4/tbb-2017_U4.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2017_U3",
+    "Installed":      "installed/tbb/2017_U3",
+    "Source":         "src/tbb/2017_U3/tbb-2017_U3.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2017_U2",
+    "Installed":      "installed/tbb/2017_U2",
+    "Source":         "src/tbb/2017_U2/tbb-2017_U2.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2017_U1",
+    "Installed":      "installed/tbb/2017_U1",
+    "Source":         "src/tbb/2017_U1/tbb-2017_U1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         2017,
+    "Installed":      "installed/tbb/2017",
+    "Source":         "src/tbb/2017/tbb-2017.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.6",
+    "Installed":      "installed/tbb/4.4.6",
+    "Source":         "src/tbb/4.4.6/tbb-4.4.6.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.5",
+    "Installed":      "installed/tbb/4.4.5",
+    "Source":         "src/tbb/4.4.5/tbb-4.4.5.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.4",
+    "Installed":      "installed/tbb/4.4.4",
+    "Source":         "src/tbb/4.4.4/tbb-4.4.4.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.3",
+    "Installed":      "installed/tbb/4.4.3",
+    "Source":         "src/tbb/4.4.3/tbb-4.4.3.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.2",
+    "Installed":      "installed/tbb/4.4.2",
+    "Source":         "src/tbb/4.4.2/tbb-4.4.2.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4.1",
+    "Installed":      "installed/tbb/4.4.1",
+    "Source":         "src/tbb/4.4.1/tbb-4.4.1.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.4",
+    "Installed":      "installed/tbb/4.4",
+    "Source":         "src/tbb/4.4/tbb-4.4.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.3.6",
+    "Installed":      "installed/tbb/4.3.6",
+    "Source":         "src/tbb/4.3.6/tbb43_20150611oss_src.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.2.5",
+    "Installed":      "installed/tbb/4.2.5",
+    "Source":         "src/tbb/4.2.5/tbb42_20140601oss_src.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.1.4",
+    "Installed":      "installed/tbb/4.1.4",
+    "Source":         "src/tbb/4.1.4/tbb41_20130613oss_src.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "4.0.5",
+    "Installed":      "installed/tbb/4.0.5",
+    "Source":         "src/tbb/4.0.5/tbb40_20120613oss_src.tgz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

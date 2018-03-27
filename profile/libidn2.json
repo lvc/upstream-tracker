@@ -11,6 +11,16 @@
 
   "Versions": [
   {
+    "Number":         "2.0.4",
+    "Installed":      "installed/libidn2/2.0.4",
+    "Source":         "src/libidn2/2.0.4/libidn2-2.0.4.tar.lz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.0.3",
     "Installed":      "installed/libidn2/2.0.3",
     "Source":         "src/libidn2/2.0.3/libidn2-2.0.3.tar.lz",

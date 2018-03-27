@@ -9,6 +9,26 @@
 
   "Versions": [
   {
+    "Number":         "1.2.12-1",
+    "Installed":      "installed/libevhtp/1.2.12-1",
+    "Source":         "src/libevhtp/1.2.12-1/libevhtp-1.2.12-1.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.12",
+    "Installed":      "installed/libevhtp/1.2.12",
+    "Source":         "src/libevhtp/1.2.12/libevhtp-1.2.12.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.2.11",
     "Installed":      "installed/libevhtp/1.2.11",
     "Source":         "src/libevhtp/1.2.11/libevhtp-1.2.11.tar.gz",

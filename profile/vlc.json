@@ -5,13 +5,53 @@
   "SkipUrl":        [ "SuSE", "eyetv/", "ipkg-feed/", "last/" ],
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "--disable-vlc --disable-udev --disable-lua --disable-httpd --disable-mad --disable-avcodec --disable-swscale --disable-a52 --disable-postproc --disable-freetype --with-kde-solid={INSTALL_TO}/share",
+  "Configure":      "PKG_CONFIG_PATH=/home/Soft/wayland-protocols-1.10/share/pkgconfig/ --disable-vlc --disable-udev --disable-lua --disable-httpd --disable-mad --disable-avcodec --disable-swscale --disable-a52 --disable-postproc --disable-freetype --with-kde-solid={INSTALL_TO}/share",
   "PreInstall":     "sed -i -e 's/ install-exec-hook//g' Makefile.in;sed -i -e 's/-O4//g' configure",
   "PostInstall":    "rm -fr {INSTALL_TO}/lib/vlc",
   "HeadersDiff":    "Off",
   "MinimalVersion": "2.0.5",
 
   "Versions": [
+  {
+    "Number":         "3.0.1",
+    "Installed":      "installed/vlc/3.0.1",
+    "Source":         "src/vlc/3.0.1/vlc-3.0.1.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.0",
+    "Installed":      "installed/vlc/3.0.0",
+    "Source":         "src/vlc/3.0.0/vlc-3.0.0.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.8",
+    "Installed":      "installed/vlc/2.2.8",
+    "Source":         "src/vlc/2.2.8/vlc-2.2.8.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.7",
+    "Installed":      "installed/vlc/2.2.7",
+    "Source":         "src/vlc/2.2.7/vlc-2.2.7.tar.xz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "2.2.6",
     "Installed":      "installed/vlc/2.2.6",

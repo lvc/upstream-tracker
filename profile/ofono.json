@@ -12,6 +12,36 @@
 
   "Versions": [
   {
+    "Number":         "1.23",
+    "Installed":      "installed/ofono/1.23",
+    "Source":         "src/ofono/1.23/ofono-1.23.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.22",
+    "Installed":      "installed/ofono/1.22",
+    "Source":         "src/ofono/1.22/ofono-1.22.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.21",
+    "Installed":      "installed/ofono/1.21",
+    "Source":         "src/ofono/1.21/ofono-1.21.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.20",
     "Installed":      "installed/ofono/1.20",
     "Source":         "src/ofono/1.20/ofono-1.20.tar.gz",

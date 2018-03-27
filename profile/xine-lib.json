@@ -12,6 +12,16 @@
 
   "Versions": [
   {
+    "Number":         "1.2.9",
+    "Installed":      "installed/xine-lib/1.2.9",
+    "Source":         "src/xine-lib/1.2.9/xine-lib-1.2.9.tar.xz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.2.8",
     "Installed":      "installed/xine-lib/1.2.8",
     "Source":         "src/xine-lib/1.2.8/xine-lib-1.2.8.tar.xz",

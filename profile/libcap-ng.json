@@ -7,6 +7,16 @@
 
   "Versions": [
   {
+    "Number":         "0.7.9",
+    "Installed":      "installed/libcap-ng/0.7.9",
+    "Source":         "src/libcap-ng/0.7.9/libcap-ng-0.7.9.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.7.8",
     "Installed":      "installed/libcap-ng/0.7.8",
     "Source":         "src/libcap-ng/0.7.8/libcap-ng-0.7.8.tar.gz",

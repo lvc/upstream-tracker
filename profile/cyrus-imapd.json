@@ -1,0 +1,192 @@
+{
+  "Name":           "cyrus-imapd",
+  "Title":          "Cyrus IMAP",
+  "SourceUrl":      "ftp://ftp.cyrusimap.org/cyrus-imapd/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib64/perl5/",
+  "SkipObjects":    [ "libcyrus_imap.so" ],
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "3.0.5",
+    "Installed":      "installed/cyrus-imapd/3.0.5",
+    "Source":         "src/cyrus-imapd/3.0.5/cyrus-imapd-3.0.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.4",
+    "Installed":      "installed/cyrus-imapd/3.0.4",
+    "Source":         "src/cyrus-imapd/3.0.4/cyrus-imapd-3.0.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.3",
+    "Installed":      "installed/cyrus-imapd/3.0.3",
+    "Source":         "src/cyrus-imapd/3.0.3/cyrus-imapd-3.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.2",
+    "Installed":      "installed/cyrus-imapd/3.0.2",
+    "Source":         "src/cyrus-imapd/3.0.2/cyrus-imapd-3.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.1",
+    "Installed":      "installed/cyrus-imapd/3.0.1",
+    "Source":         "src/cyrus-imapd/3.0.1/cyrus-imapd-3.0.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.0",
+    "Installed":      "installed/cyrus-imapd/3.0.0",
+    "Source":         "src/cyrus-imapd/3.0.0/cyrus-imapd-3.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.11",
+    "Installed":      "installed/cyrus-imapd/2.5.11",
+    "Source":         "src/cyrus-imapd/2.5.11/cyrus-imapd-2.5.11.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.10",
+    "Installed":      "installed/cyrus-imapd/2.5.10",
+    "Source":         "src/cyrus-imapd/2.5.10/cyrus-imapd-2.5.10.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.9",
+    "Installed":      "installed/cyrus-imapd/2.5.9",
+    "Source":         "src/cyrus-imapd/2.5.9/cyrus-imapd-2.5.9.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.8",
+    "Installed":      "installed/cyrus-imapd/2.5.8",
+    "Source":         "src/cyrus-imapd/2.5.8/cyrus-imapd-2.5.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.7",
+    "Installed":      "installed/cyrus-imapd/2.5.7",
+    "Source":         "src/cyrus-imapd/2.5.7/cyrus-imapd-2.5.7.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.6",
+    "Installed":      "installed/cyrus-imapd/2.5.6",
+    "Source":         "src/cyrus-imapd/2.5.6/cyrus-imapd-2.5.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.5",
+    "Installed":      "installed/cyrus-imapd/2.5.5",
+    "Source":         "src/cyrus-imapd/2.5.5/cyrus-imapd-2.5.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.4",
+    "Installed":      "installed/cyrus-imapd/2.5.4",
+    "Source":         "src/cyrus-imapd/2.5.4/cyrus-imapd-2.5.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.3",
+    "Installed":      "installed/cyrus-imapd/2.5.3",
+    "Source":         "src/cyrus-imapd/2.5.3/cyrus-imapd-2.5.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.2",
+    "Installed":      "installed/cyrus-imapd/2.5.2",
+    "Source":         "src/cyrus-imapd/2.5.2/cyrus-imapd-2.5.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.1",
+    "Installed":      "installed/cyrus-imapd/2.5.1",
+    "Source":         "src/cyrus-imapd/2.5.1/cyrus-imapd-2.5.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.5.0",
+    "Installed":      "installed/cyrus-imapd/2.5.0",
+    "Source":         "src/cyrus-imapd/2.5.0/cyrus-imapd-2.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

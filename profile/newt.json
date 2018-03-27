@@ -1,7 +1,6 @@
 {
   "Name":           "newt",
-  "SourceUrl":      "http://pkgs.fedoraproject.org/repo/pkgs/newt/",
-  "SourceUrlDepth": "3",
+  "SourceUrl":      "https://releases.pagure.org/newt/",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
   "Configure":      "--without-python",
@@ -10,6 +9,16 @@
   "MinimalVersion": "0.52.9",
 
   "Versions": [
+  {
+    "Number":         "0.52.20",
+    "Installed":      "installed/newt/0.52.20",
+    "Source":         "src/newt/0.52.20/newt-0.52.20.tar.gz",
+    "Changelog":      "CHANGES",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
   {
     "Number":         "0.52.19",
     "Installed":      "installed/newt/0.52.19",

@@ -8,6 +8,36 @@
 
   "Versions": [
   {
+    "Number":         "1.2",
+    "Installed":      "installed/libbytesize/1.2",
+    "Source":         "src/libbytesize/1.2/libbytesize-1.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1",
+    "Installed":      "installed/libbytesize/1.1",
+    "Source":         "src/libbytesize/1.1/libbytesize-1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0",
+    "Installed":      "installed/libbytesize/1.0",
+    "Source":         "src/libbytesize/1.0/libbytesize-1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "0.11",
     "Installed":      "installed/libbytesize/0.11",
     "Source":         "src/libbytesize/0.11/libbytesize-0.11.tar.gz",

@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "7.0.2",
+    "Installed":      "installed/chipmunk/7.0.2",
+    "Source":         "src/chipmunk/7.0.2/Chipmunk-7.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "7.0.1",
     "Installed":      "installed/chipmunk/7.0.1",
     "Source":         "src/chipmunk/7.0.1/Chipmunk-7.0.1.tar.gz",

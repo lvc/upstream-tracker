@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "1.8.2",
+    "Installed":      "installed/libgcrypt/1.8.2",
+    "Source":         "src/libgcrypt/1.8.2/libgcrypt-1.8.2.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "1.8.1",
     "Installed":      "installed/libgcrypt/1.8.1",
     "Source":         "src/libgcrypt/1.8.1/libgcrypt-1.8.1.tar.gz",

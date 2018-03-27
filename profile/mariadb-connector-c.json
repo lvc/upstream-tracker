@@ -1,0 +1,133 @@
+{
+  "Name":           "mariadb-connector-c",
+  "Title":          "MariaDB Connector/C",
+  "SourceUrl":      "https://github.com/MariaDB/mariadb-connector-c/tags",
+  "Git":            "https://github.com/MariaDB/mariadb-connector-c.git",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "SkipObjects":    [ "/plugin/" ],
+  "BuildShared":    "On",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/mariadb-connector-c/current",
+    "Source":         "src/mariadb-connector-c/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.3",
+    "Installed":      "installed/mariadb-connector-c/3.0.3",
+    "Source":         "src/mariadb-connector-c/3.0.3/mariadb-connector-c-3.0.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "3.0.2",
+    "Installed":      "installed/mariadb-connector-c/3.0.2",
+    "Source":         "src/mariadb-connector-c/3.0.2/mariadb-connector-c-3.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.5",
+    "Installed":      "installed/mariadb-connector-c/2.3.5",
+    "Source":         "src/mariadb-connector-c/2.3.5/mariadb-connector-c-2.3.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.4",
+    "Installed":      "installed/mariadb-connector-c/2.3.4",
+    "Source":         "src/mariadb-connector-c/2.3.4/mariadb-connector-c-2.3.4.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.3",
+    "Installed":      "installed/mariadb-connector-c/2.3.3",
+    "Source":         "src/mariadb-connector-c/2.3.3/mariadb-connector-c-2.3.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.2",
+    "Installed":      "installed/mariadb-connector-c/2.3.2",
+    "Source":         "src/mariadb-connector-c/2.3.2/mariadb-connector-c-2.3.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.1",
+    "Installed":      "installed/mariadb-connector-c/2.3.1",
+    "Source":         "src/mariadb-connector-c/2.3.1/mariadb-connector-c-2.3.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.3.0",
+    "Installed":      "installed/mariadb-connector-c/2.3.0",
+    "Source":         "src/mariadb-connector-c/2.3.0/mariadb-connector-c-2.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.3",
+    "Installed":      "installed/mariadb-connector-c/2.2.3",
+    "Source":         "src/mariadb-connector-c/2.2.3/mariadb-connector-c-2.2.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.2",
+    "Installed":      "installed/mariadb-connector-c/2.2.2",
+    "Source":         "src/mariadb-connector-c/2.2.2/mariadb-connector-c-2.2.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.2.1",
+    "Installed":      "installed/mariadb-connector-c/2.2.1",
+    "Source":         "src/mariadb-connector-c/2.2.1/mariadb-connector-c-2.2.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

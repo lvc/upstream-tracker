@@ -9,6 +9,16 @@
 
   "Versions": [
   {
+    "Number":         "2.9",
+    "Installed":      "installed/lcms2/2.9",
+    "Source":         "src/lcms2/2.9/lcms2-2.9.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.8",
     "Installed":      "installed/lcms2/2.8",
     "Source":         "src/lcms2/2.8/lcms2-2.8.tar.gz",

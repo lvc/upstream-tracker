@@ -11,6 +11,26 @@
 
   "Versions": [
   {
+    "Number":         20171219,
+    "Installed":      "installed/eclib/20171219",
+    "Source":         "src/eclib/20171219/eclib-20171219.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         20171002,
+    "Installed":      "installed/eclib/20171002",
+    "Source":         "src/eclib/20171002/eclib-20171002.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         20170815,
     "Installed":      "installed/eclib/20170815",
     "Source":         "src/eclib/20170815/eclib-20170815.tar.gz",

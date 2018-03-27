@@ -11,6 +11,26 @@
 
   "Versions": [
   {
+    "Number":         "2.4.1",
+    "Installed":      "installed/casacore/2.4.1",
+    "Source":         "src/casacore/2.4.1/casacore-2.4.1.tar.gz",
+    "Changelog":      "CHANGES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.4.0",
+    "Installed":      "installed/casacore/2.4.0",
+    "Source":         "src/casacore/2.4.0/casacore-2.4.0.tar.gz",
+    "Changelog":      "CHANGES.md",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
     "Number":         "2.3.0",
     "Installed":      "installed/casacore/2.3.0",
     "Source":         "src/casacore/2.3.0/casacore-2.3.0.tar.gz",

@@ -1,0 +1,84 @@
+{
+  "Name":           "cyrus-sasl",
+  "Title":          "Cyrus SASL",
+  "SourceUrl":      "ftp://ftp.cyrusimap.org/cyrus-sasl/",
+  "Maintainer":     "Andrey P.",
+  "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "Configure":      "--without-dblib --without-des",
+  "PostInstall":    "rm -fr {INSTALL_TO}/lib/sasl2/",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "2.1.27-rc7",
+    "Installed":      "installed/cyrus-sasl/2.1.27-rc7",
+    "Source":         "src/cyrus-sasl/2.1.27-rc7/cyrus-sasl-2.1.27-rc7.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.27-rc6",
+    "Installed":      "installed/cyrus-sasl/2.1.27-rc6",
+    "Source":         "src/cyrus-sasl/2.1.27-rc6/cyrus-sasl-2.1.27-rc6.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.1.27-rc5",
+    "Installed":      "installed/cyrus-sasl/2.1.27-rc5",
+    "Source":         "src/cyrus-sasl/2.1.27-rc5/cyrus-sasl-2.1.27-rc5.tar.gz",
+    "Changelog":      "ChangeLog",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off",
+    "Deleted":        1
+  },
+  {
+    "Number":         "2.1.26",
+    "Installed":      "installed/cyrus-sasl/2.1.26",
+    "Source":         "src/cyrus-sasl/2.1.26/cyrus-sasl-2.1.26.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.25",
+    "Installed":      "installed/cyrus-sasl/2.1.25",
+    "Source":         "src/cyrus-sasl/2.1.25/cyrus-sasl-2.1.25.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.23",
+    "Installed":      "installed/cyrus-sasl/2.1.23",
+    "Source":         "src/cyrus-sasl/2.1.23/cyrus-sasl-2.1.23.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "2.1.22",
+    "Installed":      "installed/cyrus-sasl/2.1.22",
+    "Source":         "src/cyrus-sasl/2.1.22/cyrus-sasl-2.1.22.tar.gz",
+    "Changelog":      "NEWS",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}
