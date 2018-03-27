@@ -57,7 +57,7 @@ Publish Reports
 
 You can copy reports to a hosting defined by `HOST_ADDR` and `HOST_DIR` variables in the `scripts/host.conf` file. The script will copy all necessary reports and styles (compressed as tar.gz) via scp to the hosting directory:
 
-    perl scripts/copy-files.pl -fast -json [library]
+    perl scripts/copy-files.pl -fast [library]
 
 Add library
 -----------
