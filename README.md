@@ -1,7 +1,7 @@
 Upstream Tracker 2.2
 ====================
 
-Upstream Tracker — a project to monitor and verify compatibility of upstream API/ABI changes in C/C++ libraries.
+Upstream Tracker — a project to monitor and verify backward compatibility of upstream API/ABI changes in C/C++ libraries.
 
 Web: https://abi-laboratory.pro/tracker/
 

@@ -13,11 +13,11 @@
 # REQUIREMENTS
 # ============
 #  Perl 5 (5.8 or newer)
-#  ABI Tracker (1.6 or newer)
-#  ABI Monitor (1.8 or newer)
-#  ABI Compliance Checker (1.99.20 or newer)
-#  ABI Dumper (0.99.15 or newer)
-#  PkgDiff (1.6.4 or newer)
+#  ABI Tracker (1.11 or newer)
+#  ABI Monitor (1.12 or newer)
+#  ABI Compliance Checker (2.2 or newer)
+#  ABI Dumper (1.1 or newer)
+#  PkgDiff (1.7.2 or newer)
 #
 # This library is free software; you can redistribute it and/or
 # modify it under the terms of the GNU Lesser General Public
