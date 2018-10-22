@@ -1,0 +1,38 @@
+{
+  "Name":           "libspng",
+  "SourceUrl":      "https://github.com/randy408/libspng/releases",
+  "Git":            "https://github.com/randy408/libspng.git",
+  "BuildScript":    "build_script/libspng.sh",
+
+  "Versions": [
+  {
+    "Number":         "current",
+    "Installed":      "installed/libspng/current",
+    "Source":         "src/libspng/current",
+    "Changelog":      "On",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.1",
+    "Installed":      "installed/libspng/0.3.1",
+    "Source":         "src/libspng/0.3.1/libspng-0.3.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.0",
+    "Installed":      "installed/libspng/0.3.0",
+    "Source":         "src/libspng/0.3.0/libspng-0.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "On",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}
