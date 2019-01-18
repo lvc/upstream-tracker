@@ -1,0 +1,32 @@
+{
+  "Name":           "osmo-iuh",
+  "SourceUrl":      "https://github.com/osmocom/osmo-iuh/tags",
+  "Maintainer":     "Harald Welte",
+  "MaintainerUrl":  "https://osmocom.org/",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/libosmocore/0.12.1/lib/pkgconfig:{INSTALL_ROOT}/libosmo-netif/0.3.0/lib/pkgconfig:{INSTALL_ROOT}/libosmo-sccp/0.9.0/lib/pkgconfig:{INSTALL_ROOT}/libasn1c/0.9.31/lib/pkgconfig",
+  "PreInstall":     "echo {VERSION} > .tarball-version; true",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.2.0",
+
+  "Versions": [
+  {
+    "Number":         "0.3.0",
+    "Installed":      "installed/osmo-iuh/0.3.0",
+    "Source":         "src/osmo-iuh/0.3.0/osmo-iuh-0.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.0",
+    "Installed":      "installed/osmo-iuh/0.2.0",
+    "Source":         "src/osmo-iuh/0.2.0/osmo-iuh-0.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

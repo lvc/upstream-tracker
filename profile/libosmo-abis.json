@@ -1,0 +1,92 @@
+{
+  "Name":           "libosmo-abis",
+  "SourceUrl":      "https://github.com/osmocom/libosmo-abis/tags",
+  "Maintainer":     "Harald Welte",
+  "MaintainerUrl":  "https://osmocom.org/",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/libosmocore/0.12.1/lib/pkgconfig",
+  "PreInstall":     "echo {VERSION} > .tarball-version; true",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.1.6",
+
+  "Versions": [
+  {
+    "Number":         "0.5.1",
+    "Installed":      "installed/libosmo-abis/0.5.1",
+    "Source":         "src/libosmo-abis/0.5.1/libosmo-abis-0.5.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.5.0",
+    "Installed":      "installed/libosmo-abis/0.5.0",
+    "Source":         "src/libosmo-abis/0.5.0/libosmo-abis-0.5.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.4.0",
+    "Installed":      "installed/libosmo-abis/0.4.0",
+    "Source":         "src/libosmo-abis/0.4.0/libosmo-abis-0.4.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.2",
+    "Installed":      "installed/libosmo-abis/0.3.2",
+    "Source":         "src/libosmo-abis/0.3.2/libosmo-abis-0.3.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.1",
+    "Installed":      "installed/libosmo-abis/0.3.1",
+    "Source":         "src/libosmo-abis/0.3.1/libosmo-abis-0.3.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.0",
+    "Installed":      "installed/libosmo-abis/0.3.0",
+    "Source":         "src/libosmo-abis/0.3.0/libosmo-abis-0.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.0",
+    "Installed":      "installed/libosmo-abis/0.2.0",
+    "Source":         "src/libosmo-abis/0.2.0/libosmo-abis-0.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.6",
+    "Installed":      "installed/libosmo-abis/0.1.6",
+    "Source":         "src/libosmo-abis/0.1.6/libosmo-abis-0.1.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

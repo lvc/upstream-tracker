@@ -1,0 +1,118 @@
+{
+  "Name":           "libosmo-netif",
+  "SourceUrl":      "https://github.com/osmocom/libosmo-netif/tags",
+  "Maintainer":     "Harald Welte",
+  "MaintainerUrl":  "https://osmocom.org/",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/libosmocore/0.12.1/lib/pkgconfig:{INSTALL_ROOT}/libosmo-abis/0.5.1/lib/pkgconfig",
+  "PreInstall":     "echo {VERSION} > .tarball-version; sed -i -e 's/SUBDIRS = include src examples tests/SUBDIRS = include src/' Makefile.am; true",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.0.5",
+
+  "Versions": [
+  {
+    "Number":         "0.7.0",
+    "Installed":      "installed/libosmo-netif/0.7.0",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.3.0",
+    "Installed":      "installed/libosmo-netif/0.3.0",
+    "Source":         "src/libosmo-netif/0.3.0/libosmo-netif-0.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.2.0",
+    "Installed":      "installed/libosmo-netif/0.2.0",
+    "Source":         "src/libosmo-netif/0.2.0/libosmo-netif-0.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.1",
+    "Installed":      "installed/libosmo-netif/0.1.1",
+    "Source":         "src/libosmo-netif/0.1.1/libosmo-netif-0.1.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.1.0",
+    "Installed":      "installed/libosmo-netif/0.1.0",
+    "Source":         "src/libosmo-netif/0.1.0/libosmo-netif-0.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.0.8",
+    "Installed":      "installed/libosmo-netif/0.0.8",
+    "Source":         "src/libosmo-netif/0.0.8/libosmo-netif-0.0.8.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.0.6.3",
+    "Installed":      "installed/libosmo-netif/0.0.6.3",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.0.6.2",
+    "Installed":      "installed/libosmo-netif/0.0.6.2",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.0.6.1",
+    "Installed":      "installed/libosmo-netif/0.0.6.1",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.0.6",
+    "Installed":      "installed/libosmo-netif/0.0.6",
+    "Source":         "src/libosmo-netif/0.0.6/libosmo-netif-0.0.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.0.5",
+    "Installed":      "installed/libosmo-netif/0.0.5",
+    "Source":         "src/libosmo-netif/0.0.5/libosmo-netif-0.0.5.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

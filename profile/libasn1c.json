@@ -1,0 +1,50 @@
+{
+  "Name":           "libasn1c",
+  "SourceUrl":      "https://github.com/osmocom/libasn1c/tags",
+  "Maintainer":     "Harald Welte",
+  "MaintainerUrl":  "https://osmocom.org/",
+  "PreInstall":     "echo {VERSION} > .tarball-version; true",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "0.9.31",
+    "Installed":      "installed/libasn1c/0.9.31",
+    "Source":         "src/libasn1c/0.9.31/libasn1c-0.9.31.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.30",
+    "Installed":      "installed/libasn1c/0.9.30",
+    "Source":         "src/libasn1c/0.9.30/libasn1c-0.9.30.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.29",
+    "Installed":      "installed/libasn1c/0.9.29",
+    "Source":         "src/libasn1c/0.9.29/libasn1c-0.9.29.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.28",
+    "Installed":      "installed/libasn1c/0.9.28",
+    "Source":         "src/libasn1c/0.9.28/libasn1c-0.9.28.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}
