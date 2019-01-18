@@ -1,9 +1,10 @@
 {
   "Name":           "libosmo-sccp",
   "SourceUrl":      "https://github.com/osmocom/libosmo-sccp/tags",
+  "Git":            "https://git.osmocom.org/libosmo-sccp",
   "Maintainer":     "Harald Welte",
   "MaintainerUrl":  "https://osmocom.org/",
-  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/libosmocore/0.12.1/lib/pkgconfig:{INSTALL_ROOT}/libosmo-netif/0.3.0/lib/pkgconfig",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/libosmocore/0.12.1/lib/pkgconfig:{INSTALL_ROOT}/libosmo-netif/0.3.0/lib/pkgconfig --with-systemdsystemunitdir={INSTALL_TO}/share",
   "PreInstall":     "echo {VERSION} > .tarball-version; sed -i -e 's/SUBDIRS = include src tests examples stp/SUBDIRS = include src/' Makefile.am; head Makefile.am",
   "HeadersDiff":    "Off",
   "MinimalVersion": "0.8.0",

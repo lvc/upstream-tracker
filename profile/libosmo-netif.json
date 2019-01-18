@@ -1,6 +1,7 @@
 {
   "Name":           "libosmo-netif",
   "SourceUrl":      "https://github.com/osmocom/libosmo-netif/tags",
+  "Git":            "https://git.osmocom.org/libosmo-netif",
   "Maintainer":     "Harald Welte",
   "MaintainerUrl":  "https://osmocom.org/",
   "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/libosmocore/0.12.1/lib/pkgconfig:{INSTALL_ROOT}/libosmo-abis/0.5.1/lib/pkgconfig",

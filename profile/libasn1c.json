@@ -1,6 +1,7 @@
 {
   "Name":           "libasn1c",
   "SourceUrl":      "https://github.com/osmocom/libasn1c/tags",
+  "Git":            "https://git.osmocom/org/libasn1c",
   "Maintainer":     "Harald Welte",
   "MaintainerUrl":  "https://osmocom.org/",
   "PreInstall":     "echo {VERSION} > .tarball-version; true",

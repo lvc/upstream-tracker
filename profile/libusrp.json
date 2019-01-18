@@ -1,6 +1,7 @@
 {
   "Name":           "libusrp",
   "SourceUrl":      "https://github.com/osmocom/libusrp/tags",
+  "Git":            "https://git.osmocom.org/libusrp",
   "Maintainer":     "Harald Welte",
   "MaintainerUrl":  "https://osmocom.org/",
   "PreInstall":     "echo {VERSION} > .tarball-version; true",

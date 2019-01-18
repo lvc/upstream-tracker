@@ -1,9 +1,10 @@
 {
   "Name":           "osmo-ggsn",
   "SourceUrl":      "https://github.com/osmocom/osmo-ggsn/tags",
+  "Git":            "https://git.osmocom.org/osmo-ggsn",
   "Maintainer":     "Harald Welte",
   "MaintainerUrl":  "https://osmocom.org/",
-  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/libosmocore/0.12.1/lib/pkgconfig",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/libosmocore/0.12.1/lib/pkgconfig --with-systemdsystemunitdir={INSTALL_TO}/share",
   "PreInstall":     "echo {VERSION} > .tarball-version; true",
   "HeadersDiff":    "Off",
 

@@ -1,10 +1,11 @@
 {
   "Name":           "osmo-hlr",
   "SourceUrl":      "https://github.com/osmocom/osmo-hlr/tags",
+  "Git":            "https://git.osmocom.org/osmo-hlr",
   "Maintainer":     "Harald Welte",
   "MaintainerUrl":  "https://osmocom.org/",
-  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/libosmocore/0.12.1/lib/pkgconfig:{INSTALL_ROOT}/libosmo-abis/0.5.1/lib/pkgconfig; sed -i -e 's/\ttests \\/\t$(NULL) \\/' Makefile.am",
-  "PreInstall":     "echo {VERSION} > .tarball-version; true",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/libosmocore/current/lib/pkgconfig:{INSTALL_ROOT}/libosmo-abis/current/lib/pkgconfig --with-systemdsystemunitdir={INSTALL_TO}/share",
+  "PreInstall":     "echo {VERSION} > .tarball-version; sed -i -e 's/\ttests \\/\t$(NULL) \\/' Makefile.am",
   "HeadersDiff":    "Off",
   "MinimalVersion": "0.3.0",
 

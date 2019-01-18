@@ -1,6 +1,7 @@
 {
   "Name":           "libosmo-abis",
   "SourceUrl":      "https://github.com/osmocom/libosmo-abis/tags",
+  "Git":            "https://git.osmocom.org/libosmo-abis",
   "Maintainer":     "Harald Welte",
   "MaintainerUrl":  "https://osmocom.org/",
   "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/libosmocore/0.12.1/lib/pkgconfig",
