@@ -3,6 +3,7 @@
   "SourceUrl":      "https://github.com/osmocom/libosmocore/tags",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
+  "PreInstall":     "echo {VERSION} > .tarball-version; true",
   "HeadersDiff":    "Off",
 
   "Versions": [
