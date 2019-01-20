@@ -1,0 +1,21 @@
+{
+  "Name":           "libusrp",
+  "SourceUrl":      "https://github.com/osmocom/libusrp/tags",
+  "Git":            "https://git.osmocom.org/libusrp",
+  "Maintainer":     "Harald Welte",
+  "MaintainerUrl":  "https://osmocom.org/",
+  "PreInstall":     "echo {VERSION} > .tarball-version; true",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "3.4.2",
+    "Installed":      "installed/libusrp/3.4.2",
+    "Source":         "src/libusrp/3.4.2/libusrp-3.4.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

@@ -1,0 +1,62 @@
+{
+  "Name":           "osmo-ggsn",
+  "SourceUrl":      "https://github.com/osmocom/osmo-ggsn/tags",
+  "Git":            "https://git.osmocom.org/osmo-ggsn",
+  "Maintainer":     "Harald Welte",
+  "MaintainerUrl":  "https://osmocom.org/",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/libosmocore/0.12.1/lib/pkgconfig --with-systemdsystemunitdir={INSTALL_TO}/share",
+  "PreInstall":     "echo {VERSION} > .tarball-version; true",
+  "HeadersDiff":    "Off",
+
+  "Versions": [
+  {
+    "Number":         "1.2.2",
+    "Installed":      "installed/osmo-ggsn/1.2.2",
+    "Source":         "src/osmo-ggsn/1.2.2/osmo-ggsn-1.2.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.1",
+    "Installed":      "installed/osmo-ggsn/1.2.1",
+    "Source":         "src/osmo-ggsn/1.2.1/osmo-ggsn-1.2.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.2.0",
+    "Installed":      "installed/osmo-ggsn/1.2.0",
+    "Source":         "src/osmo-ggsn/1.2.0/osmo-ggsn-1.2.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.1.0",
+    "Installed":      "installed/osmo-ggsn/1.1.0",
+    "Source":         "src/osmo-ggsn/1.1.0/osmo-ggsn-1.1.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.0",
+    "Installed":      "installed/osmo-ggsn/1.0.0",
+    "Source":         "src/osmo-ggsn/1.0.0/osmo-ggsn-1.0.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

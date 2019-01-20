@@ -1,0 +1,93 @@
+{
+  "Name":           "libosmo-sccp",
+  "SourceUrl":      "https://github.com/osmocom/libosmo-sccp/tags",
+  "Git":            "https://git.osmocom.org/libosmo-sccp",
+  "Maintainer":     "Harald Welte",
+  "MaintainerUrl":  "https://osmocom.org/",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/libosmocore/0.12.1/lib/pkgconfig:{INSTALL_ROOT}/libosmo-netif/0.3.0/lib/pkgconfig --with-systemdsystemunitdir={INSTALL_TO}/share",
+  "PreInstall":     "echo {VERSION} > .tarball-version; sed -i -e 's/SUBDIRS = include src tests examples stp/SUBDIRS = include src/' Makefile.am; head Makefile.am",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "0.8.0",
+
+  "Versions": [
+  {
+    "Number":         "0.10.0",
+    "Installed":      "installed/libosmo-sccp/0.10.0",
+    "Source":         "src/libosmo-sccp/0.10.0/libosmo-sccp-0.10.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.9.0",
+    "Installed":      "installed/libosmo-sccp/0.9.0",
+    "Source":         "src/libosmo-sccp/0.9.0/libosmo-sccp-0.9.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.1",
+    "Installed":      "installed/libosmo-sccp/0.8.1",
+    "Source":         "src/libosmo-sccp/0.8.1/libosmo-sccp-0.8.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.8.0",
+    "Installed":      "installed/libosmo-sccp/0.8.0",
+    "Source":         "src/libosmo-sccp/0.8.0/libosmo-sccp-0.8.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.7.0",
+    "Installed":      "installed/libosmo-sccp/0.7.0",
+    "Source":         "src/libosmo-sccp/0.7.0/libosmo-sccp-0.7.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.0.6.3",
+    "Installed":      "installed/libosmo-sccp/0.0.6.3",
+    "Source":         "src/libosmo-sccp/0.0.6.3/libosmo-sccp-0.0.6.3.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.0.6.2",
+    "Installed":      "installed/libosmo-sccp/0.0.6.2",
+    "Source":         "src/libosmo-sccp/0.0.6.2/libosmo-sccp-0.0.6.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "0.0.6.1",
+    "Installed":      "installed/libosmo-sccp/0.0.6.1",
+    "Source":         "src/libosmo-sccp/0.0.6.1/libosmo-sccp-0.0.6.1.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}

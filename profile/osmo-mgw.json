@@ -1,0 +1,43 @@
+{
+  "Name":           "osmo-mgw",
+  "SourceUrl":      "https://github.com/osmocom/osmo-mgw/tags",
+  "Git":            "https://git.osmocom.org/osmo-mgw",
+  "Maintainer":     "Harald Welte",
+  "MaintainerUrl":  "https://osmocom.org/",
+  "Configure":      "PKG_CONFIG_PATH={INSTALL_ROOT}/libosmocore/current/lib/pkgconfig:{INSTALL_ROOT}/libosmo-netif/current/lib/pkgconfig --with-systemdsystemunitdir={INSTALL_TO}/share",
+  "PreInstall":     "echo {VERSION} > .tarball-version; sed -i -e 's/\ttests /$(NULL) /' Makefile.am",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "1.3.0",
+
+  "Versions": [
+  {
+    "Number":         "1.4.0",
+    "Installed":      "installed/osmo-mgw/1.4.0",
+    "Source":         "src/osmo-mgw/1.4.0/osmo-mgw-1.4.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.3.0",
+    "Installed":      "installed/osmo-mgw/1.3.0",
+    "Source":         "src/osmo-mgw/1.3.0/osmo-mgw-1.3.0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.0.2",
+    "Installed":      "installed/osmo-mgw/1.0.2",
+    "Source":         "src/osmo-mgw/1.0.2/osmo-mgw-1.0.2.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}
