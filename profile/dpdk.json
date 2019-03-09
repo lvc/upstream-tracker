@@ -1,0 +1,375 @@
+{
+  "Name":           "DPDK",
+  "Title":          "Data plane Development Kit",
+  "SourceUrl":      "https://fast.dpdk.org/rel",
+  "Maintainer":     "Ray Kinsella",
+  "MaintainerUrl":  "ashroe.eu",
+  "BuildScript":    "build_script/dpdk.sh",
+  "SkipObjects":    ["librte_common_octeontx.so.*","librte_common_cpt.so","librte_bus_dpaa.so.*","librte_mempool_bucket.so.*","librte_mempool_dpaa.so.*","librte_mempool_octeontx.so.*","librte_mempool_ring.so.*","librte_mempool_stack.so.*","librte_pmd_af_packet.so.*","librte_pmd_ark.*","librte_pmd_atlantic.so.*","librte_pmd_avf.so.*","librte_pmd_avp.so.*","librte_pmd_axgbe.so.*","librte_pmd_bbdev_null.so.*","librte_pmd_caam_jr.so.*","librte_pmd_cxgbe.so.*","librte_pmd_dpaa_event.so.*","librte_pmd_dpaa_sec.so.*","librte_pmd_dsw_event.so.*","librte_pmd_e1000.so.*","librte_pmd_ena.so.*","librte_pmd_enetc.so.*","librte_pmd_enic.so.*","librte_pmd_failsafe.so.*","librte_pmd_fm10k.so.*","librte_pmd_ice.so.*","librte_pmd_ifpga_rawdev.so.*","librte_pmd_kni.so.*","librte_pmd_lio.so.*","librte_pmd_netvsc.so.*","librte_pmd_nfp.so.*","librte_pmd_null_crypto.so.*","librte_pmd_null.so.*","librte_pmd_octeontx_crypto.so.*","librte_pmd_octeontx.so.*","librte_pmd_octeontx_ssovf.so.*","librte_pmd_octeontx_zip.*","librte_pmd_opdl_event.*","librte_pmd_qat.*","librte_pmd_qede.*","librte_pmd_sfc_efx.so.*","librte_pmd_skeleton_event.so.*","librte_pmd_skeleton_rawdev.so.*","librte_pmd_sw_event.so.*","librte_pmd_tap.so.*","librte_pmd_thunderx_nicvf.so.*","librte_pmd_vdev_netvsc.so.*","librte_pmd_virtio_crypto.so.*","librte_pmd_virtio.so.*","librte_pmd_vmxnet3_uio.so.*"],
+  "SkipVersions":   [ ".*\..*\..*"],
+  "GraphShortXTics":"Off",
+  "HeadersDiff":    "Off",
+  "MinimalVersion": "16.04",
+
+  "Versions": [
+  {
+    "Number":         "19.02",
+    "Installed":      "installed/DPDK/19.02",
+    "Source":         "src/DPDK/19.02/dpdk-19.02.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "18.11",
+    "Installed":      "installed/DPDK/18.11",
+    "Source":         "src/DPDK/18.11/dpdk-18.11.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "18.08",
+    "Installed":      "installed/DPDK/18.08",
+    "Source":         "src/DPDK/18.08/dpdk-18.08.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "18.05.1",
+    "Installed":      "installed/DPDK/18.05.1",
+    "Source":         "src/DPDK/18.05.1/dpdk-18.05.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "18.05",
+    "Installed":      "installed/DPDK/18.05",
+    "Source":         "src/DPDK/18.05/dpdk-18.05.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "18.02.2",
+    "Installed":      "installed/DPDK/18.02.2",
+    "Source":         "src/DPDK/18.02.2/dpdk-18.02.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "18.02.1",
+    "Installed":      "installed/DPDK/18.02.1",
+    "Source":         "src/DPDK/18.02.1/dpdk-18.02.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "18.02",
+    "Installed":      "installed/DPDK/18.02",
+    "Source":         "src/DPDK/18.02/dpdk-18.02.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "17.11.5",
+    "Installed":      "installed/DPDK/17.11.5",
+    "Source":         "src/DPDK/17.11.5/dpdk-17.11.5.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "17.11.4",
+    "Installed":      "installed/DPDK/17.11.4",
+    "Source":         "src/DPDK/17.11.4/dpdk-17.11.4.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "17.11.3",
+    "Installed":      "installed/DPDK/17.11.3",
+    "Source":         "src/DPDK/17.11.3/dpdk-17.11.3.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "17.11.2",
+    "Installed":      "installed/DPDK/17.11.2",
+    "Source":         "src/DPDK/17.11.2/dpdk-17.11.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "17.11.1",
+    "Installed":      "installed/DPDK/17.11.1",
+    "Source":         "src/DPDK/17.11.1/dpdk-17.11.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "17.11",
+    "Installed":      "installed/DPDK/17.11",
+    "Source":         "src/DPDK/17.11/dpdk-17.11.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "17.08.2",
+    "Installed":      "installed/DPDK/17.08.2",
+    "Source":         "src/DPDK/17.08.2/dpdk-17.08.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "17.08.1",
+    "Installed":      "installed/DPDK/17.08.1",
+    "Source":         "src/DPDK/17.08.1/dpdk-17.08.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "17.08",
+    "Installed":      "installed/DPDK/17.08",
+    "Source":         "src/DPDK/17.08/dpdk-17.08.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "17.05.2",
+    "Installed":      "installed/DPDK/17.05.2",
+    "Source":         "src/DPDK/17.05.2/dpdk-17.05.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "17.05.1",
+    "Installed":      "installed/DPDK/17.05.1",
+    "Source":         "src/DPDK/17.05.1/dpdk-17.05.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "17.05",
+    "Installed":      "installed/DPDK/17.05",
+    "Source":         "src/DPDK/17.05/dpdk-17.05.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "17.02.1",
+    "Installed":      "installed/DPDK/17.02.1",
+    "Source":         "src/DPDK/17.02.1/dpdk-17.02.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "17.02",
+    "Installed":      "installed/DPDK/17.02",
+    "Source":         "src/DPDK/17.02/dpdk-17.02.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "16.11.8",
+    "Installed":      "installed/DPDK/16.11.8",
+    "Source":         "src/DPDK/16.11.8/dpdk-16.11.8.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "16.11.7",
+    "Installed":      "installed/DPDK/16.11.7",
+    "Source":         "src/DPDK/16.11.7/dpdk-16.11.7.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "16.11.6",
+    "Installed":      "installed/DPDK/16.11.6",
+    "Source":         "src/DPDK/16.11.6/dpdk-16.11.6.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "16.11.5",
+    "Installed":      "installed/DPDK/16.11.5",
+    "Source":         "src/DPDK/16.11.5/dpdk-16.11.5.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "16.11.4",
+    "Installed":      "installed/DPDK/16.11.4",
+    "Source":         "src/DPDK/16.11.4/dpdk-16.11.4.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "16.11.3",
+    "Installed":      "installed/DPDK/16.11.3",
+    "Source":         "src/DPDK/16.11.3/dpdk-16.11.3.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "16.11.2",
+    "Installed":      "installed/DPDK/16.11.2",
+    "Source":         "src/DPDK/16.11.2/dpdk-16.11.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "16.11.1",
+    "Installed":      "installed/DPDK/16.11.1",
+    "Source":         "src/DPDK/16.11.1/dpdk-16.11.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "16.11",
+    "Installed":      "installed/DPDK/16.11",
+    "Source":         "src/DPDK/16.11/dpdk-16.11.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "16.07.2",
+    "Installed":      "installed/DPDK/16.07.2",
+    "Source":         "src/DPDK/16.07.2/dpdk-16.07.2.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "16.07.1",
+    "Installed":      "installed/DPDK/16.07.1",
+    "Source":         "src/DPDK/16.07.1/dpdk-16.07.1.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "16.07",
+    "Installed":      "installed/DPDK/16.07",
+    "Source":         "src/DPDK/16.07/dpdk-16.07.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "16.04",
+    "Installed":      "installed/DPDK/16.04",
+    "Source":         "src/DPDK/16.04/dpdk-16.04.tar.xz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "16_04",
+    "Installed":      "installed/dpdk/16_04",
+    "Source":         "src/boost/1_66_0/boost_1_66_0.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  }]
+}
