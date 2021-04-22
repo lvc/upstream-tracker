@@ -4,7 +4,7 @@
   "SourceUrl":      "https://github.com/OGRECave/ogre/tags",
   "Maintainer":     "Andrey P.",
   "MaintainerUrl":  "http://abi-laboratory.pro/",
-  "Configure":      "-DOGRE_INSTALL_DOCS=OFF -DOGRE_INSTALL_SAMPLES=OFF -DOGRE_INSTALL_TOOLS=OFF -DOGRE_BUILD_TOOLS=OFF -DOGRE_BUILD_SAMPLES=OFF -DOGRE_BUILD_COMPONENT_PYTHON=OFF -DFREETYPE_INCLUDE_DIR={INSTALL_ROOT}/freetype/2.7.1/include/ -DOGRE_CONFIG_CONTAINERS_USE_CUSTOM_ALLOCATOR=ON -DOGRE_BUILD_PLUGIN_BSP=OFF -DOGRE_BUILD_PLUGIN_EXRCODEC=OFF -DOGRE_BUILD_PLUGIN_OCTREE=OFF -DOGRE_BUILD_PLUGIN_PCZ=OFF -DOGRE_BUILD_PLUGIN_PFX=OFF -DOGRE_USE_STD11=OFF",
+  "Configure":      "-DOGRE_INSTALL_DOCS=OFF -DOGRE_INSTALL_SAMPLES=OFF -DOGRE_INSTALL_TOOLS=OFF -DOGRE_BUILD_TOOLS=OFF -DOGRE_BUILD_SAMPLES=OFF -DOGRE_BUILD_COMPONENT_PYTHON=OFF -DOGRE_BUILD_COMPONENT_JAVA=OFF -DOGRE_BUILD_COMPONENT_CSHARP=OFF -DFREETYPE_INCLUDE_DIR={INSTALL_ROOT}/freetype/2.7.1/include/ -DOGRE_CONFIG_CONTAINERS_USE_CUSTOM_ALLOCATOR=OFF -DOGRE_BUILD_PLUGIN_BSP=OFF -DOGRE_BUILD_PLUGIN_EXRCODEC=OFF -DOGRE_BUILD_PLUGIN_OCTREE=OFF -DOGRE_BUILD_PLUGIN_PCZ=OFF -DOGRE_BUILD_PLUGIN_PFX=OFF -DOGRE_USE_STD11=ON",
   "PostInstall":    "rm -fr {INSTALL_TO}/lib/OGRE/",
   "HeadersDiff":    "Off",
   "LatestMicro":    "On",
@@ -14,9 +14,29 @@
 
   "Versions": [
   {
-    "Number":         "1.10.11",
-    "Installed":      "installed/ogre/1.10.11",
-    "Source":         "src/ogre/1.10.11/ogre-1.10.11.tar.gz",
+    "Number":         "1.12.12",
+    "Installed":      "installed/ogre/1.12.12",
+    "Source":         "src/ogre/1.12.12/ogre-1.12.12.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.11.6",
+    "Installed":      "installed/ogre/1.11.6",
+    "Source":         "src/ogre/1.11.6/ogre-1.11.6.tar.gz",
+    "Changelog":      "Off",
+    "HeadersDiff":    "Off",
+    "PkgDiff":        "Off",
+    "ABIView":        "Off",
+    "ABIDiff":        "Off"
+  },
+  {
+    "Number":         "1.10.12",
+    "Installed":      "installed/ogre/1.10.12",
+    "Source":         "src/ogre/1.10.12/ogre-1.10.12.tar.gz",
     "Changelog":      "Off",
     "HeadersDiff":    "Off",
     "PkgDiff":        "Off",
